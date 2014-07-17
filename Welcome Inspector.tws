@@ -1,11 +1,11 @@
 (dp0
 S'buildDestination'
 p1
-VC:\u005cUsers\u005cJoshua\u005cDesktop\u005ctest2.html
+VC:\u005cUsers\u005cJoshua\u005cDesktop\u005cWelcome Inspector.html
 p2
 sS'saveDestination'
 p3
-VC:\u005cUsers\u005cJoshua\u005cDesktop\u005ctest2.tws
+S'C:\\Users\\Joshua\\Desktop\\Welcome Inspector.tws'
 p4
 sS'metadata'
 p5
@@ -135,8 +135,8 @@ g14
 I00
 sg15
 (lp54
-F283.0
-aF522.0
+F164.0
+aF288.0
 asg17
 (itiddlywiki
 Tiddler
@@ -185,29 +185,29 @@ g14
 I00
 sg15
 (lp69
-F409.0
-aF20.0
+F343.0
+aF8.0
 asg17
 (itiddlywiki
 Tiddler
 p70
 (dp71
 g21
-VDay 1 start\u000a[[end of day]]
+VDate: 10/<<print 18+$day>>/47\u000a\u000a<<nobr>>\u000a<<if $day < 3>>\u000a<<print 4-$day>> DAYS REMAINING UNTIL ANTICIPATED ATTACK\u000a<<else>>\u000a1 DAY REMAINING UNTIL ANTICIPATED ATTACK\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[Interact with Suspect 001.|Kader main hub]]\u000a\u000a[[Interact with Suspect 002.|Valerie main hub]]\u000a\u000a[[Interact with Suspect 003.|Zora main hub]]\u000a\u000a<<nobr>>\u000a<<if $day neq 3>>\u000a[[Log out for the day.|end of day]]\u000a<<else>>\u000a[[Submit your final report.|submit report]]\u000a<<endif>>\u000a<<endnobr>>
 p72
 sg23
-Vday 1 start
+Vmain hub
 p73
 sg25
 g26
 ((I2014
 I7
+I17
+I15
 I16
-I13
-I59
-I29
-I2
-I197
+I37
+I3
+I198
 I1
 tp74
 (dp75
@@ -235,29 +235,29 @@ g14
 I00
 sg15
 (lp84
-F404.0
-aF157.0
+F10.0
+aF13.0
 asg17
 (itiddlywiki
 Tiddler
 p85
 (dp86
 g21
-V[[Start of day 2.|end of day]]
+VWelcome, Inspector.\u000a\u000aPlease click [[here|briefing]] for a briefing on the investigation.\u000a\u000aPlease click [[here|main hub]] to begin the investigation.\u000a\u000a<<nobr>>\u000a<<set $day to 3>>\u000a<<set $kaderTorture to 0>>\u000a<<set $valerieTorture to 0>>\u000a<<set $zoraTorture to 0>>\u000a<<set $submittedWho to 0>>\u000a<<set $submittedWhere to 0>>\u000a<<set $submittedWhen to 0>>\u000a<<set $submittedHow to 0>>\u000a<<endnobr>>
 p87
 sg23
-Vday 2 start
+VStart
 p88
 sg25
 g26
 ((I2014
 I7
-I16
-I14
-I53
-I51
-I2
-I197
+I17
+I15
+I19
+I20
+I3
+I198
 I1
 tp89
 (dp90
@@ -270,9 +270,9 @@ g26
 ((I2014
 I7
 I16
-I13
-I59
-I49
+I14
+I8
+I35
 I2
 I197
 I1
@@ -285,29 +285,29 @@ g14
 I00
 sg15
 (lp99
-F10.0
-aF17.0
+F171.0
+aF146.0
 asg17
 (itiddlywiki
 Tiddler
 p100
 (dp101
 g21
-V[[Welcome, inspector.|start of day]]\u000a<<nobr>>\u000a<<set $day to 1>>\u000a<<endnobr>>
+VWelcome back, Inspector.\u000a\u000aPlease click [[here|main hub]] to continue the investigation.
 p102
 sg23
-VStart
+Vstart day 2 or 3
 p103
 sg25
 g26
 ((I2014
 I7
-I16
+I17
 I14
-I54
 I41
-I2
-I197
+I55
+I3
+I198
 I1
 tp104
 (dp105
@@ -321,8 +321,8 @@ g26
 I7
 I16
 I14
-I8
-I35
+I10
+I19
 I2
 I197
 I1
@@ -335,27 +335,27 @@ g14
 I00
 sg15
 (lp114
-F225.0
-aF164.0
+F12.0
+aF424.0
 asg17
 (itiddlywiki
 Tiddler
 p115
 (dp116
 g21
-VWelcome back, inspector.\u000a<<nobr>>\u000a<<if $day is 2>>[[It's day 2!|day 2 start]]<<endif>>\u000a<<if $day is 3>>[[It's day 3!|day 3 start]]<<endif>>\u000a<<endnobr>>
+VSUMMARY: The Bureau of Economic Assessment and Rehabilitation has detained 3 suspect(s) for questioning regarding anticipated terrorist attacks.\u000a\u000aREASON: In recent weeks, the New Collective terrorist organization has dramatically increased the rate of sabotage attempts and cyberattacks. The individuals detained here are under suspicion of participation or collaboration with the terrorists.\u000a\u000aOBJECTIVE: We have received intelligence that another attack will take place in 3 days, on 10/22/47. In order to prevent this, we must know the key person behind the attack, when and where it will take place, and the intended method of attack. \u000a\u000aYou will submit a report no later than 11:59 PM on 10/21/47 including each of these details. \u000a\u000aIn your report, you may also recommend 1-3 suspects to be detained permanently. As you know, Bureau regulations and national security considerations preclude the release of all detainees.\u000a\u000a[[Back|Start]]
 p117
 sg23
-Vstart day 2 or 3
+Vbriefing
 p118
 sg25
 g26
 ((I2014
 I7
 I16
-I14
-I56
-I34
+I15
+I57
+I48
 I2
 I197
 I1
@@ -370,9 +370,9 @@ g26
 ((I2014
 I7
 I16
-I14
-I10
-I19
+I15
+I43
+I25
 I2
 I197
 I1
@@ -385,29 +385,29 @@ g14
 I00
 sg15
 (lp129
-F409.0
-aF289.0
+F462.0
+aF503.0
 asg17
 (itiddlywiki
 Tiddler
 p130
 (dp131
 g21
-V[[Start of day 3.|end of day]]
+VSUSPECT 002\u000a\u000a[[Check suspect's profile.|Valerie profile]]\u000a\u000a[[Check conversation notes.|Valerie notes]]\u000a\u000a[[Interact with suspect.|Valerie interaction hub]]\u000a\u000a[[Back|main hub]]
 p132
 sg23
-Vday 3 start
+VValerie main hub
 p133
 sg25
 g26
 ((I2014
 I7
-I16
+I17
 I14
-I54
-I0
-I2
-I197
+I52
+I33
+I3
+I198
 I1
 tp134
 (dp135
@@ -419,12 +419,12 @@ sg33
 g26
 ((I2014
 I7
-I16
+I17
 I14
-I53
-I31
-I2
-I197
+I39
+I20
+I3
+I198
 I1
 tp139
 (dp140
@@ -435,29 +435,29 @@ g14
 I00
 sg15
 (lp144
-F229.0
-aF19.0
+F476.0
+aF908.0
 asg17
 (itiddlywiki
 Tiddler
 p145
 (dp146
 g21
-V[[Start of day <<print $day>>.|day 1 start]]
+VSUSPECT 003\u000a\u000a[[Check suspect's profile.|Zora profile]]\u000a\u000a[[Check conversation notes.|Zora notes]]\u000a\u000a[[Interact with suspect.|Zora interaction hub]]\u000a\u000a[[Back|main hub]]
 p147
 sg23
-Vstart of day
+VZora main hub
 p148
 sg25
 g26
 ((I2014
 I7
+I17
+I14
+I53
 I16
-I14
-I57
-I14
-I2
-I197
+I3
+I198
 I1
 tp149
 (dp150
@@ -469,21 +469,732 @@ sg33
 g26
 ((I2014
 I7
-I16
+I17
 I14
-I55
-I19
-I2
-I197
+I39
+I20
+I3
+I198
 I1
 tp154
 (dp155
 tp156
 Rp157
+sbsa(dp158
+g14
+I00
+sg15
+(lp159
+F467.0
+aF151.0
+asg17
+(itiddlywiki
+Tiddler
+p160
+(dp161
+g21
+VSUSPECT 001\u000a\u000a[[Check suspect's profile.|Kader profile]]\u000a\u000a[[Check conversation notes.|Kader notes]]\u000a\u000a[[Interact with suspect.|Kader interaction hub]]\u000a\u000a[[Back|main hub]]
+p162
+sg23
+VKader main hub
+p163
+sg25
+g26
+((I2014
+I7
+I17
+I14
+I51
+I33
+I3
+I198
+I1
+tp164
+(dp165
+tp166
+Rp167
+sg31
+(lp168
+sg33
+g26
+((I2014
+I7
+I17
+I14
+I39
+I20
+I3
+I198
+I1
+tp169
+(dp170
+tp171
+Rp172
+sbsa(dp173
+g14
+I00
+sg15
+(lp174
+F636.0
+aF143.0
+asg17
+(itiddlywiki
+Tiddler
+p175
+(dp176
+g21
+V
+p177
+sg23
+VKader notes
+p178
+sg25
+g26
+((I2014
+I7
+I17
+I14
+I51
+I37
+I3
+I198
+I1
+tp179
+(dp180
+tp181
+Rp182
+sg31
+(lp183
+sg33
+g182
+sbsa(dp184
+g14
+I00
+sg15
+(lp185
+F634.0
+aF12.0
+asg17
+(itiddlywiki
+Tiddler
+p186
+(dp187
+g21
+g177
+sg23
+VKader profile
+p188
+sg25
+g26
+((I2014
+I7
+I17
+I14
+I51
+I37
+I3
+I198
+I1
+tp189
+(dp190
+tp191
+Rp192
+sg31
+(lp193
+sg33
+g192
+sbsa(dp194
+g14
+I00
+sg15
+(lp195
+F637.0
+aF274.0
+asg17
+(itiddlywiki
+Tiddler
+p196
+(dp197
+g21
+g177
+sg23
+VKader interaction hub
+p198
+sg25
+g26
+((I2014
+I7
+I17
+I14
+I51
+I37
+I3
+I198
+I1
+tp199
+(dp200
+tp201
+Rp202
+sg31
+(lp203
+sg33
+g202
+sbsa(dp204
+g14
+I00
+sg15
+(lp205
+F663.0
+aF562.0
+asg17
+(itiddlywiki
+Tiddler
+p206
+(dp207
+g21
+g177
+sg23
+VValerie notes
+p208
+sg25
+g26
+((I2014
+I7
+I17
+I14
+I52
+I36
+I3
+I198
+I1
+tp209
+(dp210
+tp211
+Rp212
+sg31
+(lp213
+sg33
+g212
+sbsa(dp214
+g14
+I00
+sg15
+(lp215
+F664.0
+aF698.0
+asg17
+(itiddlywiki
+Tiddler
+p216
+(dp217
+g21
+g177
+sg23
+VValerie interaction hub
+p218
+sg25
+g26
+((I2014
+I7
+I17
+I14
+I52
+I36
+I3
+I198
+I1
+tp219
+(dp220
+tp221
+Rp222
+sg31
+(lp223
+sg33
+g222
+sbsa(dp224
+g14
+I00
+sg15
+(lp225
+F664.0
+aF431.0
+asg17
+(itiddlywiki
+Tiddler
+p226
+(dp227
+g21
+g177
+sg23
+VValerie profile
+p228
+sg25
+g26
+((I2014
+I7
+I17
+I14
+I52
+I36
+I3
+I198
+I1
+tp229
+(dp230
+tp231
+Rp232
+sg31
+(lp233
+sg33
+g232
+sbsa(dp234
+g14
+I00
+sg15
+(lp235
+F612.0
+aF831.0
+asg17
+(itiddlywiki
+Tiddler
+p236
+(dp237
+g21
+g177
+sg23
+VZora profile
+p238
+sg25
+g26
+((I2014
+I7
+I17
+I14
+I53
+I18
+I3
+I198
+I1
+tp239
+(dp240
+tp241
+Rp242
+sg31
+(lp243
+sg33
+g242
+sbsa(dp244
+g14
+I00
+sg15
+(lp245
+F613.0
+aF1086.0
+asg17
+(itiddlywiki
+Tiddler
+p246
+(dp247
+g21
+g177
+sg23
+VZora interaction hub
+p248
+sg25
+g26
+((I2014
+I7
+I17
+I14
+I53
+I18
+I3
+I198
+I1
+tp249
+(dp250
+tp251
+Rp252
+sg31
+(lp253
+sg33
+g252
+sbsa(dp254
+g14
+I00
+sg15
+(lp255
+F611.0
+aF959.0
+asg17
+(itiddlywiki
+Tiddler
+p256
+(dp257
+g21
+g177
+sg23
+VZora notes
+p258
+sg25
+g26
+((I2014
+I7
+I17
+I14
+I53
+I18
+I3
+I198
+I1
+tp259
+(dp260
+tp261
+Rp262
+sg31
+(lp263
+sg33
+g262
+sbsa(dp264
+g14
+I00
+sg15
+(lp265
+F284.0
+aF740.0
+asg17
+(itiddlywiki
+Tiddler
+p266
+(dp267
+g21
+VAccording to your investigations, who will be the key person in the attack?\u000a\u000a[[(choice 1)|submit report where][$submittedWho = 1]]\u000a[[(choice 2)|submit report where][$submittedWho = 2]]\u000a[[(choice 3)|submit report where][$submittedWho = 3]]\u000a[[(choice 4)|submit report where][$submittedWho = 4]]\u000a
+p268
+sg23
+Vsubmit report who
+p269
+sg25
+g26
+((I2014
+I7
+I17
+I15
+I21
+I5
+I3
+I198
+I1
+tp270
+(dp271
+tp272
+Rp273
+sg31
+(lp274
+sg33
+g26
+((I2014
+I7
+I17
+I15
+I2
+I32
+I3
+I198
+I1
+tp275
+(dp276
+tp277
+Rp278
+sbsa(dp279
+g14
+I00
+sg15
+(lp280
+F286.0
+aF884.0
+asg17
+(itiddlywiki
+Tiddler
+p281
+(dp282
+g21
+VAccording to your investigations, where will the attack take place?\u000a\u000a[[(choice 1)|submit report when][$submittedWhere = 1]]\u000a[[(choice 2)|submit report when][$submittedWhere = 2]]\u000a[[(choice 3)|submit report when][$submittedWhere = 3]]\u000a[[(choice 4)|submit report when][$submittedWhere = 4]]\u000a
+p283
+sg23
+Vsubmit report where
+p284
+sg25
+g26
+((I2014
+I7
+I17
+I15
+I21
+I13
+I3
+I198
+I1
+tp285
+(dp286
+tp287
+Rp288
+sg31
+(lp289
+sg33
+g26
+((I2014
+I7
+I17
+I15
+I13
+I6
+I3
+I198
+I1
+tp290
+(dp291
+tp292
+Rp293
+sbsa(dp294
+g14
+I00
+sg15
+(lp295
+F288.0
+aF599.0
+asg17
+(itiddlywiki
+Tiddler
+p296
+(dp297
+g21
+VAre you ready to submit your final report?\u000a\u000a[[Yes.|submit report who]]\u000a\u000a[[No.|main hub]]
+p298
+sg23
+Vsubmit report
+p299
+sg25
+g26
+((I2014
+I7
+I17
+I15
+I15
+I2
+I3
+I198
+I1
+tp300
+(dp301
+tp302
+Rp303
+sg31
+(lp304
+sg33
+g26
+((I2014
+I7
+I17
+I15
+I14
+I23
+I3
+I198
+I1
+tp305
+(dp306
+tp307
+Rp308
+sbsa(dp309
+g14
+I00
+sg15
+(lp310
+F284.0
+aF1029.0
+asg17
+(itiddlywiki
+Tiddler
+p311
+(dp312
+g21
+VAccording to your investigations, when will the attack take place?\u000a\u000a[[(choice 1)|submit report how][$submittedWhen = 1]]\u000a[[(choice 2)|submit report how][$submittedWhen = 2]]\u000a[[(choice 3)|submit report how][$submittedWhen = 3]]\u000a[[(choice 4)|submit report how][$submittedWhen = 4]]\u000a
+p313
+sg23
+Vsubmit report when
+p314
+sg25
+g26
+((I2014
+I7
+I17
+I15
+I35
+I19
+I3
+I198
+I1
+tp315
+(dp316
+tp317
+Rp318
+sg31
+(lp319
+sg33
+g26
+((I2014
+I7
+I17
+I15
+I21
+I17
+I3
+I198
+I1
+tp320
+(dp321
+tp322
+Rp323
+sbsa(dp324
+g14
+I00
+sg15
+(lp325
+F289.0
+aF1172.0
+asg17
+(itiddlywiki
+Tiddler
+p326
+(dp327
+g21
+VAccording to your investigations, what will be the method of attack?\u000a\u000a[[(choice 1)|final report][$submittedHow = 1]]\u000a[[(choice 2)|final report][$submittedHow = 2]]\u000a[[(choice 3)|final report][$submittedHow = 3]]\u000a[[(choice 4)|final report][$submittedHow = 4]]
+p328
+sg23
+Vsubmit report how
+p329
+sg25
+g26
+((I2014
+I7
+I17
+I15
+I34
+I59
+I3
+I198
+I1
+tp330
+(dp331
+tp332
+Rp333
+sg31
+(lp334
+sg33
+g26
+((I2014
+I7
+I17
+I15
+I21
+I54
+I3
+I198
+I1
+tp335
+(dp336
+tp337
+Rp338
+sbsa(dp339
+g14
+I00
+sg15
+(lp340
+F288.0
+aF1313.0
+asg17
+(itiddlywiki
+Tiddler
+p341
+(dp342
+g21
+VThe following information will be submitted to the Bureau:\u000a\u000aKey person: <<print $submittedWho>>\u000aTarget location: <<print $submittedWhere>>\u000aTime of attack: <<print $submittedWhen>>\u000aMethod of attack: <<print $submittedHow>>\u000a\u000a[[Fill out the report again.|submit report who]]\u000a\u000a[[Submit report.|end 1]] By doing this, you verify that all information contained within this report is true, to the best of your knowledge. You agree to indefinite arrest should your report involve willing falsification of sensitive information.
+p343
+sg23
+Vfinal report
+p344
+sg25
+g26
+((I2014
+I7
+I17
+I15
+I34
+I37
+I3
+I198
+I1
+tp345
+(dp346
+tp347
+Rp348
+sg31
+(lp349
+sg33
+g26
+((I2014
+I7
+I17
+I15
+I22
+I45
+I3
+I198
+I1
+tp350
+(dp351
+tp352
+Rp353
+sbsa(dp354
+g14
+I00
+sg15
+(lp355
+F285.0
+aF1463.0
+asg17
+(itiddlywiki
+Tiddler
+p356
+(dp357
+g21
+g177
+sg23
+Vend 1
+p358
+sg25
+g26
+((I2014
+I7
+I17
+I15
+I33
+I3
+I3
+I198
+I1
+tp359
+(dp360
+tp361
+Rp362
+sg31
+(lp363
+sg33
+g362
 sbsasS'scale'
-p158
+p364
 I1
 sS'snapping'
-p159
+p365
 I00
 ss.
