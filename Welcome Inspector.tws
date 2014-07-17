@@ -5,68 +5,65 @@ VC:\u005cUsers\u005cJoshua\u005cDesktop\u005ctest2.html
 p2
 sS'saveDestination'
 p3
-VC:\u005cUsers\u005cJoshua\u005cDesktop\u005ctest2.tws
+VC:\u005cUsers\u005cServitude\u005cDocuments\u005cGitHub\u005cWISP\u005cWelcome Inspector.tws
 p4
-sS'metadata'
-p5
-(dp6
 sS'target'
-p7
+p5
 S'sugarcane'
-p8
+p6
 sS'storyPanel'
-p9
-(dp10
+p7
+(dp8
 S'widgets'
-p11
-(lp12
-(dp13
+p9
+(lp10
+(dp11
 S'selected'
-p14
+p12
 I00
 sS'pos'
-p15
-(lp16
+p13
+(lp14
 I10
 aI150
 asS'passage'
-p17
+p15
 (itiddlywiki
 Tiddler
-p18
-(dp20
+p16
+(dp18
 S'text'
-p21
-VWelcome, Inspector
-p22
+p19
+V
+p20
 sS'title'
-p23
+p21
 VStoryTitle
-p24
+p22
 sS'modified'
-p25
+p23
 ctime
 struct_time
-p26
+p24
 ((I2014
 I7
-I16
-I14
-I30
-I13
-I2
-I197
+I17
+I12
+I0
+I37
+I3
+I198
 I1
+tp25
+(dp26
 tp27
-(dp28
-tp29
-Rp30
+Rp28
 sS'tags'
-p31
-(lp32
+p29
+(lp30
 sS'created'
-p33
-g26
+p31
+g24
 ((I2014
 I7
 I16
@@ -76,47 +73,49 @@ I23
 I2
 I197
 I1
+tp32
+(dp33
 tp34
-(dp35
-tp36
-Rp37
-sbsa(dp38
-g14
+Rp35
+sbsa(dp36
+g12
 I00
-sg15
-(lp39
+sg13
+(lp37
 I10
 aI290
-asg17
+asg15
 (itiddlywiki
 Tiddler
+p38
+(dp39
+g19
+VB.E.A.R
 p40
-(dp41
-g21
-VPierre Depaz and Josh Raab
-p42
-sg23
+sg21
 VStoryAuthor
-p43
-sg25
-g26
+p41
+sg23
+g24
 ((I2014
 I7
-I16
-I14
-I30
-I7
-I2
-I197
+I17
+I13
+I39
+I31
+I3
+I198
 I1
+tp42
+(dp43
 tp44
-(dp45
-tp46
-Rp47
-sg31
-(lp48
-sg33
-g26
+Rp45
+sg29
+(lp46
+Vauthors
+p47
+asg31
+g24
 ((I2014
 I7
 I16
@@ -126,30 +125,30 @@ I23
 I2
 I197
 I1
-tp49
-(dp50
-tp51
-Rp52
-sbsa(dp53
-g14
+tp48
+(dp49
+tp50
+Rp51
+sbsa(dp52
+g12
 I00
-sg15
-(lp54
+sg13
+(lp53
 F283.0
 aF522.0
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p55
-(dp56
-g21
+p54
+(dp55
+g19
 V[[(end of day)|start day 2 or 3]]\u000a<<nobr>>\u000a<<set $day += 1>>\u000a<<endnobr>>
+p56
+sg21
+Vend of day
 p57
 sg23
-Vend of day
-p58
-sg25
-g26
+g24
 ((I2014
 I7
 I16
@@ -159,14 +158,14 @@ I32
 I2
 I197
 I1
-tp59
-(dp60
-tp61
-Rp62
+tp58
+(dp59
+tp60
+Rp61
+sg29
+(lp62
 sg31
-(lp63
-sg33
-g26
+g24
 ((I2014
 I7
 I16
@@ -176,30 +175,30 @@ I51
 I2
 I197
 I1
-tp64
-(dp65
-tp66
-Rp67
-sbsa(dp68
-g14
+tp63
+(dp64
+tp65
+Rp66
+sbsa(dp67
+g12
 I00
-sg15
-(lp69
+sg13
+(lp68
 F409.0
 aF20.0
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p70
-(dp71
-g21
+p69
+(dp70
+g19
 VDay 1 start\u000a[[end of day]]
+p71
+sg21
+Vday 1 start
 p72
 sg23
-Vday 1 start
-p73
-sg25
-g26
+g24
 ((I2014
 I7
 I16
@@ -209,14 +208,14 @@ I29
 I2
 I197
 I1
-tp74
-(dp75
-tp76
-Rp77
+tp73
+(dp74
+tp75
+Rp76
+sg29
+(lp77
 sg31
-(lp78
-sg33
-g26
+g24
 ((I2014
 I7
 I16
@@ -226,30 +225,30 @@ I5
 I2
 I197
 I1
-tp79
-(dp80
-tp81
-Rp82
-sbsa(dp83
-g14
+tp78
+(dp79
+tp80
+Rp81
+sbsa(dp82
+g12
 I00
-sg15
-(lp84
+sg13
+(lp83
 F404.0
 aF157.0
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p85
-(dp86
-g21
+p84
+(dp85
+g19
 V[[Start of day 2.|end of day]]
+p86
+sg21
+Vday 2 start
 p87
 sg23
-Vday 2 start
-p88
-sg25
-g26
+g24
 ((I2014
 I7
 I16
@@ -259,14 +258,14 @@ I51
 I2
 I197
 I1
-tp89
-(dp90
-tp91
-Rp92
+tp88
+(dp89
+tp90
+Rp91
+sg29
+(lp92
 sg31
-(lp93
-sg33
-g26
+g24
 ((I2014
 I7
 I16
@@ -276,30 +275,30 @@ I49
 I2
 I197
 I1
-tp94
-(dp95
-tp96
-Rp97
-sbsa(dp98
-g14
+tp93
+(dp94
+tp95
+Rp96
+sbsa(dp97
+g12
 I00
-sg15
-(lp99
+sg13
+(lp98
 F10.0
 aF17.0
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p100
-(dp101
-g21
+p99
+(dp100
+g19
 V[[Welcome, inspector.|start of day]]\u000a<<nobr>>\u000a<<set $day to 1>>\u000a<<endnobr>>
+p101
+sg21
+VStart
 p102
 sg23
-VStart
-p103
-sg25
-g26
+g24
 ((I2014
 I7
 I16
@@ -309,14 +308,14 @@ I41
 I2
 I197
 I1
-tp104
-(dp105
-tp106
-Rp107
+tp103
+(dp104
+tp105
+Rp106
+sg29
+(lp107
 sg31
-(lp108
-sg33
-g26
+g24
 ((I2014
 I7
 I16
@@ -326,30 +325,30 @@ I35
 I2
 I197
 I1
-tp109
-(dp110
-tp111
-Rp112
-sbsa(dp113
-g14
+tp108
+(dp109
+tp110
+Rp111
+sbsa(dp112
+g12
 I00
-sg15
-(lp114
+sg13
+(lp113
 F225.0
 aF164.0
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p115
-(dp116
-g21
+p114
+(dp115
+g19
 VWelcome back, inspector.\u000a<<nobr>>\u000a<<if $day is 2>>[[It's day 2!|day 2 start]]<<endif>>\u000a<<if $day is 3>>[[It's day 3!|day 3 start]]<<endif>>\u000a<<endnobr>>
+p116
+sg21
+Vstart day 2 or 3
 p117
 sg23
-Vstart day 2 or 3
-p118
-sg25
-g26
+g24
 ((I2014
 I7
 I16
@@ -359,14 +358,14 @@ I34
 I2
 I197
 I1
-tp119
-(dp120
-tp121
-Rp122
+tp118
+(dp119
+tp120
+Rp121
+sg29
+(lp122
 sg31
-(lp123
-sg33
-g26
+g24
 ((I2014
 I7
 I16
@@ -376,30 +375,30 @@ I19
 I2
 I197
 I1
-tp124
-(dp125
-tp126
-Rp127
-sbsa(dp128
-g14
+tp123
+(dp124
+tp125
+Rp126
+sbsa(dp127
+g12
 I00
-sg15
-(lp129
+sg13
+(lp128
 F409.0
 aF289.0
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p130
-(dp131
-g21
+p129
+(dp130
+g19
 V[[Start of day 3.|end of day]]
+p131
+sg21
+Vday 3 start
 p132
 sg23
-Vday 3 start
-p133
-sg25
-g26
+g24
 ((I2014
 I7
 I16
@@ -409,14 +408,14 @@ I0
 I2
 I197
 I1
-tp134
-(dp135
-tp136
-Rp137
+tp133
+(dp134
+tp135
+Rp136
+sg29
+(lp137
 sg31
-(lp138
-sg33
-g26
+g24
 ((I2014
 I7
 I16
@@ -426,30 +425,30 @@ I31
 I2
 I197
 I1
-tp139
-(dp140
-tp141
-Rp142
-sbsa(dp143
-g14
+tp138
+(dp139
+tp140
+Rp141
+sbsa(dp142
+g12
 I00
-sg15
-(lp144
+sg13
+(lp143
 F229.0
 aF19.0
-asg17
+asg15
 (itiddlywiki
 Tiddler
-p145
-(dp146
-g21
+p144
+(dp145
+g19
 V[[Start of day <<print $day>>.|day 1 start]]
+p146
+sg21
+Vstart of day
 p147
 sg23
-Vstart of day
-p148
-sg25
-g26
+g24
 ((I2014
 I7
 I16
@@ -459,14 +458,14 @@ I14
 I2
 I197
 I1
-tp149
-(dp150
-tp151
-Rp152
+tp148
+(dp149
+tp150
+Rp151
+sg29
+(lp152
 sg31
-(lp153
-sg33
-g26
+g24
 ((I2014
 I7
 I16
@@ -476,14 +475,116 @@ I19
 I2
 I197
 I1
-tp154
-(dp155
-tp156
-Rp157
+tp153
+(dp154
+tp155
+Rp156
+sbsa(dp157
+g12
+I00
+sg13
+(lp158
+F10.0
+aF429.0
+asg15
+(itiddlywiki
+Tiddler
+p159
+(dp160
+g19
+Vbody {\u000a background-image: [img[stripes_grey2.png]];\u000a background-color: white;\u000a}\u000a\u000a@font-face{ \u000a  font-family: 'SofiaProLight-webfont';\u000a  src: url('SofiaProLight-webfont.eot');\u000a  src: url('WebFont.eot?#iefix') format('embedded-opentype'),\u000a       url('SofiaProLight-webfont.woff') format('woff'),\u000a       url('SofiaProLight-webfont.ttf') format('truetype'),\u000a       url('WebFont.svg#webfont') format('svg');\u000a\u000a}\u000a\u000a#sidebar{\u000a  position: absolute;\u000a  top: 0px;\u000a  left: 0px;\u000a  width: 99%;\u000a  overflow-x: hidden;\u000a  background-color: white;\u000a  border-bottom: solid black 1px;\u000a}\u000a\u000a#sidebar *{\u000a  color: black;\u000a  padding: 0px 4px;\u000a  font-size:24px;\u000a  background-color: transparent;\u000a  display:inline !important;\u000a}\u000a\u000a#sidebar a:hover, #sidebar li a:hover{\u000a  padding: 0px 4px;\u000a  font-weight: bold;\u000a  font-color: red;\u000a}\u000a\u000a#passages{\u000a  margin: 0;\u000a  padding: 0;\u000a  border:0;\u000a}\u000a\u000a.passage, #sidebar * {\u000a  font-family: SofiaProLight-webfont, Geneva, "Helvetica Neue", Helvetica, sans-serif;\u000a  color: black;\u000a  text-align:left;\u000a}\u000a\u000a.passage {\u000a  border-radius: 0.2em;\u000a  margin: auto;\u000a  width: 60%;\u000a  padding: 2em;\u000a  font-size:1.5rem;\u000a\u000a  background-color:white;\u000a  border-left: 1px solid black;\u000a  border-right: 1px solid black;\u000a  border-bottom: 1px dashed black;\u000a}\u000a\u000a#storyAuthor { /*code for the formatting of B.E.A.R*/\u000afont-size: 200%;\u000apadding: 0px 4px;\u000a}\u000a\u000a#credits, #share, #bookmark, #restart, #titleSeparator, #sidebar li br {\u000a  display:none !important;\u000a}
+p161
+sg21
+VCSS Stylesheet
+p162
+sg23
+g24
+((I2014
+I7
+I17
+I15
+I11
+I12
+I3
+I198
+I1
+tp163
+(dp164
+tp165
+Rp166
+sg29
+(lp167
+Vstylesheet
+p168
+asg31
+g24
+((I2014
+I7
+I16
+I16
+I24
+I20
+I2
+I197
+I1
+tp169
+(dp170
+tp171
+Rp172
+sbsa(dp173
+g12
+I00
+sg13
+(lp174
+I150
+aI290
+asg15
+(itiddlywiki
+Tiddler
+p175
+(dp176
+g19
+V[[profiles|day 3 start]]
+p177
+sg21
+VStoryMenu
+p178
+sg23
+g24
+((I2014
+I7
+I17
+I13
+I41
+I50
+I3
+I198
+I1
+tp179
+(dp180
+tp181
+Rp182
+sg29
+(lp183
+sg31
+g24
+((I2014
+I7
+I17
+I13
+I41
+I18
+I3
+I198
+I1
+tp184
+(dp185
+tp186
+Rp187
 sbsasS'scale'
-p158
+p188
 I1
 sS'snapping'
-p159
-I00
+p189
+I01
 ss.
