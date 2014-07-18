@@ -393,7 +393,7 @@ Tiddler
 p130
 (dp131
 g21
-VSUSPECT 002\u000a\u000a[[Check suspect's profile.|Valerie profile]]\u000a\u000a[[Check conversation notes.|Valerie notes]]\u000a\u000a[[Request information directly.|Valerie info request]]\u000a\u000a[[Speak informally with the suspect.|Valerie conversation]]\u000a\u000a[[Begin physical encouragement session.|Valerie torture]]\u000a\u000a[[Set wake-up call.|Valerie sleep]]\u000a\u000a[[Back|main hub]]
+VSUSPECT 002\u000a\u000a[[Request information directly.|Valerie info request]]\u000a\u000a[[Speak informally with the suspect.|Valerie conversation]]\u000a\u000a[[Begin physical encouragement session.|Valerie torture]]\u000a\u000a[[Set wake-up call.|Valerie sleep]]\u000a\u000a[[Check suspect's profile.|Valerie profile]]\u000a\u000a[[Check conversation notes.|Valerie notes]]\u000a\u000a[[Back|main hub]]
 p132
 sg23
 VValerie main hub
@@ -402,12 +402,12 @@ sg25
 g26
 ((I2014
 I7
-I17
-I17
-I50
-I9
-I3
-I198
+I18
+I16
+I0
+I11
+I4
+I199
 I1
 tp134
 (dp135
@@ -432,7 +432,7 @@ tp141
 Rp142
 sbsa(dp143
 g14
-I00
+I01
 sg15
 (lp144
 F682.0
@@ -443,7 +443,7 @@ Tiddler
 p145
 (dp146
 g21
-VSUSPECT 003\u000a\u000a[[Check suspect's profile.|Zora profile]]\u000a\u000a[[Check conversation notes.|Zora notes]]\u000a\u000a[[Request information directly.|Zora info request]]\u000a\u000a[[Speak informally with the suspect.|Zora conversation]]\u000a\u000a[[Begin physical encouragement session.|Zora torture]]\u000a\u000a[[Set wake-up call.|Zora sleep]]\u000a\u000a[[Back|main hub]]
+VSUSPECT 003\u000a\u000a[[Request information directly.|Zora info request]]\u000a\u000a[[Speak informally with the suspect.|Zora conversation]]\u000a\u000a[[Begin physical encouragement session.|Zora torture]]\u000a\u000a[[Set wake-up call.|Zora sleep]]\u000a\u000a[[Check suspect's profile.|Zora profile]]\u000a\u000a[[Check conversation notes.|Zora notes]]\u000a\u000a[[Back|main hub]]
 p147
 sg23
 VZora main hub
@@ -453,9 +453,9 @@ g26
 ((I2014
 I7
 I18
-I11
-I45
-I56
+I16
+I0
+I21
 I4
 I199
 I1
@@ -493,7 +493,7 @@ Tiddler
 p160
 (dp161
 g21
-VSUSPECT 001\u000a\u000a[[Check suspect's profile.|Kader profile]]\u000a\u000a[[Check conversation notes.|Kader notes]]\u000a\u000a[[Request information directly.|Kader info request]]\u000a\u000a[[Speak informally with the suspect.|Kader conversation]]\u000a\u000a[[Begin physical encouragement session.|Kader torture]]\u000a\u000a[[Set wake-up call.|Kader sleep]]\u000a\u000a[[Back|main hub]]
+VSUSPECT 001\u000a\u000a[[Request information directly.|Kader info request]]\u000a\u000a[[Speak informally with the suspect.|Kader conversation]]\u000a\u000a[[Begin physical encouragement session.|Kader torture]]\u000a\u000a[[Set wake-up call.|Kader sleep]]\u000a\u000a[[Check suspect's profile.|Kader profile]]\u000a\u000a[[Check conversation notes.|Kader notes]]\u000a\u000a[[Back|main hub]]
 p162
 sg23
 VKader main hub
@@ -502,12 +502,12 @@ sg25
 g26
 ((I2014
 I7
-I17
-I17
-I49
-I41
-I3
-I198
+I18
+I15
+I59
+I51
+I4
+I199
 I1
 tp164
 (dp165
@@ -1521,7 +1521,7 @@ tp468
 Rp469
 sbsa(dp470
 g14
-I01
+I00
 sg15
 (lp471
 F668.0
