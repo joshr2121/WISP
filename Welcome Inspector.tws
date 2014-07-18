@@ -48,9 +48,9 @@ p24
 ((I2014
 I7
 I17
-I12
-I0
-I37
+I22
+I32
+I14
 I3
 I198
 I1
@@ -79,7 +79,7 @@ tp34
 Rp35
 sbsa(dp36
 g12
-I00
+I01
 sg13
 (lp37
 I10
@@ -90,30 +90,29 @@ Tiddler
 p38
 (dp39
 g19
-VB.E.A.R
-p40
+g20
 sg21
 VStoryAuthor
-p41
+p40
 sg23
 g24
 ((I2014
 I7
 I17
-I13
-I39
-I31
+I23
+I5
+I55
 I3
 I198
 I1
-tp42
-(dp43
-tp44
-Rp45
+tp41
+(dp42
+tp43
+Rp44
 sg29
-(lp46
+(lp45
 Vauthors
-p47
+p46
 asg31
 g24
 ((I2014
@@ -125,28 +124,28 @@ I23
 I2
 I197
 I1
-tp48
-(dp49
-tp50
-Rp51
-sbsa(dp52
+tp47
+(dp48
+tp49
+Rp50
+sbsa(dp51
 g12
 I00
 sg13
-(lp53
+(lp52
 F283.0
 aF522.0
 asg15
 (itiddlywiki
 Tiddler
-p54
-(dp55
+p53
+(dp54
 g19
 V[[(end of day)|start day 2 or 3]]\u000a<<nobr>>\u000a<<set $day += 1>>\u000a<<endnobr>>
-p56
+p55
 sg21
 Vend of day
-p57
+p56
 sg23
 g24
 ((I2014
@@ -158,12 +157,12 @@ I32
 I2
 I197
 I1
-tp58
-(dp59
-tp60
-Rp61
+tp57
+(dp58
+tp59
+Rp60
 sg29
-(lp62
+(lp61
 sg31
 g24
 ((I2014
@@ -175,28 +174,28 @@ I51
 I2
 I197
 I1
-tp63
-(dp64
-tp65
-Rp66
-sbsa(dp67
+tp62
+(dp63
+tp64
+Rp65
+sbsa(dp66
 g12
 I00
 sg13
-(lp68
+(lp67
 F409.0
 aF20.0
 asg15
 (itiddlywiki
 Tiddler
-p69
-(dp70
+p68
+(dp69
 g19
 VDay 1 start\u000a[[end of day]]
-p71
+p70
 sg21
 Vday 1 start
-p72
+p71
 sg23
 g24
 ((I2014
@@ -208,12 +207,12 @@ I29
 I2
 I197
 I1
-tp73
-(dp74
-tp75
-Rp76
+tp72
+(dp73
+tp74
+Rp75
 sg29
-(lp77
+(lp76
 sg31
 g24
 ((I2014
@@ -225,28 +224,28 @@ I5
 I2
 I197
 I1
-tp78
-(dp79
-tp80
-Rp81
-sbsa(dp82
+tp77
+(dp78
+tp79
+Rp80
+sbsa(dp81
 g12
 I00
 sg13
-(lp83
+(lp82
 F404.0
 aF157.0
 asg15
 (itiddlywiki
 Tiddler
-p84
-(dp85
+p83
+(dp84
 g19
 V[[Start of day 2.|end of day]]
-p86
+p85
 sg21
 Vday 2 start
-p87
+p86
 sg23
 g24
 ((I2014
@@ -258,12 +257,12 @@ I51
 I2
 I197
 I1
-tp88
-(dp89
-tp90
-Rp91
+tp87
+(dp88
+tp89
+Rp90
 sg29
-(lp92
+(lp91
 sg31
 g24
 ((I2014
@@ -275,28 +274,28 @@ I49
 I2
 I197
 I1
-tp93
-(dp94
-tp95
-Rp96
-sbsa(dp97
+tp92
+(dp93
+tp94
+Rp95
+sbsa(dp96
 g12
 I00
 sg13
-(lp98
+(lp97
 F10.0
 aF17.0
 asg15
 (itiddlywiki
 Tiddler
-p99
-(dp100
+p98
+(dp99
 g19
 V[[Welcome, inspector.|start of day]]\u000a<<nobr>>\u000a<<set $day to 1>>\u000a<<endnobr>>
-p101
+p100
 sg21
 VStart
-p102
+p101
 sg23
 g24
 ((I2014
@@ -308,12 +307,12 @@ I41
 I2
 I197
 I1
-tp103
-(dp104
-tp105
-Rp106
+tp102
+(dp103
+tp104
+Rp105
 sg29
-(lp107
+(lp106
 sg31
 g24
 ((I2014
@@ -325,28 +324,28 @@ I35
 I2
 I197
 I1
-tp108
-(dp109
-tp110
-Rp111
-sbsa(dp112
+tp107
+(dp108
+tp109
+Rp110
+sbsa(dp111
 g12
 I00
 sg13
-(lp113
+(lp112
 F225.0
 aF164.0
 asg15
 (itiddlywiki
 Tiddler
-p114
-(dp115
+p113
+(dp114
 g19
 VWelcome back, inspector.\u000a<<nobr>>\u000a<<if $day is 2>>[[It's day 2!|day 2 start]]<<endif>>\u000a<<if $day is 3>>[[It's day 3!|day 3 start]]<<endif>>\u000a<<endnobr>>
-p116
+p115
 sg21
 Vstart day 2 or 3
-p117
+p116
 sg23
 g24
 ((I2014
@@ -358,12 +357,12 @@ I34
 I2
 I197
 I1
-tp118
-(dp119
-tp120
-Rp121
+tp117
+(dp118
+tp119
+Rp120
 sg29
-(lp122
+(lp121
 sg31
 g24
 ((I2014
@@ -375,28 +374,28 @@ I19
 I2
 I197
 I1
-tp123
-(dp124
-tp125
-Rp126
-sbsa(dp127
+tp122
+(dp123
+tp124
+Rp125
+sbsa(dp126
 g12
 I00
 sg13
-(lp128
+(lp127
 F409.0
 aF289.0
 asg15
 (itiddlywiki
 Tiddler
-p129
-(dp130
+p128
+(dp129
 g19
 V[[Start of day 3.|end of day]]
-p131
+p130
 sg21
 Vday 3 start
-p132
+p131
 sg23
 g24
 ((I2014
@@ -408,12 +407,12 @@ I0
 I2
 I197
 I1
-tp133
-(dp134
-tp135
-Rp136
+tp132
+(dp133
+tp134
+Rp135
 sg29
-(lp137
+(lp136
 sg31
 g24
 ((I2014
@@ -425,28 +424,28 @@ I31
 I2
 I197
 I1
-tp138
-(dp139
-tp140
-Rp141
-sbsa(dp142
+tp137
+(dp138
+tp139
+Rp140
+sbsa(dp141
 g12
 I00
 sg13
-(lp143
+(lp142
 F229.0
 aF19.0
 asg15
 (itiddlywiki
 Tiddler
-p144
-(dp145
+p143
+(dp144
 g19
 V[[Start of day <<print $day>>.|day 1 start]]
-p146
+p145
 sg21
 Vstart of day
-p147
+p146
 sg23
 g24
 ((I2014
@@ -458,12 +457,12 @@ I14
 I2
 I197
 I1
-tp148
-(dp149
-tp150
-Rp151
+tp147
+(dp148
+tp149
+Rp150
 sg29
-(lp152
+(lp151
 sg31
 g24
 ((I2014
@@ -475,47 +474,47 @@ I19
 I2
 I197
 I1
-tp153
-(dp154
-tp155
-Rp156
-sbsa(dp157
+tp152
+(dp153
+tp154
+Rp155
+sbsa(dp156
 g12
 I00
 sg13
-(lp158
+(lp157
 F10.0
-aF429.0
+aF430.0
 asg15
 (itiddlywiki
 Tiddler
-p159
-(dp160
+p158
+(dp159
 g19
-Vbody {\u000a background-image: [img[stripes_grey2.png]];\u000a background-color: white;\u000a}\u000a\u000a@font-face{ \u000a  font-family: 'SofiaProLight-webfont';\u000a  src: url('SofiaProLight-webfont.eot');\u000a  src: url('WebFont.eot?#iefix') format('embedded-opentype'),\u000a       url('SofiaProLight-webfont.woff') format('woff'),\u000a       url('SofiaProLight-webfont.ttf') format('truetype'),\u000a       url('WebFont.svg#webfont') format('svg');\u000a\u000a}\u000a\u000a#sidebar{\u000a  position: absolute;\u000a  top: 0px;\u000a  left: 0px;\u000a  width: 99%;\u000a  overflow-x: hidden;\u000a  background-color: white;\u000a  border-bottom: solid black 1px;\u000a}\u000a\u000a#sidebar *{\u000a  color: black;\u000a  padding: 0px 4px;\u000a  font-size:24px;\u000a  background-color: transparent;\u000a  display:inline !important;\u000a}\u000a\u000a#sidebar a:hover, #sidebar li a:hover{\u000a  padding: 0px 4px;\u000a  font-weight: bold;\u000a  font-color: red;\u000a}\u000a\u000a#passages{\u000a  margin: 0;\u000a  padding: 0;\u000a  border:0;\u000a}\u000a\u000a.passage, #sidebar * {\u000a  font-family: SofiaProLight-webfont, Geneva, "Helvetica Neue", Helvetica, sans-serif;\u000a  color: black;\u000a  text-align:left;\u000a}\u000a\u000a.passage {\u000a  border-radius: 0.2em;\u000a  margin: auto;\u000a  width: 60%;\u000a  padding: 2em;\u000a  font-size:1.5rem;\u000a\u000a  background-color:white;\u000a  border-left: 1px solid black;\u000a  border-right: 1px solid black;\u000a  border-bottom: 1px dashed black;\u000a}\u000a\u000a#storyAuthor { /*code for the formatting of B.E.A.R*/\u000afont-size: 200%;\u000apadding: 0px 4px;\u000a}\u000a\u000a#credits, #share, #bookmark, #restart, #titleSeparator, #sidebar li br {\u000a  display:none !important;\u000a}
-p161
+Vbody {\u000a background-image: [img[stripes_grey2.png]];\u000a background-color: white;\u000a}\u000a\u000a@font-face{ \u000a  font-family: 'SofiaProLight-webfont';\u000a  src: url('SofiaProLight-webfont.eot');\u000a  src: url('WebFont.eot?#iefix') format('embedded-opentype'),\u000a       url('SofiaProLight-webfont.woff') format('woff'),\u000a       url('SofiaProLight-webfont.ttf') format('truetype'),\u000a       url('WebFont.svg#webfont') format('svg');\u000a\u000a}\u000a\u000a#sidebar{\u000a  position: absolute;\u000a  top: 0px;\u000a  left: 0px;\u000a  width: 99%;\u000a  height: 11%;\u000a  overflow-x: hidden;\u000a  background-color: white;\u000a  border-bottom: solid black 1px;\u000a  background-image: [img[bear_logo_right_small.png]];\u000abackground-repeat: no-repeat;\u000abackground-position: 1px 1px;\u000a}\u000a\u000a#sidebar *{\u000a  color: black;\u000a  margin-left: 10px;\u000a  font-size: 28px;\u000a  background-color: transparent;\u000a  display:inline !important;\u000a}\u000a\u000a#sidebar a:hover, #sidebar li a:hover{\u000a  padding-right: 10px;\u000a  font-weight: bold;\u000a  font-color: red;\u000a}\u000a\u000a#passages{\u000amargin-top: 10%;\u000a  margin-left: 20%;\u000a  margin-right: 10%;\u000a  padding: 0;\u000a  border:0;\u000a}\u000a\u000a.passage, #sidebar * {\u000a  font-family: SofiaProLight-webfont, Geneva, "Helvetica Neue", Helvetica, sans-serif;\u000a  color: black;\u000a  text-align:center;\u000a}\u000a\u000a.passage {\u000a  border-radius: 0.2em;\u000a  margin: auto;\u000a  width: 60%;\u000a  padding: 2em;\u000a  font-size:1.5rem;\u000a\u000a  background-color:white;\u000a  border-left: 1px solid black;\u000a  border-right: 1px solid black;\u000a  border-bottom: 1px dashed black;\u000a}\u000a\u000a#storyAuthor { /*code for the formatting of B.E.A.R*/\u000a  font-size: 200%;\u000a  padding: 0px 4px;\u000a  color: white;\u000a}\u000a\u000a#storyMenu{\u000amargin-left: 5%;\u000atop: 10px;\u000a}\u000a\u000a#credits, #share, #bookmark, #restart, #titleSeparator, #sidebar li br {\u000a  display:none !important;\u000a}
+p160
 sg21
 VCSS Stylesheet
-p162
+p161
 sg23
 g24
 ((I2014
 I7
 I17
-I15
-I11
-I12
+I23
+I8
+I3
 I3
 I198
 I1
-tp163
-(dp164
-tp165
-Rp166
+tp162
+(dp163
+tp164
+Rp165
 sg29
-(lp167
+(lp166
 Vstylesheet
-p168
+p167
 asg31
 g24
 ((I2014
@@ -527,45 +526,45 @@ I20
 I2
 I197
 I1
-tp169
-(dp170
-tp171
-Rp172
-sbsa(dp173
+tp168
+(dp169
+tp170
+Rp171
+sbsa(dp172
 g12
 I00
 sg13
-(lp174
+(lp173
 I150
 aI290
 asg15
 (itiddlywiki
 Tiddler
-p175
-(dp176
+p174
+(dp175
 g19
-V[[profiles|day 3 start]]
-p177
+V[[PROFILES|day 3 start]]
+p176
 sg21
 VStoryMenu
-p178
+p177
 sg23
 g24
 ((I2014
 I7
 I17
-I13
-I41
-I50
+I23
+I4
+I55
 I3
 I198
 I1
-tp179
-(dp180
-tp181
-Rp182
+tp178
+(dp179
+tp180
+Rp181
 sg29
-(lp183
+(lp182
 sg31
 g24
 ((I2014
@@ -577,14 +576,14 @@ I18
 I3
 I198
 I1
-tp184
-(dp185
-tp186
-Rp187
+tp183
+(dp184
+tp185
+Rp186
 sbsasS'scale'
-p188
+p187
 I1
 sS'snapping'
-p189
+p188
 I01
 ss.
