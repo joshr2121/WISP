@@ -229,7 +229,7 @@ tp79
 Rp80
 sbsa(dp81
 g12
-I00
+I01
 sg13
 (lp82
 F8.75
@@ -240,7 +240,7 @@ Tiddler
 p83
 (dp84
 g19
-VWelcome, Inspector.\u000a\u000aPlease click [[here|briefing]] for a briefing on the investigation.\u000a\u000aPlease click [[here|main hub]] to skip the briefing and begin the investigation.\u000a\u000a<<nobr>>\u000a<<set $day to 1>>\u000a\u000a<<set $kaderTorture to 0>>\u000a<<set $kaderTortureLimit to 2>>\u000a<<set $kaderConscious to true>>\u000a<<set $kaderSleepTotal to 0>>\u000a<<set $kaderSleepTonight to 0>>\u000a\u000a\u000a<<set $valerieTorture to 0>>\u000a<<set $valerieTortureLimit to 3>>\u000a<<set $valerieConscious to true>>\u000a<<set $valerieSleepTotal to 0>>\u000a<<set $valerieSleepTonight to 0>>\u000a\u000a<<set $zoraTorture to 0>>\u000a<<set $zoraTortureLimit to 5>>\u000a<<set $zoraConscious to true>>\u000a<<set $zoraSleepTotal to 0>>\u000a<<set $zoraSleepTonight to 0>>\u000a\u000a<<set $submittedWho to 0>>\u000a<<set $submittedWhere to 0>>\u000a<<set $submittedWhen to 0>>\u000a<<set $submittedHow to 0>>\u000a<<endnobr>>
+VWelcome, Inspector.\u000a\u000aPlease click [[here|briefing]] for a briefing on the investigation.\u000a\u000aPlease click [[here|main hub]] to skip the briefing and begin the investigation.\u000a\u000a<<nobr>>\u000a<<set $day to 1>>\u000a\u000a<<set $kaderTorture to 0>>\u000a<<set $kaderTortureLimit to 3>>\u000a<<set $kaderConscious to true>>\u000a<<set $kaderSleepTotal to 0>>\u000a<<set $kaderSleepTonight to 0>>\u000a\u000a\u000a<<set $valerieTorture to 0>>\u000a<<set $valerieTortureLimit to 4>>\u000a<<set $valerieConscious to true>>\u000a<<set $valerieSleepTotal to 0>>\u000a<<set $valerieSleepTonight to 0>>\u000a\u000a<<set $zoraTorture to 0>>\u000a<<set $zoraTortureLimit to 5>>\u000a<<set $zoraConscious to true>>\u000a<<set $zoraSleepTotal to 0>>\u000a<<set $zoraSleepTonight to 0>>\u000a\u000a<<set $submittedWho to 0>>\u000a<<set $submittedWhere to 0>>\u000a<<set $submittedWhen to 0>>\u000a<<set $submittedHow to 0>>\u000a<<endnobr>>
 p85
 sg21
 VStart
@@ -249,12 +249,12 @@ sg23
 g24
 ((I2014
 I7
-I18
-I13
-I23
-I27
-I4
-I199
+I21
+I15
+I58
+I8
+I0
+I202
 I1
 tp87
 (dp88
@@ -1367,7 +1367,7 @@ tp420
 Rp421
 sbsa(dp422
 g12
-I01
+I00
 sg13
 (lp423
 F948.1282596371882
