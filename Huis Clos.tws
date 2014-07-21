@@ -432,8 +432,8 @@ g12
 I00
 sg13
 (lp142
-F647.4100257069408
-aF1535.3637532133685
+F614.8547557840616
+aF1885.3329048843202
 asg15
 (itiddlywiki
 Tiddler
@@ -732,8 +732,8 @@ g12
 I00
 sg13
 (lp232
-F457.9100257069408
-aF1461.1137532133682
+F425.3547557840616
+aF1811.08290488432
 asg15
 (itiddlywiki
 Tiddler
@@ -782,8 +782,8 @@ g12
 I00
 sg13
 (lp247
-F459.1600257069408
-aF1596.6137532133685
+F426.6047557840616
+aF1946.5829048843202
 asg15
 (itiddlywiki
 Tiddler
@@ -1328,7 +1328,7 @@ Tiddler
 p409
 (dp410
 g19
-V<<if torture = 0>>\u000a[[Convo subject 1|Convo subject 1]]\u000a\u000a[[Convo subject 2|Convo subject 2]]\u000a<<elseif torture = 1>>\u000a[[Convo subject 1|Convo subject 1]]\u000a\u000a[[Convo subject 2|Convo subject 2]]\u000a<<elseif torture = 2>>\u000a[[Convo subject 1|Convo subject 1]]\u000a\u000a[[Convo subject 2|Convo subject 2]]\u000a<<endif>>\u000a\u000a[[Back|Kader main hub]]
+V<<nobr>>\u000a<<if $kaderTorture = 0>>\u000a[[Convo subject 1|Convo subject 1]]\u000a\u000a[[Convo subject 2|Convo subject 2]]\u000a<<elseif $kaderTorture = 1>>\u000a[[Convo subject 1|Convo subject 3]]\u000a\u000a[[Convo subject 2|Convo subject 4]]\u000a<<elseif $kaderTorture = 2>>\u000a[[Convo subject 1|Convo subject 5]]\u000a<<elseif $kaderTorture = 3>>\u000aI'm sorry, Suspect seemed to have fainted. Come back tomorrow after emergency treatment. (ooooh! maybe the player could have the option to call emergency treatment or not ?)\u000a<<endif>>\u000a<<nobr>>\u000a\u000a[[Back|Kader main hub]]
 p411
 sg21
 VKader conversation
@@ -1338,9 +1338,9 @@ g24
 ((I2014
 I7
 I21
-I14
-I51
-I56
+I15
+I36
+I20
 I0
 I202
 I1
@@ -1367,7 +1367,7 @@ tp420
 Rp421
 sbsa(dp422
 g12
-I00
+I01
 sg13
 (lp423
 F948.1282596371882
@@ -1378,7 +1378,7 @@ Tiddler
 p424
 (dp425
 g19
-V<<if TorturePain = 0>>\u000a[[Ask about the key person in the attack.|Kader info who]]\u000a\u000a[[Ask about the target location.|Kader info where]]\u000a\u000a[[Ask what time the attack will take place.|Kader info when]]\u000a\u000a[[Ask about the intended method of attack.|Kader info how]]\u000a\u000a\u000a<<elseif TorturePain = 1>>\u000a[[Ask about the key person in the attack.|Kader info who pain]]\u000a\u000a[[Ask about the target location.|Kader info where pain]]\u000a\u000a[[Ask what time the attack will take place.|Kader info when pain]]\u000a\u000a[[Ask about the intended method of attack.|Kader info how pain]]\u000a\u000a\u000a<<elseif TorturePain = 2>>\u000a[[Ask about the key person in the attack.|Kader info who pain 2]]\u000a\u000a[[Ask about the target location.|Kader info where pain 2]]\u000a\u000a[[Ask what time the attack will take place.|Kader info when pain 2]]\u000a\u000a[[Ask about the intended method of attack.|Kader info how pain 2]]\u000a\u000a[[Back|Kader main hub]]
+V<<if $kaderTorture == 0>>\u000a[[Ask nicely about the key person in the attack.|Kader info who]]\u000a\u000a[[Ask about the target location.|Kader info where]]\u000a\u000a[[Ask what time the attack will take place.|Kader info when]]\u000a\u000a[[Ask about the intended method of attack.|Kader info how]]\u000a\u000a\u000a<<elseif $kaderTorture == 1>>\u000a[[Ask not so nicely about the key person in the attack.|Kader info who pain]]\u000a\u000a[[Ask about the target location.|Kader info where pain]]\u000a\u000a[[Ask what time the attack will take place.|Kader info when pain]]\u000a\u000a[[Ask about the intended method of attack.|Kader info how pain]]\u000a\u000a\u000a<<elseif $kaderTorture == 2>>\u000a[[Ask harshly about the key person in the attack.|Kader info who pain 2]]\u000a\u000a[[Ask about the target location.|Kader info where pain 2]]\u000a\u000a[[Ask what time the attack will take place.|Kader info when pain 2]]\u000a\u000a[[Ask about the intended method of attack.|Kader info how pain 2]]\u000a<<elseif $kaderTorture >= 3>>\u000aThe detainee's vital signals are indicating unconsciouscness.\u000a\u000aRequest medical assistance ?\u000a<<endif>>\u000a\u000a\u000a[[Back|Kader main hub]]
 p426
 sg21
 VKader info request
@@ -1388,9 +1388,9 @@ g24
 ((I2014
 I7
 I21
-I13
-I22
-I55
+I15
+I51
+I20
 I0
 I202
 I1
@@ -1620,8 +1620,8 @@ g12
 I00
 sg13
 (lp498
-F911.6182519280205
-aF1344.0102827763503
+F879.0629820051413
+aF1693.979434447302
 asg15
 (itiddlywiki
 Tiddler
@@ -1670,8 +1670,8 @@ g12
 I00
 sg13
 (lp513
-F649.4447300771208
-aF1385.2943444730083
+F616.8894601542415
+aF1735.26349614396
 asg15
 (itiddlywiki
 Tiddler
@@ -1720,8 +1720,8 @@ g12
 I00
 sg13
 (lp528
-F912.842174830515
-aF1516.2602827763503
+F880.2869049076357
+aF1866.229434447302
 asg15
 (itiddlywiki
 Tiddler
@@ -1770,8 +1770,8 @@ g12
 I00
 sg13
 (lp543
-F605.6600257069408
-aF1676.8637532133685
+F573.1047557840616
+aF2026.8329048843202
 asg15
 (itiddlywiki
 Tiddler
@@ -1920,8 +1920,8 @@ g12
 I00
 sg13
 (lp588
-F741.1600257069408
-aF1675.3637532133685
+F708.6047557840616
+aF2025.3329048843202
 asg15
 (itiddlywiki
 Tiddler
@@ -2020,8 +2020,8 @@ g12
 I00
 sg13
 (lp618
-F1382.5105565126344
-aF2.5681673546451
+F2151.6288084406556
+aF8.672280465184944
 asg15
 (itiddlywiki
 Tiddler
@@ -2070,8 +2070,8 @@ g12
 I00
 sg13
 (lp633
-F1514.8759193244248
-aF4.594102728794823
+F2676.692114697177
+aF2.559398358614878
 asg15
 (itiddlywiki
 Tiddler
@@ -2120,8 +2120,8 @@ g12
 I00
 sg13
 (lp648
-F1119.8057662632002
-aF6.150933794554431
+F1121.8404706333802
+aF8.18563816473438
 asg15
 (itiddlywiki
 Tiddler
@@ -2170,8 +2170,8 @@ g12
 I00
 sg13
 (lp663
-F1251.0493887121806
-aF5.933388443080572
+F1625.4349928252916
+aF3.8986840729006236
 asg15
 (itiddlywiki
 Tiddler
@@ -2420,8 +2420,8 @@ g12
 I00
 sg13
 (lp738
-F1175.375904989245
-aF1339.1246535246491
+F1142.8206350663659
+aF1689.093805195601
 asg15
 (itiddlywiki
 Tiddler
@@ -2470,8 +2470,8 @@ g12
 I00
 sg13
 (lp753
-F1041.7582746037576
-aF1340.028848535988
+F1009.2030046808784
+aF1689.9980002069397
 asg15
 (itiddlywiki
 Tiddler
@@ -2520,8 +2520,8 @@ g12
 I00
 sg13
 (lp768
-F1308.7324809529628
-aF1340.933043547325
+F1276.1772110300835
+aF1690.9021952182768
 asg15
 (itiddlywiki
 Tiddler
@@ -2570,8 +2570,8 @@ g12
 I00
 sg13
 (lp783
-F1446.7065455788152
-aF1340.715498195851
+F1414.151275655936
+aF1690.6846498668028
 asg15
 (itiddlywiki
 Tiddler
@@ -2620,15 +2620,15 @@ g12
 I00
 sg13
 (lp798
-F1127.0000000000014
-aF378.21998903709084
+F1259.2557840616985
+aF7.903793664340526
 asg15
 (itiddlywiki
 Tiddler
 p799
 (dp800
 g19
-VI'm not scared.\u000a\u000a[[Back|Kader info request]]
+VI'm not scared.\u000a\u000a[[you should be|Kader info who threat 2]]\u000a\u000a[[Back|Kader info request]]
 p801
 sg21
 VKader info who threat
@@ -2638,9 +2638,9 @@ g24
 ((I2014
 I7
 I21
-I13
-I13
-I59
+I15
+I43
+I57
 I0
 I202
 I1
@@ -2670,8 +2670,8 @@ g12
 I00
 sg13
 (lp813
-F1364.3534214861395
-aF126.66007307362915
+F2145.67989963524
+aF132.76418618416895
 asg15
 (itiddlywiki
 Tiddler
@@ -2720,8 +2720,8 @@ g12
 I00
 sg13
 (lp828
-F1496.71878429793
-aF128.68600844777887
+F2678.8820233724814
+aF122.58189533723896
 asg15
 (itiddlywiki
 Tiddler
@@ -2770,8 +2770,8 @@ g12
 I00
 sg13
 (lp843
-F1241.6486312367053
-aF130.24283951353848
+F1624.1730528305359
+aF130.24283951353846
 asg15
 (itiddlywiki
 Tiddler
@@ -2870,8 +2870,8 @@ g12
 I00
 sg13
 (lp873
-F1367.8891422973936
-aF249.30578840343
+F2149.215620446494
+aF259.4793102543297
 asg15
 (itiddlywiki
 Tiddler
@@ -2920,8 +2920,8 @@ g12
 I00
 sg13
 (lp888
-F1501.7006954983674
-aF254.2241045559462
+F2683.8639345729184
+aF246.08528707522635
 asg15
 (itiddlywiki
 Tiddler
@@ -2970,8 +2970,8 @@ g12
 I00
 sg13
 (lp903
-F1245.1843520479595
-aF252.88855484333934
+F1625.6740692716098
+aF254.9232592135192
 asg15
 (itiddlywiki
 Tiddler
@@ -3120,8 +3120,8 @@ g12
 I00
 sg13
 (lp948
-F1130.4241645244217
-aF675.1362467866327
+F1272.8534704370184
+aF534.741645244216
 asg15
 (itiddlywiki
 Tiddler
@@ -3165,10 +3165,246 @@ tp958
 (dp959
 tp960
 Rp961
+sbsa(dp962
+g12
+I00
+sg13
+(lp963
+F1134.5848329048847
+aF665.7892030848329
+asg15
+(itiddlywiki
+Tiddler
+p964
+(dp965
+g19
+Vlol pain
+p966
+sg21
+VConvo subject 3
+p967
+sg23
+g24
+((I2014
+I7
+I21
+I15
+I4
+I33
+I0
+I202
+I1
+tp968
+(dp969
+tp970
+Rp971
+sg29
+(lp972
+sg31
+g24
+((I2014
+I7
+I21
+I15
+I4
+I21
+I0
+I202
+I1
+tp973
+(dp974
+tp975
+Rp976
+sbsa(dp977
+g12
+I00
+sg13
+(lp978
+F1277.4048843187666
+aF668.3727506426737
+asg15
+(itiddlywiki
+Tiddler
+p979
+(dp980
+g19
+Vlol pain 2
+p981
+sg21
+VConvo subject 4
+p982
+sg23
+g24
+((I2014
+I7
+I21
+I15
+I4
+I57
+I0
+I202
+I1
+tp983
+(dp984
+tp985
+Rp986
+sg29
+(lp987
+sg31
+g24
+((I2014
+I7
+I21
+I15
+I4
+I43
+I0
+I202
+I1
+tp988
+(dp989
+tp990
+Rp991
+sbsa(dp992
+g12
+I00
+sg13
+(lp993
+F94429.44601542417
+aF95991.9061696658
+asg15
+(itiddlywiki
+Tiddler
+p994
+(dp995
+g19
+g40
+sg21
+S'Untitled Passage 1'
+p996
+sg23
+g24
+((I2014
+I7
+I21
+I15
+I5
+I1
+I0
+I202
+I1
+tp997
+(dp998
+tp999
+Rp1000
+sg29
+(lp1001
+sg31
+g1000
+sbsa(dp1002
+g12
+I00
+sg13
+(lp1003
+F1135.3033419023136
+aF805.6632390745506
+asg15
+(itiddlywiki
+Tiddler
+p1004
+(dp1005
+g19
+Vsuper pain
+p1006
+sg21
+VConvo subject 5
+p1007
+sg23
+g24
+((I2014
+I7
+I21
+I15
+I8
+I44
+I0
+I202
+I1
+tp1008
+(dp1009
+tp1010
+Rp1011
+sg29
+(lp1012
+sg31
+g24
+((I2014
+I7
+I21
+I15
+I8
+I15
+I0
+I202
+I1
+tp1013
+(dp1014
+tp1015
+Rp1016
+sbsa(dp1017
+g12
+I00
+sg13
+(lp1018
+F1385.890745501286
+aF10.501285347043854
+asg15
+(itiddlywiki
+Tiddler
+p1019
+(dp1020
+g19
+VORLY?\u000a\u000a[[Back to hub|Kader main hub]]
+p1021
+sg21
+VKader info who threat 2
+p1022
+sg23
+g24
+((I2014
+I7
+I21
+I15
+I44
+I26
+I0
+I202
+I1
+tp1023
+(dp1024
+tp1025
+Rp1026
+sg29
+(lp1027
+sg31
+g24
+((I2014
+I7
+I21
+I15
+I44
+I0
+I0
+I202
+I1
+tp1028
+(dp1029
+tp1030
+Rp1031
 sbsasS'scale'
-p962
+p1032
 F0.4914718888186987
 sS'snapping'
-p963
+p1033
 I00
 ss.
