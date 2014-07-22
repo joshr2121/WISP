@@ -132,8 +132,8 @@ g12
 I00
 sg13
 (lp52
-F164.0
-aF288.0
+F162.75
+aF289.25
 asg15
 (itiddlywiki
 Tiddler
@@ -190,7 +190,7 @@ Tiddler
 p68
 (dp69
 g19
-VDate: 10/<<print 18+$day>>/47\u000a\u000a<<nobr>>\u000a<<if $day < 3>>\u000a<<print 4-$day>> DAYS REMAINING UNTIL ANTICIPATED ATTACK\u000a<<else>>\u000a1 DAY REMAINING UNTIL ANTICIPATED ATTACK\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[Interact with Suspect 001.|Kader main hub]]\u000a\u000a[[Interact with Suspect 002.|Valerie main hub]]\u000a\u000a[[Interact with Suspect 003.|Zora main hub]]\u000a\u000a<<nobr>>\u000a<<if $day neq 3>>\u000a[[Log out for the day.|end of day]]\u000a<<else>>\u000a[[Submit your final report.|submit report]]\u000a<<endif>>\u000a<<endnobr>>
+VDate: 10/<<print 18+$day>>/47\u000a\u000a<<nobr>>\u000a<<if $day < 3>>\u000a<<print 4-$day>> DAYS REMAINING UNTIL ANTICIPATED ATTACK\u000a<<else>>\u000a1 DAY REMAINING UNTIL ANTICIPATED ATTACK\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a<<if $hadInterview == true>>\u000a[[Interact with Suspect 001.|Kader main hub]]\u000a\u000a[[Interact with Suspect 002.|Valerie main hub]]\u000a\u000a[[Interact with Suspect 003.|Zora main hub]]\u000a<<else if $hadInterview == false>>\u000a[[Mandatory Interview with Inspection Manager|interview hub]]\u000a<<endif>>\u000a\u000a<<nobr>>\u000a<<if $day neq 3>>\u000a[[Log out for the day.|end of day]]\u000a<<else>>\u000a[[Submit your final report.|submit report]]\u000a<<endif>>\u000a<<endnobr>>
 p70
 sg21
 Vmain hub
@@ -199,12 +199,12 @@ sg23
 g24
 ((I2014
 I7
-I17
-I15
-I16
-I37
+I22
+I13
 I3
-I198
+I0
+I1
+I203
 I1
 tp72
 (dp73
@@ -229,7 +229,7 @@ tp79
 Rp80
 sbsa(dp81
 g12
-I01
+I00
 sg13
 (lp82
 F8.75
@@ -240,7 +240,7 @@ Tiddler
 p83
 (dp84
 g19
-VWelcome, Inspector.\u000a\u000aPlease click [[here|briefing]] for a briefing on the investigation.\u000a\u000aPlease click [[here|main hub]] to skip the briefing and begin the investigation.\u000a\u000a<<nobr>>\u000a<<set $day to 1>>\u000a\u000a<<set $kaderTorture to 0>>\u000a<<set $kaderTortureLimit to 3>>\u000a<<set $kaderConscious to true>>\u000a<<set $kaderSleepTotal to 0>>\u000a<<set $kaderSleepTonight to 0>>\u000a\u000a\u000a<<set $valerieTorture to 0>>\u000a<<set $valerieTortureLimit to 4>>\u000a<<set $valerieConscious to true>>\u000a<<set $valerieSleepTotal to 0>>\u000a<<set $valerieSleepTonight to 0>>\u000a\u000a<<set $zoraTorture to 0>>\u000a<<set $zoraTortureLimit to 5>>\u000a<<set $zoraConscious to true>>\u000a<<set $zoraSleepTotal to 0>>\u000a<<set $zoraSleepTonight to 0>>\u000a\u000a<<set $submittedWho to 0>>\u000a<<set $submittedWhere to 0>>\u000a<<set $submittedWhen to 0>>\u000a<<set $submittedHow to 0>>\u000a<<endnobr>>
+VWelcome, Inspector.\u000a\u000aPlease click [[here|briefing]] for a briefing on the investigation.\u000a\u000aPlease click [[here|main hub]] to skip the briefing and begin the investigation.\u000a\u000a<<nobr>>\u000a<<set $day to 1>>\u000a<<set $timeleft to 300>> /% in minutes, the time remaining each day, assuming that the inspector talks with his superior in the morning and starts the interrogation at 12:00 %/\u000a<<set $hadInterview to false>>\u000a\u000a<<set $kaderTorture to 0>>\u000a<<set $kaderTortureLimit to 3>>\u000a<<set $kaderConscious to true>>\u000a<<set $kaderSleepTotal to 0>>\u000a<<set $kaderSleepTonight to 0>>\u000a<<set $kaderInfoFound to false>>\u000a\u000a\u000a<<set $valerieTorture to 0>>\u000a<<set $valerieTortureLimit to 4>>\u000a<<set $valerieConscious to true>>\u000a<<set $valerieSleepTotal to 0>>\u000a<<set $valerieSleepTonight to 0>>\u000a<<set $valerieInfoFound to false>>\u000a\u000a<<set $zoraTorture to 0>>\u000a<<set $zoraTortureLimit to 5>>\u000a<<set $zoraConscious to true>>\u000a<<set $zoraSleepTotal to 0>>\u000a<<set $zoraSleepTonight to 0>>\u000a<<set $zoraInfoFound to false>>\u000a\u000a<<set $submittedWho to 0>>\u000a<<set $submittedWhere to 0>>\u000a<<set $submittedWhen to 0>>\u000a<<set $submittedHow to 0>>\u000a<<endnobr>>
 p85
 sg21
 VStart
@@ -249,12 +249,12 @@ sg23
 g24
 ((I2014
 I7
-I21
-I15
-I58
-I8
-I0
-I202
+I22
+I12
+I55
+I4
+I1
+I203
 I1
 tp87
 (dp88
@@ -1987,12 +1987,12 @@ sg23
 g24
 ((I2014
 I7
-I18
-I9
-I41
-I56
-I4
-I199
+I22
+I12
+I54
+I37
+I1
+I203
 I1
 tp608
 (dp609
@@ -2028,7 +2028,7 @@ Tiddler
 p619
 (dp620
 g19
-VI don't know.\u000a\u000a[[Back|Kader info request]]
+VI... I swear I don't know.\u000a\u000a[[Back|Kader info request]]
 p621
 sg21
 VKader info when
@@ -2037,12 +2037,12 @@ sg23
 g24
 ((I2014
 I7
-I18
-I12
-I58
-I7
+I22
+I11
+I22
 I4
-I199
+I1
+I203
 I1
 tp623
 (dp624
@@ -2078,7 +2078,7 @@ Tiddler
 p634
 (dp635
 g19
-VI don't know.\u000a\u000a[[Back|Kader info request]]
+VI don't know. Good luck finding that out.\u000a\u000a[[Back|Kader info request]]
 p636
 sg21
 VKader info how
@@ -2087,12 +2087,12 @@ sg23
 g24
 ((I2014
 I7
-I21
-I13
-I35
-I25
-I0
-I202
+I22
+I10
+I33
+I30
+I1
+I203
 I1
 tp638
 (dp639
@@ -2178,7 +2178,7 @@ Tiddler
 p664
 (dp665
 g19
-VI don't know.\u000a\u000a[[Back|Kader info request]]
+VI don't know.\u000a\u000a[[Have you seen anything suspicious at your work lately, haven't you ?|Kader info where convo]]\u000a\u000a[[Back|Kader info request]]
 p666
 sg21
 VKader info where
@@ -2187,12 +2187,12 @@ sg23
 g24
 ((I2014
 I7
-I18
-I12
+I22
+I10
 I58
-I4
-I4
-I199
+I27
+I1
+I203
 I1
 tp668
 (dp669
@@ -2678,7 +2678,7 @@ Tiddler
 p814
 (dp815
 g19
-VIt hurts\u000a\u000a[[Back|Kader info request]]
+VWhat do you think I'm going to tell you ?\u000a\u000aEvery single detail on a silver plate ?\u000a\u000a[[Back|Kader info request]]
 p816
 sg21
 VKader info when pain
@@ -2687,12 +2687,12 @@ sg23
 g24
 ((I2014
 I7
-I21
-I13
-I16
-I50
-I0
-I202
+I22
+I11
+I22
+I51
+I1
+I203
 I1
 tp818
 (dp819
@@ -2728,7 +2728,7 @@ Tiddler
 p829
 (dp830
 g19
-VIt hurts\u000a\u000a[[Back|Kader info request]]
+VFuck you. I told you I didn't know shit.\u000a\u000a[[Back|Kader info request]]
 p831
 sg21
 VKader info how pain
@@ -2737,12 +2737,12 @@ sg23
 g24
 ((I2014
 I7
-I21
-I13
+I22
+I10
+I45
 I16
-I59
-I0
-I202
+I1
+I203
 I1
 tp833
 (dp834
@@ -2771,14 +2771,14 @@ I00
 sg13
 (lp843
 F1624.1730528305359
-aF130.24283951353846
+aF131.49283951353846
 asg15
 (itiddlywiki
 Tiddler
 p844
 (dp845
 g19
-VIt hurts\u000a\u000a[[Back|Kader info request]]
+VFuck.\u000a\u000aI didn't think torture was still a thing in our world.\u000a\u000a[[Back|Kader info request]]
 p846
 sg21
 VKader info who pain
@@ -2787,12 +2787,12 @@ sg23
 g24
 ((I2014
 I7
-I21
-I13
-I16
-I43
-I0
-I202
+I22
+I11
+I20
+I15
+I1
+I203
 I1
 tp848
 (dp849
@@ -2828,7 +2828,7 @@ Tiddler
 p859
 (dp860
 g19
-VIt hurts.\u000a\u000a[[Back|Kader info request]]
+VIt hurts. I don't know anything.\u000a\u000a[[I don't care|Kader torture]]\u000a\u000a[[I care|Kader info where pain convo]]\u000a\u000a[[Back|Kader info request]]
 p861
 sg21
 VKader info where pain
@@ -2837,12 +2837,12 @@ sg23
 g24
 ((I2014
 I7
-I21
-I13
-I16
-I26
-I0
-I202
+I22
+I10
+I48
+I34
+I1
+I203
 I1
 tp863
 (dp864
@@ -2878,7 +2878,7 @@ Tiddler
 p874
 (dp875
 g19
-VIt will happen on Thursday at Noon.\u000a\u000a[[Back|Kader info request]]
+VAlright. It will happen on Thursday at Noon.\u000a\u000a<<set $kaderInfoFound to true>>\u000a\u000a[[Back|Kader info request]]
 p876
 sg21
 VKader info when pain 2
@@ -2887,12 +2887,12 @@ sg23
 g24
 ((I2014
 I7
-I21
-I14
-I13
-I8
-I0
-I202
+I22
+I11
+I34
+I16
+I1
+I203
 I1
 tp878
 (dp879
@@ -2928,7 +2928,7 @@ Tiddler
 p889
 (dp890
 g19
-VIt hurts a lot.\u000a\u000a[[Back|Kader info request]]
+VPlease stop.\u000a\u000a[[Back|Kader info request]]
 p891
 sg21
 VKader info how pain 2
@@ -2937,12 +2937,12 @@ sg23
 g24
 ((I2014
 I7
-I21
-I13
-I35
+I22
+I10
+I45
+I28
 I1
-I0
-I202
+I203
 I1
 tp893
 (dp894
@@ -2978,7 +2978,7 @@ Tiddler
 p904
 (dp905
 g19
-VIt hurts a lot.\u000a\u000a[[Back|Kader info request]]
+V<<nobr>>\u000a<<if $kaderInfoFound == false>>\u000aIt hurts a lot. I don't know anything.\u000a<<elseif $kaderInfoFound == true>>\u000aI've told you everything I know.\u000a<<endif>>\u000a<<endnobr>>\u000a[[Back|Kader info request]]
 p906
 sg21
 VKader info who pain 2
@@ -2987,12 +2987,12 @@ sg23
 g24
 ((I2014
 I7
-I21
-I13
-I34
-I50
-I0
-I202
+I22
+I11
+I36
+I3
+I1
+I203
 I1
 tp908
 (dp909
@@ -3028,7 +3028,7 @@ Tiddler
 p919
 (dp920
 g19
-VIt hurts a lot.\u000a\u000a[[Back|Kader info request]]
+VIt hurts a lot. I don't know anything.\u000a\u000aStop.\u000a\u000aStop.\u000a\u000a[[Back|Kader info request]]
 p921
 sg21
 VKader info where pain 2
@@ -3037,12 +3037,12 @@ sg23
 g24
 ((I2014
 I7
-I21
-I13
-I34
-I44
-I0
-I202
+I22
+I11
+I18
+I9
+I1
+I203
 I1
 tp923
 (dp924
@@ -3401,10 +3401,262 @@ tp1028
 (dp1029
 tp1030
 Rp1031
+sbsa(dp1032
+g12
+I00
+sg13
+(lp1033
+F1257.75
+aF135.5
+asg15
+(itiddlywiki
+Tiddler
+p1034
+(dp1035
+g19
+VHow would I know ?\u000a\u000aYou probably don't.\u000a\u000aI don't even know if you're the same guy as yesterday.\u000a\u000a[[Back|Kader info request]]
+p1036
+sg21
+VKader info where pain convo
+p1037
+sg23
+g24
+((I2014
+I7
+I22
+I10
+I49
+I35
+I1
+I203
+I1
+tp1038
+(dp1039
+tp1040
+Rp1041
+sg29
+(lp1042
+sg31
+g24
+((I2014
+I7
+I22
+I10
+I48
+I43
+I1
+I203
+I1
+tp1043
+(dp1044
+tp1045
+Rp1046
+sbsa(dp1047
+g12
+I00
+sg13
+(lp1048
+F1754.25
+aF6.0
+asg15
+(itiddlywiki
+Tiddler
+p1049
+(dp1050
+g19
+VI don't think so. There's a whole part of the building I don't know. I only spend my days up there, at the pinnacle of government finance.\u000a\u000aNot in some cold, dead room in Virginia like you do.\u000a\u000a[[Back|Kader info request]]
+p1051
+sg21
+VKader info where convo
+p1052
+sg23
+g24
+((I2014
+I7
+I22
+I11
+I20
+I28
+I1
+I203
+I1
+tp1053
+(dp1054
+tp1055
+Rp1056
+sg29
+(lp1057
+sg31
+g24
+((I2014
+I7
+I22
+I10
+I58
+I33
+I1
+I203
+I1
+tp1058
+(dp1059
+tp1060
+Rp1061
+sbsa(dp1062
+g12
+I00
+sg13
+(lp1063
+F11.0
+aF642.75
+asg15
+(itiddlywiki
+Tiddler
+p1064
+(dp1065
+g19
+Vmacros['clock'] = {\u000a    handler: function(place, macroName, params, parser) {\u000a	if(params <= 0){\u000a		state.history[0].passage.title = "clock out";\u000a	}\u000a    }\u000a  };
+p1066
+sg21
+Vclock
+p1067
+sg23
+g24
+((I2014
+I7
+I22
+I12
+I19
+I44
+I1
+I203
+I1
+tp1068
+(dp1069
+tp1070
+Rp1071
+sg29
+(lp1072
+Vscript
+p1073
+asg31
+g24
+((I2014
+I7
+I22
+I11
+I53
+I48
+I1
+I203
+I1
+tp1074
+(dp1075
+tp1076
+Rp1077
+sbsa(dp1078
+g12
+I00
+sg13
+(lp1079
+F642.5
+aF523.5
+asg15
+(itiddlywiki
+Tiddler
+p1080
+(dp1081
+g19
+VIt is 5:00pm.\u000a\u000aWe will see you tomorrow, Inspector.\u000a\u000a\u000a[[get a good night's sleep|end of day]]
+p1082
+sg21
+Vclock out
+p1083
+sg23
+g24
+((I2014
+I7
+I22
+I12
+I54
+I13
+I1
+I203
+I1
+tp1084
+(dp1085
+tp1086
+Rp1087
+sg29
+(lp1088
+sg31
+g24
+((I2014
+I7
+I22
+I12
+I8
+I18
+I1
+I203
+I1
+tp1089
+(dp1090
+tp1091
+Rp1092
+sbsa(dp1093
+g12
+I01
+sg13
+(lp1094
+I357
+aI385
+asg15
+(itiddlywiki
+Tiddler
+p1095
+(dp1096
+g19
+VPlease standby while the Inspection Manager logs on...\u000a\u000a/% use the timedgoto macro to change after 2 or 3 %/
+p1097
+sg21
+Vinterview hub
+p1098
+sg23
+g24
+((I2014
+I7
+I22
+I13
+I4
+I21
+I1
+I203
+I1
+tp1099
+(dp1100
+tp1101
+Rp1102
+sg29
+(lp1103
+sg31
+g24
+((I2014
+I7
+I22
+I13
+I3
+I19
+I1
+I203
+I1
+tp1104
+(dp1105
+tp1106
+Rp1107
 sbsasS'scale'
-p1032
-F0.4914718888186987
+p1108
+F0.8
 sS'snapping'
-p1033
+p1109
 I00
 ss.
