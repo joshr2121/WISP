@@ -1,0 +1,3410 @@
+(dp0
+S'buildDestination'
+p1
+VC:\u005cUsers\u005cJoshua\u005cDesktop\u005cHuis Clos.html
+p2
+sS'saveDestination'
+p3
+VC:\u005cUsers\u005cServitude\u005cDocuments\u005cGitHub\u005cWISP\u005cHuis Clos.tws
+p4
+sS'target'
+p5
+S'sugarcane'
+p6
+sS'storyPanel'
+p7
+(dp8
+S'widgets'
+p9
+(lp10
+(dp11
+S'selected'
+p12
+I00
+sS'pos'
+p13
+(lp14
+F10.0
+aF150.0
+asS'passage'
+p15
+(itiddlywiki
+Tiddler
+p16
+(dp18
+S'text'
+p19
+V           
+p20
+sS'title'
+p21
+VStoryTitle
+p22
+sS'modified'
+p23
+ctime
+struct_time
+p24
+((I2014
+I7
+I18
+I10
+I21
+I28
+I4
+I199
+I1
+tp25
+(dp26
+tp27
+Rp28
+sS'tags'
+p29
+(lp30
+sS'created'
+p31
+g24
+((I2014
+I7
+I16
+I13
+I27
+I23
+I2
+I197
+I1
+tp32
+(dp33
+tp34
+Rp35
+sbsa(dp36
+g12
+I00
+sg13
+(lp37
+F10.0
+aF290.0
+asg15
+(itiddlywiki
+Tiddler
+p38
+(dp39
+g19
+V
+p40
+sg21
+VStoryAuthor
+p41
+sg23
+g24
+((I2014
+I7
+I19
+I18
+I50
+I34
+I5
+I200
+I1
+tp42
+(dp43
+tp44
+Rp45
+sg29
+(lp46
+sg31
+g24
+((I2014
+I7
+I16
+I13
+I27
+I23
+I2
+I197
+I1
+tp47
+(dp48
+tp49
+Rp50
+sbsa(dp51
+g12
+I00
+sg13
+(lp52
+F164.0
+aF288.0
+asg15
+(itiddlywiki
+Tiddler
+p53
+(dp54
+g19
+V[[(end of day)|start day 2 or 3]]\u000a<<nobr>>\u000a<<set $day += 1>>\u000a<<endnobr>>
+p55
+sg21
+Vend of day
+p56
+sg23
+g24
+((I2014
+I7
+I16
+I14
+I51
+I32
+I2
+I197
+I1
+tp57
+(dp58
+tp59
+Rp60
+sg29
+(lp61
+sg31
+g24
+((I2014
+I7
+I16
+I13
+I28
+I51
+I2
+I197
+I1
+tp62
+(dp63
+tp64
+Rp65
+sbsa(dp66
+g12
+I00
+sg13
+(lp67
+F343.0
+aF8.0
+asg15
+(itiddlywiki
+Tiddler
+p68
+(dp69
+g19
+VDate: 10/<<print 18+$day>>/47\u000a\u000a<<nobr>>\u000a<<if $day < 3>>\u000a<<print 4-$day>> DAYS REMAINING UNTIL ANTICIPATED ATTACK\u000a<<else>>\u000a1 DAY REMAINING UNTIL ANTICIPATED ATTACK\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[Interact with Suspect 001.|Kader main hub]]\u000a\u000a[[Interact with Suspect 002.|Valerie main hub]]\u000a\u000a[[Interact with Suspect 003.|Zora main hub]]\u000a\u000a<<nobr>>\u000a<<if $day neq 3>>\u000a[[Log out for the day.|end of day]]\u000a<<else>>\u000a[[Submit your final report.|submit report]]\u000a<<endif>>\u000a<<endnobr>>
+p70
+sg21
+Vmain hub
+p71
+sg23
+g24
+((I2014
+I7
+I17
+I15
+I16
+I37
+I3
+I198
+I1
+tp72
+(dp73
+tp74
+Rp75
+sg29
+(lp76
+sg31
+g24
+((I2014
+I7
+I16
+I13
+I59
+I5
+I2
+I197
+I1
+tp77
+(dp78
+tp79
+Rp80
+sbsa(dp81
+g12
+I00
+sg13
+(lp82
+F8.75
+aF11.75
+asg15
+(itiddlywiki
+Tiddler
+p83
+(dp84
+g19
+VWelcome, Inspector.\u000a\u000aPlease click [[here|briefing]] for a briefing on the investigation.\u000a\u000aPlease click [[here|main hub]] to skip the briefing and begin the investigation.\u000a\u000a<<nobr>>\u000a<<set $day to 1>>\u000a\u000a<<set $kaderTorture to 0>>\u000a<<set $kaderTortureLimit to 2>>\u000a<<set $kaderConscious to true>>\u000a<<set $kaderSleepTotal to 0>>\u000a<<set $kaderSleepTonight to 0>>\u000a\u000a\u000a<<set $valerieTorture to 0>>\u000a<<set $valerieTortureLimit to 3>>\u000a<<set $valerieConscious to true>>\u000a<<set $valerieSleepTotal to 0>>\u000a<<set $valerieSleepTonight to 0>>\u000a\u000a<<set $zoraTorture to 0>>\u000a<<set $zoraTortureLimit to 5>>\u000a<<set $zoraConscious to true>>\u000a<<set $zoraSleepTotal to 0>>\u000a<<set $zoraSleepTonight to 0>>\u000a\u000a<<set $submittedWho to 0>>\u000a<<set $submittedWhere to 0>>\u000a<<set $submittedWhen to 0>>\u000a<<set $submittedHow to 0>>\u000a<<endnobr>>
+p85
+sg21
+VStart
+p86
+sg23
+g24
+((I2014
+I7
+I18
+I13
+I23
+I27
+I4
+I199
+I1
+tp87
+(dp88
+tp89
+Rp90
+sg29
+(lp91
+sg31
+g24
+((I2014
+I7
+I16
+I14
+I8
+I35
+I2
+I197
+I1
+tp92
+(dp93
+tp94
+Rp95
+sbsa(dp96
+g12
+I00
+sg13
+(lp97
+F166.0
+aF147.25
+asg15
+(itiddlywiki
+Tiddler
+p98
+(dp99
+g19
+VWelcome back, Inspector.\u000a\u000aPlease click [[here|main hub]] to continue the investigation.
+p100
+sg21
+Vstart day 2 or 3
+p101
+sg23
+g24
+((I2014
+I7
+I17
+I14
+I41
+I55
+I3
+I198
+I1
+tp102
+(dp103
+tp104
+Rp105
+sg29
+(lp106
+sg31
+g24
+((I2014
+I7
+I16
+I14
+I10
+I19
+I2
+I197
+I1
+tp107
+(dp108
+tp109
+Rp110
+sbsa(dp111
+g12
+I00
+sg13
+(lp112
+F12.0
+aF424.0
+asg15
+(itiddlywiki
+Tiddler
+p113
+(dp114
+g19
+VSUMMARY: The Bureau of Economic Assessment and Rehabilitation has detained 3 suspect(s) for questioning regarding anticipated terrorist attacks.\u000a\u000aREASON: In recent weeks, the New Collective terrorist organization has dramatically increased the rate of sabotage attempts and cyberattacks. The individuals detained here are under suspicion of participation or collaboration with the terrorists.\u000a\u000aOBJECTIVE: We have received intelligence that another attack will take place in 3 days, on 10/22/47. In order to prevent this, we must know the key person behind the attack, when and where it will take place, and the intended method of attack. \u000a\u000aYou will submit a report no later than 11:59 PM on 10/21/47 including each of these details. \u000a\u000aIn your report, you may also recommend 1-3 suspects to be detained permanently. As you know, Bureau regulations and national security considerations preclude the release of all detainees.\u000a\u000aPlease click [[here|program details]] to learn more about this program.\u000a\u000aPlease click [[here|main hub]] to begin the investigation.
+p115
+sg21
+Vbriefing
+p116
+sg23
+g24
+((I2014
+I7
+I18
+I9
+I34
+I44
+I4
+I199
+I1
+tp117
+(dp118
+tp119
+Rp120
+sg29
+(lp121
+sg31
+g24
+((I2014
+I7
+I16
+I15
+I43
+I25
+I2
+I197
+I1
+tp122
+(dp123
+tp124
+Rp125
+sbsa(dp126
+g12
+I00
+sg13
+(lp127
+F629.4100257069408
+aF1089.363753213368
+asg15
+(itiddlywiki
+Tiddler
+p128
+(dp129
+g19
+VSUSPECT 002\u000a\u000a[[Request information directly.|Valerie info request]]\u000a\u000a[[Speak informally with the suspect.|Valerie conversation]]\u000a\u000a[[Begin physical encouragement session.|Valerie torture]]\u000a\u000a[[Set wake-up call.|Valerie sleep]]\u000a\u000a[[Check suspect's profile.|Valerie profile]]\u000a\u000a[[Check conversation notes.|Valerie notes]]\u000a\u000a[[Back|main hub]]
+p130
+sg21
+VValerie main hub
+p131
+sg23
+g24
+((I2014
+I7
+I18
+I16
+I0
+I11
+I4
+I199
+I1
+tp132
+(dp133
+tp134
+Rp135
+sg29
+(lp136
+sg31
+g24
+((I2014
+I7
+I17
+I14
+I39
+I20
+I3
+I198
+I1
+tp137
+(dp138
+tp139
+Rp140
+sbsa(dp141
+g12
+I00
+sg13
+(lp142
+F614.8547557840616
+aF1885.3329048843202
+asg15
+(itiddlywiki
+Tiddler
+p143
+(dp144
+g19
+VSUSPECT 003\u000a\u000a[[Request information directly.|Zora info request]]\u000a\u000a[[Speak informally with the suspect.|Zora conversation]]\u000a\u000a[[Begin physical encouragement session.|Zora torture]]\u000a\u000a[[Set wake-up call.|Zora sleep]]\u000a\u000a[[Check suspect's profile.|Zora profile]]\u000a\u000a[[Check conversation notes.|Zora notes]]\u000a\u000a[[Back|main hub]]
+p145
+sg21
+VZora main hub
+p146
+sg23
+g24
+((I2014
+I7
+I18
+I16
+I0
+I21
+I4
+I199
+I1
+tp147
+(dp148
+tp149
+Rp150
+sg29
+(lp151
+sg31
+g24
+((I2014
+I7
+I17
+I14
+I39
+I20
+I3
+I198
+I1
+tp152
+(dp153
+tp154
+Rp155
+sbsa(dp156
+g12
+I00
+sg13
+(lp157
+F677.0
+aF150.0
+asg15
+(itiddlywiki
+Tiddler
+p158
+(dp159
+g19
+VSUSPECT 001\u000a\u000a[[Request information directly.|Kader info request]]\u000a\u000a[[Speak informally with the suspect.|Kader conversation]]\u000a\u000a[[Begin physical encouragement session.|Kader torture]]\u000a\u000a[[Set wake-up call.|Kader sleep]]\u000a\u000a[[Check suspect's profile.|Kader profile]]\u000a\u000a[[Check conversation notes.|Kader notes]]\u000a\u000a[[Back|main hub]]
+p160
+sg21
+VKader main hub
+p161
+sg23
+g24
+((I2014
+I7
+I18
+I15
+I59
+I51
+I4
+I199
+I1
+tp162
+(dp163
+tp164
+Rp165
+sg29
+(lp166
+sg31
+g24
+((I2014
+I7
+I17
+I14
+I39
+I20
+I3
+I198
+I1
+tp167
+(dp168
+tp169
+Rp170
+sbsa(dp171
+g12
+I00
+sg13
+(lp172
+F494.5
+aF246.75
+asg15
+(itiddlywiki
+Tiddler
+p173
+(dp174
+g19
+V[[Back|Kader main hub]]
+p175
+sg21
+VKader notes
+p176
+sg23
+g24
+((I2014
+I7
+I18
+I11
+I30
+I47
+I4
+I199
+I1
+tp177
+(dp178
+tp179
+Rp180
+sg29
+(lp181
+sg31
+g24
+((I2014
+I7
+I17
+I14
+I51
+I37
+I3
+I198
+I1
+tp182
+(dp183
+tp184
+Rp185
+sbsa(dp186
+g12
+I00
+sg13
+(lp187
+F492.5
+aF113.5
+asg15
+(itiddlywiki
+Tiddler
+p188
+(dp189
+g19
+VSUSPECT 001\u000a\u000aName: Kader Mansouri\u000aAge: 25\u000aGender: M\u000aPlace of Residence: Manhattan, NY\u000aOccupation: Analyst at New York Bureau for Wealth Reproduction\u000a\u000a[[Back|Kader main hub]]\u000a
+p190
+sg21
+VKader profile
+p191
+sg23
+g24
+((I2014
+I7
+I17
+I17
+I17
+I59
+I3
+I198
+I1
+tp192
+(dp193
+tp194
+Rp195
+sg29
+(lp196
+sg31
+g24
+((I2014
+I7
+I17
+I14
+I51
+I37
+I3
+I198
+I1
+tp197
+(dp198
+tp199
+Rp200
+sbsa(dp201
+g12
+I00
+sg13
+(lp202
+F462.6600257069408
+aF1145.363753213368
+asg15
+(itiddlywiki
+Tiddler
+p203
+(dp204
+g19
+V[[Back|Valerie main hub]]
+p205
+sg21
+VValerie notes
+p206
+sg23
+g24
+((I2014
+I7
+I18
+I11
+I30
+I52
+I4
+I199
+I1
+tp207
+(dp208
+tp209
+Rp210
+sg29
+(lp211
+sg31
+g24
+((I2014
+I7
+I17
+I14
+I52
+I36
+I3
+I198
+I1
+tp212
+(dp213
+tp214
+Rp215
+sbsa(dp216
+g12
+I00
+sg13
+(lp217
+F458.1600257069408
+aF999.613753213368
+asg15
+(itiddlywiki
+Tiddler
+p218
+(dp219
+g19
+VSUSPECT 002\u000a\u000aName: Valerie Courtois\u000aAge: 29\u000aGender: F\u000aPlace of Residence: Philadelphia, PA\u000aOccupation: PhD candidate in Statistics, University of Pennsylvania\u000a\u000a[[Back|Valerie main hub]]\u000a
+p220
+sg21
+VValerie profile
+p221
+sg23
+g24
+((I2014
+I7
+I17
+I17
+I20
+I14
+I3
+I198
+I1
+tp222
+(dp223
+tp224
+Rp225
+sg29
+(lp226
+sg31
+g24
+((I2014
+I7
+I17
+I14
+I52
+I36
+I3
+I198
+I1
+tp227
+(dp228
+tp229
+Rp230
+sbsa(dp231
+g12
+I00
+sg13
+(lp232
+F425.3547557840616
+aF1811.08290488432
+asg15
+(itiddlywiki
+Tiddler
+p233
+(dp234
+g19
+VSUSPECT 003\u000a\u000aName: Zora Emilovich\u000aAge: 37\u000aGender: F\u000aPlace of Residence: Trenton, NJ\u000aOccupation: Independent computer hardware store owner\u000a\u000a[[Back|Zora main hub]]\u000a
+p235
+sg21
+VZora profile
+p236
+sg23
+g24
+((I2014
+I7
+I17
+I17
+I19
+I57
+I3
+I198
+I1
+tp237
+(dp238
+tp239
+Rp240
+sg29
+(lp241
+sg31
+g24
+((I2014
+I7
+I17
+I14
+I53
+I18
+I3
+I198
+I1
+tp242
+(dp243
+tp244
+Rp245
+sbsa(dp246
+g12
+I00
+sg13
+(lp247
+F426.6047557840616
+aF1946.5829048843202
+asg15
+(itiddlywiki
+Tiddler
+p248
+(dp249
+g19
+V[[Back|Zora main hub]]
+p250
+sg21
+VZora notes
+p251
+sg23
+g24
+((I2014
+I7
+I18
+I11
+I30
+I57
+I4
+I199
+I1
+tp252
+(dp253
+tp254
+Rp255
+sg29
+(lp256
+sg31
+g24
+((I2014
+I7
+I17
+I14
+I53
+I18
+I3
+I198
+I1
+tp257
+(dp258
+tp259
+Rp260
+sbsa(dp261
+g12
+I00
+sg13
+(lp262
+F284.0
+aF740.0
+asg15
+(itiddlywiki
+Tiddler
+p263
+(dp264
+g19
+VAccording to your investigations, who will be the key person in the attack?\u000a\u000a[[(choice 1)|submit report where][$submittedWho = 1]]\u000a[[(choice 2)|submit report where][$submittedWho = 2]]\u000a[[(choice 3)|submit report where][$submittedWho = 3]]\u000a[[(choice 4)|submit report where][$submittedWho = 4]]\u000a
+p265
+sg21
+Vsubmit report who
+p266
+sg23
+g24
+((I2014
+I7
+I17
+I15
+I21
+I5
+I3
+I198
+I1
+tp267
+(dp268
+tp269
+Rp270
+sg29
+(lp271
+sg31
+g24
+((I2014
+I7
+I17
+I15
+I2
+I32
+I3
+I198
+I1
+tp272
+(dp273
+tp274
+Rp275
+sbsa(dp276
+g12
+I00
+sg13
+(lp277
+F286.0
+aF884.0
+asg15
+(itiddlywiki
+Tiddler
+p278
+(dp279
+g19
+VAccording to your investigations, where will the attack take place?\u000a\u000a[[(choice 1)|submit report when][$submittedWhere = 1]]\u000a[[(choice 2)|submit report when][$submittedWhere = 2]]\u000a[[(choice 3)|submit report when][$submittedWhere = 3]]\u000a[[(choice 4)|submit report when][$submittedWhere = 4]]\u000a
+p280
+sg21
+Vsubmit report where
+p281
+sg23
+g24
+((I2014
+I7
+I17
+I15
+I21
+I13
+I3
+I198
+I1
+tp282
+(dp283
+tp284
+Rp285
+sg29
+(lp286
+sg31
+g24
+((I2014
+I7
+I17
+I15
+I13
+I6
+I3
+I198
+I1
+tp287
+(dp288
+tp289
+Rp290
+sbsa(dp291
+g12
+I00
+sg13
+(lp292
+F288.0
+aF599.0
+asg15
+(itiddlywiki
+Tiddler
+p293
+(dp294
+g19
+VAre you ready to submit your final report?\u000a\u000a[[Yes.|submit report who]]\u000a\u000a[[No.|main hub]]
+p295
+sg21
+Vsubmit report
+p296
+sg23
+g24
+((I2014
+I7
+I17
+I15
+I15
+I2
+I3
+I198
+I1
+tp297
+(dp298
+tp299
+Rp300
+sg29
+(lp301
+sg31
+g24
+((I2014
+I7
+I17
+I15
+I14
+I23
+I3
+I198
+I1
+tp302
+(dp303
+tp304
+Rp305
+sbsa(dp306
+g12
+I00
+sg13
+(lp307
+F284.0
+aF1029.0
+asg15
+(itiddlywiki
+Tiddler
+p308
+(dp309
+g19
+VAccording to your investigations, when will the attack take place?\u000a\u000a[[(choice 1)|submit report how][$submittedWhen = 1]]\u000a[[(choice 2)|submit report how][$submittedWhen = 2]]\u000a[[(choice 3)|submit report how][$submittedWhen = 3]]\u000a[[(choice 4)|submit report how][$submittedWhen = 4]]\u000a
+p310
+sg21
+Vsubmit report when
+p311
+sg23
+g24
+((I2014
+I7
+I17
+I15
+I35
+I19
+I3
+I198
+I1
+tp312
+(dp313
+tp314
+Rp315
+sg29
+(lp316
+sg31
+g24
+((I2014
+I7
+I17
+I15
+I21
+I17
+I3
+I198
+I1
+tp317
+(dp318
+tp319
+Rp320
+sbsa(dp321
+g12
+I00
+sg13
+(lp322
+F289.0
+aF1172.0
+asg15
+(itiddlywiki
+Tiddler
+p323
+(dp324
+g19
+VAccording to your investigations, what will be the method of attack?\u000a\u000a[[(choice 1)|final report][$submittedHow = 1]]\u000a[[(choice 2)|final report][$submittedHow = 2]]\u000a[[(choice 3)|final report][$submittedHow = 3]]\u000a[[(choice 4)|final report][$submittedHow = 4]]
+p325
+sg21
+Vsubmit report how
+p326
+sg23
+g24
+((I2014
+I7
+I17
+I15
+I34
+I59
+I3
+I198
+I1
+tp327
+(dp328
+tp329
+Rp330
+sg29
+(lp331
+sg31
+g24
+((I2014
+I7
+I17
+I15
+I21
+I54
+I3
+I198
+I1
+tp332
+(dp333
+tp334
+Rp335
+sbsa(dp336
+g12
+I00
+sg13
+(lp337
+F288.0
+aF1313.0
+asg15
+(itiddlywiki
+Tiddler
+p338
+(dp339
+g19
+VThe following information will be submitted to the Bureau:\u000a\u000aKey person: <<print $submittedWho>>\u000aTarget location: <<print $submittedWhere>>\u000aTime of attack: <<print $submittedWhen>>\u000aMethod of attack: <<print $submittedHow>>\u000a\u000a[[Fill out the report again.|submit report who]]\u000a\u000a[[Submit report.|end 1]] By doing this, you verify that all information contained within this report is true, to the best of your knowledge. You agree to indefinite arrest should your report involve willing falsification of sensitive information.
+p340
+sg21
+Vfinal report
+p341
+sg23
+g24
+((I2014
+I7
+I17
+I15
+I34
+I37
+I3
+I198
+I1
+tp342
+(dp343
+tp344
+Rp345
+sg29
+(lp346
+sg31
+g24
+((I2014
+I7
+I17
+I15
+I22
+I45
+I3
+I198
+I1
+tp347
+(dp348
+tp349
+Rp350
+sbsa(dp351
+g12
+I00
+sg13
+(lp352
+F285.0
+aF1463.0
+asg15
+(itiddlywiki
+Tiddler
+p353
+(dp354
+g19
+g40
+sg21
+Vend 1
+p355
+sg23
+g24
+((I2014
+I7
+I17
+I15
+I33
+I3
+I3
+I198
+I1
+tp356
+(dp357
+tp358
+Rp359
+sg29
+(lp360
+sg31
+g359
+sbsa(dp361
+g12
+I00
+sg13
+(lp362
+F13.25
+aF784.75
+asg15
+(itiddlywiki
+Tiddler
+p363
+(dp364
+g19
+Vbody {\u000a background-image: [img[stripes_grey2.png]];\u000a background-color: white;\u000a}\u000a\u000a@font-face{ \u000a  font-family: 'SofiaProLight-webfont';\u000a  src: url('SofiaProLight-webfont.eot');\u000a  src: url('WebFont.eot?#iefix') format('embedded-opentype'),\u000a       url('SofiaProLight-webfont.woff') format('woff'),\u000a       url('SofiaProLight-webfont.ttf') format('truetype'),\u000a       url('WebFont.svg#webfont') format('svg');\u000a\u000a}\u000a\u000a#sidebar{\u000a  position: absolute;\u000a  top: 0px;\u000a  left: 0px;\u000a  width: 99%;\u000a  height: 13%;\u000a  overflow-x: hidden;\u000a  background-color: white;\u000a  border-bottom: solid black 1px;\u000a}\u000a\u000a#sidebar *{\u000a  color: black;\u000a  font-size:22px;\u000a  background-color: transparent;\u000a  display:inline !important;\u000a}\u000a\u000a#storyAuthor { /*code for the formatting of B.E.A.R*/\u000a  font-size: 200%;\u000a  text-align: center;\u000a  height: 10px;\u000a  line-height: 10px;\u000a  margin_top: 0px;\u000a}\u000a\u000a#storyTitle{\u000a  background-color: transparent;\u000a  margin-left: 23%;\u000a  content: url(banner.png);\u000a}\u000a\u000a#credits, #share, #bookmark, #restart, #titleSeparator, #sidebar li br {\u000a  display:none !important;\u000a}\u000a\u000a/*PASSAGES*/\u000a\u000a#passages{\u000a  margin: 0;\u000a  padding: 0;\u000a  border:0;\u000a}\u000a\u000a.passage, #sidebar * {\u000a  font-family: SofiaProLight-webfont, Geneva, "Helvetica Neue", Helvetica, sans-serif;\u000a  color: black;\u000a  text-align:left;\u000a}\u000a\u000a.passage {\u000a  border-radius: 0.2em;\u000a  margin-top: 15%;\u000a  margin-left: 20%;\u000a  margin-right: 20%;\u000a  margin-bottom: 40px;\u000a  width: 60%;\u000a  padding: 2em;\u000a  font-size:1.5rem;\u000a\u000a  background-color:white;\u000a  border-left: 1px solid black;\u000a  border-right: 1px solid black;\u000a  border-bottom: 1px dashed black;\u000a  border-top: 1px dashed black;\u000a}\u000a\u000a.passage a{\u000a  color: grey;\u000a}\u000a\u000a.passage a:hover{\u000a  color: black;\u000a}
+p365
+sg21
+VMain Stylesheet
+p366
+sg23
+g24
+((I2014
+I7
+I19
+I18
+I50
+I17
+I5
+I200
+I1
+tp367
+(dp368
+tp369
+Rp370
+sg29
+(lp371
+Vstylesheet
+p372
+asg31
+g24
+((I2014
+I7
+I17
+I15
+I59
+I55
+I3
+I198
+I1
+tp373
+(dp374
+tp375
+Rp376
+sbsa(dp377
+g12
+I00
+sg13
+(lp378
+F645.75
+aF292.0
+asg15
+(itiddlywiki
+Tiddler
+p379
+(dp380
+g19
+VBureau humanitarian regulations require that suspects be permitted to sleep at 10:00 PM. At what time would you like to issue a mandatory ongoing wake-up call?\u000a\u000a[[10:01 PM|Kader sleep confirmed][$kaderSleepTonight = 0]]\u000a[[11:00 PM|Kader sleep confirmed][$kaderSleepTonight = 1]]\u000a[[12:00 AM|Kader sleep confirmed][$kaderSleepTonight = 2]]\u000a[[1:00 AM|Kader sleep confirmed][$kaderSleepTonight = 3]]\u000a[[2:00 AM|Kader sleep confirmed][$kaderSleepTonight = 4]]\u000a[[3:00 AM|Kader sleep confirmed][$kaderSleepTonight = 5]]\u000a[[4:00 AM|Kader sleep confirmed][$kaderSleepTonight = 6]]\u000a[[5:00 AM|Kader sleep confirmed][$kaderSleepTonight = 7]]\u000a[[6:00 AM|Kader sleep confirmed][$kaderSleepTonight = 8]]
+p381
+sg21
+VKader sleep
+p382
+sg23
+g24
+((I2014
+I7
+I17
+I17
+I46
+I54
+I3
+I198
+I1
+tp383
+(dp384
+tp385
+Rp386
+sg29
+(lp387
+sg31
+g24
+((I2014
+I7
+I17
+I17
+I27
+I32
+I3
+I198
+I1
+tp388
+(dp389
+tp390
+Rp391
+sbsa(dp392
+g12
+I00
+sg13
+(lp393
+F680.5563701916072
+aF13.756519274376409
+asg15
+(itiddlywiki
+Tiddler
+p394
+(dp395
+g19
+V<<nobr>>\u000a<<if $kaderTorture < $kaderTortureLimit>>\u000aSuspect's vital signs indicate the capacity to undergo further physical encouragement.\u000a<<else if $kaderTorture == $kaderTortureLimit>>\u000aSuspect's vital signs suggest that further physical encouragement is not recommended for today.\u000a<<else>>\u000aSuspect's vital signs indicate lack of consciousness. This renders further physical encouragement ineffective for today.\u000a<<endif>>\u000a<<endnobr>>\u000a<<if $kaderTorture <= $kaderTortureLimit>>\u000a[[Begin physical encouragement session.|Kader torture][ $kaderTorture += 1]]\u000a<<else>>\u005c\u000a<<endif>>\u000a[[End physical encouragement.|Kader main hub]]
+p396
+sg21
+VKader torture
+p397
+sg23
+g24
+((I2014
+I7
+I18
+I13
+I38
+I26
+I4
+I199
+I1
+tp398
+(dp399
+tp400
+Rp401
+sg29
+(lp402
+sg31
+g24
+((I2014
+I7
+I17
+I17
+I27
+I32
+I3
+I198
+I1
+tp403
+(dp404
+tp405
+Rp406
+sbsa(dp407
+g12
+I00
+sg13
+(lp408
+F945.0873967882524
+aF573.8873163043444
+asg15
+(itiddlywiki
+Tiddler
+p409
+(dp410
+g19
+V<<nobr>>\u000a<<if $kaderTorture = 0>>\u000a[[Convo subject 1|Convo subject 1]]\u000a\u000a[[Convo subject 2|Convo subject 2]]\u000a<<elseif $kaderTorture = 1>>\u000a[[Convo subject 1|Convo subject 3]]\u000a\u000a[[Convo subject 2|Convo subject 4]]\u000a<<elseif $kaderTorture = 2>>\u000a[[Convo subject 1|Convo subject 5]]\u000a<<elseif $kaderTorture = 3>>\u000aI'm sorry, Suspect seemed to have fainted. Come back tomorrow after emergency treatment. (ooooh! maybe the player could have the option to call emergency treatment or not ?)\u000a<<endif>>\u000a<<nobr>>\u000a\u000a[[Back|Kader main hub]]
+p411
+sg21
+VKader conversation
+p412
+sg23
+g24
+((I2014
+I7
+I21
+I15
+I36
+I20
+I0
+I202
+I1
+tp413
+(dp414
+tp415
+Rp416
+sg29
+(lp417
+sg31
+g24
+((I2014
+I7
+I17
+I17
+I27
+I32
+I3
+I198
+I1
+tp418
+(dp419
+tp420
+Rp421
+sbsa(dp422
+g12
+I01
+sg13
+(lp423
+F948.1282596371882
+aF73.87825963718821
+asg15
+(itiddlywiki
+Tiddler
+p424
+(dp425
+g19
+V<<if $kaderTorture == 0>>\u000a[[Ask nicely about the key person in the attack.|Kader info who]]\u000a\u000a[[Ask about the target location.|Kader info where]]\u000a\u000a[[Ask what time the attack will take place.|Kader info when]]\u000a\u000a[[Ask about the intended method of attack.|Kader info how]]\u000a\u000a\u000a<<elseif $kaderTorture == 1>>\u000a[[Ask not so nicely about the key person in the attack.|Kader info who pain]]\u000a\u000a[[Ask about the target location.|Kader info where pain]]\u000a\u000a[[Ask what time the attack will take place.|Kader info when pain]]\u000a\u000a[[Ask about the intended method of attack.|Kader info how pain]]\u000a\u000a\u000a<<elseif $kaderTorture == 2>>\u000a[[Ask harshly about the key person in the attack.|Kader info who pain 2]]\u000a\u000a[[Ask about the target location.|Kader info where pain 2]]\u000a\u000a[[Ask what time the attack will take place.|Kader info when pain 2]]\u000a\u000a[[Ask about the intended method of attack.|Kader info how pain 2]]\u000a<<elseif $kaderTorture >= 3>>\u000aThe detainee's vital signals are indicating unconsciouscness.\u000a\u000aRequest medical assistance ?\u000a<<endif>>\u000a\u000a\u000a[[Back|Kader main hub]]
+p426
+sg21
+VKader info request
+p427
+sg23
+g24
+((I2014
+I7
+I21
+I15
+I51
+I20
+I0
+I202
+I1
+tp428
+(dp429
+tp430
+Rp431
+sg29
+(lp432
+sg31
+g24
+((I2014
+I7
+I17
+I17
+I27
+I32
+I3
+I198
+I1
+tp433
+(dp434
+tp435
+Rp436
+sbsa(dp437
+g12
+I00
+sg13
+(lp438
+F593.1600257069408
+aF1230.863753213368
+asg15
+(itiddlywiki
+Tiddler
+p439
+(dp440
+g19
+VBureau humanitarian regulations require that suspects be permitted to sleep at 10:00 PM. At what time would you like to issue a mandatory ongoing wake-up call?\u000a\u000a[[10:01 PM|Valerie sleep confirmed][$valerieSleepTonight = 0]]\u000a[[11:00 PM|Valerie sleep confirmed][$valerieSleepTonight = 1]]\u000a[[12:00 AM|Valerie sleep confirmed][$valerieSleepTonight = 2]]\u000a[[1:00 AM|Valerie sleep confirmed][$valerieSleepTonight = 3]]\u000a[[2:00 AM|Valerie sleep confirmed][$valerieSleepTonight = 4]]\u000a[[3:00 AM|Valerie sleep confirmed][$valerieSleepTonight = 5]]\u000a[[4:00 AM|Valerie sleep confirmed][$valerieSleepTonight = 6]]\u000a[[5:00 AM|Valerie sleep confirmed][$valerieSleepTonight = 7]]\u000a[[6:00 AM|Valerie sleep confirmed][$valerieSleepTonight = 8]]
+p441
+sg21
+VValerie sleep
+p442
+sg23
+g24
+((I2014
+I7
+I17
+I17
+I50
+I42
+I3
+I198
+I1
+tp443
+(dp444
+tp445
+Rp446
+sg29
+(lp447
+sg31
+g24
+((I2014
+I7
+I17
+I17
+I28
+I58
+I3
+I198
+I1
+tp448
+(dp449
+tp450
+Rp451
+sbsa(dp452
+g12
+I00
+sg13
+(lp453
+F935.6182519280205
+aF1136.26028277635
+asg15
+(itiddlywiki
+Tiddler
+p454
+(dp455
+g19
+V[[Back|Valerie main hub]]
+p456
+sg21
+VValerie conversation
+p457
+sg23
+g24
+((I2014
+I7
+I18
+I11
+I55
+I24
+I4
+I199
+I1
+tp458
+(dp459
+tp460
+Rp461
+sg29
+(lp462
+sg31
+g24
+((I2014
+I7
+I17
+I17
+I28
+I58
+I3
+I198
+I1
+tp463
+(dp464
+tp465
+Rp466
+sbsa(dp467
+g12
+I00
+sg13
+(lp468
+F633.4100257069408
+aF942.363753213368
+asg15
+(itiddlywiki
+Tiddler
+p469
+(dp470
+g19
+V<<nobr>>\u000a<<if $valerieTorture < $valerieTortureLimit>>\u000aSuspect's vital signs indicate the capacity to undergo further physical encouragement.\u000a<<else if $valerieTorture == $valerieTortureLimit>>\u000aSuspect's vital signs suggest that further physical encouragement is not recommended for today.\u000a<<else>>\u000aSuspect's vital signs indicate lack of consciousness. This renders further physical encouragement ineffective for today.\u000a<<endif>>\u000a<<endnobr>>\u000a<<if $valerieTorture <= $valerieTortureLimit>>\u000a[[Begin physical encouragement session.|Valerie torture][ $valerieTorture += 1]]\u000a<<else>>\u005c\u000a<<endif>>\u000a[[End physical encouragement.|Valerie main hub]]
+p471
+sg21
+VValerie torture
+p472
+sg23
+g24
+((I2014
+I7
+I18
+I13
+I40
+I2
+I4
+I199
+I1
+tp473
+(dp474
+tp475
+Rp476
+sg29
+(lp477
+sg31
+g24
+((I2014
+I7
+I17
+I17
+I28
+I58
+I3
+I198
+I1
+tp478
+(dp479
+tp480
+Rp481
+sbsa(dp482
+g12
+I00
+sg13
+(lp483
+F936.2258711496539
+aF1005.6831313054929
+asg15
+(itiddlywiki
+Tiddler
+p484
+(dp485
+g19
+V[[Ask about the key person in the attack.|Valerie info who]]\u000a\u000a[[Ask about the target location.|Valerie info where]]\u000a\u000a[[Ask what time the attack will take place.|Valerie info when]]\u000a\u000a[[Ask about the intended method of attack.|Valerie info how]]\u000a\u000a[[Back|Valerie main hub]]
+p486
+sg21
+VValerie info request
+p487
+sg23
+g24
+((I2014
+I7
+I18
+I11
+I53
+I58
+I4
+I199
+I1
+tp488
+(dp489
+tp490
+Rp491
+sg29
+(lp492
+sg31
+g24
+((I2014
+I7
+I17
+I17
+I28
+I58
+I3
+I198
+I1
+tp493
+(dp494
+tp495
+Rp496
+sbsa(dp497
+g12
+I00
+sg13
+(lp498
+F879.0629820051413
+aF1693.979434447302
+asg15
+(itiddlywiki
+Tiddler
+p499
+(dp500
+g19
+V[[Ask about the key person in the attack.|Zora info who]]\u000a\u000a[[Ask about the target location.|Zora info where]]\u000a\u000a[[Ask what time the attack will take place.|Zora info when]]\u000a\u000a[[Ask about the intended method of attack.|Zora info how]]\u000a\u000a[[Back|Zora main hub]]
+p501
+sg21
+VZora info request
+p502
+sg23
+g24
+((I2014
+I7
+I18
+I11
+I54
+I4
+I4
+I199
+I1
+tp503
+(dp504
+tp505
+Rp506
+sg29
+(lp507
+sg31
+g24
+((I2014
+I7
+I17
+I17
+I30
+I53
+I3
+I198
+I1
+tp508
+(dp509
+tp510
+Rp511
+sbsa(dp512
+g12
+I00
+sg13
+(lp513
+F616.8894601542415
+aF1735.26349614396
+asg15
+(itiddlywiki
+Tiddler
+p514
+(dp515
+g19
+V<<nobr>>\u000a<<if $zoraTorture < $zoraTortureLimit>>\u000aSuspect's vital signs indicate the capacity to undergo further physical encouragement.\u000a<<else if $zoraTorture == $zoraTortureLimit>>\u000aSuspect's vital signs suggest that further physical encouragement is not recommended for today.\u000a<<else>>\u000aSuspect's vital signs indicate lack of consciousness. This renders further physical encouragement ineffective for today.\u000a<<endif>>\u000a<<endnobr>>\u000a<<if $zoraTorture <= $zoraTortureLimit>>\u000a[[Begin physical encouragement session.|Zora torture][ $zoraTorture += 1]]\u000a<<else>>\u005c\u000a<<endif>>\u000a[[End physical encouragement.|Zora main hub]]
+p516
+sg21
+VZora torture
+p517
+sg23
+g24
+((I2014
+I7
+I18
+I13
+I40
+I25
+I4
+I199
+I1
+tp518
+(dp519
+tp520
+Rp521
+sg29
+(lp522
+sg31
+g24
+((I2014
+I7
+I17
+I17
+I30
+I53
+I3
+I198
+I1
+tp523
+(dp524
+tp525
+Rp526
+sbsa(dp527
+g12
+I00
+sg13
+(lp528
+F880.2869049076357
+aF1866.229434447302
+asg15
+(itiddlywiki
+Tiddler
+p529
+(dp530
+g19
+V[[Back|Zora main hub]]
+p531
+sg21
+VZora conversation
+p532
+sg23
+g24
+((I2014
+I7
+I18
+I11
+I55
+I31
+I4
+I199
+I1
+tp533
+(dp534
+tp535
+Rp536
+sg29
+(lp537
+sg31
+g24
+((I2014
+I7
+I17
+I17
+I30
+I53
+I3
+I198
+I1
+tp538
+(dp539
+tp540
+Rp541
+sbsa(dp542
+g12
+I00
+sg13
+(lp543
+F573.1047557840616
+aF2026.8329048843202
+asg15
+(itiddlywiki
+Tiddler
+p544
+(dp545
+g19
+VBureau humanitarian regulations require that suspects be permitted to sleep at 10:00 PM. At what time would you like to issue a mandatory ongoing wake-up call?\u000a\u000a[[10:01 PM|Zora sleep confirmed][$zoraSleepTonight = 0]]\u000a[[11:00 PM|Zora sleep confirmed][$zoraSleepTonight = 1]]\u000a[[12:00 AM|Zora sleep confirmed][$zoraSleepTonight = 2]]\u000a[[1:00 AM|Zora sleep confirmed][$zoraSleepTonight = 3]]\u000a[[2:00 AM|Zora sleep confirmed][$zoraSleepTonight = 4]]\u000a[[3:00 AM|Zora sleep confirmed][$zoraSleepTonight = 5]]\u000a[[4:00 AM|Zora sleep confirmed][$zoraSleepTonight = 6]]\u000a[[5:00 AM|Zora sleep confirmed][$zoraSleepTonight = 7]]\u000a[[6:00 AM|Zora sleep confirmed][$zoraSleepTonight = 8]]
+p546
+sg21
+VZora sleep
+p547
+sg23
+g24
+((I2014
+I7
+I17
+I17
+I51
+I45
+I3
+I198
+I1
+tp548
+(dp549
+tp550
+Rp551
+sg29
+(lp552
+sg31
+g24
+((I2014
+I7
+I17
+I17
+I30
+I53
+I3
+I198
+I1
+tp553
+(dp554
+tp555
+Rp556
+sbsa(dp557
+g12
+I00
+sg13
+(lp558
+F783.25
+aF288.5
+asg15
+(itiddlywiki
+Tiddler
+p559
+(dp560
+g19
+VSuspect 001 will receive a wake-up call after <<print $kaderSleepTonight>> hour(s) of sleep.\u000a\u000a[[Back|Kader main hub]]
+p561
+sg21
+VKader sleep confirmed
+p562
+sg23
+g24
+((I2014
+I7
+I17
+I17
+I48
+I59
+I3
+I198
+I1
+tp563
+(dp564
+tp565
+Rp566
+sg29
+(lp567
+sg31
+g24
+((I2014
+I7
+I17
+I17
+I46
+I59
+I3
+I198
+I1
+tp568
+(dp569
+tp570
+Rp571
+sbsa(dp572
+g12
+I00
+sg13
+(lp573
+F732.4100257069408
+aF1232.363753213368
+asg15
+(itiddlywiki
+Tiddler
+p574
+(dp575
+g19
+VSuspect 002 will receive a wake-up call after <<print $valerieSleepTonight>> hour(s) of sleep.\u000a\u000a[[Back|Valerie main hub]]
+p576
+sg21
+VValerie sleep confirmed
+p577
+sg23
+g24
+((I2014
+I7
+I17
+I17
+I51
+I14
+I3
+I198
+I1
+tp578
+(dp579
+tp580
+Rp581
+sg29
+(lp582
+sg31
+g24
+((I2014
+I7
+I17
+I17
+I50
+I47
+I3
+I198
+I1
+tp583
+(dp584
+tp585
+Rp586
+sbsa(dp587
+g12
+I00
+sg13
+(lp588
+F708.6047557840616
+aF2025.3329048843202
+asg15
+(itiddlywiki
+Tiddler
+p589
+(dp590
+g19
+VSuspect 003 will receive a wake-up call after <<print $zoraSleepTonight>> hour(s) of sleep.\u000a\u000a[[Back|Zora main hub]]
+p591
+sg21
+VZora sleep confirmed
+p592
+sg23
+g24
+((I2014
+I7
+I17
+I17
+I52
+I2
+I3
+I198
+I1
+tp593
+(dp594
+tp595
+Rp596
+sg29
+(lp597
+sg31
+g24
+((I2014
+I7
+I17
+I17
+I51
+I48
+I3
+I198
+I1
+tp598
+(dp599
+tp600
+Rp601
+sbsa(dp602
+g12
+I00
+sg13
+(lp603
+F163.25
+aF421.25
+asg15
+(itiddlywiki
+Tiddler
+p604
+(dp605
+g19
+VProgram version: 5.0.61a\u000a\u000aThe Bureau Inspection Interface was designed to optimize information gathering efficiency and provide maximum physical and moral protection for Inspectors. It facilitates all investigative techniques learned during Inspector training, including direct and indirect questioning, sleep remission, and physical encouragement procedures.\u000a\u000aThe BII converts questions typed by the Inspector into speech within the suspect's cell. The suspect's speech is recorded by hidden microphones and converted into text for the Inspector. This minimizes extraneous information from nonverbal cues such as tone of voice and body language, and permits oversight and analysis of all Inspector-suspect interactions.\u000a\u000aPlease click [[here|main hub]] to begin the investigation.
+p606
+sg21
+Vprogram details
+p607
+sg23
+g24
+((I2014
+I7
+I18
+I9
+I41
+I56
+I4
+I199
+I1
+tp608
+(dp609
+tp610
+Rp611
+sg29
+(lp612
+sg31
+g24
+((I2014
+I7
+I18
+I9
+I34
+I46
+I4
+I199
+I1
+tp613
+(dp614
+tp615
+Rp616
+sbsa(dp617
+g12
+I00
+sg13
+(lp618
+F2151.6288084406556
+aF8.672280465184944
+asg15
+(itiddlywiki
+Tiddler
+p619
+(dp620
+g19
+VI don't know.\u000a\u000a[[Back|Kader info request]]
+p621
+sg21
+VKader info when
+p622
+sg23
+g24
+((I2014
+I7
+I18
+I12
+I58
+I7
+I4
+I199
+I1
+tp623
+(dp624
+tp625
+Rp626
+sg29
+(lp627
+sg31
+g24
+((I2014
+I7
+I18
+I11
+I51
+I45
+I4
+I199
+I1
+tp628
+(dp629
+tp630
+Rp631
+sbsa(dp632
+g12
+I00
+sg13
+(lp633
+F2676.692114697177
+aF2.559398358614878
+asg15
+(itiddlywiki
+Tiddler
+p634
+(dp635
+g19
+VI don't know.\u000a\u000a[[Back|Kader info request]]
+p636
+sg21
+VKader info how
+p637
+sg23
+g24
+((I2014
+I7
+I21
+I13
+I35
+I25
+I0
+I202
+I1
+tp638
+(dp639
+tp640
+Rp641
+sg29
+(lp642
+sg31
+g24
+((I2014
+I7
+I18
+I11
+I51
+I45
+I4
+I199
+I1
+tp643
+(dp644
+tp645
+Rp646
+sbsa(dp647
+g12
+I00
+sg13
+(lp648
+F1121.8404706333802
+aF8.18563816473438
+asg15
+(itiddlywiki
+Tiddler
+p649
+(dp650
+g19
+VI don't know.\u000a\u000a[[Threaten|Kader info who threat]]\u000a\u000a[[Back|Kader info request]]
+p651
+sg21
+VKader info who
+p652
+sg23
+g24
+((I2014
+I7
+I21
+I13
+I7
+I30
+I0
+I202
+I1
+tp653
+(dp654
+tp655
+Rp656
+sg29
+(lp657
+sg31
+g24
+((I2014
+I7
+I18
+I11
+I51
+I45
+I4
+I199
+I1
+tp658
+(dp659
+tp660
+Rp661
+sbsa(dp662
+g12
+I00
+sg13
+(lp663
+F1625.4349928252916
+aF3.8986840729006236
+asg15
+(itiddlywiki
+Tiddler
+p664
+(dp665
+g19
+VI don't know.\u000a\u000a[[Back|Kader info request]]
+p666
+sg21
+VKader info where
+p667
+sg23
+g24
+((I2014
+I7
+I18
+I12
+I58
+I4
+I4
+I199
+I1
+tp668
+(dp669
+tp670
+Rp671
+sg29
+(lp672
+sg31
+g24
+((I2014
+I7
+I18
+I11
+I51
+I45
+I4
+I199
+I1
+tp673
+(dp674
+tp675
+Rp676
+sbsa(dp677
+g12
+I00
+sg13
+(lp678
+F1511.336131920628
+aF1009.3921732556064
+asg15
+(itiddlywiki
+Tiddler
+p679
+(dp680
+g19
+VI have no idea.\u000a\u000a[[Back|Valerie info request]]
+p681
+sg21
+VValerie info how
+p682
+sg23
+g24
+((I2014
+I7
+I18
+I12
+I58
+I34
+I4
+I199
+I1
+tp683
+(dp684
+tp685
+Rp686
+sg29
+(lp687
+sg31
+g24
+((I2014
+I7
+I18
+I11
+I52
+I23
+I4
+I199
+I1
+tp688
+(dp689
+tp690
+Rp691
+sbsa(dp692
+g12
+I00
+sg13
+(lp693
+F1372.4578722834406
+aF1009.3921732556062
+asg15
+(itiddlywiki
+Tiddler
+p694
+(dp695
+g19
+VI have no idea.\u000a\u000a[[Back|Valerie info request]]
+p696
+sg21
+VValerie info when
+p697
+sg23
+g24
+((I2014
+I7
+I18
+I12
+I58
+I27
+I4
+I199
+I1
+tp698
+(dp699
+tp700
+Rp701
+sg29
+(lp702
+sg31
+g24
+((I2014
+I7
+I18
+I11
+I52
+I23
+I4
+I199
+I1
+tp703
+(dp704
+tp705
+Rp706
+sbsa(dp707
+g12
+I00
+sg13
+(lp708
+F1230.2143915578172
+aF1006.0269521671707
+asg15
+(itiddlywiki
+Tiddler
+p709
+(dp710
+g19
+VI have no idea.\u000a\u000a[[Back|Valerie info request]]
+p711
+sg21
+VValerie info where
+p712
+sg23
+g24
+((I2014
+I7
+I18
+I12
+I58
+I21
+I4
+I199
+I1
+tp713
+(dp714
+tp715
+Rp716
+sg29
+(lp717
+sg31
+g24
+((I2014
+I7
+I18
+I11
+I52
+I23
+I4
+I199
+I1
+tp718
+(dp719
+tp720
+Rp721
+sbsa(dp722
+g12
+I00
+sg13
+(lp723
+F1095.6055480204013
+aF1006.2444975186447
+asg15
+(itiddlywiki
+Tiddler
+p724
+(dp725
+g19
+VI have no idea.\u000a\u000a[[Back|Valerie info request]]
+p726
+sg21
+VValerie info who
+p727
+sg23
+g24
+((I2014
+I7
+I18
+I12
+I58
+I16
+I4
+I199
+I1
+tp728
+(dp729
+tp730
+Rp731
+sg29
+(lp732
+sg31
+g24
+((I2014
+I7
+I18
+I11
+I52
+I23
+I4
+I199
+I1
+tp733
+(dp734
+tp735
+Rp736
+sbsa(dp737
+g12
+I00
+sg13
+(lp738
+F1142.8206350663659
+aF1689.093805195601
+asg15
+(itiddlywiki
+Tiddler
+p739
+(dp740
+g19
+VI don't know. I don't know anything.\u000a\u000a[[Back|Zora info request]]
+p741
+sg21
+VZora info where
+p742
+sg23
+g24
+((I2014
+I7
+I18
+I12
+I58
+I49
+I4
+I199
+I1
+tp743
+(dp744
+tp745
+Rp746
+sg29
+(lp747
+sg31
+g24
+((I2014
+I7
+I18
+I11
+I52
+I53
+I4
+I199
+I1
+tp748
+(dp749
+tp750
+Rp751
+sbsa(dp752
+g12
+I00
+sg13
+(lp753
+F1009.2030046808784
+aF1689.9980002069397
+asg15
+(itiddlywiki
+Tiddler
+p754
+(dp755
+g19
+VI don't know. I don't know anything.\u000a\u000a[[Back|Zora info request]]
+p756
+sg21
+VZora info who
+p757
+sg23
+g24
+((I2014
+I7
+I18
+I12
+I58
+I43
+I4
+I199
+I1
+tp758
+(dp759
+tp760
+Rp761
+sg29
+(lp762
+sg31
+g24
+((I2014
+I7
+I18
+I11
+I52
+I53
+I4
+I199
+I1
+tp763
+(dp764
+tp765
+Rp766
+sbsa(dp767
+g12
+I00
+sg13
+(lp768
+F1276.1772110300835
+aF1690.9021952182768
+asg15
+(itiddlywiki
+Tiddler
+p769
+(dp770
+g19
+VI don't know. I don't know anything.\u000a\u000a[[Back|Zora info request]]
+p771
+sg21
+VZora info when
+p772
+sg23
+g24
+((I2014
+I7
+I18
+I12
+I58
+I53
+I4
+I199
+I1
+tp773
+(dp774
+tp775
+Rp776
+sg29
+(lp777
+sg31
+g24
+((I2014
+I7
+I18
+I11
+I52
+I53
+I4
+I199
+I1
+tp778
+(dp779
+tp780
+Rp781
+sbsa(dp782
+g12
+I00
+sg13
+(lp783
+F1414.151275655936
+aF1690.6846498668028
+asg15
+(itiddlywiki
+Tiddler
+p784
+(dp785
+g19
+VI don't know. I don't know anything.\u000a\u000a[[Back|Zora info request]]
+p786
+sg21
+VZora info how
+p787
+sg23
+g24
+((I2014
+I7
+I18
+I12
+I58
+I57
+I4
+I199
+I1
+tp788
+(dp789
+tp790
+Rp791
+sg29
+(lp792
+sg31
+g24
+((I2014
+I7
+I18
+I11
+I52
+I53
+I4
+I199
+I1
+tp793
+(dp794
+tp795
+Rp796
+sbsa(dp797
+g12
+I00
+sg13
+(lp798
+F1259.2557840616985
+aF7.903793664340526
+asg15
+(itiddlywiki
+Tiddler
+p799
+(dp800
+g19
+VI'm not scared.\u000a\u000a[[you should be|Kader info who threat 2]]\u000a\u000a[[Back|Kader info request]]
+p801
+sg21
+VKader info who threat
+p802
+sg23
+g24
+((I2014
+I7
+I21
+I15
+I43
+I57
+I0
+I202
+I1
+tp803
+(dp804
+tp805
+Rp806
+sg29
+(lp807
+sg31
+g24
+((I2014
+I7
+I21
+I13
+I7
+I36
+I0
+I202
+I1
+tp808
+(dp809
+tp810
+Rp811
+sbsa(dp812
+g12
+I00
+sg13
+(lp813
+F2145.67989963524
+aF132.76418618416895
+asg15
+(itiddlywiki
+Tiddler
+p814
+(dp815
+g19
+VIt hurts\u000a\u000a[[Back|Kader info request]]
+p816
+sg21
+VKader info when pain
+p817
+sg23
+g24
+((I2014
+I7
+I21
+I13
+I16
+I50
+I0
+I202
+I1
+tp818
+(dp819
+tp820
+Rp821
+sg29
+(lp822
+sg31
+g24
+((I2014
+I7
+I18
+I11
+I51
+I45
+I4
+I199
+I1
+tp823
+(dp824
+tp825
+Rp826
+sbsa(dp827
+g12
+I00
+sg13
+(lp828
+F2678.8820233724814
+aF122.58189533723896
+asg15
+(itiddlywiki
+Tiddler
+p829
+(dp830
+g19
+VIt hurts\u000a\u000a[[Back|Kader info request]]
+p831
+sg21
+VKader info how pain
+p832
+sg23
+g24
+((I2014
+I7
+I21
+I13
+I16
+I59
+I0
+I202
+I1
+tp833
+(dp834
+tp835
+Rp836
+sg29
+(lp837
+sg31
+g24
+((I2014
+I7
+I18
+I11
+I51
+I45
+I4
+I199
+I1
+tp838
+(dp839
+tp840
+Rp841
+sbsa(dp842
+g12
+I00
+sg13
+(lp843
+F1624.1730528305359
+aF130.24283951353846
+asg15
+(itiddlywiki
+Tiddler
+p844
+(dp845
+g19
+VIt hurts\u000a\u000a[[Back|Kader info request]]
+p846
+sg21
+VKader info who pain
+p847
+sg23
+g24
+((I2014
+I7
+I21
+I13
+I16
+I43
+I0
+I202
+I1
+tp848
+(dp849
+tp850
+Rp851
+sg29
+(lp852
+sg31
+g24
+((I2014
+I7
+I18
+I11
+I51
+I45
+I4
+I199
+I1
+tp853
+(dp854
+tp855
+Rp856
+sbsa(dp857
+g12
+I00
+sg13
+(lp858
+F1120.8922536856858
+aF131.4714845512479
+asg15
+(itiddlywiki
+Tiddler
+p859
+(dp860
+g19
+VIt hurts.\u000a\u000a[[Back|Kader info request]]
+p861
+sg21
+VKader info where pain
+p862
+sg23
+g24
+((I2014
+I7
+I21
+I13
+I16
+I26
+I0
+I202
+I1
+tp863
+(dp864
+tp865
+Rp866
+sg29
+(lp867
+sg31
+g24
+((I2014
+I7
+I18
+I11
+I51
+I45
+I4
+I199
+I1
+tp868
+(dp869
+tp870
+Rp871
+sbsa(dp872
+g12
+I00
+sg13
+(lp873
+F2149.215620446494
+aF259.4793102543297
+asg15
+(itiddlywiki
+Tiddler
+p874
+(dp875
+g19
+VIt will happen on Thursday at Noon.\u000a\u000a[[Back|Kader info request]]
+p876
+sg21
+VKader info when pain 2
+p877
+sg23
+g24
+((I2014
+I7
+I21
+I14
+I13
+I8
+I0
+I202
+I1
+tp878
+(dp879
+tp880
+Rp881
+sg29
+(lp882
+sg31
+g24
+((I2014
+I7
+I18
+I11
+I51
+I45
+I4
+I199
+I1
+tp883
+(dp884
+tp885
+Rp886
+sbsa(dp887
+g12
+I00
+sg13
+(lp888
+F2683.8639345729184
+aF246.08528707522635
+asg15
+(itiddlywiki
+Tiddler
+p889
+(dp890
+g19
+VIt hurts a lot.\u000a\u000a[[Back|Kader info request]]
+p891
+sg21
+VKader info how pain 2
+p892
+sg23
+g24
+((I2014
+I7
+I21
+I13
+I35
+I1
+I0
+I202
+I1
+tp893
+(dp894
+tp895
+Rp896
+sg29
+(lp897
+sg31
+g24
+((I2014
+I7
+I18
+I11
+I51
+I45
+I4
+I199
+I1
+tp898
+(dp899
+tp900
+Rp901
+sbsa(dp902
+g12
+I00
+sg13
+(lp903
+F1625.6740692716098
+aF254.9232592135192
+asg15
+(itiddlywiki
+Tiddler
+p904
+(dp905
+g19
+VIt hurts a lot.\u000a\u000a[[Back|Kader info request]]
+p906
+sg21
+VKader info who pain 2
+p907
+sg23
+g24
+((I2014
+I7
+I21
+I13
+I34
+I50
+I0
+I202
+I1
+tp908
+(dp909
+tp910
+Rp911
+sg29
+(lp912
+sg31
+g24
+((I2014
+I7
+I18
+I11
+I51
+I45
+I4
+I199
+I1
+tp913
+(dp914
+tp915
+Rp916
+sbsa(dp917
+g12
+I00
+sg13
+(lp918
+F1124.42797449694
+aF254.11719988104875
+asg15
+(itiddlywiki
+Tiddler
+p919
+(dp920
+g19
+VIt hurts a lot.\u000a\u000a[[Back|Kader info request]]
+p921
+sg21
+VKader info where pain 2
+p922
+sg23
+g24
+((I2014
+I7
+I21
+I13
+I34
+I44
+I0
+I202
+I1
+tp923
+(dp924
+tp925
+Rp926
+sg29
+(lp927
+sg31
+g24
+((I2014
+I7
+I18
+I11
+I51
+I45
+I4
+I199
+I1
+tp928
+(dp929
+tp930
+Rp931
+sbsa(dp932
+g12
+I00
+sg13
+(lp933
+F1133.827763496144
+aF539.4987146529563
+asg15
+(itiddlywiki
+Tiddler
+p934
+(dp935
+g19
+Vdifferent shit to talk about depending on: sleep depriv + day #
+p936
+sg21
+VConvo subject 1
+p937
+sg23
+g24
+((I2014
+I7
+I21
+I14
+I52
+I37
+I0
+I202
+I1
+tp938
+(dp939
+tp940
+Rp941
+sg29
+(lp942
+sg31
+g24
+((I2014
+I7
+I21
+I14
+I52
+I9
+I0
+I202
+I1
+tp943
+(dp944
+tp945
+Rp946
+sbsa(dp947
+g12
+I00
+sg13
+(lp948
+F1272.8534704370184
+aF534.741645244216
+asg15
+(itiddlywiki
+Tiddler
+p949
+(dp950
+g19
+Vdifferent shit to talk about depending on: sleep depriv + day #
+p951
+sg21
+VConvo subject 2
+p952
+sg23
+g24
+((I2014
+I7
+I21
+I14
+I52
+I54
+I0
+I202
+I1
+tp953
+(dp954
+tp955
+Rp956
+sg29
+(lp957
+sg31
+g24
+((I2014
+I7
+I21
+I14
+I52
+I45
+I0
+I202
+I1
+tp958
+(dp959
+tp960
+Rp961
+sbsa(dp962
+g12
+I00
+sg13
+(lp963
+F1134.5848329048847
+aF665.7892030848329
+asg15
+(itiddlywiki
+Tiddler
+p964
+(dp965
+g19
+Vlol pain
+p966
+sg21
+VConvo subject 3
+p967
+sg23
+g24
+((I2014
+I7
+I21
+I15
+I4
+I33
+I0
+I202
+I1
+tp968
+(dp969
+tp970
+Rp971
+sg29
+(lp972
+sg31
+g24
+((I2014
+I7
+I21
+I15
+I4
+I21
+I0
+I202
+I1
+tp973
+(dp974
+tp975
+Rp976
+sbsa(dp977
+g12
+I00
+sg13
+(lp978
+F1277.4048843187666
+aF668.3727506426737
+asg15
+(itiddlywiki
+Tiddler
+p979
+(dp980
+g19
+Vlol pain 2
+p981
+sg21
+VConvo subject 4
+p982
+sg23
+g24
+((I2014
+I7
+I21
+I15
+I4
+I57
+I0
+I202
+I1
+tp983
+(dp984
+tp985
+Rp986
+sg29
+(lp987
+sg31
+g24
+((I2014
+I7
+I21
+I15
+I4
+I43
+I0
+I202
+I1
+tp988
+(dp989
+tp990
+Rp991
+sbsa(dp992
+g12
+I00
+sg13
+(lp993
+F94429.44601542417
+aF95991.9061696658
+asg15
+(itiddlywiki
+Tiddler
+p994
+(dp995
+g19
+g40
+sg21
+S'Untitled Passage 1'
+p996
+sg23
+g24
+((I2014
+I7
+I21
+I15
+I5
+I1
+I0
+I202
+I1
+tp997
+(dp998
+tp999
+Rp1000
+sg29
+(lp1001
+sg31
+g1000
+sbsa(dp1002
+g12
+I00
+sg13
+(lp1003
+F1135.3033419023136
+aF805.6632390745506
+asg15
+(itiddlywiki
+Tiddler
+p1004
+(dp1005
+g19
+Vsuper pain
+p1006
+sg21
+VConvo subject 5
+p1007
+sg23
+g24
+((I2014
+I7
+I21
+I15
+I8
+I44
+I0
+I202
+I1
+tp1008
+(dp1009
+tp1010
+Rp1011
+sg29
+(lp1012
+sg31
+g24
+((I2014
+I7
+I21
+I15
+I8
+I15
+I0
+I202
+I1
+tp1013
+(dp1014
+tp1015
+Rp1016
+sbsa(dp1017
+g12
+I00
+sg13
+(lp1018
+F1385.890745501286
+aF10.501285347043854
+asg15
+(itiddlywiki
+Tiddler
+p1019
+(dp1020
+g19
+VORLY?\u000a\u000a[[Back to hub|Kader main hub]]
+p1021
+sg21
+VKader info who threat 2
+p1022
+sg23
+g24
+((I2014
+I7
+I21
+I15
+I44
+I26
+I0
+I202
+I1
+tp1023
+(dp1024
+tp1025
+Rp1026
+sg29
+(lp1027
+sg31
+g24
+((I2014
+I7
+I21
+I15
+I44
+I0
+I0
+I202
+I1
+tp1028
+(dp1029
+tp1030
+Rp1031
+sbsasS'scale'
+p1032
+F0.4914718888186987
+sS'snapping'
+p1033
+I00
+ss.
