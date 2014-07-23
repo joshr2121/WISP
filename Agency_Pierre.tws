@@ -5,7 +5,7 @@ VC:\u005cUsers\u005cJoshua\u005cDesktop\u005cHuis Clos.html
 p2
 sS'saveDestination'
 p3
-VC:\u005cUsers\u005cServitude\u005cDocuments\u005cGitHub\u005cWISP\u005cAgency.tws
+VC:\u005cUsers\u005cServitude\u005cDocuments\u005cGitHub\u005cWISP\u005cAgency_Pierre.tws
 p4
 sS'target'
 p5
@@ -340,7 +340,7 @@ Tiddler
 p113
 (dp114
 g19
-VSUMMARY: The Bureau of Economic Assessment and Rehabilitation has detained 3 suspect(s) for questioning regarding anticipated terrorist attacks.\u000a\u000aREASON: During the past months, the activist group known as the New Collective has dramatically shifted their mode of action. Giving up on public rallies and published manifestos, some of the most recent cyberattacks and intelligence leaks our government has undercome have been claimed by members of the New Collective. As such, it has become part of our Agency's priority 2 tasks to locate and temporarily arrest James Hewes, self-proclaimed leader of this movement.\u000a\u000aOBJECTIVE: We have taken under custody Mr. XXX YYYY, long-time associate of known New Collective members. The agency has been able to arrest him and will detain him lawfully for the coming 72 (seventy-two) hours. During this period of time, you will be asked to find out the whereabouts of John Hewes, as well as any other relevant information. \u000a\u000aYou will submit a report no later than 11:59 PM on 10/21/47. <html><b>Lack of result will strongly impact the agent's yearly performance result.</b></html> \u000a\u000aIn your report, you may also recommend 1-3 suspects to be detained permanently. As you know, Bureau regulations and national security considerations preclude the release of all detainees.\u000a\u000aPlease click [[here|program details]] to learn more about this program.\u000a\u000aPlease click [[here|main hub]] to begin the investigation.
+VSUMMARY: The Bureau of Economic Assessment and Rehabilitation has detained 1 suspect(s) for questioning regarding crucial anti-governmental agency.\u000a\u000aREASON: During the past months, the activist group known as the New Collective has dramatically shifted their mode of action. Giving up on public rallies and published manifestos, some of the most recent cyberattacks and intelligence leaks our government has undercome have been claimed by members of the New Collective. As such, it has become part of our Agency's priority 2 tasks to locate and temporarily arrest James Hewes, self-proclaimed leader of this movement.\u000a\u000aOBJECTIVE: We have taken under custody Mr. XXX YYYY, long-time associate of known New Collective members. The agency has been able to arrest him and will detain him lawfully for the coming 72 (seventy-two) hours. During this period of time, you will be asked to find out the whereabouts of John Hewes, as well as any other relevant information. \u000a\u000aYou will submit a report no later than 11:59 PM on 10/21/47. <html><b>Lack of result will strongly impact the agent's yearly performance result.</b></html> \u000a\u000aOnce the mandatory interrogation of 72 (seventy-two) hours, and with relevant proof, you may apply for the detainee's long-term incarceration. As you know, Bureau regulations and national security considerations preclude the early release of all detainees.\u000a\u000aPlease click [[here|program details]] to learn more about this program.\u000a\u000aPlease click [[here|main hub]] to begin the investigation.
 p115
 sg21
 Vbriefing
@@ -351,8 +351,8 @@ g24
 I7
 I23
 I9
-I56
-I15
+I58
+I53
 I2
 I204
 I1
