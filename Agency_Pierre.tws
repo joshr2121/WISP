@@ -240,7 +240,7 @@ Tiddler
 p83
 (dp84
 g19
-VBUREAU INTERROGATION INTERFACE VERSION 5.0.61a\u000a\u000aSYSTEM BOOTING UP...\u000a\u000a<<timedgoto "booting up" 3s>>\u000a<<nobr>>\u000a<<set $day to 1>>\u000a<<set $timeleft to 300>> /% in minutes, the time remaining each day, assuming that the inspector talks with his superior in the morning and starts the interrogation at 12:00 %/\u000a<<set $hadInterview to true>>\u000a<<set $hadBriefing to false>>\u000a<<set $askedRoom to false>>\u000a<<set $canClockOut to false>>\u000a<<set $beginningOfDay to true>>\u000a\u000a<<set $familyConvo to false>>\u000a<<set $pearlStreetConvo to false>>\u000a<<set $jobConvo to false>>\u000a<<set $newCollectiveConvo to false>>\u000a<<set $leaderConvo to false>>\u000a\u000a<<set $opinion to 1>>\u000a\u000a<<set $torture to 0>>\u000a<<set $tortureLimit to 3>>\u000a<<set $conscious to true>>\u000a<<set $sleepTotal to 0>>\u000a<<set $sleepTonight to 0>>\u000a<<set $infoFound to false>>\u000a\u000a<<set $submittedWho to 0>>\u000a<<set $submittedWhere to 0>>\u000a<<set $submittedWhen to 0>>\u000a<<set $submittedHow to 0>>\u000a<<endnobr>>
+VBUREAU INTERROGATION INTERFACE VERSION 5.0.61a\u000a\u000aSYSTEM BOOTING UP...\u000a\u000a<<timedgoto "booting up" 3s>>\u000a<<nobr>>\u000a<<set $day to 1>>\u000a<<set $timeleft to 300>> /% in minutes, the time remaining each day, assuming that the inspector talks with his superior in the morning and starts the interrogation at 12:00 %/\u000a<<set $hadInterview to true>>\u000a<<set $hadBriefing to false>>\u000a<<set $askedRoom to false>>\u000a<<set $canClockOut to false>>\u000a<<set $beginningOfDay to true>>\u000a\u000a/% 0 = unavailable, 1 = available, 2 = explored %/\u000a<<set $politicsConvo to 1>>\u000a<<set $personalConvo to 1>>\u000a<<set $forcingConvo to 1>>\u000a<<set $familyConvo to 0>>\u000a<<set $pearlStreetConvo to 0>>\u000a<<set $jobConvo to 0>>\u000a<<set $newCollectiveConvo to 0>>\u000a<<set $leaderConvo to 0>>\u000a\u000a<<set $opinion to 1>>\u000a\u000a<<set $torture to 0>>\u000a<<set $tortureLimit to 3>>\u000a<<set $conscious to true>>\u000a<<set $sleepTotal to 0>>\u000a<<set $sleepTonight to 0>>\u000a<<set $infoFound to false>>\u000a\u000a<<set $submittedWho to 0>>\u000a<<set $submittedWhere to 0>>\u000a<<set $submittedWhen to 0>>\u000a<<set $submittedHow to 0>>\u000a<<endnobr>>
 p85
 sg21
 VStart
@@ -251,8 +251,8 @@ g24
 I7
 I24
 I15
-I22
-I19
+I52
+I43
 I3
 I205
 I1
@@ -390,7 +390,7 @@ Tiddler
 p128
 (dp129
 g19
-VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $beginningOfDay is true>>\u000a[[Speak informally with the suspect.|greeting1]]\u000a<<else>>\u000a[[Speak informally with the suspect.|conversation hub]]\u000a<<endif>>\u000a<<endnobr>>\u000a[[Begin physical encouragement session.|torture]]\u000a\u000a[[Set wake-up call.|sleep]]\u000a\u000a[[Check suspect's profile.|profile]]\u000a\u000a[[Check conversation notes.|notes]]\u000a\u000a[[Back|main hub]]
+VSUSPECT 1247\u000a- - - -\u000a<<if $beginningOfDay is true>>\u000a[[Speak informally with the suspect.|greeting1]]\u000a<<else>>\u000a[[Speak informally with the suspect.|conversation hub]]\u000a<<endif>>\u000a[[Begin physical encouragement session.|torture]]\u000a\u000a[[Set wake-up call.|sleep]]\u000a\u000a[[Check suspect's profile.|profile]]\u000a\u000a[[Check conversation notes.|notes]]\u000a\u000a[[Back|main hub]]
 p130
 sg21
 Vmain hub
@@ -400,8 +400,8 @@ g24
 ((I2014
 I7
 I24
-I14
-I36
+I15
+I56
 I50
 I3
 I205
@@ -1028,7 +1028,7 @@ Tiddler
 p319
 (dp320
 g19
-VSUSPECT 1247\u000a- - - -\u000a<<if $day == 1>>\u000a[[Let's talk politics|politics 1]]\u000a\u000a[[How did you end up here ?|personal 1]]\u000a\u000a[[You know where the New Collective leader is. I need you to tell me|forcing 1]]\u000a<<endif>>\u000a<<if $familyConvo is true>>\u000a[[Tell me about your family|family 1]]\u000a<<elseif $pearlStreetConvo is true>>\u000a[[It looks like you were arrested during the Pearl Street riots, after Carson...|riots 1]]\u000a<<elseif $jobConvo is true>>\u000a[[You're with the Boston Center for Legal Activisim. Legal analyst|job 1]]\u000a<<elseif $newCollectiveConvo is true>>\u000a[[You've got ties to the New Collective|newCollective 1]]\u000a<<elseif $leaderConvo is true>>\u000a[[You know James Hewes|hewes 1]]\u000a<<endif>>\u000a\u000a\u000a<<if $torture == 0>>\u000a\u000a<<elseif $torture == 1>>\u000a\u000a<<elseif $torture == 2>>\u000a\u000a<<elseif $torture == 3>>\u000aI'm sorry, Suspect seemed to have fainted. Come back tomorrow after emergency treatment. (ooooh! maybe the player could have the option to call emergency treatment or not ?)\u000a<<endif>>\u000a\u000a[[Back|main hub]]
+VSUSPECT 1247\u000a- - - -\u000a<<if $day == 1>>\u000a<<if $politicsConvo == 1>>\u000a[[Let's talk politics|politics 1]]\u000a<<endif>>\u000a<<if $personalConvo == 1>>\u000a[[How did you end up here ?|personal 1]]\u000a<<endif>>\u000a<<if $forcingConvo == 1>>\u000a[[You know where the New Collective leader is. I need you to tell me|forcing 1]]\u000a<<endif>>\u000a<<endif>>\u000a<<if $familyConvo is true>>\u000a[[Tell me about your family|family 1]]\u000a<<elseif $pearlStreetConvo is true>>\u000a[[It looks like you were arrested during the Pearl Street riots, after Carson...|riots 1]]\u000a<<elseif $jobConvo is true>>\u000a[[You're with the Boston Center for Legal Activisim. Legal analyst|job 1]]\u000a<<elseif $newCollectiveConvo is true>>\u000a[[You've got ties to the New Collective|newCollective 1]]\u000a<<elseif $leaderConvo is true>>\u000a[[You know James Hewes|hewes 1]]\u000a<<endif>>\u000a\u000a\u000a<<if $torture == 0>>\u000a\u000a<<elseif $torture == 1>>\u000a\u000a<<elseif $torture == 2>>\u000a\u000a<<elseif $torture == 3>>\u000aI'm sorry, Suspect seemed to have fainted. Come back tomorrow after emergency treatment. (ooooh! maybe the player could have the option to call emergency treatment or not ?)\u000a<<endif>>\u000a\u000a[[Back|main hub]]
 p321
 sg21
 Vconversation hub
@@ -1039,8 +1039,8 @@ g24
 I7
 I24
 I15
-I23
-I27
+I53
+I54
 I3
 I205
 I1
@@ -2317,7 +2317,7 @@ Tiddler
 p705
 (dp706
 g19
-VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">Good Morning, Inspector.</em></html>\u000a<<set $opinion = $opinion + 1>>\u000a<<timedgoto "conversation hub" 2s>>
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">Good Morning, Inspector.</em></html>\u000a<<set $opinion = $opinion + 1>>\u000a[[...|conversation hub]]
 p707
 sg21
 Vgreeting 1a
@@ -2328,8 +2328,8 @@ g24
 I7
 I24
 I15
-I34
-I2
+I57
+I14
 I3
 I205
 I1
@@ -2367,7 +2367,7 @@ Tiddler
 p720
 (dp721
 g19
-VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">Alright.</em></html>\u000a\u000a<<timedgoto "conversation hub" 2s>>
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">Alright.</em></html>\u000a\u000a[[...|conversation hub]]
 p722
 sg21
 Vgreeting 1b
@@ -2378,8 +2378,8 @@ g24
 I7
 I24
 I15
-I34
-I6
+I57
+I20
 I3
 I205
 I1
@@ -2417,7 +2417,7 @@ Tiddler
 p735
 (dp736
 g19
-VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">I don't. I know how this goes.</em></html>\u000a<<set $opinion = $opinion - 1>>\u000a\u000a<<timedgoto "conversation hub" 2s>>
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">I don't. I know how this goes.</em></html>\u000a<<set $opinion = $opinion - 1>>\u000a\u000a[[...|conversation hub]]
 p737
 sg21
 Vgreeting 1c
@@ -2428,8 +2428,8 @@ g24
 I7
 I24
 I15
-I34
-I11
+I57
+I25
 I3
 I205
 I1
@@ -2467,7 +2467,7 @@ Tiddler
 p750
 (dp751
 g19
-VSUSPECT 1247\u000a- - - -\u000a* * * NO RESPONSE * * *\u000a\u000a<<timedgoto "conversation hub" 2s>>
+VSUSPECT 1247\u000a- - - -\u000a* * * NO RESPONSE * * *\u000a\u000a[[...|conversation hub]]
 p752
 sg21
 Vgreeting 1d
@@ -2478,8 +2478,8 @@ g24
 I7
 I24
 I15
-I34
-I16
+I57
+I28
 I3
 I205
 I1
