@@ -3821,7 +3821,7 @@ Tiddler
 p1157
 (dp1158
 g21
-VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">I'm not. I just work with them.</em></html> <<nobr>>\u000a<<if $jobConvo neq 2>><<set $jobConvo to 1>>[[You're with the Boston Center for Civil Activism. Legal analyst.|job 1][$jobConvo = 2]]<br><br><<endif>>\u000a<<endnobr>>[[What's the difference?|newCollective 4]]\u000a\u000a[[They're an illegal organization. Terrorists, anarchists. Aiding them is a crime.|newCollective 4][$opinion--]]
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">I'm not. I just work with them.</em></html> \u000a\u000a<<nobr>>\u000a<<if $jobConvo neq 2>><<set $jobConvo to 1>>[[You're with the Boston Center for Civil Activism. Legal analyst.|job 1][$jobConvo = 2]]<br><br><<endif>>\u000a<<endnobr>>[[What's the difference?|newCollective 4]]\u000a\u000a[[They're an illegal organization. Terrorists, anarchists. Aiding them is a crime.|newCollective 4][$opinion--]]
 p1159
 sg23
 VnewCollective 2
@@ -3831,9 +3831,9 @@ g26
 ((I2014
 I7
 I25
-I15
-I1
-I31
+I17
+I0
+I39
 I4
 I206
 I1
@@ -5510,7 +5510,7 @@ tp1663
 Rp1664
 sbsa(dp1665
 g14
-I00
+I01
 sg15
 (lp1666
 F4070.0
@@ -5571,7 +5571,7 @@ Tiddler
 p1682
 (dp1683
 g21
-V<<timedinsert 3s>><<display 'conversation hub'>><endtimedinsert>>
+V<<timedinsert 3s>><<display 'conversation hub'>><<endtimedinsert>>
 p1684
 sg23
 Vforcing 18
@@ -5581,9 +5581,9 @@ g26
 ((I2014
 I7
 I25
-I16
-I53
-I31
+I17
+I1
+I37
 I4
 I206
 I1
