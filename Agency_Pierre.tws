@@ -25,7 +25,7 @@ sS'pos'
 p13
 (lp14
 F10.0
-aF150.0
+aF290.0
 asS'passage'
 p15
 (itiddlywiki
@@ -82,8 +82,8 @@ g12
 I00
 sg13
 (lp37
-F150.0
-aF10.0
+F10.0
+aF430.0
 asg15
 (itiddlywiki
 Tiddler
@@ -132,8 +132,8 @@ g12
 I00
 sg13
 (lp52
-F150.0
-aF430.0
+F10.0
+aF990.0
 asg15
 (itiddlywiki
 Tiddler
@@ -182,8 +182,8 @@ g12
 I00
 sg13
 (lp67
-F290.0
-aF150.0
+F430.0
+aF290.0
 asg15
 (itiddlywiki
 Tiddler
@@ -233,7 +233,7 @@ I00
 sg13
 (lp82
 F10.0
-aF10.0
+aF150.0
 asg15
 (itiddlywiki
 Tiddler
@@ -282,8 +282,8 @@ g12
 I00
 sg13
 (lp97
-F150.0
-aF290.0
+F430.0
+aF570.0
 asg15
 (itiddlywiki
 Tiddler
@@ -333,7 +333,7 @@ I00
 sg13
 (lp112
 F10.0
-aF430.0
+aF570.0
 asg15
 (itiddlywiki
 Tiddler
@@ -382,7 +382,7 @@ g12
 I00
 sg13
 (lp127
-F710.0
+F850.0
 aF150.0
 asg15
 (itiddlywiki
@@ -432,8 +432,8 @@ g12
 I00
 sg13
 (lp142
-F570.0
-aF290.0
+F710.0
+aF150.0
 asg15
 (itiddlywiki
 Tiddler
@@ -482,8 +482,8 @@ g12
 I00
 sg13
 (lp157
-F570.0
-aF150.0
+F710.0
+aF290.0
 asg15
 (itiddlywiki
 Tiddler
@@ -532,8 +532,8 @@ g12
 I00
 sg13
 (lp172
-F284.0
-aF740.0
+F710.0
+aF990.0
 asg15
 (itiddlywiki
 Tiddler
@@ -582,8 +582,8 @@ g12
 I00
 sg13
 (lp187
-F286.0
-aF884.0
+F710.0
+aF1130.0
 asg15
 (itiddlywiki
 Tiddler
@@ -632,8 +632,8 @@ g12
 I00
 sg13
 (lp202
-F288.0
-aF599.0
+F850.0
+aF990.0
 asg15
 (itiddlywiki
 Tiddler
@@ -682,8 +682,8 @@ g12
 I00
 sg13
 (lp217
-F284.0
-aF1029.0
+F850.0
+aF1270.0
 asg15
 (itiddlywiki
 Tiddler
@@ -732,8 +732,8 @@ g12
 I00
 sg13
 (lp232
-F289.0
-aF1172.0
+F850.0
+aF1130.0
 asg15
 (itiddlywiki
 Tiddler
@@ -782,8 +782,8 @@ g12
 I00
 sg13
 (lp247
-F288.0
-aF1313.0
+F710.0
+aF1270.0
 asg15
 (itiddlywiki
 Tiddler
@@ -832,8 +832,8 @@ g12
 I00
 sg13
 (lp262
-F285.0
-aF1463.0
+F710.0
+aF1410.0
 asg15
 (itiddlywiki
 Tiddler
@@ -869,14 +869,14 @@ I00
 sg13
 (lp272
 F10.0
-aF1410.0
+aF2250.0
 asg15
 (itiddlywiki
 Tiddler
 p273
 (dp274
 g19
-Vbody {\u000a background-image: [img[stripes_grey2.png]];\u000a background-color: white;\u000a}\u000a\u000a@font-face{ \u000a  font-family: 'SofiaProLight-webfont';\u000a  src: url('Fonts/SofiaProLight-webfont.eot');\u000a  src: url('Fonts/WebFont.eot?#iefix') format('embedded-opentype'),\u000a       url('Fonts/SofiaProLight-webfont.woff') format('woff'),\u000a       url('Fonts/SofiaProLight-webfont.ttf') format('truetype'),\u000a       url('Fonts/WebFont.svg#webfont') format('svg');\u000a\u000a}\u000a\u000a#sidebar{\u000a  position: absolute;\u000a  top: 0px;\u000a  left: 0px;\u000a  width: 99%;\u000a  height: 13%;\u000a  overflow-x: hidden;\u000a  background-color: white;\u000a  border-bottom: solid black 1px;\u000a}\u000a\u000a#sidebar *{\u000a  color: black;\u000a  font-size:22px;\u000a  background-color: transparent;\u000a  display:inline !important;\u000a}\u000a\u000a#storyAuthor { /*code for the formatting of B.E.A.R*/\u000a  font-size: 200%;\u000a  text-align: center;\u000a  height: 10px;\u000a  line-height: 10px;\u000a  margin_top: 0px;\u000a}\u000a\u000a#storyTitle{\u000a  background-color: transparent;\u000a  margin-left: 23%;\u000a  content: url(banner.png);\u000a}\u000a\u000a#credits, #share, #bookmark, #restart, #titleSeparator, #sidebar li br {\u000a  display:none !important;\u000a}\u000a\u000a/*PASSAGES*/\u000a\u000a#passages{\u000a  margin: 0;\u000a  padding: 0;\u000a  border:0;\u000a}\u000a\u000a.passage, #sidebar * {\u000a  font-family: SofiaProLight-webfont, Geneva, "Helvetica Neue", Helvetica, sans-serif;\u000a  color: black;\u000a}\u000a\u000a.passage {\u000a  border-radius: 0.2em;\u000a  margin-top: 15%;\u000a  margin-left: 20%;\u000a  margin-right: 20%;\u000a  margin-bottom: 40px;\u000a  width: 60%;\u000a  padding: 2em;\u000a  font-size:1.5rem;\u000a  text-align: justify;\u000a  background-color:white;\u000a  border-left: 1px solid black;\u000a  border-right: 1px solid black;\u000a  border-bottom: 1px dashed black;\u000a  border-top: 1px dashed black;\u000a}\u000a\u000a.passage a{\u000a  color: grey;\u000a}\u000a\u000a.passage a:hover{\u000a  color: black;\u000a}\u000a\u000a.manager{\u000afont-family: 'GoudyStM-Italic-webfont';\u000asrc:url('Fonts/Goudy-StM-Italic-webfont.eot');\u000atext-align: justify;\u000a}\u000a\u000a.suspect{\u000afont-family: 'NotoSerif-Italic-webfont';\u000asrc:url('Fonts/NotoSerif-Italic-webfont.eot');\u000atext-align: justify;\u000a}\u000a\u000a.info{\u000afont-family: 'NotoSerif-Bold-webfont';\u000asrc:url('Fonts/NotoSerif-Bold-webfont.eot');\u000a}
+Vbody {\u000a background-image: [img[stripes_grey2.png]];\u000a background-color: white;\u000a}\u000a/*timedreplace shit*/\u000a.revision-span-in {\u000a	opacity: 0;\u000a}\u000a.revision-span:not(.revision-span-out) {\u000a	transition: 1s; -webkit-transition: 1s;\u000a}\u000a.revision-span-out {\u000a	position:absolute;\u000a	opacity: 0;\u000a}\u000a\u000a@font-face{ \u000a  font-family: 'SofiaProLight-webfont';\u000a  src: url('Fonts/SofiaProLight-webfont.eot');\u000a  src: url('Fonts/WebFont.eot?#iefix') format('embedded-opentype'),\u000a       url('Fonts/SofiaProLight-webfont.woff') format('woff'),\u000a       url('Fonts/SofiaProLight-webfont.ttf') format('truetype'),\u000a       url('Fonts/WebFont.svg#webfont') format('svg');\u000a\u000a}\u000a\u000a#sidebar{\u000a  position: absolute;\u000a  top: 0px;\u000a  left: 0px;\u000a  width: 99%;\u000a  height: 13%;\u000a  overflow-x: hidden;\u000a  background-color: white;\u000a  border-bottom: solid black 1px;\u000a}\u000a\u000a#sidebar *{\u000a  color: black;\u000a  font-size:22px;\u000a  background-color: transparent;\u000a  display:inline !important;\u000a}\u000a\u000a#storyAuthor { /*code for the formatting of B.E.A.R*/\u000a  font-size: 200%;\u000a  text-align: center;\u000a  height: 10px;\u000a  line-height: 10px;\u000a  margin_top: 0px;\u000a}\u000a\u000a#storyTitle{\u000a  background-color: transparent;\u000a  margin-left: 23%;\u000a  content: url(banner.png);\u000a}\u000a\u000a#credits, #share, #bookmark, #restart, #titleSeparator, #sidebar li br {\u000a  display:none !important;\u000a}\u000a\u000a/*PASSAGES*/\u000a\u000a#passages{\u000a  margin: 0;\u000a  padding: 0;\u000a  border:0;\u000a}\u000a\u000a.passage, #sidebar * {\u000a  font-family: SofiaProLight-webfont, Geneva, "Helvetica Neue", Helvetica, sans-serif;\u000a  color: black;\u000a}\u000a\u000a.passage {\u000a  border-radius: 0.2em;\u000a  margin-top: 15%;\u000a  margin-left: 20%;\u000a  margin-right: 20%;\u000a  margin-bottom: 40px;\u000a  width: 60%;\u000a  padding: 2em;\u000a  font-size:1.5rem;\u000a  text-align: justify;\u000a  background-color:white;\u000a  border-left: 1px solid black;\u000a  border-right: 1px solid black;\u000a  border-bottom: 1px dashed black;\u000a  border-top: 1px dashed black;\u000a}\u000a\u000a.passage a{\u000a  color: grey;\u000a}\u000a\u000a.passage a:hover{\u000a  color: black;\u000a}\u000a\u000a.manager{\u000afont-family: 'GoudyStM-Italic-webfont';\u000asrc:url('Fonts/Goudy-StM-Italic-webfont.eot');\u000atext-align: justify;\u000a}\u000a\u000a.suspect{\u000afont-family: 'NotoSerif-Italic-webfont';\u000asrc:url('Fonts/NotoSerif-Italic-webfont.eot');\u000atext-align: justify;\u000a}\u000a\u000a.info{\u000afont-family: 'NotoSerif-Bold-webfont';\u000asrc:url('Fonts/NotoSerif-Bold-webfont.eot');\u000a}
 p275
 sg21
 VMain Stylesheet
@@ -886,9 +886,9 @@ g24
 ((I2014
 I7
 I24
-I11
-I49
-I32
+I16
+I25
+I59
 I3
 I205
 I1
@@ -920,7 +920,7 @@ g12
 I00
 sg13
 (lp288
-F710.0
+F850.0
 aF290.0
 asg15
 (itiddlywiki
@@ -970,7 +970,7 @@ g12
 I00
 sg13
 (lp303
-F710.0
+F850.0
 aF10.0
 asg15
 (itiddlywiki
@@ -1020,7 +1020,7 @@ g12
 I00
 sg13
 (lp318
-F1830.0
+F1690.0
 aF150.0
 asg15
 (itiddlywiki
@@ -1070,7 +1070,7 @@ g12
 I00
 sg13
 (lp333
-F850.0
+F990.0
 aF290.0
 asg15
 (itiddlywiki
@@ -1120,8 +1120,8 @@ g12
 I00
 sg13
 (lp348
-F150.0
-aF570.0
+F10.0
+aF710.0
 asg15
 (itiddlywiki
 Tiddler
@@ -1170,8 +1170,8 @@ g12
 I00
 sg13
 (lp363
-F94429.44601542417
-aF95991.9061696658
+F94370.0
+aF96050.0
 asg15
 (itiddlywiki
 Tiddler
@@ -1207,7 +1207,7 @@ I00
 sg13
 (lp373
 F150.0
-aF1270.0
+aF2110.0
 asg15
 (itiddlywiki
 Tiddler
@@ -1258,8 +1258,8 @@ g12
 I00
 sg13
 (lp389
-F710.0
-aF570.0
+F1130.0
+aF850.0
 asg15
 (itiddlywiki
 Tiddler
@@ -1308,8 +1308,8 @@ g12
 I00
 sg13
 (lp404
-F570.0
-aF1970.0
+F850.0
+aF2250.0
 asg15
 (itiddlywiki
 Tiddler
@@ -1359,7 +1359,7 @@ I00
 sg13
 (lp419
 F10.0
-aF1270.0
+aF1970.0
 asg15
 (itiddlywiki
 Tiddler
@@ -1410,8 +1410,8 @@ g12
 I00
 sg13
 (lp435
-F710.0
-aF1970.0
+F850.0
+aF2530.0
 asg15
 (itiddlywiki
 Tiddler
@@ -1460,8 +1460,8 @@ g12
 I00
 sg13
 (lp450
-F850.0
-aF1830.0
+F1130.0
+aF2670.0
 asg15
 (itiddlywiki
 Tiddler
@@ -1509,8 +1509,8 @@ g12
 I00
 sg13
 (lp464
-F850.0
-aF1550.0
+F1130.0
+aF2250.0
 asg15
 (itiddlywiki
 Tiddler
@@ -1559,8 +1559,8 @@ g12
 I00
 sg13
 (lp479
-F990.0
-aF1410.0
+F1270.0
+aF2250.0
 asg15
 (itiddlywiki
 Tiddler
@@ -1609,8 +1609,8 @@ g12
 I00
 sg13
 (lp494
-F990.0
-aF1270.0
+F1270.0
+aF2110.0
 asg15
 (itiddlywiki
 Tiddler
@@ -1659,8 +1659,8 @@ g12
 I00
 sg13
 (lp509
-F990.0
-aF1690.0
+F1270.0
+aF2390.0
 asg15
 (itiddlywiki
 Tiddler
@@ -1709,8 +1709,8 @@ g12
 I00
 sg13
 (lp524
-F1130.0
-aF1130.0
+F1410.0
+aF1970.0
 asg15
 (itiddlywiki
 Tiddler
@@ -1759,8 +1759,8 @@ g12
 I00
 sg13
 (lp539
-F1130.0
-aF1270.0
+F1410.0
+aF2110.0
 asg15
 (itiddlywiki
 Tiddler
@@ -1809,8 +1809,8 @@ g12
 I00
 sg13
 (lp554
-F1550.0
-aF1410.0
+F1970.0
+aF2110.0
 asg15
 (itiddlywiki
 Tiddler
@@ -1859,8 +1859,8 @@ g12
 I00
 sg13
 (lp569
-F1270.0
-aF1130.0
+F1550.0
+aF1970.0
 asg15
 (itiddlywiki
 Tiddler
@@ -1909,8 +1909,8 @@ g12
 I00
 sg13
 (lp584
-F1270.0
-aF1270.0
+F1550.0
+aF2110.0
 asg15
 (itiddlywiki
 Tiddler
@@ -1959,8 +1959,8 @@ g12
 I00
 sg13
 (lp599
-F1830.0
-aF1690.0
+F2110.0
+aF2110.0
 asg15
 (itiddlywiki
 Tiddler
@@ -2009,8 +2009,8 @@ g12
 I00
 sg13
 (lp614
-F1130.0
-aF1410.0
+F1550.0
+aF2250.0
 asg15
 (itiddlywiki
 Tiddler
@@ -2059,8 +2059,8 @@ g12
 I00
 sg13
 (lp629
-F1130.0
-aF1550.0
+F1550.0
+aF2390.0
 asg15
 (itiddlywiki
 Tiddler
@@ -2109,8 +2109,8 @@ g12
 I00
 sg13
 (lp644
-F1410.0
-aF1410.0
+F1830.0
+aF2110.0
 asg15
 (itiddlywiki
 Tiddler
@@ -2159,8 +2159,8 @@ g12
 I00
 sg13
 (lp659
-F10.0
-aF290.0
+F-76990.0
+aF-76710.0
 asg15
 (itiddlywiki
 Tiddler
@@ -2176,12 +2176,12 @@ sg23
 g24
 ((I2014
 I7
-I23
+I24
 I16
-I50
-I51
-I2
-I204
+I34
+I43
+I3
+I205
 I1
 tp664
 (dp665
@@ -2209,8 +2209,8 @@ g12
 I00
 sg13
 (lp674
-F430.0
-aF430.0
+F850.0
+aF710.0
 asg15
 (itiddlywiki
 Tiddler
@@ -2309,7 +2309,7 @@ g12
 I00
 sg13
 (lp704
-F1270.0
+F1410.0
 aF10.0
 asg15
 (itiddlywiki
@@ -2359,7 +2359,7 @@ g12
 I00
 sg13
 (lp719
-F1270.0
+F1410.0
 aF150.0
 asg15
 (itiddlywiki
@@ -2409,7 +2409,7 @@ g12
 I00
 sg13
 (lp734
-F1270.0
+F1410.0
 aF290.0
 asg15
 (itiddlywiki
@@ -2459,7 +2459,7 @@ g12
 I00
 sg13
 (lp749
-F1270.0
+F1410.0
 aF430.0
 asg15
 (itiddlywiki
@@ -2509,8 +2509,8 @@ g12
 I00
 sg13
 (lp764
-F1970.0
-aF10.0
+F1830.0
+aF710.0
 asg15
 (itiddlywiki
 Tiddler
@@ -2558,8 +2558,8 @@ g12
 I00
 sg13
 (lp778
-F1970.0
-aF290.0
+F1830.0
+aF570.0
 asg15
 (itiddlywiki
 Tiddler
@@ -2607,8 +2607,8 @@ g12
 I00
 sg13
 (lp792
-F1970.0
-aF570.0
+F1830.0
+aF990.0
 asg15
 (itiddlywiki
 Tiddler
@@ -2656,8 +2656,8 @@ g12
 I00
 sg13
 (lp806
-F1970.0
-aF430.0
+F1830.0
+aF850.0
 asg15
 (itiddlywiki
 Tiddler
@@ -2705,35 +2705,36 @@ g12
 I00
 sg13
 (lp820
-F1970.0
-aF150.0
+F1830.0
+aF10.0
 asg15
 (itiddlywiki
 Tiddler
 p821
 (dp822
 g19
-g40
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">Cops kicked in the door last night and dragged me out. Didn't say what for.</em></html>\u000a\u000a[[Give me your best guess.|personal 1 a]]\u000a\u000a[[I'll be straight: You have information we need.|personal 1 a]]\u000a\u000a[[We'll start at the beginning. Where are you from?|personal 1 b]]
+p823
 sg21
 Vpersonal 1
-p823
+p824
 sg23
 g24
 ((I2014
 I7
 I24
-I15
-I19
-I2
+I16
+I11
+I56
 I3
 I205
 I1
-tp824
-(dp825
-tp826
-Rp827
+tp825
+(dp826
+tp827
+Rp828
 sg29
-(lp828
+(lp829
 sg31
 g24
 ((I2014
@@ -2745,27 +2746,27 @@ I33
 I3
 I205
 I1
-tp829
-(dp830
-tp831
-Rp832
-sbsa(dp833
+tp830
+(dp831
+tp832
+Rp833
+sbsa(dp834
 g12
 I00
 sg13
-(lp834
-F1970.0
-aF850.0
+(lp835
+F1830.0
+aF1270.0
 asg15
 (itiddlywiki
 Tiddler
-p835
-(dp836
+p836
+(dp837
 g19
 g40
 sg21
 VnewCollective 1
-p837
+p838
 sg23
 g24
 ((I2014
@@ -2777,12 +2778,12 @@ I11
 I3
 I205
 I1
-tp838
-(dp839
-tp840
-Rp841
+tp839
+(dp840
+tp841
+Rp842
 sg29
-(lp842
+(lp843
 sg31
 g24
 ((I2014
@@ -2794,27 +2795,27 @@ I32
 I3
 I205
 I1
-tp843
-(dp844
-tp845
-Rp846
-sbsa(dp847
+tp844
+(dp845
+tp846
+Rp847
+sbsa(dp848
 g12
 I00
 sg13
-(lp848
-F1970.0
-aF710.0
+(lp849
+F1830.0
+aF1130.0
 asg15
 (itiddlywiki
 Tiddler
-p849
-(dp850
+p850
+(dp851
 g19
 g40
 sg21
 Vjob 1
-p851
+p852
 sg23
 g24
 ((I2014
@@ -2826,12 +2827,12 @@ I58
 I3
 I205
 I1
-tp852
-(dp853
-tp854
-Rp855
+tp853
+(dp854
+tp855
+Rp856
 sg29
-(lp856
+(lp857
 sg31
 g24
 ((I2014
@@ -2843,27 +2844,27 @@ I32
 I3
 I205
 I1
-tp857
-(dp858
-tp859
-Rp860
-sbsa(dp861
+tp858
+(dp859
+tp860
+Rp861
+sbsa(dp862
 g12
 I00
 sg13
-(lp862
-F1970.0
-aF990.0
+(lp863
+F1830.0
+aF1410.0
 asg15
 (itiddlywiki
 Tiddler
-p863
-(dp864
+p864
+(dp865
 g19
 g40
 sg21
 Vhewes 1
-p865
+p866
 sg23
 g24
 ((I2014
@@ -2875,12 +2876,12 @@ I21
 I3
 I205
 I1
-tp866
-(dp867
-tp868
-Rp869
+tp867
+(dp868
+tp869
+Rp870
 sg29
-(lp870
+(lp871
 sg31
 g24
 ((I2014
@@ -2892,14 +2893,670 @@ I32
 I3
 I205
 I1
-tp871
-(dp872
-tp873
-Rp874
+tp872
+(dp873
+tp874
+Rp875
+sbsa(dp876
+g12
+I00
+sg13
+(lp877
+F2250.0
+aF150.0
+asg15
+(itiddlywiki
+Tiddler
+p878
+(dp879
+g19
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">Especially now.</em></html>\u000a\u000a<<set $opinion = $opinion + 1>>\u000a<<timedgoto "conversation hub" 2.5s>>
+p880
+sg21
+Vpersonal 1 a 2 opinion+
+p881
+sg23
+g24
+((I2014
+I7
+I24
+I23
+I25
+I11
+I3
+I205
+I1
+tp882
+(dp883
+tp884
+Rp885
+sg29
+(lp886
+sg31
+g24
+((I2014
+I7
+I24
+I16
+I11
+I0
+I3
+I205
+I1
+tp887
+(dp888
+tp889
+Rp890
+sbsa(dp891
+g12
+I00
+sg13
+(lp892
+F1970.0
+aF430.0
+asg15
+(itiddlywiki
+Tiddler
+p893
+(dp894
+g19
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">Boston. Born and raised.</em></html>\u000a\u000a[[Tell me about your family.|family 1]]\u000a\u000a[[Still there?|personal 1 b 1]]
+p895
+sg21
+Vpersonal 1 b
+p896
+sg23
+g24
+((I2014
+I7
+I24
+I23
+I36
+I57
+I3
+I205
+I1
+tp897
+(dp898
+tp899
+Rp900
+sg29
+(lp901
+sg31
+g24
+((I2014
+I7
+I24
+I16
+I11
+I1
+I3
+I205
+I1
+tp902
+(dp903
+tp904
+Rp905
+sbsa(dp906
+g12
+I00
+sg13
+(lp907
+F1970.0
+aF10.0
+asg15
+(itiddlywiki
+Tiddler
+p908
+(dp909
+g19
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">I don't have anything to say. I know my rights.</em></html>\u000a\u000a[[You've got no rights where you're sitting. Lawyer like you should know the 30th Amendment.|personal 1 a 1]]\u000a\u000a[[It'll be easier for you if you talk|personal 1 a 2]]\u000a\u000a[[(Apply Physical Encouragement)|personal 1 a 3 torture]]
+p910
+sg21
+Vpersonal 1 a
+p911
+sg23
+g24
+((I2014
+I7
+I24
+I16
+I45
+I41
+I3
+I205
+I1
+tp912
+(dp913
+tp914
+Rp915
+sg29
+(lp916
+sg31
+g24
+((I2014
+I7
+I24
+I16
+I11
+I1
+I3
+I205
+I1
+tp917
+(dp918
+tp919
+Rp920
+sbsa(dp921
+g12
+I00
+sg13
+(lp922
+F10.0
+aF2110.0
+asg15
+(itiddlywiki
+Tiddler
+p923
+(dp924
+g19
+V(function(){version.extensions.replaceMacrosCombined={major:1,minor:1,revision:4};var nullobj={handler:function(){}};function showVer(n,notrans){if(!n){return\u000a}n.innerHTML="";new Wikifier(n,n.tweecode);n.setAttribute("data-enabled","true");n.style.display="inline";n.classList.remove("revision-span-out");\u000aif(!notrans){n.classList.add("revision-span-in");if(n.timeout){clearTimeout(n.timeout)}n.timeout=setTimeout(function(){n.classList.remove("revision-span-in");\u000an=null},1)}}function hideVer(n,notrans){if(!n){return}n.setAttribute("data-enabled","false");n.classList.remove("revision-span-in");\u000aif(n.timeout){clearTimeout(n.timeout)}if(!notrans){n.classList.add("revision-span-out");n.timeout=setTimeout(function(){if(n.getAttribute("data-enabled")=="false"){n.classList.remove("revision-span-out");\u000an.style.display="none";n.innerHTML=""}n=null},1000)}else{n.style.display="none";n.innerHTML="";n=null}}function tagcontents(b,starttags,desttags,endtags,k){var l=0,c="",tg,a,i;\u000afunction tagfound(i,e){for(var j=0;j<e.length;j++){if(a.indexOf("<<"+e[j],i)==i){return e[j]}}}a=b.source.slice(k);for(i=0;\u000ai<a.length;i++){if(tg=tagfound(i,starttags)){l++}else{if((tg=tagfound(i,desttags))&&l==0){b.nextMatch=k+i+tg.length+4;return[c,tg]\u000a}else{if(tg=tagfound(i,endtags)){l--;if(l<0){return null}}}}c+=a.charAt(i)}return null}var begintags=[];var endtags=[];function revisionSpanHandler(g,e,f,b){var k=b.source.indexOf(">>",b.matchStart)+2,vsns=[],vtype=e,flen=f.length,becomes,c,cn,m,h,vsn;\u000afunction mkspan(vtype){h=insertElement(m,"span",null,"revision-span "+vtype);h.setAttribute("data-enabled",false);h.style.display="none";\u000ah.tweecode="";return h}if(this.shorthand&&flen){while(f.length>0){vsns.push([f.shift(),(this.flavour=="insert"?"gains":"becomes")])\u000a}}else{if(this.flavour=="insert"||(this.flavour=="continue"&&this.trigger=="time")){vsns.push(["","becomes"])}}if(this.flavour=="continue"&&flen){b.nextMatch=k+b.source.slice(k).length;\u000avsns.push([b.source.slice(k),vtype])}else{becomes=["becomes","gains"];c=tagcontents(b,begintags,becomes.concat(endtags),endtags,k);\u000aif(c&&endtags.indexOf(c[1])==-1){while(c){vsns.push(c);c=tagcontents(b,begintags,becomes,endtags,b.nextMatch)}c=tagcontents(b,begintags,["end"+e],endtags,b.nextMatch)\u000a}if(!c){throwError(g,"can't find matching end"+e);return}vsns.push(c);if(this.flavour=="continue"){k=b.nextMatch;b.nextMatch=k+b.source.slice(k).length;\u000avsns.push([b.source.slice(k),""])}}if(this.flavour=="remove"){vsns.push(["","becomes"])}cn=0;m=insertElement(g,"span",null,e);\u000am.setAttribute("data-flavour",this.flavour);h=mkspan("initial");vsn=vsns.shift();h.tweecode=vsn[0];showVer(h,true);while(vsns.length>0){if(vsn){vtype=vsn[1]\u000a}vsn=vsns.shift();h=mkspan(vtype);h.tweecode=vsn[0]}if(typeof this.setup=="function"){this.setup(m,g,f)}}function quantity(m){return(m.children.length-1)+(m.getAttribute("data-flavour")=="remove")\u000a}function revisionSetup(m,g,f){m.className+=" "+f[0].replace(" ","_")}function keySetup(m,g,f){var key=f[0];m.setEventListener("keydown",function l(e){var done=!revise("revise",m);\u000aif(done){m.removeEventListener("keydown",l)}})}function timeSetup(m,g,f){function cssTimeUnit(s){if(typeof s=="string"){if(s.slice(-2).toLowerCase()=="ms"){return Number(s.slice(0,-2))||0\u000a}else{if(s.slice(-1).toLowerCase()=="s"){return Number(s.slice(0,-1))*1000||0}}}throwError(g,s+" isn't a CSS time unit");\u000areturn 0}var tm=cssTimeUnit(f[0]);setTimeout(function timefn(){var done=!revise("revise",m);if(!done){setTimeout(timefn,tm)\u000a}},tm)}function hoverSetup(m){var fn,noMouseEnter=(document.head.onmouseenter!==null),m1=m.children[0],m2=m.children[1];if(!m1||!m2){return\u000a}m1.onmouseenter=function(e){if(this.getAttribute("data-enabled")!="false"){revise("revise",this.parentNode)}};m2.onmouseleave=function(e){if(this.getAttribute("data-enabled")!="false"){revise("revert",this.parentNode)\u000a}};if(noMouseEnter){fn=function(n){return function(e){if(!event.relatedTarget||(event.relatedTarget!=this&&!(this.compareDocumentPosition(event.relatedTarget)&Node.DOCUMENT_POSITION_CONTAINED_BY))){this[n]()\u000a}}};m1.onmouseover=fn("onmouseenter");m2.onmouseout=fn("onmouseleave")}m=null}function mouseSetup(m){var evt=(document.head.onmouseenter===null?"onmouseenter":"onmouseover");\u000am[evt]=function(){var done=!revise("revise",this);if(done){this[evt]=null}};m=null}function linkSetup(m,g,f){var l=Wikifier.createInternalLink(),p=m.parentNode;\u000al.className="internalLink replaceLink";p.insertBefore(l,m);l.insertBefore(m,null);l.onclick=function(){var p,done=false;if(m&&m.parentNode==this){done=!revise("revise",m);\u000ascrollWindowTo(m)}if(done){this.parentNode.insertBefore(m,this);this.parentNode.removeChild(this)}};l=null}function visitedSetup(m,g,f){var i,done,shv=state.history[0].variables,os="once seen",d=(m.firstChild&&(this.flavour=="insert"?m.firstChild.nextSibling:m.firstChild).tweecode);\u000ashv[os]=shv[os]||{};if(d&&!shv[os].hasOwnProperty(d)){shv[os][d]=1}else{for(i=shv[os][d];i>0&&!done;i--){done=!revise("revise",m,true)\u000a}if(shv[os].hasOwnProperty(d)){shv[os][d]+=1}}}[{name:"insert",flavour:"insert",trigger:"link",setup:linkSetup},{name:"timedinsert",flavour:"insert",trigger:"time",setup:timeSetup},{name:"insertion",flavour:"insert",trigger:"revisemacro",setup:revisionSetup},{name:"later",flavour:"insert",trigger:"visited",setup:visitedSetup},{name:"keyinsert",flavour:"insert",trigger:"key",setup:keySetup},{name:"replace",flavour:"replace",trigger:"link",setup:linkSetup},{name:"timedreplace",flavour:"replace",trigger:"time",setup:timeSetup},{name:"mousereplace",flavour:"replace",trigger:"mouse",setup:mouseSetup},{name:"hoverreplace",flavour:"replace",trigger:"hover",setup:hoverSetup},{name:"revision",flavour:"replace",trigger:"revisemacro",setup:revisionSetup},{name:"keyreplace",flavour:"replace",trigger:"key",setup:keySetup},{name:"timedremove",flavour:"remove",trigger:"time",setup:timeSetup},{name:"mouseremove",flavour:"remove",trigger:"mouse",setup:mouseSetup},{name:"hoverremove",flavour:"remove",trigger:"hover",setup:hoverSetup},{name:"removal",flavour:"remove",trigger:"revisemacro",setup:revisionSetup},{name:"once",flavour:"remove",trigger:"visited",setup:visitedSetup},{name:"keyremove",flavour:"remove",trigger:"key",setup:keySetup},{name:"continue",flavour:"continue",trigger:"link",setup:linkSetup},{name:"timedcontinue",flavour:"continue",trigger:"time",setup:timeSetup},{name:"mousecontinue",flavour:"continue",trigger:"mouse",setup:mouseSetup},{name:"keycontinue",flavour:"continue",trigger:"key",setup:keySetup},{name:"cycle",flavour:"cycle",trigger:"revisemacro",setup:revisionSetup},{name:"mousecycle",flavour:"cycle",trigger:"mouse",setup:mouseSetup},{name:"timedcycle",flavour:"cycle",trigger:"time",setup:timeSetup},{name:"keycycle",flavour:"replace",trigger:"key",setup:keySetup}].forEach(function(e){e.handler=revisionSpanHandler;\u000ae.shorthand=(["link","mouse","hover"].indexOf(e.trigger)>-1);macros[e.name]=e;macros["end"+e.name]=nullobj;begintags.push(e.name);\u000aendtags.push("end"+e.name)});function insideDepartingSpan(elem){var r=elem.parentNode;while(!r.classList.contains("passage")){if(r.classList.contains("revision-span-out")){return true\u000a}r=r.parentNode}}function reviseAll(rt,rname){var rall=document.querySelectorAll(".passage [data-flavour]."+rname),ret=false;\u000afor(var i=0;i<rall.length;i++){if(!insideDepartingSpan(rall[i])){ret=revise(rt,rall[i])||ret}}return ret}function revise(rt,r,notrans){var ind2,curr,next,ind=-1,rev=(rt=="revert"),rnd=(rt.indexOf("random")>-1),fl=r.getAttribute("data-flavour"),rc=r.childNodes,cyc=(fl=="cycle"),rcl=rc.length-1;\u000afunction doToGainerSpans(n,fn){for(var k=n-1;k>=0;k--){if(rc[k+1].classList.contains("gains")){fn(rc[k],notrans)}else{break\u000a}}}for(var k=0;k<=rcl;k++){if(rc[k].getAttribute("data-enabled")=="true"){ind=k}}if(rev){ind-=1}curr=(ind>=0?rc[ind]:(cyc?rc[rcl]:null));\u000aind2=ind;if(rnd){ind2=(ind+(Math.floor(Math.random()*rcl)))%rcl}next=((ind2<rcl)?rc[ind2+1]:(cyc?rc[0]:null));var docurr=(rev?showVer:hideVer);\u000avar donext=(rev?hideVer:showVer);var currfn=function(){if(!(next&&next.classList.contains("gains"))||rnd){docurr(curr,notrans);\u000adoToGainerSpans(ind,docurr,notrans)}};var nextfn=function(){donext(next,notrans);if(rnd){doToGainerSpans(ind2+1,donext,notrans)\u000a}};if(!rev){currfn();nextfn()}else{nextfn();currfn()}return(cyc?true:(rev?(ind>0):(ind2<rcl-1)))}macros.revert=macros.revise=macros.randomise=macros.randomize={handler:function(a,b,c){var l,rev,rname;\u000afunction disableLink(l){l.style.display="none"}function enableLink(l){l.style.display="inline"}function updateLink(l){if(l.className.indexOf("random")>-1){enableLink(l);\u000areturn}var rall=document.querySelectorAll(".passage [data-flavour]."+rname),cannext,canprev,i,ind,r,fl;for(i=0;i<rall.length;\u000ai++){r=rall[i],fl=r.getAttribute("data-flavour");if(insideDepartingSpan(r)){continue}if(fl=="cycle"){cannext=canprev=true\u000a}else{if(r.firstChild.getAttribute("data-enabled")==!1+""){canprev=true}if(r.lastChild.getAttribute("data-enabled")==!1+""){cannext=true\u000a}}}var can=(l.classList.contains("revert")?canprev:cannext);(can?enableLink:disableLink)(l)}function toggleText(w){w.classList.toggle(rl+"Enabled");\u000aw.classList.toggle(rl+"Disabled");w.style.display=((w.style.display=="none")?"inline":"none")}var rl="reviseLink";if(c.length<2){throwError(a,b+" macro needs 2 parameters");\u000areturn}rname=c.shift().replace(" ","_");l=Wikifier.createInternalLink(a,null);l.className="internalLink "+rl+" "+rl+"_"+rname+" "+b;\u000avar v="";var end=false;var out=false;if(c.length>1&&c[0][0]=="$"){v=c[0].slice(1);c.shift()}switch(c[c.length-1]){case"end":end=true;\u000ac.pop();break;case"out":out=true;c.pop();break}var h=state.history[0].variables;for(var i=0;i<c.length;i++){var on=(i==Math.max(c.indexOf(h[v]),0));\u000avar d=insertElement(null,"span",null,rl+((on)?"En":"Dis")+"abled");if(on){h[v]=c[i];l.setAttribute("data-cycle",i)}else{d.style.display="none"\u000a}insertText(d,c[i]);l.appendChild(d)}l.onclick=function(){reviseAll(b,rname);var t=this.childNodes,u=this.getAttribute("data-cycle")-0,m=t.length,n,lall,i;\u000aif((end||out)&&u==m-(end?2:1)){if(end){n=this.removeChild(t[u+1]);n.className=rl+"End";n.style.display="inline";this.parentNode.replaceChild(n,this)\u000a}else{this.parentNode.removeChild(this);return}}else{toggleText(t[u]);u=(u+1)%m;if(v){h[v]=c[u]}toggleText(t[u]);this.setAttribute("data-cycle",u)\u000a}lall=document.getElementsByClassName(rl+"_"+rname);for(i=0;i<lall.length;i++){updateLink(lall[i])}};l=null}};macros.mouserevise=macros.hoverrevise={handler:function(a,b,c,d){var endtags=["end"+b],evt=(window.onmouseenter===null?"onmouseenter":"onmouseover"),t=tagcontents(d,[b],endtags,endtags,d.source.indexOf(">>",d.matchStart)+2);\u000aif(t){var rname=c[0].replace(" ","_"),h=insertElement(a,"span",null,"hoverrevise hoverrevise_"+rname),f=function(){var done=!reviseAll("revise",rname);\u000aif(b!="hoverrevise"&&done){this[evt]=null}};new Wikifier(h,t[0]);if(b=="hoverrevise"){h.onmouseover=f;h.onmouseout=function(){reviseAll("revert",rname)\u000a}}else{h[evt]=f}h=null}}};macros.instantrevise={handler:function(a,b,c,d){reviseAll("revise",c[0].replace(" ","_"))}};macros.endmouserevise=nullobj;\u000amacros.endhoverrevise=nullobj}());
+p925
+sg21
+Vreplace
+p926
+sg23
+g24
+((I2014
+I7
+I24
+I16
+I25
+I10
+I3
+I205
+I1
+tp927
+(dp928
+tp929
+Rp930
+sg29
+(lp931
+Vscript
+p932
+asg31
+g24
+((I2014
+I7
+I24
+I16
+I20
+I49
+I3
+I205
+I1
+tp933
+(dp934
+tp935
+Rp936
+sbsa(dp937
+g12
+I00
+sg13
+(lp938
+F150.0
+aF1970.0
+asg15
+(itiddlywiki
+Tiddler
+p939
+(dp940
+g19
+V(function () {\u000a  version.extensions['timedreplaceMacro'] = {\u000a    major: 2,\u000a    minor: 3,\u000a    revision: 0\u000a  };\u000a  macros['timedcontinue'] = macros['timedinsert'] = macros['timedreplace'] = {\u000a    handler: function (g, e, f, b) {\u000a      function cssTimeUnit(s) {\u000a        if (typeof s == "string") {\u000a          if (s.slice(-2).toLowerCase() == "ms") {\u000a            return Number(s.slice(0, -2)) || 0;\u000a          }\u000a          else if (s.slice(-1).toLowerCase() == "s") {\u000a            return Number(s.slice(0, -1)) * 1000 || 0;\u000a          }\u000a        }\u000a        throwError(g, s + " isn't a CSS time unit");\u000a        return 0;\u000a      }\u000a\u000a      function tagcontents(starttag, endtag, k) {\u000a        var a = b.source.slice(k);\u000a        var l = 0;\u000a        var c = "";\u000a        for (var i = 0; i < a.length; i++) {\u000a          var w = endtag.length;\u000a          if (a.substr(i, w) == endtag) {\u000a            if (l == 0) {\u000a              b.nextMatch = k + i + w;\u000a              return c;\u000a            }\u000a            else {\u000a              l--;\u000a              c += a.charAt(i);\u000a            }\u000a          }\u000a          else {\u000a            if (a.substr(i, starttag.length) == starttag) {\u000a              l++;\u000a            }\u000a            c += a.charAt(i);\u000a          }\u000a        }\u000a        return "";\u000a      }\u000a      var tr = "<<" + e;\u000a      var rw = "<<replacewith>>";\u000a      var etr = "<<end" + e + ">>";\u000a      var k = b.source.indexOf('>>', b.matchStart) + 2;\u000a      var c, d;\u000a	  if (e == "timedcontinue") {\u000a	    d = b.source.slice(k);\u000a		b.nextMatch = k + d.length;\u000a	  }\u000a      else if (e == "timedreplace") {\u000a        c = tagcontents(tr, rw, k);\u000a        d = tagcontents((c ? rw : tr), etr, c ? b.nextMatch : k);\u000a      }\u000a      else if (e == "timedinsert") {\u000a        d = tagcontents(tr, etr, k);\u000a      }\u000a      else if (e == "timedremove") {\u000a        c = tagcontents(tr, etr, k);\u000a      }\u000a      var tm;\u000a      tm = cssTimeUnit(f[0]);\u000a      var h;\u000a      if (c) {\u000a        if (d) {\u000a          g = insertElement(g, "span", null, "timedreplacements");\u000a        }\u000a        h = insertElement(g, "span", null, "timedreplacement timedremove");\u000a        new Wikifier(h, c);\u000a        if (d || e == "timedremove") {\u000a          setTimeout(function () {\u000a            h.classList.add("replacement-out");\u000a            setTimeout(function () {\u000a              h.parentNode.removeChild(h);\u000a            }, 1000);\u000a          }, tm);\u000a        }\u000a      }\u000a      if (d) {\u000a        var m = insertElement(g, "span", null, "timedreplacement timedinsert", d);\u000a        m.style.display = "none";\u000a        setTimeout(function () {\u000a          if (m) {\u000a            var t = m.firstChild ? m.firstChild.nodeValue : "";\u000a            removeChildren(m);\u000a            new Wikifier(m, t);\u000a            m.style.display = "inline";\u000a            m.classList.add("replacement-in");\u000a            setTimeout(function () {\u000a              m.classList.remove("replacement-in");\u000a            }, 1);\u000a            scrollWindowTo(m);\u000a          }\u000a        }, tm);\u000a      }\u000a      else if (!c && e != "timedremove") {\u000a        throwError(g, "can't find matching end" + e);\u000a        return;\u000a      }\u000a    }\u000a  }\u000a  macros['timedremove'] = macros['timedreplace'];\u000a  macros['replacewith'] = macros['endtimedinsert'] = macros['endtimedremove'] = macros['endtimedreplace'] = {\u000a    handler: function () {}\u000a  }\u000a    scrollWindowTo=function(E){var D=window.scrollY?window.scrollY:document.body.scrollTop;\u000a    var G=J(E);if(!G){return;}var C=Math.abs(D-G);var B=0;var I=(D>G)?-1:1;var F=window.setInterval(H,25);\u000a    function H(){B+=0.1;window.scrollTo(0,D+I*(C*Math.easeInOut(B)));if(B>=1){window.clearInterval(F);\u000a    }}function J(N){var O=A(N);var P=O+N.offsetHeight;var K=window.scrollY?window.scrollY:document.body.scrollTop;\u000a    var L=window.innerHeight?window.innerHeight:document.body.clientHeight;var M=K+L;\u000a    if(O>=K){if(P>M){if(N.offsetHeight<L){return(O-(L-N.offsetHeight)+20);}else{return O;\u000a    }}}}function A(K){var L=0;while(K.offsetParent){L+=K.offsetTop;K=K.offsetParent;}return L;\u000a    }};\u000a}());
+p941
+sg21
+Vtimedreplace
+p942
+sg23
+g24
+((I2014
+I7
+I24
+I16
+I21
+I8
+I3
+I205
+I1
+tp943
+(dp944
+tp945
+Rp946
+sg29
+(lp947
+Vscript
+p948
+asg31
+g24
+((I2014
+I7
+I24
+I16
+I20
+I53
+I3
+I205
+I1
+tp949
+(dp950
+tp951
+Rp952
+sbsa(dp953
+g12
+I00
+sg13
+(lp954
+F2110.0
+aF10.0
+asg15
+(itiddlywiki
+Tiddler
+p955
+(dp956
+g19
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">I'll never forget the day it was ratified. October 10th, 2028.</em></html>\u000a\u000a[[The world got a little scarier that day|personal 1 a 1 opinion+]]\u000a\u000a[[A great day for America|personal 1 a 1 opinion-]]\u000a\u000a[[Let's talk politics|politics 1]]
+p957
+sg21
+Vpersonal 1 a 1
+p958
+sg23
+g24
+((I2014
+I7
+I24
+I16
+I53
+I5
+I3
+I205
+I1
+tp959
+(dp960
+tp961
+Rp962
+sg29
+(lp963
+sg31
+g24
+((I2014
+I7
+I24
+I16
+I46
+I58
+I3
+I205
+I1
+tp964
+(dp965
+tp966
+Rp967
+sbsa(dp968
+g12
+I00
+sg13
+(lp969
+F2250.0
+aF10.0
+asg15
+(itiddlywiki
+Tiddler
+p970
+(dp971
+g19
+V<<set $opinion = $opinion + 1>>\u000a<<timedgoto "conversation hub" 2s>>
+p972
+sg21
+Vpersonal 1 a 1 opinion+
+p973
+sg23
+g24
+((I2014
+I7
+I24
+I16
+I54
+I3
+I3
+I205
+I1
+tp974
+(dp975
+tp976
+Rp977
+sg29
+(lp978
+sg31
+g24
+((I2014
+I7
+I24
+I16
+I53
+I24
+I3
+I205
+I1
+tp979
+(dp980
+tp981
+Rp982
+sbsa(dp983
+g12
+I00
+sg13
+(lp984
+F2390.0
+aF10.0
+asg15
+(itiddlywiki
+Tiddler
+p985
+(dp986
+g19
+V<<set $opinion = $opinion - 1>>\u000a<<timedgoto "conversation hub" 2s>>
+p987
+sg21
+Vpersonal 1 a 1 opinion-
+p988
+sg23
+g24
+((I2014
+I7
+I24
+I16
+I54
+I49
+I3
+I205
+I1
+tp989
+(dp990
+tp991
+Rp992
+sg29
+(lp993
+sg31
+g24
+((I2014
+I7
+I24
+I16
+I54
+I11
+I3
+I205
+I1
+tp994
+(dp995
+tp996
+Rp997
+sbsa(dp998
+g12
+I00
+sg13
+(lp999
+F2110.0
+aF150.0
+asg15
+(itiddlywiki
+Tiddler
+p1000
+(dp1001
+g19
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">Okay, well... Probably has to do with my work.</em></html>\u000a\u000a[[You're with the Boston Center for Legal Activism. Legal Analyst|job 1]]\u000a\u000a[[Sure. Little watchdogs, barking away.|personal 1 a 1 opinion-]]\u000a\u000a[[We need people like you, even now.|personal 1 a 2 opinion+]]
+p1002
+sg21
+Vpersonal 1 a 2
+p1003
+sg23
+g24
+((I2014
+I7
+I24
+I23
+I23
+I30
+I3
+I205
+I1
+tp1004
+(dp1005
+tp1006
+Rp1007
+sg29
+(lp1008
+sg31
+g24
+((I2014
+I7
+I24
+I16
+I55
+I42
+I3
+I205
+I1
+tp1009
+(dp1010
+tp1011
+Rp1012
+sbsa(dp1013
+g12
+I00
+sg13
+(lp1014
+F2110.0
+aF290.0
+asg15
+(itiddlywiki
+Tiddler
+p1015
+(dp1016
+g19
+V<<timedinsert 4s>><html><em class="torture">(speech cannot be parsed)</em></html><<endtimedinsert>>\u000a\u000a<<timedinsert 5s>>[[I said "Give me your best guess"|personal 1 a 4]]<<endtimedinsert>>
+p1017
+sg21
+Vpersonal 1 a 3 torture
+p1018
+sg23
+g24
+((I2014
+I7
+I24
+I23
+I34
+I2
+I3
+I205
+I1
+tp1019
+(dp1020
+tp1021
+Rp1022
+sg29
+(lp1023
+Vtorture
+p1024
+asg31
+g24
+((I2014
+I7
+I24
+I16
+I59
+I31
+I3
+I205
+I1
+tp1025
+(dp1026
+tp1027
+Rp1028
+sbsa(dp1029
+g12
+I00
+sg13
+(lp1030
+F2250.0
+aF290.0
+asg15
+(itiddlywiki
+Tiddler
+p1031
+(dp1032
+g19
+VSUSPECT 1247\u000a- - - -\u000a<<timedinsert 1s>><html><em class="suspect">I think...</em></html><<endtimedinsert>>\u000a<<timedinsert 3s>><html><em class="suspect">It might be my work.</em></html><<endtimedinsert>>\u000a\u000a\u000a<<timedinsert 6s>>[[You're with the Boston Center for Legal Activism. Legal Analyst|job 1]]<<endtimedinsert>>\u000a\u000a<<timedinsert 6s>>[[Sure. Little watchdogs, barking away.|personal 1 a 1 opinion-]]<<endtimedinsert>>\u000a\u000a<<timedinsert 6s>>[[We need people like you, even now.|personal 1 a 2 opinion+]]<<endtimedinsert>>
+p1033
+sg21
+Vpersonal 1 a 4
+p1034
+sg23
+g24
+((I2014
+I7
+I24
+I23
+I35
+I8
+I3
+I205
+I1
+tp1035
+(dp1036
+tp1037
+Rp1038
+sg29
+(lp1039
+sg31
+g24
+((I2014
+I7
+I24
+I23
+I29
+I35
+I3
+I205
+I1
+tp1040
+(dp1041
+tp1042
+Rp1043
+sbsa(dp1044
+g12
+I00
+sg13
+(lp1045
+F2110.0
+aF430.0
+asg15
+(itiddlywiki
+Tiddler
+p1046
+(dp1047
+g19
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">That's right.</em></html>\u000a\u000a[[You're with the Boston Center for Legal Activism. Legal Analyst.|job 1]]\u000a\u000a[[City's really gone to hell.|personal 1 b 1 a]]\u000a\u000a[[Always hated that place|personal 1 a 1 opinion-]]
+p1048
+sg21
+Vpersonal 1 b 1
+p1049
+sg23
+g24
+((I2014
+I7
+I24
+I23
+I39
+I24
+I3
+I205
+I1
+tp1050
+(dp1051
+tp1052
+Rp1053
+sg29
+(lp1054
+sg31
+g24
+((I2014
+I7
+I24
+I23
+I35
+I26
+I3
+I205
+I1
+tp1055
+(dp1056
+tp1057
+Rp1058
+sbsa(dp1059
+g12
+I01
+sg13
+(lp1060
+F2250.0
+aF430.0
+asg15
+(itiddlywiki
+Tiddler
+p1061
+(dp1062
+g19
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">Well, it's home.</em></html>\u000a\u000a<<timedgoto "conversation hub" 3s>>
+p1063
+sg21
+Vpersonal 1 b 1 a
+p1064
+sg23
+g24
+((I2014
+I7
+I24
+I23
+I40
+I51
+I3
+I205
+I1
+tp1065
+(dp1066
+tp1067
+Rp1068
+sg29
+(lp1069
+sg31
+g24
+((I2014
+I7
+I24
+I23
+I39
+I30
+I3
+I205
+I1
+tp1070
+(dp1071
+tp1072
+Rp1073
 sbsasS'scale'
-p875
-F0.8
+p1074
+F0.6000000000000001
 sS'snapping'
-p876
+p1075
 I01
 ss.
