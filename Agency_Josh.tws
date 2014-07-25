@@ -2570,27 +2570,28 @@ Tiddler
 p782
 (dp783
 g21
-g42
+VSUSPECT 1247\u000a- - - -\u000a<<if $opinion < 2>><html><em class="suspect">I don't know what you're talking about.</em></html><<else>><html><em class="suspect">I can't tell you anything, really.</em></html><<endif>>\u000a\u000a[[(Apply physical encouragement.)|forcing 3][$torture++ ; $opinion--]]\u000a\u000a[[You and I both know that's not true.|forcing 4]]\u000a\u000a[[Look. We won't hurt you if you cooperate. If you don't...|forcing 4]]
+p784
 sg23
 Vforcing 1
-p784
+p785
 sg25
 g26
 ((I2014
 I7
-I24
-I15
-I19
-I23
-I3
-I205
+I25
+I16
+I57
+I47
+I4
+I206
 I1
-tp785
-(dp786
-tp787
-Rp788
+tp786
+(dp787
+tp788
+Rp789
 sg31
-(lp789
+(lp790
 sg33
 g26
 ((I2014
@@ -2602,28 +2603,28 @@ I28
 I3
 I205
 I1
-tp790
-(dp791
-tp792
-Rp793
-sbsa(dp794
+tp791
+(dp792
+tp793
+Rp794
+sbsa(dp795
 g14
 I00
 sg15
-(lp795
+(lp796
 F1970.0
 aF570.0
 asg17
 (itiddlywiki
 Tiddler
-p796
-(dp797
+p797
+(dp798
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">That was 20 years ago. I was a kid.</em></html>\u000a\u000a[[Do you regret it?|riots 2]]\u000a\u000a[[You wouldn't be there if it happened now?|riots 3]]\u000a\u000a[[We all make mistakes.|riots 4]]\u000a\u000a[[Looks like it finally caught up to you.|riots 4]]
-p798
+p799
 sg23
 Vriots 1
-p799
+p800
 sg25
 g26
 ((I2014
@@ -2635,12 +2636,12 @@ I46
 I3
 I205
 I1
-tp800
-(dp801
-tp802
-Rp803
+tp801
+(dp802
+tp803
+Rp804
 sg31
-(lp804
+(lp805
 sg33
 g26
 ((I2014
@@ -2652,28 +2653,28 @@ I32
 I3
 I205
 I1
-tp805
-(dp806
-tp807
-Rp808
-sbsa(dp809
+tp806
+(dp807
+tp808
+Rp809
+sbsa(dp810
 g14
 I00
 sg15
-(lp810
+(lp811
 F1970.0
 aF430.0
 asg17
 (itiddlywiki
 Tiddler
-p811
-(dp812
+p812
+(dp813
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">They're immigrants. From Russia. They're good people.</em></html>\u000a\u000a[[Did they talk about the old country?|family 2]]\u000a\u000a[[Did they want you to go into law?|family 5]]\u000a\u000a[[No wonder they raised a little anti-corporatist.|conversation hub][$opinion--]]
-p813
+p814
 sg23
 Vfamily 1
-p814
+p815
 sg25
 g26
 ((I2014
@@ -2685,12 +2686,12 @@ I32
 I4
 I206
 I1
-tp815
-(dp816
-tp817
-Rp818
+tp816
+(dp817
+tp818
+Rp819
 sg31
-(lp819
+(lp820
 sg33
 g26
 ((I2014
@@ -2702,27 +2703,27 @@ I32
 I3
 I205
 I1
-tp820
-(dp821
-tp822
-Rp823
-sbsa(dp824
+tp821
+(dp822
+tp823
+Rp824
+sbsa(dp825
 g14
 I00
 sg15
-(lp825
+(lp826
 F1970.0
 aF150.0
 asg17
 (itiddlywiki
 Tiddler
-p826
-(dp827
+p827
+(dp828
 g21
 g42
 sg23
 Vpersonal 1
-p828
+p829
 sg25
 g26
 ((I2014
@@ -2734,12 +2735,12 @@ I2
 I3
 I205
 I1
-tp829
-(dp830
-tp831
-Rp832
+tp830
+(dp831
+tp832
+Rp833
 sg31
-(lp833
+(lp834
 sg33
 g26
 ((I2014
@@ -2751,28 +2752,28 @@ I33
 I3
 I205
 I1
-tp834
-(dp835
-tp836
-Rp837
-sbsa(dp838
+tp835
+(dp836
+tp837
+Rp838
+sbsa(dp839
 g14
 I00
 sg15
-(lp839
+(lp840
 F1970.0
 aF850.0
 asg17
 (itiddlywiki
 Tiddler
-p840
-(dp841
+p841
+(dp842
 g21
 V<<timedinsert 3s>><<nobr>>\u000a<<if $leaderConvo neq 2>>\u000a<<set $leaderConvo to 1>>\u000a[[You know James Hewes.|hewes 1][$leaderConvo = 2]]<br><br><<endif>>\u000a<<endnobr>>[[How long have you been a part of it?|newCollective 2]]\u000a\u000a[[(Apply physical encouragement.)|newCollective 3][$torture++; $opinion--]]<<endtimedinsert>>
-p842
+p843
 sg23
 VnewCollective 1
-p843
+p844
 sg25
 g26
 ((I2014
@@ -2784,12 +2785,12 @@ I21
 I4
 I206
 I1
-tp844
-(dp845
-tp846
-Rp847
+tp845
+(dp846
+tp847
+Rp848
 sg31
-(lp848
+(lp849
 sg33
 g26
 ((I2014
@@ -2801,28 +2802,28 @@ I32
 I3
 I205
 I1
-tp849
-(dp850
-tp851
-Rp852
-sbsa(dp853
+tp850
+(dp851
+tp852
+Rp853
+sbsa(dp854
 g14
 I00
 sg15
-(lp854
+(lp855
 F1970.0
 aF710.0
 asg17
 (itiddlywiki
 Tiddler
-p855
-(dp856
+p856
+(dp857
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<nobr>><<if $opinion < 2>><html><em class="suspect">Yes.</em></html><<endif>>\u000a<<if $opinion >= 2>><html><em class="suspect">Yes, and proud of it.</em></html><<endif>>\u000a<<endnobr>>\u000a\u000a[[Tell me more about your work there.|job 2]]\u000a\u000a[[It's an interesting organization.|job 2]]\u000a\u000a[[Pack of dogs. You attack our leaders, and corporate rights.|job 2][$opinion -= 1]]
-p857
+p858
 sg23
 Vjob 1
-p858
+p859
 sg25
 g26
 ((I2014
@@ -2834,12 +2835,12 @@ I45
 I4
 I206
 I1
-tp859
-(dp860
-tp861
-Rp862
+tp860
+(dp861
+tp862
+Rp863
 sg31
-(lp863
+(lp864
 sg33
 g26
 ((I2014
@@ -2851,28 +2852,28 @@ I32
 I3
 I205
 I1
-tp864
-(dp865
-tp866
-Rp867
-sbsa(dp868
+tp865
+(dp866
+tp867
+Rp868
+sbsa(dp869
 g14
 I00
 sg15
-(lp869
+(lp870
 F1970.0
 aF990.0
 asg17
 (itiddlywiki
 Tiddler
-p870
-(dp871
+p871
+(dp872
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">I met him once.</em></html> \u000a\u000a[[You've been corresponding for years.|hewes 2]]\u000a\u000a[[What was he like?|hewes 3]]
-p872
+p873
 sg23
 Vhewes 1
-p873
+p874
 sg25
 g26
 ((I2014
@@ -2884,12 +2885,12 @@ I38
 I4
 I206
 I1
-tp874
-(dp875
-tp876
-Rp877
+tp875
+(dp876
+tp877
+Rp878
 sg31
-(lp878
+(lp879
 sg33
 g26
 ((I2014
@@ -2901,28 +2902,28 @@ I32
 I3
 I205
 I1
-tp879
-(dp880
-tp881
-Rp882
-sbsa(dp883
+tp880
+(dp881
+tp882
+Rp883
+sbsa(dp884
 g14
 I00
 sg15
-(lp884
+(lp885
 F2110.0
 aF570.0
 asg17
 (itiddlywiki
 Tiddler
-p885
-(dp886
+p886
+(dp887
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<timedinsert 2s>><html><em class="suspect">Didn't do much good.</em></html>\u000a\u000a[[Showed us who the traitors were.|riots 6][$delay = 3]]\u000a\u000a[[No, it didn't.|riots 6][$delay = 3]] <<endtimedinsert>>
-p887
+p888
 sg23
 Vriots 2
-p888
+p889
 sg25
 g26
 ((I2014
@@ -2934,12 +2935,12 @@ I19
 I4
 I206
 I1
-tp889
-(dp890
-tp891
-Rp892
+tp890
+(dp891
+tp892
+Rp893
 sg31
-(lp893
+(lp894
 sg33
 g26
 ((I2014
@@ -2951,28 +2952,28 @@ I5
 I3
 I205
 I1
-tp894
-(dp895
-tp896
-Rp897
-sbsa(dp898
+tp895
+(dp896
+tp897
+Rp898
+sbsa(dp899
 g14
 I00
 sg15
-(lp899
+(lp900
 F2250.0
 aF570.0
 asg17
 (itiddlywiki
 Tiddler
-p900
-(dp901
+p901
+(dp902
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">I can't even imagine.</em></html>\u000a\u000a[[But that was the first Collective.|riots 7]]
-p902
+p903
 sg23
 Vriots 3
-p903
+p904
 sg25
 g26
 ((I2014
@@ -2984,12 +2985,12 @@ I37
 I3
 I205
 I1
-tp904
-(dp905
-tp906
-Rp907
+tp905
+(dp906
+tp907
+Rp908
 sg31
-(lp908
+(lp909
 sg33
 g26
 ((I2014
@@ -3001,28 +3002,28 @@ I5
 I3
 I205
 I1
-tp909
-(dp910
-tp911
-Rp912
-sbsa(dp913
+tp910
+(dp911
+tp912
+Rp913
+sbsa(dp914
 g14
 I00
 sg15
-(lp914
+(lp915
 F2390.0
 aF570.0
 asg17
 (itiddlywiki
 Tiddler
-p915
-(dp916
+p916
+(dp917
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">Guess so.</em></html>\u000a\u000a[[But that was the first Collective.|riots 7]]
-p917
+p918
 sg23
 Vriots 4
-p918
+p919
 sg25
 g26
 ((I2014
@@ -3034,12 +3035,12 @@ I47
 I3
 I205
 I1
-tp919
-(dp920
-tp921
-Rp922
+tp920
+(dp921
+tp922
+Rp923
 sg31
-(lp923
+(lp924
 sg33
 g26
 ((I2014
@@ -3051,28 +3052,28 @@ I5
 I3
 I205
 I1
-tp924
-(dp925
-tp926
-Rp927
-sbsa(dp928
+tp925
+(dp926
+tp927
+Rp928
+sbsa(dp929
 g14
 I00
 sg15
-(lp929
+(lp930
 F150.0
 aF1410.0
 asg17
 (itiddlywiki
 Tiddler
-p930
-(dp931
+p931
+(dp932
 g21
 V(function () {\u000a  version.extensions['timedreplaceMacro'] = {\u000a    major: 2,\u000a    minor: 3,\u000a    revision: 0\u000a  };\u000a  macros['timedcontinue'] = macros['timedinsert'] = macros['timedreplace'] = {\u000a    handler: function (g, e, f, b) {\u000a      function cssTimeUnit(s) {\u000a        if (typeof s == "string") {\u000a          if (s.slice(-2).toLowerCase() == "ms") {\u000a            return Number(s.slice(0, -2)) || 0;\u000a          }\u000a          else if (s.slice(-1).toLowerCase() == "s") {\u000a            return Number(s.slice(0, -1)) * 1000 || 0;\u000a          }\u000a        }\u000a        throwError(g, s + " isn't a CSS time unit");\u000a        return 0;\u000a      }\u000a\u000a      function tagcontents(starttag, endtag, k) {\u000a        var a = b.source.slice(k);\u000a        var l = 0;\u000a        var c = "";\u000a        for (var i = 0; i < a.length; i++) {\u000a          var w = endtag.length;\u000a          if (a.substr(i, w) == endtag) {\u000a            if (l == 0) {\u000a              b.nextMatch = k + i + w;\u000a              return c;\u000a            }\u000a            else {\u000a              l--;\u000a              c += a.charAt(i);\u000a            }\u000a          }\u000a          else {\u000a            if (a.substr(i, starttag.length) == starttag) {\u000a              l++;\u000a            }\u000a            c += a.charAt(i);\u000a          }\u000a        }\u000a        return "";\u000a      }\u000a      var tr = "<<" + e;\u000a      var rw = "<<replacewith>>";\u000a      var etr = "<<end" + e + ">>";\u000a      var k = b.source.indexOf('>>', b.matchStart) + 2;\u000a      var c, d;\u000a	  if (e == "timedcontinue") {\u000a	    d = b.source.slice(k);\u000a		b.nextMatch = k + d.length;\u000a	  }\u000a      else if (e == "timedreplace") {\u000a        c = tagcontents(tr, rw, k);\u000a        d = tagcontents((c ? rw : tr), etr, c ? b.nextMatch : k);\u000a      }\u000a      else if (e == "timedinsert") {\u000a        d = tagcontents(tr, etr, k);\u000a      }\u000a      else if (e == "timedremove") {\u000a        c = tagcontents(tr, etr, k);\u000a      }\u000a      var tm;\u000a      tm = cssTimeUnit(f[0]);\u000a      var h;\u000a      if (c) {\u000a        if (d) {\u000a          g = insertElement(g, "span", null, "timedreplacements");\u000a        }\u000a        h = insertElement(g, "span", null, "timedreplacement timedremove");\u000a        new Wikifier(h, c);\u000a        if (d || e == "timedremove") {\u000a          setTimeout(function () {\u000a            h.classList.add("replacement-out");\u000a            setTimeout(function () {\u000a              h.parentNode.removeChild(h);\u000a            }, 1000);\u000a          }, tm);\u000a        }\u000a      }\u000a      if (d) {\u000a        var m = insertElement(g, "span", null, "timedreplacement timedinsert", d);\u000a        m.style.display = "none";\u000a        setTimeout(function () {\u000a          if (m) {\u000a            var t = m.firstChild ? m.firstChild.nodeValue : "";\u000a            removeChildren(m);\u000a            new Wikifier(m, t);\u000a            m.style.display = "inline";\u000a            m.classList.add("replacement-in");\u000a            setTimeout(function () {\u000a              m.classList.remove("replacement-in");\u000a            }, 1);\u000a            scrollWindowTo(m);\u000a          }\u000a        }, tm);\u000a      }\u000a      else if (!c && e != "timedremove") {\u000a        throwError(g, "can't find matching end" + e);\u000a        return;\u000a      }\u000a    }\u000a  }\u000a  macros['timedremove'] = macros['timedreplace'];\u000a  macros['replacewith'] = macros['endtimedinsert'] = macros['endtimedremove'] = macros['endtimedreplace'] = {\u000a    handler: function () {}\u000a  }\u000a    scrollWindowTo=function(E){var D=window.scrollY?window.scrollY:document.body.scrollTop;\u000a    var G=J(E);if(!G){return;}var C=Math.abs(D-G);var B=0;var I=(D>G)?-1:1;var F=window.setInterval(H,25);\u000a    function H(){B+=0.1;window.scrollTo(0,D+I*(C*Math.easeInOut(B)));if(B>=1){window.clearInterval(F);\u000a    }}function J(N){var O=A(N);var P=O+N.offsetHeight;var K=window.scrollY?window.scrollY:document.body.scrollTop;\u000a    var L=window.innerHeight?window.innerHeight:document.body.clientHeight;var M=K+L;\u000a    if(O>=K){if(P>M){if(N.offsetHeight<L){return(O-(L-N.offsetHeight)+20);}else{return O;\u000a    }}}}function A(K){var L=0;while(K.offsetParent){L+=K.offsetTop;K=K.offsetParent;}return L;\u000a    }};\u000a}());
-p932
+p933
 sg23
 Vtimedreplace
-p933
+p934
 sg25
 g26
 ((I2014
@@ -3084,14 +3085,14 @@ I8
 I3
 I205
 I1
-tp934
-(dp935
-tp936
-Rp937
+tp935
+(dp936
+tp937
+Rp938
 sg31
-(lp938
+(lp939
 Vscript
-p939
+p940
 asg33
 g26
 ((I2014
@@ -3103,28 +3104,28 @@ I59
 I3
 I205
 I1
-tp940
-(dp941
-tp942
-Rp943
-sbsa(dp944
+tp941
+(dp942
+tp943
+Rp944
+sbsa(dp945
 g14
 I00
 sg15
-(lp945
+(lp946
 F2670.0
 aF570.0
 asg17
 (itiddlywiki
 Tiddler
-p946
-(dp947
+p947
+(dp948
 g21
 V<<nobr>>\u000a<<if $delay is 3>>\u000a<<timedinsert 3s>>\u000a[[But that was the first Collective.|riots 7]]\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedinsert 0s>>\u000a[[But that was the first Collective.|riots 7]]\u000a<<endtimedinsert>>\u000a<<endif>>\u000a<<set $delay = 0>>\u000a<<endnobr>>
-p948
+p949
 sg23
 Vriots 6
-p949
+p950
 sg25
 g26
 ((I2014
@@ -3136,12 +3137,12 @@ I22
 I4
 I206
 I1
-tp950
-(dp951
-tp952
-Rp953
+tp951
+(dp952
+tp953
+Rp954
 sg31
-(lp954
+(lp955
 sg33
 g26
 ((I2014
@@ -3153,28 +3154,28 @@ I24
 I3
 I205
 I1
-tp955
-(dp956
-tp957
-Rp958
-sbsa(dp959
+tp956
+(dp957
+tp958
+Rp959
+sbsa(dp960
 g14
 I00
 sg15
-(lp960
+(lp961
 F2810.0
 aF570.0
 asg17
 (itiddlywiki
 Tiddler
-p961
-(dp962
+p962
+(dp963
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">They're long gone.</em></html>\u000a\u000a[[Yes, they are.|conversation hub]]\u000a\u000a[[Good riddance.|conversation hub][$opinion -= 1]]\u000a\u000a<<if $newCollectiveConvo neq 2>><<set $newCollectiveConvo to 1>>[[You've got ties to the New Collctive.|newCollective 1]]<<endif>>
-p963
+p964
 sg23
 Vriots 7
-p964
+p965
 sg25
 g26
 ((I2014
@@ -3186,12 +3187,12 @@ I54
 I4
 I206
 I1
-tp965
-(dp966
-tp967
-Rp968
+tp966
+(dp967
+tp968
+Rp969
 sg31
-(lp969
+(lp970
 sg33
 g26
 ((I2014
@@ -3203,28 +3204,28 @@ I28
 I3
 I205
 I1
-tp970
-(dp971
-tp972
-Rp973
-sbsa(dp974
+tp971
+(dp972
+tp973
+Rp974
+sbsa(dp975
 g14
 I00
 sg15
-(lp975
+(lp976
 F850.0
 aF570.0
 asg17
 (itiddlywiki
 Tiddler
-p976
-(dp977
+p977
+(dp978
 g21
 VSUSPECT 1247\u000a- - - -\u000aCONNECTING.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>>\u000a\u000a<<timedgoto "greeting1" 3s>>
-p978
+p979
 sg23
 Vsuspect connecting
-p979
+p980
 sg25
 g26
 ((I2014
@@ -3236,12 +3237,12 @@ I53
 I4
 I206
 I1
-tp980
-(dp981
-tp982
-Rp983
+tp981
+(dp982
+tp983
+Rp984
 sg31
-(lp984
+(lp985
 sg33
 g26
 ((I2014
@@ -3253,28 +3254,28 @@ I10
 I4
 I206
 I1
-tp985
-(dp986
-tp987
-Rp988
-sbsa(dp989
+tp986
+(dp987
+tp988
+Rp989
+sbsa(dp990
 g14
 I00
 sg15
-(lp990
+(lp991
 F2110.0
 aF710.0
 asg17
 (itiddlywiki
 Tiddler
-p991
-(dp992
+p992
+(dp993
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">We protect what rights are left to individuals after the 30th Amendment.</em></html>\u000a\u000a[[We can't afford to think in terms of individual desires anymore. The world's falling to pieces.|job 3]]\u000a\u000a[[You have the same rights as always until you break the law.|job 4]]
-p993
+p994
 sg23
 Vjob 2
-p994
+p995
 sg25
 g26
 ((I2014
@@ -3286,12 +3287,12 @@ I11
 I4
 I206
 I1
-tp995
-(dp996
-tp997
-Rp998
+tp996
+(dp997
+tp998
+Rp999
 sg31
-(lp999
+(lp1000
 sg33
 g26
 ((I2014
@@ -3303,28 +3304,28 @@ I45
 I4
 I206
 I1
-tp1000
-(dp1001
-tp1002
-Rp1003
-sbsa(dp1004
+tp1001
+(dp1002
+tp1003
+Rp1004
+sbsa(dp1005
 g14
 I00
 sg15
-(lp1005
+(lp1006
 F2390.0
 aF710.0
 asg17
 (itiddlywiki
 Tiddler
-p1006
-(dp1007
+p1007
+(dp1008
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">No. Just until you get arrested.</em></html>\u000a\u000a[[If national security is at stake, it's a necessity.|job 6]]\u000a\u000a[[Don't contradict me, prisoner.|conversation hub][$opinion -= 1]]\u000a\u000a[[(Apply physical encouragement.|job 7][$opinion -= 1; $torture++]]
-p1008
+p1009
 sg23
 Vjob 4
-p1009
+p1010
 sg25
 g26
 ((I2014
@@ -3336,12 +3337,12 @@ I32
 I4
 I206
 I1
-tp1010
-(dp1011
-tp1012
-Rp1013
+tp1011
+(dp1012
+tp1013
+Rp1014
 sg31
-(lp1014
+(lp1015
 sg33
 g26
 ((I2014
@@ -3353,28 +3354,28 @@ I29
 I4
 I206
 I1
-tp1015
-(dp1016
-tp1017
-Rp1018
-sbsa(dp1019
+tp1016
+(dp1017
+tp1018
+Rp1019
+sbsa(dp1020
 g14
 I00
 sg15
-(lp1020
+(lp1021
 F2250.0
 aF710.0
 asg17
 (itiddlywiki
 Tiddler
-p1021
-(dp1022
+p1022
+(dp1023
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">Maybe it's falling to pieces because we kept putting corporate rights first.</em></html>\u000a\u000a[[It was already happening. The corporations saved us.|job 5]]\u000a\u000a[[It could be so much worse.|job 5]]
-p1023
+p1024
 sg23
 Vjob 3
-p1024
+p1025
 sg25
 g26
 ((I2014
@@ -3386,12 +3387,12 @@ I41
 I4
 I206
 I1
-tp1025
-(dp1026
-tp1027
-Rp1028
+tp1026
+(dp1027
+tp1028
+Rp1029
 sg31
-(lp1029
+(lp1030
 sg33
 g26
 ((I2014
@@ -3403,28 +3404,28 @@ I29
 I4
 I206
 I1
-tp1030
-(dp1031
-tp1032
-Rp1033
-sbsa(dp1034
+tp1031
+(dp1032
+tp1033
+Rp1034
+sbsa(dp1035
 g14
 I00
 sg15
-(lp1035
+(lp1036
 F2530.0
 aF710.0
 asg17
 (itiddlywiki
 Tiddler
-p1036
-(dp1037
+p1037
+(dp1038
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">That's what they tell you, anyway.</em></html>\u000a\u000a[[That's what the government tells us, yes.|job 8]]\u000a\u000a[[There's plenty of research.|job 8]]
-p1038
+p1039
 sg23
 Vjob 5
-p1039
+p1040
 sg25
 g26
 ((I2014
@@ -3436,12 +3437,12 @@ I42
 I4
 I206
 I1
-tp1040
-(dp1041
-tp1042
-Rp1043
+tp1041
+(dp1042
+tp1043
+Rp1044
 sg31
-(lp1044
+(lp1045
 sg33
 g26
 ((I2014
@@ -3453,28 +3454,28 @@ I43
 I4
 I206
 I1
-tp1045
-(dp1046
-tp1047
-Rp1048
-sbsa(dp1049
+tp1046
+(dp1047
+tp1048
+Rp1049
+sbsa(dp1050
 g14
 I00
 sg15
-(lp1050
+(lp1051
 F2670.0
 aF710.0
 asg17
 (itiddlywiki
 Tiddler
-p1051
-(dp1052
+p1052
+(dp1053
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $opinion < 2 or $torture > 0>><html><em class="suspect">Yes.</em></html>\u000a<<else>><html><em class="suspect">It hasn't helped. We've done the research.</em></html>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[The law is the law.|conversation hub][$opinion--]]\u000a\u000a[[People hear what they want to hear.|conversation hub][$opinion--]]\u000a\u000a[[The government's done its research too.|job 8]]
-p1053
+p1054
 sg23
 Vjob 6
-p1054
+p1055
 sg25
 g26
 ((I2014
@@ -3486,12 +3487,12 @@ I24
 I4
 I206
 I1
-tp1055
-(dp1056
-tp1057
-Rp1058
+tp1056
+(dp1057
+tp1058
+Rp1059
 sg31
-(lp1059
+(lp1060
 sg33
 g26
 ((I2014
@@ -3503,28 +3504,28 @@ I2
 I4
 I206
 I1
-tp1060
-(dp1061
-tp1062
-Rp1063
-sbsa(dp1064
+tp1061
+(dp1062
+tp1063
+Rp1064
+sbsa(dp1065
 g14
 I00
 sg15
-(lp1065
+(lp1066
 F2810.0
 aF710.0
 asg17
 (itiddlywiki
 Tiddler
-p1066
-(dp1067
+p1067
+(dp1068
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<timedinsert 4s>>* * * SPEECH CANNOT BE PARSED * * *<<endtimedinsert>>\u000a<<timedgoto 'conversation hub' 6s>>
-p1068
+p1069
 sg23
 Vjob 7
-p1069
+p1070
 sg25
 g26
 ((I2014
@@ -3536,12 +3537,12 @@ I1
 I4
 I206
 I1
-tp1070
-(dp1071
-tp1072
-Rp1073
+tp1071
+(dp1072
+tp1073
+Rp1074
 sg31
-(lp1074
+(lp1075
 sg33
 g26
 ((I2014
@@ -3553,28 +3554,28 @@ I37
 I4
 I206
 I1
-tp1075
-(dp1076
-tp1077
-Rp1078
-sbsa(dp1079
+tp1076
+(dp1077
+tp1078
+Rp1079
+sbsa(dp1080
 g14
 I00
 sg15
-(lp1080
+(lp1081
 F2950.0
 aF710.0
 asg17
 (itiddlywiki
 Tiddler
-p1081
-(dp1082
+p1082
+(dp1083
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">And you believe it?</em></html>\u000a\u000a[[I do.|job 9]]\u000a\u000a[[To be honest, I'm not sure.|job 9][$opinion++]]\u000a\u000a[[It doesn't make a difference.|job 10]]
-p1083
+p1084
 sg23
 Vjob 8
-p1084
+p1085
 sg25
 g26
 ((I2014
@@ -3586,12 +3587,12 @@ I21
 I4
 I206
 I1
-tp1085
-(dp1086
-tp1087
-Rp1088
+tp1086
+(dp1087
+tp1088
+Rp1089
 sg31
-(lp1089
+(lp1090
 sg33
 g26
 ((I2014
@@ -3603,28 +3604,28 @@ I44
 I4
 I206
 I1
-tp1090
-(dp1091
-tp1092
-Rp1093
-sbsa(dp1094
+tp1091
+(dp1092
+tp1093
+Rp1094
+sbsa(dp1095
 g14
 I00
 sg15
-(lp1095
+(lp1096
 F3090.0
 aF710.0
 asg17
 (itiddlywiki
 Tiddler
-p1096
-(dp1097
+p1097
+(dp1098
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">Well, you know where I stand.</em></html>\u000a\u000a<<display 'conversation hub'>>
-p1098
+p1099
 sg23
 Vjob 9
-p1099
+p1100
 sg25
 g26
 ((I2014
@@ -3636,12 +3637,12 @@ I50
 I4
 I206
 I1
-tp1100
-(dp1101
-tp1102
-Rp1103
+tp1101
+(dp1102
+tp1103
+Rp1104
 sg31
-(lp1104
+(lp1105
 sg33
 g26
 ((I2014
@@ -3653,28 +3654,28 @@ I24
 I4
 I206
 I1
-tp1105
-(dp1106
-tp1107
-Rp1108
-sbsa(dp1109
+tp1106
+(dp1107
+tp1108
+Rp1109
+sbsa(dp1110
 g14
 I00
 sg15
-(lp1110
+(lp1111
 F3230.0
 aF710.0
 asg17
 (itiddlywiki
 Tiddler
-p1111
-(dp1112
+p1112
+(dp1113
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">We think it does.</em></html>\u000a\u000a<<display 'conversation hub'>>
-p1113
+p1114
 sg23
 Vjob 10
-p1114
+p1115
 sg25
 g26
 ((I2014
@@ -3686,12 +3687,12 @@ I55
 I4
 I206
 I1
-tp1115
-(dp1116
-tp1117
-Rp1118
+tp1116
+(dp1117
+tp1118
+Rp1119
 sg31
-(lp1119
+(lp1120
 sg33
 g26
 ((I2014
@@ -3703,28 +3704,28 @@ I24
 I4
 I206
 I1
-tp1120
-(dp1121
-tp1122
-Rp1123
-sbsa(dp1124
+tp1121
+(dp1122
+tp1123
+Rp1124
+sbsa(dp1125
 g14
 I00
 sg15
-(lp1125
+(lp1126
 F2810.0
 aF990.0
 asg17
 (itiddlywiki
 Tiddler
-p1126
-(dp1127
+p1127
+(dp1128
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">Make it work for them. What about the rest of us?</em></html>\u000a\u000a[[These are your leaders. You don't have to agree with them, but have some respect.|hewes 8][$opinion--]]\u000a\u000a[[America would have collapsed a decade ago if not for their leadership. Someone's got to make the tough choices.|hewes 9]]\u000a\u000a[[A healthy economy needs an upper class. They couldn't sustain us if they gave their wealth away.|hewes 9]]
-p1128
+p1129
 sg23
 Vhewes 7
-p1129
+p1130
 sg25
 g26
 ((I2014
@@ -3736,12 +3737,12 @@ I40
 I4
 I206
 I1
-tp1130
-(dp1131
-tp1132
-Rp1133
+tp1131
+(dp1132
+tp1133
+Rp1134
 sg31
-(lp1134
+(lp1135
 sg33
 g26
 ((I2014
@@ -3753,28 +3754,28 @@ I25
 I4
 I206
 I1
-tp1135
-(dp1136
-tp1137
-Rp1138
-sbsa(dp1139
+tp1136
+(dp1137
+tp1138
+Rp1139
+sbsa(dp1140
 g14
 I00
 sg15
-(lp1140
+(lp1141
 F2250.0
 aF850.0
 asg17
 (itiddlywiki
 Tiddler
-p1141
-(dp1142
+p1142
+(dp1143
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<timedinsert 4s>>* * * SPEECH CANNOT BE PARSED * * *\u000a\u000a[[They're an illegal organization. Terrorists, anarchists. Aiding them is a crime.|newCollective 4][$opinion--]]\u000a\u000a[[Start talking.|newCollective 4]]<<endtimedinsert>>
-p1143
+p1144
 sg23
 VnewCollective 3
-p1144
+p1145
 sg25
 g26
 ((I2014
@@ -3786,12 +3787,12 @@ I55
 I4
 I206
 I1
-tp1145
-(dp1146
-tp1147
-Rp1148
+tp1146
+(dp1147
+tp1148
+Rp1149
 sg31
-(lp1149
+(lp1150
 sg33
 g26
 ((I2014
@@ -3803,28 +3804,28 @@ I15
 I4
 I206
 I1
-tp1150
-(dp1151
-tp1152
-Rp1153
-sbsa(dp1154
+tp1151
+(dp1152
+tp1153
+Rp1154
+sbsa(dp1155
 g14
 I00
 sg15
-(lp1155
+(lp1156
 F2110.0
 aF850.0
 asg17
 (itiddlywiki
 Tiddler
-p1156
-(dp1157
+p1157
+(dp1158
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">I'm not. I just work with them.</em></html> <<nobr>>\u000a<<if $jobConvo neq 2>><<set $jobConvo to 1>>[[You're with the Boston Center for Civil Activism. Legal analyst.|job 1][$jobConvo = 2]]<br><br><<endif>>\u000a<<endnobr>>[[What's the difference?|newCollective 4]]\u000a\u000a[[They're an illegal organization. Terrorists, anarchists. Aiding them is a crime.|newCollective 4][$opinion--]]
-p1158
+p1159
 sg23
 VnewCollective 2
-p1159
+p1160
 sg25
 g26
 ((I2014
@@ -3836,12 +3837,12 @@ I31
 I4
 I206
 I1
-tp1160
-(dp1161
-tp1162
-Rp1163
+tp1161
+(dp1162
+tp1163
+Rp1164
 sg31
-(lp1164
+(lp1165
 sg33
 g26
 ((I2014
@@ -3853,28 +3854,28 @@ I15
 I4
 I206
 I1
-tp1165
-(dp1166
-tp1167
-Rp1168
-sbsa(dp1169
+tp1166
+(dp1167
+tp1168
+Rp1169
+sbsa(dp1170
 g14
 I00
 sg15
-(lp1170
+(lp1171
 F2390.0
 aF850.0
 asg17
 (itiddlywiki
 Tiddler
-p1171
-(dp1172
+p1172
+(dp1173
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $torture == 0>><html><em class="suspect">Everything we do is within the limits of the law.</em></html>\u000a<<else>><html><em class="suspect">I haven't done anything illegal.</em></html>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[Refusing to cooperate with investigators is illegal. You know that.|newCollective 5]]\u000a\u000a[[If you comply, we can keep it that way.|newCollective 5]]
-p1173
+p1174
 sg23
 VnewCollective 4
-p1174
+p1175
 sg25
 g26
 ((I2014
@@ -3886,12 +3887,12 @@ I27
 I4
 I206
 I1
-tp1175
-(dp1176
-tp1177
-Rp1178
+tp1176
+(dp1177
+tp1178
+Rp1179
 sg31
-(lp1179
+(lp1180
 sg33
 g26
 ((I2014
@@ -3903,28 +3904,28 @@ I52
 I4
 I206
 I1
-tp1180
-(dp1181
-tp1182
-Rp1183
-sbsa(dp1184
+tp1181
+(dp1182
+tp1183
+Rp1184
+sbsa(dp1185
 g14
 I00
 sg15
-(lp1185
+(lp1186
 F2530.0
 aF850.0
 asg17
 (itiddlywiki
 Tiddler
-p1186
-(dp1187
+p1187
+(dp1188
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">I'll cooperate as best I can.</em></html>\u000a\u000a<<display 'conversation hub'>>\u000a
-p1188
+p1189
 sg23
 VnewCollective 5
-p1189
+p1190
 sg25
 g26
 ((I2014
@@ -3936,12 +3937,12 @@ I4
 I4
 I206
 I1
-tp1190
-(dp1191
-tp1192
-Rp1193
+tp1191
+(dp1192
+tp1193
+Rp1194
 sg31
-(lp1194
+(lp1195
 sg33
 g26
 ((I2014
@@ -3953,28 +3954,28 @@ I32
 I4
 I206
 I1
-tp1195
-(dp1196
-tp1197
-Rp1198
-sbsa(dp1199
+tp1196
+(dp1197
+tp1198
+Rp1199
+sbsa(dp1200
 g14
 I00
 sg15
-(lp1200
+(lp1201
 F2250.0
 aF990.0
 asg17
 (itiddlywiki
 Tiddler
-p1201
-(dp1202
+p1202
+(dp1203
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">Quiet, thoughtful. But passionate. And brilliant in his field.</em></html>\u000a\u000a[[He's a dangerous man to know.|hewes 4]]\u000a\u000a[[His field? He's a terrorist.|hewes 4][$opinion--]]\u000a\u000a[[That's kind of how I pictured him.|hewes 4][$opinion++]]
-p1203
+p1204
 sg23
 Vhewes 3
-p1204
+p1205
 sg25
 g26
 ((I2014
@@ -3986,12 +3987,12 @@ I46
 I4
 I206
 I1
-tp1205
-(dp1206
-tp1207
-Rp1208
+tp1206
+(dp1207
+tp1208
+Rp1209
 sg31
-(lp1209
+(lp1210
 sg33
 g26
 ((I2014
@@ -4003,28 +4004,28 @@ I41
 I4
 I206
 I1
-tp1210
-(dp1211
-tp1212
-Rp1213
-sbsa(dp1214
+tp1211
+(dp1212
+tp1213
+Rp1214
+sbsa(dp1215
 g14
 I00
 sg15
-(lp1215
+(lp1216
 F2110.0
 aF990.0
 asg17
 (itiddlywiki
 Tiddler
-p1216
-(dp1217
+p1217
+(dp1218
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">We share certain common interests. Civil liberties, politics.</em></html>\u000a\u000a[[Terrorism.|hewes 4][$opinion--; $delay = 3]]\u000a\u000a[[You sympathize with his cause.|hewes 4]]
-p1218
+p1219
 sg23
 Vhewes 2
-p1219
+p1220
 sg25
 g26
 ((I2014
@@ -4036,12 +4037,12 @@ I15
 I4
 I206
 I1
-tp1220
-(dp1221
-tp1222
-Rp1223
+tp1221
+(dp1222
+tp1223
+Rp1224
 sg31
-(lp1224
+(lp1225
 sg33
 g26
 ((I2014
@@ -4053,28 +4054,28 @@ I41
 I4
 I206
 I1
-tp1225
-(dp1226
-tp1227
-Rp1228
-sbsa(dp1229
+tp1226
+(dp1227
+tp1228
+Rp1229
+sbsa(dp1230
 g14
 I00
 sg15
-(lp1230
+(lp1231
 F2390.0
 aF990.0
 asg17
 (itiddlywiki
 Tiddler
-p1231
-(dp1232
+p1232
+(dp1233
 g21
 V<<nobr>>\u000a<<if $delay == 3>>\u000a<<set $delay to 0>>\u000a<<timedinsert 3s>>SUSPECT 1247<br>\u000a- - - -<br>\u000a<html><em class="suspect">The New Collective have important things to say, even if I don't agree with their methods.</em></html><br><br>\u000a\u000a[[I know what they have to say.|hewes 5]]<br><br>\u000a\u000a[[We need the corporations to survive. We need to stand together.|hewes 5]]<br><br>\u000a\u000a[[They're violent anarchists. Terrorism is never the answer.|hewes 6]]\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedinsert 0s>>SUSPECT 1247<br>\u000a- - - -<br>\u000a<html><em class="suspect">The New Collective have important things to say, even if I don't agree with their methods.</em></html><br><br>\u000a\u000a[[I know what they have to say.|hewes 5]]<br><br>\u000a\u000a[[We need the corporations to survive. We need to stand together.|hewes 5]]<br><br>\u000a\u000a[[They're violent anarchists. Terrorism is never the answer.|hewes 6]]\u000a<<endtimedinsert>>\u000a<<endif>>\u000a<<endnobr>>
-p1233
+p1234
 sg23
 Vhewes 4
-p1234
+p1235
 sg25
 g26
 ((I2014
@@ -4086,12 +4087,12 @@ I51
 I4
 I206
 I1
-tp1235
-(dp1236
-tp1237
-Rp1238
+tp1236
+(dp1237
+tp1238
+Rp1239
 sg31
-(lp1239
+(lp1240
 sg33
 g26
 ((I2014
@@ -4103,28 +4104,28 @@ I17
 I4
 I206
 I1
-tp1240
-(dp1241
-tp1242
-Rp1243
-sbsa(dp1244
+tp1241
+(dp1242
+tp1243
+Rp1244
+sbsa(dp1245
 g14
 I00
 sg15
-(lp1245
+(lp1246
 F2670.0
 aF990.0
 asg17
 (itiddlywiki
 Tiddler
-p1246
-(dp1247
+p1247
+(dp1248
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">Corporate control of government is more harmful to more people. It just doesn't make the headlines.</em></html>\u000a\u000a[[Spoken like a true believer.|conversation hub][$opinion--]]\u000a\u000a[[The old government wasn't efficient enough. The CEOs know how to make the system work.|hewes 7]]\u000a\u000a[[You might have a point.|conversation hub][$opinion++]]
-p1248
+p1249
 sg23
 Vhewes 6
-p1249
+p1250
 sg25
 g26
 ((I2014
@@ -4136,12 +4137,12 @@ I38
 I4
 I206
 I1
-tp1250
-(dp1251
-tp1252
-Rp1253
+tp1251
+(dp1252
+tp1253
+Rp1254
 sg31
-(lp1254
+(lp1255
 sg33
 g26
 ((I2014
@@ -4153,28 +4154,28 @@ I10
 I4
 I206
 I1
-tp1255
-(dp1256
-tp1257
-Rp1258
-sbsa(dp1259
+tp1256
+(dp1257
+tp1258
+Rp1259
+sbsa(dp1260
 g14
 I00
 sg15
-(lp1260
+(lp1261
 F2530.0
 aF990.0
 asg17
 (itiddlywiki
 Tiddler
-p1261
-(dp1262
+p1262
+(dp1263
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">Dissenting voices make us stronger.</em></html>\u000a\u000a[[You might have a point.|conversation hub][$opinion++]]\u000a\u000a[[In the past, maybe, but not right now.|conversation hub]]\u000a\u000a[[Spoken like a true believer.|conversation hub][$opinion--]]\u000a
-p1263
+p1264
 sg23
 Vhewes 5
-p1264
+p1265
 sg25
 g26
 ((I2014
@@ -4186,12 +4187,12 @@ I20
 I4
 I206
 I1
-tp1265
-(dp1266
-tp1267
-Rp1268
+tp1266
+(dp1267
+tp1268
+Rp1269
 sg31
-(lp1269
+(lp1270
 sg33
 g26
 ((I2014
@@ -4203,28 +4204,28 @@ I10
 I4
 I206
 I1
-tp1270
-(dp1271
-tp1272
-Rp1273
-sbsa(dp1274
+tp1271
+(dp1272
+tp1273
+Rp1274
+sbsa(dp1275
 g14
 I00
 sg15
-(lp1275
+(lp1276
 F3090.0
 aF990.0
 asg17
 (itiddlywiki
 Tiddler
-p1276
-(dp1277
+p1277
+(dp1278
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">That's fine. Just don't expect me to start praising them for it.</em></html>\u000a\u000a[[We don't need praise. Just cooperation.|conversation hub]]\u000a\u000a[[We need to stand together.|conversation hub]]
-p1278
+p1279
 sg23
 Vhewes 9
-p1279
+p1280
 sg25
 g26
 ((I2014
@@ -4236,12 +4237,12 @@ I24
 I4
 I206
 I1
-tp1280
-(dp1281
-tp1282
-Rp1283
+tp1281
+(dp1282
+tp1283
+Rp1284
 sg31
-(lp1284
+(lp1285
 sg33
 g26
 ((I2014
@@ -4253,28 +4254,28 @@ I13
 I4
 I206
 I1
-tp1285
-(dp1286
-tp1287
-Rp1288
-sbsa(dp1289
+tp1286
+(dp1287
+tp1288
+Rp1289
+sbsa(dp1290
 g14
 I00
 sg15
-(lp1290
+(lp1291
 F2950.0
 aF990.0
 asg17
 (itiddlywiki
 Tiddler
-p1291
-(dp1292
+p1292
+(dp1293
 g21
 V<<timedinsert 3s>>SUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">Respect has to be earned, Inspector.</em></html>\u000a\u000a<<display 'conversation hub'>>\u000a<<endtimedinsert>>
-p1293
+p1294
 sg23
 Vhewes 8
-p1294
+p1295
 sg25
 g26
 ((I2014
@@ -4286,12 +4287,12 @@ I48
 I4
 I206
 I1
-tp1295
-(dp1296
-tp1297
-Rp1298
+tp1296
+(dp1297
+tp1298
+Rp1299
 sg31
-(lp1299
+(lp1300
 sg33
 g26
 ((I2014
@@ -4303,28 +4304,28 @@ I13
 I4
 I206
 I1
-tp1300
-(dp1301
-tp1302
-Rp1303
-sbsa(dp1304
+tp1301
+(dp1302
+tp1303
+Rp1304
+sbsa(dp1305
 g14
 I00
 sg15
-(lp1305
+(lp1306
 F2110.0
 aF430.0
 asg17
 (itiddlywiki
 Tiddler
-p1306
-(dp1307
+p1307
+(dp1308
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">Not very often. They said Boston's not so different from St. Petersburg, these days.</em></html>\u000a\u000a[[I'd believe it.|family 3]]\u000a\u000a[[Have you been there? Speak any Russian?|family 4][$opinion++]]
-p1308
+p1309
 sg23
 Vfamily 2
-p1309
+p1310
 sg25
 g26
 ((I2014
@@ -4336,12 +4337,12 @@ I41
 I4
 I206
 I1
-tp1310
-(dp1311
-tp1312
-Rp1313
+tp1311
+(dp1312
+tp1313
+Rp1314
 sg31
-(lp1314
+(lp1315
 sg33
 g26
 ((I2014
@@ -4353,28 +4354,28 @@ I39
 I4
 I206
 I1
-tp1315
-(dp1316
-tp1317
-Rp1318
-sbsa(dp1319
+tp1316
+(dp1317
+tp1318
+Rp1319
+sbsa(dp1320
 g14
 I00
 sg15
-(lp1320
+(lp1321
 F2530.0
 aF430.0
 asg17
 (itiddlywiki
 Tiddler
-p1321
-(dp1322
+p1322
+(dp1323
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">Sure, they were happy enough. Good money. Respectable.</em></html>\u000a\u000a[[Not the kind of work you do.|family 6][$opinion--]]\u000a\u000a[[Plenty of starving lawyers out there.|family 6]]
-p1323
+p1324
 sg23
 Vfamily 5
-p1324
+p1325
 sg25
 g26
 ((I2014
@@ -4386,12 +4387,12 @@ I1
 I4
 I206
 I1
-tp1325
-(dp1326
-tp1327
-Rp1328
+tp1326
+(dp1327
+tp1328
+Rp1329
 sg31
-(lp1329
+(lp1330
 sg33
 g26
 ((I2014
@@ -4403,28 +4404,28 @@ I39
 I4
 I206
 I1
-tp1330
-(dp1331
-tp1332
-Rp1333
-sbsa(dp1334
+tp1331
+(dp1332
+tp1333
+Rp1334
+sbsa(dp1335
 g14
 I00
 sg15
-(lp1335
+(lp1336
 F2250.0
 aF430.0
 asg17
 (itiddlywiki
 Tiddler
-p1336
-(dp1337
+p1337
+(dp1338
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">Even Russian laws are practically the same as American, now.</em></html>\u000a\u000a[[Did they want you to go into law?|family 5]]
-p1338
+p1339
 sg23
 Vfamily 3
-p1339
+p1340
 sg25
 g26
 ((I2014
@@ -4436,12 +4437,12 @@ I13
 I4
 I206
 I1
-tp1340
-(dp1341
-tp1342
-Rp1343
+tp1341
+(dp1342
+tp1343
+Rp1344
 sg31
-(lp1344
+(lp1345
 sg33
 g26
 ((I2014
@@ -4453,28 +4454,28 @@ I44
 I4
 I206
 I1
-tp1345
-(dp1346
-tp1347
-Rp1348
-sbsa(dp1349
+tp1346
+(dp1347
+tp1348
+Rp1349
+sbsa(dp1350
 g14
 I00
 sg15
-(lp1350
+(lp1351
 F2390.0
 aF430.0
 asg17
 (itiddlywiki
 Tiddler
-p1351
-(dp1352
+p1352
+(dp1353
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">I understand it. Can't speak it at all though. Family didn't want me to study it. Wanted me to assimilate.</em></html>\u000a\u000a[[Did they want you to go into law?|family 5]]
-p1353
+p1354
 sg23
 Vfamily 4
-p1354
+p1355
 sg25
 g26
 ((I2014
@@ -4486,12 +4487,12 @@ I58
 I4
 I206
 I1
-tp1355
-(dp1356
-tp1357
-Rp1358
+tp1356
+(dp1357
+tp1358
+Rp1359
 sg31
-(lp1359
+(lp1360
 sg33
 g26
 ((I2014
@@ -4503,28 +4504,28 @@ I44
 I4
 I206
 I1
-tp1360
-(dp1361
-tp1362
-Rp1363
-sbsa(dp1364
+tp1361
+(dp1362
+tp1363
+Rp1364
+sbsa(dp1365
 g14
 I00
 sg15
-(lp1365
+(lp1366
 F2670.0
 aF430.0
 asg17
 (itiddlywiki
 Tiddler
-p1366
-(dp1367
+p1367
+(dp1368
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">I thought about corporate law, but I couldn't go through with it.</em></html>\u000a\u000a[[Not everyone's cut out for government work.|family 7]]\u000a\u000a[[We don't need scum like you defending the government.|family 8]]
-p1368
+p1369
 sg23
 Vfamily 6
-p1369
+p1370
 sg25
 g26
 ((I2014
@@ -4536,12 +4537,12 @@ I1
 I4
 I206
 I1
-tp1370
-(dp1371
-tp1372
-Rp1373
+tp1371
+(dp1372
+tp1373
+Rp1374
 sg31
-(lp1374
+(lp1375
 sg33
 g26
 ((I2014
@@ -4553,28 +4554,28 @@ I4
 I4
 I206
 I1
-tp1375
-(dp1376
-tp1377
-Rp1378
-sbsa(dp1379
+tp1376
+(dp1377
+tp1378
+Rp1379
+sbsa(dp1380
 g14
 I00
 sg15
-(lp1380
+(lp1381
 F2950.0
 aF430.0
 asg17
 (itiddlywiki
 Tiddler
-p1381
-(dp1382
+p1382
+(dp1383
 g21
 V<<timedinsert 2s>>SUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $torture == 0>><html><em class="suspect">That's why scum like me defend the people.</em></html>\u000a<<else>>\u000a<html><em class="suspect">No, you don't, Inspector.</em></html><<endif>>\u000a<<endnobr>>\u000a\u000a<<display 'conversation hub'>>\u000a<<endtimedinsert>>
-p1383
+p1384
 sg23
 Vfamily 8
-p1384
+p1385
 sg25
 g26
 ((I2014
@@ -4586,12 +4587,12 @@ I18
 I4
 I206
 I1
-tp1385
-(dp1386
-tp1387
-Rp1388
+tp1386
+(dp1387
+tp1388
+Rp1389
 sg31
-(lp1389
+(lp1390
 sg33
 g26
 ((I2014
@@ -4603,28 +4604,28 @@ I3
 I4
 I206
 I1
-tp1390
-(dp1391
-tp1392
-Rp1393
-sbsa(dp1394
+tp1391
+(dp1392
+tp1393
+Rp1394
+sbsa(dp1395
 g14
 I00
 sg15
-(lp1395
+(lp1396
 F2810.0
 aF430.0
 asg17
 (itiddlywiki
 Tiddler
-p1396
-(dp1397
+p1397
+(dp1398
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">You're right about that, Inspector.</em></html>\u000a\u000a<<display 'conversation hub'>>
-p1398
+p1399
 sg23
 Vfamily 7
-p1399
+p1400
 sg25
 g26
 ((I2014
@@ -4636,12 +4637,12 @@ I10
 I4
 I206
 I1
-tp1400
-(dp1401
-tp1402
-Rp1403
+tp1401
+(dp1402
+tp1403
+Rp1404
 sg31
-(lp1404
+(lp1405
 sg33
 g26
 ((I2014
@@ -4653,28 +4654,28 @@ I3
 I4
 I206
 I1
-tp1405
-(dp1406
-tp1407
-Rp1408
-sbsa(dp1409
+tp1406
+(dp1407
+tp1408
+Rp1409
+sbsa(dp1410
 g14
 I00
 sg15
-(lp1410
+(lp1411
 F2110.0
 aF10.0
 asg17
 (itiddlywiki
 Tiddler
-p1411
-(dp1412
+p1412
+(dp1413
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">What's it matter? I'm not a corporation, my vote hasn't mattered since Carson v. US.</em></html>\u000a\u000a[[They keep the economy alive, they make the choices. It's only fair.|politics 3]]\u000a\u000a[[They have the money, they make the choices. It's the way of the world.|politics 3]]\u000a\u000a<<nobr>>\u000a<<if $pearlStreetConvo neq 2>>\u000a<<set $pearlStreetConvo to 1>>\u000a[[Looks like you were arrested in the Pearl Street riots, after Carson.|riots 1][$pearlStreetConvo = 2]]\u000a<br><br>\u000a<<endif>>\u000a<<endnobr>>
-p1413
+p1414
 sg23
 Vpolitics 2
-p1414
+p1415
 sg25
 g26
 ((I2014
@@ -4686,12 +4687,12 @@ I21
 I4
 I206
 I1
-tp1415
-(dp1416
-tp1417
-Rp1418
+tp1416
+(dp1417
+tp1418
+Rp1419
 sg31
-(lp1419
+(lp1420
 sg33
 g26
 ((I2014
@@ -4703,28 +4704,28 @@ I53
 I4
 I206
 I1
-tp1420
-(dp1421
-tp1422
-Rp1423
-sbsa(dp1424
+tp1421
+(dp1422
+tp1423
+Rp1424
+sbsa(dp1425
 g14
 I00
 sg15
-(lp1425
+(lp1426
 F2250.0
 aF10.0
 asg17
 (itiddlywiki
 Tiddler
-p1426
-(dp1427
+p1427
+(dp1428
 g21
 VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">That's how it is. It wasn't always like that, though.</em></html>\u000a\u000a[[I'm not so sure.|politics 4]]\u000a\u000a[[Times change.|politics 4]]\u000a\u000a[[There's no use holding on to the past.|politics 4]]
-p1428
+p1429
 sg23
 Vpolitics 3
-p1429
+p1430
 sg25
 g26
 ((I2014
@@ -4736,12 +4737,12 @@ I13
 I4
 I206
 I1
-tp1430
-(dp1431
-tp1432
-Rp1433
+tp1431
+(dp1432
+tp1433
+Rp1434
 sg31
-(lp1434
+(lp1435
 sg33
 g26
 ((I2014
@@ -4753,28 +4754,28 @@ I44
 I4
 I206
 I1
-tp1435
-(dp1436
-tp1437
-Rp1438
-sbsa(dp1439
+tp1436
+(dp1437
+tp1438
+Rp1439
+sbsa(dp1440
 g14
 I00
 sg15
-(lp1440
+(lp1441
 F2390.0
 aF10.0
 asg17
 (itiddlywiki
 Tiddler
-p1441
-(dp1442
+p1442
+(dp1443
 g21
 V<<timedinsert 3s>> <<display 'conversation hub'>> <<endtimedinsert>>
-p1443
+p1444
 sg23
 Vpolitics 4
-p1444
+p1445
 sg25
 g26
 ((I2014
@@ -4786,12 +4787,12 @@ I40
 I4
 I206
 I1
-tp1445
-(dp1446
-tp1447
-Rp1448
+tp1446
+(dp1447
+tp1448
+Rp1449
 sg31
-(lp1449
+(lp1450
 sg33
 g26
 ((I2014
@@ -4803,14 +4804,864 @@ I23
 I4
 I206
 I1
-tp1450
-(dp1451
-tp1452
-Rp1453
+tp1451
+(dp1452
+tp1453
+Rp1454
+sbsa(dp1455
+g14
+I00
+sg15
+(lp1456
+F2390.0
+aF290.0
+asg17
+(itiddlywiki
+Tiddler
+p1457
+(dp1458
+g21
+V<<nobr>>\u000a<<timedinsert 3s>>\u000a<<if $opinion < 2 or $torture > 0>>\u000a[[I'll ask you again. Tell me the location of James Hewes.|forcing 5]]\u000a<<else>> [[I'll ask you again. Tell me the location of James Hewews.|forcing 6]]\u000a<<endif>>\u000a<<endtimedinsert>>\u000a<<endnobr>>
+p1459
+sg23
+Vforcing 4
+p1460
+sg25
+g26
+((I2014
+I7
+I25
+I16
+I41
+I3
+I4
+I206
+I1
+tp1461
+(dp1462
+tp1463
+Rp1464
+sg31
+(lp1465
+sg33
+g26
+((I2014
+I7
+I25
+I16
+I37
+I10
+I4
+I206
+I1
+tp1466
+(dp1467
+tp1468
+Rp1469
+sbsa(dp1470
+g14
+I00
+sg15
+(lp1471
+F2250.0
+aF290.0
+asg17
+(itiddlywiki
+Tiddler
+p1472
+(dp1473
+g21
+VSUSPECT 1247\u000a- - - -\u000a<<timedinsert 4s>>* * * SPEECH CANNOT BE PARSED * * *\u000a\u000a<<nobr>>\u000a<<if $opinion < 2 or $torture > 0>>\u000a[[I'll ask you again. Tell me the location of James Hewes.|forcing 5]]\u000a<<else>> [[I'll ask you again. Tell me the location of James Hewes.|forcing 6]]\u000a<<endif>>\u000a<<endnobr>>
+p1474
+sg23
+Vforcing 3
+p1475
+sg25
+g26
+((I2014
+I7
+I25
+I16
+I58
+I33
+I4
+I206
+I1
+tp1476
+(dp1477
+tp1478
+Rp1479
+sg31
+(lp1480
+sg33
+g26
+((I2014
+I7
+I25
+I16
+I37
+I10
+I4
+I206
+I1
+tp1481
+(dp1482
+tp1483
+Rp1484
+sbsa(dp1485
+g14
+I00
+sg15
+(lp1486
+F2530.0
+aF290.0
+asg17
+(itiddlywiki
+Tiddler
+p1487
+(dp1488
+g21
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">I don't know. I don't know.</em></html>\u000a\u000a[[Non-compliance won't get you anywhere.|conversation hub]]\u000a\u000a[[You'll talk eventually.|conversation hub][$opinion--]]\u000a\u000a[[We'll come back to this later.|conversation hub]]
+p1489
+sg23
+Vforcing 5
+p1490
+sg25
+g26
+((I2014
+I7
+I25
+I16
+I42
+I4
+I4
+I206
+I1
+tp1491
+(dp1492
+tp1493
+Rp1494
+sg31
+(lp1495
+sg33
+g26
+((I2014
+I7
+I25
+I16
+I40
+I4
+I4
+I206
+I1
+tp1496
+(dp1497
+tp1498
+Rp1499
+sbsa(dp1500
+g14
+I00
+sg15
+(lp1501
+F2670.0
+aF290.0
+asg17
+(itiddlywiki
+Tiddler
+p1502
+(dp1503
+g21
+V<<timedinsert 3s>>Have you ever believed in something, Inspector?\u000a\u000a[[I ask the questions here, prisoner.|forcing 7]]\u000a\u000a[[I believe in doing what's needed to survive.|forcing 8]]\u000a\u000a[[Yes. I have a moral code.|forcing 9]]<<endtimedinsert>>
+p1504
+sg23
+Vforcing 6
+p1505
+sg25
+g26
+((I2014
+I7
+I25
+I16
+I43
+I9
+I4
+I206
+I1
+tp1506
+(dp1507
+tp1508
+Rp1509
+sg31
+(lp1510
+sg33
+g26
+((I2014
+I7
+I25
+I16
+I40
+I4
+I4
+I206
+I1
+tp1511
+(dp1512
+tp1513
+Rp1514
+sbsa(dp1515
+g14
+I00
+sg15
+(lp1516
+F2810.0
+aF290.0
+asg17
+(itiddlywiki
+Tiddler
+p1517
+(dp1518
+g21
+V<<timedinsert 3s>> <<display 'conversation hub'>>
+p1519
+sg23
+Vforcing 7
+p1520
+sg25
+g26
+((I2014
+I7
+I25
+I16
+I43
+I30
+I4
+I206
+I1
+tp1521
+(dp1522
+tp1523
+Rp1524
+sg31
+(lp1525
+sg33
+g26
+((I2014
+I7
+I25
+I16
+I43
+I11
+I4
+I206
+I1
+tp1526
+(dp1527
+tp1528
+Rp1529
+sbsa(dp1530
+g14
+I00
+sg15
+(lp1531
+F3090.0
+aF290.0
+asg17
+(itiddlywiki
+Tiddler
+p1532
+(dp1533
+g21
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">What do you believe in?</em></html>\u000a\u000a[[Don't interrogate me. Let's get back to the matter at hand.|conversation hub][$opinion--]]\u000a\u000a[[My family comes first.|forcing 10]]\u000a\u000a[[I do what's right for the people and my country. I protect them, I serve justice.|forcing 11]]\u000a\u000a[[I serve a higher good.|forcing 12]]
+p1534
+sg23
+Vforcing 9
+p1535
+sg25
+g26
+((I2014
+I7
+I25
+I16
+I45
+I1
+I4
+I206
+I1
+tp1536
+(dp1537
+tp1538
+Rp1539
+sg31
+(lp1540
+sg33
+g26
+((I2014
+I7
+I25
+I16
+I43
+I11
+I4
+I206
+I1
+tp1541
+(dp1542
+tp1543
+Rp1544
+sbsa(dp1545
+g14
+I00
+sg15
+(lp1546
+F2950.0
+aF290.0
+asg17
+(itiddlywiki
+Tiddler
+p1547
+(dp1548
+g21
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">I can understand that, Inspector.</em></html>\u000a\u000a<<display 'conversation hub'>>
+p1549
+sg23
+Vforcing 8
+p1550
+sg25
+g26
+((I2014
+I7
+I25
+I16
+I43
+I53
+I4
+I206
+I1
+tp1551
+(dp1552
+tp1553
+Rp1554
+sg31
+(lp1555
+sg33
+g26
+((I2014
+I7
+I25
+I16
+I43
+I11
+I4
+I206
+I1
+tp1556
+(dp1557
+tp1558
+Rp1559
+sbsa(dp1560
+g14
+I00
+sg15
+(lp1561
+F3370.0
+aF290.0
+asg17
+(itiddlywiki
+Tiddler
+p1562
+(dp1563
+g21
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">And this is how you protect people?</em></html>\u000a\u000a[[(Apply physical encouragement.)|forcing 14][$torture++; $opinion--]]\u000a\u000a[[The New Collective threatens national security and stability. They must be stopped.|forcing 13]]\u000a\u000a[[This is my job. We all have to do our part.|forcing 13]]\u000a\u000a[[I serve a higher good.|forcing 12]]
+p1564
+sg23
+Vforcing 11
+p1565
+sg25
+g26
+((I2014
+I7
+I25
+I16
+I49
+I43
+I4
+I206
+I1
+tp1566
+(dp1567
+tp1568
+Rp1569
+sg31
+(lp1570
+sg33
+g26
+((I2014
+I7
+I25
+I16
+I45
+I4
+I4
+I206
+I1
+tp1571
+(dp1572
+tp1573
+Rp1574
+sbsa(dp1575
+g14
+I00
+sg15
+(lp1576
+F3230.0
+aF290.0
+asg17
+(itiddlywiki
+Tiddler
+p1577
+(dp1578
+g21
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">That's an honorable thing, Inspector.</em></html>\u000a\u000a[[I'm not here to impress you, prisoner.|forcing 13][$opinion--]]\u000a\u000a[[I couldn't agree more.|conversation hub][$opinion++]]\u000a\u000a<<if $familyConvo neq 2>><<set $familyConvo to 1>>[[Tell me about your family.|family 1][familyConvo = 2]]<<endif>>
+p1579
+sg23
+Vforcing 10
+p1580
+sg25
+g26
+((I2014
+I7
+I25
+I16
+I47
+I27
+I4
+I206
+I1
+tp1581
+(dp1582
+tp1583
+Rp1584
+sg31
+(lp1585
+sg33
+g26
+((I2014
+I7
+I25
+I16
+I45
+I4
+I4
+I206
+I1
+tp1586
+(dp1587
+tp1588
+Rp1589
+sbsa(dp1590
+g14
+I00
+sg15
+(lp1591
+F3510.0
+aF290.0
+asg17
+(itiddlywiki
+Tiddler
+p1592
+(dp1593
+g21
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">God?</em></html>\u000a\u000a[[That's right.|forcing 15]]\u000a\u000a[[I'm more of a philosopher. Kant, Aristotle.|forcing 16][$opinion++]]\u000a\u000a[[It's hard to explain.|forcing 17][$opinion++]]
+p1594
+sg23
+Vforcing 12
+p1595
+sg25
+g26
+((I2014
+I7
+I25
+I16
+I52
+I4
+I4
+I206
+I1
+tp1596
+(dp1597
+tp1598
+Rp1599
+sg31
+(lp1600
+sg33
+g26
+((I2014
+I7
+I25
+I16
+I45
+I4
+I4
+I206
+I1
+tp1601
+(dp1602
+tp1603
+Rp1604
+sbsa(dp1605
+g14
+I00
+sg15
+(lp1606
+F3650.0
+aF290.0
+asg17
+(itiddlywiki
+Tiddler
+p1607
+(dp1608
+g21
+V<<timedinsert 3s>><<display 'conversation hub'>><<endtimedinsert>>
+p1609
+sg23
+Vforcing 13
+p1610
+sg25
+g26
+((I2014
+I7
+I25
+I16
+I47
+I48
+I4
+I206
+I1
+tp1611
+(dp1612
+tp1613
+Rp1614
+sg31
+(lp1615
+sg33
+g26
+((I2014
+I7
+I25
+I16
+I47
+I32
+I4
+I206
+I1
+tp1616
+(dp1617
+tp1618
+Rp1619
+sbsa(dp1620
+g14
+I00
+sg15
+(lp1621
+F3790.0
+aF290.0
+asg17
+(itiddlywiki
+Tiddler
+p1622
+(dp1623
+g21
+VSUSPECT 1247\u000a- - - -\u000a<<timedinsert 4s>>* * * SPEECH CANNOT BE PARSED * * *<<endtimedinsert>>\u000a\u000a<<timedinsert 6s>><<display 'conversation hub'>><<endtimedinsert>>
+p1624
+sg23
+Vforcing 14
+p1625
+sg25
+g26
+((I2014
+I7
+I25
+I16
+I50
+I58
+I4
+I206
+I1
+tp1626
+(dp1627
+tp1628
+Rp1629
+sg31
+(lp1630
+sg33
+g26
+((I2014
+I7
+I25
+I16
+I49
+I49
+I4
+I206
+I1
+tp1631
+(dp1632
+tp1633
+Rp1634
+sbsa(dp1635
+g14
+I00
+sg15
+(lp1636
+F3930.0
+aF290.0
+asg17
+(itiddlywiki
+Tiddler
+p1637
+(dp1638
+g21
+V<<timedinsert>>SUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">My parents are religious.</em></html><<endtimedinsert>>\u000a\u000a[[And you?|forcing 19]]\u000a\u000a<<if $familyConvo neq 2>><<set $familyConvo to 1>>[[Tell me about your family.|family 1][familyConvo = 2]]<<endif>>
+p1639
+sg23
+Vforcing 15
+p1640
+sg25
+g26
+((I2014
+I7
+I25
+I16
+I54
+I50
+I4
+I206
+I1
+tp1641
+(dp1642
+tp1643
+Rp1644
+sg31
+(lp1645
+sg33
+g26
+((I2014
+I7
+I25
+I16
+I52
+I6
+I4
+I206
+I1
+tp1646
+(dp1647
+tp1648
+Rp1649
+sbsa(dp1650
+g14
+I00
+sg15
+(lp1651
+F4210.0
+aF290.0
+asg17
+(itiddlywiki
+Tiddler
+p1652
+(dp1653
+g21
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">It usually is.</em></html>\u000a\u000a<<display 'conversation hub'>>
+p1654
+sg23
+Vforcing 17
+p1655
+sg25
+g26
+((I2014
+I7
+I25
+I16
+I52
+I37
+I4
+I206
+I1
+tp1656
+(dp1657
+tp1658
+Rp1659
+sg31
+(lp1660
+sg33
+g26
+((I2014
+I7
+I25
+I16
+I52
+I6
+I4
+I206
+I1
+tp1661
+(dp1662
+tp1663
+Rp1664
+sbsa(dp1665
+g14
+I00
+sg15
+(lp1666
+F4070.0
+aF290.0
+asg17
+(itiddlywiki
+Tiddler
+p1667
+(dp1668
+g21
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">You're a man of learning, I see.</em></html>\u000a\u000a[[I do my best.|forcing 18]]\u000a\u000a[[I wouldn't say that, exactly.|forcing 18]]
+p1669
+sg23
+Vforcing 16
+p1670
+sg25
+g26
+((I2014
+I7
+I25
+I16
+I53
+I7
+I4
+I206
+I1
+tp1671
+(dp1672
+tp1673
+Rp1674
+sg31
+(lp1675
+sg33
+g26
+((I2014
+I7
+I25
+I16
+I52
+I6
+I4
+I206
+I1
+tp1676
+(dp1677
+tp1678
+Rp1679
+sbsa(dp1680
+g14
+I00
+sg15
+(lp1681
+F4350.0
+aF290.0
+asg17
+(itiddlywiki
+Tiddler
+p1682
+(dp1683
+g21
+V<<timedinsert 3s>><<display 'conversation hub'>><endtimedinsert>>
+p1684
+sg23
+Vforcing 18
+p1685
+sg25
+g26
+((I2014
+I7
+I25
+I16
+I53
+I31
+I4
+I206
+I1
+tp1686
+(dp1687
+tp1688
+Rp1689
+sg31
+(lp1690
+sg33
+g26
+((I2014
+I7
+I25
+I16
+I53
+I14
+I4
+I206
+I1
+tp1691
+(dp1692
+tp1693
+Rp1694
+sbsa(dp1695
+g14
+I00
+sg15
+(lp1696
+F4490.0
+aF290.0
+asg17
+(itiddlywiki
+Tiddler
+p1697
+(dp1698
+g21
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">Not anymore.</em></html>\u000a\u000a<<display 'conversation hub'>>
+p1699
+sg23
+Vforcing 19
+p1700
+sg25
+g26
+((I2014
+I7
+I25
+I16
+I55
+I3
+I4
+I206
+I1
+tp1701
+(dp1702
+tp1703
+Rp1704
+sg31
+(lp1705
+sg33
+g26
+((I2014
+I7
+I25
+I16
+I54
+I55
+I4
+I206
+I1
+tp1706
+(dp1707
+tp1708
+Rp1709
 sbsasS'scale'
-p1454
+p1710
 F0.8
 sS'snapping'
-p1455
+p1711
 I01
 ss.
