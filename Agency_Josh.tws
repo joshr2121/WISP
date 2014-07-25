@@ -232,7 +232,7 @@ tp81
 Rp82
 sbsa(dp83
 g14
-I00
+I01
 sg15
 (lp84
 F10.0
@@ -243,7 +243,7 @@ Tiddler
 p85
 (dp86
 g21
-VBUREAU INSPECTION INTERFACE VERSION 5.0.61a\u000a\u000aSYSTEM BOOTING UP.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>>\u000a\u000a<<timedgoto "booting up" 3s>>\u000a<<nobr>>\u000a<<set $delay to 0>>\u000a<<set $day to 1>>\u000a<<set $timeleft to 300>> /% in minutes, the time remaining each day, assuming that the inspector talks with his superior in the morning and starts the interrogation at 12:00 %/\u000a<<set $hadInterview to true>>\u000a<<set $hadBriefing to false>>\u000a<<set $askedRoom to false>>\u000a<<set $canClockOut to false>>\u000a<<set $beginningOfDay to true>>\u000a\u000a/% 0 = unavailable, 1 = available, 2 = explored %/\u000a/% day 1 start convos %/\u000a<<set $politicsConvo to 1>>\u000a<<set $personalConvo to 1>>\u000a<<set $forcingConvo to 1>>\u000a/% day 1 unlockable convos %/\u000a<<set $familyConvo to 0>>\u000a<<set $pearlStreetConvo to 0>>\u000a<<set $jobConvo to 0>>\u000a<<set $newCollectiveConvo to 0>>\u000a<<set $leaderConvo to 0>>\u000a\u000a<<set $opinion to 1>>\u000a\u000a<<set $torture to 0>>\u000a<<set $tortureLimit to 3>>\u000a<<set $conscious to true>>\u000a<<set $sleepTotal to 0>>\u000a<<set $sleepTonight to 0>>\u000a<<set $infoFound to false>>\u000a\u000a<<set $submittedWho to 0>>\u000a<<set $submittedWhere to 0>>\u000a<<set $submittedWhen to 0>>\u000a<<set $submittedHow to 0>>\u000a<<endnobr>>
+VBUREAU INSPECTION INTERFACE VERSION 5.0.61a\u000a\u000aSYSTEM BOOTING UP.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>>\u000a\u000a<<timedgoto "booting up" 3s>>\u000a<<nobr>>\u000a<<set $delay to 0>>\u000a<<set $day to 1>>\u000a<<set $timeleft to 300>> /% in minutes, the time remaining each day, assuming that the inspector talks with his superior in the morning and starts the interrogation at 12:00 %/\u000a<<set $hadInterview to false>>\u000a<<set $hadBriefing to false>>\u000a<<set $askedRoom to false>>\u000a<<set $canClockOut to false>>\u000a<<set $beginningOfDay to true>>\u000a\u000a/% 0 = unavailable, 1 = available, 2 = explored %/\u000a/% day 1 start convos %/\u000a<<set $politicsConvo to 1>>\u000a<<set $personalConvo to 1>>\u000a<<set $forcingConvo to 1>>\u000a/% day 1 unlockable convos %/\u000a<<set $familyConvo to 0>>\u000a<<set $pearlStreetConvo to 0>>\u000a<<set $jobConvo to 0>>\u000a<<set $newCollectiveConvo to 0>>\u000a<<set $leaderConvo to 0>>\u000a\u000a<<set $opinion to 1>>\u000a\u000a<<set $torture to 0>>\u000a<<set $tortureLimit to 3>>\u000a<<set $conscious to true>>\u000a<<set $sleepTotal to 0>>\u000a<<set $sleepTonight to 0>>\u000a<<set $infoFound to false>>\u000a\u000a<<set $submittedWho to 0>>\u000a<<set $submittedWhere to 0>>\u000a<<set $submittedWhen to 0>>\u000a<<set $submittedHow to 0>>\u000a<<endnobr>>
 p87
 sg23
 VStart
@@ -253,9 +253,9 @@ g26
 ((I2014
 I7
 I25
-I15
-I53
-I14
+I17
+I3
+I32
 I4
 I206
 I1
@@ -5510,7 +5510,7 @@ tp1663
 Rp1664
 sbsa(dp1665
 g14
-I01
+I00
 sg15
 (lp1666
 F4070.0
