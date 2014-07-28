@@ -232,7 +232,7 @@ tp81
 Rp82
 sbsa(dp83
 g14
-I01
+I00
 sg15
 (lp84
 F10.0
@@ -343,7 +343,7 @@ Tiddler
 p115
 (dp116
 g21
-VSUMMARY: The Bureau of Economic Assessment and Rehabilitation has detained 1 suspect(s) for questioning due to suspected knowledge relating to violent anti-government activities.\u000a\u000aREASON: During the past months, the anarchist anti-corporate group known as the New Collective (NC) has dramatically shifted their mode of action. No longer content with public rallies and manifestos, they have begun to attack government establishments and agents directly. They have launched cyberattacks, leaked critical security intelligence, and even physically assaulted public officials. As such, it is now a Bureau Priority 2 Task to locate and temporarily arrest James Hewes, self-proclaimed leader of this movement.\u000a\u000aOBJECTIVE: We have taken into custody Mr. [name withheld], long-time associate of known NC members. Bureau standards and protocols permit his lawful detention for the next 72 (seventy-two) hours. <html><b>Your assignment is to apply standard Bureau investigative techniques in order to discover the current location of James Hewes.</b></html> \u000a\u000aYou will submit a report no later than 11:59 PM on 10/23/47. <html><b>Failure to complete your objective will result in demotion and possible further reprimands.</b></html> \u000a\u000aPlease click [[here|program details]] to learn more about this program.\u000a\u000aPlease click [[here|opening hub]] to begin the investigation.
+VSUMMARY: The Bureau of Economic Assessment and Rehabilitation has detained 1 suspect(s) for questioning due to suspected knowledge relating to violent anti-government activities.\u000a\u000aREASON: During the past months, the anarchist anti-corporate group known as the New Collective (NC) has dramatically shifted their mode of action. No longer content with public rallies and manifestos, they have begun to attack government establishments and agents directly. They have launched cyberattacks, leaked critical security intelligence, and even physically assaulted public officials. As such, it is now a Bureau Priority 2 Task to locate and temporarily arrest James Hewes, self-proclaimed leader of this movement.\u000a\u000aOBJECTIVE: We have taken into custody Mr. [name withheld], long-time associate of known NC members. Bureau standards and protocols permit his lawful detention for the next 72 (seventy-two) hours. <html><b>Your assignment is to discover the current location of James Hewes.</b></html> You may use any standard investigative techniques permitted under Bureau regulations, in accordance with US Directive-598.</b></html> \u000a\u000aYou will submit a report no later than 11:59 PM on 10/23/47. <html><b>Failure to complete your objective will result in demotion and possible further reprimands.</b></html> \u000a\u000aPlease click [[here|program details]] to learn more about this program.\u000a\u000aPlease click [[here|opening hub]] to begin the investigation.
 p117
 sg23
 Vbriefing
@@ -352,12 +352,12 @@ sg25
 g26
 ((I2014
 I7
-I25
-I12
-I35
+I28
+I10
+I7
+I14
 I0
-I4
-I206
+I209
 I1
 tp119
 (dp120
@@ -1131,7 +1131,7 @@ Tiddler
 p351
 (dp352
 g21
-VProgram version: 5.0.61a\u000a\u000aThe Bureau Inspection Interface (BII) was designed to optimize information gathering efficiency and provide maximum physical and moral protection for Inspectors. It facilitates all investigative techniques learned during Inspector training, including direct and indirect questioning, sleep remission, and physical encouragement procedures.\u000a\u000aThe BII converts questions typed by the Inspector into speech within the suspect's cell. The suspect's speech is recorded by hidden microphones and converted into text for the Inspector. This removes confounding information that might impair the Inspector's judgment, and permits oversight and analysis of all Inspector-suspect interactions.\u000a\u000aPlease click [[here|opening hub]] to begin the investigation.
+VProgram version: 5.0.61a\u000a\u000aThe Bureau Inspection Interface (BII) was designed to optimize information gathering efficiency and provide maximum physical and moral protection for Inspectors. It facilitates all investigative techniques learned during Inspector training, including direct questioning, sleep remission, and physical encouragement procedures.\u000a\u000aThe BII converts questions typed by the Inspector into speech audio within the suspect's cell. The suspect's verbal responses are then recorded using hidden microphones and transcribed as text for the Inspector. This removes confounding nonverbal information that might impair the Inspector's judgment, and permits Bureau oversight and analysis of all Inspector-suspect interactions.\u000a\u000aPlease click [[here|opening hub]] to begin the investigation.
 p353
 sg23
 Vprogram details
@@ -1140,12 +1140,12 @@ sg25
 g26
 ((I2014
 I7
-I25
-I12
-I42
-I44
-I4
-I206
+I28
+I10
+I9
+I27
+I0
+I209
 I1
 tp355
 (dp356
@@ -1520,7 +1520,7 @@ Tiddler
 p467
 (dp468
 g21
-V<<set $hadBriefing to true>>\u000a<html><em class="manager">I assume you have some questions about the particular nature of this interrogation. Allow me to briefly introduce the process, and I'll be glad to answer any questions afterwards.\u000a<br /><br />\u000aAs you are aware, this is an experimental procedure in information handling during interrogation sessions with sensitive individuals. By removing any direct contact between you and the detainee, we are hoping that your judgement and reasoning faculties will not be impaired by subjective emotional processes.\u000a<br />\u000a<br />\u000aOf course, we are well aware of the risks of anonymization and dehumanization, especially after the reinstatement of Directive US-598 on Advanced Interrogation Procedures. Be assured that it is not in the BEAR's interest to cause psychological or physical harm to either you or the detainee. We are fully confident that your training has prepared you to treat the detainee in an appropriate manner.</em></html>\u000a\u000a[[I understand. What should my preferred mode of action be?|itw day 1m action]]\u000a\u000a[[Why has Directive US-598 been reinstated?|itw day 1m directive]]\u000a\u000a[[This room isn't in the regular interrogation facility.|itw day 1m room]]
+V<<set $hadBriefing to true>>\u000a<html><em class="manager">I assume you have some questions about the particular nature of this interrogation. Allow me to briefly introduce the process, and I'll be glad to answer any questions afterwards.\u000a<br /><br />\u000aAs you are aware, this is an experimental procedure in information handling during interrogation sessions with sensitive individuals. By removing any direct contact between you and the detainee, we are hoping that your judgment and reasoning faculties will not be impaired by subjective emotional processes.\u000a<br />\u000a<br />\u000aOf course, we are well aware of the risks of anonymization and dehumanization, especially after the reinstatement of Directive US-598 on Advanced Interrogation Procedures. Be assured that it is not in the BEAR's interest to cause psychological or physical harm to either you or the detainee. We are fully confident that your training has prepared you to treat the detainee in an appropriate manner.</em></html>\u000a\u000a[[I understand. What should my preferred mode of action be?|itw day 1m action]]\u000a\u000a[[Why has Directive US-598 been reinstated?|itw day 1m directive]]\u000a\u000a[[This room isn't in the regular interrogation facility.|itw day 1m room]]
 p469
 sg23
 Vitw day 1m
@@ -1529,12 +1529,12 @@ sg25
 g26
 ((I2014
 I7
-I25
-I13
-I30
-I55
-I4
-I206
+I28
+I10
+I10
+I23
+I0
+I209
 I1
 tp471
 (dp472
@@ -1670,7 +1670,7 @@ Tiddler
 p512
 (dp513
 g21
-V<<set $askedRoom to true>>\u000a<html><em class="manager">\u000aWe've specially cleared out your room so that we can monitor your working environment. The fewer interruptions and distractions you have, the more accurate your investigation will be.<br />\u000a<br />\u000aWe'll prevent anyone from interrupting you in person, but you may still receive public service announcements from the BEAR central intercom system. You'll also be monitored by surveillance cameras, with all footage stored as Level 3 Closed Network Data.<br /><br />\u000aActually, the whole system you will be operating on will be on a closed network, which grants you control over all interactions with the suspect. These will be automatically logged and archived for weekly performance assessments by myself and another Inspection Manager.\u000a</em></html>\u000a\u000a[[What about the newly voted directive?|itw day 1m directive]]\u000a\u000a[[How am I going to interact with the suspect?|itw day 1m action]]
+V<<set $askedRoom to true>>\u000a<html><em class="manager">\u000aWe've specially cleared out your room so that we can monitor your working environment. The fewer distractions you have, the clearer your head will be for the investigation.<br />\u000a<br />\u000aWe'll prevent anyone from interrupting you in person, but you may still receive public service announcements from the BEAR central intercom system. You'll also be monitored by surveillance cameras, with all footage stored as Level 3 Closed Network Data.<br /><br />\u000aIn fact, the whole system you will be operating on is part of a closed network, which grants you control over all interactions with the suspect. These will be automatically logged and archived for weekly performance assessments by myself and another Inspection Manager.\u000a</em></html>\u000a\u000a[[What about the newly voted directive?|itw day 1m directive]]\u000a\u000a[[How am I going to interact with the suspect?|itw day 1m action]]
 p514
 sg23
 Vitw day 1m room
@@ -1679,12 +1679,12 @@ sg25
 g26
 ((I2014
 I7
-I25
+I28
+I10
 I12
-I35
-I42
-I4
-I206
+I8
+I0
+I209
 I1
 tp516
 (dp517
@@ -2020,7 +2020,7 @@ Tiddler
 p617
 (dp618
 g21
-V<html><em class="manager">\u000aThey based it on the previous proposals. Of course, it had to be watered down. Anything involving "improper use of technology", as they say, was under heavy scrutiny. The Bureau for Telecomunications and Infrastructure didn't want any more work, I guess.<br />\u000a<br />\u000aElectric shocks and use of hyperbar devices are back. Can't say the same for direct physical impacts. I guess it doesn't really fit a world where everybody has access to a camera at any given moment, right?<br />\u000a<br />\u000aThat was a joke, Inspector. We own all the cameras here. Anyway.<br />\u000a<br />\u000aThe engineers down on the fifteenth floor have taken care of your console to give you all the available options for the interrogation session. All the information you need will be available on the console, don't worry. They've assured us that the automatic logging and parsing procedures are be in place too.<br />\u000a<br />\u000aYou're the first Inspector to benefit from such a setup, so please feel free to let them or me know about any difficulties you might find with the system.\u000a</em></html>\u000a\u000a[[I'm looking forward to using it.|itw day 1m else]]\u000a\u000a[[New toys? This could be fun.|itw day 1m else]]
+V<html><em class="manager">\u000aThey based it on the previous proposals. Of course, it had to be watered down. Anything involving "improper use of technology", as they say, was under heavy scrutiny. The Bureau for Telecomunications and Infrastructure didn't want any more work, I guess.<br />\u000a<br />\u000aElectric shocks and use of hyperbar devices are back. Can't say the same for direct physical impacts. I guess it doesn't really fit a world where everybody has access to a camera at any given moment, right?<br />\u000a<br />\u000aThat was a joke, Inspector. All the cameras here are ours. Anyway.<br />\u000a<br />\u000aThe engineers down on the fifteenth floor have serviced your console to give you all the available options for the interrogation session. All the information you need will be available on the console, don't worry. They've assured us that the automatic logging and parsing procedures are in place as well.<br />\u000a<br />\u000aYou're the first Inspector to benefit from such a setup, so please feel free to let them or me know about any difficulties you might find with the system.\u000a</em></html>\u000a\u000a[[I'm looking forward to using it.|itw day 1m else]]\u000a\u000a[[New toys? This could be fun.|itw day 1m else]]
 p619
 sg23
 Vitw day 1m extensive
@@ -2029,12 +2029,12 @@ sg25
 g26
 ((I2014
 I7
-I25
-I11
-I54
-I55
-I4
-I206
+I28
+I10
+I14
+I10
+I0
+I209
 I1
 tp621
 (dp622
@@ -2070,7 +2070,7 @@ Tiddler
 p632
 (dp633
 g21
-V<html><em class="manager">\u000aI'm not.<br />\u000a<br />\u000aThere has been talk for a long time of bringing back physical stimuli as a means to enhance our interrogation sessions, but some higher-ups were definitely set on opposing it, whatever arguments they were presented with.<br />\u000a\u000aOnce the accidents happened, though, I heard Congress was easily convinced. Congressman De Paz made a beautiful speech about it. A shame no one recorded it.\u000a</em></html>\u000a\u000a[[So, what are the available options?|itw day 1m extensive]]\u000a\u000a[[Good. I'm sure I can figure it out on my own.|itw day 1m else]]
+V<html><em class="manager">\u000aI'm not.<br />\u000a<br />\u000aThere has been talk for a long time of bringing back physical stimuli as a means to enhance our interrogation sessions, but some higher-ups were definitely set on opposing it, whatever arguments they were presented with.<br /><br />\u000a\u000aOnce the accidents happened, though, I heard Congress was easily convinced. Congressman De Paz made a beautiful speech about it. A shame no one recorded it.\u000a</em></html>\u000a\u000a[[So, what are the available options?|itw day 1m extensive]]\u000a\u000a[[Good. I'm sure I can figure it out on my own.|itw day 1m else]]
 p634
 sg23
 Vitw day 1m vote
@@ -2079,12 +2079,12 @@ sg25
 g26
 ((I2014
 I7
-I25
-I13
-I32
-I34
-I4
-I206
+I28
+I10
+I18
+I35
+I0
+I209
 I1
 tp636
 (dp637
@@ -4821,7 +4821,7 @@ Tiddler
 p1457
 (dp1458
 g21
-V<<nobr>>\u000a<<timedinsert 3s>>\u000a<<if $opinion < 2 or $torture > 0>>\u000a[[I'll ask you again. Tell me the location of James Hewes.|forcing 5]]\u000a<<else>> [[I'll ask you again. Tell me the location of James Hewews.|forcing 6]]\u000a<<endif>>\u000a<<endtimedinsert>>\u000a<<endnobr>>
+V<<nobr>>\u000a<<timedinsert 3s>>\u000a<<if $opinion < 2 or $torture > 0>>\u000a[[I'll ask you again. Tell me the location of James Hewes.|forcing 5]]\u000a<<else>> [[I'll ask you again. Tell me the location of James Hewes.|forcing 6]]\u000a<<endif>>\u000a<<endtimedinsert>>\u000a<<endnobr>>
 p1459
 sg23
 Vforcing 4
@@ -4830,12 +4830,12 @@ sg25
 g26
 ((I2014
 I7
-I25
-I16
-I41
-I3
-I4
-I206
+I28
+I10
+I22
+I20
+I0
+I209
 I1
 tp1461
 (dp1462
