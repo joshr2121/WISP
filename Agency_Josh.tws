@@ -243,7 +243,7 @@ Tiddler
 p85
 (dp86
 g21
-VBUREAU INSPECTION INTERFACE VERSION 5.0.61a\u000a\u000aSYSTEM BOOTING UP.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>>\u000a\u000a<<timedgoto "booting up" 3s>>\u000a<<nobr>>\u000a<<set $opinion to 1>>\u000a<<set $day to 1>>\u000a<<set $timeleft to 300>> /% in minutes, the time remaining each day, assuming that the inspector talks with his superior in the morning and starts the interrogation at 12:00 %/\u000a<<set $hadInterview to false>>\u000a<<set $day1DirectiveConvo to false>>\u000a<<set $hadBriefing to false>>\u000a<<set $askedRoom to false>>\u000a<<set $canClockOut to false>>\u000a<<set $beginningOfDay to true>>\u000a\u000a/% 0 = unavailable, 1 = available, 2 = explored %/\u000a/% day 1 start convos %/\u000a<<set $politicsConvo to 1>>\u000a<<set $personalConvo to 1>>\u000a<<set $forcingConvo to 1>>\u000a/% day 1 unlockable convos %/\u000a<<set $familyConvo to 0>>\u000a<<set $pearlStreetConvo to 0>>\u000a<<set $jobConvo to 0>>\u000a<<set $newCollectiveConvo to 0>>\u000a<<set $leaderConvo to 0>>\u000a\u000a/% notes variables, organized by subject %/\u000a<<set $nSuspect to false>>\u000a<<set $nSuspect_NCTies to false>>\u000a<<set $nSuspect_Job to false>>\u000a<<set $nSuspect_Arrest to false>>\u000a<<set $nSuspect_Parents to false>>\u000a\u000a<<set $nCG to false>>\u000a<<set $nCG_Date to false>>\u000a<<set $nCG_Riots to false>>\u000a\u000a<<set $nNC to false>>\u000a<<set $nNC_Violent to false>>\u000a<<set $nNC_Leader to false>>\u000a\u000a<<set $nHewes to false>>\u000a<<set $nHewes_Leader to false>>\u000a<<set $nHewes_Whereabouts to false>>\u000a<<set $nHewes_Hacker to false>>\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a/% old stuff %/\u000a<<set $torture to 0>>\u000a<<set $tortureLimit to 3>>\u000a<<set $conscious to true>>\u000a<<set $sleepTotal to 0>>\u000a<<set $sleepTonight to 0>>\u000a<<set $infoFound to false>>\u000a\u000a<<set $submittedWho to 0>>\u000a<<set $submittedWhere to 0>>\u000a<<set $submittedWhen to 0>>\u000a<<set $submittedHow to 0>>\u000a<<endnobr>>
+VBUREAU INSPECTION INTERFACE VERSION 5.0.61a\u000a\u000aSYSTEM BOOTING UP.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>>\u000a\u000a<<timedgoto "booting up" 3s>>\u000a<<nobr>>\u000a<<set $opinion to 1>>\u000a<<set $day to 1>>\u000a<<set $torture to 0>>\u000a<<set $tortureLimit to 3>>\u000a<<set $timeleft to 300>> /% in minutes, the time remaining each day, assuming that the inspector talks with his superior in the morning and starts the interrogation at 12:00 %/\u000a<<set $hadInterview to false>>\u000a<<set $day1DirectiveConvo to false>>\u000a<<set $hadBriefing to false>>\u000a<<set $askedRoom to false>>\u000a<<set $canClockOut to false>>\u000a<<set $beginningOfDay to true>>\u000a\u000a/% 0 = unavailable, 1 = available, 2 = explored %/\u000a/% day 1 start convos %/\u000a<<set $politicsConvo to 1>>\u000a<<set $personalConvo to 1>>\u000a<<set $forcingConvo to 1>>\u000a/% day 1 unlockable convos %/\u000a<<set $familyConvo to 0>>\u000a<<set $pearlStreetConvo to 0>>\u000a<<set $jobConvo to 0>>\u000a<<set $newCollectiveConvo to 0>>\u000a<<set $leaderConvo to 0>>\u000a\u000a/% notes variables, organized by subject %/\u000a<<set $nSuspect to false>>\u000a<<set $nSuspect_NCTies to false>>\u000a<<set $nSuspect_Job to false>>\u000a<<set $nSuspect_Arrest to false>>\u000a<<set $nSuspect_Parents to false>>\u000a\u000a<<set $nCG to false>>\u000a<<set $nCG_Date to false>>\u000a<<set $nCG_Riots to false>>\u000a\u000a<<set $nNC to false>>\u000a<<set $nNC_Violent to false>>\u000a<<set $nNC_Leader to false>>\u000a\u000a<<set $nHewes to false>>\u000a<<set $nHewes_Leader to false>>\u000a<<set $nHewes_Whereabouts to false>>\u000a<<set $nHewes_Hacker to false>>\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a/% old stuff %/\u000a<<set $conscious to true>>\u000a<<set $sleepTotal to 0>>\u000a<<set $sleepTonight to 0>>\u000a<<set $infoFound to false>>\u000a\u000a<<set $submittedWho to 0>>\u000a<<set $submittedWhere to 0>>\u000a<<set $submittedWhen to 0>>\u000a<<set $submittedHow to 0>>\u000a<<endnobr>>
 p87
 sg23
 VStart
@@ -253,9 +253,9 @@ g26
 ((I2014
 I7
 I29
-I11
-I47
-I35
+I16
+I26
+I31
 I1
 I210
 I1
@@ -343,7 +343,7 @@ Tiddler
 p115
 (dp116
 g21
-VSUMMARY: The Bureau of Economic Assessment and Rehabilitation has detained 1 suspect(s) for questioning due to suspected knowledge relating to violent anti-government activities.\u000a\u000aREASON: During the past months, the anarchist anti-corporate group known as the New Collective (NC) has dramatically shifted their mode of action. No longer content with public rallies and manifestos, they have begun to attack government establishments and agents directly. They have launched cyberattacks, leaked critical security intelligence, and even physically assaulted public officials. As such, it is now a Bureau Priority 2 Task to locate and temporarily arrest James Hewes, self-proclaimed leader of this movement.\u000a\u000aOBJECTIVE: We have taken into custody Mr. [name withheld], long-time associate of known NC members. Bureau standards and protocols permit his lawful detention for the next 72 (seventy-two) hours. ''Your assignment is to discover the current location of James Hewes.'' You may use any standard investigative techniques permitted under Bureau regulations, in accordance with US Directive-598. \u000a\u000aYou will submit a report no later than //11:59 PM// on //10/23/47//. ''Failure to complete your objective will result in demotion and possible further reprimands.''\u000a\u000aPlease click [[here|program details]] to learn more about this program.\u000a\u000aPlease click [[here|opening hub]] to begin the investigation.
+VSUMMARY: The Bureau of Economic Assessment and Rehabilitation has detained 1 suspect(s) for questioning due to suspected knowledge relating to violent anti-government activities.\u000a\u000aREASON: During the past months, the anarchist anti-corporate group known as the New Collective (NC) has dramatically shifted their mode of action. No longer content with public rallies and manifestos, they have begun to attack government establishments and agents directly. They have launched cyberattacks, leaked critical security intelligence, and even physically assaulted public officials. As such, it is now a Bureau Priority 2 Task to locate and temporarily arrest James Hewes, self-proclaimed leader of this movement.\u000a\u000aOBJECTIVE: We have taken into custody Mr. [name withheld], long-time associate of known NC members. Bureau standards and protocols permit his lawful detention for the next 72 (seventy-two) hours. ''Your assignment is to discover the current location of James Hewes.'' You may use any standard investigative techniques permitted under Bureau regulations, in accordance with Directive US-598. \u000a\u000aYou will submit a report no later than //11:59 PM// on //10/23/47//. ''Failure to complete your objective will result in demotion and possible further reprimands.''\u000a\u000aPlease click [[here|program details]] to learn more about this program.\u000a\u000aPlease click [[here|opening hub]] to begin the investigation.
 p117
 sg23
 Vbriefing
@@ -353,9 +353,9 @@ g26
 ((I2014
 I7
 I29
-I11
-I28
 I15
+I42
+I22
 I1
 I210
 I1
@@ -823,7 +823,7 @@ g14
 I00
 sg15
 (lp260
-F710.0
+F570.0
 aF290.0
 asg17
 (itiddlywiki
@@ -923,7 +923,7 @@ g14
 I00
 sg15
 (lp290
-F850.0
+F710.0
 aF290.0
 asg17
 (itiddlywiki
@@ -981,7 +981,7 @@ Tiddler
 p306
 (dp307
 g21
-VProgram version: 5.0.61a\u000a\u000aThe Bureau Inspection Interface (BII) was designed to optimize information gathering efficiency and provide maximum physical and moral protection for Inspectors. It facilitates all investigative techniques learned during Inspector training, including direct questioning, sleep remission, and physical encouragement procedures.\u000a\u000aThe BII converts questions typed by the Inspector into speech audio within the suspect's cell. The suspect's verbal responses are then recorded using hidden microphones and transcribed as text for the Inspector. This removes confounding nonverbal information that might impair the Inspector's judgment, and permits Bureau oversight and analysis of all Inspector-suspect interactions.\u000a\u000aPlease click [[here|opening hub]] to begin the investigation.
+VProgram version: 5.0.61a\u000a\u000aThe Bureau Inspection Interface (BII) was designed to optimize information gathering efficiency and provide maximum physical and moral protection for Inspectors. It provides a medium for direct questioning of suspects, and permits the application of physical encouragement procedures in accordance with Directive US-598.\u000a\u000aThe BII converts text input from the Inspector into speech audio within the suspect's cell. The suspect's verbal responses are then recorded using hidden microphones and transcribed as text for the Inspector. This removes confounding nonverbal information that might impair the Inspector's judgment, and permits Bureau oversight and analysis of all Inspector-suspect interactions.\u000a\u000aPlease click [[here|opening hub]] to begin the investigation.
 p308
 sg23
 Vprogram details
@@ -990,12 +990,12 @@ sg25
 g26
 ((I2014
 I7
-I28
-I10
-I9
-I27
-I0
-I209
+I29
+I15
+I42
+I15
+I1
+I210
 I1
 tp310
 (dp311
@@ -1119,7 +1119,7 @@ Tiddler
 p347
 (dp348
 g21
-VIt is 5:00pm.\u000a\u000aWe will see you tomorrow, Inspector.\u000a\u000a\u000a[[get a good night's sleep|end of day]]
+VIt is 5:00 PM.\u000a\u000aWe will see you tomorrow, Inspector.\u000a\u000a[[(Get a good night's sleep.)|end of day]]
 p349
 sg23
 Vclock out
@@ -1128,12 +1128,12 @@ sg25
 g26
 ((I2014
 I7
-I22
-I12
-I54
-I13
+I29
+I16
+I51
+I17
 I1
-I203
+I210
 I1
 tp351
 (dp352
@@ -1370,7 +1370,7 @@ Tiddler
 p422
 (dp423
 g21
-VAGENT M506\u000a- - - -\u000a<<set $hadBriefing to true>><em class="manager">I assume you have some questions about the particular nature of this interrogation. Allow me to briefly introduce the process, and I'll be glad to answer any questions afterwards.\u000a\u000aAs you are aware, this is an experimental procedure in information handling during interrogation sessions with sensitive individuals. By removing any direct contact between you and the detainee, we are hoping that your judgment and reasoning faculties will not be impaired by subjective emotional processes.\u000a\u000aOf course, we are well aware of the risks of anonymization and dehumanization, especially after the reinstatement of Directive US-598 on Advanced Interrogation Procedures. Be assured that it is not in the BEAR's interest to cause psychological or physical harm to either you or the detainee. We are fully confident that your training has prepared you to treat the detainee in an appropriate manner.</em>\u000a\u000a[[I understand. What should my preferred mode of action be?|itw day 1m action]]\u000a\u000a[[Why has Directive US-598 been reinstated?|itw day 1m directive]]\u000a\u000a[[This room isn't in the regular interrogation facility.|itw day 1m room]]
+VAGENT M506\u000a- - - -\u000a<<set $hadBriefing to true>><em class="manager">I assume you have some questions about the particular nature of this interrogation. Allow me to briefly introduce the process, and I'll be glad to answer any questions afterward.\u000a\u000aAs you are aware, this is an experimental procedure in information handling during interrogation sessions with sensitive individuals. By removing any direct contact between you and the detainee, we are hoping that your judgment and reasoning faculties will not be impaired by subjective emotional processes.\u000a\u000aOf course, we are well aware of the risks of anonymization and dehumanization, especially after the reinstatement of Directive US-598 on Advanced Interrogation Procedures. Be assured that it is not in the BEAR's interest to cause psychological or physical harm to either you or the detainee. We are fully confident that your training has prepared you to treat the detainee in an appropriate manner.</em>\u000a\u000a[[I understand. What should my preferred mode of action be?|itw day 1m action]]\u000a\u000a[[Why has Directive US-598 been reinstated?|itw day 1m directive]]\u000a\u000a[[This room isn't in the regular interrogation facility.|itw day 1m room]]
 p424
 sg23
 Vitw day 1m
@@ -1380,9 +1380,9 @@ g26
 ((I2014
 I7
 I29
-I11
-I50
-I18
+I15
+I44
+I42
 I1
 I210
 I1
@@ -1420,7 +1420,7 @@ Tiddler
 p437
 (dp438
 g21
-VAGENT M506\u000a- - - -\u000a<<set $day1DirectiveConvo to true>><em class="manager">Our oh-so-efficient legislative counterparts have admitted that, after the attacks in North Carolina and the succession of crises on the West Coast, select governmental agencies are permitted the use of more extensive interrogation techniques. If only one good thing came out of these attacks, it's that Capitol Hill finally realized how ineffective the previous protocols were.</em>\u000a\u000a[[How extensive is the new directive?|itw day 1m extensive]]\u000a\u000a[[To be honest with you sir, I was surprised it got past Congress.|itw day 1m vote]]
+VAGENT M506\u000a- - - -\u000a<<set $day1DirectiveConvo to true>><em class="manager">Our oh-so-efficient legislative counterparts have admitted that, after the attacks in North Carolina and the succession of crises on the West Coast, select governmental agencies are permitted the use of more extensive interrogation techniques. If anything good came out of these attacks, it's that Capitol Hill finally realized how ineffective the previous protocols were.</em>\u000a\u000a[[How extensive is the new directive?|itw day 1m extensive]]\u000a\u000a[[To be honest with you sir, I was surprised it got past Congress.|itw day 1m vote]]
 p439
 sg23
 Vitw day 1m directive
@@ -1430,9 +1430,9 @@ g26
 ((I2014
 I7
 I29
-I11
-I43
-I14
+I16
+I9
+I28
 I1
 I210
 I1
@@ -1470,7 +1470,7 @@ Tiddler
 p452
 (dp453
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">Even though this new procedure prevents Inspectors from having any superfluous information about the detainee, I'd like to warn you that the individual has an above-average intellect, and is particularly versed in legal and political theory.\u000a\u000aIf you feel like you can't outsmart him, you can always simply apply physical encouragement techniques. Eggheads like him are the easiest to break - just studying and thinking about these types of procedures can't prepare you for the real thing. There is a good reason why the state, the government we represent, is the sole agent of legitimate violence in society.\u000a\u000aSo, whether you decide to talk or act, you need to find this information.</em>\u000a\u000a[[Legitimate violence. Alright.|itw day 1m violence]]\u000a\u000a[[How smart is he?|itw day 1m iq]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">Even though this new procedure prevents Inspectors from having any superfluous information about the detainee, I'd like to warn you that the individual has an above-average intellect, and is particularly versed in legal and political theory.\u000a\u000aIf you feel like you can't outsmart him, you can always simply apply physical encouragement techniques. Eggheads like him are the easiest to break - just studying and debating about these types of procedures can't prepare you for the real thing. There is a good reason why the state, the government we represent, is the sole agent of legitimate violence in society.\u000a\u000aSo, whether you decide to talk or act, you need to find this information.</em>\u000a\u000a[[Legitimate violence. Alright.|itw day 1m violence]]\u000a\u000a[[How smart is he?|itw day 1m iq]]
 p454
 sg23
 Vitw day 1m action
@@ -1480,9 +1480,9 @@ g26
 ((I2014
 I7
 I29
-I11
-I52
-I7
+I15
+I45
+I53
 I1
 I210
 I1
@@ -1570,7 +1570,7 @@ Tiddler
 p482
 (dp483
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">Of course, we are the repositories of legitimate violence. Someone has to be.</em>\u000a\u000a<em class="manager">Governments don't eradicate violence. Nothing, nobody can eradicate violence. However, as individuals, we can collectively agree to channel this violence into one body that will protect us from any external threats or sources of pain. We represent this body.</em>\u000a\u000a<em class="manager">And no matter what anyone can say, if you agree to live in that system, in that agreement, then you are potentially subject to that legitimate violence.</em>\u000a\u000a[[That makes sense.|itw day 1m approval]]\u000a\u000a[[But I'm just one specific individual, not a whole government.|itw day 1m individual]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">Of course, we are the repositories of legitimate violence. Someone has to be.</em>\u000a\u000a<em class="manager">Governments don't eradicate violence. Nothing, nobody can eradicate violence. However, as individuals, we can collectively agree to channel this violence into one body that will protect us from any external threats or sources of pain. We represent this body.</em>\u000a\u000a<em class="manager">And whatever anyone says, if you agree to live in that system, in that agreement, then you are potentially subject to that legitimate violence.</em>\u000a\u000a[[That makes sense.|itw day 1m approval]]\u000a\u000a[[But I'm just one specific individual, not a whole government.|itw day 1m individual]]
 p484
 sg23
 Vitw day 1m violence
@@ -1580,9 +1580,9 @@ g26
 ((I2014
 I7
 I29
-I11
+I15
 I50
-I41
+I9
 I1
 I210
 I1
@@ -1720,7 +1720,7 @@ Tiddler
 p527
 (dp528
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">\u000aYes, but when you accepted this position, you accepted </i>de facto<i> your role as Inspector for the Bureau of Economic Assessment and Rehabilitation. Exactly like when members of radical groups like the New Collective violently oppose the political order of the society they inhabit, they renounce their identity as citizens and forfeit the protection of that society. It's in the Constitution - you remember when the 30th Amendment was ratified.\u000a\u000aWe need this social contract for our world to function. We simply cannot accommodate the arbitrary desires of everyone on our planet.\u000a\u000aOkay, Inspector. Enough chit chat. It's time for you to get to work.</em>\u000a\u000a[[Right away, sir.|itw day 1m approval]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">Yes, but when you accepted this position, you accepted de facto your role as Inspector for the Bureau of Economic Assessment and Rehabilitation. Exactly like when members of radical groups like the New Collective violently oppose the political order of the society they inhabit, they renounce their identity as citizens and forfeit the protection of that society. It's in the Constitution - you remember when the 30th Amendment was ratified.\u000a\u000aWe need this social contract for our world to function. We simply cannot accommodate the arbitrary desires of everyone on our planet.\u000a\u000aOkay, Inspector. Enough chit chat. It's time for you to get to work.</em>\u000a\u000a[[Right away, sir.|itw day 1m approval]]
 p529
 sg23
 Vitw day 1m individual
@@ -1730,9 +1730,9 @@ g26
 ((I2014
 I7
 I29
+I16
 I11
-I52
-I33
+I42
 I1
 I210
 I1
@@ -1920,7 +1920,7 @@ Tiddler
 p587
 (dp588
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">I'm not.\u000a\u000aThere has been talk for a long time of bringing back physical stimuli as a means to enhance our interrogation sessions, but some higher-ups were definitely set on opposing it, whatever arguments they were presented with.\u000a\u000aOnce the accidents happened, though, I heard Congress was easily convinced. Congressman De Paz made a beautiful speech about it. A shame no one recorded it.</em>\u000a\u000a[[So, what are the available options?|itw day 1m extensive]]\u000a\u000a[[Good. I'm sure I can figure it out on my own.|itw day 1m else]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">I wasn't.\u000a\u000aThere has been talk for a long time of bringing back physical stimuli as a means to enhance our interrogation sessions, but some higher-ups were definitely set on opposing it, whatever arguments they were presented with.\u000a\u000aOnce the accidents happened, though, I heard Congress was easily convinced. Congressman De Paz made a beautiful speech about it at a private fundraiser. A shame no one recorded it.</em>\u000a\u000a[[So, what are the available options?|itw day 1m extensive]]\u000a\u000a[[Good. I'm sure I can figure it out on my own.|itw day 1m else]]
 p589
 sg23
 Vitw day 1m vote
@@ -1930,9 +1930,9 @@ g26
 ((I2014
 I7
 I29
-I12
-I50
-I30
+I16
+I10
+I33
 I1
 I210
 I1
@@ -2062,15 +2062,15 @@ g14
 I00
 sg15
 (lp631
-F430.0
-aF430.0
+F570.0
+aF570.0
 asg17
 (itiddlywiki
 Tiddler
 p632
 (dp633
 g21
-VIt appears that your daily workload hasn't been completed yet.\u000a\u000aYou will be able to exit the premises at <html><em style="font-weight:bold">5:00pm</em></html>, as specified on the standard US Inspection Work Contract.\u000a\u000a[[Back|opening hub]]
+VIt appears that your daily workload hasn't been completed yet.\u000a\u000aYou will be able to exit the premises at <em>5:00 PM</em> as specified on the standard US Inspection Work Contract.\u000a\u000a[[Back|opening hub]]
 p634
 sg23
 Vend of day nope
@@ -2079,12 +2079,12 @@ sg25
 g26
 ((I2014
 I7
-I24
-I12
+I29
+I16
 I7
-I30
-I3
-I205
+I55
+I1
+I210
 I1
 tp636
 (dp637
@@ -2470,7 +2470,7 @@ Tiddler
 p752
 (dp753
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">They're immigrants. From Russia. They're good people.</em>\u000a\u000a[[Did they talk about the old country?|family 2]]\u000a\u000a[[Did they want you to go into law?|family 5]]\u000a\u000a[[No wonder they raised a little anti-corporatist.|conversation hub][$opinion--]]
+VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">They're immigrants. From Russia. They're good people.</em>\u000a\u000a[[Did they talk about the old country?|family 2]]\u000a\u000a[[Did they want you to go into law?|family 5]]\u000a\u000a[[No wonder they raised a little anti-corporatist.|3s return][$opinion--]]
 p754
 sg23
 Vfamily 1
@@ -2480,9 +2480,9 @@ g26
 ((I2014
 I7
 I29
-I12
-I44
-I53
+I16
+I16
+I38
 I1
 I210
 I1
@@ -2911,7 +2911,7 @@ tp884
 Rp885
 sbsa(dp886
 g14
-I01
+I00
 sg15
 (lp887
 F2670.0
@@ -2964,8 +2964,8 @@ g14
 I00
 sg15
 (lp902
-F850.0
-aF570.0
+F990.0
+aF150.0
 asg17
 (itiddlywiki
 Tiddler
@@ -3222,7 +3222,7 @@ Tiddler
 p978
 (dp979
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $opinion < 2 or $torture > 0>><em class="suspect">Yes.</em>\u000a<<else>><em class="suspect">It hasn't helped. We've done the research.</em>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[The law is the law.|conversation hub][$opinion--]]\u000a\u000a[[People hear what they want to hear.|conversation hub][$opinion--]]\u000a\u000a[[The government's done its research too.|job 8]]
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $opinion < 2 or $torture > 0>><em class="suspect">Yes.</em>\u000a<<else>><em class="suspect">It hasn't helped. We've done the research.</em>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[The law is the law.|3s return][$opinion--]]\u000a\u000a[[People hear what they want to hear.|3s return][$opinion--]]\u000a\u000a[[The government's done its research too.|job 8]]
 p980
 sg23
 Vjob 6
@@ -3232,9 +3232,9 @@ g26
 ((I2014
 I7
 I29
-I12
-I47
-I48
+I16
+I21
+I30
 I1
 I210
 I1
@@ -3272,7 +3272,7 @@ Tiddler
 p993
 (dp994
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<timedinsert 4s>><<display 'conversation hub'>><<endtimedinsert>>
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<if $torture < $tortureLimit>><<timedinsert 4s>><<display 'conversation hub'>><<endtimedinsert>><<else>><<timedgoto "fainted" 2.5s>><<endif>>
 p995
 sg23
 Vjob 7
@@ -3281,12 +3281,12 @@ sg25
 g26
 ((I2014
 I7
-I28
+I29
 I16
-I22
-I12
-I0
-I209
+I47
+I48
+I1
+I210
 I1
 tp997
 (dp998
@@ -3524,7 +3524,7 @@ Tiddler
 p1069
 (dp1070
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<timedinsert 4s>>[[They're an illegal organization. Terrorists, anarchists. Aiding them is a crime.|newCollective 4][$opinion--]]\u000a\u000a[[Start talking.|newCollective 4]]<<endtimedinsert>>
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $torture < $tortureLimit>>\u000a<<timedinsert 4s>>[[They're an illegal organization. Terrorists, anarchists. Aiding them is a crime.|newCollective 4][$opinion--]]<br>\u000a<br>\u000a[[Start talking.|newCollective 4]]<<endtimedinsert>>\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedgoto "fainted" 2.5s>>\u000a<<endif>>\u000a<<endnobr>>
 p1071
 sg23
 VnewCollective 3
@@ -3533,12 +3533,12 @@ sg25
 g26
 ((I2014
 I7
-I28
+I29
 I16
-I22
-I57
-I0
-I209
+I49
+I44
+I1
+I210
 I1
 tp1073
 (dp1074
@@ -3876,7 +3876,7 @@ Tiddler
 p1175
 (dp1176
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">Corporate control of government is more harmful to more people. It just doesn't make the headlines.</em>\u000a\u000a[[Spoken like a true believer.|conversation hub][$opinion--]]\u000a\u000a[[The old government wasn't efficient enough. The CEOs know how to make the system work.|hewes 7]]\u000a\u000a[[You might have a point.|conversation hub][$opinion++]]
+VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">Corporate control of government is more harmful to more people. It just doesn't make the headlines.</em>\u000a\u000a[[Spoken like a true believer.|conversation hub][$opinion--]]\u000a\u000a[[The old government wasn't efficient enough. The CEOs know how to make the system work.|hewes 7]]\u000a\u000a[[You might have a point.|3s return][$opinion++]]
 p1177
 sg23
 Vhewes 6
@@ -3886,9 +3886,9 @@ g26
 ((I2014
 I7
 I29
-I12
-I49
-I34
+I16
+I23
+I39
 I1
 I210
 I1
@@ -3926,7 +3926,7 @@ Tiddler
 p1190
 (dp1191
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">Dissenting voices make us stronger.</em>\u000a\u000a[[You might have a point.|conversation hub][$opinion++]]\u000a\u000a[[In the past, maybe, but not right now.|conversation hub]]\u000a\u000a[[Spoken like a true believer.|conversation hub][$opinion--]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">Dissenting voices make us stronger.</em>\u000a\u000a[[You might have a point.|3s return][$opinion++]]\u000a\u000a[[In the past, maybe, but not right now.|3s return]]\u000a\u000a[[Spoken like a true believer.|3s return][$opinion--]]\u000a
 p1192
 sg23
 Vhewes 5
@@ -3936,9 +3936,9 @@ g26
 ((I2014
 I7
 I29
-I12
-I49
-I28
+I16
+I22
+I53
 I1
 I210
 I1
@@ -3976,7 +3976,7 @@ Tiddler
 p1205
 (dp1206
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">That's fine. Just don't expect me to start praising them for it.</em>\u000a\u000a[[We don't need praise. Just cooperation.|conversation hub]]\u000a\u000a[[We need to stand together.|conversation hub]]
+VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">That's fine. Just don't expect me to start praising them for it.</em>\u000a\u000a[[We don't need praise. Just cooperation.|3s return]]\u000a\u000a[[We need to stand together.|3s return]]
 p1207
 sg23
 Vhewes 9
@@ -3986,9 +3986,9 @@ g26
 ((I2014
 I7
 I29
-I12
-I49
-I55
+I16
+I23
+I58
 I1
 I210
 I1
@@ -4276,7 +4276,7 @@ Tiddler
 p1295
 (dp1296
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">I thought about corporate law, but I couldn't go through with it.</em>\u000a\u000a[[Not everyone's cut out for government work.|family 7]]\u000a\u000a[[We don't need scum like you defending the government.|family 8]]
+VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">I thought about corporate law, but I couldn't go through with it.</em>\u000a\u000a[[Not everyone's cut out for government work.|family 7]]\u000a\u000a[[We don't need scum like you defending the government.|family 8][$opinion -= 2]]
 p1297
 sg23
 Vfamily 6
@@ -4286,9 +4286,9 @@ g26
 ((I2014
 I7
 I29
-I12
-I45
-I33
+I16
+I17
+I13
 I1
 I210
 I1
@@ -4576,7 +4576,7 @@ Tiddler
 p1385
 (dp1386
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<timedinsert 4s>>\u000a<<if $opinion < 2 or $torture > 0>>\u000a[[I'll ask you again. Tell me the location of James Hewes.|forcing 5]]\u000a<<else>> [[I'll ask you again. Tell me the location of James Hewes.|forcing 6]]\u000a<<endif>>\u000a<<endtimedinsert>>\u000a<<endnobr>>
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $torture < $tortureLimit>>\u000a<<timedinsert 4s>>\u000a<<if $opinion < 2 or $torture > 0>>\u000a[[I'll ask you again. Tell me the location of James Hewes.|forcing 5]]\u000a<<else>> [[I'll ask you again. Tell me the location of James Hewes.|forcing 6]]\u000a<<endif>>\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedgoto "fainted" 2.5s>>\u000a<<endif>>\u000a<<endnobr>>
 p1387
 sg23
 Vforcing 3
@@ -4586,9 +4586,9 @@ g26
 ((I2014
 I7
 I29
-I12
-I51
-I58
+I16
+I47
+I1
 I1
 I210
 I1
@@ -4878,7 +4878,7 @@ Tiddler
 p1476
 (dp1477
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">That's an honorable thing, Inspector.</em>\u000a\u000a[[I'm not here to impress you, prisoner.|3s return][$opinion--]]\u000a\u000a[[I couldn't agree more.|conversation hub][$opinion++]]\u000a\u000a<<if $familyConvo neq 2>><<set $familyConvo to 1>>[[Tell me about your family.|family 1][familyConvo = 2]]<<endif>>
+VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">That's an honorable thing, Inspector.</em>\u000a\u000a[[I'm not here to impress you, prisoner.|3s return][$opinion--]]\u000a\u000a[[I couldn't agree more.|3s return][$opinion++]]\u000a\u000a<<if $familyConvo neq 2>><<set $familyConvo to 1>>[[Tell me about your family.|family 1][familyConvo = 2]]<<endif>>
 p1478
 sg23
 Vforcing 10
@@ -4888,9 +4888,9 @@ g26
 ((I2014
 I7
 I29
-I12
-I43
-I48
+I16
+I18
+I39
 I1
 I210
 I1
@@ -4978,7 +4978,7 @@ Tiddler
 p1506
 (dp1507
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<timedinsert 4s>><<display 'conversation hub'>><<endtimedinsert>>
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<if $torture < $tortureLimit>><<timedinsert 4s>><<display 'conversation hub'>><<endtimedinsert>><<else>><<timedgoto "fainted" 2.5s>><<endif>>
 p1508
 sg23
 Vforcing 14
@@ -4987,12 +4987,12 @@ sg25
 g26
 ((I2014
 I7
-I28
+I29
 I16
-I23
-I47
-I0
-I209
+I43
+I13
+I1
+I210
 I1
 tp1510
 (dp1511
@@ -5530,7 +5530,7 @@ Tiddler
 p1672
 (dp1673
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<timedinsert 4s>>[[I said, "Give me your best guess."|personal 1 a 4]]<<endtimedinsert>>
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<if $torture < $tortureLimit>><<timedinsert 4s>>[[I said, "Give me your best guess."|personal 1 a 4]]<<endtimedinsert>><<else>><<timedgoto "fainted" 2.5s>><<endif>>
 p1674
 sg23
 Vpersonal 1 a 3 torture
@@ -5539,12 +5539,12 @@ sg25
 g26
 ((I2014
 I7
-I28
+I29
 I16
-I19
-I27
-I0
-I209
+I41
+I45
+I1
+I210
 I1
 tp1676
 (dp1677
@@ -6019,10 +6019,146 @@ tp1817
 (dp1818
 tp1819
 Rp1820
+sbsa(dp1821
+g14
+I00
+sg15
+(lp1822
+F1130.0
+aF570.0
+asg17
+(itiddlywiki
+Tiddler
+p1823
+(dp1824
+g21
+V//Suspect 1247// is not currently capable of responding due to lack of consciousness.\u000a\u000a[[Call in paramedics.|paramedics]]\u000a\u000a[[Request debrief with Inspection Manager.|debrief][$tortureLimit -= 1]]
+p1825
+sg23
+Vfainted
+p1826
+sg25
+g26
+((I2014
+I7
+I29
+I16
+I34
+I10
+I1
+I210
+I1
+tp1827
+(dp1828
+tp1829
+Rp1830
+sg31
+(lp1831
+sg33
+g26
+((I2014
+I7
+I29
+I16
+I26
+I43
+I1
+I210
+I1
+tp1832
+(dp1833
+tp1834
+Rp1835
+sbsa(dp1836
+g14
+I00
+sg15
+(lp1837
+F1130.0
+aF710.0
+asg17
+(itiddlywiki
+Tiddler
+p1838
+(dp1839
+g21
+g42
+sg23
+Vdebrief
+p1840
+sg25
+g26
+((I2014
+I7
+I29
+I16
+I29
+I54
+I1
+I210
+I1
+tp1841
+(dp1842
+tp1843
+Rp1844
+sg31
+(lp1845
+sg33
+g1844
+sbsa(dp1846
+g14
+I00
+sg15
+(lp1847
+F1270.0
+aF570.0
+asg17
+(itiddlywiki
+Tiddler
+p1848
+(dp1849
+g21
+V<em>Suspect 1247</em> will receive treatment from the nearest available paramedic team.\u000a\u000a[[Request debrief with Inspection Manager.|debrief]]
+p1850
+sg23
+Vparamedics
+p1851
+sg25
+g26
+((I2014
+I7
+I29
+I16
+I34
+I15
+I1
+I210
+I1
+tp1852
+(dp1853
+tp1854
+Rp1855
+sg31
+(lp1856
+sg33
+g26
+((I2014
+I7
+I29
+I16
+I32
+I17
+I1
+I210
+I1
+tp1857
+(dp1858
+tp1859
+Rp1860
 sbsasS'scale'
-p1821
+p1861
 F0.8
 sS'snapping'
-p1822
+p1862
 I01
 ss.
