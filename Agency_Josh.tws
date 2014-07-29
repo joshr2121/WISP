@@ -2363,7 +2363,7 @@ I00
 sg15
 (lp721
 F1830.0
-aF290.0
+aF430.0
 asg17
 (itiddlywiki
 Tiddler
@@ -2413,7 +2413,7 @@ I00
 sg15
 (lp736
 F1830.0
-aF430.0
+aF570.0
 asg17
 (itiddlywiki
 Tiddler
@@ -2463,7 +2463,7 @@ I00
 sg15
 (lp751
 F1830.0
-aF710.0
+aF850.0
 asg17
 (itiddlywiki
 Tiddler
@@ -2513,7 +2513,7 @@ I00
 sg15
 (lp766
 F1830.0
-aF570.0
+aF710.0
 asg17
 (itiddlywiki
 Tiddler
@@ -2563,14 +2563,14 @@ I00
 sg15
 (lp781
 F1830.0
-aF990.0
+aF1130.0
 asg17
 (itiddlywiki
 Tiddler
 p782
 (dp783
 g21
-V<<timedinsert 3s>><<nobr>>\u000a<<if $leaderConvo neq 2>>\u000a<<set $leaderConvo to 1>>\u000a[[You know James Hewes.|hewes 1][$leaderConvo = 2]]<br><br><<endif>>\u000a<<endnobr>>[[How long have you been a part of it?|newCollective 2]]\u000a\u000a[[(Apply physical encouragement.)|newCollective 3][$torture++; $opinion--]]<<endtimedinsert>>
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(No response recorded.)<<endtimedinsert>><<timedinsert 4s>>\u000a\u000a<<nobr>>\u000a<<if $leaderConvo neq 2>>\u000a<<set $leaderConvo to 1>>\u000a[[You know James Hewes.|hewes 1][$leaderConvo = 2]]<br><br><<endif>>\u000a<<endnobr>>[[How long have you been a part of it?|newCollective 2]]\u000a\u000a[[(Apply physical encouragement.)|newCollective 3][$torture++; $opinion--]]<<endtimedinsert>>
 p784
 sg23
 VnewCollective 1
@@ -2579,12 +2579,12 @@ sg25
 g26
 ((I2014
 I7
-I25
-I14
-I54
-I21
-I4
-I206
+I29
+I10
+I43
+I27
+I1
+I210
 I1
 tp786
 (dp787
@@ -2613,7 +2613,7 @@ I00
 sg15
 (lp796
 F1830.0
-aF850.0
+aF990.0
 asg17
 (itiddlywiki
 Tiddler
@@ -2663,7 +2663,7 @@ I00
 sg15
 (lp811
 F1830.0
-aF1130.0
+aF1270.0
 asg17
 (itiddlywiki
 Tiddler
@@ -2713,14 +2713,14 @@ I00
 sg15
 (lp826
 F1970.0
-aF710.0
+aF850.0
 asg17
 (itiddlywiki
 Tiddler
 p827
 (dp828
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<timedinsert 2s>><html><em class="suspect">Didn't do much good.</em></html>\u000a\u000a[[Showed us who the traitors were.|riots 6][$delay = 3]]\u000a\u000a[[No, it didn't.|riots 6][$delay = 3]] <<endtimedinsert>>
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 0.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 2s>><html><em class="suspect">Didn't do much good.</em></html><<endtimedinsert>>\u000a\u000a<<timedinsert 3.5s>>[[Showed us who the traitors were.|riots 6]]\u000a\u000a[[No, it didn't.|riots 6]]<<endtimedinsert>>
 p829
 sg23
 Vriots 2
@@ -2729,12 +2729,12 @@ sg25
 g26
 ((I2014
 I7
-I25
-I14
+I29
+I10
+I40
+I47
 I1
-I19
-I4
-I206
+I210
 I1
 tp831
 (dp832
@@ -2763,7 +2763,7 @@ I00
 sg15
 (lp841
 F2110.0
-aF710.0
+aF850.0
 asg17
 (itiddlywiki
 Tiddler
@@ -2813,7 +2813,7 @@ I00
 sg15
 (lp856
 F2250.0
-aF710.0
+aF850.0
 asg17
 (itiddlywiki
 Tiddler
@@ -2915,14 +2915,14 @@ I00
 sg15
 (lp887
 F2530.0
-aF710.0
+aF850.0
 asg17
 (itiddlywiki
 Tiddler
 p888
 (dp889
 g21
-V<<nobr>>\u000a<<if $delay is 3>>\u000a<<timedinsert 3s>>\u000a[[But that was the first Collective.|riots 7]]\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedinsert 0s>>\u000a[[But that was the first Collective.|riots 7]]\u000a<<endtimedinsert>>\u000a<<endif>>\u000a<<set $delay = 0>>\u000a<<endnobr>>
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(No response recorded.)<<endtimedinsert>>\u000a\u000a<<timedinsert 4s>>[[But that was the first Collective.|riots 7]]<<endtimedinsert>>
 p890
 sg23
 Vriots 6
@@ -2931,12 +2931,12 @@ sg25
 g26
 ((I2014
 I7
-I25
-I14
-I0
-I22
-I4
-I206
+I29
+I10
+I40
+I28
+I1
+I210
 I1
 tp892
 (dp893
@@ -2965,7 +2965,7 @@ I00
 sg15
 (lp902
 F2670.0
-aF710.0
+aF850.0
 asg17
 (itiddlywiki
 Tiddler
@@ -3065,7 +3065,7 @@ I00
 sg15
 (lp932
 F1970.0
-aF850.0
+aF990.0
 asg17
 (itiddlywiki
 Tiddler
@@ -3115,14 +3115,14 @@ I00
 sg15
 (lp947
 F2250.0
-aF850.0
+aF990.0
 asg17
 (itiddlywiki
 Tiddler
 p948
 (dp949
 g21
-VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">No. Just until you get arrested.</em></html>\u000a\u000a[[If national security is at stake, it's a necessity.|job 6]]\u000a\u000a[[Don't contradict me, prisoner.|conversation hub][$opinion -= 1]]\u000a\u000a[[(Apply physical encouragement.)|job 7][$opinion -= 1; $torture++]]
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">No. Just until you get arrested.</em></html>\u000a\u000a[[If national security is at stake, it's a necessity.|job 6]]\u000a\u000a[[Don't contradict me, prisoner.|3s return][$opinion -= 1]]\u000a\u000a[[(Apply physical encouragement.)|job 7][$opinion -= 1; $torture++]]
 p950
 sg23
 Vjob 4
@@ -3131,12 +3131,12 @@ sg25
 g26
 ((I2014
 I7
-I28
-I15
-I1
-I15
+I29
+I10
+I42
 I0
-I209
+I1
+I210
 I1
 tp952
 (dp953
@@ -3165,7 +3165,7 @@ I00
 sg15
 (lp962
 F2110.0
-aF850.0
+aF990.0
 asg17
 (itiddlywiki
 Tiddler
@@ -3215,7 +3215,7 @@ I00
 sg15
 (lp977
 F2390.0
-aF850.0
+aF990.0
 asg17
 (itiddlywiki
 Tiddler
@@ -3265,7 +3265,7 @@ I00
 sg15
 (lp992
 F2530.0
-aF850.0
+aF990.0
 asg17
 (itiddlywiki
 Tiddler
@@ -3315,7 +3315,7 @@ I00
 sg15
 (lp1007
 F2670.0
-aF850.0
+aF990.0
 asg17
 (itiddlywiki
 Tiddler
@@ -3367,7 +3367,7 @@ I00
 sg15
 (lp1023
 F2810.0
-aF850.0
+aF990.0
 asg17
 (itiddlywiki
 Tiddler
@@ -3417,7 +3417,7 @@ I00
 sg15
 (lp1038
 F2950.0
-aF850.0
+aF990.0
 asg17
 (itiddlywiki
 Tiddler
@@ -3467,7 +3467,7 @@ I00
 sg15
 (lp1053
 F3090.0
-aF850.0
+aF990.0
 asg17
 (itiddlywiki
 Tiddler
@@ -3516,8 +3516,8 @@ g14
 I00
 sg15
 (lp1068
-F2670.0
-aF1130.0
+F2810.0
+aF1270.0
 asg17
 (itiddlywiki
 Tiddler
@@ -3567,7 +3567,7 @@ I00
 sg15
 (lp1083
 F2110.0
-aF990.0
+aF1130.0
 asg17
 (itiddlywiki
 Tiddler
@@ -3619,7 +3619,7 @@ I00
 sg15
 (lp1099
 F1970.0
-aF990.0
+aF1130.0
 asg17
 (itiddlywiki
 Tiddler
@@ -3669,7 +3669,7 @@ I00
 sg15
 (lp1114
 F2250.0
-aF990.0
+aF1130.0
 asg17
 (itiddlywiki
 Tiddler
@@ -3719,7 +3719,7 @@ I00
 sg15
 (lp1129
 F2390.0
-aF990.0
+aF1130.0
 asg17
 (itiddlywiki
 Tiddler
@@ -3769,7 +3769,7 @@ I00
 sg15
 (lp1144
 F2110.0
-aF1130.0
+aF1270.0
 asg17
 (itiddlywiki
 Tiddler
@@ -3819,7 +3819,7 @@ I00
 sg15
 (lp1159
 F1970.0
-aF1130.0
+aF1270.0
 asg17
 (itiddlywiki
 Tiddler
@@ -3869,14 +3869,14 @@ I00
 sg15
 (lp1174
 F2250.0
-aF1130.0
+aF1270.0
 asg17
 (itiddlywiki
 Tiddler
 p1175
 (dp1176
 g21
-V<<nobr>>\u000a<<if $delay == 3>>\u000a<<set $delay to 0>>\u000a<<timedinsert 3s>>SUSPECT 1247<br>\u000a- - - -<br>\u000a<html><em class="suspect">The New Collective have important things to say, even if I don't agree with their methods.</em></html><br><br>\u000a\u000a[[I know what they have to say.|hewes 5]]<br><br>\u000a\u000a[[We need the corporations to survive. We need to stand together.|hewes 5]]<br><br>\u000a\u000a[[They're violent anarchists. Terrorism is never the answer.|hewes 6]]\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedinsert 0s>>SUSPECT 1247<br>\u000a- - - -<br>\u000a<html><em class="suspect">The New Collective have important things to say, even if I don't agree with their methods.</em></html><br><br>\u000a\u000a[[I know what they have to say.|hewes 5]]<br><br>\u000a\u000a[[We need the corporations to survive. We need to stand together.|hewes 5]]<br><br>\u000a\u000a[[They're violent anarchists. Terrorism is never the answer.|hewes 6]]\u000a<<endtimedinsert>>\u000a<<endif>>\u000a<<endnobr>>
+VSUSPECT 1247\u000a- - - -\u000a<html><em class="suspect">The New Collective have important things to say, even if I don't agree with their methods.</em></html>\u000a\u000a[[I know what they have to say.|hewes 5]]\u000a\u000a[[We need the corporations to survive. We need to stand together.|hewes 5]]\u000a\u000a[[They're violent anarchists. Terrorism is never the answer.|hewes 6]]
 p1177
 sg23
 Vhewes 4
@@ -3885,12 +3885,12 @@ sg25
 g26
 ((I2014
 I7
-I25
-I15
-I15
-I51
-I4
-I206
+I29
+I10
+I46
+I37
+I1
+I210
 I1
 tp1179
 (dp1180
@@ -3918,8 +3918,8 @@ g14
 I00
 sg15
 (lp1189
-F2530.0
-aF1130.0
+F2670.0
+aF1270.0
 asg17
 (itiddlywiki
 Tiddler
@@ -3968,8 +3968,8 @@ g14
 I00
 sg15
 (lp1204
-F2390.0
-aF1130.0
+F2530.0
+aF1270.0
 asg17
 (itiddlywiki
 Tiddler
@@ -4018,8 +4018,8 @@ g14
 I00
 sg15
 (lp1219
-F2950.0
-aF1130.0
+F3090.0
+aF1270.0
 asg17
 (itiddlywiki
 Tiddler
@@ -4068,8 +4068,8 @@ g14
 I00
 sg15
 (lp1234
-F2810.0
-aF1130.0
+F2950.0
+aF1270.0
 asg17
 (itiddlywiki
 Tiddler
@@ -4119,7 +4119,7 @@ I00
 sg15
 (lp1249
 F1970.0
-aF570.0
+aF710.0
 asg17
 (itiddlywiki
 Tiddler
@@ -4169,7 +4169,7 @@ I00
 sg15
 (lp1264
 F2390.0
-aF570.0
+aF710.0
 asg17
 (itiddlywiki
 Tiddler
@@ -4219,7 +4219,7 @@ I00
 sg15
 (lp1279
 F2110.0
-aF570.0
+aF710.0
 asg17
 (itiddlywiki
 Tiddler
@@ -4269,7 +4269,7 @@ I00
 sg15
 (lp1294
 F2250.0
-aF570.0
+aF710.0
 asg17
 (itiddlywiki
 Tiddler
@@ -4319,7 +4319,7 @@ I00
 sg15
 (lp1309
 F2530.0
-aF570.0
+aF710.0
 asg17
 (itiddlywiki
 Tiddler
@@ -4369,14 +4369,14 @@ I00
 sg15
 (lp1324
 F2810.0
-aF570.0
+aF710.0
 asg17
 (itiddlywiki
 Tiddler
 p1325
 (dp1326
 g21
-V<<timedinsert 2s>>SUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $torture == 0>><html><em class="suspect">That's why scum like me defend the people.</em></html>\u000a<<else>>\u000a<html><em class="suspect">No, you don't, Inspector.</em></html><<endif>>\u000a<<endnobr>>\u000a\u000a<<display 'conversation hub'>>\u000a<<endtimedinsert>>
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<timedremove 0.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<endtimedremove>>\u000a<<timedinsert 2s>>\u000a<<if $torture == 0>><html><em class="suspect">That's why scum like me defend the people.</em></html>\u000a<<else>>\u000a<html><em class="suspect">No, you don't, Inspector.</em></html><<endif>>\u000a<<endtimedinsert>>\u000a<<endnobr>>\u000a\u000a<<timedinsert 4s>><<display 'conversation hub'>><<endtimedinsert>>
 p1327
 sg23
 Vfamily 8
@@ -4385,12 +4385,12 @@ sg25
 g26
 ((I2014
 I7
-I25
-I15
-I51
+I29
+I10
 I18
-I4
-I206
+I35
+I1
+I210
 I1
 tp1329
 (dp1330
@@ -4419,7 +4419,7 @@ I00
 sg15
 (lp1339
 F2670.0
-aF570.0
+aF710.0
 asg17
 (itiddlywiki
 Tiddler
@@ -4469,7 +4469,7 @@ I00
 sg15
 (lp1354
 F1970.0
-aF290.0
+aF430.0
 asg17
 (itiddlywiki
 Tiddler
@@ -4519,7 +4519,7 @@ I00
 sg15
 (lp1369
 F2110.0
-aF290.0
+aF430.0
 asg17
 (itiddlywiki
 Tiddler
@@ -4569,7 +4569,7 @@ I00
 sg15
 (lp1384
 F2250.0
-aF430.0
+aF570.0
 asg17
 (itiddlywiki
 Tiddler
@@ -4619,7 +4619,7 @@ I00
 sg15
 (lp1399
 F2110.0
-aF430.0
+aF570.0
 asg17
 (itiddlywiki
 Tiddler
@@ -4671,7 +4671,7 @@ I00
 sg15
 (lp1415
 F2390.0
-aF430.0
+aF570.0
 asg17
 (itiddlywiki
 Tiddler
@@ -4721,7 +4721,7 @@ I00
 sg15
 (lp1430
 F2530.0
-aF430.0
+aF570.0
 asg17
 (itiddlywiki
 Tiddler
@@ -4771,7 +4771,7 @@ I00
 sg15
 (lp1445
 F2950.0
-aF430.0
+aF570.0
 asg17
 (itiddlywiki
 Tiddler
@@ -4821,7 +4821,7 @@ I00
 sg15
 (lp1460
 F2810.0
-aF430.0
+aF570.0
 asg17
 (itiddlywiki
 Tiddler
@@ -4871,7 +4871,7 @@ I00
 sg15
 (lp1475
 F3230.0
-aF430.0
+aF570.0
 asg17
 (itiddlywiki
 Tiddler
@@ -4921,7 +4921,7 @@ I00
 sg15
 (lp1490
 F3090.0
-aF430.0
+aF570.0
 asg17
 (itiddlywiki
 Tiddler
@@ -4971,7 +4971,7 @@ I00
 sg15
 (lp1505
 F3370.0
-aF430.0
+aF570.0
 asg17
 (itiddlywiki
 Tiddler
@@ -5021,7 +5021,7 @@ I00
 sg15
 (lp1520
 F3510.0
-aF430.0
+aF570.0
 asg17
 (itiddlywiki
 Tiddler
@@ -5073,7 +5073,7 @@ I00
 sg15
 (lp1536
 F3650.0
-aF430.0
+aF570.0
 asg17
 (itiddlywiki
 Tiddler
@@ -5123,7 +5123,7 @@ I00
 sg15
 (lp1551
 F3930.0
-aF430.0
+aF570.0
 asg17
 (itiddlywiki
 Tiddler
@@ -5173,7 +5173,7 @@ I00
 sg15
 (lp1566
 F3790.0
-aF430.0
+aF570.0
 asg17
 (itiddlywiki
 Tiddler
@@ -5223,7 +5223,7 @@ I00
 sg15
 (lp1581
 F4070.0
-aF430.0
+aF570.0
 asg17
 (itiddlywiki
 Tiddler
@@ -5273,7 +5273,7 @@ I00
 sg15
 (lp1596
 F1830.0
-aF150.0
+aF290.0
 asg17
 (itiddlywiki
 Tiddler
@@ -5323,7 +5323,7 @@ I00
 sg15
 (lp1611
 F2390.0
-aF150.0
+aF290.0
 asg17
 (itiddlywiki
 Tiddler
@@ -5373,7 +5373,7 @@ I00
 sg15
 (lp1626
 F2810.0
-aF150.0
+aF290.0
 asg17
 (itiddlywiki
 Tiddler
@@ -5423,7 +5423,7 @@ I00
 sg15
 (lp1641
 F1970.0
-aF150.0
+aF290.0
 asg17
 (itiddlywiki
 Tiddler
@@ -5473,7 +5473,7 @@ I00
 sg15
 (lp1656
 F2110.0
-aF150.0
+aF290.0
 asg17
 (itiddlywiki
 Tiddler
@@ -5523,7 +5523,7 @@ I00
 sg15
 (lp1671
 F2250.0
-aF150.0
+aF290.0
 asg17
 (itiddlywiki
 Tiddler
@@ -5573,7 +5573,7 @@ I00
 sg15
 (lp1686
 F2530.0
-aF150.0
+aF290.0
 asg17
 (itiddlywiki
 Tiddler
@@ -5621,11 +5621,11 @@ tp1699
 Rp1700
 sbsa(dp1701
 g14
-I01
+I00
 sg15
 (lp1702
 F2670.0
-aF150.0
+aF290.0
 asg17
 (itiddlywiki
 Tiddler
@@ -5675,7 +5675,7 @@ I00
 sg15
 (lp1717
 F2950.0
-aF150.0
+aF290.0
 asg17
 (itiddlywiki
 Tiddler
@@ -5725,7 +5725,7 @@ I00
 sg15
 (lp1732
 F3090.0
-aF150.0
+aF290.0
 asg17
 (itiddlywiki
 Tiddler
@@ -6019,10 +6019,60 @@ tp1817
 (dp1818
 tp1819
 Rp1820
+sbsa(dp1821
+g14
+I00
+sg15
+(lp1822
+F2390.0
+aF1270.0
+asg17
+(itiddlywiki
+Tiddler
+p1823
+(dp1824
+g21
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>><html><em class="suspect">The New Collective have important things to say, even if I don't agree with their methods.</em></html><<endtimedinsert>>\u000a\u000a<<timedinsert 5s>>[[I know what they have to say.|hewes 5]]\u000a\u000a[[We need the corporations to survive. We need to stand together.|hewes 5]]\u000a\u000a[[They're violent anarchists. Terrorism is never the answer.|hewes 6]]<<endtimedinsert>>
+p1825
+sg23
+Vhewes 4 delay
+p1826
+sg25
+g26
+((I2014
+I7
+I29
+I10
+I46
+I23
+I1
+I210
+I1
+tp1827
+(dp1828
+tp1829
+Rp1830
+sg31
+(lp1831
+sg33
+g26
+((I2014
+I7
+I25
+I15
+I9
+I17
+I4
+I206
+I1
+tp1832
+(dp1833
+tp1834
+Rp1835
 sbsasS'scale'
-p1821
-F1.0
+p1836
+F0.8
 sS'snapping'
-p1822
+p1837
 I01
 ss.
