@@ -3505,7 +3505,7 @@ tp1057
 Rp1058
 sbsa(dp1059
 g12
-I01
+I00
 sg13
 (lp1060
 F2250.0
@@ -3553,10 +3553,1198 @@ tp1070
 (dp1071
 tp1072
 Rp1073
+sbsa(dp1074
+g12
+I01
+sg13
+(lp1075
+F2810.0
+aF1970.0
+asg15
+(itiddlywiki
+Tiddler
+p1076
+(dp1077
+g19
+VAs per on-going regulations, you are required to attend a de-briefing session with your assigned Inspection Manager.\u000a<<nobr>>\u000a<<if $day is 1>>\u000a[[Connect.|debriefing 1]]\u000a<<elseif $day is 2>>\u000a[[Connect.|debriefing 2]]\u000a<<elseif $day is 3>>\u000a[[Connect.|debriefing 3]]\u000a<<endif>>\u000a[[Log out without debriefing.|end of day]]\u000a<<endnobr>>
+p1078
+sg21
+Vend of day 1
+p1079
+sg23
+g24
+((I2014
+I7
+I29
+I11
+I20
+I2
+I1
+I210
+I1
+tp1080
+(dp1081
+tp1082
+Rp1083
+sg29
+(lp1084
+sg31
+g24
+((I2014
+I7
+I16
+I13
+I28
+I51
+I2
+I197
+I1
+tp1085
+(dp1086
+tp1087
+Rp1088
+sbsa(dp1089
+g12
+I01
+sg13
+(lp1090
+F3090.0
+aF1690.0
+asg15
+(itiddlywiki
+Tiddler
+p1091
+(dp1092
+g19
+VAGENT M506 is now connected.\u000a- - - -\u000a<em class="manager">Welcome back, Inspector.<br />\u000aI am sure you've had an interesting interview with our suspect. Any information you've extracted that could be relevant to our priorities?\u000a</em>\u000a\u000a\u000a[[He has interesting views on our system, to say the least.|db 1 politics]]\u000a\u000a[[He's been through some rough times.|db 1 personal]]\u000a\u000a[[I've started to piece out some intelligence regarding James Hewes.|db 1 intel]]\u000a\u000a<<nobr>>\u000a<<if $torture > 1>>\u000a[[That new directive is... interesting|db 1 torture]]\u000a<<endif>>\u000a<<endnobr>>
+p1093
+sg21
+Vdb 1 hub
+p1094
+sg23
+g24
+((I2014
+I7
+I29
+I12
+I2
+I26
+I1
+I210
+I1
+tp1095
+(dp1096
+tp1097
+Rp1098
+sg29
+(lp1099
+Vmanager
+p1100
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1101
+(dp1102
+tp1103
+Rp1104
+sbsa(dp1105
+g12
+I01
+sg13
+(lp1106
+F3090.0
+aF1830.0
+asg15
+(itiddlywiki
+Tiddler
+p1107
+(dp1108
+g19
+VPlease standby while the Inspection Manager logs on...\u000a<<timedgoto "db 1 hub" 3s>>
+p1109
+sg21
+Vdebriefing 1
+p1110
+sg23
+g24
+((I2014
+I7
+I29
+I11
+I28
+I14
+I1
+I210
+I1
+tp1111
+(dp1112
+tp1113
+Rp1114
+sg29
+(lp1115
+sg31
+g24
+((I2014
+I7
+I22
+I13
+I3
+I19
+I1
+I203
+I1
+tp1116
+(dp1117
+tp1118
+Rp1119
+sbsa(dp1120
+g12
+I01
+sg13
+(lp1121
+F3090.0
+aF1970.0
+asg15
+(itiddlywiki
+Tiddler
+p1122
+(dp1123
+g19
+VPlease standby while the Inspection Manager logs on...\u000a<<timedgoto "db 2 hub" 3s>>
+p1124
+sg21
+Vdebriefing 2
+p1125
+sg23
+g24
+((I2014
+I7
+I29
+I11
+I28
+I35
+I1
+I210
+I1
+tp1126
+(dp1127
+tp1128
+Rp1129
+sg29
+(lp1130
+sg31
+g24
+((I2014
+I7
+I22
+I13
+I3
+I19
+I1
+I203
+I1
+tp1131
+(dp1132
+tp1133
+Rp1134
+sbsa(dp1135
+g12
+I01
+sg13
+(lp1136
+F3090.0
+aF2110.0
+asg15
+(itiddlywiki
+Tiddler
+p1137
+(dp1138
+g19
+VPlease standby while the Inspection Manager logs on...\u000a<<timedgoto "db 3 hub" 3s>>
+p1139
+sg21
+Vdebriefing 3
+p1140
+sg23
+g24
+((I2014
+I7
+I29
+I11
+I28
+I43
+I1
+I210
+I1
+tp1141
+(dp1142
+tp1143
+Rp1144
+sg29
+(lp1145
+sg31
+g24
+((I2014
+I7
+I22
+I13
+I3
+I19
+I1
+I203
+I1
+tp1146
+(dp1147
+tp1148
+Rp1149
+sbsa(dp1150
+g12
+I01
+sg13
+(lp1151
+F3230.0
+aF1270.0
+asg15
+(itiddlywiki
+Tiddler
+p1152
+(dp1153
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">I'm not sure how his personal opinions are relevant to Hewes' whereabouts, Inspector. You need to focus on the task at hand.</em>\u000a\u000a[[I'd beg to differ, Manager.|db 1 politics 1]] The suspect doesn't particularly love or admire Hewes' in himself. He simply shares his hate for our government.\u000a\u000a[[You're right.|db 1 intel]] Let's go back to the facts.
+p1154
+sg21
+Vdb 1 politics
+p1155
+sg23
+g24
+((I2014
+I7
+I29
+I14
+I30
+I18
+I1
+I210
+I1
+tp1156
+(dp1157
+tp1158
+Rp1159
+sg29
+(lp1160
+Vmanager
+p1161
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1162
+(dp1163
+tp1164
+Rp1165
+sbsa(dp1166
+g12
+I01
+sg13
+(lp1167
+F3230.0
+aF1550.0
+asg15
+(itiddlywiki
+Tiddler
+p1168
+(dp1169
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">He's had a rough time? Is he crippled, orphan and is part of an ethnic or sexual minority?</em>\u000a\u000a[[I meant the circumstances of his arrest, Manager.|db 1 arrest]] <<nobr>><<if $family is 2>>Although [[he is an immigrant.|db 1 family]]<<endif>><<endnobr>>\u000a\u000a[[He might be overly dramatizing it.|db 1 politics ccl]]
+p1170
+sg21
+Vdb 1 personal
+p1171
+sg23
+g24
+((I2014
+I7
+I29
+I15
+I34
+I14
+I1
+I210
+I1
+tp1172
+(dp1173
+tp1174
+Rp1175
+sg29
+(lp1176
+Vmanager
+p1177
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1178
+(dp1179
+tp1180
+Rp1181
+sbsa(dp1182
+g12
+I01
+sg13
+(lp1183
+F3370.0
+aF1830.0
+asg15
+(itiddlywiki
+Tiddler
+p1184
+(dp1185
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">Let me know what you have found out.</em>\u000a\u000a\u000a/% bunch of neverending if statements, which also imply that we need a coherent list of things you find out about that dude/from that dude %/
+p1186
+sg21
+Vdb 1 intel
+p1187
+sg23
+g24
+((I2014
+I7
+I29
+I17
+I8
+I56
+I1
+I210
+I1
+tp1188
+(dp1189
+tp1190
+Rp1191
+sg29
+(lp1192
+Vmanager
+p1193
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1194
+(dp1195
+tp1196
+Rp1197
+sbsa(dp1198
+g12
+I01
+sg13
+(lp1199
+F4070.0
+aF1550.0
+asg15
+(itiddlywiki
+Tiddler
+p1200
+(dp1201
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">Welcome back, Inspector.</em>
+p1202
+sg21
+Vdb 1 hub 2 1
+p1203
+sg23
+g24
+((I2014
+I7
+I29
+I11
+I35
+I40
+I1
+I210
+I1
+tp1204
+(dp1205
+tp1206
+Rp1207
+sg29
+(lp1208
+Vmanager
+p1209
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1210
+(dp1211
+tp1212
+Rp1213
+sbsa(dp1214
+g12
+I01
+sg13
+(lp1215
+F3230.0
+aF1970.0
+asg15
+(itiddlywiki
+Tiddler
+p1216
+(dp1217
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">I'm glad to see you have taken the opportunity to put the new directive to good use. You are now part of these public servants who will prove that, sometimes, common sense isn't the best option.</em>\u000a\u000a[[The subject seems to be responding fairly well to physical encouragements.|db 1 torture a]]\u000a\u000a[[I have yet to witness significant changes in the suspect's behavior.|db 1 torture b]]
+p1218
+sg21
+Vdb 1 torture
+p1219
+sg23
+g24
+((I2014
+I7
+I29
+I16
+I54
+I2
+I1
+I210
+I1
+tp1220
+(dp1221
+tp1222
+Rp1223
+sg29
+(lp1224
+Vmanager
+p1225
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1226
+(dp1227
+tp1228
+Rp1229
+sbsa(dp1230
+g12
+I01
+sg13
+(lp1231
+F3370.0
+aF1130.0
+asg15
+(itiddlywiki
+Tiddler
+p1232
+(dp1233
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">Well, leave him to his hatred and to his resentment. I've seen a lot of pro-whatever activists who can only point out at the current solution they're presented, as if it was a hideous thing they had fought all their lives.<br />\u000aAnd yet, at the end of the day, I've seen them walk away, get in their car, sit on their couch, turn on their TV and wait, as well as any brave little every-man.</em>\u000a\u000a[[He's just an annoyed dog.|db 1 politics 1 a]] We'll see how much he barks once he starts being hungry.\u000a\u000a[[Not this one.|db 1 politics 1 b]] He knows what he's saying.
+p1234
+sg21
+Vdb 1 politics 1
+p1235
+sg23
+g24
+((I2014
+I7
+I29
+I14
+I32
+I15
+I1
+I210
+I1
+tp1236
+(dp1237
+tp1238
+Rp1239
+sg29
+(lp1240
+Vmanager
+p1241
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1242
+(dp1243
+tp1244
+Rp1245
+sbsa(dp1246
+g12
+I01
+sg13
+(lp1247
+F4070.0
+aF1690.0
+asg15
+(itiddlywiki
+Tiddler
+p1248
+(dp1249
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">Welcome back, Inspector.</em>
+p1250
+sg21
+Vdb 1 hub 1 3
+p1251
+sg23
+g24
+((I2014
+I7
+I29
+I11
+I35
+I40
+I1
+I210
+I1
+tp1252
+(dp1253
+tp1254
+Rp1255
+sg29
+(lp1256
+Vmanager
+p1257
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1258
+(dp1259
+tp1260
+Rp1261
+sbsa(dp1262
+g12
+I01
+sg13
+(lp1263
+F3510.0
+aF990.0
+asg15
+(itiddlywiki
+Tiddler
+p1264
+(dp1265
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">Then I trust you not to pay attention to his diatribes against us. People have an incredible tendency to transfer all the guilt on the shoulders of officials on whose elections they didn't even vote.<br />\u000aIt is so easy to blame and pretend you've been right all along.</em>\u000a\u000a[[Well, he can only blame himself for the position he's in.|db 1 politics 1 a 1]]\u000a\u000a[[We're still the ones who put him in that position.|db 1 politics 1 a 2]]
+p1266
+sg21
+Vdb 1 politics 1 a
+p1267
+sg23
+g24
+((I2014
+I7
+I29
+I14
+I45
+I40
+I1
+I210
+I1
+tp1268
+(dp1269
+tp1270
+Rp1271
+sg29
+(lp1272
+Vmanager
+p1273
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1274
+(dp1275
+tp1276
+Rp1277
+sbsa(dp1278
+g12
+I01
+sg13
+(lp1279
+F3510.0
+aF1270.0
+asg15
+(itiddlywiki
+Tiddler
+p1280
+(dp1281
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">We expected him to be smart. Such a procedure would be harder to conduct with someone who didn't benefit from our current suspect's... mental agility. Don't take it as a threat, take it as a challenge.<br />\u000a<br />\u000aAnd remember: the higher they stand, the harder they fall.</em>\u000a\u000a\u000a[[He doesn't need to fall. Just Hewes, right?|db 1 politics ccl]]\u000a<<nobr>>\u000a<<if $torture >= 2>>\u000a[[I'll be here to push him.|db 1 torture]]<<endif>><<endnobr>>
+p1282
+sg21
+Vdb 1 politics 1 b
+p1283
+sg23
+g24
+((I2014
+I7
+I29
+I16
+I10
+I55
+I1
+I210
+I1
+tp1284
+(dp1285
+tp1286
+Rp1287
+sg29
+(lp1288
+Vmanager
+p1289
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1290
+(dp1291
+tp1292
+Rp1293
+sbsa(dp1294
+g12
+I01
+sg13
+(lp1295
+F3790.0
+aF990.0
+asg15
+(itiddlywiki
+Tiddler
+p1296
+(dp1297
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">This is what happens when you mix a liable personality, environment and education and offer it dreams of hope and better places. There are no utopias in this world, let me tell you that.<<nobr>><<if $politicsConvo is 2>>The only way to make our society better is to start taking matters in our own hands and making more efficient decisions. That's why the people approved U.S. vs. Carson Group.<<endif>><<endnobr>></em>\u000a\u000a\u000a[[If individuals want freedom so much, then give them responsibility.|db 1 politics ccl]]\u000a
+p1298
+sg21
+Vdb 1 politics 1 a 1
+p1299
+sg23
+g24
+((I2014
+I7
+I29
+I15
+I24
+I8
+I1
+I210
+I1
+tp1300
+(dp1301
+tp1302
+Rp1303
+sg29
+(lp1304
+Vmanager
+p1305
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1306
+(dp1307
+tp1308
+Rp1309
+sbsa(dp1310
+g12
+I01
+sg13
+(lp1311
+F3790.0
+aF1130.0
+asg15
+(itiddlywiki
+Tiddler
+p1312
+(dp1313
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">Did we?<br />\u000aOr did we just apply the law?<br />\u000aThis law is in place for certain reasons, and is part of a greater legal system which, to my knowledge, still allows overrulings and discussion of legal issues. No need to kill people and set things on fire.</em>\u000a\u000a[[At least he won't be doing that for the next fourty-eight hours.|db 1 politics ccl]]
+p1314
+sg21
+Vdb 1 politics 1 a 2
+p1315
+sg23
+g24
+((I2014
+I7
+I29
+I15
+I1
+I19
+I1
+I210
+I1
+tp1316
+(dp1317
+tp1318
+Rp1319
+sg29
+(lp1320
+Vmanager
+p1321
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1322
+(dp1323
+tp1324
+Rp1325
+sbsa(dp1326
+g12
+I01
+sg13
+(lp1327
+F4070.0
+aF1130.0
+asg15
+(itiddlywiki
+Tiddler
+p1328
+(dp1329
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">I'm glad to see we're on the same page. Should we move this de-briefing along and get on to the facts?</em>\u000a\u000a[[Yes, sir.|db 1 intel]]
+p1330
+sg21
+Vdb 1 politics ccl
+p1331
+sg23
+g24
+((I2014
+I7
+I29
+I15
+I25
+I16
+I1
+I210
+I1
+tp1332
+(dp1333
+tp1334
+Rp1335
+sg29
+(lp1336
+Vmanager
+p1337
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1338
+(dp1339
+tp1340
+Rp1341
+sbsa(dp1342
+g12
+I01
+sg13
+(lp1343
+F3510.0
+aF1410.0
+asg15
+(itiddlywiki
+Tiddler
+p1344
+(dp1345
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">Arrests like these have been made for the past eighty years, Inspector. Just because lawyers are now under the same treatment as the rest of the population do they get to say that a system which has benefited them greatly is now corrupt and soulless.</em>\u000a\u000a[[He is an immigrant. I'm sure he has already encoutered instances of police brutality.|db 1 family]]
+p1346
+sg21
+Vdb 1 arrest
+p1347
+sg23
+g24
+((I2014
+I7
+I29
+I15
+I41
+I5
+I1
+I210
+I1
+tp1348
+(dp1349
+tp1350
+Rp1351
+sg29
+(lp1352
+Vmanager
+p1353
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1354
+(dp1355
+tp1356
+Rp1357
+sbsa(dp1358
+g12
+I01
+sg13
+(lp1359
+F3510.0
+aF1550.0
+asg15
+(itiddlywiki
+Tiddler
+p1360
+(dp1361
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">What difference does it make, if he's an immigrant? In the eyes of the BEAR, he is just another citizen. He's not better than someone who happened to be born here.<br />\u000aIf police brutality was ever a phenomenon amongst immigrant populations, then I'd like to remind you that these are the result of irrational xenophobia and have been duely punished. Must I remind you that this whole experiment is dedicated to removing you from any bias that you might have regarding the suspect?</em>\u000a\u000a\u000a[[I'll do my best to make it so, Manager.|db 1 politics ccl]]
+p1362
+sg21
+Vdb 1 family
+p1363
+sg23
+g24
+((I2014
+I7
+I29
+I16
+I1
+I23
+I1
+I210
+I1
+tp1364
+(dp1365
+tp1366
+Rp1367
+sg29
+(lp1368
+Vmanager
+p1369
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1370
+(dp1371
+tp1372
+Rp1373
+sbsa(dp1374
+g12
+I01
+sg13
+(lp1375
+F3510.0
+aF1970.0
+asg15
+(itiddlywiki
+Tiddler
+p1376
+(dp1377
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">I'm glad to hear that. Your next task will then be to sift through plausible intelligence and meaningless facts given mainly to shorten the duration of physical encouragement sessions. At least, this provides us with positive results, which will be submitted to the Prison Center for Health and Nutrition.</em>\u000a\u000a[[And I'm glad to be of help, Manager.|db 1 politics ccl]]\u000a\u000a[[I gathered some interesting facts along the process.|db 1 intel]]
+p1378
+sg21
+Vdb 1 torture a
+p1379
+sg23
+g24
+((I2014
+I7
+I29
+I16
+I52
+I59
+I1
+I210
+I1
+tp1380
+(dp1381
+tp1382
+Rp1383
+sg29
+(lp1384
+Vmanager
+p1385
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1386
+(dp1387
+tp1388
+Rp1389
+sbsa(dp1390
+g12
+I01
+sg13
+(lp1391
+F3370.0
+aF2110.0
+asg15
+(itiddlywiki
+Tiddler
+p1392
+(dp1393
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">Don't worry, it takes time. We are just initiating the procedure, so it might take a couple of sessions for the pyschological effects to be as noticeable as their physiological counterparts.</em>\u000a\u000a[[Very well.|db 1 politics ccl]]\u000a\u000a[[I... don't think they're that efficient.|db 1 torture b 1]]
+p1394
+sg21
+Vdb 1 torture b
+p1395
+sg23
+g24
+((I2014
+I7
+I29
+I17
+I1
+I28
+I1
+I210
+I1
+tp1396
+(dp1397
+tp1398
+Rp1399
+sg29
+(lp1400
+Vmanager
+p1401
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1402
+(dp1403
+tp1404
+Rp1405
+sbsa(dp1406
+g12
+I01
+sg13
+(lp1407
+F3510.0
+aF2110.0
+asg15
+(itiddlywiki
+Tiddler
+p1408
+(dp1409
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">Sadly, you're not employed to think on these matters, Inspector. Especially with so little first-hand knowledge.</em>\u000a\u000a[[I will not continue to torture that person.|db 1 torture no]]
+p1410
+sg21
+Vdb 1 torture b 1
+p1411
+sg23
+g24
+((I2014
+I7
+I29
+I17
+I4
+I0
+I1
+I210
+I1
+tp1412
+(dp1413
+tp1414
+Rp1415
+sg29
+(lp1416
+Vmanager
+p1417
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1418
+(dp1419
+tp1420
+Rp1421
+sbsa(dp1422
+g12
+I01
+sg13
+(lp1423
+F3790.0
+aF2110.0
+asg15
+(itiddlywiki
+Tiddler
+p1424
+(dp1425
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">You will continue your job, and complete your assigned task as requested, or I'm afraid you will face prompt relocation.<br />\u000a<br />\u000aNow, let's talk about what you actually know.</em>\u000a\u000a<<timedgoto "db 1 intel" 5s>>
+p1426
+sg21
+Vdb 1 torture no
+p1427
+sg23
+g24
+((I2014
+I7
+I29
+I17
+I5
+I42
+I1
+I210
+I1
+tp1428
+(dp1429
+tp1430
+Rp1431
+sg29
+(lp1432
+Vmanager
+p1433
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1434
+(dp1435
+tp1436
+Rp1437
 sbsasS'scale'
-p1074
+p1438
 F0.6000000000000001
 sS'snapping'
-p1075
+p1439
 I01
 ss.
