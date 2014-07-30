@@ -5430,7 +5430,7 @@ Tiddler
 p1642
 (dp1643
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">I'll never forget the day it was ratified. October 10th, 2028.</em>\u000a\u000a[[The world got a little scarier that day.|3s return][$opinion++]]\u000a\u000a[[A great day for America.|3s return][$opinion--]]\u000a\u000a[[Let's talk politics.|politics 1]]
+VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">I'll never forget the day it was ratified. October 10th, 2028.</em>\u000a\u000a[[The world got a little scarier that day.|3s return][$opinion++]]\u000a\u000a[[A great day for America.|3s return][$opinion--]]\u000a\u000a<<if $politicsConvo neq 2>>[[Let's talk politics.|politics 1]]<<endif>>
 p1644
 sg23
 Vpersonal 1 a 1
@@ -5439,12 +5439,12 @@ sg25
 g26
 ((I2014
 I7
-I29
-I12
-I3
-I39
-I1
-I210
+I30
+I16
+I19
+I40
+I2
+I211
 I1
 tp1646
 (dp1647
@@ -5480,7 +5480,7 @@ Tiddler
 p1657
 (dp1658
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">Okay, well... probably has to do with my work.</em>\u000a\u000a[[You're with the Boston Center for Legal Activism. Legal Analyst.|job 1]]\u000a\u000a[[Sure. Little watchdogs, barking away.|3s return][$opinion--]]\u000a\u000a[[We need people like you, even now.|personal 1 a 3][$opinion++]]
+VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">Okay, well... probably has to do with my work.</em>\u000a\u000a<<nobr>>\u000a<<if $jobConvo neq 2>><<set $jobConvo to 1>>[[You're with the Boston Center for Legal Activism. Legal Analyst.|job 1][$jobConvo = 2]]<br><br><<endif>>\u000a\u000a[[Sure. Little watchdogs, barking away.|3s return][$opinion--]]<br><br>\u000a\u000a[[We need people like you, even now.|personal 1 a 3][$opinion++]]\u000a<<endnobr>>
 p1659
 sg23
 Vpersonal 1 a 2
@@ -5489,12 +5489,12 @@ sg25
 g26
 ((I2014
 I7
-I29
-I12
-I3
-I45
-I1
-I210
+I30
+I16
+I17
+I37
+I2
+I211
 I1
 tp1661
 (dp1662
@@ -5632,7 +5632,7 @@ Tiddler
 p1703
 (dp1704
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">That's right.</em>\u000a\u000a[[You're with the Boston Center for Legal Activism. Legal Analyst.|job 1]]\u000a\u000a[[City's really gone to hell.|personal 1 b 2]]\u000a\u000a[[Always hated that place.|personal 1 b 2][$opinion--]]
+VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">That's right.</em>\u000a\u000a<<nobr>>\u000a<<if $jobConvo neq 2>><<set $jobConvo to 1>>[[You're with the Boston Center for Legal Activism. Legal Analyst.|job 1][$jobConvo = 1]]<br><br><<endif>>\u000a\u000a[[City's really gone to hell.|personal 1 b 2]]<br><br>\u000a\u000a[[Always hated that place.|personal 1 b 2][$opinion--]]<<endnobr>>
 p1705
 sg23
 Vpersonal 1 b 1
@@ -5641,12 +5641,12 @@ sg25
 g26
 ((I2014
 I7
-I29
-I12
-I52
-I50
-I1
-I210
+I30
+I16
+I19
+I15
+I2
+I211
 I1
 tp1707
 (dp1708
@@ -6480,8 +6480,8 @@ g14
 I00
 sg15
 (lp1960
-F5470.0
-aF710.0
+F5330.0
+aF570.0
 asg17
 (itiddlywiki
 Tiddler
@@ -6688,8 +6688,8 @@ g14
 I00
 sg15
 (lp2024
-F5190.0
-aF570.0
+F5330.0
+aF710.0
 asg17
 (itiddlywiki
 Tiddler
@@ -7312,7 +7312,7 @@ g14
 I00
 sg15
 (lp2216
-F5330.0
+F5190.0
 aF570.0
 asg17
 (itiddlywiki
@@ -7728,8 +7728,8 @@ g14
 I00
 sg15
 (lp2344
-F6170.0
-aF570.0
+F5750.0
+aF710.0
 asg17
 (itiddlywiki
 Tiddler
@@ -7780,8 +7780,8 @@ g14
 I00
 sg15
 (lp2360
-F6030.0
-aF570.0
+F5610.0
+aF710.0
 asg17
 (itiddlywiki
 Tiddler
@@ -7832,8 +7832,8 @@ g14
 I00
 sg15
 (lp2376
-F5890.0
-aF570.0
+F5470.0
+aF710.0
 asg17
 (itiddlywiki
 Tiddler
@@ -7931,7 +7931,7 @@ tp2404
 Rp2405
 sbsasS'scale'
 p2406
-F0.6000000000000001
+F0.8
 sS'snapping'
 p2407
 I01
