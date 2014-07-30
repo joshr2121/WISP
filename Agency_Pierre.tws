@@ -240,7 +240,7 @@ Tiddler
 p83
 (dp84
 g19
-VBUREAU INTERROGATION INTERFACE VERSION 5.0.61a\u000a\u000aSYSTEM BOOTING UP...\u000a\u000a<<timedgoto "booting up" 3s>>\u000a<<nobr>>\u000a<<set $day to 1>>\u000a<<set $timeleft to 300>> /% in minutes, the time remaining each day, assuming that the inspector talks with his superior in the morning and starts the interrogation at 12:00 %/\u000a<<set $hadInterview to true>>\u000a<<set $hadBriefing to false>>\u000a<<set $askedRoom to false>>\u000a<<set $canClockOut to false>>\u000a<<set $beginningOfDay to true>>\u000a\u000a/% 0 = unavailable, 1 = available, 2 = explored %/\u000a<<set $politicsConvo to 1>>\u000a<<set $personalConvo to 1>>\u000a<<set $forcingConvo to 1>>\u000a<<set $familyConvo to 0>>\u000a<<set $pearlStreetConvo to 0>>\u000a<<set $jobConvo to 0>>\u000a<<set $newCollectiveConvo to 0>>\u000a<<set $leaderConvo to 0>>\u000a\u000a<<set $opinion to 1>>\u000a\u000a<<set $torture to 0>>\u000a<<set $tortureLimit to 3>>\u000a<<set $conscious to true>>\u000a<<set $sleepTotal to 0>>\u000a<<set $sleepTonight to 0>>\u000a<<set $infoFound to false>>\u000a\u000a<<set $submittedWho to 0>>\u000a<<set $submittedWhere to 0>>\u000a<<set $submittedWhen to 0>>\u000a<<set $submittedHow to 0>>\u000a<<endnobr>>
+VBUREAU INTERROGATION INTERFACE VERSION 5.0.61a\u000a\u000aSYSTEM BOOTING UP...\u000a\u000a<<timedgoto "booting up" 3s>>\u000a<<nobr>>\u000a<<set $day to 1>>\u000a<<set $timeleft to 300>> /% in minutes, the time remaining each day, assuming that the inspector talks with his superior in the morning and starts the interrogation at 12:00 %/\u000a<<set $hadInterview to true>>\u000a<<set $hadBriefing to false>>\u000a<<set $askedRoom to false>>\u000a<<set $canClockOut to false>>\u000a<<set $beginningOfDay to true>>\u000a\u000a/% these are the booleans so that we know which intel has been recovered. they are ranked by day/crucial %/\u000a<<set $hKnow_intel to false>>\u000a<<set $hThink_intel to false>>\u000a<<set $hOpinion_intel to false>>\u000a<<set $job_intel to false>>\u000a<<set $pearl_intel to false>>\u000a<<set $family_intel to false>>\u000a\u000a<<set $hThought_intel to false>>\u000a<<set $hPlan_intel to false>>\u000a<<set $hMO_intel to false>>\u000a<<set $politicalEd_intel to false>>\u000a<<set $govtHatred_intel to false>>\u000a<<set $govtIdeal_intel to false>>\u000a\u000a<<set $hHideout_intel to false>>\u000a<<set $hHQ_intel to false>>\u000a<<set $hSchedule_intel to false>>\u000a<<set $govtIndividuals_intel to false>>\u000a<<set $thePeople_intel to false>>\u000a<<set $time_intel to false>>\u000a\u000a/% 0 = unavailable, 1 = available, 2 = explored %/\u000a<<set $politicsConvo to 1>>\u000a<<set $personalConvo to 1>>\u000a<<set $forcingConvo to 1>>\u000a<<set $familyConvo to 0>>\u000a<<set $pearlStreetConvo to 0>>\u000a<<set $jobConvo to 0>>\u000a<<set $newCollectiveConvo to 0>>\u000a<<set $leaderConvo to 0>>\u000a\u000a<<set $opinion to 1>>\u000a\u000a<<set $torture to 0>>\u000a<<set $tortureLimit to 3>>\u000a<<set $conscious to true>>\u000a<<set $sleepTotal to 0>>\u000a<<set $sleepTonight to 0>>\u000a<<set $infoFound to false>>\u000a\u000a<<set $submittedWho to 0>>\u000a<<set $submittedWhere to 0>>\u000a<<set $submittedWhen to 0>>\u000a<<set $submittedHow to 0>>\u000a<<endnobr>>
 p85
 sg21
 VStart
@@ -249,12 +249,12 @@ sg23
 g24
 ((I2014
 I7
-I24
+I30
+I11
 I15
-I52
-I43
-I3
-I205
+I6
+I2
+I211
 I1
 tp87
 (dp88
@@ -3555,7 +3555,7 @@ tp1072
 Rp1073
 sbsa(dp1074
 g12
-I01
+I00
 sg13
 (lp1075
 F2810.0
@@ -3605,7 +3605,7 @@ tp1087
 Rp1088
 sbsa(dp1089
 g12
-I01
+I00
 sg13
 (lp1090
 F3090.0
@@ -3657,10 +3657,10 @@ tp1103
 Rp1104
 sbsa(dp1105
 g12
-I01
+I00
 sg13
 (lp1106
-F3090.0
+F2950.0
 aF1830.0
 asg15
 (itiddlywiki
@@ -3707,10 +3707,10 @@ tp1118
 Rp1119
 sbsa(dp1120
 g12
-I01
+I00
 sg13
 (lp1121
-F3090.0
+F2950.0
 aF1970.0
 asg15
 (itiddlywiki
@@ -3757,10 +3757,10 @@ tp1133
 Rp1134
 sbsa(dp1135
 g12
-I01
+I00
 sg13
 (lp1136
-F3090.0
+F2950.0
 aF2110.0
 asg15
 (itiddlywiki
@@ -3807,11 +3807,11 @@ tp1148
 Rp1149
 sbsa(dp1150
 g12
-I01
+I00
 sg13
 (lp1151
 F3230.0
-aF1270.0
+aF1130.0
 asg15
 (itiddlywiki
 Tiddler
@@ -3859,11 +3859,11 @@ tp1164
 Rp1165
 sbsa(dp1166
 g12
-I01
+I00
 sg13
 (lp1167
 F3230.0
-aF1550.0
+aF1410.0
 asg15
 (itiddlywiki
 Tiddler
@@ -3911,32 +3911,32 @@ tp1180
 Rp1181
 sbsa(dp1182
 g12
-I01
+I00
 sg13
 (lp1183
 F3370.0
-aF1830.0
+aF1690.0
 asg15
 (itiddlywiki
 Tiddler
 p1184
 (dp1185
 g19
-VAGENT M506\u000a- - - -\u000a<em class="manager">Let me know what you have found out.</em>\u000a\u000a\u000a/% bunch of neverending if statements, which also imply that we need a coherent list of things you find out about that dude/from that dude %/
+VAGENT M506\u000a- - - -\u000a<em class="manager">Let me know what you have found out.</em>\u000a<<nobr>>\u000a<<if $hKnow_intel is true>>\u000a[[Turns out that he actually met James Hewes, a long time ago.|db 1 intel hKnow]]\u000a<<endif>>\u000a<<endnobr>>\u000a<<nobr>>\u000a<<if $hThink_intel is true>>\u000a[[He doesn't seem to respect the man that much.|db 1 intel hThink]]\u000a<<endif>>\u000a<<endnobr>>\u000a<<nobr>>\u000a<<if $hOpinion_intel is true>>\u000a[[He says Hewes likes him.|db 1 intel hOpinion]]\u000a<<endif>>\u000a<<endnobr>>\u000a
 p1186
 sg21
-Vdb 1 intel
+Vdb 1 intel crucial
 p1187
 sg23
 g24
 ((I2014
 I7
-I29
-I17
-I8
-I56
-I1
-I210
+I30
+I11
+I42
+I32
+I2
+I211
 I1
 tp1188
 (dp1189
@@ -3963,32 +3963,32 @@ tp1196
 Rp1197
 sbsa(dp1198
 g12
-I01
+I00
 sg13
 (lp1199
-F4070.0
-aF1550.0
+F4630.0
+aF1830.0
 asg15
 (itiddlywiki
 Tiddler
 p1200
 (dp1201
 g19
-VAGENT M506\u000a- - - -\u000a<em class="manager">Welcome back, Inspector.</em>
+VAGENT M506\u000a- - - -\u000a<em class="manager">Very well, then. That's enough for today. I am sure you'll do better tomorrow.</em>\u000a\u000a<<timedgoto "night" 3s>>
 p1202
 sg21
-Vdb 1 hub 2 1
+Vdb 1 end
 p1203
 sg23
 g24
 ((I2014
 I7
-I29
-I11
-I35
-I40
-I1
-I210
+I30
+I14
+I27
+I21
+I2
+I211
 I1
 tp1204
 (dp1205
@@ -4015,11 +4015,11 @@ tp1212
 Rp1213
 sbsa(dp1214
 g12
-I01
+I00
 sg13
 (lp1215
 F3230.0
-aF1970.0
+aF2530.0
 asg15
 (itiddlywiki
 Tiddler
@@ -4067,7 +4067,7 @@ tp1228
 Rp1229
 sbsa(dp1230
 g12
-I01
+I00
 sg13
 (lp1231
 F3370.0
@@ -4119,32 +4119,32 @@ tp1244
 Rp1245
 sbsa(dp1246
 g12
-I01
+I00
 sg13
 (lp1247
-F4070.0
-aF1690.0
+F3370.0
+aF1970.0
 asg15
 (itiddlywiki
 Tiddler
 p1248
 (dp1249
 g19
-VAGENT M506\u000a- - - -\u000a<em class="manager">Welcome back, Inspector.</em>
+VAGENT M506\u000a- - - -\u000a<em class="manager">I'm not sure that would be directly relevant to our mission, Inspector -yet I'm willing to hear you out.</em>\u000a\u000a<<nobr>>\u000a<<if $job_intel is true>>\u000a[[I found out a bit more about his job as a Legal Analyst for the Boston Legal Center.|db 1 intel job]]\u000a<<endif>>\u000a<<endnobr>>\u000a<<nobr>>\u000a<<if $pearl_intel is true>>\u000a[[He was part of the Pearl Street riots.|db 1 intel pearl]]\u000a<<endif>>\u000a<<endnobr>>\u000a<<nobr>>\u000a<<if $family_intel is true>>\u000a[[Did you know|db 1 intel family]]\u000a<<endif>>\u000a<<endnobr>>
 p1250
 sg21
-Vdb 1 hub 1 3
+Vdb 1 intel non crucial
 p1251
 sg23
 g24
 ((I2014
 I7
-I29
+I30
 I11
-I35
-I40
-I1
-I210
+I43
+I22
+I2
+I211
 I1
 tp1252
 (dp1253
@@ -4171,11 +4171,11 @@ tp1260
 Rp1261
 sbsa(dp1262
 g12
-I01
+I00
 sg13
 (lp1263
 F3510.0
-aF990.0
+aF1130.0
 asg15
 (itiddlywiki
 Tiddler
@@ -4223,7 +4223,7 @@ tp1276
 Rp1277
 sbsa(dp1278
 g12
-I01
+I00
 sg13
 (lp1279
 F3510.0
@@ -4275,10 +4275,10 @@ tp1292
 Rp1293
 sbsa(dp1294
 g12
-I01
+I00
 sg13
 (lp1295
-F3790.0
+F3650.0
 aF990.0
 asg15
 (itiddlywiki
@@ -4327,10 +4327,10 @@ tp1308
 Rp1309
 sbsa(dp1310
 g12
-I01
+I00
 sg13
 (lp1311
-F3790.0
+F3650.0
 aF1130.0
 asg15
 (itiddlywiki
@@ -4379,11 +4379,11 @@ tp1324
 Rp1325
 sbsa(dp1326
 g12
-I01
+I00
 sg13
 (lp1327
-F4070.0
-aF1130.0
+F4490.0
+aF1830.0
 asg15
 (itiddlywiki
 Tiddler
@@ -4431,11 +4431,11 @@ tp1340
 Rp1341
 sbsa(dp1342
 g12
-I01
+I00
 sg13
 (lp1343
-F3510.0
-aF1410.0
+F3370.0
+aF1270.0
 asg15
 (itiddlywiki
 Tiddler
@@ -4483,11 +4483,11 @@ tp1356
 Rp1357
 sbsa(dp1358
 g12
-I01
+I00
 sg13
 (lp1359
-F3510.0
-aF1550.0
+F3370.0
+aF1410.0
 asg15
 (itiddlywiki
 Tiddler
@@ -4535,11 +4535,11 @@ tp1372
 Rp1373
 sbsa(dp1374
 g12
-I01
+I00
 sg13
 (lp1375
-F3510.0
-aF1970.0
+F3370.0
+aF2390.0
 asg15
 (itiddlywiki
 Tiddler
@@ -4587,11 +4587,11 @@ tp1388
 Rp1389
 sbsa(dp1390
 g12
-I01
+I00
 sg13
 (lp1391
 F3370.0
-aF2110.0
+aF2530.0
 asg15
 (itiddlywiki
 Tiddler
@@ -4639,11 +4639,11 @@ tp1404
 Rp1405
 sbsa(dp1406
 g12
-I01
+I00
 sg13
 (lp1407
 F3510.0
-aF2110.0
+aF2530.0
 asg15
 (itiddlywiki
 Tiddler
@@ -4691,11 +4691,11 @@ tp1420
 Rp1421
 sbsa(dp1422
 g12
-I01
+I00
 sg13
 (lp1423
-F3790.0
-aF2110.0
+F3650.0
+aF2530.0
 asg15
 (itiddlywiki
 Tiddler
@@ -4741,10 +4741,632 @@ tp1434
 (dp1435
 tp1436
 Rp1437
+sbsa(dp1438
+g12
+I00
+sg13
+(lp1439
+F1410.0
+aF1550.0
+asg15
+(itiddlywiki
+Tiddler
+p1440
+(dp1441
+g19
+VZzZzZzZzZzZzZzZzZzZ\u000a\u000a\u000a<<timedgoto "end of day" 5s>>
+p1442
+sg21
+Vnight
+p1443
+sg23
+g24
+((I2014
+I7
+I30
+I14
+I29
+I0
+I2
+I211
+I1
+tp1444
+(dp1445
+tp1446
+Rp1447
+sg29
+(lp1448
+sg31
+g24
+((I2014
+I7
+I30
+I11
+I42
+I39
+I2
+I211
+I1
+tp1449
+(dp1450
+tp1451
+Rp1452
+sbsa(dp1453
+g12
+I00
+sg13
+(lp1454
+F3230.0
+aF1830.0
+asg15
+(itiddlywiki
+Tiddler
+p1455
+(dp1456
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">I'm listening.</em>\u000a\u000a<<nobr>>\u000a<<if $hHow_intel is true or $hThink_intel is true or $hOpinion_intel is true>>\u000a[[I've got some intelligence which might lead us on the right track.|db 1 intel crucial]]\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a<<nobr>>\u000a<<if $job_intel is true or $pearl_intel is true or $family_intel is true>>\u000a[[I've learned quite a bit about him.|db 1 intel non crucial]]\u000a<<endif>>\u000a<<endnobr>>
+p1457
+sg21
+Vdb 1 intel
+p1458
+sg23
+g24
+((I2014
+I7
+I30
+I11
+I55
+I36
+I2
+I211
+I1
+tp1459
+(dp1460
+tp1461
+Rp1462
+sg29
+(lp1463
+Vmanager
+p1464
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1465
+(dp1466
+tp1467
+Rp1468
+sbsa(dp1469
+g12
+I00
+sg13
+(lp1470
+F3930.0
+aF1550.0
+asg15
+(itiddlywiki
+Tiddler
+p1471
+(dp1472
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">Excuse-me?.</em>\u000a\u000a[[Nothing, I've nothing to add.|db 1 end]]\u000a\u000a[[You heard me.|db 1 no]]
+p1473
+sg21
+Vdb 1 what
+p1474
+sg23
+g24
+((I2014
+I7
+I30
+I14
+I24
+I17
+I2
+I211
+I1
+tp1475
+(dp1476
+tp1477
+Rp1478
+sg29
+(lp1479
+Vmanager
+p1480
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1481
+(dp1482
+tp1483
+Rp1484
+sbsa(dp1485
+g12
+I00
+sg13
+(lp1486
+F4070.0
+aF1410.0
+asg15
+(itiddlywiki
+Tiddler
+p1487
+(dp1488
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">Welcome back, Inspector.</em>
+p1489
+sg21
+Vdb 1 hub 2 1 2
+p1490
+sg23
+g24
+((I2014
+I7
+I29
+I11
+I35
+I40
+I1
+I210
+I1
+tp1491
+(dp1492
+tp1493
+Rp1494
+sg29
+(lp1495
+Vmanager
+p1496
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1497
+(dp1498
+tp1499
+Rp1500
+sbsa(dp1501
+g12
+I00
+sg13
+(lp1502
+F3930.0
+aF1410.0
+asg15
+(itiddlywiki
+Tiddler
+p1503
+(dp1504
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">Welcome back, Inspector.</em>
+p1505
+sg21
+Vdb 1 hub 2 1 1 1
+p1506
+sg23
+g24
+((I2014
+I7
+I29
+I11
+I35
+I40
+I1
+I210
+I1
+tp1507
+(dp1508
+tp1509
+Rp1510
+sg29
+(lp1511
+Vmanager
+p1512
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1513
+(dp1514
+tp1515
+Rp1516
+sbsa(dp1517
+g12
+I00
+sg13
+(lp1518
+F3510.0
+aF1550.0
+asg15
+(itiddlywiki
+Tiddler
+p1519
+(dp1520
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">So they met during Hewes' 2034 trial? I can barely remember a world where those so-called political activists would not escape a democratic and fair court. If he was his lawyer -was legal counsellor still a legitimate status, at the time ?-, then he probably knew more about what Hewes was up to at the time. And what he's up to now.</em>\u000a\u000a[[I'll make sure to look into that tomorrow.|db 1 end]]\u000a\u000a[[There's something else I've found out.|db 1 intel]]
+p1521
+sg21
+Vdb 1 intel hKnow
+p1522
+sg23
+g24
+((I2014
+I7
+I30
+I13
+I19
+I29
+I2
+I211
+I1
+tp1523
+(dp1524
+tp1525
+Rp1526
+sg29
+(lp1527
+Vmanager
+p1528
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1529
+(dp1530
+tp1531
+Rp1532
+sbsa(dp1533
+g12
+I00
+sg13
+(lp1534
+F3510.0
+aF1830.0
+asg15
+(itiddlywiki
+Tiddler
+p1535
+(dp1536
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">I must admit, Inspector, I didn't think we had anticipated to interrogate someone who has the devout admiration of James Hewes. The man is known to be so full of himself, he is his cause's worst enemy. Have you figured out what is it that he admires so much?<br />\u000aDo so, and we will know a lot more about Hewes' mindset.<br /><br />\u000aAnything else you wanted to tell me?</em>\u000a\u000a[[That's all.|db 1 end]]\u000a\u000a[[There's something else I've found out.|db 1 intel]]
+p1537
+sg21
+Vdb 1 intel hOpinion
+p1538
+sg23
+g24
+((I2014
+I7
+I30
+I13
+I33
+I20
+I2
+I211
+I1
+tp1539
+(dp1540
+tp1541
+Rp1542
+sg29
+(lp1543
+Vmanager
+p1544
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1545
+(dp1546
+tp1547
+Rp1548
+sbsa(dp1549
+g12
+I00
+sg13
+(lp1550
+F3510.0
+aF1690.0
+asg15
+(itiddlywiki
+Tiddler
+p1551
+(dp1552
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">Interesting. I wouldn't have expected our detainee to know so much about Hewes and yet hold him in the lowest esteem. And yet, that doesn't mean they aren't collaborating to fight against us.<br />\u000aMore and more, it seems like the government, our government, is becoming the easiest target for them to aim at -no one asks the question of whether there could be another source to whatever their problem is.<br />\u000aAnyway, be on the lookout for any more information regarding their relation. You might trigger something that will make him give us Hewes.</em>\u000a\u000a[[I'll make sure to look into that tomorrow.|db 1 end]]\u000a\u000a[[There's something else I've found out.|db 1 intel]]
+p1553
+sg21
+Vdb 1 intel hThink
+p1554
+sg23
+g24
+((I2014
+I7
+I30
+I13
+I25
+I37
+I2
+I211
+I1
+tp1555
+(dp1556
+tp1557
+Rp1558
+sg29
+(lp1559
+Vmanager
+p1560
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1561
+(dp1562
+tp1563
+Rp1564
+sbsa(dp1565
+g12
+I00
+sg13
+(lp1566
+F4210.0
+aF1410.0
+asg15
+(itiddlywiki
+Tiddler
+p1567
+(dp1568
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">I'm afraid not, Inspector.<br /><br /> Good night.</em>\u000a\u000a<<timedgoto "night" 3s>>
+p1569
+sg21
+Vdb 1 no
+p1570
+sg23
+g24
+((I2014
+I7
+I30
+I14
+I27
+I15
+I2
+I211
+I1
+tp1571
+(dp1572
+tp1573
+Rp1574
+sg29
+(lp1575
+Vmanager
+p1576
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1577
+(dp1578
+tp1579
+Rp1580
+sbsa(dp1581
+g12
+I00
+sg13
+(lp1582
+F3510.0
+aF2250.0
+asg15
+(itiddlywiki
+Tiddler
+p1583
+(dp1584
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">I understand his family comes from Russia. You would think they would stop political activism after what happened to his country. Anything else you wanted to tell me?</em>\u000a\u000a[[That's all.|db 1 end]]\u000a\u000a[[There's something else I've found out.|db 1 intel]]
+p1585
+sg21
+Vdb 1 intel family
+p1586
+sg23
+g24
+((I2014
+I7
+I30
+I13
+I21
+I54
+I2
+I211
+I1
+tp1587
+(dp1588
+tp1589
+Rp1590
+sg29
+(lp1591
+Vmanager
+p1592
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1593
+(dp1594
+tp1595
+Rp1596
+sbsa(dp1597
+g12
+I00
+sg13
+(lp1598
+F3510.0
+aF2110.0
+asg15
+(itiddlywiki
+Tiddler
+p1599
+(dp1600
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">Ah, the Pearl Street riots. I wish I could say I haven't heard that name in a long time, but every single suspect in that facility seems to have been part of that anarchist get-together. For all ages, from 7 to 77 years old! You don't need ideas, just yell and throw rocks at policeman. As if we didn't work for more than two millenia so that we, as a species, as a civilization, could go past this.</em>\u000a\u000a[[Maybe there's a problem with that civilization, then?.|db 1 what]]\u000a\u000a[[There's something else I've found out.|db 1 intel]]
+p1601
+sg21
+Vdb 1 intel pearl
+p1602
+sg23
+g24
+((I2014
+I7
+I30
+I14
+I21
+I47
+I2
+I211
+I1
+tp1603
+(dp1604
+tp1605
+Rp1606
+sg29
+(lp1607
+Vmanager
+p1608
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1609
+(dp1610
+tp1611
+Rp1612
+sbsa(dp1613
+g12
+I00
+sg13
+(lp1614
+F3510.0
+aF1970.0
+asg15
+(itiddlywiki
+Tiddler
+p1615
+(dp1616
+g19
+VAGENT M506\u000a- - - -\u000a<em class="manager">Yes, yes, we knew he was a Legal Analyst, what did you think? That we were a bunch of school boys spying on each other?.</em>\u000a\u000a[[That thought never crossed my mind, sir.|db 1 end]]\u000a\u000a[[You're right. Apologies. I have other information, though.|db 1 intel]]
+p1617
+sg21
+Vdb 1 intel job
+p1618
+sg23
+g24
+((I2014
+I7
+I30
+I13
+I36
+I40
+I2
+I211
+I1
+tp1619
+(dp1620
+tp1621
+Rp1622
+sg29
+(lp1623
+Vmanager
+p1624
+asg31
+g24
+((I2014
+I7
+I29
+I11
+I22
+I54
+I1
+I210
+I1
+tp1625
+(dp1626
+tp1627
+Rp1628
 sbsasS'scale'
-p1438
+p1629
 F0.6000000000000001
 sS'snapping'
-p1439
+p1630
 I01
 ss.
