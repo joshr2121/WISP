@@ -229,7 +229,7 @@ tp79
 Rp80
 sbsa(dp81
 g12
-I01
+I00
 sg13
 (lp82
 F10.0
@@ -1809,7 +1809,7 @@ g12
 I00
 sg13
 (lp554
-F1690.0
+F1550.0
 aF1550.0
 asg15
 (itiddlywiki
@@ -7926,10 +7926,1196 @@ tp2400
 (dp2401
 tp2402
 Rp2403
+sbsa(dp2404
+g12
+I00
+sg13
+(lp2405
+F1830.0
+aF1690.0
+asg15
+(itiddlywiki
+Tiddler
+p2406
+(dp2407
+g19
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $torture <= 0>>\u000a<em class = "suspect">I find it quite ironic that you would ask me that. Talking is all that you seem to be doing, Inspector.</em>\u000a<<else if>>\u000a<em class="suspect">You'd rather have people like me use the same methods as the people like you?</em>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[I don't have any hopes of changing the world we live in. You do, and you what do you accomplish?|action 1 job]]\u000a\u000a[[One can't be against a system and not <i>do</i> anything about it|action 1 system]]\u000a\u000a[[I can also take action. (Apply physical encouragement)|action 1 torture 1]]\u000a\u000a
+p2408
+sg21
+Vaction 1
+p2409
+sg23
+g24
+((I2014
+I7
+I31
+I12
+I4
+I3
+I3
+I212
+I1
+tp2410
+(dp2411
+tp2412
+Rp2413
+sg29
+(lp2414
+VactionConvo
+p2415
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2416
+(dp2417
+tp2418
+Rp2419
+sbsa(dp2420
+g12
+I00
+sg13
+(lp2421
+F1830.0
+aF1970.0
+asg15
+(itiddlywiki
+Tiddler
+p2422
+(dp2423
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect"> </em>
+p2424
+sg21
+Vcarson 1
+p2425
+sg23
+g24
+((I2014
+I7
+I31
+I11
+I19
+I1
+I3
+I212
+I1
+tp2426
+(dp2427
+tp2428
+Rp2429
+sg29
+(lp2430
+VcarsonConvo
+p2431
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2432
+(dp2433
+tp2434
+Rp2435
+sbsa(dp2436
+g12
+I00
+sg13
+(lp2437
+F1830.0
+aF2110.0
+asg15
+(itiddlywiki
+Tiddler
+p2438
+(dp2439
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect"> </em>
+p2440
+sg21
+Veducation 1
+p2441
+sg23
+g24
+((I2014
+I7
+I31
+I11
+I52
+I16
+I3
+I212
+I1
+tp2442
+(dp2443
+tp2444
+Rp2445
+sg29
+(lp2446
+VeducationConvo
+p2447
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2448
+(dp2449
+tp2450
+Rp2451
+sbsa(dp2452
+g12
+I00
+sg13
+(lp2453
+F1830.0
+aF2250.0
+asg15
+(itiddlywiki
+Tiddler
+p2454
+(dp2455
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect"> </em>
+p2456
+sg21
+VhewesAction 1
+p2457
+sg23
+g24
+((I2014
+I7
+I31
+I11
+I19
+I39
+I3
+I212
+I1
+tp2458
+(dp2459
+tp2460
+Rp2461
+sg29
+(lp2462
+VhewesActionConvo
+p2463
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2464
+(dp2465
+tp2466
+Rp2467
+sbsa(dp2468
+g12
+I00
+sg13
+(lp2469
+F1830.0
+aF2390.0
+asg15
+(itiddlywiki
+Tiddler
+p2470
+(dp2471
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect"> </em>
+p2472
+sg21
+VhewesThoughts 1
+p2473
+sg23
+g24
+((I2014
+I7
+I31
+I11
+I24
+I14
+I3
+I212
+I1
+tp2474
+(dp2475
+tp2476
+Rp2477
+sg29
+(lp2478
+VhewesThoughtsConvo
+p2479
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2480
+(dp2481
+tp2482
+Rp2483
+sbsa(dp2484
+g12
+I00
+sg13
+(lp2485
+F1830.0
+aF2530.0
+asg15
+(itiddlywiki
+Tiddler
+p2486
+(dp2487
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect"> </em>
+p2488
+sg21
+VnewCollectiveOrigin 1
+p2489
+sg23
+g24
+((I2014
+I7
+I31
+I11
+I28
+I31
+I3
+I212
+I1
+tp2490
+(dp2491
+tp2492
+Rp2493
+sg29
+(lp2494
+VnewCollectiveOriginsConvo
+p2495
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2496
+(dp2497
+tp2498
+Rp2499
+sbsa(dp2500
+g12
+I00
+sg13
+(lp2501
+F1970.0
+aF1410.0
+asg15
+(itiddlywiki
+Tiddler
+p2502
+(dp2503
+g19
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">That is a sad statement, Inspector. You know what they say about the sword and the pen. I've accomplished more than you to make this the world I want to live in.</em>\u000a\u000a\u000a[[I already live in the world I want. I made it happen.|action 1 job past]]\u000a\u000a[[Let's say you're right. Let's say this is not the world I want. It's still the world that the majority want. And, despite what you might assume, I still stand for democracy.|action 1 job democracy][$opinion++]]\u000a
+p2504
+sg21
+Vaction 1 job
+p2505
+sg23
+g24
+((I2014
+I7
+I31
+I15
+I36
+I11
+I3
+I212
+I1
+tp2506
+(dp2507
+tp2508
+Rp2509
+sg29
+(lp2510
+sg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2511
+(dp2512
+tp2513
+Rp2514
+sbsa(dp2515
+g12
+I00
+sg13
+(lp2516
+F1970.0
+aF1830.0
+asg15
+(itiddlywiki
+Tiddler
+p2517
+(dp2518
+g19
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $torture < $tortureLimit>>\u000a<<timedinsert 4s>>[[Right here, right now, I have all the power. All you have is your ability to cling onto hope. And it starts with telling me more about Hewes.|action 1 hewes 1][$opinion--]]<br>\u000a<br>\u000a[[I don't need your wits, I need the truth. What else can you tell me about Hewes?|action 1 hewes 1]]<<endtimedinsert>>\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedgoto "fainted" 2.5s>>\u000a<<endif>>\u000a<<endnobr>>
+p2519
+sg21
+Vaction 1 torture 1
+p2520
+sg23
+g24
+((I2014
+I7
+I31
+I11
+I56
+I57
+I3
+I212
+I1
+tp2521
+(dp2522
+tp2523
+Rp2524
+sg29
+(lp2525
+Vtorture
+p2526
+asg31
+g24
+((I2014
+I7
+I25
+I14
+I46
+I15
+I4
+I206
+I1
+tp2527
+(dp2528
+tp2529
+Rp2530
+sbsa(dp2531
+g12
+I00
+sg13
+(lp2532
+F1970.0
+aF1690.0
+asg15
+(itiddlywiki
+Tiddler
+p2533
+(dp2534
+g19
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect"></em>\u000a\u000a\u000a[[|]]\u000a
+p2535
+sg21
+Vaction 1 system
+p2536
+sg23
+g24
+((I2014
+I7
+I31
+I12
+I4
+I47
+I3
+I212
+I1
+tp2537
+(dp2538
+tp2539
+Rp2540
+sg29
+(lp2541
+VactionConvo
+p2542
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2543
+(dp2544
+tp2545
+Rp2546
+sbsa(dp2547
+g12
+I00
+sg13
+(lp2548
+F2110.0
+aF1830.0
+asg15
+(itiddlywiki
+Tiddler
+p2549
+(dp2550
+g19
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">I've already told you how we met. I admit that I wasn't keen on publicizing it too much, but it was no secret that I defended the New Collective on several occasions.</em>\u000a\u000a\u000a[[I want to know why you defended him.|action 1 hewes 1 defense]]\u000a\u000a[[What cases were you defending? The Central River bombings? Or something less gruesome?|action 1 hewes 1 attacks]]
+p2551
+sg21
+Vaction 1 hewes 1
+p2552
+sg23
+g24
+((I2014
+I7
+I31
+I13
+I59
+I35
+I3
+I212
+I1
+tp2553
+(dp2554
+tp2555
+Rp2556
+sg29
+(lp2557
+VactionConvo
+p2558
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2559
+(dp2560
+tp2561
+Rp2562
+sbsa(dp2563
+g12
+I00
+sg13
+(lp2564
+F2250.0
+aF1830.0
+asg15
+(itiddlywiki
+Tiddler
+p2565
+(dp2566
+g19
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $opinion >= 2>>\u000a<em class = "suspect">I always said that it was for the sake of equality but, I'll confess, I was a bit biased. I grew up reading and hearing from the great republican struggles of underdogs who had fought a wrongful governement. Bakunin, Boulanger, Rosa Parks, the Luddites, ...\u000aI wanted to be one of them. I wanted more than share their glory; I wanted to exist, with them, forever on the pages of history books and inspire the generations to come.</em>\u000a<<elseif>>\u000a<em class = "suspect">Because I was fascinated by their efficiency. Because I wanted to see how far they would go, how big they would get. There's a fascinating aura around those carried by ideals.</em>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[Being idealists doesn't excuse what they did, nor what they plan to do. In some sense, it makes it worse.|action 1 hewes 1 attacks]]\u000a\u000a[[How do you explain the lives they took?|action 1 hewes 1 victims]]\u000a
+p2567
+sg21
+Vaction 1 hewes 1 defense
+p2568
+sg23
+g24
+((I2014
+I7
+I31
+I13
+I59
+I22
+I3
+I212
+I1
+tp2569
+(dp2570
+tp2571
+Rp2572
+sg29
+(lp2573
+VactionConvo
+p2574
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2575
+(dp2576
+tp2577
+Rp2578
+sbsa(dp2579
+g12
+I00
+sg13
+(lp2580
+F2390.0
+aF1830.0
+asg15
+(itiddlywiki
+Tiddler
+p2581
+(dp2582
+g19
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">It's not a secret -not to the government, at least- that what they did was extreme. I will not deny that some of the 36 human beings were individuals. But, ask yourself, does one really have the luxury to be moral, when you need to be efficient?</em>\u000a\u000a\u000a[[Let's get back to the matters at hand. What do you know about what they can do?|action 1 hewes plan]]\u000a
+p2583
+sg21
+Vaction 1 hewes 1 victims
+p2584
+sg23
+g24
+((I2014
+I7
+I31
+I14
+I26
+I9
+I3
+I212
+I1
+tp2585
+(dp2586
+tp2587
+Rp2588
+sg29
+(lp2589
+VactionConvo
+p2590
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2591
+(dp2592
+tp2593
+Rp2594
+sbsa(dp2595
+g12
+I00
+sg13
+(lp2596
+F2530.0
+aF1830.0
+asg15
+(itiddlywiki
+Tiddler
+p2597
+(dp2598
+g19
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">The attacks happened, neither you nor I can't do anything about it. The thing that this government doesn't know is that they could have been a lot worse. The national media has portrayed them as pure horror, rivaling Pearl Street. And yet, the New Collective has exerced restrain, so far. They have the possibility to hurt people and, unlike this administration, they don't use it.</em>\u000a\u000a\u000a[[What is the point of directing those attacks at civilians?|action 1 hewes 1 victims]]\u000a\u000a[[What can they do?|action 1 hewes plan]]\u000a
+p2599
+sg21
+Vaction 1 hewes 1 attacks
+p2600
+sg23
+g24
+((I2014
+I7
+I31
+I14
+I13
+I26
+I3
+I212
+I1
+tp2601
+(dp2602
+tp2603
+Rp2604
+sg29
+(lp2605
+VactionConvo
+p2606
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2607
+(dp2608
+tp2609
+Rp2610
+sbsa(dp2611
+g12
+I00
+sg13
+(lp2612
+F2670.0
+aF1830.0
+asg15
+(itiddlywiki
+Tiddler
+p2613
+(dp2614
+g19
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $opinion >= 3>>\u000a<em class = "suspect">You know I'm not on their side. I'm not on yours either.<<timedinsert 2s>>I will be honest with you, Inspector.<<endtimedinsert>><<timedinsert 4s>>\u000aSome of them, amongst the NC, might want to take things to another level. They since that the government considers them as enemies, not as civilians, and so they want war.</em><<endtimedinsert>>\u000a\u000a[[What does war mean?|action 1 hewes war]]\u000a<<elseif $torture >= 2>>\u000a<em class = "suspect">I don't know the specifics.</em>\u000a\u000a[[(Apply physical encouragement)|action 1 hewes torture]]\u000a<<else>>\u000a<em class = "suspect">They can do more than they've done before. They can do it faster and more efficiently than before but, then again, I don't know if they <i>will</i> do it.</em>\u000a\u000a[[What would it take for you to tell me?|action 1 hewes plan negotiation][$opinion++]]\u000a<<endif>>\u000a<<endnobr>>\u000a
+p2615
+sg21
+Vaction 1 hewes plan
+p2616
+sg23
+g24
+((I2014
+I7
+I31
+I14
+I57
+I34
+I3
+I212
+I1
+tp2617
+(dp2618
+tp2619
+Rp2620
+sg29
+(lp2621
+VactionConvo
+p2622
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2623
+(dp2624
+tp2625
+Rp2626
+sbsa(dp2627
+g12
+I00
+sg13
+(lp2628
+F2810.0
+aF1830.0
+asg15
+(itiddlywiki
+Tiddler
+p2629
+(dp2630
+g19
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $torture < $tortureLimit>>\u000a<<timedinsert 4s>>[[It stops when you start talking|action 1 hewes war false][$opinion--]]<<endtimedinsert>>\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedgoto "fainted" 2.5s>>\u000a<<endif>>\u000a<<endnobr>>
+p2631
+sg21
+Vaction 1 hewes torture
+p2632
+sg23
+g24
+((I2014
+I7
+I31
+I14
+I28
+I0
+I3
+I212
+I1
+tp2633
+(dp2634
+tp2635
+Rp2636
+sg29
+(lp2637
+Vtorture
+p2638
+asg31
+g24
+((I2014
+I7
+I25
+I14
+I46
+I15
+I4
+I206
+I1
+tp2639
+(dp2640
+tp2641
+Rp2642
+sbsa(dp2643
+g12
+I00
+sg13
+(lp2644
+F2950.0
+aF1830.0
+asg15
+(itiddlywiki
+Tiddler
+p2645
+(dp2646
+g19
+VSUSPECT 1247\u000a- - - -\u000a<<set $hPlanFalse_intel to true>>\u000a\u000a<em class = "suspect">They... They want to target more people, they want to target their lives and their ideals. They want to bring down... They want to disrupt what keeps these people happy and distracted. Television. Radios. Sports.</em>\u000a\u000a[[You made the right decision.|conversation hub]]\u000a\u000a\u000a
+p2647
+sg21
+Vaction 1 hewes war false
+p2648
+sg23
+g24
+((I2014
+I7
+I31
+I14
+I51
+I54
+I3
+I212
+I1
+tp2649
+(dp2650
+tp2651
+Rp2652
+sg29
+(lp2653
+VFALSE
+p2654
+aVINTEL
+p2655
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2656
+(dp2657
+tp2658
+Rp2659
+sbsa(dp2660
+g12
+I00
+sg13
+(lp2661
+F2810.0
+aF1690.0
+asg15
+(itiddlywiki
+Tiddler
+p2662
+(dp2663
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Some of the the New Collective wants war. And that means that, when their protests are shut down and their members and followers emprisoned, they do what you do to a more powerful foe. You apply basic guerilla techniques.</em>\u000a\u000a[[I'd like you to develop that thought.|conversation hub]]\u000a\u000a<<set $hewesPlanConvo to 1>>\u000a\u000a\u000a
+p2664
+sg21
+Vaction 1 hewes war
+p2665
+sg23
+g24
+((I2014
+I7
+I31
+I14
+I54
+I6
+I3
+I212
+I1
+tp2666
+(dp2667
+tp2668
+Rp2669
+sg29
+(lp2670
+VactionConvo
+p2671
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2672
+(dp2673
+tp2674
+Rp2675
+sbsa(dp2676
+g12
+I00
+sg13
+(lp2677
+F2670.0
+aF1690.0
+asg15
+(itiddlywiki
+Tiddler
+p2678
+(dp2679
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I know you won't be able to release me before 48 hours, but once I'm out. I want a six months immunity. I'm not asking for anything unreal. I just want to make sure I can live six months of my life without fear.</em>\u000a\u000a[[That sounds possible.|action 1 hewes war][$promise is true]]\u000a\u000a\u000a
+p2680
+sg21
+Vaction 1 hewes plan negotiation
+p2681
+sg23
+g24
+((I2014
+I7
+I31
+I14
+I57
+I28
+I3
+I212
+I1
+tp2682
+(dp2683
+tp2684
+Rp2685
+sg29
+(lp2686
+VPROMISE
+p2687
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2688
+(dp2689
+tp2690
+Rp2691
+sbsa(dp2692
+g12
+I00
+sg13
+(lp2693
+F2110.0
+aF1410.0
+asg15
+(itiddlywiki
+Tiddler
+p2694
+(dp2695
+g19
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">And you're proud of it? You're satisfied with how it turned out? Do you wake up every morning satisfied how this ersatz of a republic is nothing but a feast for the powerful to prey on the weak, as long as the weak still retain the right to vote?</em>\u000a\u000a\u000a[[At least, I did something to make it happen. I didn't sit an office, giving advice to the weak over and over and over again.|action 1 job passive]]\u000a\u000a[[Let's say you're right. Let's say this is not the world I want. It's still the world that the majority want. And, despite what you might assume, I still stand for democracy.|action 1 job democracy][$opinion++]]\u000a
+p2696
+sg21
+Vaction 1 job past
+p2697
+sg23
+g24
+((I2014
+I7
+I31
+I15
+I40
+I48
+I3
+I212
+I1
+tp2698
+(dp2699
+tp2700
+Rp2701
+sg29
+(lp2702
+sg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2703
+(dp2704
+tp2705
+Rp2706
+sbsa(dp2707
+g12
+I00
+sg13
+(lp2708
+F2250.0
+aF1410.0
+asg15
+(itiddlywiki
+Tiddler
+p2709
+(dp2710
+g19
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">It never occured to you that, maybe, there was something wrong to the democratic process?</em>\u000a\u000a\u000a<<if visited("this passage") is false>>\u000a[[No.|action 1 job disagree]]\u000a<<endif>>\u000a<<if visited("this passage") is false>>\u000a[[Yes.|action 1 job agree][$opinion++]]\u000a<<endif>>\u000a[[Let's not get distracted.|action 1 job]]
+p2711
+sg21
+Vaction 1 job democracy
+p2712
+sg23
+g24
+((I2014
+I7
+I31
+I15
+I51
+I30
+I3
+I212
+I1
+tp2713
+(dp2714
+tp2715
+Rp2716
+sg29
+(lp2717
+sg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2718
+(dp2719
+tp2720
+Rp2721
+sbsa(dp2722
+g12
+I00
+sg13
+(lp2723
+F2110.0
+aF1550.0
+asg15
+(itiddlywiki
+Tiddler
+p2724
+(dp2725
+g19
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">And I gave advice to those who would stand up against you. They did it so well that I'm now here, in this cell, talking to a wall. You seem to think that actions always speak louder than words, am I right?</em>\u000a\u000a<<if visited("this passage") is false>>\u000a[[You are.|action 1 job disagree]]\u000a<<endif>>\u000a<<if visited("this passage") is false>>\u000a[[You're mistaken.|action 1 job agree][$opinion++]]\u000a<<endif>>\u000a[[Let's not get distracted.|action 1 job]]
+p2726
+sg21
+Vaction 1 job passive
+p2727
+sg23
+g24
+((I2014
+I7
+I31
+I15
+I54
+I37
+I3
+I212
+I1
+tp2728
+(dp2729
+tp2730
+Rp2731
+sg29
+(lp2732
+sg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2733
+(dp2734
+tp2735
+Rp2736
+sbsa(dp2737
+g12
+I00
+sg13
+(lp2738
+F2390.0
+aF1410.0
+asg15
+(itiddlywiki
+Tiddler
+p2739
+(dp2740
+g19
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">I never thought I'd agree with my jailor.</em>\u000a\u000a\u000a[[Let's not get forget what we're both here for.|action 1 hewes 1]]
+p2741
+sg21
+Vaction 1 job agree
+p2742
+sg23
+g24
+((I2014
+I7
+I31
+I15
+I52
+I57
+I3
+I212
+I1
+tp2743
+(dp2744
+tp2745
+Rp2746
+sg29
+(lp2747
+sg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2748
+(dp2749
+tp2750
+Rp2751
+sbsa(dp2752
+g12
+I00
+sg13
+(lp2753
+F2390.0
+aF1550.0
+asg15
+(itiddlywiki
+Tiddler
+p2754
+(dp2755
+g19
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">Then you're part of the reason why everything is going to hell.</em>\u000a\u000a\u000a\u000a[[Let's not get distracted. (Apply physical encouragement)|action 1 torture 1]]
+p2756
+sg21
+Vaction 1 job disagree
+p2757
+sg23
+g24
+((I2014
+I7
+I31
+I15
+I53
+I59
+I3
+I212
+I1
+tp2758
+(dp2759
+tp2760
+Rp2761
+sg29
+(lp2762
+sg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2763
+(dp2764
+tp2765
+Rp2766
 sbsasS'scale'
-p2404
-F0.8
+p2767
+F0.6000000000000001
 sS'snapping'
-p2405
+p2768
 I01
 ss.
