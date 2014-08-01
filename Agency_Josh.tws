@@ -1,7 +1,7 @@
 (dp0
 S'buildDestination'
 p1
-VC:\u005cUsers\u005cJoshua\u005cDesktop\u005cHuis Clos.html
+VC:\u005cUsers\u005cJoshua\u005cDropbox\u005cPublic\u005cagency0731\u005cAgency.html
 p2
 sS'saveDestination'
 p3
@@ -772,14 +772,14 @@ I00
 sg15
 (lp244
 F10.0
-aF1410.0
+aF710.0
 asg17
 (itiddlywiki
 Tiddler
 p245
 (dp246
 g21
-V@import url(http://fonts.googleapis.com/css?family=Dosis:500);\u000a\u000abody {\u000a /*background-image: [img[stripes_grey2.png]];*/\u000a background-color: #303030;\u000a overflow-y: hidden;\u000a\u000a}\u000a\u000a@font-face{ \u000a\u000a  font-family: 'Dosis', sans-serif;\u000a  /*\u000a  font-family: 'SofiaProLight-webfont';\u000a  src: url('Fonts/SofiaProLight-webfont.eot');\u000a  src: url('Fonts/WebFont.eot?#iefix') format('embedded-opentype'),\u000a       url('Fonts/SofiaProLight-webfont.woff') format('woff'),\u000a       url('Fonts/SofiaProLight-webfont.ttf') format('truetype'),\u000a       url('Fonts/WebFont.svg#webfont') format('svg');\u000a */\u000a}\u000a\u000a#sidebar{\u000a  position: absolute;\u000a  top: 0%;\u000a  left: 10%;\u000a  width: 80%;\u000a  align-content: center;\u000a  height: 13%;\u000a  overflow-x: visible;\u000a  background-color: #303030;\u000a  color:white;\u000a  border-bottom: solid #303030 1px;\u000a}\u000a\u000a#sidebar *{\u000a  color: white;\u000a  font-size:22px;\u000a  background-color: transparent;\u000a  display:inline !important;\u000a\u000a}\u000a\u000a#storyAuthor { \u000a  font-size: 200%;\u000a  text-align: center;\u000a  height: 10px;\u000a  line-height: 10px;\u000a  margin_top: 0px;\u000a  color:white;\u000a}\u000a\u000a#storyTitle{ /*code for the formatting of BEAR*/\u000a  background-color: transparent;\u000a  width:100%;\u000a  justify-content: center;\u000a  margin-left: 0%;\u000a  margin-right: 0%; \u000a  margin-top: 10px;\u000a  content: url(banner_new_large.png);\u000a}\u000a\u000a#credits, #share, #bookmark, #restart, #titleSeparator, #sidebar li br {\u000a  display:none !important;\u000a}\u000a\u000a/*PASSAGES*/\u000a\u000a#passages{\u000a  margin: 0;\u000a  padding: 0;\u000a  border:0;\u000a}\u000a\u000a.passage, #sidebar * {\u000a  font-family: Dosis, SofiaProLight-webfont, Geneva, "Helvetica Neue", Helvetica, sans-serif;\u000a  color: #C0C0C0;\u000a}\u000a\u000a.passage {\u000a  margin-top: 12%;\u000a  margin-left: 20%;\u000a  margin-right: 20%;\u000a  \u000a  /*margin-top:200px;\u000a  margin-left:200px;\u000a  margin-bottom: 40px;\u000a  */\u000a  width: 60%;\u000a  padding: 2em;\u000a  font-size:1.5rem;\u000a  text-align: justify;\u000a  background-color:#303030;\u000a  /*border-left: 1px solid black;\u000a  border-right: 1px solid black;\u000a  border-bottom: 1px dashed black;\u000a  border-top: 1px dashed black;\u000a  border-radius: 0.2em;*/\u000a  color:#C0C0C0;\u000a}\u000a\u000a.passage a{\u000a  color: white;\u000a}\u000a\u000a.passage a:hover{\u000a  color: #808080;\u000a  text-decoration:none;\u000a}\u000a\u000a.manager{\u000a/*font-family: 'GoudyStM-Italic-webfont'; \u000asrc:url('Fonts/Goudy-StM-Italic-webfont.eot'); */\u000afont-family: 'Dosis', sans-serif;\u000atext-align: justify;\u000a}\u000a\u000a.suspect{\u000a/* font-family: 'NotoSerif-Italic-webfont'; \u000asrc:url('Fonts/NotoSerif-Italic-webfont.eot'); */\u000afont-family: 'Dosis', sans-serif;\u000atext-align: justify;\u000a}\u000a\u000a.info{\u000a/* font-family: 'NotoSerif-Bold-webfont';\u000asrc:url('Fonts/NotoSerif-Bold-webfont.eot');\u000a*/\u000afont-family: 'Dosis', sans-serif;\u000atext-align: justify;\u000a}
+V@import url(http://fonts.googleapis.com/css?family=Dosis:500);\u000a\u000abody {\u000a /*background-image: [img[stripes_grey2]];*/\u000a background-color: #303030;\u000a overflow-y: scroll;\u000a}\u000a\u000a@font-face{ \u000a\u000a  font-family: 'Dosis', sans-serif;\u000a  /*\u000a  font-family: 'SofiaProLight-webfont';\u000a  src: url('Fonts/SofiaProLight-webfont.eot');\u000a  src: url('Fonts/WebFont.eot?#iefix') format('embedded-opentype'),\u000a       url('Fonts/SofiaProLight-webfont.woff') format('woff'),\u000a       url('Fonts/SofiaProLight-webfont.ttf') format('truetype'),\u000a       url('Fonts/WebFont.svg#webfont') format('svg');\u000a */\u000a}\u000a\u000a#sidebar{\u000a  position: absolute;\u000a  top: 0%;\u000a  left: 10%;\u000a  width: 80%;\u000a  align-content: center;\u000a  height: 13%;\u000a  overflow-x: visible;\u000a  background-color: #303030;\u000a  color:white;\u000a  border-bottom: solid #303030 1px;\u000a}\u000a\u000a#sidebar *{\u000a  color: white;\u000a  font-size:22px;\u000a  background-color: transparent;\u000a  display:inline !important;\u000a\u000a}\u000a\u000a#storyAuthor { \u000a  font-size: 200%;\u000a  text-align: center;\u000a  height: 10px;\u000a  line-height: 10px;\u000a  margin_top: 0px;\u000a  color:white;\u000a}\u000a\u000a#storyTitle{ /*code for the formatting of BEAR*/\u000a  background-color: transparent;\u000a  width:100%;\u000a  justify-content: center;\u000a  margin-left: 0%;\u000a  margin-right: 0%; \u000a  margin-top: 10px;\u000a  content: url(banner_new_large.png);\u000a}\u000a\u000a#credits, #share, #bookmark, #restart, #titleSeparator, #sidebar li br {\u000a  display:none !important;\u000a}\u000a\u000a/*PASSAGES*/\u000a\u000a#passages{\u000a  margin: 0;\u000a  padding: 0;\u000a  border:0;\u000a}\u000a\u000a.passage, #sidebar * {\u000a  font-family: Dosis, SofiaProLight-webfont, Geneva, "Helvetica Neue", Helvetica, sans-serif;\u000a  color: #C0C0C0;\u000a}\u000a\u000a.passage {\u000a  margin-top: 12%;\u000a  margin-left: 20%;\u000a  margin-right: 20%;\u000a  \u000a  /*margin-top:200px;\u000a  margin-left:200px;\u000a  margin-bottom: 40px;\u000a  */\u000a  width: 60%;\u000a  padding: 2em;\u000a  font-size:1.5rem;\u000a  text-align: justify;\u000a  background-color:#303030;\u000a  /*border-left: 1px solid black;\u000a  border-right: 1px solid black;\u000a  border-bottom: 1px dashed black;\u000a  border-top: 1px dashed black;\u000a  border-radius: 0.2em;*/\u000a  color:#C0C0C0;\u000a}\u000a\u000a.passage a{\u000a  color: white;\u000a}\u000a\u000a.passage a:hover{\u000a  color: #808080;\u000a  text-decoration:none;\u000a}\u000a\u000a.manager{\u000a/*font-family: 'GoudyStM-Italic-webfont'; \u000asrc:url('Fonts/Goudy-StM-Italic-webfont.eot'); */\u000afont-family: 'Dosis', sans-serif;\u000atext-align: justify;\u000a}\u000a\u000a.suspect{\u000a/* font-family: 'NotoSerif-Italic-webfont'; \u000asrc:url('Fonts/NotoSerif-Italic-webfont.eot'); */\u000afont-family: 'Dosis', sans-serif;\u000atext-align: justify;\u000a}\u000a\u000a.info{\u000a/* font-family: 'NotoSerif-Bold-webfont';\u000asrc:url('Fonts/NotoSerif-Bold-webfont.eot');\u000a*/\u000afont-family: 'Dosis', sans-serif;\u000atext-align: justify;\u000a}
 p247
 sg23
 VMain Stylesheet
@@ -787,13 +787,13 @@ p248
 sg25
 g26
 ((I2014
-I7
-I30
-I14
-I31
-I33
+I8
+I1
+I10
+I53
 I2
-I211
+I4
+I213
 I1
 tp249
 (dp250
@@ -831,7 +831,7 @@ Tiddler
 p261
 (dp262
 g21
-V<<nobr>>\u000a<<if $day == 1>>\u000a<<if $personalConvo == 1>>[[How did you end up here?|personal 1][$personalConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $politicsConvo == 1>>[[Let's talk politics.|politics 1][$politicsConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $forcingConvo == 1>>[[You know where the New Collective leader is. I need you to tell me.|forcing 1][$forcingConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $familyConvo == 1>>[[Tell me about your family.|family 1][$familyConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $pearlStreetConvo == 1>>[[It looks like you were arrested during the Pearl Street riots, after Carson.|riots 1][$pearlStreetConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $jobConvo == 1>>[[You're with the Boston Center for Legal Activism. Legal analyst.|job 1][$jobConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $newCollectiveConvo == 1>>[[You've got ties to the New Collective.|newCollective 1][$newCollectiveConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $leaderConvo == 1>>[[You know James Hewes.|hewes 1][$leaderConvo = 2]]<br><br>\u000a<<endif>>\u000a\u000a<<if $personalConvo neq 1 and $politicsConvo neq 1 and $forcingConvo neq 1 and $familyConvo neq 1 and $pearlStreetConvo neq 1 and $jobConvo neq 1 and $newCollectiveConvo neq 1 and $leaderConvo neq 1>>[[Contact Inspection Manager for mandatory debriefing session.|debriefing 1]]<br><br>\u000a<<endif>><<endif>> /% end day 1 %/\u000a\u000a<<if $day == 2>>\u000a<<if $actionConvo == 1>>\u000a[[I've been wondering whether you've done anything political besides just talking.|action 1]]<br><br>\u000a<<endif>>\u000a<<if $carsonConvo == 1>>\u000a[[You know a lot about Carson v. US, don't you?|carson 1]]<br><br>\u000a<<endif>>\u000a<<if $educationConvo == 1>>\u000a[[You've certainly got plenty to say about the world. Who'd you learn it from?|education 1]]<br><br>\u000a<<endif>>\u000a<<if $hewesActionConvo == 1>>\u000a[[You're much less proactive than Hewes, aren't you?|hewesAction 1]]<br><br>\u000a<<endif>>\u000a<<if $hewesThoughts == 1>>\u000a[[Would you help me understand what makes Hewes so special?|hewesThoughts 1]]<br><br>\u000a<<endif>>\u000a<<if $newCollectiveOriginsConvo == 1>>\u000a[[Let's talk about the origins of the New Collective.|newCollectiveOrigin 1]]<br><br>\u000a<<endif>>\u000a\u000a<<endif>>\u000a\u000a/%[[(Check conversation notes.)|notes hub]]<br><br>%/\u000a\u000a<<if $torture == $tortureLimit>>\u000a[[The suspect appears to have lost consciousness.|fainted]]\u000a<<endif>>\u000a<<endnobr>>
+V<<nobr>>\u000a<<if $day == 1>>\u000a<<if $personalConvo == 1>>[[How did you end up here?|personal 1][$personalConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $politicsConvo == 1>>[[Let's talk politics.|politics 1][$politicsConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $forcingConvo == 1>>[[You know where the New Collective leader is. I need you to tell me.|forcing 1][$forcingConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $familyConvo == 1>>[[Tell me about your family.|family 1][$familyConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $pearlStreetConvo == 1>>[[It looks like you were arrested during the Pearl Street riots, after Carson.|riots 1][$pearlStreetConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $jobConvo == 1>>[[You're with the Boston Center for Legal Activism. Legal analyst.|job 1][$jobConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $newCollectiveConvo == 1>>[[You've got ties to the New Collective.|newCollective 1][$newCollectiveConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $leaderConvo == 1>>[[You know James Hewes.|hewes 1][$leaderConvo = 2]]<br><br>\u000a<<endif>>\u000a\u000a<<if $personalConvo neq 1 and $politicsConvo neq 1 and $forcingConvo neq 1 and $familyConvo neq 1 and $pearlStreetConvo neq 1 and $jobConvo neq 1 and $newCollectiveConvo neq 1 and $leaderConvo neq 1>>[[Contact Inspection Manager for mandatory debriefing session.|debriefing 1]]<br><br>\u000a<<endif>><<endif>> /% end day 1 %/\u000a\u000a<<if $day == 2>>\u000a<<if $actionConvo == 1>>\u000a[[Have you taken any political actions, or just talked about it?|action 1]]<br><br>\u000a<<endif>>\u000a<<if $carsonConvo == 1>>\u000a[[You know a lot about Carson v. US, don't you?|carson 1]]<br><br>\u000a<<endif>>\u000a<<if $educationConvo == 1>>\u000a[[You've certainly got plenty to say about the world. Who'd you learn it from?|education 1]]<br><br>\u000a<<endif>>\u000a<<if $hewesActionConvo == 1>>\u000a[[It seems you're much less proactive than Hewes.?|hewesAction 1]]<br><br>\u000a<<endif>>\u000a<<if $hewesThoughts == 1>>\u000a[[Could you help me understand what makes Hewes so special?|hewesThoughts 1]]<br><br>\u000a<<endif>>\u000a<<if $newCollectiveOriginsConvo == 1>>\u000a[[Let's talk about the origins of the New Collective.|newCollectiveOrigin 1]]<br><br>\u000a<<endif>>\u000a\u000a<<endif>>\u000a\u000a/%[[(Check conversation notes.)|notes hub]]<br><br>%/\u000a\u000a<<if $torture == $tortureLimit>>\u000a[[The suspect appears to have lost consciousness.|fainted]]\u000a<<endif>>\u000a<<endnobr>>
 p263
 sg23
 Vconversation hub
@@ -841,9 +841,9 @@ g26
 ((I2014
 I7
 I31
-I15
-I59
-I35
+I16
+I21
+I20
 I3
 I212
 I1
@@ -959,8 +959,8 @@ g14
 I00
 sg15
 (lp300
-F150.0
-aF1270.0
+F10.0
+aF990.0
 asg17
 (itiddlywiki
 Tiddler
@@ -1112,7 +1112,7 @@ I00
 sg15
 (lp346
 F10.0
-aF1270.0
+aF1130.0
 asg17
 (itiddlywiki
 Tiddler
@@ -1662,7 +1662,7 @@ g14
 I00
 sg15
 (lp511
-F1690.0
+F1550.0
 aF1550.0
 asg17
 (itiddlywiki
@@ -2662,8 +2662,8 @@ g14
 I00
 sg15
 (lp811
-F150.0
-aF1410.0
+F10.0
+aF850.0
 asg17
 (itiddlywiki
 Tiddler
@@ -8042,7 +8042,7 @@ Tiddler
 p2438
 (dp2439
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">Anyway.\u000a\u000aThe engineers down on the fifteenth floor have serviced your console to give you all the available options for the interrogation session. All the information you need will be available on the console, don't worry. They've assured us that the automatic logging and parsing procedures are in place as well.\u000a\u000aYou're the first Inspector to benefit from such a setup, so please feel free to let them or me know about any difficulties you might find with the system.</em>\u000a\u000a[[I'm looking forward to using it.|itw day 1m else]]\u000a\u000a[[New toys? This could be fun.|itw day 1m else]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">Anyway.\u000a\u000aThe engineers down on the fifteenth floor have serviced your console to give you all the available options for the interrogation session. All the information you need will be available on the console, don't worry. They've assured us that the automatic logging and parsing procedures are in place as well.\u000a\u000aYou're the first Inspector to benefit from such a setup, so please feel free to let them or me know about any difficulties you might find with the system.</em>\u000a\u000a[[I'm looking forward to using it.|itw day 1m else]]\u000a\u000a[[I'm... sure I'll get the hang of it, sir.|itw day 1m else]]\u000a\u000a[[New toys? This could be fun.|itw day 1m else]]
 p2440
 sg23
 Vitw day 1m cameras
@@ -8050,13 +8050,13 @@ p2441
 sg25
 g26
 ((I2014
-I7
-I31
-I15
-I46
-I12
-I3
-I212
+I8
+I1
+I10
+I43
+I54
+I4
+I213
 I1
 tp2442
 (dp2443
@@ -8179,10 +8179,1246 @@ tp2477
 (dp2478
 tp2479
 Rp2480
+sbsa(dp2481
+g14
+I00
+sg15
+(lp2482
+F1830.0
+aF1970.0
+asg17
+(itiddlywiki
+Tiddler
+p2483
+(dp2484
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect"> </em>
+p2485
+sg23
+Vcarson 1
+p2486
+sg25
+g26
+((I2014
+I7
+I31
+I11
+I19
+I1
+I3
+I212
+I1
+tp2487
+(dp2488
+tp2489
+Rp2490
+sg31
+(lp2491
+VcarsonConvo
+p2492
+asg33
+g26
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2493
+(dp2494
+tp2495
+Rp2496
+sbsa(dp2497
+g14
+I00
+sg15
+(lp2498
+F1830.0
+aF2110.0
+asg17
+(itiddlywiki
+Tiddler
+p2499
+(dp2500
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect"> </em>
+p2501
+sg23
+Veducation 1
+p2502
+sg25
+g26
+((I2014
+I7
+I31
+I11
+I52
+I16
+I3
+I212
+I1
+tp2503
+(dp2504
+tp2505
+Rp2506
+sg31
+(lp2507
+VeducationConvo
+p2508
+asg33
+g26
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2509
+(dp2510
+tp2511
+Rp2512
+sbsa(dp2513
+g14
+I00
+sg15
+(lp2514
+F1830.0
+aF2250.0
+asg17
+(itiddlywiki
+Tiddler
+p2515
+(dp2516
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect"> </em>
+p2517
+sg23
+VhewesAction 1
+p2518
+sg25
+g26
+((I2014
+I7
+I31
+I11
+I19
+I39
+I3
+I212
+I1
+tp2519
+(dp2520
+tp2521
+Rp2522
+sg31
+(lp2523
+VhewesActionConvo
+p2524
+asg33
+g26
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2525
+(dp2526
+tp2527
+Rp2528
+sbsa(dp2529
+g14
+I00
+sg15
+(lp2530
+F1830.0
+aF2390.0
+asg17
+(itiddlywiki
+Tiddler
+p2531
+(dp2532
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect"> </em>
+p2533
+sg23
+VhewesThoughts 1
+p2534
+sg25
+g26
+((I2014
+I7
+I31
+I11
+I24
+I14
+I3
+I212
+I1
+tp2535
+(dp2536
+tp2537
+Rp2538
+sg31
+(lp2539
+VhewesThoughtsConvo
+p2540
+asg33
+g26
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2541
+(dp2542
+tp2543
+Rp2544
+sbsa(dp2545
+g14
+I00
+sg15
+(lp2546
+F1830.0
+aF2530.0
+asg17
+(itiddlywiki
+Tiddler
+p2547
+(dp2548
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect"> </em>
+p2549
+sg23
+VnewCollectiveOrigin 1
+p2550
+sg25
+g26
+((I2014
+I7
+I31
+I11
+I28
+I31
+I3
+I212
+I1
+tp2551
+(dp2552
+tp2553
+Rp2554
+sg31
+(lp2555
+VnewCollectiveOriginsConvo
+p2556
+asg33
+g26
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2557
+(dp2558
+tp2559
+Rp2560
+sbsa(dp2561
+g14
+I00
+sg15
+(lp2562
+F1830.0
+aF1690.0
+asg17
+(itiddlywiki
+Tiddler
+p2563
+(dp2564
+g21
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<set $actionConvo to 2>>\u000a<<if $torture == 0>>\u000a<em class = "suspect">I find the question ironic, Inspector. Your whole job is just to talk.</em>\u000a<<else>>\u000a<em class = "suspect">You'd rather have people like me use the same methods as people like you?</em>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[I don't have any intention of changing the world. You do, and you what do you accomplish?|action 1 job]]\u000a\u000a[[If you're against the system, why not do something real about it?|action 1 system]]\u000a\u000a<<if $torture == 0>>[[Oh, no. I can also take action. (Apply physical encouragement.)|action 1 torture 1]]<<else>>[[No, I prefer we reserve that option to ourselves. We are the repositories of legitimate violence, after all. (Apply physical encouragement.)|action 1 torture 1]]<<endif>>
+p2565
+sg23
+Vaction 1
+p2566
+sg25
+g26
+((I2014
+I8
+I1
+I10
+I32
+I55
+I4
+I213
+I1
+tp2567
+(dp2568
+tp2569
+Rp2570
+sg31
+(lp2571
+VactionConvo
+p2572
+asg33
+g26
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2573
+(dp2574
+tp2575
+Rp2576
+sbsa(dp2577
+g14
+I00
+sg15
+(lp2578
+F1970.0
+aF1410.0
+asg17
+(itiddlywiki
+Tiddler
+p2579
+(dp2580
+g21
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">That is a sad statement, Inspector. You know what they say about the sword and the pen. I've accomplished more than you to make this the world I want to live in.</em>\u000a\u000a\u000a[[I already live in the world I want. I made it happen.|action 1 job past]]\u000a\u000a[[Let's say you're right. Let's say this is not the world I want. It's still the world that the majority want. And, despite what you might assume, I still stand for democracy.|action 1 job democracy][$opinion++]]\u000a
+p2581
+sg23
+Vaction 1 job
+p2582
+sg25
+g26
+((I2014
+I7
+I31
+I15
+I36
+I11
+I3
+I212
+I1
+tp2583
+(dp2584
+tp2585
+Rp2586
+sg31
+(lp2587
+sg33
+g26
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2588
+(dp2589
+tp2590
+Rp2591
+sbsa(dp2592
+g14
+I00
+sg15
+(lp2593
+F1970.0
+aF1830.0
+asg17
+(itiddlywiki
+Tiddler
+p2594
+(dp2595
+g21
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $torture < $tortureLimit>>\u000a<<timedinsert 4s>>[[Right here, right now, I have all the power. All you have is hope that you can endure for 72 hours. You can help your odds by telling me about Hewes.|action 1 hewes 1][$opinion--]]<br>\u000a<br>\u000a[[I don't need backtalk, I need the truth. What can you tell me about Hewes?|action 1 hewes 1]]<<endtimedinsert>>\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedgoto "fainted" 2.5s>>\u000a<<endif>>\u000a<<endnobr>>
+p2596
+sg23
+Vaction 1 torture 1
+p2597
+sg25
+g26
+((I2014
+I8
+I1
+I10
+I6
+I25
+I4
+I213
+I1
+tp2598
+(dp2599
+tp2600
+Rp2601
+sg31
+(lp2602
+Vtorture
+p2603
+asg33
+g26
+((I2014
+I7
+I25
+I14
+I46
+I15
+I4
+I206
+I1
+tp2604
+(dp2605
+tp2606
+Rp2607
+sbsa(dp2608
+g14
+I00
+sg15
+(lp2609
+F1970.0
+aF1690.0
+asg17
+(itiddlywiki
+Tiddler
+p2610
+(dp2611
+g21
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect"></em>\u000a\u000a\u000a[[|]]\u000a
+p2612
+sg23
+Vaction 1 system
+p2613
+sg25
+g26
+((I2014
+I7
+I31
+I12
+I4
+I47
+I3
+I212
+I1
+tp2614
+(dp2615
+tp2616
+Rp2617
+sg31
+(lp2618
+VactionConvo
+p2619
+asg33
+g26
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2620
+(dp2621
+tp2622
+Rp2623
+sbsa(dp2624
+g14
+I00
+sg15
+(lp2625
+F2110.0
+aF1830.0
+asg17
+(itiddlywiki
+Tiddler
+p2626
+(dp2627
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I've already told you how we met. I admit that I wasn't keen on publicizing it too much, but it's no secret that I helped defend the New Collective on several occasions.</em>\u000a\u000a[[I want to know why you defended him.|action 1 hewes 1 defense]]\u000a\u000a[[What cases were you on? The Central River bombings? Or something less gruesome?|action 1 hewes 1 attacks]]
+p2628
+sg23
+Vaction 1 hewes 1
+p2629
+sg25
+g26
+((I2014
+I8
+I1
+I10
+I7
+I7
+I4
+I213
+I1
+tp2630
+(dp2631
+tp2632
+Rp2633
+sg31
+(lp2634
+VactionConvo
+p2635
+asg33
+g26
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2636
+(dp2637
+tp2638
+Rp2639
+sbsa(dp2640
+g14
+I00
+sg15
+(lp2641
+F2250.0
+aF1830.0
+asg17
+(itiddlywiki
+Tiddler
+p2642
+(dp2643
+g21
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $opinion >= 2>>\u000a<em class="suspect">I always said that it was for the sake of equality, but I'll confess I was a bit biased. I grew up reading about the great republican struggles of underdogs who had fought a wrongful governement. Bakunin, Boulanger, Rosa Parks, the Luddites...<br>\u000a<br>\u000aI wanted to be one of them. I wanted more than share their glory; I wanted to exist, with them, forever on the pages of history books and inspire generations to come.</em>\u000a<<else>>\u000a<em class="suspect">Because I was fascinated by their efficiency. I wanted to see how far they would go, how big they would get. There's a fascinating aura around idealists, Inspector.</em>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[Idealism doesn't excuse what they did, nor what they plan to do. In a sense, it makes their actions even worse.|action 1 hewes 1 attacks]]\u000a\u000a[[How do you justify the lives they took?|action 1 hewes 1 victims]]
+p2644
+sg23
+Vaction 1 hewes 1 defense
+p2645
+sg25
+g26
+((I2014
+I8
+I1
+I10
+I8
+I24
+I4
+I213
+I1
+tp2646
+(dp2647
+tp2648
+Rp2649
+sg31
+(lp2650
+VactionConvo
+p2651
+asg33
+g26
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2652
+(dp2653
+tp2654
+Rp2655
+sbsa(dp2656
+g14
+I00
+sg15
+(lp2657
+F2390.0
+aF1830.0
+asg17
+(itiddlywiki
+Tiddler
+p2658
+(dp2659
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">I acknolwedge that their actions were extreme. Yes, they took the lives of 36 individual human beings. But ask yourself: do you really have the luxury to be moral when you need to be efficient?</em>\u000a\u000a[[Let's get back to the matter at hand. What do you know about what they can do?|action 1 hewes plan]]
+p2660
+sg23
+Vaction 1 hewes 1 victims
+p2661
+sg25
+g26
+((I2014
+I8
+I1
+I10
+I8
+I38
+I4
+I213
+I1
+tp2662
+(dp2663
+tp2664
+Rp2665
+sg31
+(lp2666
+VactionConvo
+p2667
+asg33
+g26
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2668
+(dp2669
+tp2670
+Rp2671
+sbsa(dp2672
+g14
+I00
+sg15
+(lp2673
+F2530.0
+aF1830.0
+asg17
+(itiddlywiki
+Tiddler
+p2674
+(dp2675
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">The attacks happened, neither you nor I can't do anything about it. What the government doesn't know, or won't say, is that they could have been a lot worse. \u000a\u000aThe national media has portrayed them as mass violence on the scale of Pearl Street. But the New Collective has exercised quite a bit of restraint, really. They have the capacity to hurt people and, unlike this administration, they don't use it.</em>\u000a\u000a[[But why direct those attacks at civilians?|action 1 hewes 1 victims]]\u000a\u000a[[What can they do?|action 1 hewes plan]]
+p2676
+sg23
+Vaction 1 hewes 1 attacks
+p2677
+sg25
+g26
+((I2014
+I7
+I31
+I16
+I38
+I40
+I3
+I212
+I1
+tp2678
+(dp2679
+tp2680
+Rp2681
+sg31
+(lp2682
+VactionConvo
+p2683
+asg33
+g26
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2684
+(dp2685
+tp2686
+Rp2687
+sbsa(dp2688
+g14
+I00
+sg15
+(lp2689
+F2670.0
+aF1830.0
+asg17
+(itiddlywiki
+Tiddler
+p2690
+(dp2691
+g21
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $opinion >= 3>>\u000a<em class = "suspect">You know I'm not on their side. I'm not on yours either.<<timedinsert 2s>> I'll be honest with you, Inspector.<<endtimedinsert>><<timedinsert 4s>>\u000a Some of them, among the NC, might want to take things to another level. They sense that the government considers them enemies, not citizens, and so they want to go to war.<br><br></em><<endtimedinsert>>\u000a\u000a<<timedinsert 6s>>[[What does war mean?|action 1 hewes war]]<<endtimedinsert>>\u000a<<else if $torture >= 2>>\u000a<em class = "suspect">I don't know the specifics.</em><br><br>\u000a\u000a[[(Apply physical encouragement.)|action 1 hewes torture]]\u000a\u000a<<else>><em class = "suspect">They can do more than they've done so far. They can be faster, more efficient. But I'm not sure that they actually would.</em><br><br>\u000a\u000a[[What would it take for you to tell me?|action 1 hewes plan negotiation][$opinion++]]\u000a<<endif>>\u000a<<endnobr>>
+p2692
+sg23
+Vaction 1 hewes plan
+p2693
+sg25
+g26
+((I2014
+I8
+I1
+I10
+I20
+I22
+I4
+I213
+I1
+tp2694
+(dp2695
+tp2696
+Rp2697
+sg31
+(lp2698
+VactionConvo
+p2699
+asg33
+g26
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2700
+(dp2701
+tp2702
+Rp2703
+sbsa(dp2704
+g14
+I00
+sg15
+(lp2705
+F2810.0
+aF1830.0
+asg17
+(itiddlywiki
+Tiddler
+p2706
+(dp2707
+g21
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $torture < $tortureLimit>>\u000a<<timedinsert 4s>>[[It stops when you start talking|action 1 hewes war false][$opinion--]]<<endtimedinsert>>\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedgoto "fainted" 2.5s>>\u000a<<endif>>\u000a<<endnobr>>
+p2708
+sg23
+Vaction 1 hewes torture
+p2709
+sg25
+g26
+((I2014
+I7
+I31
+I14
+I28
+I0
+I3
+I212
+I1
+tp2710
+(dp2711
+tp2712
+Rp2713
+sg31
+(lp2714
+Vtorture
+p2715
+asg33
+g26
+((I2014
+I7
+I25
+I14
+I46
+I15
+I4
+I206
+I1
+tp2716
+(dp2717
+tp2718
+Rp2719
+sbsa(dp2720
+g14
+I00
+sg15
+(lp2721
+F2950.0
+aF1830.0
+asg17
+(itiddlywiki
+Tiddler
+p2722
+(dp2723
+g21
+VSUSPECT 1247\u000a- - - -\u000a<<set $hPlanFalse_intel to true>>\u000a\u000a<em class = "suspect">They... They want to target more people, they want to target their lives and their ideals. They want to bring down... They want to disrupt what keeps these people happy and distracted. Television. Radios. Sports.</em>\u000a\u000a[[You made the right decision.|conversation hub]]\u000a\u000a\u000a
+p2724
+sg23
+Vaction 1 hewes war false
+p2725
+sg25
+g26
+((I2014
+I7
+I31
+I14
+I51
+I54
+I3
+I212
+I1
+tp2726
+(dp2727
+tp2728
+Rp2729
+sg31
+(lp2730
+VFALSE
+p2731
+aVINTEL
+p2732
+asg33
+g26
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2733
+(dp2734
+tp2735
+Rp2736
+sbsa(dp2737
+g14
+I00
+sg15
+(lp2738
+F2810.0
+aF1690.0
+asg17
+(itiddlywiki
+Tiddler
+p2739
+(dp2740
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Some of the the New Collective wants war. And that means that, when their protests are shut down and their members imprisoned, they do what must be done against a more powerful foe. You apply basic guerilla techniques.</em>\u000a\u000a[[I'd like you to develop that thought.|conversation hub]]\u000a\u000a<<set $hewesPlanConvo to 1>>\u000a
+p2741
+sg23
+Vaction 1 hewes war
+p2742
+sg25
+g26
+((I2014
+I8
+I1
+I10
+I22
+I25
+I4
+I213
+I1
+tp2743
+(dp2744
+tp2745
+Rp2746
+sg31
+(lp2747
+VactionConvo
+p2748
+asg33
+g26
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2749
+(dp2750
+tp2751
+Rp2752
+sbsa(dp2753
+g14
+I00
+sg15
+(lp2754
+F2670.0
+aF1690.0
+asg17
+(itiddlywiki
+Tiddler
+p2755
+(dp2756
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I know you won't be able to release me for another 48 hours, but once I'm out I want six months of immunity. I'm not asking for anything permanent or impossible. I just want to live six months of my life without fear.</em>\u000a\u000a[[I promise I'll do whatever I can.|action 1 hewes war][$promise is true]]\u000a\u000a[[I don't think I have that kind of pull here.|action 1 promise no]]\u000a\u000a[[I'm not going to make that promise.|action 1 promise no]]
+p2757
+sg23
+Vaction 1 hewes plan negotiation
+p2758
+sg25
+g26
+((I2014
+I8
+I1
+I10
+I25
+I26
+I4
+I213
+I1
+tp2759
+(dp2760
+tp2761
+Rp2762
+sg31
+(lp2763
+VPROMISE
+p2764
+asg33
+g26
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2765
+(dp2766
+tp2767
+Rp2768
+sbsa(dp2769
+g14
+I00
+sg15
+(lp2770
+F2110.0
+aF1410.0
+asg17
+(itiddlywiki
+Tiddler
+p2771
+(dp2772
+g21
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">And you're proud of it? You're satisfied with how it turned out? Do you wake up every morning satisfied how this ersatz of a republic is nothing but a feast for the powerful to prey on the weak, as long as the weak still retain the right to vote?</em>\u000a\u000a\u000a[[At least, I did something to make it happen. I didn't sit an office, giving advice to the weak over and over and over again.|action 1 job passive]]\u000a\u000a[[Let's say you're right. Let's say this is not the world I want. It's still the world that the majority want. And, despite what you might assume, I still stand for democracy.|action 1 job democracy][$opinion++]]\u000a
+p2773
+sg23
+Vaction 1 job past
+p2774
+sg25
+g26
+((I2014
+I7
+I31
+I15
+I40
+I48
+I3
+I212
+I1
+tp2775
+(dp2776
+tp2777
+Rp2778
+sg31
+(lp2779
+sg33
+g26
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2780
+(dp2781
+tp2782
+Rp2783
+sbsa(dp2784
+g14
+I00
+sg15
+(lp2785
+F2250.0
+aF1410.0
+asg17
+(itiddlywiki
+Tiddler
+p2786
+(dp2787
+g21
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">It never occured to you that, maybe, there was something wrong to the democratic process?</em>\u000a\u000a\u000a<<if visited("this passage") is false>>\u000a[[No.|action 1 job disagree]]\u000a<<endif>>\u000a<<if visited("this passage") is false>>\u000a[[Yes.|action 1 job agree][$opinion++]]\u000a<<endif>>\u000a[[Let's not get distracted.|action 1 job]]
+p2788
+sg23
+Vaction 1 job democracy
+p2789
+sg25
+g26
+((I2014
+I7
+I31
+I15
+I51
+I30
+I3
+I212
+I1
+tp2790
+(dp2791
+tp2792
+Rp2793
+sg31
+(lp2794
+sg33
+g26
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2795
+(dp2796
+tp2797
+Rp2798
+sbsa(dp2799
+g14
+I00
+sg15
+(lp2800
+F2110.0
+aF1550.0
+asg17
+(itiddlywiki
+Tiddler
+p2801
+(dp2802
+g21
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">And I gave advice to those who would stand up against you. They did it so well that I'm now here, in this cell, talking to a wall. You seem to think that actions always speak louder than words, am I right?</em>\u000a\u000a<<if visited("this passage") is false>>\u000a[[You are.|action 1 job disagree]]\u000a<<endif>>\u000a<<if visited("this passage") is false>>\u000a[[You're mistaken.|action 1 job agree][$opinion++]]\u000a<<endif>>\u000a[[Let's not get distracted.|action 1 job]]
+p2803
+sg23
+Vaction 1 job passive
+p2804
+sg25
+g26
+((I2014
+I7
+I31
+I15
+I54
+I37
+I3
+I212
+I1
+tp2805
+(dp2806
+tp2807
+Rp2808
+sg31
+(lp2809
+sg33
+g26
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2810
+(dp2811
+tp2812
+Rp2813
+sbsa(dp2814
+g14
+I00
+sg15
+(lp2815
+F2390.0
+aF1410.0
+asg17
+(itiddlywiki
+Tiddler
+p2816
+(dp2817
+g21
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">I never thought I'd agree with my jailor.</em>\u000a\u000a\u000a[[Let's not get forget what we're both here for.|action 1 hewes 1]]
+p2818
+sg23
+Vaction 1 job agree
+p2819
+sg25
+g26
+((I2014
+I7
+I31
+I15
+I52
+I57
+I3
+I212
+I1
+tp2820
+(dp2821
+tp2822
+Rp2823
+sg31
+(lp2824
+sg33
+g26
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2825
+(dp2826
+tp2827
+Rp2828
+sbsa(dp2829
+g14
+I00
+sg15
+(lp2830
+F2390.0
+aF1550.0
+asg17
+(itiddlywiki
+Tiddler
+p2831
+(dp2832
+g21
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">Then you're part of the reason why everything is going to hell.</em>\u000a\u000a\u000a\u000a[[Let's not get distracted. (Apply physical encouragement)|action 1 torture 1]]
+p2833
+sg23
+Vaction 1 job disagree
+p2834
+sg25
+g26
+((I2014
+I7
+I31
+I15
+I53
+I59
+I3
+I212
+I1
+tp2835
+(dp2836
+tp2837
+Rp2838
+sg31
+(lp2839
+sg33
+g26
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2840
+(dp2841
+tp2842
+Rp2843
+sbsa(dp2844
+g14
+I00
+sg15
+(lp2845
+F2950.0
+aF1690.0
+asg17
+(itiddlywiki
+Tiddler
+p2846
+(dp2847
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em>I'm sorry to hear that, Inspector.</em>\u000a\u000a<<display 'conversation hub'>>
+p2848
+sg23
+Vaction 1 promise no
+p2849
+sg25
+g26
+((I2014
+I8
+I1
+I10
+I26
+I7
+I4
+I213
+I1
+tp2850
+(dp2851
+tp2852
+Rp2853
+sg31
+(lp2854
+sg33
+g26
+((I2014
+I8
+I1
+I10
+I25
+I29
+I4
+I213
+I1
+tp2855
+(dp2856
+tp2857
+Rp2858
 sbsasS'scale'
-p2481
-F0.8
+p2859
+F1.0
 sS'snapping'
-p2482
+p2860
 I01
 ss.
