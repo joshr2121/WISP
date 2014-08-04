@@ -7602,7 +7602,7 @@ Tiddler
 p2318
 (dp2319
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">I'm afraid not, Inspector.\u000a\u000aGood night.</em>\u000a\u000a<<timedgoto "night" 3s>>
+VAGENT M506\u000a- - - -\u000a<em class="manager">I'm afraid not, Inspector.\u000a\u000aGood night.</em>\u000a\u000a<<timedgoto "db 1 disconnect" 3s>>
 p2320
 sg23
 Vdb 1 no
@@ -7610,13 +7610,13 @@ p2321
 sg25
 g26
 ((I2014
-I7
-I30
-I15
-I19
 I8
-I2
-I211
+I4
+I16
+I57
+I46
+I0
+I216
 I1
 tp2322
 (dp2323
@@ -7706,7 +7706,7 @@ Tiddler
 p2350
 (dp2351
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">Ah, the Pearl Street riots. I wish I could say I haven't heard that name in a long time, but every single suspect in this facility seems to have been part of that anarchist get-together. For all ages, from 7 to 70 years old! You don't need ideas, just yell and throw rocks at policemen. As if we didn't work for two millennia or more so that we, as a civilization, could get past this.</em>\u000a\u000a[[Maybe there's a problem with that civilization, then?|db 1 what]]\u000a\u000a<<if $family_intel == 1>>\u000a[[True enough, sir. I also found out he's the son of Russian immigrants.|db 1 intel family][$family_intel = 2]]\u000a<<else if $hHow_intel == 1 or $hThink_intel == 1 or $hOpinion_intel == 1>>\u000a[[True enough, sir. I also found out some things about Hewes that might prove useful.|db 1 intel crucial]]\u000a<<else>>\u000a[[True enough, sir. That's about all I learned.|db 1 end]]\u000a<<endif>>
+VAGENT M506\u000a- - - -\u000a<em class="manager">Ah, the Pearl Street riots. I wish I could say I haven't heard that name in a long time, but every single suspect in this facility seems to have been part of that anarchist get-together. For all ages, from 7 to 70 years old! You don't need ideas, just yell and throw rocks at policemen. As if we didn't work for two millennia or more so that we, as a civilization, could get past this.</em>\u000a\u000a[[Maybe there's a problem with that civilization, then.|db 1 what]]\u000a\u000a<<if $family_intel == 1>>\u000a[[True enough, sir. I also found out he's the son of Russian immigrants.|db 1 intel family][$family_intel = 2]]\u000a<<else if $hHow_intel == 1 or $hThink_intel == 1 or $hOpinion_intel == 1>>\u000a[[True enough, sir. I also found out some things about Hewes that might prove useful.|db 1 intel crucial]]\u000a<<else>>\u000a[[True enough, sir. That's about all I learned.|db 1 end]]\u000a<<endif>>
 p2352
 sg23
 Vdb 1 intel pearl
@@ -7717,8 +7717,8 @@ g26
 I8
 I4
 I16
-I33
-I22
+I57
+I25
 I0
 I216
 I1
