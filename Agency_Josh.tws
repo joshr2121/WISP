@@ -789,9 +789,9 @@ g26
 ((I2014
 I8
 I4
-I9
-I25
-I16
+I15
+I24
+I2
 I0
 I216
 I1
@@ -824,7 +824,7 @@ I00
 sg15
 (lp260
 F1550.0
-aF2110.0
+aF2250.0
 asg17
 (itiddlywiki
 Tiddler
@@ -1270,7 +1270,7 @@ Tiddler
 p392
 (dp393
 g21
-VAGENT M506\u000a- - - -\u000a<<set $hadBriefing to true>><em class="manager">As you are aware, this is an experimental procedure in information handling during interrogation sessions with sensitive individuals. By removing any direct contact between you and the detainee, we expect that your judgment and reasoning faculties will not be impaired by subjective emotional processes.</em>\u000a\u000a[[Is it safe to run experiments on suspects like this?|itw experiments]]\u000a\u000a[[Is there anything I should know about the suspect beforehand?|itw day 1m warning][$day1_interview_iq = true]]\u000a\u000a[[Why has Directive US-598 been reinstated?|itw day 1m directive][$day1_interview_directive = true]]\u000a\u000a[[This isn't the regular interrogation room.|itw day 1m room][$day1_interview_room = true]]
+VAGENT M506\u000a- - - -\u000a<<set $hadBriefing to true>><em class="manager">As you are aware, this is an experimental procedure in information handling during interrogation sessions with sensitive individuals. By removing any direct contact between you and the detainee, we expect that your judgment and reasoning faculties will not be impaired by subjective emotional processes.</em>\u000a\u000a[[Is it safe to run experiments on suspects like this?|itw experiments]]\u000a\u000a[[Is there anything I should know about the suspect beforehand?|itw day 1m warning][$day1_interview_iq = true]]\u000a\u000a[[Why has Directive US-598 been reinstated?|itw day 1m directive][$day1_interview_directive = true]]\u000a\u000a[[This isn't the regular inspection room.|itw day 1m room][$day1_interview_room = true]]
 p394
 sg23
 Vitw day 1m
@@ -1281,8 +1281,8 @@ g26
 I8
 I4
 I15
-I8
-I4
+I34
+I40
 I0
 I216
 I1
@@ -1420,7 +1420,7 @@ Tiddler
 p437
 (dp438
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">We've set up special clearance levels for your room so that nobody will come in and distract you. That said, you may still receive occasional public service announcements from the BEAR central intercom system, not much we can do about that.\u000a\u000aYou'll be monitored by surveillance cameras, with all footage stored as Level 3 Closed Network Data. Your interactions with the suspect through the BII system will be automatically logged and archived for weekly performance assessments by myself and another Inspection Manager.</em>\u000a\u000a<<nobr>>\u000a<<if $day1_interview_directive == false>>\u000a[[Sounds good. Could you remind me about that new directive?|itw day 1m directive]]<br>\u000a<br>\u000a<<endif>>\u000a<<if $day1_interview_iq == false>>\u000a[[Is there anything I should know about the suspect beforehand?|itw day 1m warning][$day1_interview_iq = true]]<br><br>\u000a<<endif>>\u000a[[Understood. I'll get started right away, sir.|itw day 1m approval]]\u000a<<endnobr>>
+VAGENT M506\u000a- - - -\u000a<em class="manager">We've set up special clearance levels for your room so that nobody will come in and distract you. That said, you may still receive occasional public service announcements from the BEAR central intercom system, not much we can do about that.\u000a\u000aYou'll be monitored by surveillance cameras, with all footage stored as Level 3 Closed Network Data. Your interactions with the suspect through the BII system will be automatically logged and archived for weekly performance assessments by myself and another Inspection Manager.</em>\u000a\u000a<<nobr>>\u000a<<if $day1_interview_directive == false>>\u000a[[Sounds good. Could you remind me about that new directive?|itw day 1m directive][$day1_interview_directive = true]]<br>\u000a<br>\u000a<<endif>>\u000a<<if $day1_interview_iq == false>>\u000a[[Is there anything I should know about the suspect beforehand?|itw day 1m warning][$day1_interview_iq = true]]<br><br>\u000a<<endif>>\u000a[[Understood. I'll get started right away, sir.|itw day 1m approval]]\u000a<<endnobr>>
 p439
 sg23
 Vitw day 1m room
@@ -1428,13 +1428,13 @@ p440
 sg25
 g26
 ((I2014
-I7
-I31
+I8
+I4
 I15
-I44
-I9
-I3
-I212
+I35
+I57
+I0
+I216
 I1
 tp441
 (dp442
@@ -1470,7 +1470,7 @@ Tiddler
 p452
 (dp453
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">Of course, we are the repositories of legitimate violence. Someone has to be.\u000a\u000aGovernments don't eradicate violence. Nothing, nobody can eradicate violence. However, as individuals, we can collectively agree to channel this violence into one body that will protect us from any external threats. We represent this body.\u000a\u000aAnd whatever anyone says, if you agree to live in that system, then you are potentially subject to that legitimate violence.</em>\u000a\u000a[[That makes sense.|itw day 1m else]]\u000a\u000a[[But I'm just one specific individual, not a whole government.|itw day 1m individual]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">Of course, we are the repositories of legitimate violence. Someone has to be.\u000a\u000aGovernments don't eradicate violence. Nothing, nobody can eradicate violence. However, as individuals, we can collectively agree to channel this violence into one body that protects us from external threats. We represent this body.\u000a\u000aAnd whatever anyone says, if you agree to live in that system, then you are potentially subject to that legitimate violence.</em>\u000a\u000a[[That makes sense.|itw day 1m else]]\u000a\u000a[[But I'm just one person, not a whole government.|itw day 1m individual]]
 p454
 sg23
 Vitw day 1m violence
@@ -1478,13 +1478,13 @@ p455
 sg25
 g26
 ((I2014
-I7
-I31
+I8
+I4
 I15
-I57
-I31
-I3
-I212
+I32
+I32
+I0
+I216
 I1
 tp456
 (dp457
@@ -1570,7 +1570,7 @@ Tiddler
 p482
 (dp483
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">Thank you for your time. I'll debrief you after your first day of interrogation.</em>\u000a\u000a[[Disconnect.|itw disconnect]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">Thank you for your time. I'll debrief you after each day of inspection to see what you've learned and discuss whatever comes up.</em>\u000a\u000a[[Disconnect.|itw disconnect]]
 p484
 sg23
 Vitw day 1m approval
@@ -1578,13 +1578,13 @@ p485
 sg25
 g26
 ((I2014
-I7
-I29
-I11
-I47
+I8
+I4
 I15
-I1
-I210
+I45
+I41
+I0
+I216
 I1
 tp486
 (dp487
@@ -1620,7 +1620,7 @@ Tiddler
 p497
 (dp498
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">Yes, but the law states that as an Inspector for the Bureau of Economic Assessment and Rehabilitation, you have special privileges with regard to lawbreakers.\u000a\u000aWhen the New Collective radicals chose to violently oppose the legitimate political order of their society, they also chose to forfeit that society's protection and renounced their identity as citizens. This is not a gray area, Inspector. They understood the risks.</em>\u000a\u000a[[Don't even prisoners have certain rights?|itw day 1m 30th]]\u000a\u000a[[That sounds a bit draconian, sir.|itw day 1m social contract]]\u000a\u000a[[Makes sense to me.|itw day 1m approval]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">Yes, but the law states that as an Inspector for the Bureau of Economic Assessment and Rehabilitation, you have special privileges where lawbreakers are concerned.\u000a\u000aWhen the New Collective radicals chose to violently oppose the legitimate political order of their society, they also chose to forfeit that society's protection and renounced their identity as citizens. This is not a gray area, Inspector. They understood the risks.</em>\u000a\u000a[[Don't even prisoners have certain rights?|itw day 1m 30th]]\u000a\u000a[[That sounds a bit draconian, sir.|itw day 1m social contract]]\u000a\u000a[[Makes sense to me.|itw day 1m approval]]
 p499
 sg23
 Vitw day 1m individual
@@ -1628,13 +1628,13 @@ p500
 sg25
 g26
 ((I2014
-I7
-I31
+I8
+I4
 I15
-I40
-I53
-I3
-I212
+I33
+I4
+I0
+I216
 I1
 tp501
 (dp502
@@ -1670,7 +1670,7 @@ Tiddler
 p512
 (dp513
 g21
-VDisconnecting.<<timedinsert 0.5s>>.<<endtimedinsert>><<timedinsert 1s>>.<<endtimedinsert>>\u000a\u000a\u000a<<timedinsert 2s>>Returning to Bureau Inspection Interface.<<endtimedinsert>><<timedinsert 2.5s>>.<<endtimedinsert>><<timedinsert 3s>>.<<endtimedinsert>>\u000a\u000a\u000a<<timedgoto "opening hub" 5s>>
+VDISCONNECTING.<<timedinsert 0.5s>>.<<endtimedinsert>><<timedinsert 1s>>.<<endtimedinsert>>\u000a\u000a\u000a<<timedinsert 2s>>RETURNING TO BUREAU INSPECTION INTERFACE.<<endtimedinsert>><<timedinsert 2.5s>>.<<endtimedinsert>><<timedinsert 3s>>.<<endtimedinsert>>\u000a\u000a\u000a<<timedgoto "opening hub" 5s>>
 p514
 sg23
 Vitw disconnect
@@ -1678,13 +1678,13 @@ p515
 sg25
 g26
 ((I2014
-I7
-I29
-I12
-I51
+I8
+I4
 I15
-I1
-I210
+I54
+I45
+I0
+I216
 I1
 tp516
 (dp517
@@ -1720,7 +1720,7 @@ Tiddler
 p527
 (dp528
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">They based it on the previous proposals. Of course, it had to be watered down. Anything involving "improper use of technology", as they say, was under heavy scrutiny. The Bureau for Telecomunications and Infrastructure didn't want any more work, I guess.\u000a\u000aElectric shocks and use of hyperbar devices are back. Can't say the same for direct physical impacts. I guess it doesn't really fit a world where everybody has access to a camera at any given moment, right?</em>\u000a\u000a[[Cameras?|itw day 1m joke]]\u000a\u000a[[Sure. If we step over the line, we should be held accountable.|itw day 1m joke]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">They based it on the previous proposals. Of course, it had to be watered down. Anything involving "improper use of technology", as they say, was under heavy scrutiny. The Bureau of Telecomunications and Infrastructure didn't want any more work, I guess.\u000a\u000aElectric shocks and use of hyperbar devices are back. Can't say the same for direct physical impacts. I guess it doesn't really fit a world where everybody has access to a camera at any given moment, right?</em>\u000a\u000a[[Cameras?|itw day 1m joke]]\u000a\u000a[[Sure. If we step over the line, we should be held accountable.|itw day 1m joke]]
 p529
 sg23
 Vitw day 1m extensive
@@ -1728,13 +1728,13 @@ p530
 sg25
 g26
 ((I2014
-I7
-I31
-I14
-I38
-I2
-I3
-I212
+I8
+I4
+I15
+I53
+I36
+I0
+I216
 I1
 tp531
 (dp532
@@ -1820,7 +1820,7 @@ Tiddler
 p557
 (dp558
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">It's almost time for you to get to work. Anything else you'd like to ask me?</em>\u000a\u000a<<nobr>>\u000a<<if $day1_interview_iq == false>>\u000a[[Is there anything in particular I should know about the suspect, sir?|itw day 1m warning][$day1_interview_iq = true]]<br><br>\u000a<<endif>>\u000a<<if $day1_interview_directive == false>>\u000a[[You mentioned a new government directive.|itw day 1m directive][$day1_interview_directive = true]]<br>\u000a<br>\u000a<<endif>>\u000a<<if $day1_interview_room == false>>\u000a[[Has anyone else used this room for interrogations?|itw day 1m room][$day1_interview_room = true]]<br>\u000a<br>\u000a<<endif>>\u000a[[Nothing else, sir.|itw day 1m approval]]\u000a<<endnobr>>
+VAGENT M506\u000a- - - -\u000a<em class="manager">It's almost time for you to get to work. Anything else you'd like to ask me?</em>\u000a\u000a<<nobr>>\u000a<<if $day1_interview_iq == false>>\u000a[[Is there anything in particular I should know about the suspect, sir?|itw day 1m warning][$day1_interview_iq = true]]<br><br>\u000a<<endif>>\u000a<<if $day1_interview_directive == false>>\u000a[[You mentioned a new government directive.|itw day 1m directive][$day1_interview_directive = true]]<br>\u000a<br>\u000a<<endif>>\u000a<<if $day1_interview_room == false>>\u000a[[Has anyone else used this room for inspections?|itw day 1m room][$day1_interview_room = true]]<br>\u000a<br>\u000a<<endif>>\u000a[[Nothing else, sir.|itw day 1m approval]]\u000a<<endnobr>>
 p559
 sg23
 Vitw day 1m else
@@ -1828,13 +1828,13 @@ p560
 sg25
 g26
 ((I2014
-I7
-I31
+I8
+I4
 I15
-I45
-I13
-I3
-I212
+I34
+I27
+I0
+I216
 I1
 tp561
 (dp562
@@ -2782,7 +2782,7 @@ Tiddler
 p848
 (dp849
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">They're long gone.</em>\u000a\u000a[[Yes, they are.|3s return]]\u000a\u000a[[Good riddance.|3s return][$opinion--]]\u000a\u000a<<if $newCollectiveConvo neq 2>><<set $newCollectiveConvo to 1>>[[You've got ties to the New Collective.|newCollective 1][$newCollectiveConvo = 2]]<<endif>>
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>><em class="suspect">They're long gone.</em><<endtimedinsert>>\u000a\u000a<<timedinsert 4.5s>><<display 'conversation hub'>><<endtimedinsert>>
 p850
 sg23
 Vriots 7
@@ -2792,9 +2792,9 @@ g26
 ((I2014
 I8
 I4
-I11
-I12
-I13
+I15
+I56
+I53
 I0
 I216
 I1
@@ -3086,7 +3086,7 @@ Tiddler
 p940
 (dp941
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $opinion < 2 or $torture > 0>><em class="suspect">Yes.</em>\u000a<<else>><em class="suspect">It hasn't helped. We've done the research.</em>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[The law is the law.|3s return][$opinion--]]\u000a\u000a[[People hear what they want to hear.|3s return][$opinion--]]\u000a\u000a[[The government's done its research too.|job 8]]
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $opinion < 2 or $torture > 0>>\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>><em class="suspect">(No response recorded.)</em><<endtimedinsert>>\u000a<<else>><em class="suspect">It hasn't helped. We've done the research.</em>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[The law is the law.|3s return][$opinion--]]\u000a\u000a[[People hear what they want to hear.|3s return][$opinion--]]\u000a\u000a[[The government's done its research too.|job 8]]
 p942
 sg23
 Vjob 6
@@ -3096,9 +3096,9 @@ g26
 ((I2014
 I8
 I4
-I11
-I12
-I41
+I15
+I59
+I19
 I0
 I216
 I1
@@ -4118,7 +4118,7 @@ Tiddler
 p1256
 (dp1257
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">I understand it. Can't speak it at all though.</em>\u000a\u000a<<timedinsert 1.5s>><html><em class="suspect">Family didn't want me to study it. Wanted me to assimilate.</em></html><<endtimedinsert>>\u000a\u000a<<timedinsert 3.5s>>[[Did they want you to go into law?|family 5]]<<endtimedinsert>>
+VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">I understand it. Can't speak it at all though.</em>\u000a\u000aFamily didn't want me to study it. Wanted me to assimilate.\u000a\u000a[[Did they want you to go into law?|family 5]]
 p1258
 sg23
 Vfamily 4
@@ -4126,13 +4126,13 @@ p1259
 sg25
 g26
 ((I2014
-I7
-I29
-I12
-I45
-I17
-I1
-I210
+I8
+I4
+I15
+I39
+I11
+I0
+I216
 I1
 tp1260
 (dp1261
@@ -5186,7 +5186,7 @@ Tiddler
 p1580
 (dp1581
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<timedremove 0.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 2s>><em class="suspect">Especially now.</em><<endtimedinsert>>\u000a<<timedinsert 4s>><<display 'conversation hub'>><<endtimedinsert>>
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 0.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 2s>><em class="suspect">Especially now.</em><<endtimedinsert>><<timedinsert 4s>>\u000a\u000a<<display 'conversation hub'>><<endtimedinsert>>
 p1582
 sg23
 Vpersonal 1 a 3
@@ -5196,9 +5196,9 @@ g26
 ((I2014
 I8
 I4
-I10
-I59
-I51
+I16
+I41
+I35
 I0
 I216
 I1
@@ -5843,7 +5843,7 @@ I00
 sg15
 (lp1781
 F1550.0
-aF2250.0
+aF2390.0
 asg17
 (itiddlywiki
 Tiddler
@@ -6100,7 +6100,7 @@ Tiddler
 p1857
 (dp1858
 g21
-VAGENT M506 is now connected.\u000a- - - -\u000a<em class="manager">Welcome back, Inspector.\u000a\u000aI'm sure you've had an interesting interview with our suspect. Any information you've extracted that could be relevant to our priorities?</em>\u000a\u000a[[He has interesting views on our system, to say the least.|db 1 politics]]\u000a\u000a[[He's been through some rough times.|db 1 personal]]\u000a\u000a[[I've started to piece out some intelligence regarding James Hewes.|db 1 intel]]\u000a\u000a<<if $torture > 1>>[[That new directive is... interesting.|db 1 torture]]<<endif>>
+VAGENT M506 is now connected.\u000a- - - -\u000a<em class="manager">Welcome back, Inspector.\u000a\u000aI'm sure you've had an enlightening interview with our suspect. Any information you've extracted that could be relevant to our priorities?</em>\u000a\u000a[[He has interesting views on our system, to say the least.|db 1 politics]]\u000a\u000a[[He's been through some rough times.|db 1 personal]]\u000a\u000a[[I've started to piece out some intelligence regarding James Hewes.|db 1 intel]]\u000a\u000a<<if $torture > 1>>[[That new directive is... interesting.|db 1 torture]]<<endif>>
 p1859
 sg23
 Vdb 1 hub
@@ -6108,13 +6108,13 @@ p1860
 sg25
 g26
 ((I2014
-I7
-I30
-I15
-I26
-I9
-I2
-I211
+I8
+I4
+I16
+I44
+I0
+I0
+I216
 I1
 tp1861
 (dp1862
@@ -6354,7 +6354,7 @@ Tiddler
 p1934
 (dp1935
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">He's had a rough time? Is he crippled? An orphan? Some ethnic or sexual minority?</em>\u000a\u000a[[I meant the circumstances of his arrest, Manager.|db 1 arrest]]<<if $family is 2>> Although [[he is an immigrant.|db 1 family]]<<endif>>\u000a\u000a[[He might be overly dramatizing it.|db 1 politics ccl]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">He's had a rough time? Is he crippled? An orphan? Some ethnic or sexual minority?</em>\u000a\u000a[[He might be overly dramatizing it.|db 1 politics ccl]]\u000a\u000a[[I meant the circumstances of his arrest, sir.|db 1 arrest]]<<if $familyConvo is 2>><br><br>[[I'm not sure, but I do know he's the son of immigrants.|db 1 family]]<<endif>>
 p1936
 sg23
 Vdb 1 personal
@@ -6362,13 +6362,13 @@ p1937
 sg25
 g26
 ((I2014
-I7
-I30
-I15
-I18
-I47
-I2
-I211
+I8
+I4
+I16
+I37
+I39
+I0
+I216
 I1
 tp1938
 (dp1939
@@ -6406,7 +6406,7 @@ Tiddler
 p1950
 (dp1951
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">Well, let's hear it.</em>\u000a\u000a<<nobr>>\u000a<<if $hKnow_intel == 1>>\u000a[[Turns out that he actually met James Hewes, a long time ago.|db 1 intel hKnow][$hKnow_intel = 2]]<br><br>\u000a<<endif>>\u000a<<if $hThink_intel == 1>>\u000a[[He doesn't seem to respect Hewes that much.|db 1 intel hThink][$hThink_intel = 2]]<br><br>\u000a<<endif>>\u000a<<if $hOpinion_intel == 1>>\u000a[[He says Hewes thinks well of him.|db 1 intel hOpinion][$hOpinion_intel = 2]]\u000a<<endif>>\u000a<<endnobr>>
+VAGENT M506\u000a- - - -\u000a<em class="manager">Well, let's hear it.</em>\u000a\u000a<<nobr>>\u000a<<if $hKnow_intel == 1>>\u000a[[Turns out that he actually met James Hewes, a long time ago.|db 1 intel hKnow][$hKnow_intel = 2]]<br><br>\u000a<<else if $hThink_intel == 1>>\u000a[[He doesn't seem to respect Hewes that much.|db 1 intel hThink][$hThink_intel = 2]]<br><br>\u000a<<else if $hOpinion_intel == 1>>\u000a[[He says Hewes thinks well of him.|db 1 intel hOpinion][$hOpinion_intel = 2]]\u000a<<else>>\u000a[[Never mind, sir.|db 1 intel]]\u000a<<endif>>\u000a<<endnobr>>
 p1952
 sg23
 Vdb 1 intel crucial
@@ -6414,13 +6414,13 @@ p1953
 sg25
 g26
 ((I2014
-I7
-I31
-I11
-I26
-I37
-I3
-I212
+I8
+I4
+I16
+I20
+I23
+I0
+I216
 I1
 tp1954
 (dp1955
@@ -6510,7 +6510,7 @@ Tiddler
 p1982
 (dp1983
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">I'm glad to see you've taken the opportunity to put the new directive to good use. You are now one of the public servants who will prove that, sometimes, common sense isn't the best option.</em>\u000a\u000a[[The suspect seems to be responding fairly well to physical encouragements.|db 1 torture a]]\u000a\u000a[[I have yet to witness significant changes in the suspect's behavior.|db 1 torture b]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">I'm glad to see you've taken the opportunity to put the new directive to good use. You're going to be one of the bold public servants who proves that sometimes, the hard choice is the right one.</em>\u000a\u000a[[The suspect seems to be responding fairly well to physical encouragement.|db 1 torture a]]\u000a\u000a[[I have yet to witness significant changes in the suspect's behavior.|db 1 torture b]]
 p1984
 sg23
 Vdb 1 torture
@@ -6518,13 +6518,13 @@ p1985
 sg25
 g26
 ((I2014
-I7
-I30
-I15
-I5
-I28
-I2
-I211
+I8
+I4
+I16
+I52
+I31
+I0
+I216
 I1
 tp1986
 (dp1987
@@ -6562,7 +6562,7 @@ Tiddler
 p1998
 (dp1999
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">Well, let him have his petty resentment. I've seen plenty of pro-whatever activists who can only point out the newest problem of the week, as if it were some great hideous evil they'd been battling all their lives.\u000a\u000aAnd yet, at the end of the day, I've seen them walk away, get in their car, sit on their couch, turn on their TV and wait, like any other brave little everyman.</em>\u000a\u000a[[He's just an annoyed dog. We'll see how much he barks once he starts getting hungry.|db 1 politics 1 a]]\u000a\u000a[[Not this one. He knows what he's saying.|db 1 politics 1 b]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">Well, let him have his petty resentment. I've seen plenty of pro-whatever activists who treat every problem they see as some hideous evil they've been battling all their lives.\u000a\u000aBut then, at the end of the day, they walk away, get in their car, sit on their couches, turn on their TVs, and wait, like any other brave little everyman.</em>\u000a\u000a[[He's just an irritated little watchdog. We'll see how much he barks once he starts getting hungry.|db 1 politics 1 a]]\u000a\u000a[[Not this one. He knows what he's saying.|db 1 politics 1 b]]
 p2000
 sg23
 Vdb 1 politics 1
@@ -6570,13 +6570,13 @@ p2001
 sg25
 g26
 ((I2014
-I7
-I30
-I15
-I28
-I41
-I2
-I211
+I8
+I4
+I16
+I46
+I10
+I0
+I216
 I1
 tp2002
 (dp2003
@@ -6614,7 +6614,7 @@ Tiddler
 p2014
 (dp2015
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">I'm not sure that would be directly relevant to our mission, Inspector. Yet I'm willing to hear you out.</em>\u000a\u000a<<nobr>>\u000a<<if $job_intel == 1>>\u000a[[I found out a bit more about his job as a Legal Analyst for the Boston Legal Center.|db 1 intel job][$job_intel = 2]]<br><br>\u000a<<endif>>\u000a<<if $pearl_intel == 1>>\u000a[[He was part of the Pearl Street riots.|db 1 intel pearl][$pearl_intel = 2]]<br><br>\u000a<<endif>>\u000a<<if $family_intel == 1>>\u000a[[Did you know he's the son of Russian immigrants?|db 1 intel family][$family_intel = 2]]\u000a<<endif>>\u000a<<endnobr>>
+VAGENT M506\u000a- - - -\u000a<em class="manager">I'm not sure that would be directly relevant to our mission, Inspector. Yet I'm willing to hear you out.</em>\u000a\u000a<<nobr>>\u000a<<if $job_intel == 1>>\u000a[[I found out a bit more about his job as a Legal Analyst for the Boston Legal Center.|db 1 intel job][$job_intel = 2]]<br><br>\u000a<<else if $pearl_intel == 1>>\u000a[[He was part of the Pearl Street riots.|db 1 intel pearl][$pearl_intel = 2]]<br><br>\u000a<<else if $family_intel == 1>>\u000a[[Did you know he's the son of Russian immigrants?|db 1 intel family][$family_intel = 2]]\u000a<<else if $hHow_intel == 1 or $hThink_intel == 1 or $hOpinion_intel == 1>>\u000a[[I learned some things about Hewes that might prove useful.|db 1 intel crucial]]\u000a<<else>>\u000a[[Actually, never mind.|db 1 end]]\u000a<<endif>>\u000a<<endnobr>>
 p2016
 sg23
 Vdb 1 intel non crucial
@@ -6622,13 +6622,13 @@ p2017
 sg25
 g26
 ((I2014
-I7
-I31
-I11
-I26
-I52
-I3
-I212
+I8
+I4
+I16
+I29
+I35
+I0
+I216
 I1
 tp2018
 (dp2019
@@ -6666,7 +6666,7 @@ Tiddler
 p2030
 (dp2031
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">Then I trust you won't pay any heed to his diatribes against us. People have an incredible tendency to place the responsibility for all their problems squarely on the shoulders of officials whose elections they didn't even vote in.\u000a\u000aIt's so easy to blame others and pretend you've been right all along.</em>\u000a\u000a[[Well, he can only blame himself for the position he's in.|db 1 politics 1 a 1]]\u000a\u000a[[We're still the ones who put him in that position.|db 1 politics 1 a 2]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">Then I trust you won't pay any heed to his diatribes against us. People have an incredible tendency to place the responsibility for all their problems squarely on the shoulders of officials whose elections they didn't even vote in.\u000a\u000aIt's the easiest thing in the world to blame others and pretend you've been right all along, whatever you actually did in the past.</em>\u000a\u000a[[Well, he has only himself to blame for the position he's in now.|db 1 politics 1 a 1]]\u000a\u000a[[We're still the ones who put him in that position.|db 1 politics 1 a 2]]
 p2032
 sg23
 Vdb 1 politics 1 a
@@ -6674,13 +6674,13 @@ p2033
 sg25
 g26
 ((I2014
-I7
-I30
-I15
-I23
-I15
-I2
-I211
+I8
+I4
+I16
+I47
+I5
+I0
+I216
 I1
 tp2034
 (dp2035
@@ -6718,7 +6718,7 @@ Tiddler
 p2046
 (dp2047
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">We expected him to be smart. Such a procedure would be harder to conduct with someone who didn't benefit from our current suspect's... mental agility. Don't take it as a threat, take it as a challenge.\u000a\u000aAnd remember: the higher they stand, the harder they fall.</em>\u000a\u000a[[He doesn't need to fall. Just Hewes, right?|db 1 politics ccl]]\u000a\u000a<<if $torture >= 2>>[[I'll be here to push him as far as he needs to go.|db 1 torture]]<<endif>>
+VAGENT M506\u000a- - - -\u000a<em class="manager">We expected him to be smart. Such a procedure would be harder to conduct with someone who didn't benefit from our current suspect's mental agility. He can't pose a threat to you, so just take it as a challenge.\u000a\u000aAnd remember: the higher they stand, the harder they fall.</em>\u000a\u000a[[He doesn't need to fall. Just Hewes, right?|db 1 politics ccl]]\u000a\u000a<<if $torture >= 2>>[[I'll be here to push him as far as he needs to go.|db 1 torture]]<<endif>>
 p2048
 sg23
 Vdb 1 politics 1 b
@@ -6726,13 +6726,13 @@ p2049
 sg25
 g26
 ((I2014
-I7
+I8
+I4
+I16
+I51
 I30
-I15
-I29
-I44
-I2
-I211
+I0
+I216
 I1
 tp2050
 (dp2051
@@ -6770,7 +6770,7 @@ Tiddler
 p2062
 (dp2063
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">This is what happens when you take a gullible personality, a privileged upbringing, and over-education and mix it together with senseless dreams of hope and better places. There are no utopias in this world, let me tell you that.<<nobr>><<if $politicsConvo is 2>><br>\u000a<br>The only way to make our society better is to start taking matters in our own hands and making more efficient decisions. That's why the people approved of Carson Group v. US.<<endif>><<endnobr>></em>\u000a\u000a[[If individuals want freedom so much, then give them responsibility.|db 1 politics ccl]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">This is what happens when you mix a gullible personality, a privileged upbringing, and an excess of education. Whatever he may believe, there are no utopias in this world, let me tell you that.<<nobr>><<if $politicsConvo is 2>><br>\u000a<br>The only way to make our society better is to start taking matters in our own hands and making more efficient decisions. That's why the the Court voted the way it did on the Carson Group case.<<endif>><<endnobr>></em>\u000a\u000a[[If individuals want freedom so much, then give them responsibility.|db 1 politics ccl]]
 p2064
 sg23
 Vdb 1 politics 1 a 1
@@ -6778,13 +6778,13 @@ p2065
 sg25
 g26
 ((I2014
-I7
-I30
-I15
-I29
-I5
-I2
-I211
+I8
+I4
+I16
+I48
+I18
+I0
+I216
 I1
 tp2066
 (dp2067
@@ -6822,7 +6822,7 @@ Tiddler
 p2078
 (dp2079
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">Did we?\u000a\u000aOr did we just apply the law?\u000a\u000aThis law is in place for certain reasons, and is part of a greater legal system which, to my knowledge, still allows overrulings and discussion of legal issues. No need to go around kidnapping people and setting things on fire.</em>\u000a\u000a[[At least he won't be doing that for the next forty-eight hours.|db 1 politics ccl]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">We're agents of the law, Inspector. We serve a legal system which, to my knowledge, still allows free speech and reversal of precedents. If he wants to fight that, he should do so in a legal manner, not help anarchists abduct people and blow up buildings.</em>\u000a\u000a[[At least he won't be doing that for the next forty-eight hours.|db 1 politics ccl]]
 p2080
 sg23
 Vdb 1 politics 1 a 2
@@ -6830,13 +6830,13 @@ p2081
 sg25
 g26
 ((I2014
-I7
-I30
-I14
-I58
-I47
+I8
+I4
+I16
+I51
 I2
-I211
+I0
+I216
 I1
 tp2082
 (dp2083
@@ -6874,7 +6874,7 @@ Tiddler
 p2094
 (dp2095
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">I'm glad to see we're on the same page. Should we move this debriefing along and get down to the facts?</em>\u000a\u000a[[Yes, sir.|db 1 intel]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">I'm glad to see we're on the same page. Let's move this debriefing along and get down to the facts.</em>\u000a\u000a[[Yes, sir.|db 1 intel]]
 p2096
 sg23
 Vdb 1 politics ccl
@@ -6882,13 +6882,13 @@ p2097
 sg25
 g26
 ((I2014
-I7
-I30
-I14
-I59
-I56
-I2
-I211
+I8
+I4
+I16
+I48
+I42
+I0
+I216
 I1
 tp2098
 (dp2099
@@ -6926,7 +6926,7 @@ Tiddler
 p2110
 (dp2111
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">Arrests like these have been made for the past eighty years, Inspector. It's only because lawyers are now under the same treatment as the rest of the population that they've started to say that a system which has benefited them greatly is now corrupt and soulless.</em>\u000a\u000a[[He's an immigrant. I'm sure he's already familiar with police brutality.|db 1 family]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">Arrests like these have been made for the past eighty years, Inspector. It's only when lawyers are treated the same way as the rest of the population that they  start to complain about the system.</em>\u000a\u000a[[He's the son of immigrants. I'm sure he's seen his share of police brutality.|db 1 family]]
 p2112
 sg23
 Vdb 1 arrest
@@ -6934,13 +6934,13 @@ p2113
 sg25
 g26
 ((I2014
-I7
-I30
-I15
-I0
-I49
+I8
+I4
+I16
 I2
-I211
+I14
+I0
+I216
 I1
 tp2114
 (dp2115
@@ -6978,7 +6978,7 @@ Tiddler
 p2126
 (dp2127
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">What difference does it make if he's an immigrant? In the eyes of the BEAR, he's just another citizen. He's no better or worse than someone who happened to be born here.\u000a\u000aIf police brutality against immigrants were ever a phenomenon, then I'd like to remind you that these were cases of irrational xenophobia and their perpetrators have been duly punished. Need I remind you that this whole experiment is dedicated to removing you from any bias that you might have regarding the suspect?</em>\u000a\u000a[[I'll do my best to make it so, Manager.|db 1 politics ccl]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">We don't care where his parents are from. In the eyes of the BEAR, he's just another citizen, no better or worse than someone whose family came over on the Mayflower. Need I remind you that this whole process has been specifically set up to remove any bias you might have regarding the suspect?</em>\u000a\u000a[[I'll do my best to make it so, sir.|db 1 politics ccl]]
 p2128
 sg23
 Vdb 1 family
@@ -6986,13 +6986,13 @@ p2129
 sg25
 g26
 ((I2014
-I7
-I30
-I15
-I3
-I9
-I2
-I211
+I8
+I4
+I16
+I35
+I42
+I0
+I216
 I1
 tp2130
 (dp2131
@@ -7030,7 +7030,7 @@ Tiddler
 p2142
 (dp2143
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">I'm glad to hear that. Your next task will then be to determine what's plausible intelligence and what's meaningless dross intended to misdirect our efforts and evade physical encouragement. In the worst case, we'll at least get some data to submit to the Prison Center for Health and Nutrition.</em>\u000a\u000a[[I'm glad to be of help, Manager.|db 1 politics ccl]]\u000a\u000a[[We've gotten useful information from the process already.|db 1 intel]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">I'm glad to hear that. Your next task will then be to determine what's plausible intelligence and what's meaningless dross intended to misdirect our efforts and evade further encouragement. In the worst case, we'll at least get some data to submit to the Prison Center for Health and Nutrition.</em>\u000a\u000a[[I'm glad to be of help, sir.|db 1 politics ccl]]\u000a\u000a[[The process has already yielded some useful information.|db 1 intel]]
 p2144
 sg23
 Vdb 1 torture a
@@ -7038,13 +7038,13 @@ p2145
 sg25
 g26
 ((I2014
-I7
-I30
-I15
-I33
+I8
+I4
 I16
-I2
-I211
+I53
+I29
+I0
+I216
 I1
 tp2146
 (dp2147
@@ -7082,7 +7082,7 @@ Tiddler
 p2158
 (dp2159
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">Don't worry, it takes time. We are just initiating the procedure, so it might take a couple sessions for the psychological effects to be as noticeable as the physiological.</em>\u000a\u000a[[Very well.|db 1 politics ccl]]\u000a\u000a[[I... don't think they're that efficient.|db 1 torture b 1]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">Don't worry, it takes time. The procedure is fairly new, so it might take a couple sessions for the psychological effects to be as noticeable as the physiological.</em>\u000a\u000a[[Very well.|db 1 politics ccl]]\u000a\u000a[[I... don't think it's that efficient, to be perfectly honest.|db 1 torture b 1]]
 p2160
 sg23
 Vdb 1 torture b
@@ -7090,13 +7090,13 @@ p2161
 sg25
 g26
 ((I2014
-I7
-I30
-I15
-I7
-I9
-I2
-I211
+I8
+I4
+I16
+I53
+I59
+I0
+I216
 I1
 tp2162
 (dp2163
@@ -7134,7 +7134,7 @@ Tiddler
 p2174
 (dp2175
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">Sadly, you're not employed to think on these matters, Inspector. Especially with so little first-hand knowledge.</em>\u000a\u000a[[I will not continue to torture that person.|db 1 torture no]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">Sadly, you're not employed to think on these matters, Inspector. Especially with so little first-hand knowledge.</em>\u000a\u000a[[I will not continue to torture that person.|db 1 torture no]]\u000a\u000a[[Right. Well, let me report what I've learned so far.|db 1 intel]]
 p2176
 sg23
 Vdb 1 torture b 1
@@ -7142,13 +7142,13 @@ p2177
 sg25
 g26
 ((I2014
-I7
-I29
-I17
+I8
 I4
+I16
+I54
+I40
 I0
-I1
-I210
+I216
 I1
 tp2178
 (dp2179
@@ -7186,7 +7186,7 @@ Tiddler
 p2190
 (dp2191
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">You will continue your job, and complete your assigned task as requested, or I'm afraid you will face prompt relocation.\u000a\u000aNow, let's discuss about what you've actually learned.</em>\u000a\u000a[[Yes, let's.|db 1 intel]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">You will continue your job and complete your assigned task, or demerits will be the least of your worries. Am I making myself understood?</em>\u000a\u000a<<timedinsert 3s>><em class="manager">Now, let's discuss what you've actually learned.</em><<endtimedinsert>><<timedinsert 5s>>\u000a\u000a[[Yes, let's.|db 1 intel]]<<endtimedinsert>>
 p2192
 sg23
 Vdb 1 torture no
@@ -7194,13 +7194,13 @@ p2193
 sg25
 g26
 ((I2014
-I7
-I30
-I15
 I8
-I20
-I2
-I211
+I4
+I16
+I56
+I52
+I0
+I216
 I1
 tp2194
 (dp2195
@@ -7238,7 +7238,7 @@ Tiddler
 p2206
 (dp2207
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">I'm listening.</em>\u000a\u000a<<nobr>>\u000a<<if $hHow_intel == 1 or $hThink_intel == 1 or $hOpinion_intel == 1>>\u000a[[I've discovered some information that might put us on the right track.|db 1 intel crucial]]<br><br>\u000a<<endif>>\u000a<<if $job_intel == 1 or $pearl_intel == 1 or $family_intel == 1>>\u000a[[I've learned quite a bit about him.|db 1 intel non crucial]]\u000a<<endif>>\u000a<<if $hHow_intel neq 1 and $hThink_intel neq 1 and $hOpinion_intel neq 1 and $job_intel neq 1 and $pearl_intel neq 1 and $family_intel neq 1>>[[That's all, Manager.|db 1 end]]<<endif>>\u000a<<endnobr>>
+VAGENT M506\u000a- - - -\u000a<em class="manager">I'm listening.</em>\u000a\u000a<<nobr>>\u000a<<if $hHow_intel == 1 or $hThink_intel == 1 or $hOpinion_intel == 1>>\u000a[[He said some things about Hewes that might put us on the right track.|db 1 intel crucial]]<br><br>\u000a<<endif>>\u000a<<if $job_intel == 1 or $pearl_intel == 1 or $family_intel == 1>>\u000a[[I've learned quite a bit about his personal history.|db 1 intel non crucial]]\u000a<<endif>>\u000a<<if $hHow_intel neq 1 and $hThink_intel neq 1 and $hOpinion_intel neq 1 and $job_intel neq 1 and $pearl_intel neq 1 and $family_intel neq 1>>[[Actually, I didn't learn much today, sir.|db 1 end]]<<endif>>\u000a<<endnobr>>
 p2208
 sg23
 Vdb 1 intel
@@ -7246,13 +7246,13 @@ p2209
 sg25
 g26
 ((I2014
-I7
-I31
-I12
+I8
+I4
+I16
+I34
+I43
 I0
-I12
-I3
-I212
+I216
 I1
 tp2210
 (dp2211
@@ -7446,7 +7446,7 @@ Tiddler
 p2270
 (dp2271
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">So they met during Hewes' 2034 trial? I can barely remember a world where those so-called political activists could escape a democratic and fair trial. If he was his lawyer - was private legal counsel still legitimate at that time? - then he probably knows more about what Hewes was up to then. And what he's up to now.</em>\u000a\u000a[[I'll make sure to look into that tomorrow.|db 1 end]]\u000a\u000a[[There's something else I've found out.|db 1 intel]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">So they met during Hewes' 2034 trial? I can barely remember a world where those so-called political activists could escape a democratic and fair trial. If he was involved with Hewes' case, then he probably knows more about what the man was up to then. And what he's up to now.\u000a\u000aWhat else?</em>\u000a\u000a<<nobr>>\u000a<<if $hThink_intel == 1>>\u000a[[He doesn't seem to respect Hewes that much.|db 1 intel hThink][$hThink_intel = 2]]<br><br>\u000a<<else if $hOpinion_intel == 1>>\u000a[[He says Hewes thinks well of him.|db 1 intel hOpinion][$hOpinion_intel = 2]]\u000a<<else if $job_intel == 1 or $pearl_intel == 1 or $family_intel == 1>>\u000a[[I've learned quite a bit about his personal history.|db 1 intel non crucial]]\u000a<<else>>\u000a[[That's all, sir.|db 1 end]]\u000a<<endif>>\u000a<<endnobr>>
 p2272
 sg23
 Vdb 1 intel hKnow
@@ -7454,13 +7454,13 @@ p2273
 sg25
 g26
 ((I2014
-I7
-I30
+I8
+I4
+I16
+I25
 I15
-I13
-I2
-I2
-I211
+I0
+I216
 I1
 tp2274
 (dp2275
@@ -7498,7 +7498,7 @@ Tiddler
 p2286
 (dp2287
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">I must admit, Inspector, I don't think we antipicated interrogating someone who has the admiration of James Hewes. The man is known to be so full of himself, he is his cause's worst enemy. Have you figured out what is it that he admires so much?\u000a\u000aDo so, and we will know a lot more about Hewes' mindset.\u000a\u000aAnything else you wanted to tell me?</em>\u000a\u000a[[That's all.|db 1 end]]\u000a\u000a[[There's something else I've found out.|db 1 intel]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">I can't say I anticipated that, Inspector. James Hewes is known to be so full of himself, I don't imagine him as having too high an opinion of anyone else.\u000a\u000aHave you figured out what is it that he admires so much about the suspect? If you can, we'll have a much better understanding of Hewes' mindset.\u000a\u000aAnything else you wanted to tell me?</em>\u000a\u000a[[That's all.|db 1 end]]\u000a\u000a[[There's something else I've found out.|db 1 intel]]
 p2288
 sg23
 Vdb 1 intel hOpinion
@@ -7506,13 +7506,13 @@ p2289
 sg25
 g26
 ((I2014
-I7
-I30
-I15
-I15
-I20
-I2
-I211
+I8
+I4
+I16
+I18
+I35
+I0
+I216
 I1
 tp2290
 (dp2291
@@ -7550,7 +7550,7 @@ Tiddler
 p2302
 (dp2303
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">Interesting. I wouldn't have expected our detainee to know so much about Hewes and yet hold him in low esteem. And yet, that doesn't mean they aren't collaborating to fight against us.\u000a\u000aMore and more, it seems like the government, our government, is becoming the easiest target for them to aim at. No one asks whether there could be another source to whatever their problem is.\u000a\u000aAnyway, be on the lookout for any more information regarding their relationship. You might trigger something that will lead him to give us Hewes, intentionally or not.</em>\u000a\u000a[[I'll make sure to look into that tomorrow.|db 1 end]]\u000a\u000a[[There's something else I've found out.|db 1 intel]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">Interesting. I wouldn't have expected our detainee to know so much about Hewes and yet hold him in low esteem. And yet, they're still collaborating against us.\u000a\u000aIt seems like the government is the go-to target for these idiots. No one asks whether there could possibly be another source for their problems.\u000a\u000aAnyway, be on the lookout for any more information regarding their past history. You might trigger something that will lead him to give us Hewes, intentionally or not. Anything else?</em>\u000a\u000a<<nobr>>\u000a<<if $hOpinion_intel == 1>>\u000a[[He says Hewes thinks well of him.|db 1 intel hOpinion][$hOpinion_intel = 2]]\u000a<<else if $job_intel == 1 or $pearl_intel == 1 or $family_intel == 1>>\u000a[[I've learned quite a bit about his personal history.|db 1 intel non crucial]]\u000a<<else>>\u000a[[That's all, sir.|db 1 end]]\u000a<<endif>>\u000a<<endnobr>>
 p2304
 sg23
 Vdb 1 intel hThink
@@ -7558,13 +7558,13 @@ p2305
 sg25
 g26
 ((I2014
-I7
-I31
-I11
+I8
+I4
 I16
-I15
-I3
-I212
+I27
+I29
+I0
+I216
 I1
 tp2306
 (dp2307
@@ -7654,7 +7654,7 @@ Tiddler
 p2334
 (dp2335
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">I understand his family comes from Russia. You would think they would stop political activism after what happened to his country. Anything else you wanted to tell me?</em>\u000a\u000a[[That's all.|db 1 end]]\u000a\u000a[[There's something else I've found out.|db 1 intel]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">I understand his family comes from Russia. You would think they would have had enough political activism after what happened to his country under the Second Soviet. Anything else you wanted to tell me?</em>\u000a\u000a<<if $hHow_intel == 1 or $hThink_intel == 1 or $hOpinion_intel == 1>>\u000a[[I learned some things about Hewes that might prove useful.|db 1 intel crucial]]\u000a<<else>>\u000a[[That's all, sir.|db 1 end]]\u000a<<endif>>
 p2336
 sg23
 Vdb 1 intel family
@@ -7662,13 +7662,13 @@ p2337
 sg25
 g26
 ((I2014
-I7
-I30
-I13
-I21
-I54
-I2
-I211
+I8
+I4
+I16
+I34
+I17
+I0
+I216
 I1
 tp2338
 (dp2339
@@ -7706,7 +7706,7 @@ Tiddler
 p2350
 (dp2351
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">Ah, the Pearl Street riots. I wish I could say I haven't heard that name in a long time, but every single suspect in this facility seems to have been part of that anarchist get-together. For all ages, from 7 to 70 years old! You don't need ideas, just yell and throw rocks at policemen. As if we didn't work for two millennia or more so that we, as a species, as a civilization, could get past this.</em>\u000a\u000a[[Maybe there's a problem with that civilization, then?|db 1 what]]\u000a\u000a[[There's something else I've found out.|db 1 intel]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">Ah, the Pearl Street riots. I wish I could say I haven't heard that name in a long time, but every single suspect in this facility seems to have been part of that anarchist get-together. For all ages, from 7 to 70 years old! You don't need ideas, just yell and throw rocks at policemen. As if we didn't work for two millennia or more so that we, as a civilization, could get past this.</em>\u000a\u000a[[Maybe there's a problem with that civilization, then?|db 1 what]]\u000a\u000a<<if $family_intel == 1>>\u000a[[True enough, sir. I also found out he's the son of Russian immigrants.|db 1 intel family][$family_intel = 2]]\u000a<<else if $hHow_intel == 1 or $hThink_intel == 1 or $hOpinion_intel == 1>>\u000a[[True enough, sir. I also found out some things about Hewes that might prove useful.|db 1 intel crucial]]\u000a<<else>>\u000a[[True enough, sir. That's about all I learned.|db 1 end]]\u000a<<endif>>
 p2352
 sg23
 Vdb 1 intel pearl
@@ -7714,13 +7714,13 @@ p2353
 sg25
 g26
 ((I2014
-I7
-I31
-I12
-I1
-I13
-I3
-I212
+I8
+I4
+I16
+I33
+I22
+I0
+I216
 I1
 tp2354
 (dp2355
@@ -7758,7 +7758,7 @@ Tiddler
 p2366
 (dp2367
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">Yes, yes, we knew he was a legal analyst, what did you think? That we were a bunch of school boys spying on each other?</em>\u000a\u000a[[That thought never crossed my mind, sir.|db 1 end]]\u000a\u000a[[You're right. Apologies. I have other information, though.|db 1 intel]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">Yes, yes, we knew he was a legal analyst. Did you think we were a bunch of schoolboys spying on each other?</em>\u000a\u000a<<if $pearl_intel == 1>>\u000a[[No, of course not. In any case, I also learned he was part of the Pearl Street riots.|db 1 intel pearl][$pearl_intel = 2]]<br><br>\u000a<<else if $family_intel == 1>>\u000a[[No, of course not. In any case, I found out he's the son of Russian immigrants.|db 1 intel family][$family_intel = 2]]\u000a<<else if $hHow_intel == 1 or $hThink_intel == 1 or $hOpinion_intel == 1>>\u000a[[No, of course not. In any case, I learned some things about Hewes that might prove useful.|db 1 intel crucial]]\u000a<<else>>\u000a[[No, of course not. Actually, that's all I learned.|db 1 end]]\u000a<<endif>>
 p2368
 sg23
 Vdb 1 intel job
@@ -7766,13 +7766,13 @@ p2369
 sg25
 g26
 ((I2014
-I7
+I8
+I4
+I16
 I31
-I12
+I53
 I0
-I48
-I3
-I212
+I216
 I1
 tp2370
 (dp2371
@@ -8010,7 +8010,7 @@ Tiddler
 p2442
 (dp2443
 g21
-VAGENT M506\u000a- - - -\u000a<em>That was a joke, Inspector. All the cameras here are ours.</em><<timedremove 0.99s>>\u000a\u000a[[Good one, sir.|itw day 1m cameras]]\u000a\u000a[[Right, of course.|itw day 1m cameras]]<<endtimedremove>>\u000a\u000a<<timedinsert 2s>><em class="manager">Anyway.\u000a\u000aThe engineers down on the fifteenth floor have serviced your console to give you everything you need for the interrogation session. All the relevant information will be available on the console, don't worry. They've assured us that the automatic parsing and logging procedures are in place as well.\u000a\u000aYou're the first Inspector to benefit from such a setup, so please feel free to let them or me know about any difficulties you might find with the system.</em>\u000a\u000a[[I'm looking forward to using it.|itw day 1m else]]\u000a\u000a[[I'm... sure I'll get the hang of it, sir.|itw day 1m else]]\u000a\u000a[[New toys? This could be fun.|itw day 1m else]]>><<endtimedinsert>>
+VAGENT M506\u000a- - - -\u000a<em>That was a joke, Inspector. All the cameras here are ours.</em><<timedremove 1.99s>>\u000a\u000a[[Good one, sir.|itw day 1m cameras]]\u000a\u000a[[Right, of course.|itw day 1m cameras]]<<endtimedremove>>\u000a\u000a<<timedinsert 3s>><em class="manager">Anyway.</em><<endtimedinsert>><<timedinsert 4s>><em>\u000a\u000aThe engineers down on the fifteenth floor have serviced your console to give you everything you need for the interrogation session. All the relevant information will be available on the console, don't worry. They've assured us that the automatic parsing and logging procedures are in place as well.\u000a\u000aYou're the first Inspector to benefit from such a setup, so please feel free to let them or me know about any difficulties you might find with the system.</em>\u000a\u000a[[I'm looking forward to using it.|itw day 1m else]]\u000a\u000a[[I'm... sure I'll get the hang of it, sir.|itw day 1m else]]\u000a\u000a[[New toys? This could be fun.|itw day 1m else]]<<endtimedinsert>>
 p2444
 sg23
 Vitw day 1m joke
@@ -8020,9 +8020,9 @@ g26
 ((I2014
 I8
 I4
-I12
-I23
-I37
+I15
+I49
+I4
 I0
 I216
 I1
@@ -10666,7 +10666,7 @@ Tiddler
 p3254
 (dp3255
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<set $educationConvo to 2>><em class = "suspect">Quite the topic, Inspector. Always underrated. What do you want to know?</em>\u000a\u000a[[I want to know about your education.|education 2]]\u000a\u000a[[How did Hewes become what he is today?|education hewes]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Quite the topic, Inspector. Always underrated. What do you want to know?</em>\u000a\u000a[[I want to know about your education.|education 2]]\u000a\u000a[[How did Hewes become what he is today?|education hewes]]
 p3256
 sg23
 Veducation 1
@@ -10676,8 +10676,8 @@ g26
 ((I2014
 I8
 I4
-I14
-I28
+I16
+I38
 I56
 I0
 I216
@@ -10978,7 +10978,7 @@ Tiddler
 p3350
 (dp3351
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Well, I'm a 37-year-old Caucasian, about six foot thr<<timedinsert 1s>>-<<endtimedinsert>><<timedinsert 2s>>-<<endtimedinsert>> <<timedinsert 4s>>\u000a\u000a(Error: Speech cannot be parsed.)<<endtimedinsert>></em>\u000a\u000a<<timedgoto "education 2 g" 6s>>
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Well, I'm a 37-year-old Caucasian male, about six foot thr<<timedinsert 1s>>-<<endtimedinsert>><<timedinsert 2s>>-<<endtimedinsert>> <<timedinsert 4s>>\u000a\u000a(Error: Speech cannot be parsed.)<<endtimedinsert>></em>\u000a\u000a<<timedgoto "education 2 g" 6s>>
 p3352
 sg23
 Veducation 2 f
@@ -10989,8 +10989,8 @@ g26
 I8
 I4
 I15
-I13
-I31
+I30
+I5
 I0
 I216
 I1
