@@ -243,7 +243,7 @@ Tiddler
 p85
 (dp86
 g21
-VBUREAU INSPECTION INTERFACE VERSION 5.0.61a\u000a\u000aSYSTEM BOOTING UP.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>>\u000a\u000a<<timedgoto "booting up" 3s>>\u000a<<nobr>>\u000a<<set $opinion to 1>>\u000a<<set $day to 1>>\u000a<<set $torture to 0>>\u000a<<set $tortureLimit to 3>>\u000a<<set $timeleft to 300>> /% in minutes, the time remaining each day, assuming that the inspector talks with his superior in the morning and starts the interrogation at 12:00 %/\u000a<<set $hadInterview to false>>\u000a<<set $hadBriefing to false>>\u000a<<set $day1_interview_directive to false>>\u000a<<set $day1_interview_room to false>>\u000a<<set $day1_interview_iq to false>>\u000a<<set $canClockOut to false>>\u000a\u000a/% briefing variables %/\u000a<<set $summary to false>>\u000a<<set $reason to false>>\u000a\u000a/% 0 = unavailable, 1 = available, 2 = explored %/\u000a\u000a/% DAY 1 %/\u000a\u000a/% day 1 start convos %/\u000a<<set $politicsConvo to 1>>\u000a<<set $personalConvo to 1>>\u000a<<set $forcingConvo to 1>>\u000a/% day 1 unlockable convos %/\u000a<<set $familyConvo to 0>>\u000a<<set $pearlStreetConvo to 0>>\u000a<<set $jobConvo to 0>>\u000a<<set $newCollectiveConvo to 0>>\u000a<<set $leaderConvo to 0>>\u000a/% day 1 crucial intel %/\u000a<<set $hKnow_intel to 0>>\u000a<<set $hThink_intel to 0>>\u000a<<set $hOpinion_intel to 0>>\u000a/% day 1 non-crucial intel %/\u000a<<set $job_intel to 0>>\u000a<<set $pearl_intel to 0>>\u000a<<set $family_intel to 0>>\u000a\u000a\u000a/% DAY 2 %/\u000a\u000a/% day 2 start convos %/\u000a<<set $actionConvo to 1>>\u000a<<set $carsonConvo to 1>>\u000a<<set $educationConvo to 1>>\u000a/% day 2 unlockable convos %/\u000a<<set $hewesActionConvo to 0>>\u000a<<set $hewesThoughts to 0>>\u000a<<set $newCollectiveOriginsConvo to 0>>\u000a\u000a/% notes variables, organized by subject %/\u000a<<set $nSuspect to false>>\u000a<<set $nSuspect_NCTies to false>>\u000a<<set $nSuspect_Job to false>>\u000a<<set $nSuspect_Arrest to false>>\u000a<<set $nSuspect_Parents to false>>\u000a\u000a<<set $nCG to false>>\u000a<<set $nCG_Date to false>>\u000a<<set $nCG_Riots to false>>\u000a\u000a<<set $nNC to false>>\u000a<<set $nNC_Violent to false>>\u000a<<set $nNC_Leader to false>>\u000a\u000a<<set $nHewes to false>>\u000a<<set $nHewes_Leader to false>>\u000a<<set $nHewes_Whereabouts to false>>\u000a<<set $nHewes_Hacker to false>>\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a/% old stuff %/\u000a<<set $beginningOfDay to true>>\u000a<<set $conscious to true>>\u000a<<set $sleepTotal to 0>>\u000a<<set $sleepTonight to 0>>\u000a<<set $infoFound to false>>\u000a\u000a<<set $submittedWho to 0>>\u000a<<set $submittedWhere to 0>>\u000a<<set $submittedWhen to 0>>\u000a<<set $submittedHow to 0>>\u000a<<endnobr>>
+VBUREAU INSPECTION INTERFACE VERSION 5.0.61a\u000a\u000aSYSTEM BOOTING UP.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>>\u000a\u000a<<timedgoto "start login" 4s>>\u000a<<nobr>>\u000a<<set $opinion to 1>>\u000a<<set $day to 1>>\u000a<<set $torture to 0>>\u000a<<set $tortureLimit to 3>>\u000a<<set $timeleft to 300>> /% in minutes, the time remaining each day, assuming that the inspector talks with his superior in the morning and starts the interrogation at 12:00 %/\u000a<<set $hadInterview to false>>\u000a<<set $hadBriefing to false>>\u000a<<set $day1_interview_directive to false>>\u000a<<set $day1_interview_room to false>>\u000a<<set $day1_interview_iq to false>>\u000a<<set $canClockOut to false>>\u000a\u000a/% briefing variables %/\u000a<<set $summary to false>>\u000a<<set $reason to false>>\u000a\u000a/% 0 = unavailable, 1 = available, 2 = explored %/\u000a\u000a/% DAY 1 %/\u000a\u000a/% day 1 start convos %/\u000a<<set $politicsConvo to 1>>\u000a<<set $personalConvo to 1>>\u000a<<set $forcingConvo to 1>>\u000a/% day 1 unlockable convos %/\u000a<<set $familyConvo to 0>>\u000a<<set $pearlStreetConvo to 0>>\u000a<<set $jobConvo to 0>>\u000a<<set $newCollectiveConvo to 0>>\u000a<<set $leaderConvo to 0>>\u000a/% day 1 crucial intel %/\u000a<<set $hKnow_intel to 0>>\u000a<<set $hThink_intel to 0>>\u000a<<set $hOpinion_intel to 0>>\u000a/% day 1 non-crucial intel %/\u000a<<set $job_intel to 0>>\u000a<<set $pearl_intel to 0>>\u000a<<set $family_intel to 0>>\u000a\u000a\u000a/% DAY 2 %/\u000a\u000a/% day 2 start convos %/\u000a<<set $actionConvo to 1>>\u000a<<set $carsonConvo to 1>>\u000a<<set $educationConvo to 1>>\u000a/% day 2 unlockable convos %/\u000a<<set $hewesActionConvo to 0>>\u000a<<set $hewesThoughts to 0>>\u000a<<set $newCollectiveOriginsConvo to 0>>\u000a\u000a/% notes variables, organized by subject %/\u000a<<set $nSuspect to false>>\u000a<<set $nSuspect_NCTies to false>>\u000a<<set $nSuspect_Job to false>>\u000a<<set $nSuspect_Arrest to false>>\u000a<<set $nSuspect_Parents to false>>\u000a\u000a<<set $nCG to false>>\u000a<<set $nCG_Date to false>>\u000a<<set $nCG_Riots to false>>\u000a\u000a<<set $nNC to false>>\u000a<<set $nNC_Violent to false>>\u000a<<set $nNC_Leader to false>>\u000a\u000a<<set $nHewes to false>>\u000a<<set $nHewes_Leader to false>>\u000a<<set $nHewes_Whereabouts to false>>\u000a<<set $nHewes_Hacker to false>>\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a/% old stuff %/\u000a<<set $beginningOfDay to true>>\u000a<<set $conscious to true>>\u000a<<set $sleepTotal to 0>>\u000a<<set $sleepTonight to 0>>\u000a<<set $infoFound to false>>\u000a\u000a<<set $submittedWho to 0>>\u000a<<set $submittedWhere to 0>>\u000a<<set $submittedWhen to 0>>\u000a<<set $submittedHow to 0>>\u000a<<endnobr>>
 p87
 sg23
 VStart
@@ -251,13 +251,13 @@ p88
 sg25
 g26
 ((I2014
-I7
-I31
-I15
-I42
-I49
-I3
-I212
+I8
+I4
+I11
+I40
+I35
+I0
+I216
 I1
 tp89
 (dp90
@@ -336,14 +336,14 @@ I00
 sg15
 (lp114
 F10.0
-aF430.0
+aF570.0
 asg17
 (itiddlywiki
 Tiddler
 p115
 (dp116
 g21
-VOBJECTIVE: Discover the current location of James Hewes, self-proclaimed leader of the anti-government movement known as the "New Collective".\u000a\u000a<<if $summary is false>>[[SUMMARY [click to view]|briefing][$summary = true]]<<else>>SUMMARY: The Bureau of Economic Assessment and Rehabilitation has detained 1 suspect(s) for questioning. We have taken into custody Mr. [name withheld], long-time associate of known NC members. Bureau standards and protocols permit his lawful detention for the next 72 (seventy-two) hours. You may use any standard investigative techniques permitted under Bureau regulations, in accordance with Directive US-598.<<endif>>\u000a\u000a<<if $reason is false>>[[BACKGROUND [click to view]|briefing][$reason = true]]<<else>>BACKGROUND: During the past months, the anarchist anti-corporate group known as the New Collective (NC) has dramatically shifted their mode of action. No longer content with public rallies and manifestos, they have begun to attack government establishments and agents directly. They have launched cyberattacks, leaked critical security intelligence, and even physically assaulted public officials. As such, it is now a Bureau Priority 2 Task to locate and temporarily arrest James Hewes, self-proclaimed leader of this movement.<<endif>>\u000a\u000aYou will submit a report no later than //11:59 PM// on //10/23/47//. Failure to complete your objective will result in demotion and possible further reprimands.\u000a\u000aPlease click [[here|program details]] to learn more about this program.\u000a\u000aPlease click [[here|opening hub]] to begin the investigation.
+VOBJECTIVE: Discover the current location of James Hewes, self-proclaimed leader of the anti-government movement known as the New Collective (NC).\u000a\u000a<<if $summary is false>>[[SUMMARY [click to view]|briefing][$summary = true]]<<else>>SUMMARY: The Bureau of Economic Assessment and Rehabilitation has detained Mr. [name withheld], long-time associate of known NC members. Bureau standards and protocols permit his lawful detention for the next 72 (seventy-two) hours. All standard investigative techniques permitted under Bureau regulations, in accordance with Directive US-598, are cleared for use in this investigation.<<endif>>\u000a\u000a<<if $reason is false>>[[BACKGROUND [click to view]|briefing][$reason = true]]<<else>>BACKGROUND: During the past months, the anarchist anti-corporate group known as the New Collective has dramatically shifted its mode of action. No longer content with public rallies and manifestoes, they have begun to attack government establishments and agents directly. They have detonated bombs, leaked critical security intelligence, and physically assaulted public officials. As such, it is now a Bureau Priority 2 Task to locate and temporarily arrest James Hewes, self-proclaimed leader of this movement.<<endif>>\u000a\u000aYou will submit a report no later than //11:59 PM// on //10/23/47//. Failure to complete your objective will result in demotion and possible further reprimands.\u000a\u000aPlease click [[here|program details]] to learn more about this program.\u000a\u000aPlease click [[here|opening hub]] to begin the investigation.
 p117
 sg23
 Vbriefing
@@ -351,13 +351,13 @@ p118
 sg25
 g26
 ((I2014
-I7
-I31
-I13
-I41
-I51
-I3
-I212
+I8
+I4
+I12
+I2
+I42
+I0
+I216
 I1
 tp119
 (dp120
@@ -881,7 +881,7 @@ Tiddler
 p276
 (dp277
 g21
-VProgram version: 5.0.61a\u000a\u000aThe Bureau Inspection Interface (BII) was designed to optimize information gathering efficiency and provide maximum physical and moral protection for Inspectors. It provides a medium for direct questioning of suspects, and permits the application of physical encouragement procedures in accordance with Directive US-598.\u000a\u000aThe BII converts text input from the Inspector into speech audio within the suspect's cell. The suspect's verbal responses are then recorded using hidden microphones and transcribed as text for the Inspector. This removes confounding nonverbal information that might impair the Inspector's judgment, and permits Bureau oversight and analysis of all Inspector-suspect interactions.\u000a\u000aPlease click [[here|opening hub]] to begin the investigation.
+VProgram version: 5.0.61a\u000a\u000aThe Bureau Inspection Interface (BII) was designed to optimize information gathering efficiency and provide maximum physical and moral protection for Inspectors. In addition to providing standard communication affordances, this version also permits the application of physical encouragement procedures in accordance with Directive US-598.\u000a\u000aThe BII converts text input from the Inspector into speech audio within the suspect's cell. The suspect's verbal responses are then recorded using hidden microphones and transcribed as text for the Inspector. This removes confounding nonverbal information that might impair the Inspector's judgment, and permits Bureau oversight and analysis of all Inspector-suspect interactions.\u000a\u000aPlease click [[here|opening hub]] to begin the investigation.
 p278
 sg23
 Vprogram details
@@ -889,13 +889,13 @@ p279
 sg25
 g26
 ((I2014
-I7
-I29
-I15
-I42
-I15
-I1
-I210
+I8
+I4
+I11
+I55
+I11
+I0
+I216
 I1
 tp280
 (dp281
@@ -1863,28 +1863,28 @@ I00
 sg15
 (lp571
 F10.0
-aF290.0
+aF430.0
 asg17
 (itiddlywiki
 Tiddler
 p572
 (dp573
 g21
-VWelcome, Inspector.\u000a\u000aPlease click [[here|briefing]] for a briefing on the investigation.
+VWelcome, Inspector.\u000a\u000a1 new task has been assigned by your Inspection Manager.\u000a\u000aPlease click [[here|briefing]] for a task briefing.
 p574
 sg23
-Vbooting up
+Vstart welcome
 p575
 sg25
 g26
 ((I2014
 I8
-I1
-I11
-I17
-I10
 I4
-I213
+I11
+I57
+I40
+I0
+I216
 I1
 tp576
 (dp577
@@ -10655,10 +10655,60 @@ tp3249
 (dp3250
 tp3251
 Rp3252
+sbsa(dp3253
+g14
+I00
+sg15
+(lp3254
+F10.0
+aF290.0
+asg17
+(itiddlywiki
+Tiddler
+p3255
+(dp3256
+g21
+V[[Log in.|start welcome]]
+p3257
+sg23
+Vstart login
+p3258
+sg25
+g26
+((I2014
+I8
+I4
+I11
+I38
+I45
+I0
+I216
+I1
+tp3259
+(dp3260
+tp3261
+Rp3262
+sg31
+(lp3263
+sg33
+g26
+((I2014
+I8
+I4
+I11
+I38
+I5
+I0
+I216
+I1
+tp3264
+(dp3265
+tp3266
+Rp3267
 sbsasS'scale'
-p3253
+p3268
 F1.0
 sS'snapping'
-p3254
+p3269
 I01
 ss.
