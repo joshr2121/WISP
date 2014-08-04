@@ -343,7 +343,7 @@ Tiddler
 p115
 (dp116
 g21
-VOBJECTIVE: Discover the current location of James Hewes, self-proclaimed leader of the anti-government movement known as the New Collective (NC).\u000a\u000a<<if $summary is false>>[[SUMMARY [click to view]|briefing][$summary = true]]<<else>>SUMMARY: The Bureau of Economic Assessment and Rehabilitation has detained Mr. [name withheld], long-time associate of known NC members. Bureau standards and protocols permit his lawful detention for the next 72 (seventy-two) hours. All standard investigative techniques permitted under Bureau regulations, in accordance with Directive US-598, are cleared for use in this investigation.<<endif>>\u000a\u000a<<if $reason is false>>[[BACKGROUND [click to view]|briefing][$reason = true]]<<else>>BACKGROUND: During the past months, the anarchist anti-corporate group known as the New Collective has dramatically shifted its mode of action. No longer content with public rallies and manifestoes, they have begun to attack government establishments and agents directly. They have detonated bombs, leaked critical security intelligence, and physically assaulted public officials. As such, it is now a Bureau Priority 2 Task to locate and temporarily arrest James Hewes, self-proclaimed leader of this movement.<<endif>>\u000a\u000aYou will submit a report no later than //11:59 PM// on //10/23/47//. Failure to complete your objective will result in demotion and possible further reprimands.\u000a\u000aPlease click [[here|program details]] to learn more about this program.\u000a\u000aPlease click [[here|opening hub]] to begin the investigation.
+VOBJECTIVE: Discover the current location of James Hewes, self-proclaimed leader of the anti-government movement known as the New Collective (NC).\u000a\u000a<<if $summary is false>>[[SUMMARY [click to view]|briefing][$summary = true]]<<else>>SUMMARY: The Bureau of Economic Assessment and Rehabilitation has detained Mr. [name withheld], long-time associate of known NC members. Bureau standards and protocols permit his lawful detention for the next 72 (seventy-two) hours. All standard investigative techniques permitted under Bureau regulations, in accordance with Directive US-598, are cleared for use in this investigation.<<endif>>\u000a\u000a<<if $reason is false>>[[BACKGROUND [click to view]|briefing][$reason = true]]<<else>>BACKGROUND: During the past months, the anarchist anti-corporate group known as the New Collective has dramatically shifted its mode of action. No longer content with public rallies and manifestoes, they have begun to attack government establishments and agents directly. They have detonated bombs, leaked critical security intelligence, and physically assaulted public officials. As such, it is now a Bureau Priority 2 Task to locate and temporarily arrest James Hewes, self-proclaimed leader of this movement.<<endif>>\u000a\u000aYou will submit a report no later than //11:59 PM// on //10/23/47//. Failure to complete your objective will result in demerits leading to possible demotion and/or further punitive action.\u000a\u000aPlease click [[here|program details]] to learn more about this program.\u000a\u000aPlease click [[here|opening hub]] to begin the investigation.
 p117
 sg23
 Vbriefing
@@ -354,8 +354,8 @@ g26
 I8
 I4
 I12
-I2
-I42
+I15
+I57
 I0
 I216
 I1
@@ -881,7 +881,7 @@ Tiddler
 p276
 (dp277
 g21
-VProgram version: 5.0.61a\u000a\u000aThe Bureau Inspection Interface (BII) was designed to optimize information gathering efficiency and provide maximum physical and moral protection for Inspectors. In addition to providing standard communication affordances, this version also permits the application of physical encouragement procedures in accordance with Directive US-598.\u000a\u000aThe BII converts text input from the Inspector into speech audio within the suspect's cell. The suspect's verbal responses are then recorded using hidden microphones and transcribed as text for the Inspector. This removes confounding nonverbal information that might impair the Inspector's judgment, and permits Bureau oversight and analysis of all Inspector-suspect interactions.\u000a\u000aPlease click [[here|opening hub]] to begin the investigation.
+VProgram version: 5.0.61a\u000a\u000aThe Bureau Inspection Interface (BII) has been designed to optimize information gathering efficiency and provide maximum physical and moral protection for Inspectors. In addition to providing standard communication affordances, this version also permits the application of physical encouragement procedures in accordance with Directive US-598.\u000a\u000aThe BII converts text input from the Inspector into speech audio within the suspect's cell. The suspect's verbal responses are then recorded using hidden microphones and transcribed as text for the Inspector. This removes confounding nonverbal information that might impair the Inspector's judgment, and permits Bureau oversight and analysis of all Inspector-suspect interactions.\u000a\u000aPlease click [[here|opening hub]] to begin the investigation.
 p278
 sg23
 Vprogram details
@@ -891,9 +891,9 @@ g26
 ((I2014
 I8
 I4
-I11
-I55
-I11
+I12
+I17
+I28
 I0
 I216
 I1
@@ -1069,7 +1069,7 @@ Tiddler
 p332
 (dp333
 g21
-VPlease standby while the Inspection Manager logs on.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>>\u000a<<set $hadInterview to true>>\u000a<<timedgoto "itw hub" 3s>>
+VPlease standby while your Inspection Manager logs on.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>>\u000a<<set $hadInterview to true>>\u000a<<timedgoto "itw hub" 3s>>
 p334
 sg23
 Vitw load
@@ -1077,13 +1077,13 @@ p335
 sg25
 g26
 ((I2014
-I7
-I25
-I11
-I39
-I40
+I8
 I4
-I206
+I12
+I18
+I22
+I0
+I216
 I1
 tp336
 (dp337
@@ -1320,7 +1320,7 @@ Tiddler
 p407
 (dp408
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">Our oh-so-efficient legislative counterparts have admitted that, after the attacks in North Carolina and the succession of crises on the West Coast, select governmental agencies are permitted the use of more extensive interrogation techniques. If anything good came out of these attacks, it's that Capitol Hill finally realized how ineffective the previous protocols were.</em>\u000a\u000a[[How extensive is the new directive?|itw day 1m extensive]]\u000a\u000a[[To be honest, sir, I was surprised it got past Congress.|itw day 1m vote]]\u000a\u000a[[If it helps keep our country safe, I support it.|itw day 1m else]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">Our oh-so-efficient legislative counterparts have admitted that, after the attacks in North Carolina and the succession of crises on the West Coast, select government agencies like us are to be permitted the use of more extensive interrogation techniques. If anything good came out of these attacks, it's that Capitol Hill finally realized how ineffective the previous protocols were.</em>\u000a\u000a[[How extensive is the new directive?|itw day 1m extensive]]\u000a\u000a[[To be honest, sir, I was surprised it got past Congress.|itw day 1m vote]]\u000a\u000a[[If it helps keep our country safe, I support it.|itw day 1m else]]
 p409
 sg23
 Vitw day 1m directive
@@ -1330,9 +1330,9 @@ g26
 ((I2014
 I8
 I4
-I9
-I27
-I35
+I12
+I19
+I37
 I0
 I216
 I1
@@ -7999,7 +7999,7 @@ tp2438
 Rp2439
 sbsa(dp2440
 g14
-I00
+I01
 sg15
 (lp2441
 F1130.0
@@ -8010,7 +8010,7 @@ Tiddler
 p2442
 (dp2443
 g21
-VAGENT M506\u000a- - - -\u000a<em>That was a joke, Inspector. All the cameras here are ours.</em>\u000a\u000a[[Good one, sir.|itw day 1m cameras]]\u000a\u000a[[Right, of course.|itw day 1m cameras]]\u000a\u000a<<timedgoto 'itw day 1m cameras' 2s>>
+VAGENT M506\u000a- - - -\u000a<em>That was a joke, Inspector. All the cameras here are ours.</em><<timedremove 0.99s>>\u000a\u000a[[Good one, sir.|itw day 1m cameras]]\u000a\u000a[[Right, of course.|itw day 1m cameras]]<<endtimedremove>>\u000a\u000a<<timedinsert 2s>><em class="manager">Anyway.\u000a\u000aThe engineers down on the fifteenth floor have serviced your console to give you everything you need for the interrogation session. All the relevant information will be available on the console, don't worry. They've assured us that the automatic parsing and logging procedures are in place as well.\u000a\u000aYou're the first Inspector to benefit from such a setup, so please feel free to let them or me know about any difficulties you might find with the system.</em>\u000a\u000a[[I'm looking forward to using it.|itw day 1m else]]\u000a\u000a[[I'm... sure I'll get the hang of it, sir.|itw day 1m else]]\u000a\u000a[[New toys? This could be fun.|itw day 1m else]]>><<endtimedinsert>>
 p2444
 sg23
 Vitw day 1m joke
@@ -8018,13 +8018,13 @@ p2445
 sg25
 g26
 ((I2014
-I7
-I31
-I14
-I38
-I14
-I3
-I212
+I8
+I4
+I12
+I23
+I37
+I0
+I216
 I1
 tp2446
 (dp2447
