@@ -5,7 +5,7 @@ VC:\u005cUsers\u005cJoshua\u005cDropbox\u005cPublic\u005cagency0731\u005cAgency.
 p2
 sS'saveDestination'
 p3
-S'C:\\Users\\Joshua\\Documents\\GitHub\\WISP\\Agency_Josh.tws'
+VC:\u005cUsers\u005cJoshua\u005cDocuments\u005cGitHub\u005cWISP\u005cAgency_Josh.tws
 p4
 sS'metadata'
 p5
@@ -343,7 +343,7 @@ Tiddler
 p115
 (dp116
 g21
-VOBJECTIVE: Discover the current location of James Hewes, self-proclaimed leader of the anti-government movement known as the New Collective (NC).\u000a\u000a<<if $summary is false>>[[SUMMARY [click to view]|briefing][$summary = true]]<<else>>SUMMARY: The Bureau of Economic Assessment and Rehabilitation has detained [name withheld], long-time associate of known NC members. Bureau standards and protocols permit his lawful detention for the next 72 (seventy-two) hours. All standard investigative techniques permitted under Bureau regulations, in accordance with Directive US-598, are cleared for use in this investigation.<<endif>>\u000a\u000a<<if $reason is false>>[[BACKGROUND [click to view]|briefing][$reason = true]]<<else>>BACKGROUND: During the past months, the anarchist anti-corporate group known as the New Collective has dramatically shifted its mode of action. No longer content with public rallies and manifestoes, they have begun to attack government establishments and agents directly. They have detonated bombs, leaked critical security intelligence, and physically assaulted public officials. As such, it is now a Bureau Priority 2 Task to locate and temporarily arrest James Hewes, self-proclaimed leader of this movement.<<endif>>\u000a\u000aYou will submit a report no later than //11:59 PM// on //10/23/47//. Failure to complete your objective will result in demerits leading to possible demotion and/or further punitive action.\u000a\u000aPlease click [[here|program details]] to learn more about this program.\u000a\u000aPlease click [[here|opening hub]] to begin the investigation.
+VOBJECTIVE: Discover the current location of James Hewes, self-proclaimed leader of the anti-government movement known as the New Collective (NC).\u000a\u000a<<if $summary is false>>[[SUMMARY [click to view]|briefing][$summary = true]]<<else>>SUMMARY: The Bureau of Economic Assessment and Rehabilitation has detained [name withheld], long-time associate of known NC members. Bureau standards and protocols permit his lawful detention for the next 72 (seventy-two) hours. All standard investigative techniques permitted under Bureau regulations, in accordance with Directive US-598, are cleared for use in this investigation.<<endif>>\u000a\u000a<<if $reason is false>>[[BACKGROUND [click to view]|briefing][$reason = true]]<<else>>BACKGROUND: During the past months, the anarchist anti-corporate group known as the New Collective has dramatically shifted its mode of action. No longer content with public rallies and manifestoes, they have begun to attack government establishments and agents directly. They have detonated bombs, leaked critical security intelligence, and physically assaulted public officials. As such, it is now a Bureau Priority 2 Task to locate and temporarily arrest James Hewes, self-proclaimed leader of this movement.<<endif>>\u000a\u000aYou will submit a report no later than //11:59 PM// on //10/23/47//. Failure to complete your objective will result in demerits leading to possible demotion and/or further punitive action.\u000a\u000aPlease click [[here|program details]] to learn more about this program.\u000a\u000aPlease click [[here|opening hub]] to begin the inspection process.
 p117
 sg23
 Vbriefing
@@ -353,9 +353,9 @@ g26
 ((I2014
 I8
 I4
-I15
-I12
-I54
+I17
+I1
+I21
 I0
 I216
 I1
@@ -870,7 +870,7 @@ tp272
 Rp273
 sbsa(dp274
 g14
-I00
+I01
 sg15
 (lp275
 F150.0
@@ -881,7 +881,7 @@ Tiddler
 p276
 (dp277
 g21
-VProgram version: 5.0.61a\u000a\u000aThe Bureau Inspection Interface (BII) has been designed to optimize information gathering efficiency and provide maximum physical and moral protection for Inspectors. In addition to providing standard communication affordances, this version also permits the application of physical encouragement procedures in accordance with Directive US-598.\u000a\u000aThe BII converts text input from the Inspector into speech audio within the suspect's cell. The suspect's verbal responses are then recorded using hidden microphones and transcribed as text for the Inspector. This removes confounding nonverbal information that might impair the Inspector's judgment, prevents either party from discovering the other's identity, and permits Bureau oversight and analysis of all Inspector-suspect interactions.\u000a\u000aPlease click [[here|opening hub]] to begin the investigation.
+VProgram version: 5.0.61a\u000a\u000aThe Bureau Inspection Interface (BII) has been designed to optimize information gathering efficiency and provide maximum physical and moral protection for Inspectors. In addition to providing standard communication affordances, this version also permits the application of physical encouragement procedures in accordance with Directive US-598.\u000a\u000aThe BII converts text input from the Inspector into speech audio within the suspect's cell. The suspect's verbal responses are then recorded using hidden microphones and transcribed as text for the Inspector. This removes confounding nonverbal information that might impair the Inspector's judgment, prevents either party from discovering the other's identity, and permits Bureau oversight and analysis of all Inspector-suspect interactions.\u000a\u000aPlease click [[here|opening hub]] to begin the inspection process.
 p278
 sg23
 Vprogram details
@@ -891,9 +891,9 @@ g26
 ((I2014
 I8
 I4
-I15
-I5
-I41
+I17
+I1
+I25
 I0
 I216
 I1
