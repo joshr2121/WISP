@@ -831,7 +831,7 @@ Tiddler
 p261
 (dp262
 g21
-V<<nobr>>\u000a<<if $day == 1>>\u000a<<if $personalConvo == 1>>[[How did you end up here?|personal 1][$personalConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $politicsConvo == 1>>[[Let's talk politics.|politics 1][$politicsConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $forcingConvo == 1>>[[You know where the New Collective leader is. I need you to tell me.|forcing 1][$forcingConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $familyConvo == 1>>[[Tell me about your family.|family 1][$familyConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $pearlStreetConvo == 1>>[[It looks like you were arrested during the Pearl Street riots, after Carson.|riots 1][$pearlStreetConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $jobConvo == 1>>[[You're with the Boston Center for Civil Activism. Legal analyst.|job 1][$jobConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $newCollectiveConvo == 1>>[[You've got ties to the New Collective.|newCollective 1][$newCollectiveConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $leaderConvo == 1>>[[You know James Hewes.|hewes 1][$leaderConvo = 2]]<br><br>\u000a<<endif>>\u000a\u000a<<if $personalConvo neq 1 and $politicsConvo neq 1 and $forcingConvo neq 1 and $familyConvo neq 1 and $pearlStreetConvo neq 1 and $jobConvo neq 1 and $newCollectiveConvo neq 1 and $leaderConvo neq 1>>[[Contact Inspection Manager for mandatory debriefing session.|debriefing 1]]<br><br>\u000a<<endif>><<endif>> /% end day 1 %/\u000a\u000a<<if $day == 2>>\u000a<<if $actionConvo == 1>>\u000a[[You talk a lot about changing the system, but have you done anything tangible to do so?|action 1]]<br><br>\u000a<<endif>>\u000a<<if $carsonConvo == 1>>\u000a[[You know a lot about Carson v. US, don't you?|carson 1]]<br><br>\u000a<<endif>>\u000a<<if $educationConvo == 1>>\u000a[[These kinds of opinions don't come out of nowhere. Let's talk about education.|education 1]]<br><br>\u000a<<endif>>\u000a<<if $hewesActionConvo == 1>>\u000a[[It seems you're much less proactive than Hewes.|hewesSumD2]]<br><br>\u000a<<endif>>\u000a<<if $hewesThoughtsConvo == 1>>\u000a[[Could you help me understand what makes Hewes so special?|hewesThoughts 1]]<br><br>\u000a<<endif>>\u000a<<if $newCollectiveOriginsConvo == 1>>\u000a[[Let's talk about the origins of the New Collective.|newCollectiveOrigin 1]]<br><br>\u000a<<endif>>\u000a\u000a<<endif>>\u000a\u000a/%[[(Check conversation notes.)|notes hub]]<br><br>%/\u000a\u000a<<if $torture == $tortureLimit>>\u000a[[The suspect appears to have lost consciousness.|fainted]]\u000a<<endif>>\u000a<<endnobr>>
+V<<nobr>>\u000a<<if $day == 1>>\u000a<<if $personalConvo == 1>>[[How did you end up here?|personal 1][$personalConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $politicsConvo == 1>>[[Let's talk politics.|politics 1][$politicsConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $forcingConvo == 1>>[[You know where the New Collective leader is. I need you to tell me.|forcing 1][$forcingConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $familyConvo == 1>>[[Tell me about your family.|family 1][$familyConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $pearlStreetConvo == 1>>[[It looks like you were arrested during the Pearl Street riots, after Carson.|riots 1][$pearlStreetConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $jobConvo == 1>>[[You're with the Boston Center for Civil Activism. Legal analyst.|job 1][$jobConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $newCollectiveConvo == 1>>[[You've got ties to the New Collective.|newCollective 1][$newCollectiveConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $leaderConvo == 1>>[[You know James Hewes.|hewes 1][$leaderConvo = 2]]<br><br>\u000a<<endif>>\u000a\u000a<<if $personalConvo neq 1 and $politicsConvo neq 1 and $forcingConvo neq 1 and $familyConvo neq 1 and $pearlStreetConvo neq 1 and $jobConvo neq 1 and $newCollectiveConvo neq 1 and $leaderConvo neq 1>>[[Contact Inspection Manager for mandatory debriefing session.|debriefing 1]]<br><br>\u000a<<endif>><<endif>> /% end day 1 %/\u000a\u000a<<if $day == 2>>\u000a<<if $actionConvo == 1>>\u000a[[You talk a lot about changing the system, but have you done anything tangible about it?|action 1][$actionConvo = 2]]<br><br>\u000a<<endif>>\u000a<<if $carsonConvo == 1>>\u000a[[You know a lot about Carson v. US, don't you?|carson 1][$carsonConvo = 2]]<br><br>\u000a<<endif>>\u000a<<if $educationConvo == 1>>\u000a[[These kinds of opinions don't come out of nowhere. Let's talk about education.|education 1][$educationConvo = 2]]<br><br>\u000a<<endif>>\u000a<<if $hewesActionConvo == 1>>\u000a[[It seems you're much less proactive than Hewes.|hewesSumD2][$hewesActionConvo = 2]]<br><br>\u000a<<endif>>\u000a<<if $hewesThoughtsConvo == 1>>\u000a[[Could you help me understand what makes Hewes so special?|hewesThoughts 1][$hewesThoughtsConvo = 2]]<br><br>\u000a<<endif>>\u000a<<if $newCollectiveOriginsConvo == 1>>\u000a[[Let's talk about the origins of the New Collective.|newCollectiveOrigin 1][$newCollectiveOriginsConvo = 2]]<br><br>\u000a<<endif>>\u000a\u000a<<endif>>\u000a\u000a/%[[(Check conversation notes.)|notes hub]]<br><br>%/\u000a\u000a<<if $torture == $tortureLimit>>\u000a[[The suspect appears to have lost consciousness.|fainted]]\u000a<<endif>>\u000a<<endnobr>>
 p263
 sg23
 Vconversation hub
@@ -840,12 +840,12 @@ sg25
 g26
 ((I2014
 I8
-I4
-I13
-I50
-I13
-I0
-I216
+I5
+I9
+I59
+I46
+I1
+I217
 I1
 tp265
 (dp266
@@ -870,7 +870,7 @@ tp272
 Rp273
 sbsa(dp274
 g14
-I01
+I00
 sg15
 (lp275
 F150.0
@@ -2834,7 +2834,7 @@ Tiddler
 p864
 (dp865
 g21
-VSUSPECT 1247\u000a- - - -\u000aCONNECTING.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>>\u000a\u000a<<timedgoto "greeting1" 3s>>
+VSUSPECT 1247\u000a- - - -\u000aCONNECTING.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $day == 1>>\u000a<<timedgoto "greeting1" 3s>>\u000a<<else if $day == 2>>\u000a<<timedgoto "greeting2" 3s>>\u000a<<else if $day == 3>>\u000a<<timedgoto "greeting3" 3s>>\u000a<<else>>/% failsafe, should never be called %/\u000a<<timedgoto "greeting1" 3s>>\u000a<<endif>>\u000a<<endnobr>>
 p866
 sg23
 Vsuspect connecting
@@ -2842,13 +2842,13 @@ p867
 sg25
 g26
 ((I2014
-I7
-I25
-I13
-I42
-I53
-I4
-I206
+I8
+I5
+I9
+I47
+I17
+I1
+I217
 I1
 tp868
 (dp869
@@ -5025,7 +5025,7 @@ tp1531
 Rp1532
 sbsa(dp1533
 g14
-I00
+I01
 sg15
 (lp1534
 F3790.0
@@ -5036,7 +5036,7 @@ Tiddler
 p1535
 (dp1536
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">You're a man of learning, I see.</em>\u000a\u000a[[I do my best.|3s return]]\u000a\u000a[[I wouldn't say that, exactly.|3s return]]
+VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">You're a man of learning, I see.</em>\u000a\u000a[[I do my best.|3s return]]\u000a\u000a[[I wouldn't say that, exactly.|3s return]]\u000a\u000a[[Who said I was a man?|3s return]]
 p1537
 sg23
 Vforcing 16
@@ -5044,13 +5044,13 @@ p1538
 sg25
 g26
 ((I2014
-I7
-I29
-I12
-I44
-I30
+I8
+I5
+I10
 I1
-I210
+I13
+I1
+I217
 I1
 tp1539
 (dp1540
@@ -7498,7 +7498,7 @@ Tiddler
 p2286
 (dp2287
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">I can't say I anticipated that, Inspector. James Hewes is known to be so full of himself, I don't imagine him as having too high an opinion of anyone else.\u000a\u000aHave you figured out what is it that he admires so much about the suspect? If you can, we'll have a much better understanding of Hewes' mindset.\u000a\u000aAnything else you wanted to tell me?</em>\u000a\u000a[[That's all.|db 1 end]]\u000a\u000a[[There's something else I've found out.|db 1 intel]]
+VAGENT M506\u000a- - - -\u000a<em class="manager">I can't say I anticipated that, Inspector. James Hewes is known to be so full of himself, I don't imagine him as having too high an opinion of anyone else.\u000a\u000aHave you figured out what is it that he admires so much about the suspect? If you can, we'll have a much better understanding of Hewes' mindset.\u000a\u000aAnything else you wanted to tell me?</em>\u000a\u000a<<nobr>>\u000a<<if $hHow_intel == 1 or $hThink_intel == 1 or $hOpinion_intel == 1>>\u000a[[There's something else I've found out.|db 1 intel]]\u000a<<else>>\u000a[[That's all.|db 1 end]]\u000a<<endif>>\u000a<<endnobr>>\u000a
 p2288
 sg23
 Vdb 1 intel hOpinion
@@ -7507,12 +7507,12 @@ sg25
 g26
 ((I2014
 I8
-I4
-I16
-I18
-I35
-I0
-I216
+I5
+I9
+I52
+I46
+I1
+I217
 I1
 tp2290
 (dp2291
@@ -7654,7 +7654,7 @@ Tiddler
 p2334
 (dp2335
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">I understand his family comes from Russia. You would think they would have had enough political activism after what happened to his country under the Second Soviet. Anything else you wanted to tell me?</em>\u000a\u000a<<if $hHow_intel == 1 or $hThink_intel == 1 or $hOpinion_intel == 1>>\u000a[[I learned some things about Hewes that might prove useful.|db 1 intel crucial]]\u000a<<else>>\u000a[[That's all, sir.|db 1 end]]\u000a<<endif>>
+VAGENT M506\u000a- - - -\u000a<em class="manager">I understand his family comes from Russia. You would think they would have had enough political activism after what happened to his country under the Second Soviet. Anything else you wanted to tell me?</em>\u000a\u000a<<nobr>>\u000a<<if $hHow_intel == 1 or $hThink_intel == 1 or $hOpinion_intel == 1>>\u000a[[I learned some things about Hewes that might prove useful.|db 1 intel crucial]]\u000a<<else>>\u000a[[That's all, sir.|db 1 end]]\u000a<<endif>>\u000a<<endnobr>>
 p2336
 sg23
 Vdb 1 intel family
@@ -7663,12 +7663,12 @@ sg25
 g26
 ((I2014
 I8
-I4
-I16
-I34
-I17
-I0
-I216
+I5
+I9
+I51
+I33
+I1
+I217
 I1
 tp2338
 (dp2339
@@ -7706,7 +7706,7 @@ Tiddler
 p2350
 (dp2351
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">Ah, the Pearl Street riots. I wish I could say I haven't heard that name in a long time, but every single suspect in this facility seems to have been part of that anarchist get-together. For all ages, from 7 to 70 years old! You don't need ideas, just yell and throw rocks at policemen. As if we didn't work for two millennia or more so that we, as a civilization, could get past this.</em>\u000a\u000a[[Maybe there's a problem with that civilization, then.|db 1 what]]\u000a\u000a<<if $family_intel == 1>>\u000a[[True enough, sir. I also found out he's the son of Russian immigrants.|db 1 intel family][$family_intel = 2]]\u000a<<else if $hHow_intel == 1 or $hThink_intel == 1 or $hOpinion_intel == 1>>\u000a[[True enough, sir. I also found out some things about Hewes that might prove useful.|db 1 intel crucial]]\u000a<<else>>\u000a[[True enough, sir. That's about all I learned.|db 1 end]]\u000a<<endif>>
+VAGENT M506\u000a- - - -\u000a<em class="manager">Ah, the Pearl Street riots. I wish I could say I haven't heard that name in a long time, but every single suspect in this facility seems to have been part of that anarchist get-together. For all ages, from 7 to 70 years old! You don't need ideas, just yell and throw rocks at policemen. As if we didn't work for two millennia or more so that we, as a civilization, could get past this.</em>\u000a\u000a[[Maybe there's a problem with that civilization, then.|db 1 what]]\u000a\u000a<<nobr>>\u000a<<if $family_intel == 1>>\u000a[[True enough, sir. I also found out he's the son of Russian immigrants.|db 1 intel family][$family_intel = 2]]\u000a<<else if $hHow_intel == 1 or $hThink_intel == 1 or $hOpinion_intel == 1>>\u000a[[True enough, sir. I also found out some things about Hewes that might prove useful.|db 1 intel crucial]]\u000a<<else>>\u000a[[True enough, sir. That's about all I learned.|db 1 end]]\u000a<<endif>>\u000a<<endnobr>>
 p2352
 sg23
 Vdb 1 intel pearl
@@ -7715,12 +7715,12 @@ sg25
 g26
 ((I2014
 I8
-I4
-I16
-I57
+I5
+I9
+I51
 I25
-I0
-I216
+I1
+I217
 I1
 tp2354
 (dp2355
@@ -7758,7 +7758,7 @@ Tiddler
 p2366
 (dp2367
 g21
-VAGENT M506\u000a- - - -\u000a<em class="manager">Yes, yes, we knew he was a legal analyst. Did you think we were a bunch of schoolboys spying on each other?</em>\u000a\u000a<<if $pearl_intel == 1>>\u000a[[No, of course not. In any case, I also learned he was part of the Pearl Street riots.|db 1 intel pearl][$pearl_intel = 2]]<br><br>\u000a<<else if $family_intel == 1>>\u000a[[No, of course not. In any case, I found out he's the son of Russian immigrants.|db 1 intel family][$family_intel = 2]]\u000a<<else if $hHow_intel == 1 or $hThink_intel == 1 or $hOpinion_intel == 1>>\u000a[[No, of course not. In any case, I learned some things about Hewes that might prove useful.|db 1 intel crucial]]\u000a<<else>>\u000a[[No, of course not. Actually, that's all I learned.|db 1 end]]\u000a<<endif>>
+VAGENT M506\u000a- - - -\u000a<em class="manager">Yes, yes, we knew he was a legal analyst. Did you think we were a bunch of schoolboys spying on each other?</em>\u000a\u000a<<nobr>>\u000a<<if $pearl_intel == 1>>\u000a[[No, of course not. In any case, I also learned he was part of the Pearl Street riots.|db 1 intel pearl][$pearl_intel = 2]]<br><br>\u000a<<else if $family_intel == 1>>\u000a[[No, of course not. In any case, I found out he's the son of Russian immigrants.|db 1 intel family][$family_intel = 2]]\u000a<<else if $hHow_intel == 1 or $hThink_intel == 1 or $hOpinion_intel == 1>>\u000a[[No, of course not. In any case, I learned some things about Hewes that might prove useful.|db 1 intel crucial]]\u000a<<else>>\u000a[[No, of course not. Actually, that's all I learned.|db 1 end]]\u000a<<endif>>\u000a<<endnobr>>
 p2368
 sg23
 Vdb 1 intel job
@@ -7767,12 +7767,12 @@ sg25
 g26
 ((I2014
 I8
-I4
-I16
-I31
-I53
-I0
-I216
+I5
+I9
+I51
+I12
+I1
+I217
 I1
 tp2370
 (dp2371
@@ -9622,7 +9622,7 @@ Tiddler
 p2938
 (dp2939
 g21
-VSUSPECT 1247 is now connected.\u000a- - - -\u000a<<nobr>>\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>><em class="suspect">Is that you, Inspector?</em><br><br><<endtimedinsert>>\u000a\u000a<<timedinsert 5s>>\u000a[[Wake up, prisoner. Time to talk.|greeting 2a]]<br>\u000a<br>\u000a[[Alright, let's get down to business.|greeting 2b]]<br>\u000a<br>\u000a<<endtimedinsert>>\u000a<<endnobr>>
+VSUSPECT 1247 is now connected.\u000a- - - -\u000a<<nobr>>\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>><em class="suspect">Is that you, Inspector?</em><br><br><<endtimedinsert>>\u000a\u000a<<timedinsert 5s>>\u000a[[Wake up, prisoner. Time to talk.|greeting 2a][$opinion--]]<br>\u000a<br>\u000a[[Alright, let's get down to business.|greeting 2b]]<br>\u000a<br>\u000a<<endtimedinsert>>\u000a<<endnobr>>
 p2940
 sg23
 Vgreeting2
@@ -9631,12 +9631,12 @@ sg25
 g26
 ((I2014
 I8
+I5
+I9
+I54
+I55
 I1
-I15
-I24
-I10
-I4
-I213
+I217
 I1
 tp2942
 (dp2943
@@ -9672,11 +9672,29 @@ Tiddler
 p2953
 (dp2954
 g21
-g42
+VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">Let's.</em>\u000a\u000a<<display 'conversation hub'>>
+p2955
 sg23
 Vgreeting 2b
-p2955
+p2956
 sg25
+g26
+((I2014
+I8
+I5
+I9
+I55
+I6
+I1
+I217
+I1
+tp2957
+(dp2958
+tp2959
+Rp2960
+sg31
+(lp2961
+sg33
 g26
 ((I2014
 I8
@@ -9687,32 +9705,46 @@ I13
 I4
 I213
 I1
-tp2956
-(dp2957
-tp2958
-Rp2959
-sg31
-(lp2960
-sg33
-g2959
-sbsa(dp2961
+tp2962
+(dp2963
+tp2964
+Rp2965
+sbsa(dp2966
 g14
 I00
 sg15
-(lp2962
+(lp2967
 F1270.0
 aF850.0
 asg17
 (itiddlywiki
 Tiddler
-p2963
-(dp2964
+p2968
+(dp2969
 g21
-g42
+VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">Alright.</em>\u000a\u000a<<display 'conversation hub'>>
+p2970
 sg23
 Vgreeting 2a
-p2965
+p2971
 sg25
+g26
+((I2014
+I8
+I5
+I9
+I54
+I47
+I1
+I217
+I1
+tp2972
+(dp2973
+tp2974
+Rp2975
+sg31
+(lp2976
+sg33
 g26
 ((I2014
 I8
@@ -9723,32 +9755,28 @@ I13
 I4
 I213
 I1
-tp2966
-(dp2967
-tp2968
-Rp2969
-sg31
-(lp2970
-sg33
-g2969
-sbsa(dp2971
+tp2977
+(dp2978
+tp2979
+Rp2980
+sbsa(dp2981
 g14
 I00
 sg15
-(lp2972
+(lp2982
 F1970.0
 aF2110.0
 asg17
 (itiddlywiki
 Tiddler
-p2973
-(dp2974
+p2983
+(dp2984
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">In the article? I'm surprised, Inspector. I can't say I took you for an academic.\u000a\u000aWell, basically, I approached the case as the formalization of lobbies as key mechanisms in the political system. I looked at the reasons that happened, and how that led more or less directly to the current state of corporate-dominated voting.</em>\u000a\u000a[[Lobbies represent the majority. Hewes represents the minority. We need to serve the needs of the people at large.|carson 1 theory 2 a]]\u000a\u000a[[You think lobbies are key political components?|carson 1 theory 2]]
-p2975
+p2985
 sg23
 Vcarson 1 theory
-p2976
+p2986
 sg25
 g26
 ((I2014
@@ -9760,12 +9788,12 @@ I51
 I0
 I216
 I1
-tp2977
-(dp2978
-tp2979
-Rp2980
+tp2987
+(dp2988
+tp2989
+Rp2990
 sg31
-(lp2981
+(lp2991
 sg33
 g26
 ((I2014
@@ -9777,28 +9805,28 @@ I10
 I3
 I212
 I1
-tp2982
-(dp2983
-tp2984
-Rp2985
-sbsa(dp2986
+tp2992
+(dp2993
+tp2994
+Rp2995
+sbsa(dp2996
 g14
 I00
 sg15
-(lp2987
+(lp2997
 F1970.0
 aF2250.0
 asg17
 (itiddlywiki
 Tiddler
-p2988
-(dp2989
+p2998
+(dp2999
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">How does knowing Hewes' opinions help you get to him? Why do you care?</em>\u000a\u000a[[It's helping me more than you think.|carson 1 hewes 2]]\u000a\u000a[[It's not just about getting to him. It's about getting him to stop.|carson 1 hewes 2]]\u000a\u000a[[You don't need to know that.|carson 1 hewes 3][$opinion--]]
-p2990
+p3000
 sg23
 Vcarson 1 hewes
-p2991
+p3001
 sg25
 g26
 ((I2014
@@ -9810,14 +9838,14 @@ I28
 I0
 I216
 I1
-tp2992
-(dp2993
-tp2994
-Rp2995
+tp3002
+(dp3003
+tp3004
+Rp3005
 sg31
-(lp2996
+(lp3006
 Vop-1
-p2997
+p3007
 asg33
 g26
 ((I2014
@@ -9829,28 +9857,28 @@ I10
 I3
 I212
 I1
-tp2998
-(dp2999
-tp3000
-Rp3001
-sbsa(dp3002
+tp3008
+(dp3009
+tp3010
+Rp3011
+sbsa(dp3012
 g14
 I00
 sg15
-(lp3003
+(lp3013
 F2110.0
 aF2110.0
 asg17
 (itiddlywiki
 Tiddler
-p3004
-(dp3005
+p3014
+(dp3015
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I wish it weren't true, but nothing happens in Washington these days except through the lobbies. They've convinced us they're more efficient at getting politicians to legislate on particular issues than democratic elections or referenda.\u000a\u000aAnd sure, they get things done. But who does it benefit?</em>\u000a\u000a[[It benefits the majority of citizens. Hewes represents the minority.|carson 1 theory 2 a]]\u000a\u000a[[Would you rather go back to how it was before?|carson 1 theory 2 b][$opinion++]]
-p3006
+p3016
 sg23
 Vcarson 1 theory 2
-p3007
+p3017
 sg25
 g26
 ((I2014
@@ -9862,14 +9890,14 @@ I12
 I0
 I216
 I1
-tp3008
-(dp3009
-tp3010
-Rp3011
+tp3018
+(dp3019
+tp3020
+Rp3021
 sg31
-(lp3012
+(lp3022
 Vop+1
-p3013
+p3023
 asg33
 g26
 ((I2014
@@ -9881,28 +9909,28 @@ I10
 I3
 I212
 I1
-tp3014
-(dp3015
-tp3016
-Rp3017
-sbsa(dp3018
+tp3024
+(dp3025
+tp3026
+Rp3027
+sbsa(dp3028
 g14
 I00
 sg15
-(lp3019
+(lp3029
 F2250.0
 aF2110.0
 asg17
 (itiddlywiki
 Tiddler
-p3020
-(dp3021
+p3030
+(dp3031
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">James Hewes matters because he represents the minority, politically speaking.\u000a\u000aMinorities are important for two reasons, Inspector. One is that the majority is only a majority with reference to the minority. The other is that the minority might, one day, become the majority.</em>\u000a\u000a[[Does Hewes really think he'll become the majority one day?|carson 1 hewes]]\u000a\u000a[[And he'll do so through violence and destruction?|action 1 hewes 1 victims]]
-p3022
+p3032
 sg23
 Vcarson 1 theory 2 a
-p3023
+p3033
 sg25
 g26
 ((I2014
@@ -9914,12 +9942,12 @@ I44
 I0
 I216
 I1
-tp3024
-(dp3025
-tp3026
-Rp3027
+tp3034
+(dp3035
+tp3036
+Rp3037
 sg31
-(lp3028
+(lp3038
 sg33
 g26
 ((I2014
@@ -9931,28 +9959,28 @@ I10
 I3
 I212
 I1
-tp3029
-(dp3030
-tp3031
-Rp3032
-sbsa(dp3033
+tp3039
+(dp3040
+tp3041
+Rp3042
+sbsa(dp3043
 g14
 I00
 sg15
-(lp3034
+(lp3044
 F2390.0
 aF2110.0
 asg17
 (itiddlywiki
 Tiddler
-p3035
-(dp3036
+p3045
+(dp3046
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I know that's not possible. I wish we could go back to France in 1793, to the dream of equal and democratic government, but I know we can't rewind the clock.\u000a\u000aSo if the world is doomed to always move forward, I'm going to do whatever I can to steer it in the direction I think is best.</em>\u000a\u000a[[Let's go back to Hewes. What direction does he think is best?|carson 1 hewes]]
-p3037
+p3047
 sg23
 Vcarson 1 theory 2 b
-p3038
+p3048
 sg25
 g26
 ((I2014
@@ -9964,12 +9992,12 @@ I38
 I0
 I216
 I1
-tp3039
-(dp3040
-tp3041
-Rp3042
+tp3049
+(dp3050
+tp3051
+Rp3052
 sg31
-(lp3043
+(lp3053
 sg33
 g26
 ((I2014
@@ -9981,28 +10009,28 @@ I10
 I3
 I212
 I1
-tp3044
-(dp3045
-tp3046
-Rp3047
-sbsa(dp3048
+tp3054
+(dp3055
+tp3056
+Rp3057
+sbsa(dp3058
 g14
 I00
 sg15
-(lp3049
+(lp3059
 F2110.0
 aF2250.0
 asg17
 (itiddlywiki
 Tiddler
-p3050
-(dp3051
+p3060
+(dp3061
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I haven't seen him in ages. All I know is what he said in his manifestoes and public statements, the ones everybody's read.</em>\u000a\u000a[[You know more than that.|carson 1 hewes talk]]\u000a\u000a[[You're an intelligent man. Extrapolate from what you know.|carson 1 hewes talk]]
-p3052
+p3062
 sg23
 Vcarson 1 hewes 2
-p3053
+p3063
 sg25
 g26
 ((I2014
@@ -10014,12 +10042,12 @@ I23
 I4
 I213
 I1
-tp3054
-(dp3055
-tp3056
-Rp3057
+tp3064
+(dp3065
+tp3066
+Rp3067
 sg31
-(lp3058
+(lp3068
 sg33
 g26
 ((I2014
@@ -10031,28 +10059,28 @@ I10
 I3
 I212
 I1
-tp3059
-(dp3060
-tp3061
-Rp3062
-sbsa(dp3063
+tp3069
+(dp3070
+tp3071
+Rp3072
+sbsa(dp3073
 g14
 I00
 sg15
-(lp3064
+(lp3074
 F2250.0
 aF2250.0
 asg17
 (itiddlywiki
 Tiddler
-p3065
-(dp3066
+p3075
+(dp3076
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I've been very cooperative so far. Why should I continue to be?</em>\u000a\u000a[[I'll give you a reason. (Apply physical encouragement.)|carson 1 torture 1][$torture++; $opinion--]]\u000a\u000a[[Because you know as well as I do that Hewes needs to be stopped.|carson 1 hewes 3 a]]\u000a\u000a<<nobr>>\u000a<<if $opinion >= 2>>\u000a[[I think I've shown that I'm not so bad. I want to understand where you're coming from.|carson 1 hewes 3 b]]\u000a<<endif>>\u000a<<endnobr>>
-p3067
+p3077
 sg23
 Vcarson 1 hewes 3
-p3068
+p3078
 sg25
 g26
 ((I2014
@@ -10064,14 +10092,14 @@ I43
 I0
 I216
 I1
-tp3069
-(dp3070
-tp3071
-Rp3072
+tp3079
+(dp3080
+tp3081
+Rp3082
 sg31
-(lp3073
+(lp3083
 Vop-1
-p3074
+p3084
 asg33
 g26
 ((I2014
@@ -10083,28 +10111,28 @@ I10
 I3
 I212
 I1
-tp3075
-(dp3076
-tp3077
-Rp3078
-sbsa(dp3079
+tp3085
+(dp3086
+tp3087
+Rp3088
+sbsa(dp3089
 g14
 I00
 sg15
-(lp3080
+(lp3090
 F2390.0
 aF2250.0
 asg17
 (itiddlywiki
 Tiddler
-p3081
-(dp3082
+p3091
+(dp3092
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">You've got that wrong, Inspector. It's not about stopping Hewes. It's about stopping what he believes in. Even if you find him and put him in one of these cells, it won't be over.</em>\u000a\u000a[[He can believe in whatever he wants. What he can't do is take the kind of actions he has.|carson 1 hewes talk]]\u000a\u000a[[I need to understand what he wants.|carson 1 hewes want]]
-p3083
+p3093
 sg23
 Vcarson 1 hewes 3 a
-p3084
+p3094
 sg25
 g26
 ((I2014
@@ -10116,12 +10144,12 @@ I6
 I0
 I216
 I1
-tp3085
-(dp3086
-tp3087
-Rp3088
+tp3095
+(dp3096
+tp3097
+Rp3098
 sg31
-(lp3089
+(lp3099
 sg33
 g26
 ((I2014
@@ -10133,28 +10161,28 @@ I10
 I3
 I212
 I1
-tp3090
-(dp3091
-tp3092
-Rp3093
-sbsa(dp3094
+tp3100
+(dp3101
+tp3102
+Rp3103
+sbsa(dp3104
 g14
 I00
 sg15
-(lp3095
+(lp3105
 F2530.0
 aF2250.0
 asg17
 (itiddlywiki
 Tiddler
-p3096
-(dp3097
+p3106
+(dp3107
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $torture < $tortureLimit>>\u000a<<timedinsert 4s>>[[What he wants will tell us where he is. What does he want?|carson 1 hewes want][$opinion--]]<br>\u000a<br>\u000a[[This doesn't need to go on, you know. I could get you out of here, delete a line on a registry, and the world would lose track of you.|carson 1 hewes psych threat]]<<endtimedinsert>>\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedgoto "fainted" 2.5s>>\u000a<<endif>>\u000a<<endnobr>>
-p3098
+p3108
 sg23
 Vcarson 1 torture 1
-p3099
+p3109
 sg25
 g26
 ((I2014
@@ -10166,14 +10194,14 @@ I32
 I0
 I216
 I1
-tp3100
-(dp3101
-tp3102
-Rp3103
+tp3110
+(dp3111
+tp3112
+Rp3113
 sg31
-(lp3104
+(lp3114
 Vtorture
-p3105
+p3115
 asg33
 g26
 ((I2014
@@ -10185,28 +10213,28 @@ I10
 I3
 I212
 I1
-tp3106
-(dp3107
-tp3108
-Rp3109
-sbsa(dp3110
+tp3116
+(dp3117
+tp3118
+Rp3119
+sbsa(dp3120
 g14
 I00
 sg15
-(lp3111
+(lp3121
 F2810.0
 aF2250.0
 asg17
 (itiddlywiki
 Tiddler
-p3112
-(dp3113
+p3122
+(dp3123
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<set $hMO_intelFalse to true>><em class = "suspect">Well, he could do anything. He could keep on broadcasting his ideas on channels the Intelligence Agency can't control, he could run for president, he could recruit people in other countries, or he could keep on blowing things up until the president sits down and listens to him.\u000a\u000aMy guess? Probably the latter, but I'll be surprised if you'll let that happen.</em>\u000a\u000a[[So random attacks? That's his MO?|carson 1 hewes talk 1]]\u000a\u000a[[I'll make good note of that.|conversation hub]]
-p3114
+p3124
 sg23
 Vcarson 1 hewes talk
-p3115
+p3125
 sg25
 g26
 ((I2014
@@ -10218,14 +10246,14 @@ I13
 I4
 I213
 I1
-tp3116
-(dp3117
-tp3118
-Rp3119
+tp3126
+(dp3127
+tp3128
+Rp3129
 sg31
-(lp3120
+(lp3130
 VFALSE
-p3121
+p3131
 asg33
 g26
 ((I2014
@@ -10237,28 +10265,28 @@ I10
 I3
 I212
 I1
-tp3122
-(dp3123
-tp3124
-Rp3125
-sbsa(dp3126
+tp3132
+(dp3133
+tp3134
+Rp3135
+sbsa(dp3136
 g14
 I00
 sg15
-(lp3127
+(lp3137
 F2670.0
 aF2250.0
 asg17
 (itiddlywiki
 Tiddler
-p3128
-(dp3129
+p3138
+(dp3139
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<set $hMO_intel to true>>\u000a<em class = "suspect">Well, it turns out he got hold of a version of that dissertation. I'd edited it for a law review published by a group I was part of ten years ago. Mutual friends told me he found it quite inspiring.\u000a\u000aThe problem is, it wasn't as objective or impartial as the original dissertation, and Hewes took it fairly literally. Now he wants to go after anything related to the Carson Group case, or the company itself.</em>\u000a\u000a[[This is the kind of cooperation we need.|conversation hub]]
-p3130
+p3140
 sg23
 Vcarson 1 hewes 3 b
-p3131
+p3141
 sg25
 g26
 ((I2014
@@ -10270,14 +10298,14 @@ I2
 I0
 I216
 I1
-tp3132
-(dp3133
-tp3134
-Rp3135
+tp3142
+(dp3143
+tp3144
+Rp3145
 sg31
-(lp3136
+(lp3146
 VTRUE
-p3137
+p3147
 asg33
 g26
 ((I2014
@@ -10289,28 +10317,28 @@ I10
 I3
 I212
 I1
-tp3138
-(dp3139
-tp3140
-Rp3141
-sbsa(dp3142
+tp3148
+(dp3149
+tp3150
+Rp3151
+sbsa(dp3152
 g14
 I00
 sg15
-(lp3143
+(lp3153
 F2950.0
 aF2250.0
 asg17
 (itiddlywiki
 Tiddler
-p3144
-(dp3145
+p3154
+(dp3155
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<set $hMO_intelFalse to true>><em class = "suspect">He...\u000a\u000a<<timedinsert 2s>>He wants to assassinate the CEO of Carson Group.<<endtimedinsert>></em>\u000a\u000a<<timedinsert 4s>>\u000a[[Can't say I'm surprised.|conversation hub]]\u000a\u000a[[Well, if I were a bloodthirsty terrorist, that'd be the first person on my list too.|conversation hub][$opinion++]]\u000a<<endtimedinsert>>
-p3146
+p3156
 sg23
 Vcarson 1 hewes want
-p3147
+p3157
 sg25
 g26
 ((I2014
@@ -10322,16 +10350,16 @@ I40
 I0
 I216
 I1
-tp3148
-(dp3149
-tp3150
-Rp3151
+tp3158
+(dp3159
+tp3160
+Rp3161
 sg31
-(lp3152
+(lp3162
 VFALSE
-p3153
+p3163
 aVop+1
-p3154
+p3164
 asg33
 g26
 ((I2014
@@ -10343,28 +10371,28 @@ I10
 I3
 I212
 I1
-tp3155
-(dp3156
-tp3157
-Rp3158
-sbsa(dp3159
+tp3165
+(dp3166
+tp3167
+Rp3168
+sbsa(dp3169
 g14
 I00
 sg15
-(lp3160
+(lp3170
 F2670.0
 aF2110.0
 asg17
 (itiddlywiki
 Tiddler
-p3161
-(dp3162
+p3171
+(dp3172
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Please...</em>\u000a\u000a[[I'm listening.|carson 1 hewes psych threat 2]]
-p3163
+p3173
 sg23
 Vcarson 1 hewes psych threat
-p3164
+p3174
 sg25
 g26
 ((I2014
@@ -10376,12 +10404,12 @@ I25
 I4
 I213
 I1
-tp3165
-(dp3166
-tp3167
-Rp3168
+tp3175
+(dp3176
+tp3177
+Rp3178
 sg31
-(lp3169
+(lp3179
 sg33
 g26
 ((I2014
@@ -10393,28 +10421,28 @@ I10
 I3
 I212
 I1
-tp3170
-(dp3171
-tp3172
-Rp3173
-sbsa(dp3174
+tp3180
+(dp3181
+tp3182
+Rp3183
+sbsa(dp3184
 g14
 I00
 sg15
-(lp3175
+(lp3185
 F2810.0
 aF2110.0
 asg17
 (itiddlywiki
 Tiddler
-p3176
-(dp3177
+p3186
+(dp3187
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<set $hMO_intelHalfTrue to true>><em class = "suspect">It's Carson, it all comes back to Carson. He wants to tear down anyone and anything related to the Carson Group.</em>\u000a\u000a[[Thank you.|conversation hub]]
-p3178
+p3188
 sg23
 Vcarson 1 hewes psych threat 2
-p3179
+p3189
 sg25
 g26
 ((I2014
@@ -10426,14 +10454,14 @@ I0
 I4
 I213
 I1
-tp3180
-(dp3181
-tp3182
-Rp3183
+tp3190
+(dp3191
+tp3192
+Rp3193
 sg31
-(lp3184
+(lp3194
 VHALFTRUE
-p3185
+p3195
 asg33
 g26
 ((I2014
@@ -10445,28 +10473,28 @@ I10
 I3
 I212
 I1
-tp3186
-(dp3187
-tp3188
-Rp3189
-sbsa(dp3190
+tp3196
+(dp3197
+tp3198
+Rp3199
+sbsa(dp3200
 g14
 I00
 sg15
-(lp3191
+(lp3201
 F2950.0
 aF2110.0
 asg17
 (itiddlywiki
 Tiddler
-p3192
-(dp3193
+p3202
+(dp3203
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $opinion <= 4>><em class = "suspect">I told you, that'd be my bet.</em><br><br>\u000a\u000a[[I'll take note of that.|conversation hub]]\u000a\u000a<<else>><em class = "suspect">Actually, I think I could make myself a bit clearer.</em><br><br>\u000a\u000a[[Go on.|carson 1 hewes 3 b]]\u000a<<endif>>\u000a<<endnobr>>
-p3194
+p3204
 sg23
 Vcarson 1 hewes talk 1
-p3195
+p3205
 sg25
 g26
 ((I2014
@@ -10478,12 +10506,12 @@ I6
 I0
 I216
 I1
-tp3196
-(dp3197
-tp3198
-Rp3199
+tp3206
+(dp3207
+tp3208
+Rp3209
 sg31
-(lp3200
+(lp3210
 sg33
 g26
 ((I2014
@@ -10495,28 +10523,28 @@ I10
 I3
 I212
 I1
-tp3201
-(dp3202
-tp3203
-Rp3204
-sbsa(dp3205
+tp3211
+(dp3212
+tp3213
+Rp3214
+sbsa(dp3215
 g14
 I00
 sg15
-(lp3206
+(lp3216
 F1830.0
 aF2110.0
 asg17
 (itiddlywiki
 Tiddler
-p3207
-(dp3208
+p3217
+(dp3218
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I could go on forever about the great and just landmark Supreme Court case of Carson Group versus the United States, if you let me. I actually published a long article on it for a law review, though I doubt the Bureau felt the need to tell you that.</em>\u000a\u000a[[What was your argument?|carson 1 theory]]\u000a\u000a[[Hewes keeps mentioning the case in his public addresses, and he's been sounding more and more radical. Any idea why that is?|carson 1 hewes]]
-p3209
+p3219
 sg23
 Vcarson 1
-p3210
+p3220
 sg25
 g26
 ((I2014
@@ -10528,14 +10556,14 @@ I20
 I0
 I216
 I1
-tp3211
-(dp3212
-tp3213
-Rp3214
+tp3221
+(dp3222
+tp3223
+Rp3224
 sg31
-(lp3215
+(lp3225
 VcarsonConvo
-p3216
+p3226
 asg33
 g26
 ((I2014
@@ -10547,28 +10575,28 @@ I10
 I3
 I212
 I1
-tp3217
-(dp3218
-tp3219
-Rp3220
-sbsa(dp3221
+tp3227
+(dp3228
+tp3229
+Rp3230
+sbsa(dp3231
 g14
 I00
 sg15
-(lp3222
+(lp3232
 F10.0
 aF290.0
 asg17
 (itiddlywiki
 Tiddler
-p3223
-(dp3224
+p3233
+(dp3234
 g21
 V[[Log in.|start welcome]]
-p3225
+p3235
 sg23
 Vstart login
-p3226
+p3236
 sg25
 g26
 ((I2014
@@ -10580,12 +10608,12 @@ I45
 I0
 I216
 I1
-tp3227
-(dp3228
-tp3229
-Rp3230
+tp3237
+(dp3238
+tp3239
+Rp3240
 sg31
-(lp3231
+(lp3241
 sg33
 g26
 ((I2014
@@ -10597,28 +10625,28 @@ I5
 I0
 I216
 I1
-tp3232
-(dp3233
-tp3234
-Rp3235
-sbsa(dp3236
+tp3242
+(dp3243
+tp3244
+Rp3245
+sbsa(dp3246
 g14
 I00
 sg15
-(lp3237
+(lp3247
 F1970.0
 aF2390.0
 asg17
 (itiddlywiki
 Tiddler
-p3238
-(dp3239
+p3248
+(dp3249
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I didn't have a very political upbringing, except for a hatred of dictators and totalitarianism. Hard family memories from the Second Soviet.\u000a\u000aI became more active in college. My new friends and I fed each other's ambitions and aspirations.</em>\u000a\u000a[[Why didn't you end up like Hewes?|education 2 a]]\u000a\u000a[[What happened to those friends?|education 2 b]]
-p3240
+p3250
 sg23
 Veducation 2
-p3241
+p3251
 sg25
 g26
 ((I2014
@@ -10630,14 +10658,14 @@ I25
 I0
 I216
 I1
-tp3242
-(dp3243
-tp3244
-Rp3245
+tp3252
+(dp3253
+tp3254
+Rp3255
 sg31
-(lp3246
+(lp3256
 VeducationConvo
-p3247
+p3257
 asg33
 g26
 ((I2014
@@ -10649,28 +10677,28 @@ I10
 I3
 I212
 I1
-tp3248
-(dp3249
-tp3250
-Rp3251
-sbsa(dp3252
+tp3258
+(dp3259
+tp3260
+Rp3261
+sbsa(dp3262
 g14
 I00
 sg15
-(lp3253
+(lp3263
 F1830.0
 aF2390.0
 asg17
 (itiddlywiki
 Tiddler
-p3254
-(dp3255
+p3264
+(dp3265
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Quite the topic, Inspector. Always underrated. What do you want to know?</em>\u000a\u000a[[I want to know about your education.|education 2]]\u000a\u000a[[How did Hewes become what he is today?|education hewes]]
-p3256
+p3266
 sg23
 Veducation 1
-p3257
+p3267
 sg25
 g26
 ((I2014
@@ -10682,14 +10710,14 @@ I56
 I0
 I216
 I1
-tp3258
-(dp3259
-tp3260
-Rp3261
+tp3268
+(dp3269
+tp3270
+Rp3271
 sg31
-(lp3262
+(lp3272
 VeducationConvo
-p3263
+p3273
 asg33
 g26
 ((I2014
@@ -10701,28 +10729,28 @@ I10
 I3
 I212
 I1
-tp3264
-(dp3265
-tp3266
-Rp3267
-sbsa(dp3268
+tp3274
+(dp3275
+tp3276
+Rp3277
+sbsa(dp3278
 g14
 I00
 sg15
-(lp3269
+(lp3279
 F2110.0
 aF2390.0
 asg17
 (itiddlywiki
 Tiddler
-p3270
-(dp3271
+p3280
+(dp3281
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect"><<if $opinion >= 2>>I guess I was too afraid to directly confront authorities. I got arrested once, not an experience I was hoping to repeat. I realized that as much as I was capable of, police corruption was too big a problem for me to tackle. So I decided to just help the victims of that corruption, while Hewes decided to do something different.<<else>>\u000aBecause everyone's path is different.\u000a<<endif>></em>\u000a\u000a[[How is Hewes different?|education hewes]]
-p3272
+p3282
 sg23
 Veducation 2 a
-p3273
+p3283
 sg25
 g26
 ((I2014
@@ -10734,14 +10762,14 @@ I49
 I0
 I216
 I1
-tp3274
-(dp3275
-tp3276
-Rp3277
+tp3284
+(dp3285
+tp3286
+Rp3287
 sg31
-(lp3278
+(lp3288
 VeducationConvo
-p3279
+p3289
 asg33
 g26
 ((I2014
@@ -10753,28 +10781,28 @@ I10
 I3
 I212
 I1
-tp3280
-(dp3281
-tp3282
-Rp3283
-sbsa(dp3284
+tp3290
+(dp3291
+tp3292
+Rp3293
+sbsa(dp3294
 g14
 I00
 sg15
-(lp3285
+(lp3295
 F2250.0
 aF2390.0
 asg17
 (itiddlywiki
 Tiddler
-p3286
-(dp3287
+p3296
+(dp3297
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Some of them gave up. They either switched to banking or finance when they realized that was the only way to pay back their student loans, or they moved out of the country in hopes of finding somewhere better. I doubt they succeeded.</em>\u000a\u000a[[Are you still in touch with them?|education 2 c]]\u000a\u000a[[So you're the only one who pursued activism?|education 2 c]]
-p3288
+p3298
 sg23
 Veducation 2 b
-p3289
+p3299
 sg25
 g26
 ((I2014
@@ -10786,14 +10814,14 @@ I36
 I0
 I216
 I1
-tp3290
-(dp3291
-tp3292
-Rp3293
+tp3300
+(dp3301
+tp3302
+Rp3303
 sg31
-(lp3294
+(lp3304
 VeducationConvo
-p3295
+p3305
 asg33
 g26
 ((I2014
@@ -10805,28 +10833,28 @@ I10
 I3
 I212
 I1
-tp3296
-(dp3297
-tp3298
-Rp3299
-sbsa(dp3300
+tp3306
+(dp3307
+tp3308
+Rp3309
+sbsa(dp3310
 g14
 I00
 sg15
-(lp3301
+(lp3311
 F1970.0
 aF2530.0
 asg17
 (itiddlywiki
 Tiddler
-p3302
-(dp3303
+p3312
+(dp3313
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">And what is he today?</em>\u000a\u000a[[A massmurderer.|education hewes 1]]\u000a\u000a[[A rebellious political figure.|education hewes 2]]
-p3304
+p3314
 sg23
 Veducation hewes
-p3305
+p3315
 sg25
 g26
 ((I2014
@@ -10838,14 +10866,14 @@ I37
 I0
 I216
 I1
-tp3306
-(dp3307
-tp3308
-Rp3309
+tp3316
+(dp3317
+tp3318
+Rp3319
 sg31
-(lp3310
+(lp3320
 Vhewes
-p3311
+p3321
 asg33
 g26
 ((I2014
@@ -10857,28 +10885,28 @@ I10
 I3
 I212
 I1
-tp3312
-(dp3313
-tp3314
-Rp3315
-sbsa(dp3316
+tp3322
+(dp3323
+tp3324
+Rp3325
+sbsa(dp3326
 g14
 I00
 sg15
-(lp3317
+(lp3327
 F2530.0
 aF2390.0
 asg17
 (itiddlywiki
 Tiddler
-p3318
-(dp3319
+p3328
+(dp3329
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Not them.\u000a\u000aHewes is something else.</em>\u000a\u000a[[I respect that. Let's go back to Hewes.|education hewes][$opinion++]]\u000a\u000a[[Then give me Hewes.|education hewes]]
-p3320
+p3330
 sg23
 Veducation 2 d
-p3321
+p3331
 sg25
 g26
 ((I2014
@@ -10890,14 +10918,14 @@ I15
 I0
 I216
 I1
-tp3322
-(dp3323
-tp3324
-Rp3325
+tp3332
+(dp3333
+tp3334
+Rp3335
 sg31
-(lp3326
+(lp3336
 Vop+1
-p3327
+p3337
 asg33
 g26
 ((I2014
@@ -10909,28 +10937,28 @@ I10
 I3
 I212
 I1
-tp3328
-(dp3329
-tp3330
-Rp3331
-sbsa(dp3332
+tp3338
+(dp3339
+tp3340
+Rp3341
+sbsa(dp3342
 g14
 I00
 sg15
-(lp3333
+(lp3343
 F2670.0
 aF2390.0
 asg17
 (itiddlywiki
 Tiddler
-p3334
-(dp3335
+p3344
+(dp3345
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">They didn't tell you much, did they?</em>\u000a\u000a[[It doesn't matter. Hewes matters.|education hewes][$opinion--]]\u000a\u000a[[Things were designed so I couldn't even recognize you if I saw you in the street.|education 2 f]]
-p3336
+p3346
 sg23
 Veducation 2 e
-p3337
+p3347
 sg25
 g26
 ((I2014
@@ -10942,14 +10970,14 @@ I8
 I0
 I216
 I1
-tp3338
-(dp3339
-tp3340
-Rp3341
+tp3348
+(dp3349
+tp3350
+Rp3351
 sg31
-(lp3342
+(lp3352
 Vop-1
-p3343
+p3353
 asg33
 g26
 ((I2014
@@ -10961,28 +10989,28 @@ I10
 I3
 I212
 I1
-tp3344
-(dp3345
-tp3346
-Rp3347
-sbsa(dp3348
+tp3354
+(dp3355
+tp3356
+Rp3357
+sbsa(dp3358
 g14
 I00
 sg15
-(lp3349
+(lp3359
 F2810.0
 aF2390.0
 asg17
 (itiddlywiki
 Tiddler
-p3350
-(dp3351
+p3360
+(dp3361
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Well, I'm a 37-year-old Caucasian male, about six foot thr<<timedinsert 1s>>-<<endtimedinsert>><<timedinsert 2s>>-<<endtimedinsert>> <<timedinsert 4s>>\u000a\u000a(Error: Speech cannot be parsed.)<<endtimedinsert>></em>\u000a\u000a<<timedgoto "education 2 g" 6s>>
-p3352
+p3362
 sg23
 Veducation 2 f
-p3353
+p3363
 sg25
 g26
 ((I2014
@@ -10994,14 +11022,14 @@ I5
 I0
 I216
 I1
-tp3354
-(dp3355
-tp3356
-Rp3357
+tp3364
+(dp3365
+tp3366
+Rp3367
 sg31
-(lp3358
+(lp3368
 VeducationConvo
-p3359
+p3369
 asg33
 g26
 ((I2014
@@ -11013,28 +11041,28 @@ I10
 I3
 I212
 I1
-tp3360
-(dp3361
-tp3362
-Rp3363
-sbsa(dp3364
+tp3370
+(dp3371
+tp3372
+Rp3373
+sbsa(dp3374
 g14
 I00
 sg15
-(lp3365
+(lp3375
 F2950.0
 aF2390.0
 asg17
 (itiddlywiki
 Tiddler
-p3366
-(dp3367
+p3376
+(dp3377
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Apparently, I can't even say what I look like.</em>\u000a\u000a[[Nor should you.|conversation hub][$opinion--]]\u000a\u000a[[It's for the best.|conversation hub]]
-p3368
+p3378
 sg23
 Veducation 2 g
-p3369
+p3379
 sg25
 g26
 ((I2014
@@ -11046,14 +11074,14 @@ I23
 I0
 I216
 I1
-tp3370
-(dp3371
-tp3372
-Rp3373
+tp3380
+(dp3381
+tp3382
+Rp3383
 sg31
-(lp3374
+(lp3384
 Vop-1
-p3375
+p3385
 asg33
 g26
 ((I2014
@@ -11065,28 +11093,28 @@ I10
 I3
 I212
 I1
-tp3376
-(dp3377
-tp3378
-Rp3379
-sbsa(dp3380
+tp3386
+(dp3387
+tp3388
+Rp3389
+sbsa(dp3390
 g14
 I00
 sg15
-(lp3381
+(lp3391
 F2390.0
 aF2390.0
 asg17
 (itiddlywiki
 Tiddler
-p3382
-(dp3383
+p3392
+(dp3393
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I lost contact with my politically active friends when I accepted a job at Fleet Equities. When I finally quit that, I started to run into them again. Some of them never forgave me for my time in finance.</em>\u000a\u000a[[Who are these friends of yours who are also protesters?|education 2 d]]\u000a\u000a[[They didn't tell me you'd worked for the biggest financial institution in Boston.|education 2 e]]
-p3384
+p3394
 sg23
 Veducation 2 c
-p3385
+p3395
 sg25
 g26
 ((I2014
@@ -11098,14 +11126,14 @@ I52
 I0
 I216
 I1
-tp3386
-(dp3387
-tp3388
-Rp3389
+tp3396
+(dp3397
+tp3398
+Rp3399
 sg31
-(lp3390
+(lp3400
 VeducationConvo
-p3391
+p3401
 asg33
 g26
 ((I2014
@@ -11117,28 +11145,28 @@ I10
 I3
 I212
 I1
-tp3392
-(dp3393
-tp3394
-Rp3395
-sbsa(dp3396
+tp3402
+(dp3403
+tp3404
+Rp3405
+sbsa(dp3406
 g14
 I00
 sg15
-(lp3397
+(lp3407
 F2110.0
 aF2530.0
 asg17
 (itiddlywiki
 Tiddler
-p3398
-(dp3399
+p3408
+(dp3409
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Semantics, Inspector. He's only a mass murderer because he doesn't have the majority to back him. Our country is at war on three different continents at this very moment, yet nobody talks about outrage and abuse from our government, only from political activists.</em>\u000a\u000a[[That's because our country is defending its people. Hewes is only defending himself.|education hewes 1 country]]\u000a\u000a[[So you admit that he's a murderer.|education hewes 1 murder]]
-p3400
+p3410
 sg23
 Veducation hewes 1
-p3401
+p3411
 sg25
 g26
 ((I2014
@@ -11150,14 +11178,14 @@ I47
 I0
 I216
 I1
-tp3402
-(dp3403
-tp3404
-Rp3405
+tp3412
+(dp3413
+tp3414
+Rp3415
 sg31
-(lp3406
+(lp3416
 Vhewes
-p3407
+p3417
 asg33
 g26
 ((I2014
@@ -11169,28 +11197,28 @@ I10
 I3
 I212
 I1
-tp3408
-(dp3409
-tp3410
-Rp3411
-sbsa(dp3412
+tp3418
+(dp3419
+tp3420
+Rp3421
+sbsa(dp3422
 g14
 I00
 sg15
-(lp3413
+(lp3423
 F2110.0
 aF2670.0
 asg17
 (itiddlywiki
 Tiddler
-p3414
-(dp3415
+p3424
+(dp3425
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Well, his story isn't that different from any other individual who got involved in politics, you know. A public craving for ideals, and a personal lust for power.</em>\u000a\u000a[[Which ideals?|education hewes 2 ideals]]\u000a\u000a[[That lust for power is the reason we need to stop him. Tell me why he wants war.|education hewes 2 power]]
-p3416
+p3426
 sg23
 Veducation hewes 2
-p3417
+p3427
 sg25
 g26
 ((I2014
@@ -11202,14 +11230,14 @@ I35
 I0
 I216
 I1
-tp3418
-(dp3419
-tp3420
-Rp3421
+tp3428
+(dp3429
+tp3430
+Rp3431
 sg31
-(lp3422
+(lp3432
 Vhewes
-p3423
+p3433
 asg33
 g26
 ((I2014
@@ -11221,28 +11249,28 @@ I10
 I3
 I212
 I1
-tp3424
-(dp3425
-tp3426
-Rp3427
-sbsa(dp3428
+tp3434
+(dp3435
+tp3436
+Rp3437
+sbsa(dp3438
 g14
 I00
 sg15
-(lp3429
+(lp3439
 F2250.0
 aF2530.0
 asg17
 (itiddlywiki
 Tiddler
-p3430
-(dp3431
+p3440
+(dp3441
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Some would argue that you need idealism to get into politics and cunning to succeed in it.</em>\u000a\u000a[[Do you know anything in particular about how he came to be that way?|education hewes 2]]\u000a\u000a[[What is he now? Idealistic or cunning?|education hewes 2]]
-p3432
+p3442
 sg23
 Veducation hewes 1 selfish
-p3433
+p3443
 sg25
 g26
 ((I2014
@@ -11254,14 +11282,14 @@ I53
 I0
 I216
 I1
-tp3434
-(dp3435
-tp3436
-Rp3437
+tp3444
+(dp3445
+tp3446
+Rp3447
 sg31
-(lp3438
+(lp3448
 Vhewes
-p3439
+p3449
 asg33
 g26
 ((I2014
@@ -11273,28 +11301,28 @@ I10
 I3
 I212
 I1
-tp3440
-(dp3441
-tp3442
-Rp3443
-sbsa(dp3444
+tp3450
+(dp3451
+tp3452
+Rp3453
+sbsa(dp3454
 g14
 I00
 sg15
-(lp3445
+(lp3455
 F2390.0
 aF2530.0
 asg17
 (itiddlywiki
 Tiddler
-p3446
-(dp3447
+p3456
+(dp3457
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I admit he doesn't have the clout to prevent him from being accused of mass murder.</em>\u000a\u000a[[I need to know why he thinks the way he does. I need to put the pieces together.|education hewes 1 pieces]]\u000a\u000a[[I have the clout to get away with this. (Apply physical encouragement.)|education hewes 1 torture][$torture++;$opinion--]]
-p3448
+p3458
 sg23
 Veducation hewes 1 murder
-p3449
+p3459
 sg25
 g26
 ((I2014
@@ -11306,14 +11334,14 @@ I22
 I0
 I216
 I1
-tp3450
-(dp3451
-tp3452
-Rp3453
+tp3460
+(dp3461
+tp3462
+Rp3463
 sg31
-(lp3454
+(lp3464
 Vop-1
-p3455
+p3465
 asg33
 g26
 ((I2014
@@ -11325,28 +11353,28 @@ I10
 I3
 I212
 I1
-tp3456
-(dp3457
-tp3458
-Rp3459
-sbsa(dp3460
+tp3466
+(dp3467
+tp3468
+Rp3469
+sbsa(dp3470
 g14
 I00
 sg15
-(lp3461
+(lp3471
 F2670.0
 aF2530.0
 asg17
 (itiddlywiki
 Tiddler
-p3462
-(dp3463
+p3472
+(dp3473
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<set $hMotivation_intel to true>><em class = "suspect">I'll let you in on a little secret, Inspector. Maybe then you'll leave me alone and let me out of this awful cell.\u000a\u000aHewes isn't a Hollywood villain. He didn't have a childhood trauma. He isn't blinded by hatred or a need for revenge.\u000a\u000aHe's just a man who feels that the world he lives in isn't how it ought to be. And he does whatever it takes to change that. How does that make him an enemy of the state?</em>\u000a\u000a[[I'll let you in on a little secret too. The state needs enemies to bring people together.|education hewes 1 state]]\u000a\u000a[[Maybe he isn't. But the world in which we live only functions if everybody does their part. And I'm doing mine.|education hewes 1 part]]
-p3464
+p3474
 sg23
 Veducation hewes 1 pieces
-p3465
+p3475
 sg25
 g26
 ((I2014
@@ -11358,14 +11386,14 @@ I47
 I0
 I216
 I1
-tp3466
-(dp3467
-tp3468
-Rp3469
+tp3476
+(dp3477
+tp3478
+Rp3479
 sg31
-(lp3470
+(lp3480
 Vhewes
-p3471
+p3481
 asg33
 g26
 ((I2014
@@ -11377,28 +11405,28 @@ I10
 I3
 I212
 I1
-tp3472
-(dp3473
-tp3474
-Rp3475
-sbsa(dp3476
+tp3482
+(dp3483
+tp3484
+Rp3485
+sbsa(dp3486
 g14
 I00
 sg15
-(lp3477
+(lp3487
 F2530.0
 aF2530.0
 asg17
 (itiddlywiki
 Tiddler
-p3478
-(dp3479
+p3488
+(dp3489
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect"><<nobr>><<if $opinion >= 3>>From a military standpoint, I agree with you, Inspector. In terms of economics, though, I'm afraid I can't support that.<<else>>Our government is defending itself. In case you haven't noticed, our government stopped representing our country's people a long time ago.<<endif>><<endnobr>></em>\u000a\u000a[[It's protecting against people like you and Hewes who are just seeking to overthrow a system that doesn't work for them. The people voted for the Carson decision through their elected officials.|education hewes 1 people]]\u000a\u000a[[Don't you think Hewes' methods are hurting the people more than they're hurting the government?|education hewes 1 methods]]
-p3480
+p3490
 sg23
 Veducation hewes 1 country
-p3481
+p3491
 sg25
 g26
 ((I2014
@@ -11410,14 +11438,14 @@ I23
 I0
 I216
 I1
-tp3482
-(dp3483
-tp3484
-Rp3485
+tp3492
+(dp3493
+tp3494
+Rp3495
 sg31
-(lp3486
+(lp3496
 Vhewes
-p3487
+p3497
 asg33
 g26
 ((I2014
@@ -11429,28 +11457,28 @@ I10
 I3
 I212
 I1
-tp3488
-(dp3489
-tp3490
-Rp3491
-sbsa(dp3492
+tp3498
+(dp3499
+tp3500
+Rp3501
+sbsa(dp3502
 g14
 I00
 sg15
-(lp3493
+(lp3503
 F2250.0
 aF2670.0
 asg17
 (itiddlywiki
 Tiddler
-p3494
-(dp3495
+p3504
+(dp3505
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">describe ideals, unlocks further discussion</em>\u000a\u000a[[back to convo hub now that ideals are unlocked|conversation hub]]\u000a\u000a[[ask why he wants war.|education hewes 2 power]]
-p3496
+p3506
 sg23
 Veducation hewes 2 ideals
-p3497
+p3507
 sg25
 g26
 ((I2014
@@ -11462,14 +11490,14 @@ I53
 I3
 I247
 I1
-tp3498
-(dp3499
-tp3500
-Rp3501
+tp3508
+(dp3509
+tp3510
+Rp3511
 sg31
-(lp3502
+(lp3512
 Vhewes
-p3503
+p3513
 asg33
 g26
 ((I2014
@@ -11481,28 +11509,28 @@ I10
 I3
 I212
 I1
-tp3504
-(dp3505
-tp3506
-Rp3507
-sbsa(dp3508
+tp3514
+(dp3515
+tp3516
+Rp3517
+sbsa(dp3518
 g14
 I00
 sg15
-(lp3509
+(lp3519
 F2670.0
 aF2670.0
 asg17
 (itiddlywiki
 Tiddler
-p3510
-(dp3511
+p3520
+(dp3521
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">say why he wants war, depending on opinion</em>\u000a\u000a[[in both cases, inspector gets a response, so back to convo hub|conversation hub]]\u000a\u000a[[or just ask about ideals.|education hewes 2 ideals]]
-p3512
+p3522
 sg23
 Veducation hewes 2 power
-p3513
+p3523
 sg25
 g26
 ((I2014
@@ -11514,14 +11542,14 @@ I9
 I3
 I247
 I1
-tp3514
-(dp3515
-tp3516
-Rp3517
+tp3524
+(dp3525
+tp3526
+Rp3527
 sg31
-(lp3518
+(lp3528
 Vhewes
-p3519
+p3529
 asg33
 g26
 ((I2014
@@ -11533,28 +11561,28 @@ I10
 I3
 I212
 I1
-tp3520
-(dp3521
-tp3522
-Rp3523
-sbsa(dp3524
+tp3530
+(dp3531
+tp3532
+Rp3533
+sbsa(dp3534
 g14
 I00
 sg15
-(lp3525
+(lp3535
 F2530.0
 aF2670.0
 asg17
 (itiddlywiki
 Tiddler
-p3526
-(dp3527
+p3536
+(dp3537
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $torture < $tortureLimit>>\u000a<<timedinsert 4s>>[[What made him do all that?|education hewes 2]]<br><br>\u000a[[I'm sorry we have to go through this, but I need to know.|education hewes 1 sorry]]<<endtimedinsert>>\u000a<<else>>\u000a<<timedgoto "fainted" 2.5s>>\u000a<<endif>>\u000a<<endnobr>>
-p3528
+p3538
 sg23
 Veducation hewes 1 torture
-p3529
+p3539
 sg25
 g26
 ((I2014
@@ -11566,14 +11594,14 @@ I40
 I0
 I216
 I1
-tp3530
-(dp3531
-tp3532
-Rp3533
+tp3540
+(dp3541
+tp3542
+Rp3543
 sg31
-(lp3534
+(lp3544
 Vtorture
-p3535
+p3545
 asg33
 g26
 ((I2014
@@ -11585,28 +11613,28 @@ I15
 I4
 I206
 I1
-tp3536
-(dp3537
-tp3538
-Rp3539
-sbsa(dp3540
+tp3546
+(dp3547
+tp3548
+Rp3549
+sbsa(dp3550
 g14
 I00
 sg15
-(lp3541
+(lp3551
 F2390.0
 aF2670.0
 asg17
 (itiddlywiki
 Tiddler
-p3542
-(dp3543
+p3552
+(dp3553
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Not as sorry as I am.</em>\u000a\u000a[[The more I know about him, the faster we'll get to him, and the sooner it'll be over.|education hewes 2 power]]\u000a\u000a[[...|conversation hub]]
-p3544
+p3554
 sg23
 Veducation hewes 1 sorry
-p3545
+p3555
 sg25
 g26
 ((I2014
@@ -11618,14 +11646,14 @@ I18
 I3
 I247
 I1
-tp3546
-(dp3547
-tp3548
-Rp3549
+tp3556
+(dp3557
+tp3558
+Rp3559
 sg31
-(lp3550
+(lp3560
 Vhewes
-p3551
+p3561
 asg33
 g26
 ((I2014
@@ -11637,28 +11665,28 @@ I10
 I3
 I212
 I1
-tp3552
-(dp3553
-tp3554
-Rp3555
-sbsa(dp3556
+tp3562
+(dp3563
+tp3564
+Rp3565
+sbsa(dp3566
 g14
 I00
 sg15
-(lp3557
+(lp3567
 F2810.0
 aF2530.0
 asg17
 (itiddlywiki
 Tiddler
-p3558
-(dp3559
+p3568
+(dp3569
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">The system was broken already. Carson was just the final nail in the coffin.</em>\u000a\u000a<<display 'conversation hub'>>
-p3560
+p3570
 sg23
 Veducation hewes 1 people
-p3561
+p3571
 sg25
 g26
 ((I2014
@@ -11670,14 +11698,14 @@ I45
 I0
 I216
 I1
-tp3562
-(dp3563
-tp3564
-Rp3565
+tp3572
+(dp3573
+tp3574
+Rp3575
 sg31
-(lp3566
+(lp3576
 Vhewes
-p3567
+p3577
 asg33
 g26
 ((I2014
@@ -11689,28 +11717,28 @@ I10
 I3
 I212
 I1
-tp3568
-(dp3569
-tp3570
-Rp3571
-sbsa(dp3572
+tp3578
+(dp3579
+tp3580
+Rp3581
+sbsa(dp3582
 g14
 I00
 sg15
-(lp3573
+(lp3583
 F2810.0
 aF2670.0
 asg17
 (itiddlywiki
 Tiddler
-p3574
-(dp3575
+p3584
+(dp3585
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">The state needs you to believe that it has enemies. How long has it been since you last read 1984?</em>\u000a\u000a[[I've never read it. I'm mot much for books.|education hewes 1 1984]]\u000a\u000a[[A while. Good read, but it misses the bigger picture.|education hewes 1 1984]]
-p3576
+p3586
 sg23
 Veducation hewes 1 state
-p3577
+p3587
 sg25
 g26
 ((I2014
@@ -11722,14 +11750,14 @@ I58
 I0
 I216
 I1
-tp3578
-(dp3579
-tp3580
-Rp3581
+tp3588
+(dp3589
+tp3590
+Rp3591
 sg31
-(lp3582
+(lp3592
 Vhewes
-p3583
+p3593
 asg33
 g26
 ((I2014
@@ -11741,28 +11769,28 @@ I10
 I3
 I212
 I1
-tp3584
-(dp3585
-tp3586
-Rp3587
-sbsa(dp3588
+tp3594
+(dp3595
+tp3596
+Rp3597
+sbsa(dp3598
 g14
 I00
 sg15
-(lp3589
+(lp3599
 F2950.0
 aF2530.0
 asg17
 (itiddlywiki
 Tiddler
-p3590
-(dp3591
+p3600
+(dp3601
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I don't know if I should respect you for understanding that somebody has to be the janitors and trash-pickers, or if I should resent you for not aspiring to more.</em>\u000a\u000a[[You're not the one judging here. Let's move on.|conversation hub]]\u000a\u000a[[Let's get back to business.|conversation hub]]
-p3592
+p3602
 sg23
 Veducation hewes 1 part
-p3593
+p3603
 sg25
 g26
 ((I2014
@@ -11774,14 +11802,14 @@ I28
 I3
 I247
 I1
-tp3594
-(dp3595
-tp3596
-Rp3597
+tp3604
+(dp3605
+tp3606
+Rp3607
 sg31
-(lp3598
+(lp3608
 Vhewes
-p3599
+p3609
 asg33
 g26
 ((I2014
@@ -11793,28 +11821,28 @@ I10
 I3
 I212
 I1
-tp3600
-(dp3601
-tp3602
-Rp3603
-sbsa(dp3604
+tp3610
+(dp3611
+tp3612
+Rp3613
+sbsa(dp3614
 g14
 I00
 sg15
-(lp3605
+(lp3615
 F2950.0
 aF2670.0
 asg17
 (itiddlywiki
 Tiddler
-p3606
-(dp3607
+p3616
+(dp3617
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Books will never betray you, Inspector. You should trust them and allow them to change you.</em>\u000a\u000a[[The only thing I want to read right now is Hewes' detention report.|conversation hub]]\u000a\u000a[[Maybe I will, once all this is over.|conversation hub][$opinion++]]
-p3608
+p3618
 sg23
 Veducation hewes 1 1984
-p3609
+p3619
 sg25
 g26
 ((I2014
@@ -11826,16 +11854,16 @@ I23
 I0
 I216
 I1
-tp3610
-(dp3611
-tp3612
-Rp3613
+tp3620
+(dp3621
+tp3622
+Rp3623
 sg31
-(lp3614
+(lp3624
 Vhewes
-p3615
+p3625
 aVop+1
-p3616
+p3626
 asg33
 g26
 ((I2014
@@ -11847,28 +11875,28 @@ I10
 I3
 I212
 I1
-tp3617
-(dp3618
-tp3619
-Rp3620
-sbsa(dp3621
+tp3627
+(dp3628
+tp3629
+Rp3630
+sbsa(dp3631
 g14
 I00
 sg15
-(lp3622
+(lp3632
 F3090.0
 aF2530.0
 asg17
 (itiddlywiki
 Tiddler
-p3623
-(dp3624
+p3633
+(dp3634
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Is it for us to judge or for our successors?</em>\u000a\u000a[[It's too easy to rely on future generations. At least, I'm here trying to do what I think is good; and right now, that involves arresting James Hewes, so let's sum up what we know about him so far.|hewesSumD2]]
-p3625
+p3635
 sg23
 Veducation hewes 1 methods
-p3626
+p3636
 sg25
 g26
 ((I2014
@@ -11880,14 +11908,14 @@ I8
 I3
 I247
 I1
-tp3627
-(dp3628
-tp3629
-Rp3630
+tp3637
+(dp3638
+tp3639
+Rp3640
 sg31
-(lp3631
+(lp3641
 Vhewes
-p3632
+p3642
 asg33
 g26
 ((I2014
@@ -11899,28 +11927,28 @@ I10
 I3
 I212
 I1
-tp3633
-(dp3634
-tp3635
-Rp3636
-sbsa(dp3637
+tp3643
+(dp3644
+tp3645
+Rp3646
+sbsa(dp3647
 g14
 I00
 sg15
-(lp3638
+(lp3648
 F1830.0
 aF2810.0
 asg17
 (itiddlywiki
 Tiddler
-p3639
-(dp3640
+p3649
+(dp3650
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect"> </em>
-p3641
+p3651
 sg23
 VhewesSumD2
-p3642
+p3652
 sg25
 g26
 ((I2014
@@ -11932,12 +11960,12 @@ I49
 I0
 I216
 I1
-tp3643
-(dp3644
-tp3645
-Rp3646
+tp3653
+(dp3654
+tp3655
+Rp3656
 sg31
-(lp3647
+(lp3657
 sg33
 g26
 ((I2014
@@ -11949,14 +11977,14 @@ I7
 I0
 I216
 I1
-tp3648
-(dp3649
-tp3650
-Rp3651
+tp3658
+(dp3659
+tp3660
+Rp3661
 sbsasS'scale'
-p3652
+p3662
 F0.8
 sS'snapping'
-p3653
+p3663
 I01
 ss.
