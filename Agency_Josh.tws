@@ -10754,7 +10754,7 @@ tp3286
 Rp3287
 sbsa(dp3288
 g14
-I01
+I00
 sg15
 (lp3289
 F2390.0
@@ -10962,7 +10962,7 @@ tp3350
 Rp3351
 sbsa(dp3352
 g14
-I00
+I01
 sg15
 (lp3353
 F2670.0
@@ -11017,7 +11017,7 @@ g14
 I00
 sg15
 (lp3369
-F2530.0
+F2390.0
 aF2670.0
 asg17
 (itiddlywiki
@@ -11069,7 +11069,7 @@ g14
 I00
 sg15
 (lp3385
-F2390.0
+F2530.0
 aF2670.0
 asg17
 (itiddlywiki
@@ -11077,7 +11077,7 @@ Tiddler
 p3386
 (dp3387
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Not as sorry as I am.</em>\u000a\u000a[[The more I know about him, the faster we'll get to him, and the sooner it'll be over.|education hewes 2 power]]\u000a\u000a[[...|conversation hub]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Not as sorry as I am.</em>\u000a\u000a[[The more I know about him, the faster we'll get to him, and the sooner it'll be over.|education hewes 2 power]]\u000a\u000a[[This isn't supposed to be fun.|3s return]]
 p3388
 sg23
 Veducation hewes 1 sorry
@@ -11085,13 +11085,13 @@ p3389
 sg25
 g26
 ((I2014
-I9
-I4
-I11
-I25
-I18
-I3
-I247
+I8
+I5
+I15
+I35
+I50
+I1
+I217
 I1
 tp3390
 (dp3391
