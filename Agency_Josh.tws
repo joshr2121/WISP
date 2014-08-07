@@ -11338,7 +11338,7 @@ Tiddler
 p3474
 (dp3475
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Alright. They want to hit the CEO and the CIO, and they will do it, they will do it by... blowing up the elevator, there's a private elevator for the... council... board... board meeting room, and it needs maintenance and I think... the maintenance team... I think he knows the maintenance team.</em>\u000a\u000a[[This will suffice. It wasn't that hard.|d3 ht torture done]]\u000a\u000a[[You forgot to give me a precise time. (Apply physical encouragement.)|d3 ht torture f][$torture++;$opinion--]] /%if you do it even though you had promised not to torture, you'll break him and then you're fucked %/\u000a
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Alright. They want to hit the CEO and the CIO, and they will do it, they will do it by... blowing up the elevator, there's a private elevator for the... council... board... board meeting room, and it needs maintenance and I think... the maintenance team... I think he knows the maintenance team.</em>\u000a\u000a[[That'll do. There, that wasn't so hard.|d3 ht torture done]]\u000a\u000a[[You forgot to give me a precise time. (Apply physical encouragement.)|d3 ht torture f][$torture++;$opinion--]] /%if you do it even though you had promised not to torture, you'll break him and then you're fucked %/
 p3476
 sg23
 Vd3 ht torture notready 1 1 1
@@ -11348,9 +11348,9 @@ g26
 ((I2014
 I8
 I7
-I14
-I56
-I45
+I16
+I15
+I48
 I3
 I219
 I1
@@ -12548,7 +12548,7 @@ Tiddler
 p3849
 (dp3850
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I didn't tell you the whole picture. Hewes targets Carson, that's true, but he wants payback from the person that allowed it. He wants to target the Supreme Court.</em>\u000a\u000a[[You've made the right decision.|day 3]]\u000a\u000a<<set $hMO_intel == true>>
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I didn't tell you the whole picture. Hewes targets Carson, that's true, but he wants payback from the person that allowed it. He wants to target the Supreme Court.</em>\u000a\u000a[[You've made the right decision. [Log out.]|day 3]]\u000a\u000a<<set $hMO_intel == true>>
 p3851
 sg23
 Vd3 ht talk private admit
@@ -12558,9 +12558,9 @@ g26
 ((I2014
 I8
 I7
+I16
 I15
-I12
-I2
+I0
 I3
 I219
 I1
@@ -12600,7 +12600,7 @@ Tiddler
 p3865
 (dp3866
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Fine. He's targeting Carson, but not everyone there. Specifically the people with ties or relations to the government. The people that instigated the whole case. He's not going to get to them at their homes, though. He wants the world to see it happen at the Carson headquarters.</em>\u000a\u000a[[Thank you for your cooperation.|day 3]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Fine. He's targeting Carson, but not everyone there. Specifically the people with ties or relations to the government. The people that instigated the whole case. He's not going to get to them at their homes, though. He wants the world to see it happen at the Carson headquarters.</em>\u000a\u000a[[Thank you for your cooperation. [Log out.]|day 3]]
 p3867
 sg23
 Vd3 ht talk private admit b
@@ -12610,9 +12610,9 @@ g26
 ((I2014
 I8
 I7
-I15
-I12
-I21
+I16
+I14
+I53
 I3
 I219
 I1
@@ -12756,7 +12756,7 @@ Tiddler
 p3913
 (dp3914
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $torture < $tortureLimit>>\u000a<<timedinsert 4s>>[[Where. When.|d3 ht torture notready 1 1]]<<endtimedinsert>>\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedgoto "fainted" 2.5s>>\u000a<<endif>>\u000a<<endnobr>>
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $torture < $tortureLimit>>\u000a<<timedinsert 4s>>[[Where? When?|d3 ht torture notready 1 1]]<<endtimedinsert>>\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedgoto "fainted" 2.5s>>\u000a<<endif>>\u000a<<endnobr>>
 p3915
 sg23
 Vd3 ht torture c
@@ -12764,13 +12764,13 @@ p3916
 sg25
 g26
 ((I2014
-I9
+I8
 I7
-I13
-I57
-I57
-I6
-I250
+I16
+I16
+I8
+I3
+I219
 I1
 tp3917
 (dp3918
@@ -12808,7 +12808,7 @@ Tiddler
 p3929
 (dp3930
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $torture < $tortureLimit>>\u000a<<timedinsert 4s>>[[...|d3 ht torture notready 1 1 1]]<<endtimedinsert>>\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedgoto "fainted" 2.5s>>\u000a<<endif>>\u000a<<endnobr>>
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $torture < $tortureLimit>>\u000a<<timedinsert 4s>>[[So?|d3 ht torture notready 1 1 1]]<<endtimedinsert>>\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedgoto "fainted" 2.5s>>\u000a<<endif>>\u000a<<endnobr>>
 p3931
 sg23
 Vd3 ht torture d
@@ -12816,13 +12816,13 @@ p3932
 sg25
 g26
 ((I2014
-I9
-I7
-I13
-I58
 I8
-I6
-I250
+I7
+I16
+I15
+I58
+I3
+I219
 I1
 tp3933
 (dp3934
@@ -12860,7 +12860,7 @@ Tiddler
 p3945
 (dp3946
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I swear, I don't know anything at all!</em>\u000a\u000a[[Let's start again.|d3 ht aggressive 1]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I swear, I don't know anything at all.</em>\u000a\u000a[[Let's start again.|d3 ht aggressive 1]]
 p3947
 sg23
 Vd3 ht torture wonttalk
@@ -12870,9 +12870,9 @@ g26
 ((I2014
 I8
 I7
-I14
-I57
-I13
+I16
+I15
+I11
 I3
 I219
 I1
@@ -12912,7 +12912,7 @@ Tiddler
 p3961
 (dp3962
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $torture < $tortureLimit>>\u000a<<timedinsert 4s>>[[I think we're done, here.|d3 ht torture done]]<<endtimedinsert>>\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedgoto "fainted" 2.5s>>\u000a<<endif>>\u000a<<endnobr>>
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $torture < $tortureLimit>>\u000a<<timedinsert 4s>>[[I think we're done here.|d3 ht torture done]]<<endtimedinsert>>\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedgoto "fainted" 2.5s>>\u000a<<endif>>\u000a<<endnobr>>
 p3963
 sg23
 Vd3 ht torture f
@@ -12920,13 +12920,13 @@ p3964
 sg25
 g26
 ((I2014
-I9
+I8
 I7
-I13
-I58
-I36
-I6
-I250
+I16
+I15
+I18
+I3
+I219
 I1
 tp3965
 (dp3966
@@ -12951,10 +12951,738 @@ tp3971
 (dp3972
 tp3973
 Rp3974
+sbsa(dp3975
+g14
+I00
+sg15
+(lp3976
+F2110.0
+aF5190.0
+asg17
+(itiddlywiki
+Tiddler
+p3977
+(dp3978
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">What do you want me to tell you?</em>\u000a\u000a[[I'd like to know more about the exact time and place where these attacks would happen.|d3 false nice]]\u000a\u000a<<nobr>>\u000a<<if $opinion >= 4>>\u000a[[Anything else that you think might be useful.|d3 false nice]]\u000a<<endif>>\u000a<<endnobr>>
+p3979
+sg23
+Vd3 false
+p3980
+sg25
+g26
+((I2014
+I8
+I7
+I15
+I54
+I20
+I3
+I219
+I1
+tp3981
+(dp3982
+tp3983
+Rp3984
+sg31
+(lp3985
+sg33
+g26
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp3986
+(dp3987
+tp3988
+Rp3989
+sbsa(dp3990
+g14
+I00
+sg15
+(lp3991
+F2250.0
+aF5190.0
+asg17
+(itiddlywiki
+Tiddler
+p3992
+(dp3993
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">What are you going to do that you haven't already tried, Inspector? I'll be out in no time.</em>\u000a\u000a[[Same old. (Apply physical encouragement.)|d3 f torture][$torture++;$opinion--]]\u000a\u000a[[Nothing. I'll admit, I was wrong.|d3 f repent]]
+p3994
+sg23
+Vd3 false nice
+p3995
+sg25
+g26
+((I2014
+I8
+I7
+I16
+I14
+I28
+I3
+I219
+I1
+tp3996
+(dp3997
+tp3998
+Rp3999
+sg31
+(lp4000
+Vnice
+p4001
+asg33
+g26
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp4002
+(dp4003
+tp4004
+Rp4005
+sbsa(dp4006
+g14
+I00
+sg15
+(lp4007
+F3650.0
+aF4630.0
+asg17
+(itiddlywiki
+Tiddler
+p4008
+(dp4009
+g21
+VSUSPECT 1247\u000a- - - -\u000a<<if $torturePromise == false>>\u000a<em class = "suspect">Thank god.</em>\u000a<<else if>>\u000a<em class = "suspect">...</em>\u000a<<endif>>\u000a\u000a[[*log out*|day 3]]\u000a\u000a[[I'm sorry. *log out*|day 3]] /%if you do it even though you had promised not to torture, you'll break him and then you're fucked %/\u000a
+p4010
+sg23
+Vd3 ht end 1
+p4011
+sg25
+g26
+((I2014
+I8
+I7
+I15
+I53
+I22
+I3
+I219
+I1
+tp4012
+(dp4013
+tp4014
+Rp4015
+sg31
+(lp4016
+Vagg
+p4017
+aVend
+p4018
+asg33
+g26
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp4019
+(dp4020
+tp4021
+Rp4022
+sbsa(dp4023
+g14
+I00
+sg15
+(lp4024
+F2950.0
+aF5330.0
+asg17
+(itiddlywiki
+Tiddler
+p4025
+(dp4026
+g21
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $torture < $tortureLimit>>\u000a<<timedinsert 4s>>[[Let's try that again.|day 3]]<<endtimedinsert>>\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedgoto "fainted" 2.5s>>\u000a<<endif>>\u000a<<endnobr>>
+p4027
+sg23
+Vd3 f torture
+p4028
+sg25
+g26
+((I2014
+I8
+I7
+I16
+I10
+I56
+I3
+I219
+I1
+tp4029
+(dp4030
+tp4031
+Rp4032
+sg31
+(lp4033
+Vnice
+p4034
+asg33
+g26
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp4035
+(dp4036
+tp4037
+Rp4038
+sbsa(dp4039
+g14
+I00
+sg15
+(lp4040
+F2390.0
+aF5190.0
+asg17
+(itiddlywiki
+Tiddler
+p4041
+(dp4042
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Does this mean you've actually started to think of me as a fellow human being?</em>\u000a\u000a[[Can you help me find James Hewes?|d3 f repent 1]]\u000a\u000a[[I always have. And now I'm asking you: What do you want?|d3 f repent 2]]
+p4043
+sg23
+Vd3 f repent
+p4044
+sg25
+g26
+((I2014
+I8
+I7
+I16
+I14
+I40
+I3
+I219
+I1
+tp4045
+(dp4046
+tp4047
+Rp4048
+sg31
+(lp4049
+Vnice
+p4050
+asg33
+g26
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp4051
+(dp4052
+tp4053
+Rp4054
+sbsa(dp4055
+g14
+I00
+sg15
+(lp4056
+F2530.0
+aF5190.0
+asg17
+(itiddlywiki
+Tiddler
+p4057
+(dp4058
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Look, I've already told you everything I know. Think of the biggest, most crowded sports event there is, where they cram in the most advertisements and mindless entertainment. That's where he'll strike.</em>\u000a\u000a[[The League Finals? He's going to endanger tens of thousands of innocents just to make a political statement?|d3 f repent 1 1]]\u000a\u000a[[That makes no sense. He'd be public enemy number one.|d3 f repent 1 2]]
+p4059
+sg23
+Vd3 f repent 1
+p4060
+sg25
+g26
+((I2014
+I8
+I7
+I16
+I10
+I5
+I3
+I219
+I1
+tp4061
+(dp4062
+tp4063
+Rp4064
+sg31
+(lp4065
+Vnice
+p4066
+asg33
+g26
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp4067
+(dp4068
+tp4069
+Rp4070
+sbsa(dp4071
+g14
+I00
+sg15
+(lp4072
+F2530.0
+aF5330.0
+asg17
+(itiddlywiki
+Tiddler
+p4073
+(dp4074
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I want to be freed the second we're done with this interview. I want to be granted Swiss citizenship, and I want to be erased from the records of the Bureau and all other United States governmental agencies.</em>\u000a\u000a[[I could do that. I could make them understand.|d3 f repent 2 1][set $promiseFalseIntel == true]]\u000a\u000a[[Either way, that's unrealistic.|d3 f repent 2 2]]
+p4075
+sg23
+Vd3 f repent 2
+p4076
+sg25
+g26
+((I2014
+I8
+I7
+I16
+I11
+I48
+I3
+I219
+I1
+tp4077
+(dp4078
+tp4079
+Rp4080
+sg31
+(lp4081
+Vnice
+p4082
+asg33
+g26
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp4083
+(dp4084
+tp4085
+Rp4086
+sbsa(dp4087
+g14
+I00
+sg15
+(lp4088
+F2810.0
+aF5190.0
+asg17
+(itiddlywiki
+Tiddler
+p4089
+(dp4090
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Do you believe me or not?\u000a\u000aEither way, it's up to you, I'll be released in no time.</em>\u000a\u000a[[You'll be released when I'll give the order.|d3 f repent 1 2 1]]\u000a\u000a[[Nothing I can do about that. You'll be free to go.|d3 f repent 1 2 1]]\u000a
+p4091
+sg23
+Vd3 f repent 1 2
+p4092
+sg25
+g26
+((I2014
+I8
+I7
+I16
+I0
+I18
+I3
+I219
+I1
+tp4093
+(dp4094
+tp4095
+Rp4096
+sg31
+(lp4097
+Vnice
+p4098
+asg33
+g26
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp4099
+(dp4100
+tp4101
+Rp4102
+sbsa(dp4103
+g14
+I00
+sg15
+(lp4104
+F2950.0
+aF5190.0
+asg17
+(itiddlywiki
+Tiddler
+p4105
+(dp4106
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Exactly. I was at your mercy for 72 hours and it's almost up. That's how it works.</em>\u000a\u000a[[You're right. No need to continue.|d3 f end]]\u000a\u000a[[No.|d3 ht aggressive]]
+p4107
+sg23
+Vd3 f repent 1 2 1
+p4108
+sg25
+g26
+((I2014
+I8
+I7
+I16
+I4
+I17
+I3
+I219
+I1
+tp4109
+(dp4110
+tp4111
+Rp4112
+sg31
+(lp4113
+Vnice
+p4114
+asg33
+g26
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp4115
+(dp4116
+tp4117
+Rp4118
+sbsa(dp4119
+g14
+I00
+sg15
+(lp4120
+F3370.0
+aF5190.0
+asg17
+(itiddlywiki
+Tiddler
+p4121
+(dp4122
+g21
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">I knew you wouldn't betray the system you're supporting and hold me any longer. You'd be the root of all evil.</em>\u000a\u000a[[Goodbye. *log out*|day 3]]\u000a\u000a[[*log out*|day 3]]
+p4123
+sg23
+Vd3 f end
+p4124
+sg25
+g26
+((I2014
+I9
+I7
+I14
+I18
+I16
+I6
+I250
+I1
+tp4125
+(dp4126
+tp4127
+Rp4128
+sg31
+(lp4129
+Vnice
+p4130
+asg33
+g26
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp4131
+(dp4132
+tp4133
+Rp4134
+sbsa(dp4135
+g14
+I00
+sg15
+(lp4136
+F2670.0
+aF5190.0
+asg17
+(itiddlywiki
+Tiddler
+p4137
+(dp4138
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Yes, it'll be the next League Finals, but it won't be violent. First, he'll hack the scoreboards to display a message explaining our country's political situation in plain terms no one could argue with.\u000a\u000aThen they'll overwhelm security and kidnap any public officials in attendance. The two city mayors are guaranteed to be there, plus quite a few other public servants, I'd expect.</em>\u000a\u000a[[That's exactly what I needed. Thank you. [Log out.]|day 3]]\u000a\u000a[[Perfect. [Log out.]|day 3]]\u000a\u000a[[[Log out.]|day 3]]
+p4139
+sg23
+Vd3 f repent 1 1
+p4140
+sg25
+g26
+((I2014
+I8
+I7
+I16
+I10
+I45
+I3
+I219
+I1
+tp4141
+(dp4142
+tp4143
+Rp4144
+sg31
+(lp4145
+Vadmit
+p4146
+asg33
+g26
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp4147
+(dp4148
+tp4149
+Rp4150
+sbsa(dp4151
+g14
+I00
+sg15
+(lp4152
+F2670.0
+aF5330.0
+asg17
+(itiddlywiki
+Tiddler
+p4153
+(dp4154
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I'm counting on you, Inspector.</em>\u000a\u000a[[Give me details, then. I've been asking for long enough.|d3 f repent 1 1]]\u000a\u000a[[You have nothing to fear, if you hold up your end of the bargain. Give me what I want.|d3 f repent 1 1]]
+p4155
+sg23
+Vd3 f repent 2 1
+p4156
+sg25
+g26
+((I2014
+I8
+I7
+I16
+I13
+I24
+I3
+I219
+I1
+tp4157
+(dp4158
+tp4159
+Rp4160
+sg31
+(lp4161
+Vnice
+p4162
+asg33
+g26
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp4163
+(dp4164
+tp4165
+Rp4166
+sbsa(dp4167
+g14
+I00
+sg15
+(lp4168
+F2810.0
+aF5330.0
+asg17
+(itiddlywiki
+Tiddler
+p4169
+(dp4170
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Your loss.</em>\u000a\u000a[[That demand was irrelevant. Carry on explaining Hewes' plans.|d3 f repent 1 1 1]]\u000a\u000a[[No. Yours. (Apply physical encouragement.)|d3 f torture][$opinion--;$torture++]]
+p4171
+sg23
+Vd3 f repent 2 2
+p4172
+sg25
+g26
+((I2014
+I8
+I7
+I16
+I12
+I26
+I3
+I219
+I1
+tp4173
+(dp4174
+tp4175
+Rp4176
+sg31
+(lp4177
+Vnice
+p4178
+asg33
+g26
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp4179
+(dp4180
+tp4181
+Rp4182
+sbsa(dp4183
+g14
+I00
+sg15
+(lp4184
+F3090.0
+aF5190.0
+asg17
+(itiddlywiki
+Tiddler
+p4185
+(dp4186
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Hewes wants to use the event to let the people understand how futile all this is. He'll take over the half-show, and his security as he delivers his speech will be insured by the fact that some of his team will be holding the present officials hostages.\u000a\u000aI don't know if he plans to hurt them, though.</em>\u000a\u000a[[Thank you. *log out*|day 3]]\u000a\u000a[[Good. *log out*|day 3]]\u000a
+p4187
+sg23
+Vd3 f repent 1 1 1
+p4188
+sg25
+g26
+((I2014
+I8
+I7
+I16
+I4
+I31
+I3
+I219
+I1
+tp4189
+(dp4190
+tp4191
+Rp4192
+sg31
+(lp4193
+Vnice
+p4194
+asg33
+g26
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp4195
+(dp4196
+tp4197
+Rp4198
 sbsasS'scale'
-p3975
+p4199
 F1.0
 sS'snapping'
-p3976
+p4200
 I01
 ss.
