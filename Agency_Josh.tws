@@ -235,7 +235,7 @@ g14
 I00
 sg15
 (lp84
-F290.0
+F10.0
 aF570.0
 asg17
 (itiddlywiki
@@ -243,21 +243,21 @@ Tiddler
 p85
 (dp86
 g21
-VTASK BRIEFING\u000a- - - -\u000aOBJECTIVE: Discover the current location of James Hewes, self-proclaimed leader of the anti-government group known as the New Collective.\u000a\u000aSITUATION SUMMARY\u000a[[[click to view]|briefing situation]]\u000a\u000aPROFILE - SUSPECT 1247\u000a[[[click to view]|briefing suspect]]\u000a\u000aEXPERIMENTAL PROCEDURE OVERVIEW\u000a[[[click to view]|briefing procedure 1]]\u000a\u000aPlease click [[here|suspect connecting]] when you're ready to begin the inspection process.
+VTASK BRIEFING 1\u000a- - - -\u000aOBJECTIVE: Gain insight into the mind and future plans of James Hewes, self-proclaimed leader of the anti-government terrorist group known as the New Collective.\u000a\u000a[[[more]|briefing method]]
 p87
 sg23
-Vbriefing hub
+Vbriefing objective
 p88
 sg25
 g26
 ((I2014
 I8
-I5
-I16
-I55
-I25
-I1
-I217
+I7
+I10
+I46
+I15
+I3
+I219
 I1
 tp89
 (dp90
@@ -535,7 +535,7 @@ Tiddler
 p173
 (dp174
 g21
-VWelcome, Inspector.\u000a\u000a1 new task has been assigned by your Inspection Manager. \u000a\u000aTask duration: 3 days (completion required by 10/23/47 at 5:00 PM)\u000a\u000aPlease click [[here|briefing hub]] for a task briefing.
+VWelcome, Inspector.\u000a\u000a1 new task has been assigned by your Inspection Manager. \u000a\u000aTask duration: 3 days (completion required by 10/23/47 at 5:00 PM)\u000a\u000aPlease click [[here|briefing objective]] for a task briefing.
 p175
 sg23
 Vstart welcome
@@ -544,12 +544,12 @@ sg25
 g26
 ((I2014
 I8
-I5
-I11
-I57
-I47
-I1
-I217
+I7
+I10
+I44
+I13
+I3
+I219
 I1
 tp177
 (dp178
@@ -8155,7 +8155,7 @@ Tiddler
 p2503
 (dp2504
 g21
-VSITUATION SUMMARY\u000a- - - -\u000aDuring the past months, the anarchist anti-corporate group known as the New Collective has dramatically shifted its mode of action. No longer content with public rallies and manifestoes, they have begun to attack government establishments and agents directly. They have detonated bombs, leaked critical security intelligence, and physically assaulted public officials. \u000a\u000aAs such, it is now a Bureau Priority 2 Task to locate and arrest James Hewes, the self-proclaimed leader of this group.\u000a\u000a[[Back|briefing hub]]
+VSITUATION SUMMARY\u000a- - - -\u000aDuring the past months, the anarchist anti-corporate group known as the New Collective has dramatically shifted its mode of action. No longer content with public rallies and manifestoes, they have begun to attack government establishments and agents directly. They have detonated bombs, leaked critical security intelligence, and physically assaulted public officials. \u000a\u000aAs such, it is now a Bureau Priority 2 Task to locate and arrest James Hewes, the self-proclaimed leader of this group.\u000a\u000a[[Back|briefing other info]]
 p2505
 sg23
 Vbriefing situation
@@ -8164,12 +8164,12 @@ sg25
 g26
 ((I2014
 I8
-I5
-I11
-I9
-I14
-I1
-I217
+I7
+I10
+I46
+I30
+I3
+I219
 I1
 tp2507
 (dp2508
@@ -8205,7 +8205,7 @@ Tiddler
 p2518
 (dp2519
 g21
-VPROFILE - SUSPECT 1247\u000a- - - -\u000aNAME: [withheld]\u000aSEX: M\u000aAGE: 37\u000aOCCUPATION: Legal analyst, Boston Center for Civil Activism\u000aCRIMINAL RECORD: Detained for participating in Pearl Street riots in 2034\u000a\u000aREASON FOR DETAINMENT: Connections with James Hewes, leader of New Collective anti-government group\u000a\u000aNOTES: The suspect is considered to have above average intelligence. He is knowledgeable in law, history, and political theory.\u000a\u000a[[Back|briefing hub]]
+VPROFILE - SUSPECT 1247\u000a- - - -\u000aNAME: [withheld]\u000aSEX: M\u000aAGE: 37\u000aOCCUPATION: Legal analyst, Boston Center for Civil Activism\u000aCRIMINAL RECORD: Detained for participating in Pearl Street riots in 2034\u000a\u000aREASON FOR DETAINMENT: Connections with James Hewes, leader of New Collective anti-government group\u000a\u000aNOTES: The suspect is considered to have above average intelligence. He is knowledgeable in law, history, and political theory.\u000a\u000a[[Back|briefing other info]]
 p2520
 sg23
 Vbriefing suspect
@@ -8214,12 +8214,12 @@ sg25
 g26
 ((I2014
 I8
-I5
-I11
-I53
-I59
-I1
-I217
+I7
+I10
+I46
+I36
+I3
+I219
 I1
 tp2522
 (dp2523
@@ -8255,7 +8255,7 @@ Tiddler
 p2533
 (dp2534
 g21
-VEXPERIMENTAL PROCEDURE OVERVIEW - PAGE 1\u000a- - - -\u000aDue to the sensitive and critical nature of this inspection, a modified version of the Bureau Inspection Interface (BII) will be employed. This version has been designed to enhance information gathering efficiency while ensuring maximum physical and moral protection for the Inspector.\u000a\u000a[[[more]|briefing procedure 2]]\u000a\u000a[[Back|briefing hub]]
+VEXPERIMENTAL PROCEDURE OVERVIEW - PAGE 1\u000a- - - -\u000aDue to the sensitive and critical nature of this inspection, a modified version of the Bureau Inspection Interface (BII) will be employed. This version has been designed to enhance information gathering efficiency while ensuring maximum physical and moral protection for the Inspector.\u000a\u000a[[[more]|briefing procedure 2]]\u000a\u000a[[Back|briefing other info]]
 p2535
 sg23
 Vbriefing procedure 1
@@ -8264,12 +8264,12 @@ sg25
 g26
 ((I2014
 I8
-I5
-I11
-I4
-I23
-I1
-I217
+I7
+I10
+I46
+I52
+I3
+I219
 I1
 tp2537
 (dp2538
@@ -8305,7 +8305,7 @@ Tiddler
 p2548
 (dp2549
 g21
-VEXPERIMENTAL PROCEDURE OVERVIEW - PAGE 2\u000a- - - -\u000aThe BII converts text input from the Inspector into speech audio within the suspect's cell. The suspect's verbal responses are recorded using hidden microphones and transcribed as text for the Inspector. This removes confounding nonverbal information that might impair the Inspector's judgment, prevents either party from discovering the other's identity, and permits Bureau oversight and analysis of all Inspector-suspect interactions.\u000a\u000a[[[more]|briefing procedure 3]]\u000a\u000a[[Back|briefing hub]]
+VEXPERIMENTAL PROCEDURE OVERVIEW - PAGE 2\u000a- - - -\u000aThe BII converts text input from the Inspector into speech audio within the suspect's cell. The suspect's verbal responses are recorded using hidden microphones and transcribed as text for the Inspector. \u000a\u000aThis removes confounding nonverbal information that might impair the Inspector's judgment, prevents either party from discovering the other's identity, and permits Bureau oversight and analysis of all Inspector-suspect interactions.\u000a\u000a[[[more]|briefing procedure 3]]\u000a\u000a[[Back|briefing other info]]
 p2550
 sg23
 Vbriefing procedure 2
@@ -8314,12 +8314,12 @@ sg25
 g26
 ((I2014
 I8
-I5
-I11
-I1
-I46
-I1
-I217
+I7
+I10
+I48
+I4
+I3
+I219
 I1
 tp2552
 (dp2553
@@ -8355,7 +8355,7 @@ Tiddler
 p2563
 (dp2564
 g21
-VEXPERIMENTAL PROCEDURE OVERVIEW - PAGE 3\u000a- - - -\u000aIn accordance with Directive US-598, the BII also permits the application of physical encouragement techniques. Exercise restraint, as excessive application may lead to health risks that preclude the gathering of further intelligence. You may find it more efficient to pretend to be sympathetic in order to gain the suspect's trust.\u000a\u000a[[Back|briefing hub]]
+VEXPERIMENTAL PROCEDURE OVERVIEW - PAGE 3\u000a- - - -\u000aIn accordance with Directive US-598, the BII also permits the application of physical encouragement techniques. Exercise restraint, as excessive application may lead to health risks that preclude the gathering of further intelligence. You may find it more efficient to pretend to be sympathetic in order to gain the suspect's trust.\u000a\u000a[[Back|briefing other info]]
 p2565
 sg23
 Vbriefing procedure 3
@@ -8364,12 +8364,12 @@ sg25
 g26
 ((I2014
 I8
-I5
-I11
-I2
-I14
-I1
-I217
+I7
+I10
+I46
+I41
+I3
+I219
 I1
 tp2567
 (dp2568
@@ -9849,10 +9849,110 @@ tp3012
 (dp3013
 tp3014
 Rp3015
+sbsa(dp3016
+g14
+I00
+sg15
+(lp3017
+F290.0
+aF570.0
+asg17
+(itiddlywiki
+Tiddler
+p3018
+(dp3019
+g21
+VTASK BRIEFING - ADDITIONAL INFORMATION\u000a- - - -\u000aSITUATION SUMMARY\u000a[[[click to view]|briefing situation]]\u000a\u000aPROFILE - SUSPECT 1247\u000a[[[click to view]|briefing suspect]]\u000a\u000aEXPERIMENTAL PROCEDURE OVERVIEW\u000a[[[click to view]|briefing procedure 1]]\u000a\u000aPlease click [[here|suspect connecting]] to begin the inspection process.
+p3020
+sg23
+Vbriefing other info
+p3021
+sg25
+g26
+((I2014
+I8
+I7
+I10
+I46
+I23
+I3
+I219
+I1
+tp3022
+(dp3023
+tp3024
+Rp3025
+sg31
+(lp3026
+sg33
+g26
+((I2014
+I8
+I7
+I10
+I41
+I0
+I3
+I219
+I1
+tp3027
+(dp3028
+tp3029
+Rp3030
+sbsa(dp3031
+g14
+I00
+sg15
+(lp3032
+F150.0
+aF570.0
+asg17
+(itiddlywiki
+Tiddler
+p3033
+(dp3034
+g21
+VTASK BRIEFING 2\u000a- - - -\u000aMETHOD: Extract information by any means necessary. One recommended approach is to gain the suspect's trust by pretending to sympathize. Another is the liberal application of physical encouragement techniques in accordance with Directive US-598.\u000a\u000aPlease click [[here|briefing other info]] for additional, non-critical information pertaining to the task.\u000a\u000aPlease click [[here|suspect connecting]] to begin the inspection process.
+p3035
+sg23
+Vbriefing method
+p3036
+sg25
+g26
+((I2014
+I8
+I7
+I10
+I46
+I12
+I3
+I219
+I1
+tp3037
+(dp3038
+tp3039
+Rp3040
+sg31
+(lp3041
+sg33
+g26
+((I2014
+I8
+I7
+I10
+I44
+I8
+I3
+I219
+I1
+tp3042
+(dp3043
+tp3044
+Rp3045
 sbsasS'scale'
-p3016
-F0.20000000000000007
+p3046
+F0.8
 sS'snapping'
-p3017
+p3047
 I01
 ss.
