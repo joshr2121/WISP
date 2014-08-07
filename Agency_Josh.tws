@@ -10856,7 +10856,7 @@ Tiddler
 p3323
 (dp3324
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I can see where this is going.</em>\u000a\u000a[[You should have started talking earlier.|d3 ht aggressive 1]]\u000a\u000a[[I'll give you a last chance.|d3 redeem]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I can see where this is going.</em>\u000a\u000a[[You should have started talking earlier.|d3 ht aggressive 1]]\u000a\u000a[[I'll give you one more chance.|d3 redeem]]
 p3325
 sg23
 Vd3 ht aggressive
@@ -10866,9 +10866,9 @@ g26
 ((I2014
 I8
 I7
-I14
-I17
-I12
+I15
+I20
+I13
 I3
 I219
 I1
@@ -10964,7 +10964,7 @@ Tiddler
 p3357
 (dp3358
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">...</em>\u000a\u000a[[There are still some things about you that intrigue me.|d3 ht aggressive talk]]\u000a\u000a[[You leave me no choice. (Apply physical encouragement.)|d3 ht torture][$torture++; $opinion--]]
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(No response recorded.)<<endtimedinsert>><<timedinsert 4s>>\u000a\u000a[[There are still some things about you that intrigue me.|d3 ht aggressive talk]]\u000a\u000a[[You leave me no choice. (Apply physical encouragement.)|d3 ht torture][$torture++; $opinion--]]<<endtimedinsert>>
 p3359
 sg23
 Vd3 ht aggressive 1
@@ -10974,9 +10974,9 @@ g26
 ((I2014
 I8
 I7
-I14
-I50
-I6
+I15
+I17
+I7
 I3
 I219
 I1
@@ -11018,7 +11018,7 @@ Tiddler
 p3374
 (dp3375
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">...</em>\u000a\u000a[[Was it guilt or arrogance that led you to your job?|d3 ht talk public]]\u000a\u000a[[We've talked about your family and friends...|d3 ht talk private]]
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(No response recorded.)<<endtimedinsert>><<timedinsert 4s>>\u000a\u000a[[Was it guilt or arrogance that led you to your job?|d3 ht talk public]]\u000a\u000a[[We've talked about your family and friends...|d3 ht talk private]]<<endtimedinsert>>
 p3376
 sg23
 Vd3 ht aggressive talk
@@ -11028,9 +11028,9 @@ g26
 ((I2014
 I8
 I7
-I14
-I17
-I30
+I15
+I16
+I58
 I3
 I219
 I1
@@ -11500,7 +11500,7 @@ Tiddler
 p3525
 (dp3526
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">You think that you've found out all about me? Human beings are complex, Inspector. Unlike your worldview.</em>\u000a\u000a<<nobr>>\u000a<<if $jobIntel == true>>\u000a[[You and I both know that, when you get out, you won't be returning to a life you want.|d3 ht talk public job]]<br><br>\u000a<<endif>>\u000a<<if $idealsIntel == true>>\u000a[[I know you can't live up to your ideals.|d3 ht talk public ideals]]\u000a<<else>>\u000a[[I don't need to know you. (Apply physical encouragement.)|d3 ht torture][$torture++; $opinion--]]\u000a<<endif>>\u000a<<endnobr>>
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">You think that you've found out all about me? Human beings are complex, Inspector. Unlike your worldview.</em>\u000a\u000a<<nobr>>\u000a[[You and I both know that, when you get out, you won't be returning to a life you want.|d3 ht talk public job]]<br><br>\u000a<<if $idealsIntel == true>>\u000a[[I know you can't live up to your ideals.|d3 ht talk public ideals]]\u000a<<else>>\u000a[[I don't need to know you. (Apply physical encouragement.)|d3 ht torture][$torture++; $opinion--]]\u000a<<endif>>\u000a<<endnobr>>
 p3527
 sg23
 Vd3 ht talk public
@@ -11510,9 +11510,9 @@ g26
 ((I2014
 I8
 I7
-I14
-I50
-I19
+I15
+I23
+I18
 I3
 I219
 I1
@@ -11552,7 +11552,7 @@ Tiddler
 p3541
 (dp3542
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I'm making a difference through the Center for Civil Activism, and I worked hard to get where I am today. Unlike you, I'm sure.</em>\u000a\u000a[[It's not about what job you have, it's about what you do with it.|d3 ht talk job 1]]\u000a\u000a[[What I do isn't a redemption from what I've done before.|d3 ht talk job 1]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I'm making a difference through the Center for Civil Activism. Unlike you.</em>\u000a\u000a[[It's not about what job you have, it's about what you do with it.|d3 ht talk job 1]]\u000a\u000a[[What I do isn't a redemption from what I've done before.|d3 ht talk job 1]]
 p3543
 sg23
 Vd3 ht talk public job
@@ -11562,9 +11562,9 @@ g26
 ((I2014
 I8
 I7
-I14
-I33
-I29
+I15
+I24
+I39
 I3
 I219
 I1
@@ -11604,7 +11604,7 @@ Tiddler
 p3557
 (dp3558
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I'm still making a more positive impact than you.</em>\u000a\u000a[[Really? Would you rather fight against something that you hate, or build something you believe in? The former takes anger, the latter takes courage.|d3 ht talk job 1 2]]\u000a\u000a[[All you do is limit collateral damages. Despite all your grand talk, you're not changing anything for the better.|d3 ht talk job 1 2]]\u000a\u000a<<if $torture >= 2>>[[Your job led you to endure what happened here.|d3 ht talk job 1 1]]<<endif>>
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">That's ridiculous, Inspector. I fight for human rights and you sit wherever the hell you are and torture people through a machine.</em>\u000a\u000a[[You're fighting against something you hate, while I'm protecting something I believe in. The former takes anger, the latter takes courage.|d3 ht talk job 1 2]]\u000a\u000a[[All you do is limit collateral damage. Despite your grand talk and grand intentions, you're not changing anything for the better.|d3 ht talk job 1 2]]\u000a\u000a<<if $torture >= 2>>[[That's right. Your job puts you on your end of the Interface, where you suffer, and my job puts me on mine.|d3 ht talk job 1 1]]<<endif>>
 p3559
 sg23
 Vd3 ht talk job 1
@@ -11614,9 +11614,9 @@ g26
 ((I2014
 I8
 I7
-I14
-I37
-I3
+I15
+I36
+I36
 I3
 I219
 I1
@@ -11656,7 +11656,7 @@ Tiddler
 p3573
 (dp3574
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">This isn't the problem, Inspector. Everybody suffers, and I'm not special.</em>\u000a\u000a[[I don't believe that. If you had accepted suffering, you wouldn't have that type of work.|d3 ht talk job 1 1 1]]\u000a\u000a[[But there's no inherent need for suffering.|d3 ht talk job 1 1 1]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">That's not the problem, Inspector. Everybody suffers, and I'm no different.</em>\u000a\u000a[[I don't believe that. If you had accepted suffering, you wouldn't have that type of work.|d3 ht talk job 1 1 1]]\u000a\u000a[[But there's no inherent need for suffering.|d3 ht talk job 1 1 1]]
 p3575
 sg23
 Vd3 ht talk job 1 1
@@ -11666,9 +11666,9 @@ g26
 ((I2014
 I8
 I7
-I14
-I36
-I36
+I15
+I27
+I41
 I3
 I219
 I1
@@ -11708,7 +11708,7 @@ Tiddler
 p3589
 (dp3590
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I can look at myself in the mirror in the morning.</em>\u000a\u000a[[What I do in the morning doesn't concern you.|d3 ht aggressive talk]]\u000a\u000a[[...|d3 ht aggressive talk]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">And yet I can bear to look myself in the eye every morning.</em>\u000a\u000a[[What I do in the morning doesn't concern you.|d3 ht aggressive talk]]\u000a\u000a[[I have patriotism and professional pride. That's enough of this.|d3 ht aggressive talk]]
 p3591
 sg23
 Vd3 ht talk job 1 2
@@ -11718,9 +11718,9 @@ g26
 ((I2014
 I8
 I7
-I14
-I51
-I35
+I15
+I42
+I6
 I3
 I219
 I1
@@ -12496,7 +12496,7 @@ Tiddler
 p3833
 (dp3834
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I understand.</em>\u000a\u000a[[If you think back, what has changed from when you had loved ones surrounding you? Your commitment to political activism has made you more miserable.|d3 ht talk private admit]]\u000a\u000a[[You need to prove to them that you can do the right thing.|d3 ht talk private admit]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I understand.</em>\u000a\u000a[[If you think back, what changed from when you had loved ones surrounding you? Your commitment to political activism has made you more miserable.|d3 ht talk private admit]]\u000a\u000a[[You need to prove to them that you can do the right thing.|d3 ht talk private admit]]
 p3835
 sg23
 Vd3 ht talk private 1 1 nice
@@ -12504,13 +12504,13 @@ p3836
 sg25
 g26
 ((I2014
-I9
+I8
 I7
-I11
-I52
-I7
-I6
-I250
+I15
+I19
+I20
+I3
+I219
 I1
 tp3837
 (dp3838
