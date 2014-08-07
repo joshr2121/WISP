@@ -143,7 +143,7 @@ Tiddler
 p55
 (dp56
 g21
-VBUREAU INSPECTION INTERFACE VERSION 5.0.61a\u000a\u000aSYSTEM BOOTING UP.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>>\u000a\u000a<<timedgoto "start login" 4s>>\u000a<<nobr>>\u000a<<set $opinion to 1>>\u000a<<set $day to 1>>\u000a<<set $torture to 0>>\u000a<<set $tortureLimit to 3>>\u000a<<set $timeleft to 300>> /% in minutes, the time remaining each day, assuming that the inspector talks with his superior in the morning and starts the interrogation at 12:00 %/\u000a<<set $hadInterview to false>>\u000a<<set $hadBriefing to false>>\u000a<<set $day1_interview_directive to false>>\u000a<<set $day1_interview_room to false>>\u000a<<set $day1_interview_iq to false>>\u000a<<set $canClockOut to false>>\u000a\u000a/% briefing variables %/\u000a<<set $summary to false>>\u000a<<set $reason to false>>\u000a\u000a/% 0 = unavailable, 1 = available, 2 = explored %/\u000a\u000a/% DAY 1 %/\u000a\u000a/% day 1 start convos %/\u000a<<set $politicsConvo to 1>>\u000a<<set $personalConvo to 1>>\u000a<<set $forcingConvo to 1>>\u000a/% day 1 unlockable convos %/\u000a<<set $familyConvo to 0>>\u000a<<set $pearlStreetConvo to 0>>\u000a<<set $jobConvo to 0>>\u000a<<set $newCollectiveConvo to 0>>\u000a<<set $leaderConvo to 0>>\u000a/% day 1 crucial intel %/\u000a<<set $hKnow_intel to 0>>\u000a<<set $hThink_intel to 0>>\u000a<<set $hOpinion_intel to 0>>\u000a/% day 1 non-crucial intel %/\u000a<<set $job_intel to 0>>\u000a<<set $pearl_intel to 0>>\u000a<<set $family_intel to 0>>\u000a\u000a\u000a/% DAY 2 %/\u000a\u000a/% day 2 start convos %/\u000a<<set $actionConvo to 1>>\u000a<<set $carsonConvo to 1>>\u000a<<set $educationConvo to 1>>\u000a/% day 2 unlockable convos - deprecated? %/\u000a<<set $hewesActionConvo to 0>>\u000a<<set $hewesThoughts to 0>>\u000a<<set $newCollectiveOriginsConvo to 0>>\u000a/% day 2 summary convo topics %/\u000a<<set $d2SumAction to false>>\u000a<<set $d2SumMotivation to false>>\u000a<<set $d2SumEducation to false>>\u000a\u000a/% notes variables, organized by subject %/\u000a<<set $nSuspect to false>>\u000a<<set $nSuspect_NCTies to false>>\u000a<<set $nSuspect_Job to false>>\u000a<<set $nSuspect_Arrest to false>>\u000a<<set $nSuspect_Parents to false>>\u000a\u000a<<set $nCG to false>>\u000a<<set $nCG_Date to false>>\u000a<<set $nCG_Riots to false>>\u000a\u000a<<set $nNC to false>>\u000a<<set $nNC_Violent to false>>\u000a<<set $nNC_Leader to false>>\u000a\u000a<<set $nHewes to false>>\u000a<<set $nHewes_Leader to false>>\u000a<<set $nHewes_Whereabouts to false>>\u000a<<set $nHewes_Hacker to false>>\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a/% old stuff %/\u000a<<set $beginningOfDay to true>>\u000a<<set $conscious to true>>\u000a<<set $sleepTotal to 0>>\u000a<<set $sleepTonight to 0>>\u000a<<set $infoFound to false>>\u000a\u000a<<set $submittedWho to 0>>\u000a<<set $submittedWhere to 0>>\u000a<<set $submittedWhen to 0>>\u000a<<set $submittedHow to 0>>\u000a<<endnobr>>
+VBUREAU INSPECTION INTERFACE VERSION 5.0.61a\u000a\u000aSYSTEM BOOTING UP.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>>\u000a\u000a<<timedgoto "start login" 4s>>\u000a<<nobr>>\u000a<<set $opinion to 1>>\u000a<<set $day to 2>>\u000a<<set $torture to 0>>\u000a<<set $tortureLimit to 3>>\u000a<<set $timeleft to 300>> /% in minutes, the time remaining each day, assuming that the inspector talks with his superior in the morning and starts the interrogation at 12:00 %/\u000a<<set $hadInterview to false>>\u000a<<set $hadBriefing to false>>\u000a<<set $day1_interview_directive to false>>\u000a<<set $day1_interview_room to false>>\u000a<<set $day1_interview_iq to false>>\u000a<<set $canClockOut to false>>\u000a\u000a/% briefing variables %/\u000a<<set $summary to false>>\u000a<<set $reason to false>>\u000a\u000a/% 0 = unavailable, 1 = available, 2 = explored %/\u000a\u000a/% DAY 1 %/\u000a\u000a/% day 1 start convos %/\u000a<<set $politicsConvo to 1>>\u000a<<set $personalConvo to 1>>\u000a<<set $forcingConvo to 1>>\u000a/% day 1 unlockable convos %/\u000a<<set $familyConvo to 0>>\u000a<<set $pearlStreetConvo to 0>>\u000a<<set $jobConvo to 0>>\u000a<<set $newCollectiveConvo to 0>>\u000a<<set $leaderConvo to 0>>\u000a/% day 1 crucial intel %/\u000a<<set $hKnow_intel to 0>>\u000a<<set $hThink_intel to 0>>\u000a<<set $hOpinion_intel to 0>>\u000a/% day 1 non-crucial intel %/\u000a<<set $job_intel to 0>>\u000a<<set $pearl_intel to 0>>\u000a<<set $family_intel to 0>>\u000a\u000a\u000a/% DAY 2 %/\u000a\u000a/% day 2 start convos %/\u000a<<set $actionConvo to 1>>\u000a<<set $carsonConvo to 1>>\u000a<<set $educationConvo to 1>>\u000a/% day 2 unlockable convos - deprecated? %/\u000a<<set $hewesActionConvo to 0>>\u000a<<set $hewesThoughts to 0>>\u000a<<set $newCollectiveOriginsConvo to 0>>\u000a/% day 2 summary convo topics %/\u000a<<set $d2SumAction to false>>\u000a<<set $d2SumMotivation to false>>\u000a<<set $d2SumEducation to false>>\u000a\u000a/% notes variables, organized by subject %/\u000a<<set $nSuspect to false>>\u000a<<set $nSuspect_NCTies to false>>\u000a<<set $nSuspect_Job to false>>\u000a<<set $nSuspect_Arrest to false>>\u000a<<set $nSuspect_Parents to false>>\u000a\u000a<<set $nCG to false>>\u000a<<set $nCG_Date to false>>\u000a<<set $nCG_Riots to false>>\u000a\u000a<<set $nNC to false>>\u000a<<set $nNC_Violent to false>>\u000a<<set $nNC_Leader to false>>\u000a\u000a<<set $nHewes to false>>\u000a<<set $nHewes_Leader to false>>\u000a<<set $nHewes_Whereabouts to false>>\u000a<<set $nHewes_Hacker to false>>\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a/% old stuff %/\u000a<<set $beginningOfDay to true>>\u000a<<set $conscious to true>>\u000a<<set $sleepTotal to 0>>\u000a<<set $sleepTonight to 0>>\u000a<<set $infoFound to false>>\u000a\u000a<<set $submittedWho to 0>>\u000a<<set $submittedWhere to 0>>\u000a<<set $submittedWhen to 0>>\u000a<<set $submittedHow to 0>>\u000a<<endnobr>>
 p57
 sg23
 VStart
@@ -152,12 +152,12 @@ sg25
 g26
 ((I2014
 I8
-I6
+I7
 I11
-I29
-I30
-I2
-I218
+I59
+I16
+I3
+I219
 I1
 tp59
 (dp60
@@ -4458,7 +4458,7 @@ tp1366
 Rp1367
 sbsa(dp1368
 g14
-I01
+I00
 sg15
 (lp1369
 F1410.0
@@ -8053,7 +8053,7 @@ Tiddler
 p2472
 (dp2473
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Is it for us to judge or for our successors?</em>\u000a\u000a[[I'm not worried about posterity right now. I'm just trying to locate James Hewes, so let's sum up what we know about him so far.|hewesSumD2]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Is that for us to judge, or our successors?</em>\u000a\u000a[[I'm not worried about posterity right now.|3s return]]
 p2474
 sg23
 Veducation hewes 1 methods
@@ -8062,12 +8062,12 @@ sg25
 g26
 ((I2014
 I8
-I5
-I15
+I7
+I11
 I56
-I51
-I1
-I217
+I23
+I3
+I219
 I1
 tp2476
 (dp2477
@@ -8098,14 +8098,14 @@ I00
 sg15
 (lp2487
 F1830.0
-aF3230.0
+aF3090.0
 asg17
 (itiddlywiki
 Tiddler
 p2488
 (dp2489
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $torture == 0>>\u000a<em class = "suspect">\u000aIf you want me to repeat everything I've said, I'll be happy to do so, Inspector. I've been stalling for forty-eight hours now.</em><br><br>\u000a<<else>>\u000aThat's fine, let's go over everything I've said so far.<br><br>\u000a<<endif>>\u000a\u000a<<if $d2SumAction is false>>[[What is Hewes planning to do?|sum action][$d2SumAction = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumMotivation is false>>[[What caused Hewes to turn violent?|sum motivation][$d2SumMotivation = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumEducation == false>>[[What kind of person is he really?|sum education][$d2SumEducation = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumAction is true and $d2SumMotivation is true and $d2SumEducation is true>>[[We'll speak again tomorrow. [Log out and submit report.]|report 2]]<<endif>>\u000a<<endnobr>>
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $torture == 0>>\u000a<em class = "suspect">\u000aIf you want me to repeat everything I've said, I'll be happy to do so, Inspector. I've been stalling for forty-eight hours now.</em><br><br>\u000a<<else>>\u000aThat's fine, let's go over everything I've said so far.<br><br>\u000a<<endif>>\u000a<<display 'hewes sum hub'>>\u000a<<endnobr>>
 p2490
 sg23
 VhewesSumD2
@@ -8115,9 +8115,9 @@ g26
 ((I2014
 I8
 I7
-I10
-I22
-I40
+I11
+I55
+I17
 I3
 I219
 I1
@@ -8759,7 +8759,7 @@ Tiddler
 p2685
 (dp2686
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $opinion <= 4>>\u000a<em class = "suspect">Apparently not.</em><br><br>\u000a\u000a<<display 'hewesSumD2'>>\u000a<<else>>\u000a<em class = "suspect">It's true, Inspector. He may have resorted to violence before, but I know he's also open to dialogue.</em><br><br>\u000a\u000a[[As in sitting at a table, just like that? I don't believe you.|3s return]]<br><br>\u000a\u000a[[I'll see if I can get the Bureau to agree.|sum education reason yes 1][$opinion++]]\u000a<<endif>>\u000a<<endnobr>>
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $opinion <= 4>>\u000a<em class = "suspect">Apparently not.</em><br><br>\u000a\u000a<<display 'hewes sum hub'>>\u000a<<else>>\u000a<em class = "suspect">It's true, Inspector. He may have resorted to violence before, but I know he's also open to dialogue.</em><br><br>\u000a\u000a[[As in sitting at a table, just like that? I don't believe you.|3s return]]<br><br>\u000a\u000a[[I'll see if I can get the Bureau to agree.|sum education reason yes 1][$opinion++]]\u000a<<endif>>\u000a<<endnobr>>
 p2687
 sg23
 Vsum education reason yes
@@ -8768,12 +8768,12 @@ sg25
 g26
 ((I2014
 I8
-I6
-I16
-I39
+I7
+I11
 I58
-I2
-I218
+I43
+I3
+I219
 I1
 tp2689
 (dp2690
@@ -8967,7 +8967,7 @@ Tiddler
 p2749
 (dp2750
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Thank you for your trust, Inspector.</em>\u000a\u000a<<display 'hewesSumD2'>>
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Thank you for your trust, Inspector.</em>\u000a\u000a<<display 'hewes sum hub'>>
 p2751
 sg23
 Vsum action validate
@@ -8977,9 +8977,9 @@ g26
 ((I2014
 I8
 I7
-I10
-I21
-I19
+I11
+I57
+I4
 I3
 I219
 I1
@@ -9221,7 +9221,7 @@ Tiddler
 p2826
 (dp2827
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<set $negotiation to true>><em class = "suspect">Let's hope you can. There's been enough bloodshed.</em>\u000a\u000a<<display 'hewesSumD2'>>
+VSUSPECT 1247\u000a- - - -\u000a<<set $negotiation to true>><em class = "suspect">Let's hope you can. There's been enough bloodshed.</em>\u000a\u000a<<display 'hewes sum hub'>>
 p2828
 sg23
 Vsum education reason yes 1
@@ -9230,12 +9230,12 @@ sg25
 g26
 ((I2014
 I8
-I6
-I15
-I46
+I7
+I11
+I57
 I13
-I2
-I218
+I3
+I219
 I1
 tp2830
 (dp2831
@@ -9421,7 +9421,7 @@ Tiddler
 p2886
 (dp2887
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">No, no, not the workers. I don't know why I said that.</em>\u000a\u000a[[Fair enough. You'll get some sleep once you're out.|sum action validate][$opinion++]]\u000a\u000a[[It still doesn't seem quite right.|sum action doubt]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">No, no, not the workers. I don't know why I said that. I'm so tired, I can barely think straight.</em>\u000a\u000a[[Fair enough. You'll get some sleep once you're out.|sum action validate][$opinion++]]\u000a\u000a[[It still doesn't seem quite right.|sum action doubt]]
 p2888
 sg23
 Vsum action doubt 0
@@ -9430,12 +9430,12 @@ sg25
 g26
 ((I2014
 I8
-I6
+I7
 I11
-I8
-I53
-I2
-I218
+I57
+I55
+I3
+I219
 I1
 tp2890
 (dp2891
@@ -9776,7 +9776,7 @@ Tiddler
 p2993
 (dp2994
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(No response recorded.)<<endtimedinsert>>\u000a\u000a<<timedinsert 4s>><<nobr>>\u000a\u000a<<if $d2SumAction is false>>[[What is Hewes planning to do?|sum action][$d2SumAction = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumMotivation is false>>[[What caused Hewes to turn violent?|sum motivation][$d2SumMotivation = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumEducation == false>>[[What kind of person is he really?|sum education][$d2SumEducation = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumAction is true and $d2SuMotivation is true and $d2SumEducation is true>>[[We'll speak again tomorrow. [Log out and submit report.]|report 2]]<<endif>>\u000a<<endnobr>><<endtimedinsert>>
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(No response recorded.)<<endtimedinsert>>\u000a\u000a<<timedinsert 4s>><<display 'hewes sum hub'>><<endtimedinsert>>
 p2995
 sg23
 V3s return SumD2
@@ -9786,9 +9786,9 @@ g26
 ((I2014
 I8
 I7
-I9
-I49
-I4
+I11
+I55
+I24
 I3
 I219
 I1
@@ -10691,10 +10691,60 @@ tp3271
 (dp3272
 tp3273
 Rp3274
+sbsa(dp3275
+g14
+I00
+sg15
+(lp3276
+F1690.0
+aF3230.0
+asg17
+(itiddlywiki
+Tiddler
+p3277
+(dp3278
+g21
+V<<nobr>>\u000a<<if $d2SumAction is false>>[[What is Hewes planning to do?|sum action][$d2SumAction = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumMotivation is false>>[[What caused Hewes to turn violent?|sum motivation][$d2SumMotivation = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumEducation == false>>[[What kind of person is he really?|sum education][$d2SumEducation = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumAction is true and $d2SumMotivation is true and $d2SumEducation is true>>[[We'll speak again tomorrow. [Log out and submit report.]|report 2]]<<endif>>\u000a<<endnobr>>
+p3279
+sg23
+Vhewes sum hub
+p3280
+sg25
+g26
+((I2014
+I8
+I7
+I11
+I55
+I3
+I3
+I219
+I1
+tp3281
+(dp3282
+tp3283
+Rp3284
+sg31
+(lp3285
+sg33
+g26
+((I2014
+I8
+I7
+I11
+I53
+I58
+I3
+I219
+I1
+tp3286
+(dp3287
+tp3288
+Rp3289
 sbsasS'scale'
-p3275
+p3290
 F0.8
 sS'snapping'
-p3276
+p3291
 I01
 ss.
