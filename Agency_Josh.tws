@@ -6337,7 +6337,7 @@ Tiddler
 p1944
 (dp1945
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<set $hMO_intelFalse to true>><em class = "suspect">Well, he could do anything. He could keep on broadcasting his ideas on channels the Intelligence Agency can't control, he could run for president, he could recruit people in other countries, or he could keep on blowing things up until the president sits down and listens to him.\u000a\u000aMy guess? Probably the latter, but I'll be surprised if you'll let that happen.</em>\u000a\u000a[[So random attacks? That's his MO?|carson 1 hewes talk 1]]\u000a\u000a[[I'll make good note of that.|3s return]]
+VSUSPECT 1247\u000a- - - -\u000a<<set $planFalse to 1>><em class = "suspect">Well, he could do anything. He could keep on broadcasting his ideas on channels the Intelligence Agency can't control, he could run for president, he could recruit people in other countries, or he could keep on blowing things up until the president sits down and listens to him.\u000a\u000aMy guess? Probably the latter, but I'll be surprised if you'll let that happen.</em>\u000a\u000a[[So random attacks? That's his MO?|carson 1 hewes talk 1]]\u000a\u000a[[I'll make good note of that.|3s return]]
 p1946
 sg23
 Vcarson 1 hewes talk
@@ -6346,12 +6346,12 @@ sg25
 g26
 ((I2014
 I8
-I5
-I16
-I25
-I53
-I1
-I217
+I8
+I17
+I40
+I54
+I4
+I220
 I1
 tp1948
 (dp1949
@@ -6441,7 +6441,7 @@ Tiddler
 p1976
 (dp1977
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<set $hMO_intelFalse to true>><em class = "suspect">He...\u000a\u000a<<timedinsert 2s>>He wants to assassinate the CEO of Carson Group.<<endtimedinsert>></em>\u000a\u000a<<timedinsert 4s>>\u000a[[Can't say I'm surprised.|3s return]]\u000a\u000a[[Well, if I were a bloodthirsty terrorist, that'd be the first person on my list too.|3s return][$opinion++]]\u000a<<endtimedinsert>>
+VSUSPECT 1247\u000a- - - -\u000a<<set $planHalfTrue to 1>><em class = "suspect">He...\u000a\u000a<<timedinsert 2s>>He wants to assassinate the CEO of Carson Group.<<endtimedinsert>></em>\u000a\u000a<<timedinsert 4s>>\u000a[[Can't say I'm surprised.|3s return]]\u000a\u000a[[Well, if I were a bloodthirsty terrorist, that'd be the first person on my list too.|3s return][$opinion++]]\u000a<<endtimedinsert>>
 p1978
 sg23
 Vcarson 1 hewes want
@@ -6450,12 +6450,12 @@ sg25
 g26
 ((I2014
 I8
-I5
-I16
-I19
-I5
-I1
-I217
+I8
+I17
+I40
+I21
+I4
+I220
 I1
 tp1980
 (dp1981
@@ -6534,7 +6534,7 @@ tp2004
 Rp2005
 sbsa(dp2006
 g14
-I00
+I01
 sg15
 (lp2007
 F3370.0
@@ -6545,7 +6545,7 @@ Tiddler
 p2008
 (dp2009
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<set $$planHalfTrue to 1>><em class = "suspect">It's Carson, it all comes back to Carson. He wants to tear down anyone and anything related to the Carson Group.</em>\u000a\u000a[[Thank you.|3s return]]
+VSUSPECT 1247\u000a- - - -\u000a<<set $planHalfTrue to 1>><em class = "suspect">It's Carson, it all comes back to Carson. He wants to tear down anyone and anything related to the Carson Group.</em>\u000a\u000a[[Thank you.|3s return]]
 p2010
 sg23
 Vcarson 1 hewes psych threat 2
@@ -6555,9 +6555,9 @@ g26
 ((I2014
 I8
 I8
-I16
-I33
-I56
+I17
+I42
+I55
 I4
 I220
 I1
