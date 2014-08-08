@@ -10652,7 +10652,7 @@ Tiddler
 p3261
 (dp3262
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I'm afraid I can't, Inspector. I just have to wait a few more hours and the law will be on my side.</em>\u000a\u000a[[I'll find him anyway.|day 3]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I'm afraid I can't, Inspector. I just have to wait a few more hours and the law will be on my side.</em>\u000a\u000a[[No matter. We'll find him one way or another. [Disconnect.]|report 3 start]]
 p3263
 sg23
 Vd3 true nope 1
@@ -10661,12 +10661,12 @@ sg25
 g26
 ((I2014
 I8
-I7
-I11
 I8
-I28
-I3
-I219
+I11
+I13
+I47
+I4
+I220
 I1
 tp3265
 (dp3266
@@ -10676,6 +10676,8 @@ sg31
 (lp3269
 Vnice
 p3270
+aVend
+p3271
 asg33
 g26
 ((I2014
@@ -10687,28 +10689,28 @@ I22
 I3
 I247
 I1
-tp3271
-(dp3272
-tp3273
-Rp3274
-sbsa(dp3275
+tp3272
+(dp3273
+tp3274
+Rp3275
+sbsa(dp3276
 g14
 I00
 sg15
-(lp3276
+(lp3277
 F1690.0
 aF3230.0
 asg17
 (itiddlywiki
 Tiddler
-p3277
-(dp3278
+p3278
+(dp3279
 g21
 V<<nobr>>\u000a<<if $d2SumAction is false>>[[What is Hewes planning to do?|sum action][$d2SumAction = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumMotivation is false>>[[What caused Hewes to turn violent?|sum motivation][$d2SumMotivation = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumEducation == false>>[[What kind of person is he really?|sum education][$d2SumEducation = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumAction is true and $d2SumMotivation is true and $d2SumEducation is true>>[[We'll speak again tomorrow. [Log out and submit report.]|report 2]]<<endif>>\u000a<<endnobr>>
-p3279
+p3280
 sg23
 Vhewes sum hub
-p3280
+p3281
 sg25
 g26
 ((I2014
@@ -10720,12 +10722,12 @@ I3
 I3
 I219
 I1
-tp3281
-(dp3282
-tp3283
-Rp3284
+tp3282
+(dp3283
+tp3284
+Rp3285
 sg31
-(lp3285
+(lp3286
 sg33
 g26
 ((I2014
@@ -10737,28 +10739,28 @@ I58
 I3
 I219
 I1
-tp3286
-(dp3287
-tp3288
-Rp3289
-sbsa(dp3290
+tp3287
+(dp3288
+tp3289
+Rp3290
+sbsa(dp3291
 g14
 I00
 sg15
-(lp3291
+(lp3292
 F1970.0
 aF4350.0
 asg17
 (itiddlywiki
 Tiddler
-p3292
-(dp3293
+p3293
+(dp3294
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Well, it's all I have heard. They don't just going around telling everyone the details of their guerrilla operations.</em>\u000a\u000a[[I'm sure you know more than that.|d3 ht aggressive]]\u000a\u000a[[I'm sure you're exhausted by all this. I'm not.|d3 ht aggressive]]\u000a\u000a[[Let's try another approach, shall we? I give you what you want, and you give me what I want.|d3 ht nice]]
-p3294
+p3295
 sg23
 Vd3 halftrue
-p3295
+p3296
 sg25
 g26
 ((I2014
@@ -10770,12 +10772,12 @@ I1
 I3
 I219
 I1
-tp3296
-(dp3297
-tp3298
-Rp3299
+tp3297
+(dp3298
+tp3299
+Rp3300
 sg31
-(lp3300
+(lp3301
 sg33
 g26
 ((I2014
@@ -10787,28 +10789,28 @@ I22
 I3
 I247
 I1
-tp3301
-(dp3302
-tp3303
-Rp3304
-sbsa(dp3305
+tp3302
+(dp3303
+tp3304
+Rp3305
+sbsa(dp3306
 g14
 I00
 sg15
-(lp3306
+(lp3307
 F2110.0
 aF4490.0
 asg17
 (itiddlywiki
 Tiddler
-p3307
-(dp3308
+p3308
+(dp3309
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I'm surprised.</em>\u000a\u000a<<nobr>><<if $opinion >= 4>>\u000a[[I'm listening.|d3 redeem]]<br><br>\u000a<<endif>>\u000a\u000a[[I realize I might not have made the right choices.|d3 ht nice 2]]\u000a<<endnobr>>
-p3309
+p3310
 sg23
 Vd3 ht nice
-p3310
+p3311
 sg25
 g26
 ((I2014
@@ -10820,14 +10822,14 @@ I12
 I3
 I219
 I1
-tp3311
-(dp3312
-tp3313
-Rp3314
+tp3312
+(dp3313
+tp3314
+Rp3315
 sg31
-(lp3315
+(lp3316
 Vnice
-p3316
+p3317
 asg33
 g26
 ((I2014
@@ -10839,28 +10841,28 @@ I22
 I3
 I247
 I1
-tp3317
-(dp3318
-tp3319
-Rp3320
-sbsa(dp3321
+tp3318
+(dp3319
+tp3320
+Rp3321
+sbsa(dp3322
 g14
 I00
 sg15
-(lp3322
+(lp3323
 F2110.0
 aF4350.0
 asg17
 (itiddlywiki
 Tiddler
-p3323
-(dp3324
+p3324
+(dp3325
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I can see where this is going.</em>\u000a\u000a[[You should have started talking earlier.|d3 ht aggressive 1]]\u000a\u000a[[I'll give you one more chance.|d3 redeem]]
-p3325
+p3326
 sg23
 Vd3 ht aggressive
-p3326
+p3327
 sg25
 g26
 ((I2014
@@ -10872,16 +10874,16 @@ I13
 I3
 I219
 I1
-tp3327
-(dp3328
-tp3329
-Rp3330
+tp3328
+(dp3329
+tp3330
+Rp3331
 sg31
-(lp3331
+(lp3332
 Vagg
-p3332
-aVtorture
 p3333
+aVtorture
+p3334
 asg33
 g26
 ((I2014
@@ -10893,28 +10895,28 @@ I22
 I3
 I247
 I1
-tp3334
-(dp3335
-tp3336
-Rp3337
-sbsa(dp3338
+tp3335
+(dp3336
+tp3337
+Rp3338
+sbsa(dp3339
 g14
 I00
 sg15
-(lp3339
+(lp3340
 F2250.0
 aF4490.0
 asg17
 (itiddlywiki
 Tiddler
-p3340
-(dp3341
+p3341
+(dp3342
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Good or not, these choices have been made. Where do we go from here?</em>\u000a\u000a[[Now we ask the hard questions, the hard way.|d3 ht aggressive]]\u000a\u000a[[I figured you for a man who believes in second chances.|d3 redeem]]
-p3342
+p3343
 sg23
 Vd3 ht nice 2
-p3343
+p3344
 sg25
 g26
 ((I2014
@@ -10926,16 +10928,16 @@ I51
 I3
 I219
 I1
-tp3344
-(dp3345
-tp3346
-Rp3347
+tp3345
+(dp3346
+tp3347
+Rp3348
 sg31
-(lp3348
+(lp3349
 Vnice
-p3349
-aVT
 p3350
+aVT
+p3351
 asg33
 g26
 ((I2014
@@ -10947,49 +10949,49 @@ I22
 I3
 I247
 I1
-tp3351
-(dp3352
-tp3353
-Rp3354
-sbsa(dp3355
+tp3352
+(dp3353
+tp3354
+Rp3355
+sbsa(dp3356
 g14
 I00
 sg15
-(lp3356
+(lp3357
 F2250.0
 aF4350.0
 asg17
 (itiddlywiki
 Tiddler
-p3357
-(dp3358
+p3358
+(dp3359
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(No response recorded.)<<endtimedinsert>><<timedinsert 4s>>\u000a\u000a[[There are still some things about you that intrigue me.|d3 ht aggressive talk]]\u000a\u000a[[You leave me no choice. (Apply physical encouragement.)|d3 ht torture][$torture++; $opinion--]]<<endtimedinsert>>
-p3359
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(No response recorded.)<<endtimedinsert>><<timedinsert 4s>>\u000a\u000a[[There are still some things about you that intrigue me.|d3 ht aggressive talk]]\u000a\u000a[[You leave me no choice.|d3 ht torture]]<<endtimedinsert>>
+p3360
 sg23
 Vd3 ht aggressive 1
-p3360
+p3361
 sg25
 g26
 ((I2014
 I8
-I7
-I15
-I17
-I7
-I3
-I219
+I8
+I11
+I37
+I34
+I4
+I220
 I1
-tp3361
-(dp3362
-tp3363
-Rp3364
+tp3362
+(dp3363
+tp3364
+Rp3365
 sg31
-(lp3365
+(lp3366
 Vagg
-p3366
-aVtorture
 p3367
+aVtorture
+p3368
 asg33
 g26
 ((I2014
@@ -11001,28 +11003,28 @@ I22
 I3
 I247
 I1
-tp3368
-(dp3369
-tp3370
-Rp3371
-sbsa(dp3372
+tp3369
+(dp3370
+tp3371
+Rp3372
+sbsa(dp3373
 g14
 I00
 sg15
-(lp3373
+(lp3374
 F2390.0
 aF4350.0
 asg17
 (itiddlywiki
 Tiddler
-p3374
-(dp3375
+p3375
+(dp3376
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(No response recorded.)<<endtimedinsert>><<timedinsert 4s>>\u000a\u000a[[Was it guilt or arrogance that led you to your job?|d3 ht talk public]]\u000a\u000a[[We've talked about your family and friends...|d3 ht talk private]]<<endtimedinsert>>
-p3376
+p3377
 sg23
 Vd3 ht aggressive talk
-p3377
+p3378
 sg25
 g26
 ((I2014
@@ -11034,14 +11036,14 @@ I58
 I3
 I219
 I1
-tp3378
-(dp3379
-tp3380
-Rp3381
+tp3379
+(dp3380
+tp3381
+Rp3382
 sg31
-(lp3382
+(lp3383
 Vmental
-p3383
+p3384
 asg33
 g26
 ((I2014
@@ -11053,49 +11055,49 @@ I22
 I3
 I247
 I1
-tp3384
-(dp3385
-tp3386
-Rp3387
-sbsa(dp3388
+tp3385
+(dp3386
+tp3387
+Rp3388
+sbsa(dp3389
 g14
 I00
 sg15
-(lp3389
+(lp3390
 F2110.0
 aF4630.0
 asg17
 (itiddlywiki
 Tiddler
-p3390
-(dp3391
+p3391
+(dp3392
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Please. Don't do that.</em>\u000a\u000a[[I gather that it hurts. Are you ready to talk?|d3 ht torture wonttalk]]\u000a\u000a[[I can't feel a thing. (Apply physical encouragement.)|d3 ht torture a][$torture++; $opinion--]]
-p3392
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Please. No.</em>\u000a\u000a[[I gather that it hurts. Are you ready to talk?|d3 ht torture wonttalk]]\u000a\u000a[[I can't feel a thing. (Apply physical encouragement.)|d3 ht torture a][$torture++; $opinion--]]
+p3393
 sg23
 Vd3 ht torture
-p3393
+p3394
 sg25
 g26
 ((I2014
 I8
-I7
-I14
+I8
+I11
+I37
 I54
-I21
-I3
-I219
+I4
+I220
 I1
-tp3394
-(dp3395
-tp3396
-Rp3397
+tp3395
+(dp3396
+tp3397
+Rp3398
 sg31
-(lp3398
+(lp3399
 Vagg
-p3399
-aVtorture
 p3400
+aVtorture
+p3401
 asg33
 g26
 ((I2014
@@ -11107,28 +11109,28 @@ I22
 I3
 I247
 I1
-tp3401
-(dp3402
-tp3403
-Rp3404
-sbsa(dp3405
+tp3402
+(dp3403
+tp3404
+Rp3405
+sbsa(dp3406
 g14
 I00
 sg15
-(lp3406
+(lp3407
 F2110.0
 aF4770.0
 asg17
 (itiddlywiki
 Tiddler
-p3407
-(dp3408
+p3408
+(dp3409
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I... I've told you all I know.</em>\u000a\u000a[[This isn't what I want, or what you want.|d3 ht torture wonttalk]]\u000a\u000a[[I hope not. (Apply physical encouragement.)|d3 ht torture b][$torture++; $opinion--]]\u000a
-p3409
+p3410
 sg23
 Vd3 ht torture notready
-p3410
+p3411
 sg25
 g26
 ((I2014
@@ -11140,16 +11142,16 @@ I26
 I3
 I219
 I1
-tp3411
-(dp3412
-tp3413
-Rp3414
+tp3412
+(dp3413
+tp3414
+Rp3415
 sg31
-(lp3415
+(lp3416
 Vagg
-p3416
-aVtorture
 p3417
+aVtorture
+p3418
 asg33
 g26
 ((I2014
@@ -11161,28 +11163,28 @@ I22
 I3
 I247
 I1
-tp3418
-(dp3419
-tp3420
-Rp3421
-sbsa(dp3422
+tp3419
+(dp3420
+tp3421
+Rp3422
+sbsa(dp3423
 g14
 I00
 sg15
-(lp3423
+(lp3424
 F2250.0
 aF4770.0
 asg17
 (itiddlywiki
 Tiddler
-p3424
-(dp3425
+p3425
+(dp3426
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">They want to attack Carson, they want to hurt Carson, I promise this is all I know, this is all they'll do...</em>\u000a\u000a[[Tell me more.|d3 ht torture notready 1]]\u000a/% deliberately leads back here%/\u000a[[(Apply physical encouragement.)|d3 ht torture c][$torture++; $opinion--]]
-p3426
+p3427
 sg23
 Vd3 ht torture notready 1
-p3427
+p3428
 sg25
 g26
 ((I2014
@@ -11194,16 +11196,16 @@ I47
 I3
 I219
 I1
-tp3428
-(dp3429
-tp3430
-Rp3431
+tp3429
+(dp3430
+tp3431
+Rp3432
 sg31
-(lp3432
+(lp3433
 Vagg
-p3433
-aVtorture
 p3434
+aVtorture
+p3435
 asg33
 g26
 ((I2014
@@ -11215,28 +11217,28 @@ I22
 I3
 I247
 I1
-tp3435
-(dp3436
-tp3437
-Rp3438
-sbsa(dp3439
+tp3436
+(dp3437
+tp3438
+Rp3439
+sbsa(dp3440
 g14
 I00
 sg15
-(lp3440
+(lp3441
 F2390.0
 aF4770.0
 asg17
 (itiddlywiki
 Tiddler
-p3441
-(dp3442
+p3442
+(dp3443
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">No, no, no no no no no. Please please. Stop.</em>\u000a\u000a[[Listen. You give the details I want, I'll give you my word that whatever is happening to you stops now.|d3 ht torture notready 1 1 1][set $promiseTorture == true]]\u000a\u000a[[I need more. (Apply physical encouragement.)|d3 ht torture d][$torture++; $opinion--]]
-p3443
+p3444
 sg23
 Vd3 ht torture notready 1 1
-p3444
+p3445
 sg25
 g26
 ((I2014
@@ -11248,16 +11250,16 @@ I16
 I3
 I219
 I1
-tp3445
-(dp3446
-tp3447
-Rp3448
+tp3446
+(dp3447
+tp3448
+Rp3449
 sg31
-(lp3449
+(lp3450
 Vagg
-p3450
-aVtorture
 p3451
+aVtorture
+p3452
 asg33
 g26
 ((I2014
@@ -11269,28 +11271,28 @@ I22
 I3
 I247
 I1
-tp3452
-(dp3453
-tp3454
-Rp3455
-sbsa(dp3456
+tp3453
+(dp3454
+tp3455
+Rp3456
+sbsa(dp3457
 g14
 I00
 sg15
-(lp3457
+(lp3458
 F2110.0
 aF4910.0
 asg17
 (itiddlywiki
 Tiddler
-p3458
-(dp3459
+p3459
+(dp3460
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Do you really have time to talk about that?</em>\u000a\u000a[[We have time to talk about what I want. Usually, when we detain individuals, we have to deal from requests from relatives.|d3 ht talk private 1]]
-p3460
+p3461
 sg23
 Vd3 ht talk private
-p3461
+p3462
 sg25
 g26
 ((I2014
@@ -11302,14 +11304,14 @@ I42
 I3
 I219
 I1
-tp3462
-(dp3463
-tp3464
-Rp3465
+tp3463
+(dp3464
+tp3465
+Rp3466
 sg31
-(lp3466
+(lp3467
 Vprivate
-p3467
+p3468
 asg33
 g26
 ((I2014
@@ -11321,28 +11323,28 @@ I22
 I3
 I247
 I1
-tp3468
-(dp3469
-tp3470
-Rp3471
-sbsa(dp3472
+tp3469
+(dp3470
+tp3471
+Rp3472
+sbsa(dp3473
 g14
 I00
 sg15
-(lp3473
+(lp3474
 F2530.0
 aF4770.0
 asg17
 (itiddlywiki
 Tiddler
-p3474
-(dp3475
+p3475
+(dp3476
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Alright. They want to hit the CEO and the CIO, and they will do it, they will do it by... blowing up the elevator, there's a private elevator for the... council... board... board meeting room, and it needs maintenance and I think... the maintenance team... I think he knows the maintenance team.</em>\u000a\u000a[[That'll do. There, that wasn't so hard.|d3 ht torture done]]\u000a\u000a[[You forgot to give me a precise time. (Apply physical encouragement.)|d3 ht torture f][$torture++;$opinion--]] /%if you do it even though you had promised not to torture, you'll break him and then you're fucked %/
-p3476
+p3477
 sg23
 Vd3 ht torture notready 1 1 1
-p3477
+p3478
 sg25
 g26
 ((I2014
@@ -11354,16 +11356,16 @@ I48
 I3
 I219
 I1
-tp3478
-(dp3479
-tp3480
-Rp3481
+tp3479
+(dp3480
+tp3481
+Rp3482
 sg31
-(lp3482
+(lp3483
 Vagg
-p3483
-aVtorture
 p3484
+aVtorture
+p3485
 asg33
 g26
 ((I2014
@@ -11375,28 +11377,28 @@ I22
 I3
 I247
 I1
-tp3485
-(dp3486
-tp3487
-Rp3488
-sbsa(dp3489
+tp3486
+(dp3487
+tp3488
+Rp3489
+sbsa(dp3490
 g14
 I00
 sg15
-(lp3490
+(lp3491
 F2670.0
 aF4770.0
 asg17
 (itiddlywiki
 Tiddler
-p3491
-(dp3492
+p3492
+(dp3493
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $torturePromise == false>>\u000a<em class = "suspect">Thank God.</em><br><br>\u000a<<else>>\u000a<em class = "suspect">...</em><br><br>\u000a<<endif>>\u000a<<endnobr>>[[Thank you for your cooperation.|d3 ht end]]\u000a\u000a[[You'll be let out soon. Goodbye.|d3 ht end]]
-p3493
+p3494
 sg23
 Vd3 ht torture done
-p3494
+p3495
 sg25
 g26
 ((I2014
@@ -11408,16 +11410,16 @@ I8
 I3
 I219
 I1
-tp3495
-(dp3496
-tp3497
-Rp3498
+tp3496
+(dp3497
+tp3498
+Rp3499
 sg31
-(lp3499
+(lp3500
 Vagg
-p3500
-aVtorture
 p3501
+aVtorture
+p3502
 asg33
 g26
 ((I2014
@@ -11429,28 +11431,28 @@ I22
 I3
 I247
 I1
-tp3502
-(dp3503
-tp3504
-Rp3505
-sbsa(dp3506
+tp3503
+(dp3504
+tp3505
+Rp3506
+sbsa(dp3507
 g14
 I00
 sg15
-(lp3507
+(lp3508
 F3510.0
 aF4770.0
 asg17
 (itiddlywiki
 Tiddler
-p3508
-(dp3509
+p3509
+(dp3510
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $torturePromise == false>>\u000a<em class = "suspect">Thank God.</em>\u000a<<else>>\u000a<em class = "suspect">...</em>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[[Disconnect.]|report 3 start]]\u000a\u000a[[I'm sorry. [Disconnect.]|report 3 start]] /%if you do it even though you had promised not to torture, you'll break him and then you're fucked %/
-p3510
+p3511
 sg23
 Vd3 ht end
-p3511
+p3512
 sg25
 g26
 ((I2014
@@ -11462,16 +11464,16 @@ I23
 I4
 I220
 I1
-tp3512
-(dp3513
-tp3514
-Rp3515
+tp3513
+(dp3514
+tp3515
+Rp3516
 sg31
-(lp3516
+(lp3517
 Vagg
-p3517
-aVend
 p3518
+aVend
+p3519
 asg33
 g26
 ((I2014
@@ -11483,28 +11485,28 @@ I22
 I3
 I247
 I1
-tp3519
-(dp3520
-tp3521
-Rp3522
-sbsa(dp3523
+tp3520
+(dp3521
+tp3522
+Rp3523
+sbsa(dp3524
 g14
 I00
 sg15
-(lp3524
+(lp3525
 F2530.0
 aF4350.0
 asg17
 (itiddlywiki
 Tiddler
-p3525
-(dp3526
+p3526
+(dp3527
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">You think that you've found out all about me? Human beings are complex, Inspector. Unlike your worldview.</em>\u000a\u000a<<nobr>>\u000a[[You and I both know that, when you get out, you won't be returning to a life you want.|d3 ht talk public job]]<br><br>\u000a<<if $idealsIntel == true>>\u000a[[I know you can't live up to your ideals.|d3 ht talk public ideals]]\u000a<<else>>\u000a[[I don't need to know you. (Apply physical encouragement.)|d3 ht torture][$torture++; $opinion--]]\u000a<<endif>>\u000a<<endnobr>>
-p3527
+p3528
 sg23
 Vd3 ht talk public
-p3528
+p3529
 sg25
 g26
 ((I2014
@@ -11516,14 +11518,14 @@ I18
 I3
 I219
 I1
-tp3529
-(dp3530
-tp3531
-Rp3532
+tp3530
+(dp3531
+tp3532
+Rp3533
 sg31
-(lp3533
+(lp3534
 Vpublic
-p3534
+p3535
 asg33
 g26
 ((I2014
@@ -11535,28 +11537,28 @@ I22
 I3
 I247
 I1
-tp3535
-(dp3536
-tp3537
-Rp3538
-sbsa(dp3539
+tp3536
+(dp3537
+tp3538
+Rp3539
+sbsa(dp3540
 g14
 I00
 sg15
-(lp3540
+(lp3541
 F2810.0
 aF4350.0
 asg17
 (itiddlywiki
 Tiddler
-p3541
-(dp3542
+p3542
+(dp3543
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I'm making a difference through the Center for Civil Activism. Unlike you.</em>\u000a\u000a[[It's not about what job you have, it's about what you do with it.|d3 ht talk job 1]]\u000a\u000a[[What I do isn't a redemption from what I've done before.|d3 ht talk job 1]]
-p3543
+p3544
 sg23
 Vd3 ht talk public job
-p3544
+p3545
 sg25
 g26
 ((I2014
@@ -11568,14 +11570,14 @@ I39
 I3
 I219
 I1
-tp3545
-(dp3546
-tp3547
-Rp3548
+tp3546
+(dp3547
+tp3548
+Rp3549
 sg31
-(lp3549
+(lp3550
 Vpublic
-p3550
+p3551
 asg33
 g26
 ((I2014
@@ -11587,28 +11589,28 @@ I22
 I3
 I247
 I1
-tp3551
-(dp3552
-tp3553
-Rp3554
-sbsa(dp3555
+tp3552
+(dp3553
+tp3554
+Rp3555
+sbsa(dp3556
 g14
 I00
 sg15
-(lp3556
+(lp3557
 F2950.0
 aF4350.0
 asg17
 (itiddlywiki
 Tiddler
-p3557
-(dp3558
+p3558
+(dp3559
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">That's ridiculous, Inspector. I fight for human rights and you sit wherever the hell you are and torture people through a machine.</em>\u000a\u000a[[You're fighting against something you hate, while I'm protecting something I believe in. The former takes anger, the latter takes courage.|d3 ht talk job 1 2]]\u000a\u000a[[All you do is limit collateral damage. Despite your grand talk and grand intentions, you're not changing anything for the better.|d3 ht talk job 1 2]]\u000a\u000a<<if $torture >= 2>>[[That's right. Your job puts you on your end of the Interface, where you suffer, and my job puts me on mine.|d3 ht talk job 1 1]]<<endif>>
-p3559
+p3560
 sg23
 Vd3 ht talk job 1
-p3560
+p3561
 sg25
 g26
 ((I2014
@@ -11620,14 +11622,14 @@ I36
 I3
 I219
 I1
-tp3561
-(dp3562
-tp3563
-Rp3564
+tp3562
+(dp3563
+tp3564
+Rp3565
 sg31
-(lp3565
+(lp3566
 Vpublic
-p3566
+p3567
 asg33
 g26
 ((I2014
@@ -11639,28 +11641,28 @@ I22
 I3
 I247
 I1
-tp3567
-(dp3568
-tp3569
-Rp3570
-sbsa(dp3571
+tp3568
+(dp3569
+tp3570
+Rp3571
+sbsa(dp3572
 g14
 I00
 sg15
-(lp3572
+(lp3573
 F3090.0
 aF4350.0
 asg17
 (itiddlywiki
 Tiddler
-p3573
-(dp3574
+p3574
+(dp3575
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">That's not the problem, Inspector. Everybody suffers, and I'm no different.</em>\u000a\u000a[[I don't believe that. If you had accepted suffering, you wouldn't have that type of work.|d3 ht talk job 1 1 1]]\u000a\u000a[[But there's no inherent need for suffering.|d3 ht talk job 1 1 1]]
-p3575
+p3576
 sg23
 Vd3 ht talk job 1 1
-p3576
+p3577
 sg25
 g26
 ((I2014
@@ -11672,14 +11674,14 @@ I41
 I3
 I219
 I1
-tp3577
-(dp3578
-tp3579
-Rp3580
+tp3578
+(dp3579
+tp3580
+Rp3581
 sg31
-(lp3581
+(lp3582
 Vpublic
-p3582
+p3583
 asg33
 g26
 ((I2014
@@ -11691,28 +11693,28 @@ I22
 I3
 I247
 I1
-tp3583
-(dp3584
-tp3585
-Rp3586
-sbsa(dp3587
+tp3584
+(dp3585
+tp3586
+Rp3587
+sbsa(dp3588
 g14
 I00
 sg15
-(lp3588
+(lp3589
 F3230.0
 aF4350.0
 asg17
 (itiddlywiki
 Tiddler
-p3589
-(dp3590
+p3590
+(dp3591
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">And yet I can bear to look myself in the eye every morning.</em>\u000a\u000a[[What I do in the morning doesn't concern you.|d3 ht aggressive talk]]\u000a\u000a[[I have patriotism and professional pride. That's enough of this.|d3 ht aggressive talk]]
-p3591
+p3592
 sg23
 Vd3 ht talk job 1 2
-p3592
+p3593
 sg25
 g26
 ((I2014
@@ -11724,14 +11726,14 @@ I6
 I3
 I219
 I1
-tp3593
-(dp3594
-tp3595
-Rp3596
+tp3594
+(dp3595
+tp3596
+Rp3597
 sg31
-(lp3597
+(lp3598
 Vpublic
-p3598
+p3599
 asg33
 g26
 ((I2014
@@ -11743,28 +11745,28 @@ I22
 I3
 I247
 I1
-tp3599
-(dp3600
-tp3601
-Rp3602
-sbsa(dp3603
+tp3600
+(dp3601
+tp3602
+Rp3603
+sbsa(dp3604
 g14
 I00
 sg15
-(lp3604
+(lp3605
 F2250.0
 aF4910.0
 asg17
 (itiddlywiki
 Tiddler
-p3605
-(dp3606
+p3606
+(dp3607
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(No response recorded.)<<endtimedinsert>><<timedinsert 4s>>\u000a\u000a[[I thought someone like you would have worried friends.|d3 ht talk private 1 1]]\u000a\u000a[[I thought someone like you would have a more concerned family.|d3 ht talk private 1 2]]\u000a\u000a[[Yet, you seem like a nice person.|d3 ht talk private 1 1 1]]<<endtimedinsert>>
-p3607
+p3608
 sg23
 Vd3 ht talk private 1
-p3608
+p3609
 sg25
 g26
 ((I2014
@@ -11776,14 +11778,14 @@ I9
 I3
 I219
 I1
-tp3609
-(dp3610
-tp3611
-Rp3612
+tp3610
+(dp3611
+tp3612
+Rp3613
 sg31
-(lp3613
+(lp3614
 Vprivate
-p3614
+p3615
 asg33
 g26
 ((I2014
@@ -11795,28 +11797,28 @@ I22
 I3
 I247
 I1
-tp3615
-(dp3616
-tp3617
-Rp3618
-sbsa(dp3619
+tp3616
+(dp3617
+tp3618
+Rp3619
+sbsa(dp3620
 g14
 I00
 sg15
-(lp3620
+(lp3621
 F2390.0
 aF4910.0
 asg17
 (itiddlywiki
 Tiddler
-p3621
-(dp3622
+p3622
+(dp3623
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(No response recorded.)<<endtimedinsert>><<timedinsert 4s>>\u000a\u000a[[I'm sure some of them are concerned. Unless they disapprove of what you've become.|d3 ht talk private 1 1 nice]]\u000a\u000a[[Too bad you can't fix friendships like you sue a government.|d3 ht talk private 1 1 mean]]<<endtimedinsert>>
-p3623
+p3624
 sg23
 Vd3 ht talk private 1 1
-p3624
+p3625
 sg25
 g26
 ((I2014
@@ -11828,14 +11830,14 @@ I16
 I3
 I219
 I1
-tp3625
-(dp3626
-tp3627
-Rp3628
+tp3626
+(dp3627
+tp3628
+Rp3629
 sg31
-(lp3629
+(lp3630
 Vprivate
-p3630
+p3631
 asg33
 g26
 ((I2014
@@ -11847,28 +11849,28 @@ I22
 I3
 I247
 I1
-tp3631
-(dp3632
-tp3633
-Rp3634
-sbsa(dp3635
+tp3632
+(dp3633
+tp3634
+Rp3635
+sbsa(dp3636
 g14
 I00
 sg15
-(lp3636
+(lp3637
 F2530.0
 aF4910.0
 asg17
 (itiddlywiki
 Tiddler
-p3637
-(dp3638
+p3638
+(dp3639
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">We don't talk much.</em>\u000a\u000a[[If you made the right choices, I'm sure that situation would change.|d3 ht talk private 1 1 nice]]\u000a\u000a[[If my child was to fight against the country that welcomed me and became my home, I wouldn't to have anything to do with it.|d3 ht talk private 1 1 mean]]
-p3639
+p3640
 sg23
 Vd3 ht talk private 1 2
-p3640
+p3641
 sg25
 g26
 ((I2014
@@ -11880,14 +11882,14 @@ I16
 I3
 I219
 I1
-tp3641
-(dp3642
-tp3643
-Rp3644
+tp3642
+(dp3643
+tp3644
+Rp3645
 sg31
-(lp3645
+(lp3646
 Vprivate
-p3646
+p3647
 asg33
 g26
 ((I2014
@@ -11899,28 +11901,28 @@ I22
 I3
 I247
 I1
-tp3647
-(dp3648
-tp3649
-Rp3650
-sbsa(dp3651
+tp3648
+(dp3649
+tp3650
+Rp3651
+sbsa(dp3652
 g14
 I00
 sg15
-(lp3652
+(lp3653
 F2670.0
 aF4910.0
 asg17
 (itiddlywiki
 Tiddler
-p3653
-(dp3654
+p3654
+(dp3655
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I'm not.</em>\u000a\u000a[[That doesn't mean you'll never be.|d3 ht talk private 1 1 nice]]\u000a\u000a[[I'm not either. And I'm the one in control.|d3 ht talk private 1 1 mean]]
-p3655
+p3656
 sg23
 Vd3 ht talk private 1 1 1
-p3656
+p3657
 sg25
 g26
 ((I2014
@@ -11932,14 +11934,14 @@ I27
 I6
 I250
 I1
-tp3657
-(dp3658
-tp3659
-Rp3660
+tp3658
+(dp3659
+tp3660
+Rp3661
 sg31
-(lp3661
+(lp3662
 Vprivate
-p3662
+p3663
 asg33
 g26
 ((I2014
@@ -11951,28 +11953,28 @@ I22
 I3
 I247
 I1
-tp3663
-(dp3664
-tp3665
-Rp3666
-sbsa(dp3667
+tp3664
+(dp3665
+tp3666
+Rp3667
+sbsa(dp3668
 g14
 I00
 sg15
-(lp3668
+(lp3669
 F3370.0
 aF4350.0
 asg17
 (itiddlywiki
 Tiddler
-p3669
-(dp3670
+p3670
+(dp3671
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Where are you going with all this?</em>\u000a\u000a[[I want to make you understand that all this stops when you help me.|d3 ht talk job 1 1 1 1]]\u000a\u000a[[I want to see how far this can go. You'll break soon.|d3 ht talk job 1 1 1 1]]
-p3671
+p3672
 sg23
 Vd3 ht talk job 1 1 1
-p3672
+p3673
 sg25
 g26
 ((I2014
@@ -11984,14 +11986,14 @@ I10
 I3
 I219
 I1
-tp3673
-(dp3674
-tp3675
-Rp3676
+tp3674
+(dp3675
+tp3676
+Rp3677
 sg31
-(lp3677
+(lp3678
 Vpublic
-p3678
+p3679
 asg33
 g26
 ((I2014
@@ -12003,28 +12005,28 @@ I22
 I3
 I247
 I1
-tp3679
-(dp3680
-tp3681
-Rp3682
-sbsa(dp3683
+tp3680
+(dp3681
+tp3682
+Rp3683
+sbsa(dp3684
 g14
 I00
 sg15
-(lp3684
+(lp3685
 F3510.0
 aF4350.0
 asg17
 (itiddlywiki
 Tiddler
-p3685
-(dp3686
+p3686
+(dp3687
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">No. This all stops when the 72 hours are expired and I am legally authorized to get the hell out of here.</em>\u000a\u000a[[You really believe that'll happen?|d3 ht aggressive]]\u000a\u000a[[That is the law. But we still have time to talk things through.|d3 ht talk private]]
-p3687
+p3688
 sg23
 Vd3 ht talk job 1 1 1 1
-p3688
+p3689
 sg25
 g26
 ((I2014
@@ -12036,14 +12038,14 @@ I32
 I4
 I220
 I1
-tp3689
-(dp3690
-tp3691
-Rp3692
+tp3690
+(dp3691
+tp3692
+Rp3693
 sg31
-(lp3693
+(lp3694
 Vpublic
-p3694
+p3695
 asg33
 g26
 ((I2014
@@ -12055,28 +12057,28 @@ I22
 I3
 I247
 I1
-tp3695
-(dp3696
-tp3697
-Rp3698
-sbsa(dp3699
+tp3696
+(dp3697
+tp3698
+Rp3699
+sbsa(dp3700
 g14
 I00
 sg15
-(lp3700
+(lp3701
 F2670.0
 aF4350.0
 asg17
 (itiddlywiki
 Tiddler
-p3701
-(dp3702
+p3702
+(dp3703
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">What are you talking about?</em>\u000a\u000a[[All your lofty idealism. It's not only unattainable, it's irrelevant.|d3 ht talk ideals 1]]\u000a\u000a[[You're smart enough to understand that a sustainable society requires the sacrifice of civil liberties, especially in times of emergency.|d3 ht talk ideals 1]]
-p3703
+p3704
 sg23
 Vd3 ht talk public ideals
-p3704
+p3705
 sg25
 g26
 ((I2014
@@ -12088,14 +12090,14 @@ I43
 I3
 I219
 I1
-tp3705
-(dp3706
-tp3707
-Rp3708
+tp3706
+(dp3707
+tp3708
+Rp3709
 sg31
-(lp3709
+(lp3710
 Vpublic
-p3710
+p3711
 asg33
 g26
 ((I2014
@@ -12107,28 +12109,28 @@ I22
 I3
 I247
 I1
-tp3711
-(dp3712
-tp3713
-Rp3714
-sbsa(dp3715
+tp3712
+(dp3713
+tp3714
+Rp3715
+sbsa(dp3716
 g14
 I00
 sg15
-(lp3716
+(lp3717
 F2670.0
 aF4490.0
 asg17
 (itiddlywiki
 Tiddler
-p3717
-(dp3718
+p3718
+(dp3719
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">It's about where that society draws the line between security and tyranny. These things are bigger than you, or me, or James Hewes.</em>\u000a\u000a[[So what do you do to fight for what you believe in?|d3 ht talk public job]]\u000a\u000a[[Don't be fooled. Right now, there is no bigger picture, only you and me and the Bureau Inspection Interface.|d3 ht talk ideals 1 1][$opinion--]]
-p3719
+p3720
 sg23
 Vd3 ht talk ideals 1
-p3720
+p3721
 sg25
 g26
 ((I2014
@@ -12140,14 +12142,14 @@ I45
 I3
 I219
 I1
-tp3721
-(dp3722
-tp3723
-Rp3724
+tp3722
+(dp3723
+tp3724
+Rp3725
 sg31
-(lp3725
+(lp3726
 Vpublic
-p3726
+p3727
 asg33
 g26
 ((I2014
@@ -12159,28 +12161,28 @@ I22
 I3
 I247
 I1
-tp3727
-(dp3728
-tp3729
-Rp3730
-sbsa(dp3731
+tp3728
+(dp3729
+tp3730
+Rp3731
+sbsa(dp3732
 g14
 I00
 sg15
-(lp3732
+(lp3733
 F2810.0
 aF4490.0
 asg17
 (itiddlywiki
 Tiddler
-p3733
-(dp3734
+p3734
+(dp3735
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">But there could be so much more, if you thought for yourself instead of just blindly following orders.</em>\u000a\u000a[[I follow these orders because I choose to do so. What do you choose to do?|d3 ht talk public job]]\u000a\u000a[[I follow these orders because I believe they're justified. If you can't convince me otherwise, you know the consequences.|d3 ht talk ideals 1 1 1]]\u000a\u000a[[I follow these orders so I can be where I am instead of where you are. (Apply physical encouragement.)|d3 ht torture][$torture++; $opinion--]]
-p3735
+p3736
 sg23
 Vd3 ht talk ideals 1 1
-p3736
+p3737
 sg25
 g26
 ((I2014
@@ -12192,14 +12194,14 @@ I42
 I3
 I219
 I1
-tp3737
-(dp3738
-tp3739
-Rp3740
+tp3738
+(dp3739
+tp3740
+Rp3741
 sg31
-(lp3741
+(lp3742
 Vpublic
-p3742
+p3743
 asg33
 g26
 ((I2014
@@ -12211,28 +12213,28 @@ I22
 I3
 I247
 I1
-tp3743
-(dp3744
-tp3745
-Rp3746
-sbsa(dp3747
+tp3744
+(dp3745
+tp3746
+Rp3747
+sbsa(dp3748
 g14
 I00
 sg15
-(lp3748
+(lp3749
 F2950.0
 aF4490.0
 asg17
 (itiddlywiki
 Tiddler
-p3749
-(dp3750
+p3750
+(dp3751
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Aren't you tired of threatening me? Can't you see this isn't going anywhere?</em>\u000a\u000a[[Tell that to Hewes. He's doing the same thing, without a government to keep him in check. That government you hate so much is preventing more harm than its creating.|d3 ht talk ideals 1 1 1 1]]\u000a\u000a[[Then let's get things moving. (Apply physical encouragement.)|d3 ht torture][$torture++; $opinion--]]
-p3751
+p3752
 sg23
 Vd3 ht talk ideals 1 1 1
-p3752
+p3753
 sg25
 g26
 ((I2014
@@ -12244,14 +12246,14 @@ I47
 I3
 I219
 I1
-tp3753
-(dp3754
-tp3755
-Rp3756
+tp3754
+(dp3755
+tp3756
+Rp3757
 sg31
-(lp3757
+(lp3758
 Vpublic
-p3758
+p3759
 asg33
 g26
 ((I2014
@@ -12263,28 +12265,28 @@ I22
 I3
 I247
 I1
-tp3759
-(dp3760
-tp3761
-Rp3762
-sbsa(dp3763
+tp3760
+(dp3761
+tp3762
+Rp3763
+sbsa(dp3764
 g14
 I00
 sg15
-(lp3764
+(lp3765
 F3090.0
 aF4490.0
 asg17
 (itiddlywiki
 Tiddler
-p3765
-(dp3766
+p3766
+(dp3767
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Really? Is that government really keeping you in check?</em>\u000a\u000a[[Yes.|d3 ht talk ideals 1 1 1 1 yes]]\u000a\u000a[[No.|d3 ht talk ideals 1 1 1 1 no]]
-p3767
+p3768
 sg23
 Vd3 ht talk ideals 1 1 1 1
-p3768
+p3769
 sg25
 g26
 ((I2014
@@ -12296,14 +12298,14 @@ I22
 I3
 I219
 I1
-tp3769
-(dp3770
-tp3771
-Rp3772
+tp3770
+(dp3771
+tp3772
+Rp3773
 sg31
-(lp3773
+(lp3774
 Vpublic
-p3774
+p3775
 asg33
 g26
 ((I2014
@@ -12315,28 +12317,28 @@ I22
 I3
 I247
 I1
-tp3775
-(dp3776
-tp3777
-Rp3778
-sbsa(dp3779
+tp3776
+(dp3777
+tp3778
+Rp3779
+sbsa(dp3780
 g14
 I00
 sg15
-(lp3780
+(lp3781
 F3370.0
 aF4490.0
 asg17
 (itiddlywiki
 Tiddler
-p3781
-(dp3782
+p3782
+(dp3783
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I hope you'll do the right thing, then. I've already told you everything I know about Hewes' plans for the Carson Group.</em>\u000a\u000a[[Thank you for your cooperation. [Disconnect.]|report 3 start]]
-p3783
+p3784
 sg23
 Vd3 ht talk ideals 1 1 1 1 yes
-p3784
+p3785
 sg25
 g26
 ((I2014
@@ -12348,16 +12350,16 @@ I22
 I4
 I220
 I1
-tp3785
-(dp3786
-tp3787
-Rp3788
+tp3786
+(dp3787
+tp3788
+Rp3789
 sg31
-(lp3789
+(lp3790
 Vend
-p3790
-aVyes
 p3791
+aVyes
+p3792
 asg33
 g26
 ((I2014
@@ -12369,28 +12371,28 @@ I22
 I3
 I247
 I1
-tp3792
-(dp3793
-tp3794
-Rp3795
-sbsa(dp3796
+tp3793
+(dp3794
+tp3795
+Rp3796
+sbsa(dp3797
 g14
 I00
 sg15
-(lp3797
+(lp3798
 F3230.0
 aF4490.0
 asg17
 (itiddlywiki
 Tiddler
-p3798
-(dp3799
+p3799
+(dp3800
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Then I shouldn't have told you anything.</em>\u000a\u000a[[You may not have said much, but be assured that the Carson Group will be protected from Hewes. [Disconnect.]|report 3 start]]
-p3800
+p3801
 sg23
 Vd3 ht talk ideals 1 1 1 1 no
-p3801
+p3802
 sg25
 g26
 ((I2014
@@ -12402,16 +12404,16 @@ I40
 I4
 I220
 I1
-tp3802
-(dp3803
-tp3804
-Rp3805
+tp3803
+(dp3804
+tp3805
+Rp3806
 sg31
-(lp3806
+(lp3807
 Vend
-p3807
-aVno
 p3808
+aVno
+p3809
 asg33
 g26
 ((I2014
@@ -12423,28 +12425,28 @@ I22
 I3
 I247
 I1
-tp3809
-(dp3810
-tp3811
-Rp3812
-sbsa(dp3813
+tp3810
+(dp3811
+tp3812
+Rp3813
+sbsa(dp3814
 g14
 I00
 sg15
-(lp3814
+(lp3815
 F2950.0
 aF4910.0
 asg17
 (itiddlywiki
 Tiddler
-p3815
-(dp3816
+p3816
+(dp3817
 g21
 VSUSPECT 1247\u000a- - - -\u000aI...\u000a\u000a[[No. You don't matter. All this doesn't matter. What matters is that you tell me the truth.|d3 ht talk private admit b]]\u000a\u000a[[Nothing good is going to come out of me until you tell me the truth.|d3 ht talk private admit b]]
-p3817
+p3818
 sg23
 Vd3 ht talk private 1 1 mean
-p3818
+p3819
 sg25
 g26
 ((I2014
@@ -12456,18 +12458,18 @@ I47
 I3
 I219
 I1
-tp3819
-(dp3820
-tp3821
-Rp3822
+tp3820
+(dp3821
+tp3822
+Rp3823
 sg31
-(lp3823
+(lp3824
 Vtruth
-p3824
-aVminus
 p3825
-aVsth
+aVminus
 p3826
+aVsth
+p3827
 asg33
 g26
 ((I2014
@@ -12479,28 +12481,28 @@ I22
 I3
 I247
 I1
-tp3827
-(dp3828
-tp3829
-Rp3830
-sbsa(dp3831
+tp3828
+(dp3829
+tp3830
+Rp3831
+sbsa(dp3832
 g14
 I00
 sg15
-(lp3832
+(lp3833
 F2810.0
 aF4910.0
 asg17
 (itiddlywiki
 Tiddler
-p3833
-(dp3834
+p3834
+(dp3835
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I understand.</em>\u000a\u000a[[If you think back, what changed from when you had loved ones surrounding you? Your commitment to political activism has made you more miserable.|d3 ht talk private admit]]\u000a\u000a[[You need to prove to them that you can do the right thing.|d3 ht talk private admit]]
-p3835
+p3836
 sg23
 Vd3 ht talk private 1 1 nice
-p3836
+p3837
 sg25
 g26
 ((I2014
@@ -12512,14 +12514,14 @@ I20
 I3
 I219
 I1
-tp3837
-(dp3838
-tp3839
-Rp3840
+tp3838
+(dp3839
+tp3840
+Rp3841
 sg31
-(lp3841
+(lp3842
 Vprivate
-p3842
+p3843
 asg33
 g26
 ((I2014
@@ -12531,28 +12533,28 @@ I22
 I3
 I247
 I1
-tp3843
-(dp3844
-tp3845
-Rp3846
-sbsa(dp3847
+tp3844
+(dp3845
+tp3846
+Rp3847
+sbsa(dp3848
 g14
 I00
 sg15
-(lp3848
+(lp3849
 F3090.0
 aF4910.0
 asg17
 (itiddlywiki
 Tiddler
-p3849
-(dp3850
+p3850
+(dp3851
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I didn't tell you the whole picture. Hewes targets Carson, that's true, but he wants payback from the person that allowed it. He wants to target the Supreme Court.</em>\u000a\u000a[[You've made the right decision. [Disconnect.]|report 3 start][$hMO_intel = true]]
-p3851
+p3852
 sg23
 Vd3 ht talk private admit
-p3852
+p3853
 sg25
 g26
 ((I2014
@@ -12564,16 +12566,16 @@ I9
 I4
 I220
 I1
-tp3853
-(dp3854
-tp3855
-Rp3856
+tp3854
+(dp3855
+tp3856
+Rp3857
 sg31
-(lp3857
+(lp3858
 Vprivate
-p3858
-aVend
 p3859
+aVend
+p3860
 asg33
 g26
 ((I2014
@@ -12585,28 +12587,28 @@ I22
 I3
 I247
 I1
-tp3860
-(dp3861
-tp3862
-Rp3863
-sbsa(dp3864
+tp3861
+(dp3862
+tp3863
+Rp3864
+sbsa(dp3865
 g14
 I00
 sg15
-(lp3865
+(lp3866
 F3230.0
 aF4910.0
 asg17
 (itiddlywiki
 Tiddler
-p3866
-(dp3867
+p3867
+(dp3868
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Fine. He's targeting Carson, but not everyone there. Specifically the people with ties or relations to the government. The people that instigated the whole case. He's not going to get to them at their homes, though. He wants the world to see it happen at the Carson headquarters.</em>\u000a\u000a[[Thank you for your cooperation. [Disonnect.]|report 3 start]]
-p3868
+p3869
 sg23
 Vd3 ht talk private admit b
-p3869
+p3870
 sg25
 g26
 ((I2014
@@ -12618,16 +12620,16 @@ I38
 I4
 I220
 I1
-tp3870
-(dp3871
-tp3872
-Rp3873
+tp3871
+(dp3872
+tp3873
+Rp3874
 sg31
-(lp3874
+(lp3875
 Vprivate
-p3875
-aVend
 p3876
+aVend
+p3877
 asg33
 g26
 ((I2014
@@ -12639,28 +12641,28 @@ I22
 I3
 I247
 I1
-tp3877
-(dp3878
-tp3879
-Rp3880
-sbsa(dp3881
+tp3878
+(dp3879
+tp3880
+Rp3881
+sbsa(dp3882
 g14
 I00
 sg15
-(lp3882
+(lp3883
 F2250.0
 aF4630.0
 asg17
 (itiddlywiki
 Tiddler
-p3883
-(dp3884
+p3884
+(dp3885
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $torture < $tortureLimit>>\u000a<<timedinsert 4s>>[[Time and place?|d3 ht torture notready]]<<endtimedinsert>>\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedgoto "fainted" 2.5s>>\u000a<<endif>>\u000a<<endnobr>>
-p3885
+p3886
 sg23
 Vd3 ht torture a
-p3886
+p3887
 sg25
 g26
 ((I2014
@@ -12672,14 +12674,14 @@ I51
 I6
 I250
 I1
-tp3887
-(dp3888
-tp3889
-Rp3890
+tp3888
+(dp3889
+tp3890
+Rp3891
 sg31
-(lp3891
+(lp3892
 Vnice
-p3892
+p3893
 asg33
 g26
 ((I2014
@@ -12691,28 +12693,28 @@ I22
 I3
 I247
 I1
-tp3893
-(dp3894
-tp3895
-Rp3896
-sbsa(dp3897
+tp3894
+(dp3895
+tp3896
+Rp3897
+sbsa(dp3898
 g14
 I00
 sg15
-(lp3898
+(lp3899
 F2390.0
 aF4630.0
 asg17
 (itiddlywiki
 Tiddler
-p3899
-(dp3900
+p3900
+(dp3901
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $torture < $tortureLimit>>\u000a<<timedinsert 4s>>[[Again. What do you know?|d3 ht torture notready 1]]<<endtimedinsert>>\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedgoto "fainted" 2.5s>>\u000a<<endif>>\u000a<<endnobr>>
-p3901
+p3902
 sg23
 Vd3 ht torture b
-p3902
+p3903
 sg25
 g26
 ((I2014
@@ -12724,14 +12726,14 @@ I11
 I6
 I250
 I1
-tp3903
-(dp3904
-tp3905
-Rp3906
+tp3904
+(dp3905
+tp3906
+Rp3907
 sg31
-(lp3907
+(lp3908
 Vnice
-p3908
+p3909
 asg33
 g26
 ((I2014
@@ -12743,28 +12745,28 @@ I22
 I3
 I247
 I1
-tp3909
-(dp3910
-tp3911
-Rp3912
-sbsa(dp3913
+tp3910
+(dp3911
+tp3912
+Rp3913
+sbsa(dp3914
 g14
 I00
 sg15
-(lp3914
+(lp3915
 F2530.0
 aF4630.0
 asg17
 (itiddlywiki
 Tiddler
-p3915
-(dp3916
+p3916
+(dp3917
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $torture < $tortureLimit>>\u000a<<timedinsert 4s>>[[Where? When?|d3 ht torture notready 1 1]]<<endtimedinsert>>\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedgoto "fainted" 2.5s>>\u000a<<endif>>\u000a<<endnobr>>
-p3917
+p3918
 sg23
 Vd3 ht torture c
-p3918
+p3919
 sg25
 g26
 ((I2014
@@ -12776,14 +12778,14 @@ I8
 I3
 I219
 I1
-tp3919
-(dp3920
-tp3921
-Rp3922
+tp3920
+(dp3921
+tp3922
+Rp3923
 sg31
-(lp3923
+(lp3924
 Vnice
-p3924
+p3925
 asg33
 g26
 ((I2014
@@ -12795,28 +12797,28 @@ I22
 I3
 I247
 I1
-tp3925
-(dp3926
-tp3927
-Rp3928
-sbsa(dp3929
+tp3926
+(dp3927
+tp3928
+Rp3929
+sbsa(dp3930
 g14
 I00
 sg15
-(lp3930
+(lp3931
 F2670.0
 aF4630.0
 asg17
 (itiddlywiki
 Tiddler
-p3931
-(dp3932
+p3932
+(dp3933
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $torture < $tortureLimit>>\u000a<<timedinsert 4s>>[[So?|d3 ht torture notready 1 1 1]]<<endtimedinsert>>\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedgoto "fainted" 2.5s>>\u000a<<endif>>\u000a<<endnobr>>
-p3933
+p3934
 sg23
 Vd3 ht torture d
-p3934
+p3935
 sg25
 g26
 ((I2014
@@ -12828,14 +12830,14 @@ I58
 I3
 I219
 I1
-tp3935
-(dp3936
-tp3937
-Rp3938
+tp3936
+(dp3937
+tp3938
+Rp3939
 sg31
-(lp3939
+(lp3940
 Vnice
-p3940
+p3941
 asg33
 g26
 ((I2014
@@ -12847,28 +12849,28 @@ I22
 I3
 I247
 I1
-tp3941
-(dp3942
-tp3943
-Rp3944
-sbsa(dp3945
+tp3942
+(dp3943
+tp3944
+Rp3945
+sbsa(dp3946
 g14
 I00
 sg15
-(lp3946
+(lp3947
 F2810.0
 aF4770.0
 asg17
 (itiddlywiki
 Tiddler
-p3947
-(dp3948
+p3948
+(dp3949
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I swear, I don't know anything at all.</em>\u000a\u000a[[Let's start again.|d3 ht aggressive 1]]
-p3949
+p3950
 sg23
 Vd3 ht torture wonttalk
-p3950
+p3951
 sg25
 g26
 ((I2014
@@ -12880,14 +12882,14 @@ I11
 I3
 I219
 I1
-tp3951
-(dp3952
-tp3953
-Rp3954
+tp3952
+(dp3953
+tp3954
+Rp3955
 sg31
-(lp3955
+(lp3956
 Vwonttalk
-p3956
+p3957
 asg33
 g26
 ((I2014
@@ -12899,28 +12901,28 @@ I22
 I3
 I247
 I1
-tp3957
-(dp3958
-tp3959
-Rp3960
-sbsa(dp3961
+tp3958
+(dp3959
+tp3960
+Rp3961
+sbsa(dp3962
 g14
 I00
 sg15
-(lp3962
+(lp3963
 F2810.0
 aF4630.0
 asg17
 (itiddlywiki
 Tiddler
-p3963
-(dp3964
+p3964
+(dp3965
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $torture < $tortureLimit>>\u000a<<timedinsert 4s>>[[I think we're done here.|d3 ht torture done]]<<endtimedinsert>>\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedgoto "fainted" 2.5s>>\u000a<<endif>>\u000a<<endnobr>>
-p3965
+p3966
 sg23
 Vd3 ht torture f
-p3966
+p3967
 sg25
 g26
 ((I2014
@@ -12932,14 +12934,14 @@ I18
 I3
 I219
 I1
-tp3967
-(dp3968
-tp3969
-Rp3970
+tp3968
+(dp3969
+tp3970
+Rp3971
 sg31
-(lp3971
+(lp3972
 Vnice
-p3972
+p3973
 asg33
 g26
 ((I2014
@@ -12951,28 +12953,28 @@ I22
 I3
 I247
 I1
-tp3973
-(dp3974
-tp3975
-Rp3976
-sbsa(dp3977
+tp3974
+(dp3975
+tp3976
+Rp3977
+sbsa(dp3978
 g14
 I00
 sg15
-(lp3978
+(lp3979
 F2110.0
 aF5190.0
 asg17
 (itiddlywiki
 Tiddler
-p3979
-(dp3980
+p3980
+(dp3981
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">What do you want me to tell you?</em>\u000a\u000a[[I'd like to know more about the exact time and place where these attacks would happen.|d3 false nice]]<<nobr>>\u000a\u000a<<if $opinion >= 4>>\u000a<br><br>[[Anything else that you think might be useful.|d3 false nice]]\u000a<<endif>>\u000a<<endnobr>>
-p3981
+p3982
 sg23
 Vd3 false
-p3982
+p3983
 sg25
 g26
 ((I2014
@@ -12984,12 +12986,12 @@ I38
 I3
 I219
 I1
-tp3983
-(dp3984
-tp3985
-Rp3986
+tp3984
+(dp3985
+tp3986
+Rp3987
 sg31
-(lp3987
+(lp3988
 sg33
 g26
 ((I2014
@@ -13001,28 +13003,28 @@ I22
 I3
 I247
 I1
-tp3988
-(dp3989
-tp3990
-Rp3991
-sbsa(dp3992
+tp3989
+(dp3990
+tp3991
+Rp3992
+sbsa(dp3993
 g14
 I00
 sg15
-(lp3993
+(lp3994
 F2250.0
 aF5190.0
 asg17
 (itiddlywiki
 Tiddler
-p3994
-(dp3995
+p3995
+(dp3996
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">What are you going to do that you haven't already tried, Inspector? I'll be out in no time.</em>\u000a\u000a[[Nothing. I'll admit, I was wrong.|d3 f repent]]\u000a\u000a[[The same old thing. (Apply physical encouragement.)|d3 f torture][$torture++;$opinion--]]
-p3996
+p3997
 sg23
 Vd3 false nice
-p3997
+p3998
 sg25
 g26
 ((I2014
@@ -13034,14 +13036,14 @@ I28
 I3
 I219
 I1
-tp3998
-(dp3999
-tp4000
-Rp4001
+tp3999
+(dp4000
+tp4001
+Rp4002
 sg31
-(lp4002
+(lp4003
 Vnice
-p4003
+p4004
 asg33
 g26
 ((I2014
@@ -13053,28 +13055,28 @@ I22
 I3
 I247
 I1
-tp4004
-(dp4005
-tp4006
-Rp4007
-sbsa(dp4008
+tp4005
+(dp4006
+tp4007
+Rp4008
+sbsa(dp4009
 g14
 I00
 sg15
-(lp4009
+(lp4010
 F3510.0
 aF4630.0
 asg17
 (itiddlywiki
 Tiddler
-p4010
-(dp4011
+p4011
+(dp4012
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<nobr>><<if $torturePromise == false>>\u000a<em class = "suspect">Thank God.</em>\u000a<<else>>\u000a<em class = "suspect">...</em>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[[Disconnect.]|report 3 start]]\u000a\u000a[[I'm sorry. [Disconnect.]|report 3 start]] /%if you do it even though you had promised not to torture, you'll break him and then you're fucked %/\u000a
-p4012
+p4013
 sg23
 Vd3 ht end 1
-p4013
+p4014
 sg25
 g26
 ((I2014
@@ -13086,16 +13088,16 @@ I3
 I4
 I220
 I1
-tp4014
-(dp4015
-tp4016
-Rp4017
+tp4015
+(dp4016
+tp4017
+Rp4018
 sg31
-(lp4018
+(lp4019
 Vagg
-p4019
-aVend
 p4020
+aVend
+p4021
 asg33
 g26
 ((I2014
@@ -13107,28 +13109,28 @@ I22
 I3
 I247
 I1
-tp4021
-(dp4022
-tp4023
-Rp4024
-sbsa(dp4025
+tp4022
+(dp4023
+tp4024
+Rp4025
+sbsa(dp4026
 g14
 I00
 sg15
-(lp4026
+(lp4027
 F2950.0
 aF5330.0
 asg17
 (itiddlywiki
 Tiddler
-p4027
-(dp4028
+p4028
+(dp4029
 g21
 VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $torture < $tortureLimit>>\u000a<<timedinsert 4s>>[[Let's try that again.|day 3]]<<endtimedinsert>>\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedgoto "fainted" 2.5s>>\u000a<<endif>>\u000a<<endnobr>>
-p4029
+p4030
 sg23
 Vd3 f torture
-p4030
+p4031
 sg25
 g26
 ((I2014
@@ -13140,14 +13142,14 @@ I56
 I3
 I219
 I1
-tp4031
-(dp4032
-tp4033
-Rp4034
+tp4032
+(dp4033
+tp4034
+Rp4035
 sg31
-(lp4035
+(lp4036
 Vnice
-p4036
+p4037
 asg33
 g26
 ((I2014
@@ -13159,28 +13161,28 @@ I22
 I3
 I247
 I1
-tp4037
-(dp4038
-tp4039
-Rp4040
-sbsa(dp4041
+tp4038
+(dp4039
+tp4040
+Rp4041
+sbsa(dp4042
 g14
 I00
 sg15
-(lp4042
+(lp4043
 F2390.0
 aF5190.0
 asg17
 (itiddlywiki
 Tiddler
-p4043
-(dp4044
+p4044
+(dp4045
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Does this mean you've actually started to think of me as a fellow human being?</em>\u000a\u000a[[Can you help me find James Hewes?|d3 f repent 1]]\u000a\u000a[[I always have. And now I'm asking you: What do you want?|d3 f repent 2]]
-p4045
+p4046
 sg23
 Vd3 f repent
-p4046
+p4047
 sg25
 g26
 ((I2014
@@ -13192,14 +13194,14 @@ I40
 I3
 I219
 I1
-tp4047
-(dp4048
-tp4049
-Rp4050
+tp4048
+(dp4049
+tp4050
+Rp4051
 sg31
-(lp4051
+(lp4052
 Vnice
-p4052
+p4053
 asg33
 g26
 ((I2014
@@ -13211,28 +13213,28 @@ I22
 I3
 I247
 I1
-tp4053
-(dp4054
-tp4055
-Rp4056
-sbsa(dp4057
+tp4054
+(dp4055
+tp4056
+Rp4057
+sbsa(dp4058
 g14
 I00
 sg15
-(lp4058
+(lp4059
 F2530.0
 aF5190.0
 asg17
 (itiddlywiki
 Tiddler
-p4059
-(dp4060
+p4060
+(dp4061
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Look, I've already told you everything I know. Think of the biggest, most crowded sports event there is, where they cram in the most advertisements and mindless entertainment. That's where he'll strike.</em>\u000a\u000a[[The League Finals? He's going to endanger tens of thousands of innocents just to make a political statement?|d3 f repent 1 1]]\u000a\u000a[[That makes no sense. He'd be public enemy number one.|d3 f repent 1 2]]
-p4061
+p4062
 sg23
 Vd3 f repent 1
-p4062
+p4063
 sg25
 g26
 ((I2014
@@ -13244,14 +13246,14 @@ I5
 I3
 I219
 I1
-tp4063
-(dp4064
-tp4065
-Rp4066
+tp4064
+(dp4065
+tp4066
+Rp4067
 sg31
-(lp4067
+(lp4068
 Vnice
-p4068
+p4069
 asg33
 g26
 ((I2014
@@ -13263,28 +13265,28 @@ I22
 I3
 I247
 I1
-tp4069
-(dp4070
-tp4071
-Rp4072
-sbsa(dp4073
+tp4070
+(dp4071
+tp4072
+Rp4073
+sbsa(dp4074
 g14
 I00
 sg15
-(lp4074
+(lp4075
 F2530.0
 aF5330.0
 asg17
 (itiddlywiki
 Tiddler
-p4075
-(dp4076
+p4076
+(dp4077
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I want to be freed the second we're done with this interview. I want to be granted Swiss citizenship, and I want to be erased from the records of the Bureau and all other United States governmental agencies.</em>\u000a\u000a[[I could do that. I could make them understand.|d3 f repent 2 1][$promiseFalseIntel = true]]\u000a\u000a[[Either way, that's unrealistic.|d3 f repent 2 2]]
-p4077
+p4078
 sg23
 Vd3 f repent 2
-p4078
+p4079
 sg25
 g26
 ((I2014
@@ -13296,14 +13298,14 @@ I36
 I3
 I219
 I1
-tp4079
-(dp4080
-tp4081
-Rp4082
+tp4080
+(dp4081
+tp4082
+Rp4083
 sg31
-(lp4083
+(lp4084
 Vnice
-p4084
+p4085
 asg33
 g26
 ((I2014
@@ -13315,47 +13317,47 @@ I22
 I3
 I247
 I1
-tp4085
-(dp4086
-tp4087
-Rp4088
-sbsa(dp4089
+tp4086
+(dp4087
+tp4088
+Rp4089
+sbsa(dp4090
 g14
 I00
 sg15
-(lp4090
+(lp4091
 F2810.0
 aF5190.0
 asg17
 (itiddlywiki
 Tiddler
-p4091
-(dp4092
+p4092
+(dp4093
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Do you believe me or not?\u000a\u000aEither way, it's up to you, I'll be released in no time.</em>\u000a\u000a[[You'll be released when I'll give the order.|d3 f repent 1 2 1]]\u000a\u000a[[Nothing I can do about that. You'll be free to go.|d3 f repent 1 2 1]]\u000a
-p4093
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Do you believe me or not?\u000a\u000aEither way, it's up to you, I'll be released in no time.</em>\u000a\u000a[[You'll be released when I'll give the order.|d3 f repent 1 2 1]]\u000a\u000a[[Nothing I can do about that. You'll be free to go.|d3 f repent 1 2 1]]
+p4094
 sg23
 Vd3 f repent 1 2
-p4094
+p4095
 sg25
 g26
 ((I2014
 I8
-I7
-I16
-I0
-I18
-I3
-I219
+I8
+I11
+I28
+I32
+I4
+I220
 I1
-tp4095
-(dp4096
-tp4097
-Rp4098
+tp4096
+(dp4097
+tp4098
+Rp4099
 sg31
-(lp4099
+(lp4100
 Vnice
-p4100
+p4101
 asg33
 g26
 ((I2014
@@ -13367,28 +13369,28 @@ I22
 I3
 I247
 I1
-tp4101
-(dp4102
-tp4103
-Rp4104
-sbsa(dp4105
+tp4102
+(dp4103
+tp4104
+Rp4105
+sbsa(dp4106
 g14
 I00
 sg15
-(lp4106
+(lp4107
 F2950.0
 aF5190.0
 asg17
 (itiddlywiki
 Tiddler
-p4107
-(dp4108
+p4108
+(dp4109
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Exactly. I was at your mercy for 72 hours, and now it's almost over. That's how it works.</em>\u000a\u000a[[You're right. No need to continue.|d3 f end]]\u000a\u000a[[No.|d3 ht aggressive]]
-p4109
+p4110
 sg23
 Vd3 f repent 1 2 1
-p4110
+p4111
 sg25
 g26
 ((I2014
@@ -13400,14 +13402,14 @@ I3
 I3
 I219
 I1
-tp4111
-(dp4112
-tp4113
-Rp4114
+tp4112
+(dp4113
+tp4114
+Rp4115
 sg31
-(lp4115
+(lp4116
 Vnice
-p4116
+p4117
 asg33
 g26
 ((I2014
@@ -13419,28 +13421,28 @@ I22
 I3
 I247
 I1
-tp4117
-(dp4118
-tp4119
-Rp4120
-sbsa(dp4121
+tp4118
+(dp4119
+tp4120
+Rp4121
+sbsa(dp4122
 g14
 I00
 sg15
-(lp4122
+(lp4123
 F3230.0
 aF5190.0
 asg17
 (itiddlywiki
 Tiddler
-p4123
-(dp4124
+p4124
+(dp4125
 g21
 VSUSPECT 1247\u000a- - - \u000a<em class = "suspect">I knew you couldn't betray your system and keep me here for longer. The laws you follow may be corrupt, but they still bind you.</em>\u000a\u000a[[You're starting to understand me at last. [Disconnect.]|report 3 start]]\u000a\u000a[[Goodbye. [Disconnect.]|report 3 start]]\u000a\u000a[[[Disconnect.]|report 3 start]]
-p4125
+p4126
 sg23
 Vd3 f end
-p4126
+p4127
 sg25
 g26
 ((I2014
@@ -13452,16 +13454,16 @@ I11
 I4
 I220
 I1
-tp4127
-(dp4128
-tp4129
-Rp4130
+tp4128
+(dp4129
+tp4130
+Rp4131
 sg31
-(lp4131
+(lp4132
 Vnice
-p4132
-aVend
 p4133
+aVend
+p4134
 asg33
 g26
 ((I2014
@@ -13473,28 +13475,28 @@ I22
 I3
 I247
 I1
-tp4134
-(dp4135
-tp4136
-Rp4137
-sbsa(dp4138
+tp4135
+(dp4136
+tp4137
+Rp4138
+sbsa(dp4139
 g14
 I00
 sg15
-(lp4139
+(lp4140
 F2670.0
 aF5190.0
 asg17
 (itiddlywiki
 Tiddler
-p4140
-(dp4141
+p4141
+(dp4142
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">It'll be at the next League Finals, but it won't be violent. First, he'll hack the scoreboards to display a message explaining our country's political situation in plain terms no one could argue with.\u000a\u000aThen they'll overwhelm security and kidnap any public officials in attendance. The two city mayors are guaranteed to be there, plus quite a few other public servants, I'd expect.</em>\u000a\u000a[[That's exactly what I needed. Thank you. [Log out.]|day 3]]\u000a\u000a[[Perfect. [Log out.]|day 3]]\u000a\u000a[[[Log out.]|day 3]]
-p4142
+p4143
 sg23
 Vd3 f repent 1 1
-p4143
+p4144
 sg25
 g26
 ((I2014
@@ -13506,14 +13508,14 @@ I3
 I3
 I219
 I1
-tp4144
-(dp4145
-tp4146
-Rp4147
+tp4145
+(dp4146
+tp4147
+Rp4148
 sg31
-(lp4148
+(lp4149
 Vadmit
-p4149
+p4150
 asg33
 g26
 ((I2014
@@ -13525,28 +13527,28 @@ I22
 I3
 I247
 I1
-tp4150
-(dp4151
-tp4152
-Rp4153
-sbsa(dp4154
+tp4151
+(dp4152
+tp4153
+Rp4154
+sbsa(dp4155
 g14
 I00
 sg15
-(lp4155
+(lp4156
 F2670.0
 aF5330.0
 asg17
 (itiddlywiki
 Tiddler
-p4156
-(dp4157
+p4157
+(dp4158
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I'm counting on you, Inspector.</em>\u000a\u000a[[Give me details, then. I've been asking for long enough.|d3 f repent 1 1]]\u000a\u000a[[You have nothing to fear, if you hold up your end of the bargain. Give me what I want.|d3 f repent 1 1]]
-p4158
+p4159
 sg23
 Vd3 f repent 2 1
-p4159
+p4160
 sg25
 g26
 ((I2014
@@ -13558,14 +13560,14 @@ I24
 I3
 I219
 I1
-tp4160
-(dp4161
-tp4162
-Rp4163
+tp4161
+(dp4162
+tp4163
+Rp4164
 sg31
-(lp4164
+(lp4165
 Vnice
-p4165
+p4166
 asg33
 g26
 ((I2014
@@ -13577,28 +13579,28 @@ I22
 I3
 I247
 I1
-tp4166
-(dp4167
-tp4168
-Rp4169
-sbsa(dp4170
+tp4167
+(dp4168
+tp4169
+Rp4170
+sbsa(dp4171
 g14
 I00
 sg15
-(lp4171
+(lp4172
 F2810.0
 aF5330.0
 asg17
 (itiddlywiki
 Tiddler
-p4172
-(dp4173
+p4173
+(dp4174
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Your loss.</em>\u000a\u000a[[That demand was irrelevant. Carry on explaining Hewes' plans.|d3 f repent 1 1 1]]\u000a\u000a[[No. Yours. (Apply physical encouragement.)|d3 f torture][$opinion--;$torture++]]
-p4174
+p4175
 sg23
 Vd3 f repent 2 2
-p4175
+p4176
 sg25
 g26
 ((I2014
@@ -13610,14 +13612,14 @@ I26
 I3
 I219
 I1
-tp4176
-(dp4177
-tp4178
-Rp4179
+tp4177
+(dp4178
+tp4179
+Rp4180
 sg31
-(lp4180
+(lp4181
 Vnice
-p4181
+p4182
 asg33
 g26
 ((I2014
@@ -13629,49 +13631,49 @@ I22
 I3
 I247
 I1
-tp4182
-(dp4183
-tp4184
-Rp4185
-sbsa(dp4186
+tp4183
+(dp4184
+tp4185
+Rp4186
+sbsa(dp4187
 g14
 I00
 sg15
-(lp4187
+(lp4188
 F3090.0
 aF5190.0
 asg17
 (itiddlywiki
 Tiddler
-p4188
-(dp4189
+p4189
+(dp4190
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Hewes wants to use the event to let the people understand how futile all this is. He'll disrupt the halftime show, and his collaborators will hold hostage any public officials present to ensure his security while he delivers his speech.\u000a\u000aI don't know if he plans to hurt the officials, though.</em>\u000a\u000a[[Thank you. [Disconnect.]|report 3 start]]\u000a\u000a[[We'll make sure that never happens. [Disconnect.]|report 3 start]]
-p4190
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Hewes wants to use the event to make the people understand the sad state of their country. He'll disrupt the halftime show, and his collaborators will hold hostage any public officials present to ensure his security while he delivers his speech.\u000a\u000aI don't know if he plans to hurt the officials, though.</em>\u000a\u000a[[Thank you. [Disconnect.]|report 3 start]]\u000a\u000a[[We'll make sure that never happens. [Disconnect.]|report 3 start]]
+p4191
 sg23
 Vd3 f repent 1 1 1
-p4191
+p4192
 sg25
 g26
 ((I2014
 I8
 I8
 I11
-I4
-I34
+I29
+I27
 I4
 I220
 I1
-tp4192
-(dp4193
-tp4194
-Rp4195
+tp4193
+(dp4194
+tp4195
+Rp4196
 sg31
-(lp4196
+(lp4197
 Vnice
-p4197
-aVend
 p4198
+aVend
+p4199
 asg33
 g26
 ((I2014
@@ -13683,28 +13685,28 @@ I22
 I3
 I247
 I1
-tp4199
-(dp4200
-tp4201
-Rp4202
-sbsa(dp4203
+tp4200
+(dp4201
+tp4202
+Rp4203
+sbsa(dp4204
 g14
 I00
 sg15
-(lp4204
+(lp4205
 F1970.0
 aF5750.0
 asg17
 (itiddlywiki
 Tiddler
-p4205
-(dp4206
+p4206
+(dp4207
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">No, Inspector. I'll give you one last chance. I'll be out of here in a couple of hours, so it's your turn to listen to me.</em>\u000a\u000a[[[Say nothing.]|d3 redeem 1]]\u000a\u000a[[I'm listening.|d3 redeem 1]]
-p4207
+p4208
 sg23
 Vd3 redeem
-p4208
+p4209
 sg25
 g26
 ((I2014
@@ -13716,14 +13718,14 @@ I32
 I4
 I220
 I1
-tp4209
-(dp4210
-tp4211
-Rp4212
+tp4210
+(dp4211
+tp4212
+Rp4213
 sg31
-(lp4213
+(lp4214
 Vredeem
-p4214
+p4215
 asg33
 g26
 ((I2014
@@ -13735,47 +13737,47 @@ I22
 I3
 I247
 I1
-tp4215
-(dp4216
-tp4217
-Rp4218
-sbsa(dp4219
+tp4216
+(dp4217
+tp4218
+Rp4219
+sbsa(dp4220
 g14
 I00
 sg15
-(lp4220
+(lp4221
 F2110.0
 aF5750.0
 asg17
 (itiddlywiki
 Tiddler
-p4221
-(dp4222
+p4222
+(dp4223
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>What kind of person are you, Inspector?<<endtimedinsert>><<timedinsert 6s>>\u000a\u000a[[[Say nothing.]|d3 redeem diatribe]]\u000a\u000a[[I'm not allowed to disclose that.|d3 redeem gov]]\u000a\u000a[[I've done good things and bad things. I have doubts and regrets like anyone else.|d3 redeem indiv]]<<endtimedinsert>>
-p4223
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>What kind of person are you, Inspector?<<endtimedinsert>><<timedinsert 6s>>\u000a\u000a[[[Say nothing.]|d3 redeem diatribe]]\u000a\u000a[[I've done good things and bad things. I have doubts and regrets like anyone else.|d3 redeem indiv]]<<endtimedinsert>>
+p4224
 sg23
 Vd3 redeem 1
-p4224
+p4225
 sg25
 g26
 ((I2014
 I8
 I8
-I9
-I43
-I12
+I11
+I23
+I45
 I4
 I220
 I1
-tp4225
-(dp4226
-tp4227
-Rp4228
+tp4226
+(dp4227
+tp4228
+Rp4229
 sg31
-(lp4229
+(lp4230
 Vredeem
-p4230
+p4231
 asg33
 g26
 ((I2014
@@ -13787,28 +13789,28 @@ I22
 I3
 I247
 I1
-tp4231
-(dp4232
-tp4233
-Rp4234
-sbsa(dp4235
+tp4232
+(dp4233
+tp4234
+Rp4235
+sbsa(dp4236
 g14
 I00
 sg15
-(lp4236
+(lp4237
 F2110.0
 aF5610.0
 asg17
 (itiddlywiki
 Tiddler
-p4237
-(dp4238
+p4238
+(dp4239
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Let me guess, then.</em>\u000a\u000a[[[Say nothing.]|d3 redeem diatribe 1]]\u000a\u000a[[I'm someone different.|d3 redeem indiv special]]\u000a\u000a[[I'm like everyone else.|d3 redeem indiv similar]]
-p4239
+p4240
 sg23
 Vd3 redeem diatribe
-p4240
+p4241
 sg25
 g26
 ((I2014
@@ -13820,14 +13822,14 @@ I4
 I4
 I220
 I1
-tp4241
-(dp4242
-tp4243
-Rp4244
+tp4242
+(dp4243
+tp4244
+Rp4245
 sg31
-(lp4245
+(lp4246
 Vdiatribe
-p4246
+p4247
 asg33
 g26
 ((I2014
@@ -13839,107 +13841,51 @@ I22
 I3
 I247
 I1
-tp4247
-(dp4248
-tp4249
-Rp4250
-sbsa(dp4251
+tp4248
+(dp4249
+tp4250
+Rp4251
+sbsa(dp4252
 g14
 I00
 sg15
-(lp4252
-F2250.0
-aF5750.0
-asg17
-(itiddlywiki
-Tiddler
-p4253
-(dp4254
-g21
-VSUSPECT 1247\u000a- - - -\u000a\u000aDO WE NEED THIS? NOT SURE.\u000a\u000a\u000a\u000a/%\u000a<em class = "suspect">i'm sure you're more than that</em>\u000a\u000a[[...|d3 redeem 1]]\u000a\u000a[[idk jk lol|d3 redeem 1]]\u000a%/
-p4255
-sg23
-Vd3 redeem gov
-p4256
-sg25
-g26
-((I2014
-I9
-I7
-I16
-I33
-I5
-I6
-I250
-I1
-tp4257
-(dp4258
-tp4259
-Rp4260
-sg31
-(lp4261
-Vyou
-p4262
-aVas
-p4263
-aVagent
-p4264
-asg33
-g26
-((I2014
-I9
-I4
-I13
-I56
-I22
-I3
-I247
-I1
-tp4265
-(dp4266
-tp4267
-Rp4268
-sbsa(dp4269
-g14
-I00
-sg15
-(lp4270
+(lp4253
 F2110.0
 aF5890.0
 asg17
 (itiddlywiki
 Tiddler
-p4271
-(dp4272
+p4254
+(dp4255
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">We all have them, and we all have to live with them.</em>\u000a\u000a[[That's right. I'm no different.|d3 redeem indiv similar]]\u000a\u000a[[I don't think you realize what kind of life I live.|d3 redeem indiv special]]\u000a
-p4273
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">We all have them, and we all have to live with them.</em>\u000a\u000a[[That's right. I'm no different.|d3 redeem indiv similar]]\u000a\u000a[[I don't think you realize what kind of life I live.|d3 redeem indiv special]]
+p4256
 sg23
 Vd3 redeem indiv
-p4274
+p4257
 sg25
 g26
 ((I2014
 I8
 I8
-I9
-I43
-I46
+I11
+I34
+I39
 I4
 I220
 I1
-tp4275
-(dp4276
-tp4277
-Rp4278
+tp4258
+(dp4259
+tp4260
+Rp4261
 sg31
-(lp4279
+(lp4262
 Vyou
-p4280
+p4263
 aVas
-p4281
+p4264
 aVbeing
-p4282
+p4265
 asg33
 g26
 ((I2014
@@ -13951,28 +13897,28 @@ I22
 I3
 I247
 I1
-tp4283
-(dp4284
-tp4285
-Rp4286
-sbsa(dp4287
+tp4266
+(dp4267
+tp4268
+Rp4269
+sbsa(dp4270
 g14
 I00
 sg15
-(lp4288
+(lp4271
 F2250.0
 aF5610.0
 asg17
 (itiddlywiki
 Tiddler
-p4289
-(dp4290
+p4272
+(dp4273
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">The most obvious part is that you have to pretend to be sure of who you are. It's the most common but also the hardest part, I believe.</em>\u000a\u000a[[[Say nothing.]|d3 redeem diatribe 2]]\u000a\u000a[[I am unique.|d3 redeem indiv special]]\u000a\u000a[[I'm like everyone else.|d3 redeem indiv similar]]\u000a
-p4291
+p4274
 sg23
 Vd3 redeem diatribe 1
-p4292
+p4275
 sg25
 g26
 ((I2014
@@ -13984,14 +13930,14 @@ I6
 I4
 I220
 I1
-tp4293
-(dp4294
-tp4295
-Rp4296
+tp4276
+(dp4277
+tp4278
+Rp4279
 sg31
-(lp4297
+(lp4280
 Vdiatribe
-p4298
+p4281
 asg33
 g26
 ((I2014
@@ -14003,28 +13949,28 @@ I22
 I3
 I247
 I1
-tp4299
-(dp4300
-tp4301
-Rp4302
-sbsa(dp4303
+tp4282
+(dp4283
+tp4284
+Rp4285
+sbsa(dp4286
 g14
 I00
 sg15
-(lp4304
+(lp4287
 F2390.0
 aF5610.0
 asg17
 (itiddlywiki
 Tiddler
-p4305
-(dp4306
+p4288
+(dp4289
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">That pretending brings self-doubt, which is good, and it also brings a need for beliefs and principles, a system to follow.\u000a\u000aYou have found some principles, no doubt. But are they yours?</em>\u000a\u000a[[[Say nothing.]|d3 redeem diatribe 3]]\u000a\u000a[[They're mine.|d3 redeem indiv special]]\u000a\u000a[[They're shared throughout society.|d3 redeem indiv similar]]\u000a
-p4307
+p4290
 sg23
 Vd3 redeem diatribe 2
-p4308
+p4291
 sg25
 g26
 ((I2014
@@ -14036,14 +13982,14 @@ I26
 I4
 I220
 I1
-tp4309
-(dp4310
-tp4311
-Rp4312
+tp4292
+(dp4293
+tp4294
+Rp4295
 sg31
-(lp4313
+(lp4296
 Vdiatribe
-p4314
+p4297
 asg33
 g26
 ((I2014
@@ -14055,28 +14001,28 @@ I22
 I3
 I247
 I1
-tp4315
-(dp4316
-tp4317
-Rp4318
-sbsa(dp4319
+tp4298
+(dp4299
+tp4300
+Rp4301
+sbsa(dp4302
 g14
 I00
 sg15
-(lp4320
+(lp4303
 F2530.0
 aF5610.0
 asg17
 (itiddlywiki
 Tiddler
-p4321
-(dp4322
+p4304
+(dp4305
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Silence, Inspector? Are you listening?</em>\u000a\u000a[[[Say nothing.]|d3 redeem diatribe 4]]\u000a\u000a[[I'm listening.|d3 redeem diatribe 4]]\u000a\u000a[[I'm through with you messing with my head.|d3 redeem indiv]]
-p4323
+p4306
 sg23
 Vd3 redeem diatribe 3
-p4324
+p4307
 sg25
 g26
 ((I2014
@@ -14088,14 +14034,14 @@ I26
 I4
 I220
 I1
-tp4325
-(dp4326
-tp4327
-Rp4328
+tp4308
+(dp4309
+tp4310
+Rp4311
 sg31
-(lp4329
+(lp4312
 Vdiatribe
-p4330
+p4313
 asg33
 g26
 ((I2014
@@ -14107,28 +14053,28 @@ I22
 I3
 I247
 I1
-tp4331
-(dp4332
-tp4333
-Rp4334
-sbsa(dp4335
+tp4314
+(dp4315
+tp4316
+Rp4317
+sbsa(dp4318
 g14
 I00
 sg15
-(lp4336
+(lp4319
 F2670.0
 aF5610.0
 asg17
 (itiddlywiki
 Tiddler
-p4337
-(dp4338
+p4320
+(dp4321
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">You know, those principles of yours...\u000a\u000aWhatever they are, make sure you don't cling to them just to impress your peers, or appease your superiors. Your principles are what you believe.</em>\u000a\u000a[[[Say nothing.]|d3 redeem diatribe 5]]\u000a\u000a[[You don't know what you're talking about.|d3 redeem indiv]]\u000a
-p4339
+p4322
 sg23
 Vd3 redeem diatribe 4
-p4340
+p4323
 sg25
 g26
 ((I2014
@@ -14140,14 +14086,14 @@ I30
 I4
 I220
 I1
-tp4341
-(dp4342
-tp4343
-Rp4344
+tp4324
+(dp4325
+tp4326
+Rp4327
 sg31
-(lp4345
+(lp4328
 Vdiatribe
-p4346
+p4329
 asg33
 g26
 ((I2014
@@ -14159,28 +14105,28 @@ I22
 I3
 I247
 I1
-tp4347
-(dp4348
-tp4349
-Rp4350
-sbsa(dp4351
+tp4330
+(dp4331
+tp4332
+Rp4333
+sbsa(dp4334
 g14
 I00
 sg15
-(lp4352
+(lp4335
 F2810.0
 aF5610.0
 asg17
 (itiddlywiki
 Tiddler
-p4353
-(dp4354
+p4336
+(dp4337
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Principles aren't enough by themselves, though. Nothing happens without taking action, and yet every action must be carefully examined in the light of the ideals that guide it.\u000a\u000aWhen it comes to the capture of James Hewes, what action are you going to take?</em>\u000a\u000a[[[Say nothing.]|d3 redeem choice]]\u000a\u000a[[I'm going to make sure he never hurts anyone again.|d3 ht talk private admit b]]\u000a\u000a[[I'm going to give him a chance to redeem himself.|d3 redeem save hewes]]
-p4355
+p4338
 sg23
 Vd3 redeem diatribe 5
-p4356
+p4339
 sg25
 g26
 ((I2014
@@ -14192,14 +14138,14 @@ I4
 I4
 I220
 I1
-tp4357
-(dp4358
-tp4359
-Rp4360
+tp4340
+(dp4341
+tp4342
+Rp4343
 sg31
-(lp4361
+(lp4344
 Vdiatribe
-p4362
+p4345
 asg33
 g26
 ((I2014
@@ -14211,28 +14157,28 @@ I22
 I3
 I247
 I1
-tp4363
-(dp4364
-tp4365
-Rp4366
-sbsa(dp4367
+tp4346
+(dp4347
+tp4348
+Rp4349
+sbsa(dp4350
 g14
 I00
 sg15
-(lp4368
+(lp4351
 F2950.0
 aF5750.0
 asg17
 (itiddlywiki
 Tiddler
-p4369
-(dp4370
+p4352
+(dp4353
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">The time for silence is over, Inspector. Tell me. Do you want to capture James Hewes or not?</em>\u000a\u000a[[Yes.|d3 ht talk private admit b]]\u000a\u000a[[No.|d3 redeem save hewes]]
-p4371
+p4354
 sg23
 Vd3 redeem choice
-p4372
+p4355
 sg25
 g26
 ((I2014
@@ -14244,13 +14190,67 @@ I21
 I4
 I220
 I1
-tp4373
-(dp4374
-tp4375
-Rp4376
+tp4356
+(dp4357
+tp4358
+Rp4359
 sg31
-(lp4377
+(lp4360
 Vdiatribe
+p4361
+asg33
+g26
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp4362
+(dp4363
+tp4364
+Rp4365
+sbsa(dp4366
+g14
+I00
+sg15
+(lp4367
+F2250.0
+aF5890.0
+asg17
+(itiddlywiki
+Tiddler
+p4368
+(dp4369
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Precisely. If you're like everybody else, one would think that empathy, the ability to imagine other people's pain and despair as your own, wouldn't be outside your reach.</em>\u000a\u000a[[True. I can imagine what it's like where you are.|d3 redeem indiv similar 1]]\u000a\u000a[[Not normally. But this procedure is designed to minimize empathy.|d3 redeem indiv similar 1]]\u000a
+p4370
+sg23
+Vd3 redeem indiv similar
+p4371
+sg25
+g26
+((I2014
+I8
+I8
+I9
+I45
+I23
+I4
+I220
+I1
+tp4372
+(dp4373
+tp4374
+Rp4375
+sg31
+(lp4376
+Vbeing
+p4377
+aVsimilar
 p4378
 asg33
 g26
@@ -14273,26 +14273,26 @@ I00
 sg15
 (lp4384
 F2250.0
-aF5890.0
+aF6030.0
 asg17
 (itiddlywiki
 Tiddler
 p4385
 (dp4386
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Precisely. If you're like everybody else, one would think that empathy, the ability to imagine other people's pain and despair as your own, wouldn't be outside your reach.</em>\u000a\u000a[[True. I can imagine what it's like where you are.|d3 redeem indiv similar 1]]\u000a\u000a[[Not normally. But this procedure is designed to minimize empathy.|d3 redeem indiv similar 1]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">And how do you think you're special?</em>\u000a\u000a[[Because I have power over others.|d3 redeem indiv special 1]]\u000a\u000a[[I've always felt different.|d3 redeem indiv special 1]]
 p4387
 sg23
-Vd3 redeem indiv similar
+Vd3 redeem indiv special
 p4388
 sg25
 g26
 ((I2014
 I8
 I8
-I9
-I45
-I23
+I11
+I34
+I52
 I4
 I220
 I1
@@ -14304,7 +14304,7 @@ sg31
 (lp4393
 Vbeing
 p4394
-aVsimilar
+aVspecial
 p4395
 asg33
 g26
@@ -14326,18 +14326,18 @@ g14
 I00
 sg15
 (lp4401
-F2250.0
-aF6030.0
+F2390.0
+aF5890.0
 asg17
 (itiddlywiki
 Tiddler
 p4402
 (dp4403
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">And how do you think you're special?</em>\u000a\u000a[[Because I have the strength to achieve more than others.|d3 redeem indiv special 1]]\u000a\u000a[[I've always felt different.|d3 redeem indiv special 1]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">And I'm sure you're glad to be safe behind your screen, free from consequences.<<if $torture>0>> You can't see what you've done to me.<<endif>>\u000a\u000aThe thing is, even if we can ignore the consequences of our actions, we shouldn't. Our lives will be pale and dull, and we will never learn or improve.</em>\u000a\u000a[[[Say nothing.]|d3 redeem indiv similar 1 1]]\u000a\u000a[[We all have to live with what we've done.|d3 redeem indiv similar 1 1][$opinion++]]
 p4404
 sg23
-Vd3 redeem indiv special
+Vd3 redeem indiv similar 1
 p4405
 sg25
 g26
@@ -14346,7 +14346,7 @@ I8
 I8
 I9
 I52
-I15
+I54
 I4
 I220
 I1
@@ -14358,7 +14358,7 @@ sg31
 (lp4410
 Vbeing
 p4411
-aVspecial
+aVsimilar
 p4412
 asg33
 g26
@@ -14380,7 +14380,7 @@ g14
 I00
 sg15
 (lp4418
-F2390.0
+F2530.0
 aF5890.0
 asg17
 (itiddlywiki
@@ -14388,10 +14388,10 @@ Tiddler
 p4419
 (dp4420
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">And I'm sure you're glad to be safe behind your screen, free from consequences.<<if $torture>0>> You can't see what you've done to me.<<endif>>\u000a\u000aThe thing is, even if we can ignore the consequences of our actions, we shouldn't. Our lives will be pale and dull, and we will never learn or improve.</em>\u000a\u000a[[[Say nothing.]|d3 redeem indiv similar 1 1]]\u000a\u000a[[We all have to live with what we've done.|d3 redeem indiv similar 1 1][$opinion++]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">If I'm going to tell you the truth, Inspector, I need to know you won't just waste it by causing more bloodshed. I need to know you can empathize with other human beings.</em>\u000a\u000a[[Yes, of course I can.|d3 redeem indiv f]]\u000a\u000a[[You're not here to psychoanalyze me. What does all this matter?|d3 redeem indiv ht]]
 p4421
 sg23
-Vd3 redeem indiv similar 1
+Vd3 redeem indiv similar 1 1
 p4422
 sg25
 g26
@@ -14399,8 +14399,8 @@ g26
 I8
 I8
 I9
-I52
-I54
+I55
+I3
 I4
 I220
 I1
@@ -14434,27 +14434,27 @@ g14
 I00
 sg15
 (lp4435
-F2530.0
-aF5890.0
+F2390.0
+aF6030.0
 asg17
 (itiddlywiki
 Tiddler
 p4436
 (dp4437
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">If I'm going to tell you the truth, Inspector, I need to know you won't just waste it by causing more bloodshed. I need to know you can empathize with other human beings.</em>\u000a\u000a[[Yes, of course I can.|d3 redeem indiv f]]\u000a\u000a[[You're not here to psychoanalyze me. What does all this matter?|d3 redeem indiv ht]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">And you sincerely think that this gives you the right to treat other people as lesser beings?</em>\u000a\u000a[[Yes.|d3 redeem indiv special 2]]\u000a\u000a[[No.|d3 redeem indiv special 2]]
 p4438
 sg23
-Vd3 redeem indiv similar 1 1
+Vd3 redeem indiv special 1
 p4439
 sg25
 g26
 ((I2014
 I8
 I8
-I9
-I55
-I3
+I11
+I35
+I14
 I4
 I220
 I1
@@ -14466,7 +14466,7 @@ sg31
 (lp4444
 Vbeing
 p4445
-aVsimilar
+aVspecial
 p4446
 asg33
 g26
@@ -14488,7 +14488,7 @@ g14
 I00
 sg15
 (lp4452
-F2390.0
+F2530.0
 aF6030.0
 asg17
 (itiddlywiki
@@ -14496,10 +14496,10 @@ Tiddler
 p4453
 (dp4454
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">And you sincerely think that this gives you power over others?</em>\u000a\u000a[[Yes.|d3 redeem indiv special 2]]\u000a\u000a[[No.|d3 redeem indiv special 2]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">That's all I needed to know.</em>\u000a\u000a[[All I need to know is whether you'll help me. Because I want to save the people Hewes is going to kill.|d3 ht talk private admit b]]\u000a\u000a[[Now that this masquerade is over, I'm eager to hear what you know.|d3 f repent 1 1 1]]
 p4455
 sg23
-Vd3 redeem indiv special 1
+Vd3 redeem indiv special 2
 p4456
 sg25
 g26
@@ -14507,8 +14507,8 @@ g26
 I8
 I8
 I10
-I59
-I11
+I58
+I54
 I4
 I220
 I1
@@ -14542,7 +14542,7 @@ g14
 I00
 sg15
 (lp4469
-F2530.0
+F2810.0
 aF6030.0
 asg17
 (itiddlywiki
@@ -14550,19 +14550,19 @@ Tiddler
 p4470
 (dp4471
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">That's all I needed to know.</em>\u000a\u000a[[All I need to know is whether you'll help me. Because I want to save the people Hewes is going to kill.|d3 ht talk private admit b]]\u000a\u000a[[Now that this masquerade is over, I'm eager to hear what you know.|d3 f repent 1 1 1]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">It matters because if you're ever going to make this world better, you need to realize that you're not unique. Other people are just as real as you.</em>\u000a\u000a[[I do know that. But Hewes doesn't seem to.|d3 ht talk private admit b]]\u000a\u000a[[Enough of this. Tell me what Hewes is up to, or I'll use other means.|d3 ht torture]]
 p4472
 sg23
-Vd3 redeem indiv special 2
+Vd3 redeem indiv ht
 p4473
 sg25
 g26
 ((I2014
 I8
 I8
-I10
-I58
-I54
+I9
+I56
+I8
 I4
 I220
 I1
@@ -14572,62 +14572,8 @@ tp4476
 Rp4477
 sg31
 (lp4478
-Vbeing
-p4479
-aVspecial
-p4480
-asg33
-g26
-((I2014
-I9
-I4
-I13
-I56
-I22
-I3
-I247
-I1
-tp4481
-(dp4482
-tp4483
-Rp4484
-sbsa(dp4485
-g14
-I00
-sg15
-(lp4486
-F2810.0
-aF6030.0
-asg17
-(itiddlywiki
-Tiddler
-p4487
-(dp4488
-g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">It matters because if you're ever going to make this world better, you need to realize that you're not unique. Other people are just as real as you.</em>\u000a\u000a[[I do know that. But Hewes doesn't seem to.|d3 ht talk private admit b]]\u000a\u000a[[Enough of this. Tell me what Hewes is up to, or I'll use other means.|d3 ht torture]]
-p4489
-sg23
-Vd3 redeem indiv ht
-p4490
-sg25
-g26
-((I2014
-I8
-I8
-I9
-I56
-I8
-I4
-I220
-I1
-tp4491
-(dp4492
-tp4493
-Rp4494
-sg31
-(lp4495
 Vhalftrue
-p4496
+p4479
 asg33
 g26
 ((I2014
@@ -14639,46 +14585,100 @@ I22
 I3
 I247
 I1
-tp4497
-(dp4498
-tp4499
-Rp4500
-sbsa(dp4501
+tp4480
+(dp4481
+tp4482
+Rp4483
+sbsa(dp4484
 g14
 I00
 sg15
-(lp4502
+(lp4485
 F2810.0
 aF5890.0
 asg17
 (itiddlywiki
 Tiddler
-p4503
-(dp4504
+p4486
+(dp4487
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">If you're like everyone else, why do you think you have special rights to oppress others?</em>\u000a\u000a[[You're right. I don't.|d3 f repent 1 1 1]]\u000a\u000a[[Because that's my job, my role in the society I support.|d3 ht talk ideals 1 1 1]]
-p4505
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">If you're like everyone else, why do you think you have special rights to oppress others?</em>\u000a\u000a[[I don't. I'm starting to understand what you mean.|d3 f repent]]\u000a\u000a[[Because that's my job, my role in the society I support. And I can use that to destroy you.|d3 ht talk ideals 1 1 1]]
+p4488
 sg23
 Vd3 redeem indiv f
-p4506
+p4489
 sg25
 g26
 ((I2014
 I8
 I8
-I10
-I58
-I29
+I11
+I36
+I36
 I4
 I220
 I1
-tp4507
-(dp4508
-tp4509
-Rp4510
+tp4490
+(dp4491
+tp4492
+Rp4493
 sg31
-(lp4511
+(lp4494
 Vfalse
+p4495
+asg33
+g26
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp4496
+(dp4497
+tp4498
+Rp4499
+sbsa(dp4500
+g14
+I00
+sg15
+(lp4501
+F2950.0
+aF5610.0
+asg17
+(itiddlywiki
+Tiddler
+p4502
+(dp4503
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">So you're finally seeing reason, Inspector. You don't need to know when, what, or where he's going to strike next.\u000a\u000aHe's currently living in New York. 598 East 7th Street. Apartment 2, I believe. You should go talk to him. I'm sure it'll be an enlightening interview for you both.</em>\u000a\u000a[[I will. [Disconnect.]|report 3 start][$location = true]]
+p4504
+sg23
+Vd3 redeem save hewes
+p4505
+sg25
+g26
+((I2014
+I8
+I8
+I11
+I0
+I39
+I4
+I220
+I1
+tp4506
+(dp4507
+tp4508
+Rp4509
+sg31
+(lp4510
+Vdiatribe
+p4511
+aVend
 p4512
 asg33
 g26
@@ -14700,73 +14700,19 @@ g14
 I00
 sg15
 (lp4518
-F2950.0
-aF5610.0
+F1130.0
+aF850.0
 asg17
 (itiddlywiki
 Tiddler
 p4519
 (dp4520
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">So you're finally seeing reason, Inspector. You don't need to know when, what, or where he's going to strike next.\u000a\u000aHe's currently living in New York. 598 East 7th Street. Apartment 2, I believe. You should go talk to him. I'm sure it'll be an enlightening interview for you both.</em>\u000a\u000a[[I will. [Disconnect.]|report 3 start][$location = true]]
+V[[[Fill out final Inspection Report.]|report 3]]]
 p4521
 sg23
-Vd3 redeem save hewes
-p4522
-sg25
-g26
-((I2014
-I8
-I8
-I11
-I0
-I39
-I4
-I220
-I1
-tp4523
-(dp4524
-tp4525
-Rp4526
-sg31
-(lp4527
-Vdiatribe
-p4528
-aVend
-p4529
-asg33
-g26
-((I2014
-I9
-I4
-I13
-I56
-I22
-I3
-I247
-I1
-tp4530
-(dp4531
-tp4532
-Rp4533
-sbsa(dp4534
-g14
-I00
-sg15
-(lp4535
-F1130.0
-aF850.0
-asg17
-(itiddlywiki
-Tiddler
-p4536
-(dp4537
-g21
-V[[[Fill out final Inspection Report.]|report 3]]]
-p4538
-sg23
 Vreport 3 start
-p4539
+p4522
 sg25
 g26
 ((I2014
@@ -14778,12 +14724,12 @@ I42
 I4
 I220
 I1
-tp4540
-(dp4541
-tp4542
-Rp4543
+tp4523
+(dp4524
+tp4525
+Rp4526
 sg31
-(lp4544
+(lp4527
 sg33
 g26
 ((I2014
@@ -14795,14 +14741,14 @@ I20
 I4
 I220
 I1
-tp4545
-(dp4546
-tp4547
-Rp4548
+tp4528
+(dp4529
+tp4530
+Rp4531
 sbsasS'scale'
-p4549
+p4532
 F0.8
 sS'snapping'
-p4550
+p4533
 I01
 ss.
