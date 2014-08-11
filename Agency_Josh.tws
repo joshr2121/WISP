@@ -5063,9 +5063,9 @@ g26
 ((I2014
 I8
 I11
-I14
-I5
+I16
 I10
+I19
 I0
 I223
 I1
@@ -7468,7 +7468,7 @@ tp2291
 Rp2292
 sbsa(dp2293
 g14
-I00
+I01
 sg15
 (lp2294
 F2670.0
@@ -7479,7 +7479,7 @@ Tiddler
 p2295
 (dp2296
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<set $hMotivation_intel to true>><em class = "suspect">I'll let you in on a little secret, Inspector. Hewes isn't a Hollywood villain. He didn't have a childhood trauma. He isn't blinded by hatred or a need for revenge.\u000a\u000aHe's just a man who feels that the world he lives in isn't how it ought to be. And he does whatever it takes to change that. How does that make him an enemy of the state?</em>\u000a\u000a[[I'll let you in on a little secret too. The state needs enemies to bring people together.|education hewes 1 state]]\u000a\u000a[[Maybe he isn't. But the world we live in only functions if everybody does their part. And I'm doing mine.|education hewes 1 part]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I'll let you in on a little secret, Inspector. Hewes isn't a Hollywood villain. He didn't have a childhood trauma. He isn't blinded by hatred or a need for revenge.\u000a\u000aHe's just a man who feels that the world he lives in isn't how it ought to be. And he does whatever it takes to change that. How does that make him an enemy of the state?</em>\u000a\u000a[[I'll let you in on a little secret too. The state needs enemies to bring people together.|education hewes 1 state]]\u000a\u000a[[Maybe he isn't. But the world we live in only functions if everybody does their part. And I'm doing mine.|education hewes 1 part]]
 p2297
 sg23
 Veducation hewes 1 pieces
@@ -7488,12 +7488,12 @@ sg25
 g26
 ((I2014
 I8
-I7
-I9
-I54
+I11
+I16
 I15
-I3
-I219
+I32
+I0
+I223
 I1
 tp2299
 (dp2300
@@ -7531,7 +7531,7 @@ Tiddler
 p2311
 (dp2312
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect"><<nobr>><<if $opinion >= 3>>From a military standpoint, I agree with you, Inspector. In terms of economics, though, I'm afraid I can't support that.<<else>>Our government is defending itself. In case you haven't noticed, our government stopped representing our country's people a long time ago.<<endif>><<endnobr>></em>\u000a\u000a[[It's protecting against people like you and Hewes who are just seeking to overthrow a system that doesn't work for them. The people voted for the Carson decision through their elected officials.|education hewes 1 people]]\u000a\u000a[[Don't you think Hewes' methods are hurting the people more than they're hurting the government?|education hewes 1 methods]]
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $opinion >= 3>>\u000a<em class = "suspect">From a military standpoint, I agree with you, Inspector. In terms of economics, though, I'm afraid I can't support that.</em>\u000a<<else>>\u000a<em class = "suspect">Our government is defending itself. In case you haven't noticed, our government stopped representing our country's people a long time ago.</em>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[We're protecting against people like you and Hewes who just seek to overthrow a system that doesn't work for them. The people voted for the Carson decision through their elected officials.|education hewes 1 people]]\u000a\u000a[[Don't you think Hewes' methods are hurting the people more than they're hurting the government?|education hewes 1 methods]]
 p2313
 sg23
 Veducation hewes 1 country
@@ -7540,12 +7540,12 @@ sg25
 g26
 ((I2014
 I8
-I4
-I14
-I22
-I23
+I11
+I16
+I6
+I53
 I0
-I216
+I223
 I1
 tp2315
 (dp2316
@@ -9777,7 +9777,7 @@ Tiddler
 p2994
 (dp2995
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I know you've come a long way, Inspector, but I still can't trust you entirely.</em>\u000a\u000a<<nobr>>\u000a<<if $promise == true>>\u000a[[I've promised to help you.|d3 true promise]]<br><br>\u000a<<endif>>\u000a<<if $opinion >= 5>>\u000a[[You know I'll do the right thing once I find Hewes.|d3 true 1]]<br><br>\u000a<<endif>>\u000a[[You've gone this far, there's no backing down anymore.|d3 redeem]]\u000a<<endnobr>>
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I know you've come a long way, Inspector, but I still can't trust you entirely.</em>\u000a\u000a<<nobr>>\u000a<<if $protectionPromised == true>>\u000a[[I've promised to help you.|d3 true promise]]<br><br>\u000a<<endif>>\u000a<<if $opinion >= 5>>\u000a[[You know I'll do the right thing once I find Hewes.|d3 true 1]]<br><br>\u000a<<endif>>\u000a[[You've gone this far, there's no backing down anymore.|d3 redeem]]\u000a<<endnobr>>
 p2996
 sg23
 Vd3 true
@@ -9786,12 +9786,12 @@ sg25
 g26
 ((I2014
 I8
-I7
 I11
-I9
-I26
-I3
-I219
+I16
+I12
+I38
+I0
+I223
 I1
 tp2998
 (dp2999
@@ -9983,7 +9983,7 @@ Tiddler
 p3057
 (dp3058
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">We still need to give him the chance.</em>\u000a\u000a[[After what he's done, that's more than he deserves.|d3 true 1 a 1]]\u000a\u000a[[I'll try to make them understand.|d3 true location][$trueLocation == true]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">We still need to give him the chance.</em>\u000a\u000a[[After what he's done, that's more than he deserves.|d3 true 1 a 1]]\u000a\u000a[[I'll try to make them understand.|d3 true location]]
 p3059
 sg23
 Vd3 true 1 b
@@ -9992,12 +9992,12 @@ sg25
 g26
 ((I2014
 I8
-I7
 I11
-I12
-I25
-I3
-I219
+I16
+I14
+I48
+I0
+I223
 I1
 tp3061
 (dp3062
@@ -10027,8 +10027,8 @@ g14
 I00
 sg15
 (lp3072
-F2950.0
-aF3790.0
+F2810.0
+aF3930.0
 asg17
 (itiddlywiki
 Tiddler
