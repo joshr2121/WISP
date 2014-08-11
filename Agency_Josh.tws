@@ -891,7 +891,7 @@ Tiddler
 p281
 (dp282
 g21
-V<<set $pearl_intel to 1>>SUSPECT 1247\u000a- - - -\u000a<em class="suspect">That was 20 years ago. I was a kid.</em>\u000a\u000a[[Do you regret it?|riots 2]]\u000a\u000a[[We all make mistakes.|riots 4]]\u000a\u000a[[Looks like it finally caught up to you.|riots 4]]
+V<<set $pearl_intel to 1>>SUSPECT 1247\u000a- - - -\u000a<em class="suspect">That was over a decade ago. I was practically a kid.</em>\u000a\u000a[[Do you regret it?|riots 2]]\u000a\u000a[[We all make mistakes.|riots 4]]\u000a\u000a[[Looks like it finally caught up to you.|riots 4]]
 p283
 sg23
 Vriots 1
@@ -900,12 +900,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I14
-I6
-I4
-I4
-I220
+I11
+I15
+I54
+I48
+I0
+I223
 I1
 tp285
 (dp286
@@ -3907,7 +3907,7 @@ Tiddler
 p1199
 (dp1200
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">I'll never forget the day it was ratified. October 10th, 2028.</em>\u000a\u000a[[The world got a little scarier that day.|3s return][$opinion++]]\u000a\u000a[[It's been almost two decades.|3s return]]\u000a\u000a[[A great day for America.|3s return][$opinion--]]
+VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">I'll never forget the day it was ratified. October 10th, 2028.</em>\u000a\u000a[[The world got a little scarier that day.|personal 1 a 2][$opinion++]]\u000a\u000a[[It's been almost two decades.|personal 1 a 2]]\u000a\u000a[[A great day for America.|personal 1 a 2][$opinion--]]
 p1201
 sg23
 Vpersonal 1 a 1
@@ -3916,12 +3916,12 @@ sg25
 g26
 ((I2014
 I8
-I7
-I13
-I29
-I46
-I3
-I219
+I11
+I15
+I58
+I11
+I0
+I223
 I1
 tp1203
 (dp1204
@@ -8305,7 +8305,7 @@ Tiddler
 p2548
 (dp2549
 g21
-VINSPECTION REPORT - 10/22/47\u000a- - - -\u000a<<nobr>>\u000a<<if $planTrue == 1>>[[Write: "The suspect claims that James Hewes is planning to attack the Supreme Court as payback for their judgment in Carson Group v. United States in 2034."|report 2 submit][$planTrue = 2]]\u000a\u000a<<else if $planHalfTrue == 1>>[[Write: "The suspect claims that James Hewes is planning to attack the Carson Group directly in revenge for prosecuting the Supreme Court case of Carson Group v. United States in 2034."|report 2 submit][$planHalfTrue = 2]]\u000a\u000a<<else if $planFalse == 1>>[[Write: "The suspect claims that James Hewes is planning to sabotage mass entertainment, possibly in the form of an attack on a major sports event."|report 2 submit][$planFalse = 2]]\u000a\u000a<<else if $day2KnowNothing is false>>[[Write: "The suspect was unwilling to divulge further details about the plans of James Hewes."|report 2 submit][$day2KnowNothing = true]]\u000a<<endif>>\u000a<<endnobr>>
+VINSPECTION REPORT - 10/22/47\u000a- - - -\u000a<<nobr>>\u000a<<if $planTrue == 1>>[[Write: "The suspect claims that James Hewes is planning to attack the Supreme Court as payback for their verdict in Carson Group v. United States in 2034."|report 2 submit][$planTrue = 2]]\u000a\u000a<<else if $planHalfTrue == 1>>[[Write: "The suspect claims that James Hewes is planning to attack the Carson Group directly in revenge for prosecuting the Supreme Court case of Carson Group v. United States in 2034."|report 2 submit][$planHalfTrue = 2]]\u000a\u000a<<else if $planFalse == 1>>[[Write: "The suspect claims that James Hewes is planning to sabotage mass entertainment, possibly in the form of an attack on a major sports event."|report 2 submit][$planFalse = 2]]\u000a\u000a<<else if $day2KnowNothing is false>>[[Write: "The suspect was unwilling to divulge further details about the plans of James Hewes."|report 2 submit][$day2KnowNothing = true]]\u000a<<endif>>\u000a<<endnobr>>
 p2550
 sg23
 Vreport 2
@@ -8315,9 +8315,9 @@ g26
 ((I2014
 I8
 I11
-I15
-I30
-I42
+I16
+I2
+I37
 I0
 I223
 I1
@@ -8405,7 +8405,7 @@ Tiddler
 p2578
 (dp2579
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $planTrue == 1>>\u000a<em class = "suspect">Those who allowed the Carson case to happen are on his list.</em><br><br>\u000a[[What does that mean?|sum action true]]<br><br>\u000a\u000a<<else if $planHalfTrue == 1>>\u000a<em class = "suspect">It all comes back to Carson. He wants to make the Carson Group disappear.</em><br><br>\u000a[[That case was decades ago. Why would he still care? What would that accomplish?|sum action halftrue]]<br><br>\u000a\u000a<<else if $planFalse == 1>><em class = "suspect">It's like I told you. He wants to destroy everything that keeps the people from worrying about the problems of the society they live in.</em><br><br>\u000a[[I don't see how that fits in his agenda. All that would do is cause a public uproar.|sum action false]]<br><br>\u000a\u000a<<else>><em class = "suspect">He wants to destroy the things that keep the people complacent. Entertainment, sports, that sort of thing.</em><br><br>\u000a\u000a[[I don't see how that fits in his agenda. All that would do is cause a public uproar.|sum action false]]<br><br>\u000a<<endif>>\u000a<<endnobr>>[[I don't think you're telling me the truth. (Apply physical encouragement.)|sum action torture][$opinion--;$torture++]]
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $planTrue == 1>>\u000a<em class = "suspect">He's going after those who allowed the Carson case to happen.</em><br><br>\u000a[[What does that mean?|sum action true]]<br><br>\u000a\u000a<<else if $planHalfTrue == 1>>\u000a<em class = "suspect">It all comes back to Carson. He wants to make the Carson Group disappear.</em><br><br>\u000a[[That case was decades ago. Why would he still care? What would that accomplish?|sum action halftrue]]<br><br>\u000a\u000a<<else if $planFalse == 1>><em class = "suspect">It's like I told you. He wants to destroy everything that keeps the people from worrying about the problems of the society they live in.</em><br><br>\u000a[[I don't see how that fits in his agenda. All that would do is cause a public uproar.|sum action false]]<br><br>\u000a\u000a<<else>><em class = "suspect">He wants to destroy the things that keep the people complacent. Entertainment, sports, that sort of thing.</em><br><br>\u000a\u000a[[I don't see how that fits in his agenda. All that would do is cause a public uproar.|sum action false]]<br><br>\u000a<<endif>>\u000a<<endnobr>>[[I don't think you're telling me the truth. (Apply physical encouragement.)|sum action torture][$opinion--;$torture++]]
 p2580
 sg23
 Vsum action
@@ -8415,9 +8415,9 @@ g26
 ((I2014
 I8
 I11
+I16
+I1
 I14
-I39
-I39
 I0
 I223
 I1
@@ -8455,7 +8455,7 @@ Tiddler
 p2593
 (dp2594
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">He's found a problem, and he intends to solve it.</em>\u000a\u000a<<nobr>>\u000a<<if $opinion >= 4>>\u000a[[And how does he plan on doing that?|sum motivation solution]]\u000a<<else>>\u000a[[What problem is that?|sum motivation assumption]]\u000a<<endif>>\u000a<<endnobr>>
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">He thinks there's a problem, and he thinks he's found the best way to solve it.</em>\u000a\u000a<<nobr>>\u000a<<if $opinion >= 4>>\u000a[[And how does he plan on doing that?|sum motivation solution]]\u000a<<else>>\u000a[[What problem is that?|sum motivation assumption]]\u000a<<endif>>\u000a<<endnobr>>
 p2595
 sg23
 Vsum motivation
@@ -8464,12 +8464,12 @@ sg25
 g26
 ((I2014
 I8
-I6
-I10
-I57
-I43
+I11
+I16
 I2
-I218
+I0
+I0
+I223
 I1
 tp2597
 (dp2598
