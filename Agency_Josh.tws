@@ -193,7 +193,7 @@ Tiddler
 p70
 (dp71
 g21
-VWelcome back, Inspector.\u000a\u000aPlease click [[here|suspect connecting]] to continue the inspection process.<<nobr>>\u000a/%<<set $beginningOfDay to true>>%/\u000a<<set $tortureLimit to $torture + (3 - $leftUnconscious)>>\u000a<<endnobr>>
+V<em>Welcome back, Inspector.</em>\u000a\u000aPlease click [[here|suspect connecting]] to continue the inspection process.<<nobr>>\u000a/%<<set $beginningOfDay to true>>%/\u000a<<set $tortureLimit to $torture + (3 - $leftUnconscious)>>\u000a<<endnobr>>
 p72
 sg23
 Vstart day 2 or 3
@@ -203,9 +203,9 @@ g26
 ((I2014
 I8
 I11
-I11
-I36
-I35
+I14
+I23
+I53
 I0
 I223
 I1
@@ -535,7 +535,7 @@ Tiddler
 p173
 (dp174
 g21
-VWelcome, Inspector.\u000a\u000a1 new task has been assigned by your Inspection Manager. \u000a\u000aTask duration: 3 days (completion required by 10/23/47 at 5:00 PM)\u000a\u000aPlease click [[here|briefing objective]] for a task briefing.
+V<em>Welcome, Inspector.</em>\u000a\u000a1 new task has been assigned by your Inspection Manager. \u000a\u000aTask duration: 3 days (completion required by 10/23/47 at 5:00 PM)\u000a\u000aPlease click [[here|briefing objective]] for a task briefing.
 p175
 sg23
 Vstart welcome
@@ -544,12 +544,12 @@ sg25
 g26
 ((I2014
 I8
-I7
-I10
-I44
-I13
-I3
-I219
+I11
+I14
+I23
+I4
+I0
+I223
 I1
 tp177
 (dp178
@@ -14707,7 +14707,7 @@ Tiddler
 p4519
 (dp4520
 g21
-VWelcome back, Inspector.\u000a\u000aPlease click [[here|final results 1]] for a mandatory morning news update pertaining to the results of your previous inspection.
+V<em>Welcome back, Inspector.</em>\u000a\u000aPlease click [[here|final results 1]] for a mandatory morning news update pertaining to the results of your previous inspection.
 p4521
 sg23
 Vstart day 4
@@ -14717,9 +14717,9 @@ g26
 ((I2014
 I8
 I11
-I12
-I17
-I11
+I14
+I24
+I1
 I0
 I223
 I1
@@ -14807,7 +14807,7 @@ Tiddler
 p4549
 (dp4550
 g21
-VNEWS UPDATE\u000a- - - -\u000a<<nobr>>\u000a<<if $torture <= 1>>\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have been met, as both the amount and quality of gathered intelligence have been deemed satisfactory by the Assessment Branch of the BEAR.<br><br>\u000a\u000aSurprisingly, these results indicate a minimal use of physical encouragement devices, even though the inspection took place after the establishment of Directive US-598. The BEAR recommends further research to confirm or refute the efficiency of physical encouragement in acquiring accurate data from individuals.\u000a\u000a<<else>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have not been met, as both the amount and quality of gathered intelligence have been deemed unsatisfactory, leading to civilian casualties.<br><br>\u000a\u000aUnsurprisingly, these results indicate a minimal use of physical encouragement devices, even though the inspection took place after the establishment of Directive US-598. The BEAR recommends investigating the efficiency of mandatory usage policies for physical encouragement in order to optimize the gathering and analysis of intelligence in future inspections.\u000a<<endif>>\u000a\u000a<<else>> /% torture > 1 %/\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have been met, as both the amount and quality of gathered intelligence have been deemed satisfactory by the Assessment Branch of the BEAR.<br><br>\u000a\u000aCorrelations with the sustained use of physical encouragement have been successfully established. The BEAR recommends the formalization of norms and guidelines regarding the use of physical encouragement for upcoming inspections in order to optimize the gathering and analysis of intelligence.\u000a<<else>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have not been met, as both the amount and quality of gathered intelligence have been deemed unsatisfactory, leading to civilian casualties.<br><br>\u000a\u000aCorrelations with the sustained use of physical encouragement have been successfully established, and conclusions tend to observe the detrimental effect of physical encouragement sessions on the gathering and analysis of accurate intelligence from detainees. The BEAR recommends formal scientific investigations into the efficiency of physical encouragement in order to optimize the gathering and analysis of intelligence in future inspections.\u000a<<endif>>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[[more]|final results 3]]
+VNEWS UPDATE\u000a- - - -\u000a<<nobr>>\u000a<<if $torture <= 1>>\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have been met, as both the amount and quality of gathered intelligence have been deemed satisfactory by the Assessment Branch of the BEAR.<br><br>\u000a\u000aSurprisingly, these results indicate a minimal use of physical encouragement devices, even though the inspection took place after the establishment of Directive US-598. The BEAR recommends further research to confirm or refute the efficiency of physical encouragement in acquiring accurate data from individuals.\u000a\u000a<<else>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have not been met, as both the amount and quality of gathered intelligence have been deemed unsatisfactory, leading to civilian casualties.<br><br>\u000a\u000aUnsurprisingly, these results indicate a minimal use of physical encouragement devices, even though the inspection took place after the establishment of Directive US-598. The BEAR recommends investigating the efficiency of mandatory usage policies for physical encouragement in order to optimize the gathering and analysis of intelligence in future inspections.\u000a<<endif>>\u000a\u000a<<else>>/% torture > 1 %/\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have been met, as both the amount and quality of gathered intelligence have been deemed satisfactory by the Assessment Branch of the BEAR.<br><br>\u000a\u000aCorrelations with the sustained use of physical encouragement have been successfully established. The BEAR recommends the formalization of norms and guidelines regarding the use of physical encouragement for upcoming inspections in order to optimize the gathering and analysis of intelligence.\u000a<<else>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have not been met, as both the amount and quality of gathered intelligence have been deemed unsatisfactory, leading to civilian casualties.<br><br>\u000a\u000aCorrelations with the sustained use of physical encouragement have been successfully established, and conclusions tend to observe the detrimental effect of physical encouragement sessions on the gathering and analysis of accurate intelligence from detainees. The BEAR recommends formal scientific investigations into the efficiency of physical encouragement in order to optimize the gathering and analysis of intelligence in future inspections.\u000a<<endif>>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[[more]|final results 3]]
 p4551
 sg23
 Vfinal results 2
@@ -14817,9 +14817,9 @@ g26
 ((I2014
 I8
 I11
-I12
-I18
-I3
+I14
+I24
+I56
 I0
 I223
 I1
@@ -14857,7 +14857,7 @@ Tiddler
 p4564
 (dp4565
 g21
-VNEWS UPDATE\u000a- - - -\u000a<<nobr>>\u000a<<if $protectionRequested is true>>\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aProtective measures have been granted to Suspect 1247 on the basis of his providing accurate information. The suspect will be relocated to a secret location as per Directive US-263.\u000a<<else>>\u000aSecurity forces have been requested for Suspect 1247, despite his providing erroneous information. As such, the Inspector in charge of intelligence gathering from this suspect is being held an additional 48 (forty-eight) hours in order to investigate the implications of such a request.\u000a<<endif>>\u000a\u000a<<else>> /% $protectionRequested is false %/\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aSuspect 1247 was released at 04:00 AM this morning, and his body was discovered at 08:45 AM. Primary leads suggest homicide by New Collective members in revenge for the suspect's leaking of key intelligence to the BEAR that led to the foiling of planned New Collective terrorist actions.\u000a<<else>>\u000aSuspect 1247 was released at 04:00 AM this morning. The suspect's personal information has been archived for possible further investigation.\u000a<<endif>>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[[more]|final results 4]]
+VNEWS UPDATE\u000a- - - -\u000a<<nobr>>\u000a<<if $protectionRequested is true>>\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aProtective measures have been granted to Suspect 1247 on the basis of his providing accurate information. The suspect will be relocated to a secret location as per Directive US-263.\u000a<<else>>\u000aSecurity forces have been requested for Suspect 1247, despite his providing erroneous information. As such, the Inspector in charge of intelligence gathering from this suspect is being held an additional 48 (forty-eight) hours in order to investigate the implications of such a request.\u000a<<endif>>\u000a\u000a<<else>>/% $protectionRequested is false %/\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aSuspect 1247 was released at 04:00 AM this morning, and his body was discovered at 08:45 AM. Primary leads suggest homicide by New Collective members in revenge for the suspect's leaking of key intelligence to the BEAR that led to the foiling of planned New Collective terrorist actions.\u000a<<else>>\u000aSuspect 1247 was released at 04:00 AM this morning. The suspect's personal information has been archived for possible further investigation.\u000a<<endif>>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[[more]|final results 4]]
 p4566
 sg23
 Vfinal results 3
@@ -14867,9 +14867,9 @@ g26
 ((I2014
 I8
 I11
-I12
-I18
-I16
+I14
+I24
+I49
 I0
 I223
 I1
@@ -14907,7 +14907,7 @@ Tiddler
 p4579
 (dp4580
 g21
-VGood work, Inspector. Please remain where you are and await further updates.\u000a\u000a<<timedgoto 'game end' 120s>>
+V<em>Good work, Inspector. Please remain where you are and await further updates.</em>\u000a\u000a<<timedgoto 'game end' 300s>>
 p4581
 sg23
 Vfinal results 4
@@ -14917,9 +14917,9 @@ g26
 ((I2014
 I8
 I11
-I12
-I18
-I53
+I14
+I24
+I20
 I0
 I223
 I1
@@ -14957,7 +14957,7 @@ Tiddler
 p4594
 (dp4595
 g21
-V<em>We are impressed with your patience and loyalty to the Bureau. However, the game is over. Please click on your browser's "Refresh" button to begin again.</em>
+V<em>We are impressed with your patience and loyalty to the Bureau. However, the game is over.</em>\u000a\u000aPlease click on your browser's "Refresh" button to begin again.
 p4596
 sg23
 Vgame end
@@ -14967,9 +14967,9 @@ g26
 ((I2014
 I8
 I11
-I12
-I19
-I47
+I14
+I24
+I16
 I0
 I223
 I1
