@@ -8405,7 +8405,7 @@ Tiddler
 p2578
 (dp2579
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $planTrue == true>>\u000a<em class = "suspect">Those who allowed the Carson case to happen are on his list.</em><br><br>\u000a[[What does that mean?|sum action true]]\u000a\u000a<<else if $planHalfTrue == true>>\u000a<em class = "suspect">It all comes back to Carson. He wants to make the Carson Group disappear.</em><br><br>\u000a[[That case was decades ago. Why would he still care? What would that accomplish?|sum action halftrue]]<br><br>\u000a\u000a<<else if $planFalse == true>><em class = "suspect">It's like I told you. He wants to destroy everything that keeps the people from worrying about the problems of the society they live in.</em><br><br>\u000a[[I don't see how that fits in his agenda. All that would do is cause a public uproar.|sum action false]]<br><br>\u000a\u000a<<else>><em class = "suspect">He wants to destroy the things that keep the people complacent. Entertainment, sports, that sort of thing.</em><br><br>\u000a\u000a[[I don't see how that fits in his agenda. All that would do is cause a public uproar.|sum action false]]<br><br>\u000a<<endif>>\u000a<<endnobr>>[[I don't think you're telling me the truth. (Apply physical encouragement.)|sum action torture][$opinion--;$torture++]]
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $planTrue == 1>>\u000a<em class = "suspect">Those who allowed the Carson case to happen are on his list.</em><br><br>\u000a[[What does that mean?|sum action true]]<br><br>\u000a\u000a<<else if $planHalfTrue == 1>>\u000a<em class = "suspect">It all comes back to Carson. He wants to make the Carson Group disappear.</em><br><br>\u000a[[That case was decades ago. Why would he still care? What would that accomplish?|sum action halftrue]]<br><br>\u000a\u000a<<else if $planFalse == 1>><em class = "suspect">It's like I told you. He wants to destroy everything that keeps the people from worrying about the problems of the society they live in.</em><br><br>\u000a[[I don't see how that fits in his agenda. All that would do is cause a public uproar.|sum action false]]<br><br>\u000a\u000a<<else>><em class = "suspect">He wants to destroy the things that keep the people complacent. Entertainment, sports, that sort of thing.</em><br><br>\u000a\u000a[[I don't see how that fits in his agenda. All that would do is cause a public uproar.|sum action false]]<br><br>\u000a<<endif>>\u000a<<endnobr>>[[I don't think you're telling me the truth. (Apply physical encouragement.)|sum action torture][$opinion--;$torture++]]
 p2580
 sg23
 Vsum action
@@ -8416,8 +8416,8 @@ g26
 I8
 I11
 I14
-I13
-I12
+I39
+I39
 I0
 I223
 I1
@@ -9727,7 +9727,7 @@ Tiddler
 p2979
 (dp2980
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $torture >= 1>>\u000a<em class = "suspect">Inspector? Will I be free soon?</em><br><br>\u000a<<else if $opinion <= 0>>\u000a<em class = "suspect">I know my 72 hours are almost up, Inspector. You'll have to let me out soon.</em><br><br>\u000a<<else if $opinion <= 3>>\u000a<em class = "suspect">Inspector? I'll be freed soon, correct?</em><br><br>\u000a<<else>>\u000a<em class = "suspect">Inspector? This is all nearly over, isn't it?</em><br><br>\u000a<<endif>>\u000a\u000a<<if $hPlanFalse_intel == true>>\u000a[[First, you need to tell me where and when Hewes plans on hitting those sports fields.|d3 false]]\u000a<<endif>>\u000a\u000a<<if $hPlanFalse_intelHalfTrue == true>>\u000a[[First, I need you to tell me where and when Hewes plans on hitting the Carson Group.|d3 halftrue]]\u000a<<endif>>\u000a\u000a<<if $hMO_intel == true>>\u000a[[Not until I've had more details about the attack on the Supreme Court. I need the where and the when.|d3 true]]\u000a<<endif>>\u000a\u000a<<if $hPlanFalse_intel == false and $hPlanFalse_intelHalfTrue == false and $hMO_intel == false>>/% Failsafe - should never be called %/\u000a[[Not until I've had more details about Hewes' plans.|d3 false]]\u000a<<endif>>\u000a<<endnobr>>
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $torture >= 1>>\u000a<em class = "suspect">Inspector? Will I be free soon?</em><br><br>\u000a<<else if $opinion <= 0>>\u000a<em class = "suspect">I know my 72 hours are almost up, Inspector. You'll have to let me out soon.</em><br><br>\u000a<<else if $opinion <= 3>>\u000a<em class = "suspect">Inspector? I'll be freed soon, correct?</em><br><br>\u000a<<else>>\u000a<em class = "suspect">Inspector? This is all nearly over, isn't it?</em><br><br>\u000a<<endif>>\u000a\u000a<<if $planTrue == 2>>\u000a[[Not until I've had more details about the attack on the Supreme Court. I need the where and the when.|d3 true]]\u000a\u000a<<else if $planHalfTrue == 2>>\u000a[[First, I need you to tell me where and when Hewes plans on hitting the Carson Group.|d3 halftrue]]\u000a\u000a<<else if $planFalse == 2>>\u000a[[First, you need to tell me where and when Hewes plans on hitting those sports fields.|d3 false]]\u000a\u000a<<else>>/% Failsafe - should never be called %/\u000a[[Not until I've had more details about Hewes' plans.|d3 false]]\u000a<<endif>>\u000a<<endnobr>>
 p2981
 sg23
 Vday 3
@@ -9736,12 +9736,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I16
-I31
-I34
-I4
-I220
+I11
+I14
+I46
+I11
+I0
+I223
 I1
 tp2983
 (dp2984
@@ -14457,7 +14457,7 @@ Tiddler
 p4444
 (dp4445
 g21
-V[[[Fill out final Inspection Report.]|report 3]]]
+V[[[Fill out final Inspection Report.]|report 3]]
 p4446
 sg23
 Vreport 3 start
@@ -14466,12 +14466,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I10
-I55
-I42
-I4
-I220
+I11
+I14
+I43
+I50
+I0
+I223
 I1
 tp4448
 (dp4449
@@ -14757,7 +14757,7 @@ Tiddler
 p4534
 (dp4535
 g21
-VNEWS UPDATE\u000a- - - -\u000a<<nobr>>\u000a<<if $hewesLocation == 2>>\u000aAccording to internal reports, the Bureau of Economic Assessment and Rehabilitation was able to pinpoint the whereabouts of James Hewes, self-proclaimed leader of the New Collective political group, classified by the bureau as a Class B homeland security threat.<br><br>\u000a\u000aAt 04:00 AM this morning, government forces successfully apprehended Hewes and four of his followers in an apartment in Manhattan, NY. They are currently detained in a secure facility, awaiting further directives from the executive branch of the Bureau.\u000a\u000a<<else if $planTrueDetails == 2>>\u000aAccording to internal reports, the Bureau of Economic Assessment and Rehabilitation assigned two S.W.A.T. teams to the surveillance and security of the private houses of the nine Supreme Court Justices. Thanks to swift and efficient action, a lethal attack led by the New Collective directed at Supreme Court Justice Richardson was stopped at 08:30 AM this morning.<br><br>\u000a\u000aFive suspected members of the terrorist group, including leader James Hewes, were detained in the aftermath of the attack. The Bureau is now holding Hewes in temporary confinement for further questioning.\u000a\u000a<<else if $planHalfTrueDetails == 2>>\u000aAt 08:30 AM this morning, Supreme Court Justice Richardson was killed in a hit-and-run attack in front of his private Washington, D.C. home. The New Collective terrorist group has claimed responsibility for the attack. Because the Bureau of Economic Assessment and Rehabilitation had ordered the special reassignment of reserve S.W.A.T. teams to the Carson Group Headquarters in Albany, NY, Richardson's death could not be prevented.<br><br>\u000a\u000aBureau Spokesperson Gabriel Kass is to hold a press conference announcing that, according to internal inspection reports, the Bureau had good reason to believe that the attack was to target Carson Group members. However, the Bureau Inspector in charge of intelligence gathering regarding the New Collective will shortly be arrested on counts of grave professional fault and passive treason.\u000a\u000a<<else if $planFalseDetails == 2>>\u000aAt 08:00 PM yesterday night, the League Finals in Austin was delayed due to emergency security procedures ordered by the Bureau of Economic Assessment and Rehabilitation. After the threat was deemed non-existent and based on false information, the hastily reassigned security forces were given the night off to enjoy the game. As a result, they were unable to prevent the fatal hit-and-run attack against Chief Justice Richardson at his private Washignton, D.C. home at 08:30 AM this morning.<br><br>\u000a\u000aThe New Collective terrorist group has claimed responsibility for the attack. Bureau Spokesperson Gabriel Kass is to hold a press conference announcing that, according to internal inspection reports, the Bureau had good reason to believe that the attack was to target the League Finals. However, the Bureau Inspector in charge of intelligence gathering regarding the New Collective will shortly be arrested on counts of grave professional fault and passive treason.\u000a\u000a<<else>>\u000aAt 08:30 AM this morning, Supreme Court Justice Richardson was killed in a hit-and-run attack in front of his private Washington, DC home. The New Collective terrorist group has claimed responsibility for the attack. According to some eyewitness reports, New Collective leader James Hewes himself may have been one of the perpetrators.<br><br>\u000a\u000aThree suspects have been detained for questioning at Bureau facilities. According to internal reports, the Bureau Inspector previously in charge of intelligence gathering regarding the New Collective will shortly be arrested on counts of grave professional fault and passive treason.\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[[more]|final results 2]]
+VNEWS UPDATE 1/3\u000a- - - -\u000a<<nobr>>\u000a<<if $hewesLocation == 2>>\u000aAccording to internal reports, the Bureau of Economic Assessment and Rehabilitation was able to pinpoint the whereabouts of James Hewes, self-proclaimed leader of the New Collective political group, classified by the bureau as a Class B homeland security threat.<br><br>\u000a\u000aAt 04:00 AM this morning, government forces successfully apprehended Hewes and four of his followers in an apartment in Manhattan, NY. They are currently detained in a secure facility, awaiting further directives from the executive branch of the Bureau.\u000a\u000a<<else if $planTrueDetails == 2>>\u000aAccording to internal reports, the Bureau of Economic Assessment and Rehabilitation assigned two S.W.A.T. teams to the surveillance and security of the private houses of the nine Supreme Court Justices. Thanks to swift and efficient action, a lethal attack led by the New Collective directed at Supreme Court Justice Richardson was stopped at 08:30 AM this morning.<br><br>\u000a\u000aFive suspected members of the terrorist group, including leader James Hewes, were detained in the aftermath of the attack. The Bureau is now holding Hewes in temporary confinement for further questioning.\u000a\u000a<<else if $planHalfTrueDetails == 2>>\u000aAt 08:30 AM this morning, Supreme Court Justice Richardson was killed in a hit-and-run attack in front of his private Washington, D.C. home. The New Collective terrorist group has claimed responsibility for the attack. Because the Bureau of Economic Assessment and Rehabilitation had ordered the special reassignment of reserve S.W.A.T. teams to the Carson Group Headquarters in Albany, NY, Richardson's death could not be prevented.<br><br>\u000a\u000aBureau Spokesperson Gabriel Kass is to hold a press conference announcing that, according to internal inspection reports, the Bureau had good reason to believe that the attack was to target Carson Group members. However, the Bureau Inspector in charge of intelligence gathering regarding the New Collective will shortly be arrested on counts of grave professional fault and passive treason.\u000a\u000a<<else if $planFalseDetails == 2>>\u000aAt 08:00 PM yesterday night, the League Finals in Austin was delayed due to emergency security procedures ordered by the Bureau of Economic Assessment and Rehabilitation. After the threat was deemed non-existent and based on false information, the hastily reassigned security forces were given the night off to enjoy the game. As a result, they were unable to prevent the fatal hit-and-run attack against Chief Justice Richardson at his private Washignton, D.C. home at 08:30 AM this morning.<br><br>\u000a\u000aThe New Collective terrorist group has claimed responsibility for the attack. Bureau Spokesperson Gabriel Kass is to hold a press conference announcing that, according to internal inspection reports, the Bureau had good reason to believe that the attack was to target the League Finals. However, the Bureau Inspector in charge of intelligence gathering regarding the New Collective will shortly be arrested on counts of grave professional fault and passive treason.\u000a\u000a<<else>>\u000aAt 08:30 AM this morning, Supreme Court Justice Richardson was killed in a hit-and-run attack in front of his private Washington, DC home. The New Collective terrorist group has claimed responsibility for the attack. According to some eyewitness reports, New Collective leader James Hewes himself may have been one of the perpetrators.<br><br>\u000a\u000aThree suspects have been detained for questioning at Bureau facilities. According to internal reports, the Bureau Inspector previously in charge of intelligence gathering regarding the New Collective will shortly be arrested on counts of grave professional fault and passive treason.\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[[more]|final results 2]]
 p4536
 sg23
 Vfinal results 1
@@ -14767,9 +14767,9 @@ g26
 ((I2014
 I8
 I11
-I12
-I7
-I2
+I14
+I47
+I51
 I0
 I223
 I1
@@ -14807,7 +14807,7 @@ Tiddler
 p4549
 (dp4550
 g21
-VNEWS UPDATE\u000a- - - -\u000a<<nobr>>\u000a<<if $torture <= 1>>\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have been met, as both the amount and quality of gathered intelligence have been deemed satisfactory by the Assessment Branch of the BEAR.<br><br>\u000a\u000aSurprisingly, these results indicate a minimal use of physical encouragement devices, even though the inspection took place after the establishment of Directive US-598. The BEAR recommends further research to confirm or refute the efficiency of physical encouragement in acquiring accurate data from individuals.\u000a\u000a<<else>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have not been met, as both the amount and quality of gathered intelligence have been deemed unsatisfactory, leading to civilian casualties.<br><br>\u000a\u000aUnsurprisingly, these results indicate a minimal use of physical encouragement devices, even though the inspection took place after the establishment of Directive US-598. The BEAR recommends investigating the efficiency of mandatory usage policies for physical encouragement in order to optimize the gathering and analysis of intelligence in future inspections.\u000a<<endif>>\u000a\u000a<<else>>/% torture > 1 %/\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have been met, as both the amount and quality of gathered intelligence have been deemed satisfactory by the Assessment Branch of the BEAR.<br><br>\u000a\u000aCorrelations with the sustained use of physical encouragement have been successfully established. The BEAR recommends the formalization of norms and guidelines regarding the use of physical encouragement for upcoming inspections in order to optimize the gathering and analysis of intelligence.\u000a<<else>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have not been met, as both the amount and quality of gathered intelligence have been deemed unsatisfactory, leading to civilian casualties.<br><br>\u000a\u000aCorrelations with the sustained use of physical encouragement have been successfully established, and conclusions tend to observe the detrimental effect of physical encouragement sessions on the gathering and analysis of accurate intelligence from detainees. The BEAR recommends formal scientific investigations into the efficiency of physical encouragement in order to optimize the gathering and analysis of intelligence in future inspections.\u000a<<endif>>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[[more]|final results 3]]
+VNEWS UPDATE 2/3\u000a- - - -\u000a<<nobr>>\u000a<<if $torture <= 1>>\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have been met, as both the amount and quality of gathered intelligence have been deemed satisfactory by the Assessment Branch of the BEAR.<br><br>\u000a\u000aSurprisingly, these results indicate a minimal use of physical encouragement devices, even though the inspection took place after the establishment of Directive US-598. The BEAR recommends further research to confirm or refute the efficiency of physical encouragement in acquiring accurate data from individuals.\u000a\u000a<<else>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have not been met, as both the amount and quality of gathered intelligence have been deemed unsatisfactory, leading to civilian casualties.<br><br>\u000a\u000aUnsurprisingly, these results indicate a minimal use of physical encouragement devices, even though the inspection took place after the establishment of Directive US-598. The BEAR recommends investigating the efficiency of mandatory usage policies for physical encouragement in order to optimize the gathering and analysis of intelligence in future inspections.\u000a<<endif>>\u000a\u000a<<else>>/% torture > 1 %/\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have been met, as both the amount and quality of gathered intelligence have been deemed satisfactory by the Assessment Branch of the BEAR.<br><br>\u000a\u000aCorrelations with the sustained use of physical encouragement have been successfully established. The BEAR recommends the formalization of norms and guidelines regarding the use of physical encouragement for upcoming inspections in order to optimize the gathering and analysis of intelligence.\u000a<<else>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have not been met, as both the amount and quality of gathered intelligence have been deemed unsatisfactory, leading to civilian casualties.<br><br>\u000a\u000aCorrelations with the sustained use of physical encouragement have been successfully established, and conclusions tend to observe the detrimental effect of physical encouragement sessions on the gathering and analysis of accurate intelligence from detainees. The BEAR recommends formal scientific investigations into the efficiency of physical encouragement in order to optimize the gathering and analysis of intelligence in future inspections.\u000a<<endif>>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[[more]|final results 3]]
 p4551
 sg23
 Vfinal results 2
@@ -14818,8 +14818,8 @@ g26
 I8
 I11
 I14
-I24
-I56
+I47
+I54
 I0
 I223
 I1
@@ -14857,7 +14857,7 @@ Tiddler
 p4564
 (dp4565
 g21
-VNEWS UPDATE\u000a- - - -\u000a<<nobr>>\u000a<<if $protectionRequested is true>>\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aProtective measures have been granted to Suspect 1247 on the basis of his providing accurate information. The suspect will be relocated to a secret location as per Directive US-263.\u000a<<else>>\u000aSecurity forces have been requested for Suspect 1247, despite his providing erroneous information. As such, the Inspector in charge of intelligence gathering from this suspect is being held an additional 48 (forty-eight) hours in order to investigate the implications of such a request.\u000a<<endif>>\u000a\u000a<<else>>/% $protectionRequested is false %/\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aSuspect 1247 was released at 04:00 AM this morning, and his body was discovered at 08:45 AM. Primary leads suggest homicide by New Collective members in revenge for the suspect's leaking of key intelligence to the BEAR that led to the foiling of planned New Collective terrorist actions.\u000a<<else>>\u000aSuspect 1247 was released at 04:00 AM this morning. The suspect's personal information has been archived for possible further investigation.\u000a<<endif>>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[[more]|final results 4]]
+VNEWS UPDATE 3/3\u000a- - - -\u000a<<nobr>>\u000a<<if $protectionRequested is true>>\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aProtective measures have been granted to Suspect 1247 on the basis of his providing accurate information. The suspect will be relocated to a secret location as per Directive US-263.\u000a<<else>>\u000aSecurity forces have been requested for Suspect 1247, despite his providing erroneous information. As such, the Inspector in charge of intelligence gathering from this suspect is being held an additional 48 (forty-eight) hours in order to investigate the implications of such a request.\u000a<<endif>>\u000a\u000a<<else>>/% $protectionRequested is false %/\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aSuspect 1247 was released at 04:00 AM this morning, and his body was discovered at 08:45 AM. Primary leads suggest homicide by New Collective members in revenge for the suspect's leaking of key intelligence to the BEAR that led to the foiling of planned New Collective terrorist actions.\u000a<<else>>\u000aSuspect 1247 was released at 04:00 AM this morning. The suspect's personal information has been archived for possible further investigation.\u000a<<endif>>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[[more]|final results 4]]
 p4566
 sg23
 Vfinal results 3
@@ -14868,8 +14868,8 @@ g26
 I8
 I11
 I14
-I24
-I49
+I47
+I58
 I0
 I223
 I1
@@ -14896,7 +14896,7 @@ tp4575
 Rp4576
 sbsa(dp4577
 g14
-I00
+I01
 sg15
 (lp4578
 F1130.0
@@ -14907,7 +14907,7 @@ Tiddler
 p4579
 (dp4580
 g21
-V<em>Good work, Inspector. Please remain where you are and await further updates.</em>\u000a\u000a<<timedgoto 'game end' 300s>>
+V<em>You are no longer required to use this version of the Bureau Inspection Interface. Please return to your office and resume your ordinary work schedule until further notified.\u000a\u000aGood work, Inspector.</em><<timedgoto 'game end' 300s>>
 p4581
 sg23
 Vfinal results 4
@@ -14918,8 +14918,8 @@ g26
 I8
 I11
 I14
-I24
-I20
+I51
+I5
 I0
 I223
 I1
