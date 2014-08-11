@@ -6688,7 +6688,7 @@ tp2051
 Rp2052
 sbsa(dp2053
 g14
-I01
+I00
 sg15
 (lp2054
 F10.0
@@ -8355,7 +8355,7 @@ Tiddler
 p2563
 (dp2564
 g21
-VINSPECTION REPORT - 10/23/47\u000a- - - -\u000a<<nobr>>\u000a<<if $planTrueDetails == 1>>[[Write: "The suspect claims that James Hewes is planning to assassinate Supreme Court Justice Richardson as payback for writing the majority opinion on Carson Group v. United States."|report 3 submit][$planTrueDetails = 2]]\u000a\u000a<<else if $planHalfTrueDetails == 1>>[[Write: "The suspect claims that James Hewes is planning to attack the Carson Group directly in revenge for prosecuting the Carson Group v. United States case in 2034."|report 3 submit][$planHalfTrueDetails = 2]]\u000a\u000a<<else if $planFalseDetails == 1>>[[Write: "The suspect claims that James Hewes is planning to sabotage mass entertainment, possibly in the form of an attack on a major sports event."|report 3 submit][$planFalseDetails = 2]]\u000a\u000a<<else if $day3KnowNothing is false and $hewesLocation neq 1>>[[Write: "The suspect was unwilling to divulge further details about the plans of James Hewes."|report 3 submit][$day3KnowNothing = true]]\u000a<<endif>>\u000a\u000a<<if $hewesLocation == 1>><br><br>[[Write: "The location of New Collective leader James Hewes has been traced to New York City, 598 East 7th Street, Apartment 2."|report 3 submit][$hewesLocation = 2]]\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[Write: "No useful information has been acquired from the suspect."|report 3 submit][$day3KnowNothing = true]]
+VINSPECTION REPORT - 10/23/47\u000a- - - -\u000a<<nobr>>\u000a<<if $planTrueDetails == 1>>[[Write: "The suspect claims that James Hewes is planning to assassinate Supreme Court Justice Richardson near his private residence early in the morning. We recommend committing security forces to protect Justice Richardson."|report 3 submit][$planTrueDetails = 2]]\u000a\u000a<<else if $planHalfTrueDetails == 1>>[[Write: "The suspect claims that James Hewes is planning to attack the board of the Carson Group. We recommend committing security forces to protect their corporate headquarters."|report 3 submit][$planHalfTrueDetails = 2]]\u000a\u000a<<else if $planFalseDetails == 1>>[[Write: "The suspect claims that James Hewes is planning to hijack the League Finals tonight. We recommend committing security forces to the stadium."|report 3 submit][$planFalseDetails = 2]]\u000a\u000a<<else if $day3KnowNothing is false and $hewesLocation neq 1>>[[Write: "The suspect was unwilling to divulge further details about the plans of James Hewes."|report 3 submit][$day3KnowNothing = true]]\u000a<<endif>>\u000a\u000a<<if $hewesLocation == 1>><br><br>[[Write: "The location of New Collective leader James Hewes has been traced to New York City, 598 East 7th Street, Apartment 2. We recommend sending a S.W.A.T. team to arrest him as soon as possible."|report 3 submit][$hewesLocation = 2]]\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[Write: "No useful information has been acquired from the suspect."|report 3 submit][$day3KnowNothing = true]]
 p2565
 sg23
 Vreport 3
@@ -8365,9 +8365,9 @@ g26
 ((I2014
 I8
 I11
-I12
-I2
-I39
+I13
+I17
+I9
 I0
 I223
 I1
@@ -12864,7 +12864,7 @@ tp3949
 Rp3950
 sbsa(dp3951
 g14
-I00
+I01
 sg15
 (lp3952
 F2950.0
@@ -13031,7 +13031,7 @@ Tiddler
 p4001
 (dp4002
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I want to be freed the second we're done with this interview. I want to be granted Swiss citizenship, and I want to be erased from the records of the Bureau and all other United States governmental agencies.</em>\u000a\u000a[[I could do that. I could make them understand.|d3 f repent 2 1][$promiseFalseIntel = true]]\u000a\u000a[[Either way, that's unrealistic.|d3 f repent 2 2]]
+V<<set $protectionRequested to true>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I want to be freed the second we're done with this interview. I want to be granted Swiss citizenship, and I want to be erased from the records of the Bureau and all other United States governmental agencies.</em>\u000a\u000a[[I could do that. I could make them understand.|d3 f repent 2 1][$protectionPromised = true]]\u000a\u000a[[That's unrealistic. I don't have the authority to submit such a request.|d3 f repent 2 2][$protectionPromised = false]]
 p4003
 sg23
 Vd3 f repent 2
@@ -13040,12 +13040,12 @@ sg25
 g26
 ((I2014
 I8
-I7
-I16
+I11
+I13
 I20
-I36
-I3
-I219
+I4
+I0
+I223
 I1
 tp4005
 (dp4006
@@ -13241,7 +13241,7 @@ Tiddler
 p4066
 (dp4067
 g21
-V<<set $planFalseDetails to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">It'll be at the next League Finals, but it won't be violent. First, he'll hack the scoreboards to display a message explaining our country's political situation in plain terms no one could argue with.\u000a\u000aThen they'll overwhelm security and kidnap any public officials in attendance. The two city mayors are guaranteed to be there, plus quite a few other public servants, I'd expect.</em>\u000a\u000a[[That's exactly what I needed. Thank you. [Disconnect.]|report 3 start]]\u000a\u000a[[Perfect. [Disconnect.]|report 3 start]]\u000a\u000a[[[Disconnect.]|report 3 start]]
+V<<set $planFalseDetails to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">It'll be at the League Finals tonight, but it won't be violent. First, he'll hack the scoreboards to display a message explaining our country's political situation in plain terms no one could argue with.\u000a\u000aThen they'll overwhelm security and kidnap any public officials in attendance. The two city mayors are guaranteed to be there, plus quite a few other public servants, I'd expect.</em>\u000a\u000a[[That's exactly what I needed. Thank you. [Disconnect.]|report 3 start]]\u000a\u000a[[Perfect. [Disconnect.]|report 3 start]]\u000a\u000a[[[Disconnect.]|report 3 start]]
 p4068
 sg23
 Vd3 f repent 1 1
@@ -13250,12 +13250,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I16
-I54
-I53
-I4
-I220
+I11
+I13
+I18
+I43
+I0
+I223
 I1
 tp4070
 (dp4071
