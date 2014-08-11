@@ -3805,7 +3805,7 @@ Tiddler
 p1168
 (dp1169
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">Boston. Born and raised.</em>\u000a\u000a[[Tell me about your family.|family 1]]\u000a\u000a[[Still there?|personal 1 b 1]]
+VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">Boston. Born and raised.</em>\u000a\u000a<<nobr>><<if $familyConvo neq 2>><<set $familyConvo to 1>>[[Tell me about your family.|family 1][$familyConvo = 2]]<br><br><<endif>>\u000a\u000a<<endnobr>>[[Still there?|personal 1 b 1]]
 p1170
 sg23
 Vpersonal 1 b
@@ -3813,13 +3813,13 @@ p1171
 sg25
 g26
 ((I2014
-I7
-I29
-I12
-I4
-I24
-I1
-I210
+I8
+I11
+I13
+I44
+I17
+I0
+I223
 I1
 tp1172
 (dp1173
@@ -4629,7 +4629,7 @@ Tiddler
 p1420
 (dp1421
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I've already told you how we met. I admit that I wasn't keen on publicizing it too much, but it's no secret that I've helped defend the New Collective on several occasions.</em>\u000a\u000a[[I want to know why you defended him.|action 1 hewes 1 defense]]\u000a\u000a[[What cases were you on? The Central River bombings? Or something less gruesome?|action 1 hewes 1 attacks]]
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>><<if $hKnow_intel is true>><em class = "suspect">I've already told you how we met. I admit that I wasn't keen on publicizing it too much, but it's no secret that I've helped defend the New Collective on several occasions.</em><<endif>>\u000a\u000a<<else>><em>We met during his trial in 2034. I admit that I wasn't keen on publicizing it too much, but it's no secret that I've helped defend the New Collective on several occasions.</em>\u000a<<endnobr>>\u000a\u000a[[I want to know why you defended him.|action 1 hewes 1 defense]]\u000a\u000a[[What cases were you on? The Central River bombings? Or something less gruesome?|action 1 hewes 1 attacks]]
 p1422
 sg23
 Vaction 1 hewes 1
@@ -4638,12 +4638,12 @@ sg25
 g26
 ((I2014
 I8
-I4
-I10
-I44
-I19
+I11
+I13
+I50
+I43
 I0
-I216
+I223
 I1
 tp1424
 (dp1425
@@ -5729,7 +5729,7 @@ Tiddler
 p1760
 (dp1761
 g21
-VSUSPECT 1247 is now connected.\u000a- - - -\u000a<<nobr>>\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>><em class="suspect">Is that you, Inspector?</em><br><br><<endtimedinsert>>\u000a\u000a<<timedinsert 5s>>\u000a[[Wake up, prisoner. Time to talk.|greeting 2a][$opinion--]]<br>\u000a<br>\u000a[[Yes. Let's get down to business.|greeting 2b]]<br>\u000a<br>\u000a[[It's me. I hope the night wasn't too tough on you.|greeting 2c][$opinion++]]\u000a<<endtimedinsert>>\u000a<<endnobr>>
+VSUSPECT 1247 is now connected.\u000a- - - -\u000a<<nobr>>\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>><em class="suspect">Is that you, Inspector?</em><<endtimedinsert>><<timedinsert 5s>><br><br>\u000a\u000a[[Wake up, prisoner. Time to talk.|greeting 2a][$opinion--]]<br>\u000a<br>\u000a[[Yes. Let's get down to business.|greeting 2b]]<br>\u000a<br>\u000a[[It's me. I hope the night wasn't too tough on you.|greeting 2c][$opinion++]]\u000a<<endtimedinsert>>\u000a<<endnobr>>
 p1762
 sg23
 Vgreeting2
@@ -5738,12 +5738,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I15
-I26
-I24
-I4
-I220
+I11
+I13
+I48
+I10
+I0
+I223
 I1
 tp1764
 (dp1765
@@ -5929,7 +5929,7 @@ Tiddler
 p1820
 (dp1821
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">How does knowing Hewes' opinions help you get to him? Why do you care?</em>\u000a\u000a[[It's helping me more than you think.|carson 1 hewes 2]]\u000a\u000a[[It's not just about getting to him. It's about getting him to stop.|carson 1 hewes 2]]\u000a\u000a[[You don't need to know that.|carson 1 hewes 3][$opinion--]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">How does knowing Hewes' opinions help you get to him? Why do you care?</em>\u000a\u000a[[We need to know how he thinks so that we can get to him. You're one of the few people who understands him.|carson 1 hewes 2]]\u000a\u000a[[It's not just about getting to him. It's about getting him to stop.|carson 1 hewes 3]]\u000a\u000a[[You don't need to know that.|carson 1 hewes 3][$opinion--]]
 p1822
 sg23
 Vcarson 1 hewes
@@ -5938,12 +5938,12 @@ sg25
 g26
 ((I2014
 I8
-I4
 I11
-I19
-I28
+I13
+I57
+I59
 I0
-I216
+I223
 I1
 tp1824
 (dp1825
@@ -6133,7 +6133,7 @@ Tiddler
 p1882
 (dp1883
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I haven't seen him in ages. All I know is what he said in his manifestoes and public statements, the ones everybody's read.</em>\u000a\u000a[[You know more than that.|carson 1 hewes talk]]\u000a\u000a[[You're an intelligent man. Extrapolate from what you know.|carson 1 hewes talk]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I haven't seen him in ages. All I know is what he said in his manifestoes and public statements, the ones everybody's read.</em>\u000a\u000a[[You know more than that.|carson 1 hewes 3]]\u000a\u000a[[You're an intelligent man. Extrapolate from what you know.|carson 1 hewes 3]]
 p1884
 sg23
 Vcarson 1 hewes 2
@@ -6142,12 +6142,12 @@ sg25
 g26
 ((I2014
 I8
-I1
+I11
+I13
+I58
 I16
-I18
-I23
-I4
-I213
+I0
+I223
 I1
 tp1886
 (dp1887
@@ -6183,7 +6183,7 @@ Tiddler
 p1897
 (dp1898
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I've been very cooperative so far. Why should I continue to be?</em>\u000a\u000a[[I'll give you a reason. (Apply physical encouragement.)|carson 1 torture 1][$torture++; $opinion--]]\u000a\u000a[[Because you know as well as I do that Hewes needs to be stopped.|carson 1 hewes 3 a]]\u000a\u000a<<nobr>>\u000a<<if $opinion >= 2>>\u000a[[I think I've shown that I'm not so bad. I want to understand where you're coming from.|carson 1 hewes 3 b]]\u000a<<endif>>\u000a<<endnobr>>
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I've been very cooperative so far. Why should I continue to be?</em>\u000a\u000a<<nobr>>\u000a[[Because you know as well as I do that Hewes needs to be stopped.|carson 1 hewes 3 a]]\u000a\u000a<<if $opinion >= 2>>\u000a<br><br>[[I think I've shown that I'm not so bad. I want to understand where you're coming from.|carson 1 hewes 3 b]]\u000a<<endif>>\u000a\u000a<br><br>[[I'll give you a reason. (Apply physical encouragement.)|carson 1 torture 1][$torture++; $opinion--]]\u000a<<endnobr>>
 p1899
 sg23
 Vcarson 1 hewes 3
@@ -6192,12 +6192,12 @@ sg25
 g26
 ((I2014
 I8
-I4
 I11
-I19
-I43
+I13
+I58
+I50
 I0
-I216
+I223
 I1
 tp1901
 (dp1902
@@ -6699,7 +6699,7 @@ Tiddler
 p2055
 (dp2056
 g21
-VDATE: 10/<<print 20+$day>>/47\u000a\u000a<<nobr>>\u000a<<if $day == 1>>[[Log in.|start welcome]]\u000a<<else if $day == 2 or $day == 3>>[[Log in.|start day 2 or 3]]\u000a<<else if $day == 4>>[[Log in.|start day 4]]\u000a<<else>>[[Log in.|start welcome]] /% Failsafe - should never be called %/\u000a<<endif>>\u000a<<endnobr>>
+VDATE: 10/<<print 20+$day>>/47\u000a\u000a<<nobr>>\u000a<<if $day == 1>>[[[Log in.]|start welcome]]\u000a<<else if $day == 2 or $day == 3>>[[[Log in.]|start day 2 or 3]]\u000a<<else if $day == 4>>[[[Log in.]|start day 4]]\u000a<<else>>[[[Log in.]|start welcome]] /% Failsafe - should never be called %/\u000a<<endif>>\u000a<<endnobr>>
 p2057
 sg23
 Vstart login
@@ -6709,9 +6709,9 @@ g26
 ((I2014
 I8
 I11
-I12
-I21
-I4
+I13
+I47
+I28
 I0
 I223
 I1
@@ -12864,7 +12864,7 @@ tp3949
 Rp3950
 sbsa(dp3951
 g14
-I01
+I00
 sg15
 (lp3952
 F2950.0
