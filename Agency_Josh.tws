@@ -193,7 +193,7 @@ Tiddler
 p70
 (dp71
 g21
-V<em>Welcome back, Inspector.</em>\u000a\u000aPlease click [[here|suspect connecting]] to continue the inspection process.<<nobr>>\u000a/%<<set $beginningOfDay to true>>%/\u000a<<set $tortureLimit to $torture + (3 - $leftUnconscious)>>\u000a<<endnobr>>
+V<em>Welcome back, Inspector.</em>\u000a\u000a[[Please click here to continue the inspection process.|suspect connecting]]<<nobr>>\u000a/%<<set $beginningOfDay to true>>%/\u000a<<set $tortureLimit to $torture + (3 - $leftUnconscious)>>\u000a<<endnobr>>
 p72
 sg23
 Vstart day 2 or 3
@@ -202,12 +202,12 @@ sg25
 g26
 ((I2014
 I8
-I11
+I12
 I14
-I23
-I53
-I0
-I223
+I44
+I26
+I1
+I224
 I1
 tp74
 (dp75
@@ -535,7 +535,7 @@ Tiddler
 p173
 (dp174
 g21
-V<em>Welcome, Inspector.</em>\u000a\u000a1 new task has been assigned by your Inspection Manager. \u000a\u000aTask duration: 3 days (completion required by 10/23/47 at 5:00 PM)\u000a\u000aPlease click [[here|briefing objective]] for a task briefing.
+V<em>Welcome, Inspector.</em>\u000a\u000a1 new task has been assigned by your Inspection Manager. \u000a\u000aTask duration: 3 days (completion required by 10/23/47 at 5:00 PM)\u000a\u000a[[Please click here for a task briefing.|briefing objective]]
 p175
 sg23
 Vstart welcome
@@ -544,12 +544,12 @@ sg25
 g26
 ((I2014
 I8
-I11
+I12
 I14
-I23
-I4
-I0
-I223
+I43
+I26
+I1
+I224
 I1
 tp177
 (dp178
@@ -8055,7 +8055,7 @@ Tiddler
 p2473
 (dp2474
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $torture == 0>>\u000a<em class = "suspect">\u000aIf you want me to repeat everything I've said, I'll be happy to do so, Inspector. I've been stalling for forty-eight hours now.</em><br><br>\u000a<<else>>\u000aThat's fine, let's go over everything I've said so far.<br><br>\u000a<<endif>>\u000a<<display 'hewes sum hub'>>\u000a<<endnobr>>
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $torture == 0>>\u000a<em class = "suspect">\u000aIf you want me to repeat everything I've said, I'll be happy to do so, Inspector. I've been stalling for forty-eight hours now.</em><br><br>\u000a<<else>>\u000a<em class = "suspect">\u000aThat's fine, let's go over everything I've said so far.</em><br><br>\u000a<<endif>>\u000a<<display 'hewes sum hub'>>\u000a<<endnobr>>
 p2475
 sg23
 VhewesSumD2
@@ -8064,12 +8064,12 @@ sg25
 g26
 ((I2014
 I8
-I7
-I11
-I55
-I17
-I3
-I219
+I12
+I14
+I42
+I26
+I1
+I224
 I1
 tp2477
 (dp2478
@@ -8244,7 +8244,7 @@ tp2529
 Rp2530
 sbsa(dp2531
 g14
-I01
+I00
 sg15
 (lp2532
 F1130.0
@@ -9627,7 +9627,7 @@ Tiddler
 p2949
 (dp2950
 g21
-VTASK BRIEFING - ADDITIONAL INFORMATION\u000a- - - -\u000aSITUATION SUMMARY\u000a[[< click to view >|briefing situation]]\u000a\u000aPROFILE - SUSPECT 1247\u000a[[< click to view >|briefing suspect]]\u000a\u000aEXPERIMENTAL PROCEDURE OVERVIEW\u000a[[< click to view >|briefing procedure]]\u000a\u000aPlease click [[here|suspect connecting]] to begin the inspection process.
+VTASK BRIEFING - ADDITIONAL INFORMATION\u000a- - - -\u000aSITUATION SUMMARY\u000a[[< click to view >|briefing situation]]\u000a\u000aPROFILE - SUSPECT 1247\u000a[[< click to view >|briefing suspect]]\u000a\u000aEXPERIMENTAL PROCEDURE OVERVIEW\u000a[[< click to view >|briefing procedure]]\u000a\u000a[[Please click here to begin the inspection process.|suspect connecting]]
 p2951
 sg23
 Vbriefing other info
@@ -9637,9 +9637,9 @@ g26
 ((I2014
 I8
 I12
-I11
+I14
+I43
 I52
-I7
 I1
 I224
 I1
@@ -9677,7 +9677,7 @@ Tiddler
 p2964
 (dp2965
 g21
-VTASK BRIEFING 2\u000a- - - -\u000aMETHOD: Extract information by any means necessary. One recommended approach is to gain the suspect's trust by pretending to sympathize. Another is the liberal application of physical encouragement techniques in accordance with Directive US-598.\u000a\u000aPlease click [[here|briefing other info]] for additional, non-critical information pertaining to the task.\u000a\u000aPlease click [[here|suspect connecting]] to begin the inspection process.
+VTASK BRIEFING 2\u000a- - - -\u000aMETHOD: Extract information by any means necessary. One recommended approach is to gain the suspect's trust by pretending to sympathize. Another is the liberal application of physical encouragement techniques in accordance with Directive US-598.\u000a\u000a[[Please click here for additional, non-critical information pertaining to the task.|briefing other info]]\u000a\u000a[[Please click here to begin the inspection process.|suspect connecting]]
 p2966
 sg23
 Vbriefing method
@@ -9686,12 +9686,12 @@ sg25
 g26
 ((I2014
 I8
-I7
-I10
-I46
 I12
-I3
-I219
+I14
+I45
+I6
+I1
+I224
 I1
 tp2968
 (dp2969
@@ -13191,7 +13191,7 @@ Tiddler
 p4051
 (dp4052
 g21
-V<<set $planFalseDetails to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">It'll be at the League Finals tonight, but it won't be violent. First, he'll hack the scoreboards to display a message explaining our country's political situation in plain terms no one could argue with.\u000a\u000aThen they'll overwhelm security and kidnap any public officials in attendance. The two city mayors are guaranteed to be there, plus quite a few other public servants, I'd expect.</em>\u000a\u000a[[That's exactly what I needed. Thank you. < Disconnect and fill out final Inspection Report >|report 3]]\u000a\u000a[[Perfect.< Disconnect and fill out final Inspection Report >|report 3]]\u000a\u000a[[< Disconnect and fill out final Inspection Report >|report 3]]
+V<<set $planFalseDetails to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">It'll be at the League Finals tonight, but it won't be violent. First, he'll hack the scoreboards to display a message explaining our country's political situation in plain terms no one could argue with.\u000a\u000aThen they'll overwhelm security and kidnap any public officials in attendance. The two city mayors are guaranteed to be there, plus quite a few other public servants, I'd expect.</em>\u000a\u000a[[That's exactly what I needed. Thank you. < Disconnect and fill out final Inspection Report >|report 3]]\u000a\u000a[[Perfect. < Disconnect and fill out final Inspection Report >|report 3]]\u000a\u000a[[< Disconnect and fill out final Inspection Report >|report 3]]
 p4053
 sg23
 Vd3 f repent 1 1
@@ -13201,9 +13201,9 @@ g26
 ((I2014
 I8
 I12
-I13
-I52
-I12
+I14
+I0
+I25
 I1
 I224
 I1
@@ -14657,7 +14657,7 @@ Tiddler
 p4504
 (dp4505
 g21
-V<em>Welcome back, Inspector.</em>\u000a\u000aPlease click [[here|final results 1]] for a mandatory morning news update pertaining to the results of your previous inspection.
+V<em>Welcome back, Inspector.</em>\u000a\u000a[[Please click here for a mandatory morning news update pertaining to the results of your previous inspection.|final results 1]]
 p4506
 sg23
 Vstart day 4
@@ -14666,12 +14666,12 @@ sg25
 g26
 ((I2014
 I8
-I11
+I12
 I14
-I24
+I44
+I7
 I1
-I0
-I223
+I224
 I1
 tp4508
 (dp4509
