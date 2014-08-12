@@ -143,7 +143,7 @@ Tiddler
 p55
 (dp56
 g21
-VBUREAU INSPECTION INTERFACE VERSION 5.0.61a\u000a\u000aSYSTEM BOOTING UP.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<nobr>>\u000a\u000a<<timedgoto "start login" 4s>>\u000a\u000a/% General variables %/\u000a<<set $opinion to 1>>\u000a<<set $day to 1>>\u000a<<set $torture to 0>>\u000a<<set $tortureLimit to 3>>\u000a<<set $leftUnconscious to 0>>\u000a\u000a/% 0 = unavailable, 1 = available, 2 = explored %/\u000a\u000a/% DAY 1 %/\u000a\u000a/% day 1 start convos %/\u000a<<set $politicsConvo to 1>>\u000a<<set $personalConvo to 1>>\u000a<<set $forcingConvo to 1>>\u000a/% day 1 unlockable convos %/\u000a<<set $familyConvo to 0>>\u000a<<set $pearlStreetConvo to 0>>\u000a<<set $jobConvo to 0>>\u000a<<set $newCollectiveConvo to 0>>\u000a<<set $leaderConvo to 0>>\u000a/% day 1 crucial intel %/\u000a<<set $hKnow_intel to 0>>\u000a<<set $hThink_intel to 0>>\u000a<<set $hOpinion_intel to 0>>\u000a/% day 1 non-crucial intel %/\u000a<<set $job_intel to 0>>\u000a<<set $pearl_intel to 0>>\u000a<<set $family_intel to 0>>\u000a\u000a\u000a/% DAY 2 %/\u000a\u000a/% day 2 start convos %/\u000a<<set $actionConvo to 1>>\u000a<<set $carsonConvo to 1>>\u000a<<set $educationConvo to 1>>\u000a/% day 2 summary convo topics %/\u000a<<set $d2SumAction to false>>\u000a<<set $d2SumMotivation to false>>\u000a<<set $d2SumEducation to false>>\u000a/% day 2 report possibilities %/\u000a<<set $planFalse to 0>>\u000a<<set $planHalfTrue to 0>>\u000a<<set $planTrue to 0>>\u000a<<set $day2KnowNothing to false>>\u000a\u000a/% day 3 report possibilities %/\u000a\u000a<<set $planFalseDetails to 0>>\u000a<<set $planHalfTrueDetails to 0>>\u000a<<set $planTrueDetails to 0>>\u000a<<set $day3KnowNothing to false>>\u000a<<set $hewesLocation to 0>>\u000a\u000a<<set $protectionPromised to false>> /% Set to true if you promise to protect him; required to request protection in report %/\u000a<<set $protectionRequested to false>>\u000a<<set $negotiationPromised to false>>\u000a<<set $negotiationRequested to false>>\u000a\u000a\u000a/% OLD STUFF %/\u000a<<set $beginningOfDay to true>>\u000a<<set $conscious to true>>\u000a<<set $sleepTotal to 0>>\u000a<<set $sleepTonight to 0>>\u000a<<set $infoFound to false>>\u000a\u000a<<set $timeleft to 300>> /% in minutes, the time remaining each day, assuming that the inspector talks with his superior in the morning and starts the interrogation at 12:00 %/\u000a<<set $hadInterview to false>>\u000a<<set $hadBriefing to false>>\u000a<<set $day1_interview_directive to false>>\u000a<<set $day1_interview_room to false>>\u000a<<set $day1_interview_iq to false>>\u000a<<set $canClockOut to false>>\u000a\u000a<<set $submittedWho to 0>>\u000a<<set $submittedWhere to 0>>\u000a<<set $submittedWhen to 0>>\u000a<<set $submittedHow to 0>>\u000a\u000a/% day 2 unlockable convos - deprecated? %/\u000a<<set $hewesActionConvo to 0>>\u000a<<set $hewesThoughts to 0>>\u000a<<set $newCollectiveOriginsConvo to 0>>\u000a\u000a/% notes variables, organized by subject %/\u000a<<set $nSuspect to false>>\u000a<<set $nSuspect_NCTies to false>>\u000a<<set $nSuspect_Job to false>>\u000a<<set $nSuspect_Arrest to false>>\u000a<<set $nSuspect_Parents to false>>\u000a\u000a<<set $nCG to false>>\u000a<<set $nCG_Date to false>>\u000a<<set $nCG_Riots to false>>\u000a\u000a<<set $nNC to false>>\u000a<<set $nNC_Violent to false>>\u000a<<set $nNC_Leader to false>>\u000a\u000a<<set $nHewes to false>>\u000a<<set $nHewes_Leader to false>>\u000a<<set $nHewes_Whereabouts to false>>\u000a<<set $nHewes_Hacker to false>>\u000a<<endnobr>>
+V<<playsound "pianoStatic.wav">>BUREAU INSPECTION INTERFACE VERSION 5.0.61a\u000a\u000aSYSTEM BOOTING UP.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<nobr>>\u000a\u000a<<timedgoto "start login" 8s>>\u000a\u000a/% General variables %/\u000a<<set $opinion to 1>>\u000a<<set $day to 1>>\u000a<<set $torture to 0>>\u000a<<set $tortureLimit to 3>>\u000a<<set $leftUnconscious to 0>>\u000a\u000a/% 0 = unavailable, 1 = available, 2 = explored %/\u000a\u000a/% DAY 1 %/\u000a\u000a/% day 1 start convos %/\u000a<<set $politicsConvo to 1>>\u000a<<set $personalConvo to 1>>\u000a<<set $forcingConvo to 1>>\u000a/% day 1 unlockable convos %/\u000a<<set $familyConvo to 0>>\u000a<<set $pearlStreetConvo to 0>>\u000a<<set $jobConvo to 0>>\u000a<<set $newCollectiveConvo to 0>>\u000a<<set $leaderConvo to 0>>\u000a/% day 1 crucial intel %/\u000a<<set $hKnow_intel to 0>>\u000a<<set $hThink_intel to 0>>\u000a<<set $hOpinion_intel to 0>>\u000a/% day 1 non-crucial intel %/\u000a<<set $job_intel to 0>>\u000a<<set $pearl_intel to 0>>\u000a<<set $family_intel to 0>>\u000a\u000a\u000a/% DAY 2 %/\u000a\u000a/% day 2 start convos %/\u000a<<set $actionConvo to 1>>\u000a<<set $carsonConvo to 1>>\u000a<<set $educationConvo to 1>>\u000a/% day 2 summary convo topics %/\u000a<<set $d2SumAction to false>>\u000a<<set $d2SumMotivation to false>>\u000a<<set $d2SumEducation to false>>\u000a/% day 2 report possibilities %/\u000a<<set $planFalse to 0>>\u000a<<set $planHalfTrue to 0>>\u000a<<set $planTrue to 0>>\u000a<<set $day2KnowNothing to false>>\u000a\u000a/% day 3 report possibilities %/\u000a\u000a<<set $planFalseDetails to 0>>\u000a<<set $planHalfTrueDetails to 0>>\u000a<<set $planTrueDetails to 0>>\u000a<<set $day3KnowNothing to false>>\u000a<<set $hewesLocation to 0>>\u000a\u000a<<set $protectionPromised to false>> /% Set to true if you promise to protect him; required to request protection in report %/\u000a<<set $protectionRequested to false>>\u000a<<set $negotiationPromised to false>>\u000a<<set $negotiationRequested to false>>\u000a\u000a\u000a/% OLD STUFF %/\u000a<<set $beginningOfDay to true>>\u000a<<set $conscious to true>>\u000a<<set $sleepTotal to 0>>\u000a<<set $sleepTonight to 0>>\u000a<<set $infoFound to false>>\u000a\u000a<<set $timeleft to 300>> /% in minutes, the time remaining each day, assuming that the inspector talks with his superior in the morning and starts the interrogation at 12:00 %/\u000a<<set $hadInterview to false>>\u000a<<set $hadBriefing to false>>\u000a<<set $day1_interview_directive to false>>\u000a<<set $day1_interview_room to false>>\u000a<<set $day1_interview_iq to false>>\u000a<<set $canClockOut to false>>\u000a\u000a<<set $submittedWho to 0>>\u000a<<set $submittedWhere to 0>>\u000a<<set $submittedWhen to 0>>\u000a<<set $submittedHow to 0>>\u000a\u000a/% day 2 unlockable convos - deprecated? %/\u000a<<set $hewesActionConvo to 0>>\u000a<<set $hewesThoughts to 0>>\u000a<<set $newCollectiveOriginsConvo to 0>>\u000a\u000a/% notes variables, organized by subject %/\u000a<<set $nSuspect to false>>\u000a<<set $nSuspect_NCTies to false>>\u000a<<set $nSuspect_Job to false>>\u000a<<set $nSuspect_Arrest to false>>\u000a<<set $nSuspect_Parents to false>>\u000a\u000a<<set $nCG to false>>\u000a<<set $nCG_Date to false>>\u000a<<set $nCG_Riots to false>>\u000a\u000a<<set $nNC to false>>\u000a<<set $nNC_Violent to false>>\u000a<<set $nNC_Leader to false>>\u000a\u000a<<set $nHewes to false>>\u000a<<set $nHewes_Leader to false>>\u000a<<set $nHewes_Whereabouts to false>>\u000a<<set $nHewes_Hacker to false>>\u000a<<endnobr>>
 p57
 sg23
 VStart
@@ -153,9 +153,9 @@ g26
 ((I2014
 I8
 I12
-I10
-I25
-I12
+I11
+I1
+I48
 I1
 I224
 I1
@@ -8305,7 +8305,7 @@ Tiddler
 p2548
 (dp2549
 g21
-VINSPECTION REPORT - 10/22/47\u000a- - - -\u000a<<nobr>>\u000a<<if $planTrue == 1>>[[Write: "The suspect claims that James Hewes is planning to attack the Supreme Court as payback for their verdict in Carson Group v. United States in 2034."|report 2 submit][$planTrue = 2]]\u000a\u000a<<else if $planHalfTrue == 1>>[[Write: "The suspect claims that James Hewes is planning to attack the Carson Group directly in revenge for prosecuting the Supreme Court case of Carson Group v. United States in 2034."|report 2 submit][$planHalfTrue = 2]]\u000a\u000a<<else if $planFalse == 1>>[[Write: "The suspect claims that James Hewes is planning to sabotage mass entertainment, possibly in the form of an attack on a major sports event."|report 2 submit][$planFalse = 2]]\u000a\u000a<<else if $day2KnowNothing is false>>[[Write: "The suspect was unwilling to divulge further details about the plans of James Hewes."|report 2 submit][$day2KnowNothing = true]]\u000a<<endif>>\u000a<<endnobr>>
+VINSPECTION REPORT - 10/22/47\u000a- - - -\u000a<<nobr>>\u000a<<if $planTrue == 1>>[[Write: "The suspect claims that James Hewes is planning to attack the Supreme Court as payback for their verdict in Carson Group v. United States."|report 2 submit][$planTrue = 2]]\u000a\u000a<<else if $planHalfTrue == 1>>[[Write: "The suspect claims that James Hewes is planning to attack the Carson Group directly in revenge for prosecuting the Supreme Court case of Carson Group v. United States."|report 2 submit][$planHalfTrue = 2]]\u000a\u000a<<else if $planFalse == 1>>[[Write: "The suspect claims that James Hewes is planning to sabotage mass entertainment, possibly in the form of an attack on a major sports event."|report 2 submit][$planFalse = 2]]\u000a\u000a<<else if $day2KnowNothing is false>>[[Write: "The suspect was unwilling to divulge further details about the plans of James Hewes."|report 2 submit][$day2KnowNothing = true]]\u000a<<endif>>\u000a<<endnobr>>
 p2550
 sg23
 Vreport 2
@@ -8314,12 +8314,12 @@ sg25
 g26
 ((I2014
 I8
+I12
 I11
-I16
-I2
-I37
-I0
-I223
+I20
+I45
+I1
+I224
 I1
 tp2552
 (dp2553
@@ -8609,7 +8609,7 @@ Tiddler
 p2640
 (dp2641
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $opinion <= 4>>\u000a<em class = "suspect">Apparently not.</em><br><br>\u000a\u000a<<display 'hewes sum hub'>>\u000a<<else>>\u000a<em class = "suspect">It's true, Inspector. He may have resorted to violence before, but I know he's also open to dialogue.</em><br><br>\u000a\u000a[[As in sitting at a table, just like that? I don't believe you.|sum action doubt]]<br><br>\u000a\u000a[[It sounds unlikely, but I'll think about it.|sum education reason yes 1][$opinion++]]\u000a<<endif>>\u000a<<endnobr>>
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $opinion <= 4>>\u000a<em class = "suspect">Apparently not.</em><br><br>\u000a\u000a<<display 'hewes sum hub'>>\u000a<<else>>\u000a<em class = "suspect">You might find it hard to believe, but he isn't entirely committed to violence. He's also open to dialogue, if the government would stop treating him as an enemy.</em><br><br>\u000a\u000a[[As in sitting at a table, just like that? I don't believe you.|sum action doubt]]<br><br>\u000a\u000a[[It sounds unlikely, but I'll think about it.|sum education reason yes 1][$opinion++]]\u000a<<endif>>\u000a<<endnobr>>
 p2642
 sg23
 Vsum education reason yes
@@ -8619,9 +8619,9 @@ g26
 ((I2014
 I8
 I12
-I10
-I34
-I14
+I11
+I18
+I41
 I1
 I224
 I1
@@ -9827,7 +9827,7 @@ Tiddler
 p3009
 (dp3010
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I need more. I need a promise of protection once I get out of here. If I betray information about Hewes, the New Collective will want blood.</em>\u000a\u000a[[I'll make the request.|d3 true 1.2][$opinion++; $protectionPromised = true]]\u000a\u000a[[We don't do that kind of thing.|d3 true 1.1]]\u000a\u000a[[You don't deserve our protection.|d3 true 1.1][$opinion--]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I need more. I need a promise of protection once I get out of here. If I betray information about Hewes, the New Collective will want blood.</em>\u000a\u000a[[I'll do it. I'll make the request.|d3 true 1.2][$opinion++; $protectionPromised = true]]\u000a\u000a[[We don't do that kind of thing.|d3 true 1.1]]\u000a\u000a[[You don't deserve our protection.|d3 true 1.1][$opinion--]]
 p3011
 sg23
 Vd3 true 1
@@ -9837,9 +9837,9 @@ g26
 ((I2014
 I8
 I12
-I10
-I20
-I33
+I11
+I25
+I15
 I1
 I224
 I1
@@ -10024,7 +10024,7 @@ tp3069
 Rp3070
 sbsa(dp3071
 g14
-I00
+I01
 sg15
 (lp3072
 F2810.0
@@ -10035,7 +10035,7 @@ Tiddler
 p3073
 (dp3074
 g21
-V<<set $planTrueDetails to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Very well, Inspector. \u000a\u000a<<timedinsert 2s>>Hewes plans on targeting Justice Richardson, who wrote the majority opinion in Carson v. US. From what little I know, they're planning to strike at his house, early morning. They still don't have police protection, right?<<endtimedinsert>></em><<timedinsert 5s>>\u000a\u000a[[Alright. I've learned enough.|d3 true end]]<<endtimedinsert>>
+V<<set $planTrueDetails to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Very well, Inspector. \u000a\u000a<<timedinsert 2s>>Hewes plans on targeting Justice Richardson, who wrote the majority opinion in Carson v. US. From what little I know, they're planning to strike at his house, early morning. As far as I can recall, they still don't have police protection.<<endtimedinsert>></em><<timedinsert 5s>>\u000a\u000a[[Alright. I've learned enough.|d3 true end]]<<endtimedinsert>>
 p3075
 sg23
 Vd3 true location
@@ -10044,12 +10044,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I16
-I57
-I0
-I4
-I220
+I12
+I11
+I25
+I42
+I1
+I224
 I1
 tp3077
 (dp3078
