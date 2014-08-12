@@ -243,7 +243,7 @@ Tiddler
 p85
 (dp86
 g21
-VTASK BRIEFING 1\u000a- - - -\u000aOBJECTIVE: Gain insight into the mind and future plans of James Hewes, self-proclaimed leader of the anti-government terrorist group known as the New Collective.\u000a\u000a[[[more]|briefing method]]
+VTASK BRIEFING 1\u000a- - - -\u000aOBJECTIVE: Gain insight into the mind and future plans of James Hewes, self-proclaimed leader of the anti-government terrorist group known as the New Collective.\u000a\u000a[[< more >|briefing method]]
 p87
 sg23
 Vbriefing objective
@@ -252,12 +252,12 @@ sg25
 g26
 ((I2014
 I8
-I7
-I10
-I46
-I15
-I3
-I219
+I12
+I13
+I42
+I43
+I1
+I224
 I1
 tp89
 (dp90
@@ -293,7 +293,7 @@ Tiddler
 p100
 (dp101
 g21
-V@import url(http://fonts.googleapis.com/css?family=Dosis:500);\u000a\u000abody {\u000a /*background-image: [img[stripes_grey2]];*/\u000a background-color: #303030;\u000a overflow-y: scroll;\u000a}\u000a\u000a@font-face{ \u000a\u000a  font-family: 'Dosis', sans-serif;\u000a  /*\u000a  font-family: 'SofiaProLight-webfont';\u000a  src: url('Fonts/SofiaProLight-webfont.eot');\u000a  src: url('Fonts/WebFont.eot?#iefix') format('embedded-opentype'),\u000a       url('Fonts/SofiaProLight-webfont.woff') format('woff'),\u000a       url('Fonts/SofiaProLight-webfont.ttf') format('truetype'),\u000a       url('Fonts/WebFont.svg#webfont') format('svg');\u000a */\u000a}\u000a\u000a#sidebar{\u000a  position: absolute;\u000a  top: 0%;\u000a  left: 10%;\u000a  width: 80%;\u000a  align-content: center;\u000a  height: 13%;\u000a  overflow-x: visible;\u000a  background-color: #303030;\u000a  color:white;\u000a  border-bottom: solid #303030 1px;\u000a}\u000a\u000a#sidebar *{\u000a  color: white;\u000a  font-size:22px;\u000a  background-color: transparent;\u000a  display:inline !important;\u000a\u000a}\u000a\u000a#storyAuthor { \u000a  font-size: 200%;\u000a  text-align: center;\u000a  height: 10px;\u000a  line-height: 10px;\u000a  margin_top: 0px;\u000a  color:white;\u000a}\u000a\u000a#storyTitle{ /*code for the formatting of BEAR*/\u000a  background-color: transparent;\u000a  width:100%;\u000a  justify-content: center;\u000a  margin-left: 0%;\u000a  margin-right: 0%; \u000a  margin-top: 10px;\u000a  content: url(banner_new_large.png);\u000a}\u000a\u000a#credits, #share, #bookmark, #restart, #titleSeparator, #sidebar li br {\u000a  display:none !important;\u000a}\u000a\u000a/*PASSAGES*/\u000a\u000a#passages{\u000a  margin: 0;\u000a  padding: 0;\u000a  border:0;\u000a}\u000a\u000a.passage, #sidebar * {\u000a  font-family: Dosis, SofiaProLight-webfont, Geneva, "Helvetica Neue", Helvetica, sans-serif;\u000a  color: #C0C0C0;\u000a}\u000a\u000a.passage {\u000a  margin-top: 12%;\u000a  margin-left: 24%;\u000a  margin-right: 20%;\u000a  \u000a  /*margin-top:200px;\u000a  margin-left:200px;\u000a  margin-bottom: 40px;\u000a  */\u000a  width: 60%;\u000a  padding: 2em;\u000a  font-size:1.5rem;\u000a  text-align: justify;\u000a  background-color:#606060;\u000a  border-left: 1px solid white;\u000a  border-right: 1px solid white;\u000a  border-bottom: 1px dashed white;\u000a  border-top: 1px dashed white;\u000a  border-radius: 0.2em;\u000a  color:#C0C0C0;\u000a}\u000a\u000a.passage a{\u000a  color: white;\u000a  text-decoration:none;\u000a}\u000a\u000a.passage a:hover{\u000a  color: #808080;\u000a  text-decoration:none;\u000a}\u000a\u000a.manager{\u000a/*font-family: 'GoudyStM-Italic-webfont'; \u000asrc:url('Fonts/Goudy-StM-Italic-webfont.eot'); */\u000afont-family: 'Dosis', sans-serif;\u000atext-align: justify;\u000a}\u000a\u000a.suspect{\u000a/* font-family: 'NotoSerif-Italic-webfont'; \u000asrc:url('Fonts/NotoSerif-Italic-webfont.eot'); */\u000afont-family: 'Dosis', sans-serif;\u000atext-align: justify;\u000a}\u000a\u000a.info{\u000a/* font-family: 'NotoSerif-Bold-webfont';\u000asrc:url('Fonts/NotoSerif-Bold-webfont.eot');\u000a*/\u000afont-family: 'Dosis', sans-serif;\u000atext-align: justify;\u000a}
+V@import url(http://fonts.googleapis.com/css?family=Dosis:500);\u000a\u000abody {\u000a /*background-image: [img[stripes_grey2]];*/\u000a background-color: #303030;\u000a overflow-y: scroll;\u000a}\u000a\u000a@font-face{ \u000a  font-family: 'Dosis', sans-serif;\u000a  font-weight: 500;\u000a/*\u000a  font-family: 'SofiaProLight-webfont';\u000a  src: url('Fonts/SofiaProLight-webfont.eot');\u000a  src: url('Fonts/WebFont.eot?#iefix') format('embedded-opentype'),\u000a       url('Fonts/SofiaProLight-webfont.woff') format('woff'),\u000a       url('Fonts/SofiaProLight-webfont.ttf') format('truetype'),\u000a       url('Fonts/WebFont.svg#webfont') format('svg');\u000a */\u000a}\u000a\u000a#sidebar{\u000a  position: absolute;\u000a  top: 0%;\u000a  left: 10%;\u000a  width: 80%;\u000a  align-content: center;\u000a  height: 13%;\u000a  overflow-x: visible;\u000a  background-color: #303030;\u000a  color:white;\u000a  border-bottom: solid #303030 1px;\u000a}\u000a\u000a#sidebar *{\u000a  color: white;\u000a  font-size:22px;\u000a  background-color: transparent;\u000a  display:inline !important;\u000a\u000a}\u000a\u000a#storyAuthor { \u000a  font-size: 200%;\u000a  text-align: center;\u000a  height: 10px;\u000a  line-height: 10px;\u000a  margin_top: 0px;\u000a  color:white;\u000a}\u000a\u000a#storyTitle{ /*code for the formatting of BEAR*/\u000a  background-color: transparent;\u000a  width:100%;\u000a  justify-content: center;\u000a  margin-left: 0%;\u000a  margin-right: 0%; \u000a  margin-top: 10px;\u000a  content: url(banner_new_large.png);\u000a}\u000a\u000a#credits, #share, #bookmark, #restart, #titleSeparator, #sidebar li br {\u000a  display:none !important;\u000a}\u000a\u000a/*PASSAGES*/\u000a\u000a#passages{\u000a  margin: 0;\u000a  padding: 0;\u000a  border:0;\u000a}\u000a\u000a.passage, #sidebar * {\u000a  font-family: Dosis, SofiaProLight-webfont, Geneva, "Helvetica Neue", Helvetica, sans-serif;\u000a  color: #D0D0D0;\u000a}\u000a\u000a.passage {\u000a  margin-top: 12%;\u000a  margin-left: 24%;\u000a  margin-right: 20%;\u000a  \u000a  /*margin-top:200px;\u000a  margin-left:200px;\u000a  margin-bottom: 40px;\u000a  */\u000a  width: 60%;\u000a  padding: 2em;\u000a  font-size:1.5rem;\u000a  text-align: justify;\u000a  background-color:#606060;\u000a  border-left: 1px solid white;\u000a  border-right: 1px solid white;\u000a  border-bottom: 1px dashed white;\u000a  border-top: 1px dashed white;\u000a  border-radius: 0.2em;\u000a  color:#D0D0D0;\u000a}\u000a\u000a.passage a{\u000a  color: white;\u000a  font-weight: bold;\u000a  text-decoration:none;\u000a}\u000a\u000a.passage a:hover{\u000a  color: #808080;\u000a  font-weight: bold;\u000a  text-decoration:none;\u000a}\u000a\u000a.manager{\u000a/*font-family: 'GoudyStM-Italic-webfont'; \u000asrc:url('Fonts/Goudy-StM-Italic-webfont.eot'); */\u000afont-family: 'Dosis', sans-serif;\u000atext-align: justify;\u000a}\u000a\u000a.suspect{\u000a/* font-family: 'NotoSerif-Italic-webfont'; \u000asrc:url('Fonts/NotoSerif-Italic-webfont.eot'); */\u000afont-family: 'Dosis', sans-serif;\u000atext-align: justify;\u000a}\u000a\u000a.info{\u000a/* font-family: 'NotoSerif-Bold-webfont';\u000asrc:url('Fonts/NotoSerif-Bold-webfont.eot');\u000a*/\u000afont-family: 'Dosis', sans-serif;\u000atext-align: justify;\u000a}
 p102
 sg23
 VMain Stylesheet
@@ -302,12 +302,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I15
+I12
+I13
+I31
 I3
-I20
-I4
-I220
+I1
+I224
 I1
 tp104
 (dp105
@@ -345,7 +345,7 @@ Tiddler
 p116
 (dp117
 g21
-V<<nobr>>\u000a<<if $day == 1>>\u000a<<if $personalConvo == 1>>[[Tell me why you're here.|personal 1][$personalConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $politicsConvo == 1>>[[Let's talk politics.|politics 1][$politicsConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $forcingConvo == 1>>[[You know where the New Collective leader is. I need you to tell me.|forcing 1][$forcingConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $familyConvo == 1>>[[Tell me about your family.|family 1][$familyConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $pearlStreetConvo == 1>>[[It looks like you were arrested during the Pearl Street riots, after Carson.|riots 1][$pearlStreetConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $jobConvo == 1>>[[You're with the Boston Center for Civil Activism. Legal analyst.|job 1][$jobConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $newCollectiveConvo == 1>>[[You've got ties to the New Collective.|newCollective 1][$newCollectiveConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $leaderConvo == 1>>[[You know James Hewes.|hewes 1][$leaderConvo = 2]]<br><br>\u000a<<endif>>\u000a\u000a<<if $personalConvo neq 1 and $politicsConvo neq 1 and $forcingConvo neq 1 and $familyConvo neq 1 and $pearlStreetConvo neq 1 and $jobConvo neq 1 and $newCollectiveConvo neq 1 and $leaderConvo neq 1>>[[[Fill out daily Inspection Report.]|report 1]]\u000a<<endif>><<endif>>/% end day 1 %/\u000a\u000a<<if $day == 2>>\u000a<<if $actionConvo == 1>>\u000a[[You talk a lot about changing the system, but have you taken any actions to accomplish that?|action 1][$actionConvo = 2]]<br><br>\u000a<<endif>>\u000a<<if $carsonConvo == 1>>\u000a[[You know a lot about Carson v. US, don't you?|carson 1][$carsonConvo = 2]]<br><br>\u000a<<endif>>\u000a<<if $educationConvo == 1>>\u000a[[Opinions like yours don't come out of nowhere. Let's talk about education.|education 1][$educationConvo = 2]]<br><br>\u000a<<endif>>\u000a<<if $actionConvo == 2 and $carsonConvo == 2 and $educationConvo == 2 and $hewesActionConvo neq 2>>\u000a[[Now, let's take a step back and see what we know about Hewes.|hewesSumD2][$hewesActionConvo = 2]]<br><br>\u000a<<endif>>\u000a<<if $actionConvo == 2 and $carsonConvo == 2 and $educationConvo == 2 and $hewesActionConvo == 2>>\u000a[[[Fill out daily Inspection Report.]|report 2]]<br><br>\u000a<<endif>>\u000a\u000a<<endif>>\u000a\u000a<<if $torture == $tortureLimit>>\u000a[[The suspect is unable to respond.|fainted]]\u000a<<endif>>\u000a<<endnobr>>
+V<<nobr>>\u000a<<if $day == 1>>\u000a<<if $personalConvo == 1>>[[Tell me why you're here.|personal 1][$personalConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $politicsConvo == 1>>[[Let's talk politics.|politics 1][$politicsConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $forcingConvo == 1>>[[You know where the New Collective leader is. I need you to tell me.|forcing 1][$forcingConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $familyConvo == 1>>[[Tell me about your family.|family 1][$familyConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $pearlStreetConvo == 1>>[[It looks like you were arrested during the Pearl Street riots, after Carson.|riots 1][$pearlStreetConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $jobConvo == 1>>[[You're with the Boston Center for Civil Activism. Legal analyst.|job 1][$jobConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $newCollectiveConvo == 1>>[[You've got ties to the New Collective.|newCollective 1][$newCollectiveConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $leaderConvo == 1>>[[You know James Hewes.|hewes 1][$leaderConvo = 2]]<br><br>\u000a<<endif>>\u000a\u000a<<if $personalConvo neq 1 and $politicsConvo neq 1 and $forcingConvo neq 1 and $familyConvo neq 1 and $pearlStreetConvo neq 1 and $jobConvo neq 1 and $newCollectiveConvo neq 1 and $leaderConvo neq 1>>[[< Disconnect and fill out daily Inspection Report >|report 1]]\u000a<<endif>><<endif>>/% end day 1 %/\u000a\u000a<<if $day == 2>>\u000a<<if $actionConvo == 1>>\u000a[[You talk a lot about changing the system, but have you taken any actions to accomplish that?|action 1][$actionConvo = 2]]<br><br>\u000a<<endif>>\u000a<<if $carsonConvo == 1>>\u000a[[You know a lot about Carson v. US, don't you?|carson 1][$carsonConvo = 2]]<br><br>\u000a<<endif>>\u000a<<if $educationConvo == 1>>\u000a[[Opinions like yours don't come out of nowhere. Let's talk about education.|education 1][$educationConvo = 2]]<br><br>\u000a<<endif>>\u000a<<if $actionConvo == 2 and $carsonConvo == 2 and $educationConvo == 2 and $hewesActionConvo neq 2>>\u000a[[Now, let's take a step back and see what we know about Hewes.|hewesSumD2][$hewesActionConvo = 2]]<br><br>\u000a<<endif>>\u000a<<if $actionConvo == 2 and $carsonConvo == 2 and $educationConvo == 2 and $hewesActionConvo == 2>>\u000a[[< Disconnect and fill out daily Inspection Report >|report 2]]<br><br>\u000a<<endif>>\u000a\u000a<<endif>>\u000a\u000a<<if $torture == $tortureLimit>>\u000a[[The suspect is unable to respond.|fainted]]\u000a<<endif>>\u000a<<endnobr>>
 p118
 sg23
 Vconversation hub
@@ -354,12 +354,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I15
-I20
-I2
-I4
-I220
+I12
+I13
+I47
+I52
+I1
+I224
 I1
 tp120
 (dp121
@@ -4319,7 +4319,7 @@ Tiddler
 p1325
 (dp1326
 g21
-VSuspect 1247 is not able to respond.\u000a\u000a[[[Call in paramedics.]|paramedics]]\u000a\u000a<<nobr>>\u000a<<if $day == 1>>[[[Fill out daily Inspection Report.]|report 1][$leftUnconscious++]]\u000a\u000a<<else if $day == 2>>[[[Fill out daily Inspection Report.]|report 2][$leftUnconscious++]]\u000a\u000a<<else if $day == 3>>[[[Fill out daily Inspection Report.]|report 3][$leftUnconscious++]]\u000a\u000a<<else>>/% Failsafe, should never be called %/\u000a[[[Fill out daily Inspection Report.]|report 1]]\u000a<<endif>>\u000a<<endnobr>>\u000a
+VSuspect 1247 is not able to respond.\u000a\u000a[[< Call in paramedics >|paramedics]]\u000a\u000a<<nobr>>\u000a<<if $day == 1>>[[< Fill out daily Inspection Report >|report 1][$leftUnconscious++]]\u000a\u000a<<else if $day == 2>>[[< Fill out daily Inspection Report >|report 2][$leftUnconscious++]]\u000a\u000a<<else if $day == 3>>[[< Fill out daily Inspection Report >|report 3][$leftUnconscious++]]\u000a\u000a<<else>>/% Failsafe, should never be called %/\u000a[[< Fill out daily Inspection Report >|report 1]]\u000a<<endif>>\u000a<<endnobr>>\u000a
 p1327
 sg23
 Vfainted
@@ -4328,12 +4328,12 @@ sg25
 g26
 ((I2014
 I8
-I11
-I11
-I31
-I18
-I0
-I223
+I12
+I13
+I46
+I44
+I1
+I224
 I1
 tp1329
 (dp1330
@@ -4369,7 +4369,7 @@ Tiddler
 p1340
 (dp1341
 g21
-VSuspect 1247 will receive treatment from the nearest available paramedic team.\u000a\u000a<<nobr>>\u000a<<if $day == 1>>[[[Fill out daily Inspection Report.]|report 1]]\u000a\u000a<<else if $day == 2>>[[[Fill out daily Inspection Report.]|report 2]]\u000a\u000a<<else if $day == 3>>[[[Fill out final Inspection Report.]|report 3]]\u000a\u000a<<else>>/% Failsafe, should never be called%/\u000a[[[Fill out daily Inspection Report.]|report 1]]\u000a<<endif>>\u000a<<endnobr>>
+VSuspect 1247 will receive treatment from the nearest available paramedic team.\u000a\u000a<<nobr>>\u000a<<if $day == 1>>[[< Fill out daily Inspection Report >|report 1]]\u000a\u000a<<else if $day == 2>>[[< Fill out daily Inspection Report >|report 2]]\u000a\u000a<<else if $day == 3>>[[< Fill out final Inspection Report >|report 3]]\u000a\u000a<<else>>/% Failsafe, should never be called%/\u000a[[< Fill out daily Inspection Report >|report 1]]\u000a<<endif>>\u000a<<endnobr>>
 p1342
 sg23
 Vparamedics
@@ -4378,12 +4378,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I15
-I8
-I37
-I4
-I220
+I12
+I13
+I46
+I28
+I1
+I224
 I1
 tp1344
 (dp1345
@@ -6699,7 +6699,7 @@ Tiddler
 p2055
 (dp2056
 g21
-VDATE: 10/<<print 20+$day>>/47\u000a\u000a<<nobr>>\u000a<<if $day == 1>>[[[Log in.]|start welcome]]\u000a<<else if $day == 2 or $day == 3>>[[[Log in.]|start day 2 or 3]]\u000a<<else if $day == 4>>[[[Log in.]|start day 4]]\u000a<<else>>[[[Log in.]|start welcome]] /% Failsafe - should never be called %/\u000a<<endif>>\u000a<<endnobr>>
+VDATE: 10/<<print 20+$day>>/47\u000a\u000a<<nobr>>\u000a<<if $day == 1>>[[< Log in >|start welcome]]\u000a<<else if $day == 2 or $day == 3>>[[< Log in >|start day 2 or 3]]\u000a<<else if $day == 4>>[[< Log in >|start day 4]]\u000a<<else>>[[< Log in >|start welcome]] /% Failsafe - should never be called %/\u000a<<endif>>\u000a<<endnobr>>
 p2057
 sg23
 Vstart login
@@ -6709,9 +6709,9 @@ g26
 ((I2014
 I8
 I12
-I10
-I45
-I8
+I13
+I42
+I17
 I1
 I224
 I1
@@ -8105,7 +8105,7 @@ Tiddler
 p2488
 (dp2489
 g21
-VSITUATION SUMMARY\u000a- - - -\u000aDuring the past months, the anarchist anti-corporate group known as the New Collective has dramatically shifted its mode of action. No longer content with public rallies and manifestoes, they have begun to attack government establishments and agents directly. They have detonated bombs, leaked critical security intelligence, and physically assaulted public officials. \u000a\u000aAs such, it is now a Bureau Priority 2 Task to locate and arrest James Hewes, the self-proclaimed leader of this group.\u000a\u000a[[Back|briefing other info]]
+VSITUATION SUMMARY\u000a- - - -\u000aDuring the past months, the anarchist anti-corporate group known as the New Collective has dramatically shifted its mode of action. No longer content with public rallies and manifestoes, they have begun to attack government establishments and agents directly. They have detonated bombs, leaked critical security intelligence, and physically assaulted public officials. \u000a\u000aAs such, it is now a Bureau Priority 2 Task to locate and arrest James Hewes, the self-proclaimed leader of this group.\u000a\u000a[[< back >|briefing other info]]
 p2490
 sg23
 Vbriefing situation
@@ -8114,12 +8114,12 @@ sg25
 g26
 ((I2014
 I8
-I7
-I10
-I46
-I30
-I3
-I219
+I12
+I11
+I52
+I29
+I1
+I224
 I1
 tp2492
 (dp2493
@@ -8155,7 +8155,7 @@ Tiddler
 p2503
 (dp2504
 g21
-VPROFILE - SUSPECT 1247\u000a- - - -\u000aNAME: [withheld]\u000aSEX: M\u000aAGE: 37\u000aOCCUPATION: Legal analyst, Boston Center for Civil Activism\u000aCRIMINAL RECORD: Detained for participating in Pearl Street riots in 2034\u000a\u000aREASON FOR DETAINMENT: Connections with James Hewes, leader of New Collective anti-government group\u000a\u000aNOTES: The suspect is considered to have above average intelligence. He is knowledgeable in law, history, and political theory.\u000a\u000a[[Back|briefing other info]]
+VPROFILE - SUSPECT 1247\u000a- - - -\u000aNAME: (withheld)\u000aSEX: M\u000aAGE: 37\u000aOCCUPATION: Legal analyst, Boston Center for Civil Activism\u000aCRIMINAL RECORD: Detained for participating in Pearl Street riots in 2034\u000a\u000aREASON FOR DETAINMENT: Connections with James Hewes, leader of New Collective anti-government group\u000a\u000aNOTES: The suspect is considered to have above average intelligence. He is knowledgeable in law, history, and political theory.\u000a\u000a[[< back >|briefing other info]]
 p2505
 sg23
 Vbriefing suspect
@@ -8164,12 +8164,12 @@ sg25
 g26
 ((I2014
 I8
-I7
-I10
-I46
-I36
-I3
-I219
+I12
+I13
+I33
+I49
+I1
+I224
 I1
 tp2507
 (dp2508
@@ -8205,7 +8205,7 @@ Tiddler
 p2518
 (dp2519
 g21
-VEXPERIMENTAL PROCEDURE OVERVIEW - PAGE 1\u000a- - - -\u000aDue to the sensitive and critical nature of this inspection, your Bureau Inspection Interface (BII) has been modified to enhance your ability to gather information.\u000a\u000aIn addition to standard speech-to-text protocols preventing mutual recognition or direct Inspector-suspect interaction, the BII v5.0.61a is capable of applying physical encouragement techniques in accordance with Directive US-598.\u000a\u000a[[Back|briefing other info]]
+VEXPERIMENTAL PROCEDURE OVERVIEW - PAGE 1\u000a- - - -\u000aDue to the sensitive and critical nature of this inspection, your Bureau Inspection Interface (BII) has been modified to enhance your ability to gather information.\u000a\u000aIn addition to standard speech-to-text protocols preventing mutual recognition or direct Inspector-suspect interaction, the BII v5.0.61a is capable of applying physical encouragement techniques in accordance with Directive US-598.\u000a\u000a[[< back >|briefing other info]]
 p2520
 sg23
 Vbriefing procedure
@@ -8214,12 +8214,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I16
+I12
 I11
-I41
-I4
-I220
+I52
+I34
+I1
+I224
 I1
 tp2522
 (dp2523
@@ -8244,7 +8244,7 @@ tp2529
 Rp2530
 sbsa(dp2531
 g14
-I00
+I01
 sg15
 (lp2532
 F1130.0
@@ -8255,7 +8255,7 @@ Tiddler
 p2533
 (dp2534
 g21
-VINSPECTION REPORT - 10/21/47\u000a- - - -\u000a<<nobr>>\u000a<<if $hKnow_intel == 1>>[[Add: "The suspect met Hewes while helping to defend him at Hewes' trial in 2039."|report 1][$hKnow_intel = 2]]<br><br><<endif>>\u000a\u000a<<if $hThink_intel == 1>>[[Add: "The suspect appears to disapprove of the violent methods of the New Collective, even though he supports their aims."|report 1][$hThink_intel = 2]]<br><br><<endif>>\u000a\u000a<<if $hOpinion_intel == 1>>[[Add: "The suspect claims to have the respect of James Hewes due to their shared political opinions."|report 1][$hOpinion_intel = 2]]<br><br><<endif>>\u000a\u000a[[[Submit report and log out.]|night]]\u000a<<endnobr>>
+VINSPECTION REPORT - 10/21/47\u000a- - - -\u000a<<nobr>>\u000a<<if $hKnow_intel == 1>>[[Add: "The suspect met Hewes while helping to defend him at Hewes' trial in 2039."|report 1][$hKnow_intel = 2]]<br><br><<endif>>\u000a\u000a<<if $hThink_intel == 1>>[[Add: "The suspect appears to disapprove of the violent methods of the New Collective, even though he supports their aims."|report 1][$hThink_intel = 2]]<br><br><<endif>>\u000a\u000a<<if $hOpinion_intel == 1>>[[Add: "The suspect claims to have the respect of James Hewes due to their shared political opinions."|report 1][$hOpinion_intel = 2]]<br><br><<endif>>\u000a\u000a[[< Submit report and log out >|night]]\u000a<<endnobr>>
 p2535
 sg23
 Vreport 1
@@ -8264,12 +8264,12 @@ sg25
 g26
 ((I2014
 I8
+I12
+I13
+I46
 I11
-I11
-I57
-I3
-I0
-I223
+I1
+I224
 I1
 tp2537
 (dp2538
@@ -9627,7 +9627,7 @@ Tiddler
 p2949
 (dp2950
 g21
-VTASK BRIEFING - ADDITIONAL INFORMATION\u000a- - - -\u000aSITUATION SUMMARY\u000a[[[click to view]|briefing situation]]\u000a\u000aPROFILE - SUSPECT 1247\u000a[[[click to view]|briefing suspect]]\u000a\u000aEXPERIMENTAL PROCEDURE OVERVIEW\u000a[[[click to view]|briefing procedure]]\u000a\u000aPlease click [[here|suspect connecting]] to begin the inspection process.
+VTASK BRIEFING - ADDITIONAL INFORMATION\u000a- - - -\u000aSITUATION SUMMARY\u000a[[< click to view >|briefing situation]]\u000a\u000aPROFILE - SUSPECT 1247\u000a[[< click to view >|briefing suspect]]\u000a\u000aEXPERIMENTAL PROCEDURE OVERVIEW\u000a[[< click to view >|briefing procedure]]\u000a\u000aPlease click [[here|suspect connecting]] to begin the inspection process.
 p2951
 sg23
 Vbriefing other info
@@ -9636,12 +9636,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I16
-I8
-I25
-I4
-I220
+I12
+I11
+I52
+I7
+I1
+I224
 I1
 tp2953
 (dp2954
@@ -9879,7 +9879,7 @@ Tiddler
 p3025
 (dp3026
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I haven't forgotten, Inspector. I can only hope you'll be true to your word.</em>\u000a\u000a<<timedinsert 2s>><em class="suspect">That said, I still can't trust the rest of the Bureau. I need to be sure they'll do the right thing when they find him, not just throw him into one of these cells or some extralegal facility outside our borders. You need to ask your superiors to negotiate.</em><<endtimedinsert>><<timedinsert 5s>>\u000a\u000a[[Bloodthirsty murderer. We'll stop him by any means necessary. [Disconnect.]|report 3 start]]\u000a\u000a[[And you're saying we can stop him by negotiating? I can't promise my superiors will accept the diplomatic option.|d3 true 1 b 1]]<<endtimedinsert>>
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I haven't forgotten, Inspector. I can only hope you'll be true to your word.</em>\u000a\u000a<<timedinsert 2s>><em class="suspect">That said, I still can't trust the rest of the Bureau. I need to be sure they'll do the right thing when they find him, not just throw him into one of these cells or some extralegal facility outside our borders. You need to ask your superiors to negotiate.</em><<endtimedinsert>><<timedinsert 5s>>\u000a\u000a[[Bloodthirsty murderer. We'll stop him by any means necessary. < Disconnect and fill out final Inspection Report >|report 3]]\u000a\u000a[[And you're saying we can stop him by negotiating? I can't promise my superiors will accept the diplomatic option.|d3 true 1 b 1]]<<endtimedinsert>>
 p3027
 sg23
 Vd3 true promise
@@ -9889,9 +9889,9 @@ g26
 ((I2014
 I8
 I12
-I10
-I20
-I18
+I13
+I49
+I54
 I1
 I224
 I1
@@ -9931,7 +9931,7 @@ Tiddler
 p3041
 (dp3042
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I've already told you. His target is the Supreme Court.</em>\u000a\u000a[[Bloodthirsty murderer. We'll stop him by any means necessary. [Disconnect.]|report 3 start]]\u000a\u000a[[And you're saying we can stop him by negotiating? I can't promise my superiors will accept the diplomatic option.|d3 true 1 b 1]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I've already told you. His target is the Supreme Court.</em>\u000a\u000a[[Bloodthirsty murderer. We'll stop him by any means necessary. < Disconnect and fill out final Inspection Report >|report 3]]\u000a\u000a[[And you're saying we can stop him by negotiating? I can't promise my superiors will accept the diplomatic option.|d3 true 1 b 1]]
 p3043
 sg23
 Vd3 true 1 a
@@ -9941,9 +9941,9 @@ g26
 ((I2014
 I8
 I12
-I10
-I16
-I16
+I13
+I50
+I0
 I1
 I224
 I1
@@ -10024,7 +10024,7 @@ tp3069
 Rp3070
 sbsa(dp3071
 g14
-I01
+I00
 sg15
 (lp3072
 F2810.0
@@ -10087,7 +10087,7 @@ Tiddler
 p3089
 (dp3090
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>><em class="suspect">I'm counting on you, Inspector.</em><<endtimedinsert>><<timedinsert 5s>>\u000a\u000a[[[Disconnect.]|report 3 start]]<<endtimedinsert>>
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>><em class="suspect">I'm counting on you, Inspector.</em><<endtimedinsert>><<timedinsert 5s>>\u000a\u000a[[< Disconnect and fill out final Inspection Report >|report 3]]<<endtimedinsert>>
 p3091
 sg23
 Vd3 true end
@@ -10096,12 +10096,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I11
+I12
 I13
-I10
-I4
-I220
+I50
+I17
+I1
+I224
 I1
 tp3093
 (dp3094
@@ -10401,7 +10401,7 @@ Tiddler
 p3186
 (dp3187
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I'm afraid I can't, Inspector. I just have to wait a few more hours and the law will be on my side.</em>\u000a\u000a[[No matter. We'll find him one way or another. [Disconnect.]|report 3 start]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I'm afraid I can't, Inspector. I just have to wait a few more hours and the law will be on my side.</em>\u000a\u000a[[No matter. We'll find him one way or another. < Disconnect and fill out final Inspection Report >|report 3]]
 p3188
 sg23
 Vd3 true nope 1
@@ -10410,12 +10410,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I11
+I12
 I13
-I47
-I4
-I220
+I50
+I42
+I1
+I224
 I1
 tp3190
 (dp3191
@@ -10455,7 +10455,7 @@ Tiddler
 p3203
 (dp3204
 g21
-V<<nobr>>\u000a<<if $d2SumAction is false>>[[What is Hewes planning to do?|sum action][$d2SumAction = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumMotivation is false>>[[What caused Hewes to turn violent?|sum motivation][$d2SumMotivation = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumEducation == false>>[[What kind of person is he really?|sum education][$d2SumEducation = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumAction is true and $d2SumMotivation is true and $d2SumEducation is true>>[[We'll speak again tomorrow. [Log out and submit report.]|report 2]]<<endif>>\u000a<<endnobr>>
+V<<nobr>>\u000a<<if $d2SumAction is false>>[[What is Hewes planning to do?|sum action][$d2SumAction = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumMotivation is false>>[[What caused Hewes to turn violent?|sum motivation][$d2SumMotivation = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumEducation == false>>[[What kind of person is he really?|sum education][$d2SumEducation = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumAction is true and $d2SumMotivation is true and $d2SumEducation is true>>[[We'll speak again tomorrow. < Disconnect and fill out daily Inspection Report >|report 2]]<<endif>>\u000a<<endnobr>>
 p3205
 sg23
 Vhewes sum hub
@@ -10464,12 +10464,12 @@ sg25
 g26
 ((I2014
 I8
-I7
-I11
-I55
-I3
-I3
-I219
+I12
+I13
+I47
+I58
+I1
+I224
 I1
 tp3207
 (dp3208
@@ -11197,7 +11197,7 @@ Tiddler
 p3434
 (dp3435
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $torturePromise == false>>\u000a<em class = "suspect">Thank God.</em>\u000a<<else>>\u000a<em class = "suspect">...</em>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[[Disconnect.]|report 3 start]]\u000a\u000a[[I'm sorry. [Disconnect.]|report 3 start]] /%if you do it even though you had promised not to torture, you'll break him and then you're fucked %/
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $torturePromise == false>>\u000a<em class = "suspect">Thank God.</em>\u000a<<else>>\u000a<em class = "suspect">...</em>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[< Disconnect and fill out final Inspection Report >|report 3]]\u000a\u000a[[I'm sorry. < Disconnect and fill out final Inspection Report >|report 3]]/%if you do it even though you had promised not to torture, you'll break him and then you're fucked %/
 p3436
 sg23
 Vd3 ht end
@@ -11206,12 +11206,12 @@ sg25
 g26
 ((I2014
 I8
-I11
-I11
-I25
-I27
-I0
-I223
+I12
+I13
+I51
+I18
+I1
+I224
 I1
 tp3438
 (dp3439
@@ -12031,7 +12031,7 @@ Tiddler
 p3691
 (dp3692
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I hope you'll do the right thing, then. I've already told you everything I know about Hewes' plans for the Carson Group.</em>\u000a\u000a[[Thank you for your cooperation. [Disconnect.]|report 3 start]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I hope you'll do the right thing, then. I've already told you everything I know about Hewes' plans for the Carson Group.</em>\u000a\u000a[[Thank you for your cooperation. < Disconnect and fill out final Inspection Report >|report 3]]
 p3693
 sg23
 Vd3 ht talk ideals 1 1 1 1 yes
@@ -12040,12 +12040,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I10
-I56
-I22
-I4
-I220
+I12
+I13
+I51
+I1
+I1
+I224
 I1
 tp3695
 (dp3696
@@ -12085,7 +12085,7 @@ Tiddler
 p3708
 (dp3709
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Then I shouldn't have told you anything.</em>\u000a\u000a[[You may not have said much, but be assured that the Carson Group will be protected from Hewes. [Disconnect.]|report 3 start]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Then I shouldn't have told you anything.</em>\u000a\u000a[[You may not have said much, but be assured that the Carson Group will be protected from Hewes. < Disconnect and fill out final Inspection Report >|report 3]]
 p3710
 sg23
 Vd3 ht talk ideals 1 1 1 1 no
@@ -12094,12 +12094,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I11
-I6
-I40
-I4
-I220
+I12
+I13
+I50
+I57
+I1
+I224
 I1
 tp3712
 (dp3713
@@ -12247,7 +12247,7 @@ Tiddler
 p3759
 (dp3760
 g21
-V<<set $planTrueDetails to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Alright, fine. Fine. I didn't tell you the whole picture before. Hewes is targeting Carson, that's true, but he wants payback from the people that made the final decision in their case. He wants to target the Supreme Court.\u000a\u000aThey're going to attack Justice Richardson early in the morning. That's the truth. Just let me out of here.</em>\u000a\u000a[[You've made the right decision. [Disconnect.]|report 3 start][$planTrueDetails = true]]
+V<<set $planTrueDetails to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Alright, fine. Fine. I didn't tell you the whole picture before. Hewes is targeting Carson, that's true, but he wants payback from the people that made the final decision in their case. He wants to target the Supreme Court.\u000a\u000aThey're going to attack Justice Richardson early in the morning. That's the truth. Just let me out of here.</em>\u000a\u000a[[You've made the right decision. < Disconnect and fill out final Inspection Report >|report 3]]
 p3761
 sg23
 Vd3 ht talk private admit
@@ -12256,12 +12256,12 @@ sg25
 g26
 ((I2014
 I8
-I11
-I15
-I43
-I8
-I0
-I223
+I12
+I13
+I51
+I55
+I1
+I224
 I1
 tp3763
 (dp3764
@@ -12303,7 +12303,7 @@ Tiddler
 p3777
 (dp3778
 g21
-V<<set $planHalfTrueDetails to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Fine. He's targeting Carson, but not everyone there. Specifically the people with ties or relations to the government. The people that instigated the whole case. He's not going to get to them at their homes, though. He wants the world to see it happen at the Carson headquarters.</em>\u000a\u000a[[Thank you for your cooperation. [Disonnect.]|report 3 start]]
+V<<set $planHalfTrueDetails to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Fine. He's targeting Carson, but not everyone there. Specifically the people with ties or relations to the government. The people that instigated the whole case. He's not going to get to them at their homes, though. He wants the world to see it happen at the Carson headquarters.</em>\u000a\u000a[[Thank you for your cooperation. < Disconnect and fill out final Inspection Report >|report 3]]
 p3779
 sg23
 Vd3 ht talk private admit b
@@ -12312,12 +12312,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I16
-I56
-I23
-I4
-I220
+I12
+I13
+I51
+I43
+I1
+I224
 I1
 tp3781
 (dp3782
@@ -12771,7 +12771,7 @@ Tiddler
 p3921
 (dp3922
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<nobr>><<if $torturePromise == false>>\u000a<em class = "suspect">Thank God.</em>\u000a<<else>>\u000a<em class = "suspect">...</em>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[[Disconnect.]|report 3 start]]\u000a\u000a[[I'm sorry. [Disconnect.]|report 3 start]] /%if you do it even though you had promised not to torture, you'll break him and then you're fucked %/\u000a
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>><<if $torturePromise == false>>\u000a<em class = "suspect">Thank God.</em>\u000a<<else>>\u000a<em class = "suspect">...</em>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[< Disconnect and fill out final Inspection Report >|report 3]]\u000a\u000a[[I'm sorry. < Disconnect and fill out final Inspection Report >|report 3]]/%if you do it even though you had promised not to torture, you'll break him and then you're fucked %/\u000a
 p3923
 sg23
 Vd3 ht end 1
@@ -12780,12 +12780,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I10
-I57
-I3
-I4
-I220
+I12
+I13
+I51
+I30
+I1
+I224
 I1
 tp3925
 (dp3926
@@ -13137,7 +13137,7 @@ Tiddler
 p4034
 (dp4035
 g21
-VSUSPECT 1247\u000a- - - \u000a<em class = "suspect">I knew you couldn't betray your system and keep me here for longer. The laws you follow may be corrupt, but they still bind you.</em>\u000a\u000a[[You're starting to understand me at last. [Disconnect.]|report 3 start]]\u000a\u000a[[Goodbye. [Disconnect.]|report 3 start]]\u000a\u000a[[[Disconnect.]|report 3 start]]
+VSUSPECT 1247\u000a- - - \u000a<em class = "suspect">I knew you couldn't betray your system and keep me here for longer. The laws you follow may be corrupt, but they still bind you.</em>\u000a\u000a[[You're starting to understand me at last. < Disconnect and fill out final Inspection Report >|report 3]]\u000a\u000a[[Goodbye. < Disconnect and fill out final Inspection Report >|report 3]]\u000a\u000a[[< Disconnect and fill out final Inspection Report >|report 3]]
 p4036
 sg23
 Vd3 f end
@@ -13146,12 +13146,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I11
+I12
+I13
+I54
+I37
 I1
-I11
-I4
-I220
+I224
 I1
 tp4038
 (dp4039
@@ -13191,7 +13191,7 @@ Tiddler
 p4051
 (dp4052
 g21
-V<<set $planFalseDetails to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">It'll be at the League Finals tonight, but it won't be violent. First, he'll hack the scoreboards to display a message explaining our country's political situation in plain terms no one could argue with.\u000a\u000aThen they'll overwhelm security and kidnap any public officials in attendance. The two city mayors are guaranteed to be there, plus quite a few other public servants, I'd expect.</em>\u000a\u000a[[That's exactly what I needed. Thank you. [Disconnect.]|report 3 start]]\u000a\u000a[[Perfect. [Disconnect.]|report 3 start]]\u000a\u000a[[[Disconnect.]|report 3 start]]
+V<<set $planFalseDetails to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">It'll be at the League Finals tonight, but it won't be violent. First, he'll hack the scoreboards to display a message explaining our country's political situation in plain terms no one could argue with.\u000a\u000aThen they'll overwhelm security and kidnap any public officials in attendance. The two city mayors are guaranteed to be there, plus quite a few other public servants, I'd expect.</em>\u000a\u000a[[That's exactly what I needed. Thank you. < Disconnect and fill out final Inspection Report >|report 3]]\u000a\u000a[[Perfect.< Disconnect and fill out final Inspection Report >|report 3]]\u000a\u000a[[< Disconnect and fill out final Inspection Report >|report 3]]
 p4053
 sg23
 Vd3 f repent 1 1
@@ -13200,12 +13200,12 @@ sg25
 g26
 ((I2014
 I8
-I11
+I12
 I13
-I18
-I43
-I0
-I223
+I52
+I12
+I1
+I224
 I1
 tp4055
 (dp4056
@@ -13347,7 +13347,7 @@ Tiddler
 p4099
 (dp4100
 g21
-V<<set $planFalseDetails to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Hewes wants to use the event to make the people understand the sad state of their country. He'll disrupt the halftime show, and his collaborators will hold hostage any public officials present to ensure his security while he delivers his speech.\u000a\u000aI don't know if he plans to hurt the officials, though.</em>\u000a\u000a[[Thank you. [Disconnect.]|report 3 start]]\u000a\u000a[[We'll make sure that never happens. [Disconnect.]|report 3 start]]
+V<<set $planFalseDetails to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Hewes wants to use the event to make the people understand the sad state of their country. He'll disrupt the halftime show, and his collaborators will hold hostage any public officials present to ensure his security while he delivers his speech.\u000a\u000aI don't know if he plans to hurt the officials, though.</em>\u000a\u000a[[Thank you. < Disconnect and fill out final Inspection Report >|report 3]]\u000a\u000a[[We'll make sure that never happens. < Disconnect and fill out final Inspection Report >|report 3]]
 p4101
 sg23
 Vd3 f repent 1 1 1
@@ -13356,12 +13356,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I16
-I55
-I10
-I4
-I220
+I12
+I13
+I54
+I12
+I1
+I224
 I1
 tp4103
 (dp4104
@@ -14353,7 +14353,7 @@ Tiddler
 p4412
 (dp4413
 g21
-V<<set $hewesLocation to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">So you're finally seeing reason, Inspector. You don't need to know when, what, or where he's going to strike next.\u000a\u000aHe's currently living in New York. 598 East 7th Street. Apartment 2, I believe. You should go talk to him. I'm sure it'll be an enlightening interview for you both.</em>\u000a\u000a[[I will. [Disconnect.]|report 3 start][$location = true]]
+V<<set $hewesLocation to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">So you're finally seeing reason, Inspector. You don't need to know when, what, or where he's going to strike next.\u000a\u000aHe's currently living in New York. 598 East 7th Street. Apartment 2, I believe. You should go talk to him. I'm sure it'll be an enlightening interview for you both.</em>\u000a\u000a[[I will. < Disconnect and fill out final Inspection Report >|report 3][$location = true]]
 p4414
 sg23
 Vd3 redeem save hewes
@@ -14362,12 +14362,12 @@ sg25
 g26
 ((I2014
 I8
-I11
-I11
-I26
-I18
-I0
-I223
+I12
+I13
+I54
+I22
+I1
+I224
 I1
 tp4416
 (dp4417
@@ -14407,7 +14407,7 @@ Tiddler
 p4429
 (dp4430
 g21
-V[[[Fill out final Inspection Report.]|report 3]]
+V/% Obsolete but might have some timedgoto's or some shit%/[[< Fill out final Inspection Report >|report 3]]
 p4431
 sg23
 Vreport 3 start
@@ -14416,12 +14416,12 @@ sg25
 g26
 ((I2014
 I8
-I11
-I14
-I43
-I50
-I0
-I223
+I12
+I13
+I54
+I57
+I1
+I224
 I1
 tp4433
 (dp4434
@@ -14557,7 +14557,7 @@ Tiddler
 p4474
 (dp4475
 g21
-VINSPECTION REPORT - 10/22/47\u000a- - - -\u000a[[[Submit report and log out.]|night]]
+VINSPECTION REPORT - 10/22/47\u000a- - - -\u000a[[< Submit report and log out >|night]]
 p4476
 sg23
 Vreport 2 submit
@@ -14566,12 +14566,12 @@ sg25
 g26
 ((I2014
 I8
-I11
-I11
+I12
+I13
+I45
 I57
-I9
-I0
-I223
+I1
+I224
 I1
 tp4478
 (dp4479
@@ -14607,7 +14607,7 @@ Tiddler
 p4489
 (dp4490
 g21
-VINSPECTION REPORT - 10/23/47\u000a- - - -\u000a<<nobr>>\u000a<<if $protectionPromised is true and $protectionRequested is false>>\u000a[[Add: "The suspect has requested Bureau protection following his impending release. Due to his cooperation, it is recommended that this request be honored."|report 3 submit][$protectionRequested = true]]<br><br>\u000a<<endif>>\u000a<<if $negotiationPromised is true and $negotiationRequested is false>>\u000a[[Add: "The suspect has indicated a willingness on the part of James Hewes to enter into diplomacy with the government. In order to minimize future casualties, it is recommended to negotiate with Hewes in good faith upon his capture."|report 3 submit][$negotiationRequested = true]]<br><br>\u000a<<endif>>\u000a[[[Submit final report and log out.]|night]]\u000a<<endnobr>>
+VINSPECTION REPORT - 10/23/47\u000a- - - -\u000a<<nobr>>\u000a<<if $protectionPromised is true and $protectionRequested is false>>\u000a[[Add: "The suspect has requested Bureau protection following his impending release. Due to his cooperation, it is recommended that this request be honored."|report 3 submit][$protectionRequested = true]]<br><br>\u000a<<endif>>\u000a<<if $negotiationPromised is true and $negotiationRequested is false>>\u000a[[Add: "The suspect has indicated a willingness on the part of James Hewes to enter into diplomacy with the government. In order to minimize future casualties, it is recommended to negotiate with Hewes in good faith upon his capture."|report 3 submit][$negotiationRequested = true]]<br><br>\u000a<<endif>>\u000a[[< Submit final report and log out >|night]]\u000a<<endnobr>>
 p4491
 sg23
 Vreport 3 submit
@@ -14617,9 +14617,9 @@ g26
 ((I2014
 I8
 I12
-I10
-I24
-I51
+I13
+I46
+I4
 I1
 I224
 I1
@@ -14707,7 +14707,7 @@ Tiddler
 p4519
 (dp4520
 g21
-VNEWS UPDATE 1/3\u000a- - - -\u000a<<nobr>>\u000a<<if $hewesLocation == 2 and $negotiationPromised is true>>\u000aAccording to internal reports, the Bureau of Economic Assessment and Rehabilitation was able to pinpoint the whereabouts of James Hewes, self-proclaimed leader of the New Collective political group, classified by the bureau as a Class B homeland security threat.<br><br>\u000a\u000aAt 04:00 AM this morning, government forces successfully apprehended Hewes and four of his followers in an apartment in Manhattan, NY. Following Bureau recommendations, government agents have entered into negotiations with Hewes in the hopes of peacefully addressing the grievances of the New Collective.\u000a\u000a<<else if $hewesLocation == 2 and $negotiationPromised is false>>\u000a\u000aAccording to internal reports, the Bureau of Economic Assessment and Rehabilitation was able to pinpoint the whereabouts of James Hewes, self-proclaimed leader of the New Collective political group, classified by the bureau as a Class B homeland security threat.<br><br>\u000a\u000aAt 04:00 AM this morning, government forces successfully apprehended Hewes and four of his followers in an apartment in Manhattan, NY. They are currently detained in a secure facility, awaiting further directives from the executive branch of the Bureau.\u000a\u000a<<else if $planTrueDetails == 2 and $negotiationPromised is true>>\u000aAccording to internal reports, the Bureau of Economic Assessment and Rehabilitation assigned two S.W.A.T. teams to the surveillance and security of the private houses of the nine Supreme Court Justices. Thanks to swift and efficient action, an attack led by the New Collective directed at Supreme Court Justice Richardson was stopped at 08:30 AM this morning.<br><br>\u000a\u000aFive suspected members of the terrorist group, including leader James Hewes, were detained in the aftermath of the attack. Following Bureau recommendations, government agents have entered into negotiations with Hewes in the hopes of peacefully addressing the grievances of the New Collective.\u000a\u000a<<else if $planTrueDetails == 2 and $negotiationPromised is false>>\u000aAccording to internal reports, the Bureau of Economic Assessment and Rehabilitation assigned two S.W.A.T. teams to the surveillance and security of the private houses of the nine Supreme Court Justices. Thanks to swift and efficient action, an attack led by the New Collective directed at Supreme Court Justice Richardson was stopped at 08:30 AM this morning.<br><br>\u000a\u000aFive suspected members of the terrorist group, including leader James Hewes, were detained in the aftermath of the attack. All suspects are now being held in a secure facility awaiting inspection procedures.\u000a\u000a<<else if $planHalfTrueDetails == 2>>\u000aAt 08:30 AM this morning, Supreme Court Justice Richardson was killed in a hit-and-run attack in front of his private Washington, D.C. home. The New Collective terrorist group has claimed responsibility for the attack. Because the Bureau of Economic Assessment and Rehabilitation had ordered the special reassignment of reserve S.W.A.T. teams to the Carson Group Headquarters in Albany, NY, Richardson's death could not be prevented.<br><br>\u000a\u000aBureau Spokesperson Gabriel Kass is to hold a press conference announcing that, according to internal inspection reports, the Bureau had good reason to believe that the attack was to target Carson Group members. However, the Bureau Inspector in charge of intelligence gathering regarding the New Collective will shortly be arrested on counts of grave professional fault and passive treason.\u000a\u000a<<else if $planFalseDetails == 2>>\u000aAt 08:00 PM yesterday night, the League Finals in Austin was delayed due to emergency security procedures ordered by the Bureau of Economic Assessment and Rehabilitation. After the threat was deemed non-existent and based on false information, the hastily reassigned security forces were given the night off to enjoy the game. As a result, they were unable to prevent the fatal hit-and-run attack against Chief Justice Richardson at his private Washignton, D.C. home at 08:30 AM this morning.<br><br>\u000a\u000aThe New Collective terrorist group has claimed responsibility for the attack. Bureau Spokesperson Gabriel Kass is to hold a press conference announcing that, according to internal inspection reports, the Bureau had good reason to believe that the attack was to target the League Finals. However, the Bureau Inspector in charge of intelligence gathering regarding the New Collective will shortly be arrested on counts of grave professional fault and passive treason.\u000a\u000a<<else>>\u000aAt 08:30 AM this morning, Supreme Court Justice Richardson was killed in a hit-and-run attack in front of his private Washington, DC home. The New Collective terrorist group has claimed responsibility for the attack. According to some eyewitness reports, New Collective leader James Hewes himself may have been one of the perpetrators.<br><br>\u000a\u000aThree suspects have been detained for questioning at Bureau facilities. According to internal reports, the Bureau Inspector previously in charge of intelligence gathering regarding the New Collective will shortly be arrested on counts of grave professional fault and passive treason.\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[[more]|final results 2]]
+VNEWS UPDATE 1/3\u000a- - - -\u000a<<nobr>>\u000a<<if $hewesLocation == 2 and $negotiationPromised is true>>\u000aAccording to internal reports, the Bureau of Economic Assessment and Rehabilitation was able to pinpoint the whereabouts of James Hewes, self-proclaimed leader of the New Collective political group, classified by the bureau as a Class B homeland security threat.<br><br>\u000a\u000aAt 04:00 AM this morning, government forces successfully apprehended Hewes and four of his followers in an apartment in Manhattan, NY. Following Bureau recommendations, government agents have entered into negotiations with Hewes in the hopes of peacefully addressing the grievances of the New Collective.\u000a\u000a<<else if $hewesLocation == 2 and $negotiationPromised is false>>\u000a\u000aAccording to internal reports, the Bureau of Economic Assessment and Rehabilitation was able to pinpoint the whereabouts of James Hewes, self-proclaimed leader of the New Collective political group, classified by the bureau as a Class B homeland security threat.<br><br>\u000a\u000aAt 04:00 AM this morning, government forces successfully apprehended Hewes and four of his followers in an apartment in Manhattan, NY. They are currently detained in a secure facility, awaiting further directives from the executive branch of the Bureau.\u000a\u000a<<else if $planTrueDetails == 2 and $negotiationPromised is true>>\u000aAccording to internal reports, the Bureau of Economic Assessment and Rehabilitation assigned two S.W.A.T. teams to the surveillance and security of the private houses of the nine Supreme Court Justices. Thanks to swift and efficient action, an attack led by the New Collective directed at Supreme Court Justice Richardson was stopped at 08:30 AM this morning.<br><br>\u000a\u000aFive suspected members of the terrorist group, including leader James Hewes, were detained in the aftermath of the attack. Following Bureau recommendations, government agents have entered into negotiations with Hewes in the hopes of peacefully addressing the grievances of the New Collective.\u000a\u000a<<else if $planTrueDetails == 2 and $negotiationPromised is false>>\u000aAccording to internal reports, the Bureau of Economic Assessment and Rehabilitation assigned two S.W.A.T. teams to the surveillance and security of the private houses of the nine Supreme Court Justices. Thanks to swift and efficient action, an attack led by the New Collective directed at Supreme Court Justice Richardson was stopped at 08:30 AM this morning.<br><br>\u000a\u000aFive suspected members of the terrorist group, including leader James Hewes, were detained in the aftermath of the attack. All suspects are now being held in a secure facility awaiting inspection procedures.\u000a\u000a<<else if $planHalfTrueDetails == 2>>\u000aAt 08:30 AM this morning, Supreme Court Justice Richardson was killed in a hit-and-run attack in front of his private Washington, D.C. home. The New Collective terrorist group has claimed responsibility for the attack. Because the Bureau of Economic Assessment and Rehabilitation had ordered the special reassignment of reserve S.W.A.T. teams to the Carson Group Headquarters in Albany, NY, Richardson's death could not be prevented.<br><br>\u000a\u000aBureau Spokesperson Gabriel Kass is to hold a press conference announcing that, according to internal inspection reports, the Bureau had good reason to believe that the attack was to target Carson Group members. However, the Bureau Inspector in charge of intelligence gathering regarding the New Collective will shortly be arrested on counts of grave professional fault and passive treason.\u000a\u000a<<else if $planFalseDetails == 2>>\u000aAt 08:00 PM yesterday night, the League Finals in Austin was delayed due to emergency security procedures ordered by the Bureau of Economic Assessment and Rehabilitation. After the threat was deemed non-existent and based on false information, the hastily reassigned security forces were given the night off to enjoy the game. As a result, they were unable to prevent the fatal hit-and-run attack against Chief Justice Richardson at his private Washignton, D.C. home at 08:30 AM this morning.<br><br>\u000a\u000aThe New Collective terrorist group has claimed responsibility for the attack. Bureau Spokesperson Gabriel Kass is to hold a press conference announcing that, according to internal inspection reports, the Bureau had good reason to believe that the attack was to target the League Finals. However, the Bureau Inspector in charge of intelligence gathering regarding the New Collective will shortly be arrested on counts of grave professional fault and passive treason.\u000a\u000a<<else>>\u000aAt 08:30 AM this morning, Supreme Court Justice Richardson was killed in a hit-and-run attack in front of his private Washington, DC home. The New Collective terrorist group has claimed responsibility for the attack. According to some eyewitness reports, New Collective leader James Hewes himself may have been one of the perpetrators.<br><br>\u000a\u000aThree suspects have been detained for questioning at Bureau facilities. According to internal reports, the Bureau Inspector previously in charge of intelligence gathering regarding the New Collective will shortly be arrested on counts of grave professional fault and passive treason.\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[< more >|final results 2]]
 p4521
 sg23
 Vfinal results 1
@@ -14717,9 +14717,9 @@ g26
 ((I2014
 I8
 I12
-I10
-I41
-I49
+I13
+I35
+I43
 I1
 I224
 I1
@@ -14757,7 +14757,7 @@ Tiddler
 p4534
 (dp4535
 g21
-VNEWS UPDATE 2/3\u000a- - - -\u000a<<nobr>>\u000a<<if $torture <= 1>>\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have been met, as both the amount and quality of gathered intelligence have been deemed satisfactory by the Assessment Branch of the BEAR.<br><br>\u000a\u000aSurprisingly, these results indicate a minimal use of physical encouragement devices, even though the inspection took place after the establishment of Directive US-598. The BEAR recommends further research to confirm or refute the efficiency of physical encouragement in acquiring accurate data from individuals.\u000a\u000a<<else>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have not been met, as both the amount and quality of gathered intelligence have been deemed unsatisfactory, leading to civilian casualties.<br><br>\u000a\u000aUnsurprisingly, these results indicate a minimal use of physical encouragement devices, even though the inspection took place after the establishment of Directive US-598. The BEAR recommends investigating the efficiency of mandatory usage policies for physical encouragement in order to optimize the gathering and analysis of intelligence in future inspections.\u000a<<endif>>\u000a\u000a<<else>>/% torture > 1 %/\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have been met, as both the amount and quality of gathered intelligence have been deemed satisfactory by the Assessment Branch of the BEAR.<br><br>\u000a\u000aCorrelations with the sustained use of physical encouragement have been successfully established. The BEAR recommends the formalization of norms and guidelines regarding the use of physical encouragement for upcoming inspections in order to optimize the gathering and analysis of intelligence.\u000a<<else>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have not been met, as both the amount and quality of gathered intelligence have been deemed unsatisfactory, leading to civilian casualties.<br><br>\u000a\u000aCorrelations with the sustained use of physical encouragement have been successfully established, and conclusions tend to observe the detrimental effect of physical encouragement sessions on the gathering and analysis of accurate intelligence from detainees. The BEAR recommends formal scientific investigations into the efficiency of physical encouragement in order to optimize the gathering and analysis of intelligence in future inspections.\u000a<<endif>>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[[more]|final results 3]]
+VNEWS UPDATE 2/3\u000a- - - -\u000a<<nobr>>\u000a<<if $torture <= 1>>\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have been met, as both the amount and quality of gathered intelligence have been deemed satisfactory by the Assessment Branch of the BEAR.<br><br>\u000a\u000aSurprisingly, these results indicate a minimal use of physical encouragement devices, even though the inspection took place after the establishment of Directive US-598. The BEAR recommends further research to confirm or refute the efficiency of physical encouragement in acquiring accurate data from individuals.\u000a\u000a<<else>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have not been met, as both the amount and quality of gathered intelligence have been deemed unsatisfactory, leading to civilian casualties.<br><br>\u000a\u000aUnsurprisingly, these results indicate a minimal use of physical encouragement devices, even though the inspection took place after the establishment of Directive US-598. The BEAR recommends investigating the efficiency of mandatory usage policies for physical encouragement in order to optimize the gathering and analysis of intelligence in future inspections.\u000a<<endif>>\u000a\u000a<<else>>/% torture > 1 %/\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have been met, as both the amount and quality of gathered intelligence have been deemed satisfactory by the Assessment Branch of the BEAR.<br><br>\u000a\u000aCorrelations with the sustained use of physical encouragement have been successfully established. The BEAR recommends the formalization of norms and guidelines regarding the use of physical encouragement for upcoming inspections in order to optimize the gathering and analysis of intelligence.\u000a<<else>>\u000aReports from the first inspection conducted under Directive US-598 have been archived and analyzed. Results of the inspection show that objectives have not been met, as both the amount and quality of gathered intelligence have been deemed unsatisfactory, leading to civilian casualties.<br><br>\u000a\u000aCorrelations with the sustained use of physical encouragement have been successfully established, and conclusions tend to observe the detrimental effect of physical encouragement sessions on the gathering and analysis of accurate intelligence from detainees. The BEAR recommends formal scientific investigations into the efficiency of physical encouragement in order to optimize the gathering and analysis of intelligence in future inspections.\u000a<<endif>>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[< more >|final results 3]]
 p4536
 sg23
 Vfinal results 2
@@ -14766,12 +14766,12 @@ sg25
 g26
 ((I2014
 I8
-I11
-I14
-I47
-I54
-I0
-I223
+I12
+I13
+I35
+I35
+I1
+I224
 I1
 tp4538
 (dp4539
@@ -14807,7 +14807,7 @@ Tiddler
 p4549
 (dp4550
 g21
-VNEWS UPDATE 3/3\u000a- - - -\u000a<<nobr>>\u000a<<if $protectionRequested is true>>\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aProtective measures have been granted to Suspect 1247 on the basis of his providing accurate information. The suspect will be relocated to a secret location as per Directive US-263.\u000a<<else>>\u000aSecurity forces have been requested for Suspect 1247, despite his providing erroneous information. As such, the Inspector in charge of intelligence gathering from this suspect is being held an additional 48 (forty-eight) hours in order to investigate the implications of such a request.\u000a<<endif>>\u000a\u000a<<else>>/% $protectionRequested is false %/\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aSuspect 1247 was released at 04:00 AM this morning, and his body was discovered at 08:45 AM. Primary leads suggest homicide by New Collective members in revenge for the suspect's leaking of key intelligence to the BEAR that led to the foiling of planned New Collective terrorist actions.\u000a<<else>>\u000aSuspect 1247 was released at 04:00 AM this morning. The suspect's personal information has been archived for possible further investigation.\u000a<<endif>>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[[more]|final results 4]]
+VNEWS UPDATE 3/3\u000a- - - -\u000a<<nobr>>\u000a<<if $protectionRequested is true>>\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aProtective measures have been granted to Suspect 1247 on the basis of his providing accurate information. The suspect will be relocated to a secret location as per Directive US-263.\u000a<<else>>\u000aSecurity forces have been requested for Suspect 1247, despite his providing erroneous information. As such, the Inspector in charge of intelligence gathering from this suspect is being held an additional 48 (forty-eight) hours in order to investigate the implications of such a request.\u000a<<endif>>\u000a\u000a<<else>>/% $protectionRequested is false %/\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aSuspect 1247 was released at 04:00 AM this morning, and his body was discovered at 08:45 AM. Primary leads suggest homicide by New Collective members in revenge for the suspect's leaking of key intelligence to the BEAR that led to the foiling of planned New Collective terrorist actions.\u000a<<else>>\u000aSuspect 1247 was released at 04:00 AM this morning. The suspect's personal information has been archived for possible further investigation.\u000a<<endif>>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[< more >|final results 4]]
 p4551
 sg23
 Vfinal results 3
@@ -14816,12 +14816,12 @@ sg25
 g26
 ((I2014
 I8
-I11
-I14
-I47
-I58
-I0
-I223
+I12
+I13
+I35
+I16
+I1
+I224
 I1
 tp4553
 (dp4554
@@ -15148,7 +15148,7 @@ tp4651
 Rp4652
 sbsasS'scale'
 p4653
-F1.0
+F0.8
 sS'snapping'
 p4654
 I01
