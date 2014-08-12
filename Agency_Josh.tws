@@ -143,7 +143,7 @@ Tiddler
 p55
 (dp56
 g21
-V<<playsound "pianoStatic.wav">>BUREAU INSPECTION INTERFACE VERSION 5.0.61a\u000a\u000aSYSTEM BOOTING UP.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<timedinsert 3s>>.<<endtimedinsert>><<timedinsert 4s>>.<<endtimedinsert>><<timedinsert 5s>>.<<endtimedinsert>><<timedinsert 6s>>.<<endtimedinsert>><<nobr>>\u000a\u000a<<timedgoto "start login" 8s>>\u000a\u000a/% General variables %/\u000a<<set $opinion to 1>>\u000a<<set $day to 1>>\u000a<<set $torture to 0>>\u000a<<set $tortureLimit to 3>>\u000a<<set $leftUnconscious to 0>>\u000a\u000a/% 0 = unavailable, 1 = available, 2 = explored %/\u000a\u000a/% DAY 1 %/\u000a\u000a/% day 1 start convos %/\u000a<<set $politicsConvo to 1>>\u000a<<set $personalConvo to 1>>\u000a<<set $forcingConvo to 1>>\u000a/% day 1 unlockable convos %/\u000a<<set $familyConvo to 0>>\u000a<<set $pearlStreetConvo to 0>>\u000a<<set $jobConvo to 0>>\u000a<<set $newCollectiveConvo to 0>>\u000a<<set $leaderConvo to 0>>\u000a/% day 1 crucial intel %/\u000a<<set $hKnow_intel to 0>>\u000a<<set $hThink_intel to 0>>\u000a<<set $hOpinion_intel to 0>>\u000a/% day 1 non-crucial intel %/\u000a<<set $job_intel to 0>>\u000a<<set $pearl_intel to 0>>\u000a<<set $family_intel to 0>>\u000a\u000a\u000a/% DAY 2 %/\u000a\u000a/% day 2 start convos %/\u000a<<set $actionConvo to 1>>\u000a<<set $carsonConvo to 1>>\u000a<<set $educationConvo to 1>>\u000a/% day 2 summary convo topics %/\u000a<<set $d2SumAction to false>>\u000a<<set $d2SumMotivation to false>>\u000a<<set $d2SumEducation to false>>\u000a/% day 2 report possibilities %/\u000a<<set $planFalse to 0>>\u000a<<set $planHalfTrue to 0>>\u000a<<set $planTrue to 0>>\u000a<<set $day2KnowNothing to false>>\u000a\u000a/% day 3 report possibilities %/\u000a\u000a<<set $planFalseDetails to 0>>\u000a<<set $planHalfTrueDetails to 0>>\u000a<<set $planTrueDetails to 0>>\u000a<<set $day3KnowNothing to false>>\u000a<<set $hewesLocation to 0>>\u000a\u000a<<set $protectionPromised to false>> /% Set to true if you promise to protect him; required to request protection in report %/\u000a<<set $protectionRequested to false>>\u000a<<set $negotiationPromised to false>>\u000a<<set $negotiationRequested to false>>\u000a\u000a\u000a/% OLD STUFF %/\u000a<<set $beginningOfDay to true>>\u000a<<set $conscious to true>>\u000a<<set $sleepTotal to 0>>\u000a<<set $sleepTonight to 0>>\u000a<<set $infoFound to false>>\u000a\u000a<<set $timeleft to 300>> /% in minutes, the time remaining each day, assuming that the inspector talks with his superior in the morning and starts the interrogation at 12:00 %/\u000a<<set $hadInterview to false>>\u000a<<set $hadBriefing to false>>\u000a<<set $day1_interview_directive to false>>\u000a<<set $day1_interview_room to false>>\u000a<<set $day1_interview_iq to false>>\u000a<<set $canClockOut to false>>\u000a\u000a<<set $submittedWho to 0>>\u000a<<set $submittedWhere to 0>>\u000a<<set $submittedWhen to 0>>\u000a<<set $submittedHow to 0>>\u000a\u000a/% day 2 unlockable convos - deprecated? %/\u000a<<set $hewesActionConvo to 0>>\u000a<<set $hewesThoughts to 0>>\u000a<<set $newCollectiveOriginsConvo to 0>>\u000a\u000a/% notes variables, organized by subject %/\u000a<<set $nSuspect to false>>\u000a<<set $nSuspect_NCTies to false>>\u000a<<set $nSuspect_Job to false>>\u000a<<set $nSuspect_Arrest to false>>\u000a<<set $nSuspect_Parents to false>>\u000a\u000a<<set $nCG to false>>\u000a<<set $nCG_Date to false>>\u000a<<set $nCG_Riots to false>>\u000a\u000a<<set $nNC to false>>\u000a<<set $nNC_Violent to false>>\u000a<<set $nNC_Leader to false>>\u000a\u000a<<set $nHewes to false>>\u000a<<set $nHewes_Leader to false>>\u000a<<set $nHewes_Whereabouts to false>>\u000a<<set $nHewes_Hacker to false>>\u000a<<endnobr>>
+V<<set $sfxPiano to "pianoStatic.wav">><<playsound $sfxPiano>>BUREAU INSPECTION INTERFACE VERSION 5.0.61a\u000a\u000aSYSTEM BOOTING UP.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<timedinsert 3s>>.<<endtimedinsert>><<timedinsert 4s>>.<<endtimedinsert>><<timedinsert 5s>>.<<endtimedinsert>><<timedinsert 6s>>.<<endtimedinsert>><<nobr>>\u000a\u000a<<timedgoto "start login" 8s>>\u000a\u000a/% General variables %/\u000a<<set $opinion to 1>>\u000a<<set $day to 1>>\u000a<<set $torture to 0>>\u000a<<set $tortureLimit to 3>>\u000a<<set $leftUnconscious to 0>>\u000a\u000a/% 0 = unavailable, 1 = available, 2 = explored %/\u000a\u000a/% DAY 1 %/\u000a\u000a/% day 1 start convos %/\u000a<<set $politicsConvo to 1>>\u000a<<set $personalConvo to 1>>\u000a<<set $forcingConvo to 1>>\u000a/% day 1 unlockable convos %/\u000a<<set $familyConvo to 0>>\u000a<<set $pearlStreetConvo to 0>>\u000a<<set $jobConvo to 0>>\u000a<<set $newCollectiveConvo to 0>>\u000a<<set $leaderConvo to 0>>\u000a/% day 1 crucial intel %/\u000a<<set $hKnow_intel to 0>>\u000a<<set $hThink_intel to 0>>\u000a<<set $hOpinion_intel to 0>>\u000a/% day 1 non-crucial intel %/\u000a<<set $job_intel to 0>>\u000a<<set $pearl_intel to 0>>\u000a<<set $family_intel to 0>>\u000a\u000a\u000a/% DAY 2 %/\u000a\u000a/% day 2 start convos %/\u000a<<set $actionConvo to 1>>\u000a<<set $carsonConvo to 1>>\u000a<<set $educationConvo to 1>>\u000a/% day 2 summary convo topics %/\u000a<<set $d2SumAction to false>>\u000a<<set $d2SumMotivation to false>>\u000a<<set $d2SumEducation to false>>\u000a/% day 2 report possibilities %/\u000a<<set $planFalse to 0>>\u000a<<set $planHalfTrue to 0>>\u000a<<set $planTrue to 0>>\u000a<<set $day2KnowNothing to false>>\u000a\u000a/% day 3 report possibilities %/\u000a\u000a<<set $planFalseDetails to 0>>\u000a<<set $planHalfTrueDetails to 0>>\u000a<<set $planTrueDetails to 0>>\u000a<<set $day3KnowNothing to false>>\u000a<<set $hewesLocation to 0>>\u000a\u000a<<set $protectionPromised to false>> /% Set to true if you promise to protect him; required to request protection in report %/\u000a<<set $protectionRequested to false>>\u000a<<set $negotiationPromised to false>>\u000a<<set $negotiationRequested to false>>\u000a\u000a\u000a/% OLD STUFF %/\u000a<<set $beginningOfDay to true>>\u000a<<set $conscious to true>>\u000a<<set $sleepTotal to 0>>\u000a<<set $sleepTonight to 0>>\u000a<<set $infoFound to false>>\u000a\u000a<<set $timeleft to 300>> /% in minutes, the time remaining each day, assuming that the inspector talks with his superior in the morning and starts the interrogation at 12:00 %/\u000a<<set $hadInterview to false>>\u000a<<set $hadBriefing to false>>\u000a<<set $day1_interview_directive to false>>\u000a<<set $day1_interview_room to false>>\u000a<<set $day1_interview_iq to false>>\u000a<<set $canClockOut to false>>\u000a\u000a<<set $submittedWho to 0>>\u000a<<set $submittedWhere to 0>>\u000a<<set $submittedWhen to 0>>\u000a<<set $submittedHow to 0>>\u000a\u000a/% day 2 unlockable convos - deprecated? %/\u000a<<set $hewesActionConvo to 0>>\u000a<<set $hewesThoughts to 0>>\u000a<<set $newCollectiveOriginsConvo to 0>>\u000a\u000a/% notes variables, organized by subject %/\u000a<<set $nSuspect to false>>\u000a<<set $nSuspect_NCTies to false>>\u000a<<set $nSuspect_Job to false>>\u000a<<set $nSuspect_Arrest to false>>\u000a<<set $nSuspect_Parents to false>>\u000a\u000a<<set $nCG to false>>\u000a<<set $nCG_Date to false>>\u000a<<set $nCG_Riots to false>>\u000a\u000a<<set $nNC to false>>\u000a<<set $nNC_Violent to false>>\u000a<<set $nNC_Leader to false>>\u000a\u000a<<set $nHewes to false>>\u000a<<set $nHewes_Leader to false>>\u000a<<set $nHewes_Whereabouts to false>>\u000a<<set $nHewes_Hacker to false>>\u000a<<endnobr>>
 p57
 sg23
 VStart
@@ -153,9 +153,9 @@ g26
 ((I2014
 I8
 I12
-I15
-I51
-I45
+I16
+I58
+I7
 I1
 I224
 I1
@@ -1403,7 +1403,7 @@ Tiddler
 p437
 (dp438
 g21
-VSUSPECT 1247\u000a- - - -\u000aCONNECTING.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<nobr>>\u000a\u000a<<if $day == 1>>\u000a<<timedgoto "greeting1" 3s>>\u000a<<else if $day == 2>>\u000a<<timedgoto "greeting2" 3s>>\u000a<<else if $day == 3>>\u000a<<timedgoto "day 3" 3s>>\u000a<<else>>/% failsafe, should never be called %/\u000a<<timedgoto "greeting1" 3s>>\u000a<<endif>>\u000a<<endnobr>>
+V<<playsound $sfxPiano>>SUSPECT 1247\u000a- - - -\u000aCONNECTING.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<nobr>>\u000a\u000a<<if $day == 1>>\u000a<<timedgoto "greeting1" 3s>>\u000a<<else if $day == 2>>\u000a<<timedgoto "greeting2" 3s>>\u000a<<else if $day == 3>>\u000a<<timedgoto "day 3" 3s>>\u000a<<else>>/% failsafe, should never be called %/\u000a<<timedgoto "greeting1" 3s>>\u000a<<endif>>\u000a<<endnobr>>
 p439
 sg23
 Vsuspect connecting
@@ -1412,12 +1412,12 @@ sg25
 g26
 ((I2014
 I8
-I11
-I14
+I12
+I16
+I59
+I38
 I1
-I5
-I0
-I223
+I224
 I1
 tp441
 (dp442
@@ -2314,7 +2314,7 @@ tp714
 Rp715
 sbsa(dp716
 g14
-I01
+I00
 sg15
 (lp717
 F2670.0
@@ -4419,7 +4419,7 @@ Tiddler
 p1355
 (dp1356
 g21
-V<<set $day++>>//Have a pleasant and productive evening, Inspector.<<timedinsert 2s>>\u000a\u000aEntering sleep mode.<<endtimedinsert>>//<<timedinsert 4s>>\u000a\u000a.<<endtimedinsert>><<timedinsert 5s>>.<<endtimedinsert>><<timedinsert 6s>>.<<endtimedinsert>><<timedinsert 7s>>.<<endtimedinsert>><<timedinsert 8s>>.<<endtimedinsert>><<timedinsert 9s>>.<<endtimedinsert>><<timedgoto 'start login' 11s>>
+V<<playsound $sfxPiano>><<set $day++>>//Have a pleasant and productive evening, Inspector.<<timedinsert 2s>>\u000a\u000aEntering sleep mode.<<endtimedinsert>>//<<timedinsert 4s>>\u000a\u000a.<<endtimedinsert>><<timedinsert 5s>>.<<endtimedinsert>><<timedinsert 6s>>.<<endtimedinsert>><<timedinsert 7s>>.<<endtimedinsert>><<timedinsert 8s>>.<<endtimedinsert>><<timedinsert 9s>>.<<endtimedinsert>><<timedgoto 'start login' 11s>>
 p1357
 sg23
 Vnight
@@ -4430,8 +4430,8 @@ g26
 I8
 I12
 I16
-I29
-I16
+I58
+I26
 I1
 I224
 I1
@@ -5729,7 +5729,7 @@ Tiddler
 p1760
 (dp1761
 g21
-VSUSPECT 1247 is now connected.\u000a- - - -\u000a<<nobr>>\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>><em class="suspect">Is that you, Inspector?</em><<endtimedinsert>><<timedinsert 5s>><br><br>\u000a\u000a[[Wake up, prisoner. Time to talk.|greeting 2a][$opinion--]]<br>\u000a<br>\u000a[[Yes. Let's get down to business.|greeting 2b]]<br>\u000a<br>\u000a[[It's me. I hope the night wasn't too tough on you.|greeting 2c][$opinion++]]\u000a<<endtimedinsert>>\u000a<<endnobr>>
+VSUSPECT 1247 is now connected.\u000a- - - -\u000a<<nobr>>\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>><em class="suspect">Is that you again, Inspector?</em><<endtimedinsert>><<timedinsert 5s>><br><br>\u000a\u000a[[Wake up, prisoner. Time to talk.|greeting 2a][$opinion--]]<br>\u000a<br>\u000a[[Yes. Let's get down to business.|greeting 2b]]<br>\u000a<br>\u000a[[It's me. I hope the night wasn't too tough on you.|greeting 2c][$opinion++]]\u000a<<endtimedinsert>>\u000a<<endnobr>>
 p1762
 sg23
 Vgreeting2
@@ -5738,12 +5738,12 @@ sg25
 g26
 ((I2014
 I8
-I11
-I13
-I48
-I10
-I0
-I223
+I12
+I16
+I52
+I52
+I1
+I224
 I1
 tp1764
 (dp1765
@@ -14507,7 +14507,7 @@ Tiddler
 p4459
 (dp4460
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">I didn't get much sleep, that's for sure. Well, let's get this over with.</em>\u000a\u000a<<display 'conversation hub'>>
+VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">They don't let you get much sleep here. Well, let's get this over with.</em>\u000a\u000a<<display 'conversation hub'>>
 p4461
 sg23
 Vgreeting 2c
@@ -14516,12 +14516,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I15
-I19
-I47
-I4
-I220
+I12
+I16
+I52
+I17
+I1
+I224
 I1
 tp4463
 (dp4464
@@ -14857,7 +14857,7 @@ Tiddler
 p4564
 (dp4565
 g21
-V<em>You are no longer required to use this version of the Bureau Inspection Interface. Please return to your office and resume your ordinary work schedule until further notified.</em>\u000a\u000a<<nobr>>\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000a<em>Good work, Inspector.</em>\u000a<<else>>\u000a<em>Thank you, Inspector.</em>\u000a<<endif>>\u000a</em><<timedgoto 'game end' 300s>>\u000a<<endnobr>>
+V<<playsound $sfxPiano>><em>You are no longer required to use this version of the Bureau Inspection Interface. Please return to your office and resume your ordinary work schedule until further notified.</em>\u000a\u000a<<nobr>>\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000a<em>Good work, Inspector.</em>\u000a<<else>>\u000a<em>Thank you, Inspector.</em>\u000a<<endif>>\u000a</em><<timedgoto 'game end' 300s>>\u000a<<endnobr>>
 p4566
 sg23
 Vfinal results 4
@@ -14867,9 +14867,9 @@ g26
 ((I2014
 I8
 I12
-I15
-I55
-I49
+I16
+I58
+I51
 I1
 I224
 I1
