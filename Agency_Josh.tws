@@ -10879,7 +10879,7 @@ Tiddler
 p3335
 (dp3336
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">They want to attack Carson, they want to hurt Carson, I promise this is all I know, that's what they're going to do...</em>\u000a\u000a[[Tell me more.|d3 ht torture notready 1]]\u000a/% deliberately leads back here%/\u000a[[(Apply physical encouragement.)|d3 ht torture c][$torture++; $opinion--]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">They want to attack Carson, they want to hurt Carson, I promise this is all I know, that's what they're going to do...</em>\u000a\u000a[[Tell me more.|d3 ht torture notready 1]]\u000a/% deliberately leads back here%/\u000a[[(Apply physical encouragement.)|d3 ht torture c][$opinion--]]
 p3337
 sg23
 Vd3 ht torture notready 1
@@ -10888,12 +10888,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I11
-I45
-I33
-I4
-I220
+I13
+I14
+I49
+I26
+I2
+I225
 I1
 tp3339
 (dp3340
@@ -10933,7 +10933,7 @@ Tiddler
 p3352
 (dp3353
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">No, no, no no no no no. Please no more. Stop.</em>\u000a\u000a[[Listen. You give the details I want, I'll give you my word that whatever is happening to you stops now.|d3 ht torture notready 1 1 1][set $promiseTorture == true]]\u000a\u000a[[I need more. (Apply physical encouragement.)|d3 ht torture d][$torture++; $opinion--]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">No, no, no no no no no. Please no more. Stop.</em>\u000a\u000a[[Listen. You give the details I want, I'll give you my word that whatever is happening to you stops now.|d3 ht torture notready 1 1 1][set $promiseTorture == true]]\u000a\u000a[[I need more. (Apply physical encouragement.)|d3 ht torture d][$opinion--]]
 p3354
 sg23
 Vd3 ht torture notready 1 1
@@ -10942,12 +10942,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I11
-I45
-I47
-I4
-I220
+I13
+I14
+I46
+I6
+I2
+I225
 I1
 tp3356
 (dp3357
@@ -11039,7 +11039,7 @@ Tiddler
 p3385
 (dp3386
 g21
-V<<set $planHalfTrueDetails to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Alright. They want to hit the Carson CEO and the CIO, and they will do it, they will do it by... blowing up the elevator, there's a private elevator for the... council... board... board meeting room, and it needs maintenance and I think... the maintenance team... I think he knows the maintenance team.</em>\u000a\u000a[[That'll do. There, that wasn't so hard.|d3 ht torture done]]\u000a\u000a[[You forgot to give me a precise time. (Apply physical encouragement.)|d3 ht torture f][$torture++;$opinion--]] /%if you do it even though you had promised not to torture, you'll break him and then you're fucked %/
+V<<set $planHalfTrueDetails to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Alright. They want to hit the Carson CEO and the CIO, and they will do it, they will do it by... blowing up the elevator, there's a private elevator for the... council... board... board meeting room, and it needs maintenance and I think... the maintenance team... I think he knows the maintenance team.</em>\u000a\u000a[[That'll do. There, that wasn't so hard.|d3 ht torture done]]\u000a\u000a[[You forgot to give me a precise time. (Apply physical encouragement.)|d3 ht torture f][$opinion--]] /%if you do it even though you had promised not to torture, you'll break him and then you're fucked %/
 p3387
 sg23
 Vd3 ht torture notready 1 1 1
@@ -11048,12 +11048,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I16
-I56
-I11
-I4
-I220
+I13
+I14
+I45
+I42
+I2
+I225
 I1
 tp3389
 (dp3390
