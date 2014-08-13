@@ -7065,7 +7065,7 @@ Tiddler
 p2168
 (dp2169
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Well, I'm a 37-year-old Caucasian male, about six foot thr<<timedinsert 1s>>-<<endtimedinsert>><<timedinsert 2s>>-<<endtimedinsert>> <<timedinsert 4s>>\u000a\u000a(Error: Speech cannot be parsed.)<<endtimedinsert>></em>\u000a\u000a<<timedgoto "education 2 g" 6s>>
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Well, I'm a 37-year-old Caucasian male, about six foot thr</em><<timedinsert 1s>>-<<endtimedinsert>><<timedinsert 2s>>-<<endtimedinsert>> <<timedinsert 4s>>\u000a\u000a(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<timedgoto "education 2 g" 6s>>
 p2170
 sg23
 Veducation 2 f
@@ -7074,12 +7074,12 @@ sg25
 g26
 ((I2014
 I8
-I4
-I15
-I30
-I5
-I0
-I216
+I13
+I16
+I55
+I42
+I2
+I225
 I1
 tp2172
 (dp2173
@@ -8305,7 +8305,7 @@ Tiddler
 p2548
 (dp2549
 g21
-VFINAL INSPECTION REPORT - 10/23/47\u000a- - - -\u000a<<nobr>>\u000a<<if $hewesLocation == 1>>[[Write: "The location of New Collective leader James Hewes has been traced to New York City, 598 East 7th Street, Apartment 2. We recommend sending a S.W.A.T. team to arrest him as soon as possible."|report 3 submit][$hewesLocation = 2]]<br><br>\u000a<<endif>>\u000a\u000a<<if $planTrueDetails == 1>>[[Write: "The suspect claims that James Hewes is planning to assassinate Supreme Court Justice Richardson near his private residence early in the morning. We recommend committing security forces to protect Justice Richardson."|report 3 submit][$planTrueDetails = 2]]\u000a\u000a<<else if $planHalfTrueDetails == 1>>[[Write: "The suspect claims that James Hewes is planning to attack the board of the Carson Group. We recommend committing security forces to protect their corporate headquarters."|report 3 submit][$planHalfTrueDetails = 2]]\u000a\u000a<<else if $planFalseDetails == 1>>[[Write: "The suspect claims that James Hewes is planning to hijack the League Finals tonight. We recommend committing security forces to the stadium."|report 3 submit][$planFalseDetails = 2]]\u000a\u000a<<else if $day3KnowNothing is false and $hewesLocation neq 1>>[[Write: "The suspect was unwilling to divulge further details about the plans of James Hewes."|report 3 submit][$day3KnowNothing = true]]\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[Write: "No useful information has been acquired from the suspect."|report 3 submit][$day3KnowNothing = true]]
+VFINAL INSPECTION REPORT - 10/23/47\u000a- - - -\u000a<<nobr>>\u000a<<if $hewesLocation == 1>>[[Write: "The location of New Collective leader James Hewes has been traced to New York City, 598 East 7th Street, Apartment 2. It is recommended to send a S.W.A.T. team to arrest him as soon as possible."|report 3 submit][$hewesLocation = 2]]<br><br>\u000a<<endif>>\u000a\u000a<<if $planTrueDetails == 1>>[[Write: "The suspect claims that James Hewes is planning to assassinate Supreme Court Justice Richardson near his private residence early in the morning. It is recommended to commit security forces to protect Justice Richardson."|report 3 submit][$planTrueDetails = 2]]\u000a\u000a<<else if $planHalfTrueDetails == 1>>[[Write: "The suspect claims that James Hewes is planning to attack the board of the Carson Group. It is recommended to commit security forces to protect their corporate headquarters."|report 3 submit][$planHalfTrueDetails = 2]]\u000a\u000a<<else if $planFalseDetails == 1>>[[Write: "The suspect claims that James Hewes is planning to hijack the League Finals tonight. It is recommended to commit security forces to the stadium."|report 3 submit][$planFalseDetails = 2]]\u000a\u000a<<else if $day3KnowNothing is false and $hewesLocation neq 1>>[[Write: "The suspect was unwilling to divulge further details about the plans of James Hewes."|report 3 submit][$day3KnowNothing = true]]\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[Write: "No useful information has been acquired from the suspect."|report 3 submit][$day3KnowNothing = true]]
 p2550
 sg23
 Vreport 3
@@ -8315,9 +8315,9 @@ g26
 ((I2014
 I8
 I13
-I15
-I31
-I43
+I16
+I58
+I17
 I2
 I225
 I1
@@ -14557,7 +14557,7 @@ Tiddler
 p4474
 (dp4475
 g21
-VFINAL INSPECTION REPORT - 10/23/47\u000a- - - -\u000a<<nobr>>\u000a<<if $hewesLocation == 2>>-- The location of New Collective leader James Hewes has been traced to New York City, 598 East 7th Street, Apartment 2. We recommend sending a S.W.A.T. team to arrest him as soon as possible.<br><br>\u000a\u000a<<else if $planTrueDetails == 2>>-- The suspect claims that James Hewes is planning to assassinate Supreme Court Justice Richardson near his private residence early in the morning. We recommend committing security forces to protect Justice Richardson.<br><br>\u000a\u000a<<else if $planHalfTrueDetails == 2>>-- The suspect claims that James Hewes is planning to attack the board of the Carson Group. We recommend committing security forces to protect their corporate headquarters.<br><br>\u000a\u000a<<else if $planFalseDetails == 2>>-- The suspect claims that James Hewes is planning to hijack the League Finals tonight. We recommend committing security forces to the stadium.<br><br>\u000a\u000a<<else if $day3KnowNothing is true>>-- The suspect was unwilling to divulge further details about the plans of James Hewes.<br><br>\u000a<<endif>>\u000a\u000a\u000a<<if $protectionPromised is true and $noRequests is false>>\u000a<<if $protectionRequested is false>>\u000a[[Add: "The suspect has requested Bureau protection following his impending release. Due to his cooperation, it is recommended that this request be honored."|report 3 submit][$protectionRequested = true]]<br><br>\u000a<<else>>\u000a-- The suspect has requested Bureau protection following his impending release. Due to his cooperation, it is recommended that this request be honored.<br><br>\u000a<<endif>>\u000a<<endif>>\u000a\u000a<<if $negotiationPromised is true and $noRequests is false>>\u000a<<if $negotiationRequested is false>>\u000a[[Add: "The suspect has indicated a willingness on the part of James Hewes to enter into diplomacy with the government. In order to minimize future casualties, it is recommended to negotiate with Hewes in good faith upon his capture."|report 3 submit][$negotiationRequested = true]]<br><br>\u000a<<else>>\u000a-- The suspect has indicated a willingness on the part of James Hewes to enter into diplomacy with the government. In order to minimize future casualties, it is recommended to negotiate with Hewes in good faith upon his capture.<br><br>\u000a<<endif>>\u000a<<endif>>\u000a\u000a<<if $protectionRequested is false and $negotiationRequested is false>>\u000a<<if $noRequests is false>>\u000a[[Add: "No extraordinary protocols are recommended with regard to this inspection."|report 3 submit][$noRequests = true]]<br><br>\u000a<<else>>-- No extraordinary protocols are recommended with regard to this inspection.<br><br>\u000a<<endif>>\u000a<<endif>>\u000a\u000a<<if $noRequests is true or $negotiationRequested is true or $protectionRequested is true>>[[< Submit final report and log out >|night]]<<endif>>\u000a<<endnobr>>
+VFINAL INSPECTION REPORT - 10/23/47\u000a- - - -\u000a<<nobr>>\u000a<<if $hewesLocation == 2>>-- The location of New Collective leader James Hewes has been traced to New York City, 598 East 7th Street, Apartment 2. It is recommended to send a S.W.A.T. team to arrest him as soon as possible.<br><br>\u000a\u000a<<else if $planTrueDetails == 2>>-- The suspect claims that James Hewes is planning to assassinate Supreme Court Justice Richardson near his private residence early in the morning. It is recommended to commit security forces to protect Justice Richardson.<br><br>\u000a\u000a<<else if $planHalfTrueDetails == 2>>-- The suspect claims that James Hewes is planning to attack the board of the Carson Group. It is recommended to commit security forces to protect their corporate headquarters.<br><br>\u000a\u000a<<else if $planFalseDetails == 2>>-- The suspect claims that James Hewes is planning to hijack the League Finals tonight. It is recommended to commit security forces to the stadium.<br><br>\u000a\u000a<<else if $day3KnowNothing is true>>-- The suspect was unwilling to divulge further details about the plans of James Hewes.<br><br>\u000a<<endif>>\u000a\u000a\u000a<<if $protectionPromised is true and $noRequests is false>>\u000a<<if $protectionRequested is false>>\u000a[[Add: "The suspect has requested Bureau protection following his impending release. Due to his cooperation, it is recommended that this request be honored."|report 3 submit][$protectionRequested = true]]<br><br>\u000a<<else>>\u000a-- The suspect has requested Bureau protection following his impending release. Due to his cooperation, it is recommended that this request be honored.<br><br>\u000a<<endif>>\u000a<<endif>>\u000a\u000a<<if $negotiationPromised is true and $noRequests is false>>\u000a<<if $negotiationRequested is false>>\u000a[[Add: "The suspect has indicated a willingness on the part of James Hewes to enter into diplomacy with the government. In order to minimize future casualties, it is recommended to negotiate with Hewes in good faith upon his capture."|report 3 submit][$negotiationRequested = true]]<br><br>\u000a<<else>>\u000a-- The suspect has indicated a willingness on the part of James Hewes to enter into diplomacy with the government. In order to minimize future casualties, it is recommended to negotiate with Hewes in good faith upon his capture.<br><br>\u000a<<endif>>\u000a<<endif>>\u000a\u000a<<if $protectionRequested is false and $negotiationRequested is false>>\u000a<<if $noRequests is false>>\u000a[[Add: "No extraordinary protocols are recommended with regard to this inspection."|report 3 submit][$noRequests = true]]<br><br>\u000a<<else>>-- No extraordinary protocols are recommended with regard to this inspection.<br><br>\u000a<<endif>>\u000a<<endif>>\u000a\u000a<<if $noRequests is true or $negotiationRequested is true or $protectionRequested is true>>[[< Submit final report and log out >|night]]<<endif>>\u000a<<endnobr>>
 p4476
 sg23
 Vreport 3 submit
@@ -14567,9 +14567,9 @@ g26
 ((I2014
 I8
 I13
-I15
-I32
-I49
+I16
+I58
+I51
 I2
 I225
 I1
