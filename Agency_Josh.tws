@@ -535,7 +535,7 @@ Tiddler
 p173
 (dp174
 g21
-V<em>Welcome, Inspector.</em>\u000a\u000a\u000a1 new task has been assigned by your Inspection Manager. \u000a\u000aTask duration: 3 days (completion required by 10/23/47 at 5:00 PM)\u000a\u000a[[Please click here for a task briefing.|briefing objective]]
+V<em>Welcome, Inspector.</em>\u000a\u000a1 new task has been assigned by your Inspection Manager. \u000a\u000aTask duration: 3 days (completion required by 10/23/47 at 5:00 PM)\u000a\u000a[[Please click here for a task briefing.|briefing objective]]
 p175
 sg23
 Vstart welcome
@@ -544,12 +544,12 @@ sg25
 g26
 ((I2014
 I8
+I13
 I12
-I15
-I31
+I0
+I51
 I2
-I1
-I224
+I225
 I1
 tp177
 (dp178
@@ -1351,7 +1351,7 @@ Tiddler
 p421
 (dp422
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>><em class="suspect">Yes. They're long gone. Hewes wants to pick up where they were forced to leave off after Pearl Street.</em><<endtimedinsert>>\u000a\u000a<<timedinsert 4s>><<display 'conversation hub'>><<endtimedinsert>>
+VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">They're long gone, but Hewes wants to pick up where they were forced to leave off after Pearl Street.</em>\u000a\u000a<<timedinsert 1s>><<display 'conversation hub'>><<endtimedinsert>>
 p423
 sg23
 Vriots 7
@@ -1360,12 +1360,12 @@ sg25
 g26
 ((I2014
 I8
-I12
-I16
-I43
-I53
+I13
+I11
+I59
 I1
-I224
+I2
+I225
 I1
 tp425
 (dp426
@@ -4052,7 +4052,7 @@ tp1243
 Rp1244
 sbsa(dp1245
 g14
-I00
+I01
 sg15
 (lp1246
 F2670.0
@@ -4063,7 +4063,7 @@ Tiddler
 p1247
 (dp1248
 g21
-V<<set $hKnow_intel to 1>>SUSPECT 1247\u000a- - - -\u000a<<timedinsert 1s>><em class="suspect">I think...</em><<endtimedinsert>>\u000a\u000a<<timedinsert 3s>><em class="suspect">It might be my work. I consulted for James Hewes' defense in 2039 with the Boston Center for Civil Activism.</em><<endtimedinsert>>\u000a\u000a<<nobr>><<if $jobConvo neq 2>><<set $jobConvo to 1>>\u000a<<timedinsert 5s>>[[You're still with them. Legal Analyst.|job 1][$jobConvo = 2]]<<endtimedinsert>><br><<endif>><<endnobr>>\u000a<<timedinsert 5s>>[[Sure. Little watchdogs, barking away.|3s return][$opinion--]]<<endtimedinsert>>\u000a\u000a<<timedinsert 5s>>[[We need people like you, even now.|personal 1 a 3][$opinion++]]<<endtimedinsert>>
+V<<set $hKnow_intel to 1>>SUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<em class="suspect">I think...</em>\u000a\u000a<<timedinsert 2s>><br><br><em class="suspect">It might be my work. I consulted for James Hewes' defense in 2039 with the Boston Center for Civil Activism.</em><<endtimedinsert>>\u000a\u000a<<timedinsert 5s>><<if $jobConvo neq 2>><<set $jobConvo to 1>><br><br>\u000a[[You're still with them. Legal Analyst.|job 1][$jobConvo = 2]]<<endif>>\u000a\u000a<br><br>[[Sure. Little watchdogs, barking away.|3s return][$opinion--]]\u000a\u000a<br><br>[[We need people like you, even now.|personal 1 a 3][$opinion++]]<<endtimedinsert>>\u000a<<endnobr>>
 p1249
 sg23
 Vpersonal 1 a 4
@@ -4073,9 +4073,9 @@ g26
 ((I2014
 I8
 I13
+I12
 I9
-I45
-I35
+I33
 I2
 I225
 I1
