@@ -4052,7 +4052,7 @@ tp1243
 Rp1244
 sbsa(dp1245
 g14
-I01
+I00
 sg15
 (lp1246
 F2670.0
@@ -8455,7 +8455,7 @@ Tiddler
 p2593
 (dp2594
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">You really want him to be someone different, someone extraordinary, don't you?\u000a\u000aI hate to disappoint you, but he's not. He's just a human being like you and me. And he can be reasoned with.</em>\u000a\u000a[[We don't negotiate with terrorists.|sum education reason no][$opinion--]]\u000a\u000a[[That could never happen.|sum education reason yes]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">You really want him to be someone different, someone extraordinary, don't you?\u000a\u000aI hate to disappoint you, but he's not. He's just a human being like you and me. And he can be reasoned with.</em>\u000a\u000a[[He's a problem.|sum motivation assumption]]\u000a\u000a[[We don't negotiate with terrorists.|sum education reason no][$opinion--]]\u000a\u000a[[That could never happen.|sum education reason yes]]
 p2595
 sg23
 Vsum education
@@ -8464,12 +8464,12 @@ sg25
 g26
 ((I2014
 I8
-I6
-I11
-I9
-I52
+I13
+I13
+I46
+I33
 I2
-I218
+I225
 I1
 tp2597
 (dp2598
@@ -8971,7 +8971,7 @@ Tiddler
 p2751
 (dp2752
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Hewes is not the problem. Torture, arbitrary arrests, corruption across every level of government... this is the path to tyranny, Inspector.\u000a\u000aIt's not too late to turn back, but it starts with individuals looking at the world around them and making a choice.</em>\u000a\u000a[[I'll keep that in mind.|3s return SumD2]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Hewes is not the problem. Torture, arbitrary arrests, corruption across every level of government... this is the path to tyranny, Inspector.\u000a\u000aIt's not too late to turn back, but it starts with individuals looking at the world around them and making a choice.</em>\u000a\u000a[[Individuals like you and me.|3s return SumD2]]\u000a\u000a[[I'll keep that in mind.|3s return SumD2]]
 p2753
 sg23
 Vsum education reason no 1
@@ -8980,12 +8980,12 @@ sg25
 g26
 ((I2014
 I8
-I6
-I11
-I31
-I59
+I13
+I13
+I48
+I49
 I2
-I218
+I225
 I1
 tp2755
 (dp2756
@@ -9171,7 +9171,7 @@ Tiddler
 p2811
 (dp2812
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">You know as well as I do that it's a complicated issue.</em>\u000a\u000a[[That's enough about this.|3s return SumD2]]\u000a\u000a[[Let's make it simpler. (Apply physical encouragement.)|sum action torture][$opinion--;$torture++]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">You know as well as I do that it's a complicated issue.</em>\u000a\u000a[[That's enough about this.|3s return SumD2]]\u000a\u000a[[So he's taking on complex social issues, not just political ones?|sum action doubt]]\u000a\u000a[[Let's make it simpler. (Apply physical encouragement.)|sum action torture][$opinion--;$torture++]]
 p2813
 sg23
 Vsum motivation solution 2
@@ -9180,12 +9180,12 @@ sg25
 g26
 ((I2014
 I8
-I6
-I11
-I32
-I17
+I13
+I13
+I48
+I19
 I2
-I218
+I225
 I1
 tp2815
 (dp2816
