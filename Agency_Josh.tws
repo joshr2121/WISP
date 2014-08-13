@@ -891,7 +891,7 @@ Tiddler
 p281
 (dp282
 g21
-V<<set $pearl_intel to 1>>SUSPECT 1247\u000a- - - -\u000a<em class="suspect">That was over a decade ago. I was practically a kid. I remember exactly when the police opened fire and loosed the dogs. It was the most terrifying moment of my life.</em>\u000a\u000a[[Do you regret it?|riots 2]]\u000a\u000a[[We all make mistakes.|riots 4]]
+V<<set $pearl_intel to 1>>SUSPECT 1247\u000a- - - -\u000a<em class="suspect">That was over a decade ago. I was practically a kid. I remember exactly when the police opened fire and loosed the dogs. It was the most terrifying moment of my life.</em>\u000a\u000a[[Do you regret it?|riots 2]]\u000a\u000a[[We all make mistakes.|riots 4]]\u000a\u000a[[You should have known that would happen.|riots 4]]
 p283
 sg23
 Vriots 1
@@ -901,9 +901,9 @@ g26
 ((I2014
 I8
 I13
-I9
-I54
-I51
+I15
+I56
+I45
 I2
 I225
 I1
@@ -12253,7 +12253,7 @@ Tiddler
 p3762
 (dp3763
 g21
-V<<set $planHalfTrueDetails to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Fine. He's targeting Carson, but not everyone there. Specifically the people with ties or relations to the government. The people that instigated the whole case. He's not going to get to them at their homes, though. He wants the world to see it happen at the Carson headquarters.</em>\u000a\u000a[[Thank you for your cooperation. < Disconnect and fill out final Inspection Report >|report 3]]
+V<<set $planHalfTrueDetails to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Fine. He's targeting the Carson Group, but not everyone there. Specifically the people with ties or relations to the government. The people that instigated the whole case. He's not going to get to them at their homes, though. He wants the world to see it happen at the Carson headquarters.</em>\u000a\u000a[[Thank you for your cooperation. < Disconnect and fill out final Inspection Report >|report 3]]
 p3764
 sg23
 Vd3 ht talk private admit b
@@ -12262,12 +12262,12 @@ sg25
 g26
 ((I2014
 I8
-I12
 I13
-I51
-I43
-I1
-I224
+I16
+I44
+I20
+I2
+I225
 I1
 tp3766
 (dp3767
@@ -13297,7 +13297,7 @@ Tiddler
 p4084
 (dp4085
 g21
-V<<set $planFalseDetails to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Hewes wants to use the event to make the people understand the sad state of their country. He'll disrupt the halftime show, and his collaborators will hold hostage any public officials present to ensure his security while he delivers his speech.\u000a\u000aI don't know if he plans to hurt the officials, though.</em>\u000a\u000a[[Thank you. < Disconnect and fill out final Inspection Report >|report 3]]\u000a\u000a[[We'll make sure that never happens. < Disconnect and fill out final Inspection Report >|report 3]]
+V<<set $planFalseDetails to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Hewes wants to use the League Finals to make the people understand the sad state of their country. He'll disrupt the halftime show, and his collaborators will hold hostage any public officials present to ensure his security while he delivers his speech.\u000a\u000aI don't know if he plans to hurt the officials, though.</em>\u000a\u000a[[Thank you. < Disconnect and fill out final Inspection Report >|report 3]]\u000a\u000a[[We'll make sure that never happens. < Disconnect and fill out final Inspection Report >|report 3]]
 p4086
 sg23
 Vd3 f repent 1 1 1
@@ -13306,12 +13306,12 @@ sg25
 g26
 ((I2014
 I8
-I12
 I13
-I54
-I12
-I1
-I224
+I16
+I45
+I27
+I2
+I225
 I1
 tp4088
 (dp4089
@@ -13507,7 +13507,7 @@ Tiddler
 p4149
 (dp4150
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">We all have them, and we all have to live with them.</em>\u000a\u000a[[That's right. I'm no different.|d3 redeem indiv similar]]\u000a\u000a[[I don't think you realize what kind of life I live.|d3 redeem indiv special]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">We all have them, and we all have to live with them.</em>\u000a\u000a[[That's right. I'm no different.|d3 redeem indiv similar]]\u000a\u000a[[Not me. I'm different.|d3 redeem indiv special]]
 p4151
 sg23
 Vd3 redeem indiv
@@ -13516,12 +13516,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I11
-I34
-I39
-I4
-I220
+I13
+I16
+I43
+I9
+I2
+I225
 I1
 tp4153
 (dp4154
@@ -13929,7 +13929,7 @@ Tiddler
 p4280
 (dp4281
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">And how do you think you're special?</em>\u000a\u000a[[Because I have power over others.|d3 redeem indiv special 1]]\u000a\u000a[[I've always felt different.|d3 redeem indiv special 1]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">And how exactly are you different?</em>\u000a\u000a[[Because I have power over others.|d3 redeem indiv special 1]]\u000a\u000a[[I've always felt that way.|d3 redeem indiv special 1]]
 p4282
 sg23
 Vd3 redeem indiv special
@@ -13938,12 +13938,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I11
-I34
-I52
-I4
-I220
+I13
+I16
+I42
+I59
+I2
+I225
 I1
 tp4284
 (dp4285
