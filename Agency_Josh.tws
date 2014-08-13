@@ -3193,7 +3193,7 @@ Tiddler
 p982
 (dp983
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">What do you believe in?</em>\u000a\u000a[[Don't interrogate me. Let's get back to the matter at hand.|conversation hub][$opinion--]]\u000a\u000a[[My family comes first.|forcing 10]]\u000a\u000a[[I do what's right for the people and my country. I protect them, I serve justice.|forcing 11]]\u000a\u000a[[I serve a higher good.|forcing 12]]
+VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">What do you believe in?</em>\u000a\u000a[[Don't interrogate me. Let's get back to the matter at hand.|conversation hub][$opinion--]]\u000a\u000a[[My family comes first.|forcing 10][$opinion++]]\u000a\u000a[[I do what's right for the people and my country. I protect them, I serve justice.|forcing 11]]\u000a\u000a[[I serve a higher good.|forcing 12]]
 p984
 sg23
 Vforcing 9
@@ -3202,12 +3202,12 @@ sg25
 g26
 ((I2014
 I8
-I4
-I11
-I4
-I3
-I0
-I216
+I13
+I14
+I6
+I39
+I2
+I225
 I1
 tp986
 (dp987
@@ -3217,6 +3217,8 @@ sg31
 (lp990
 Vop-1
 p991
+aVop+1
+p992
 asg33
 g26
 ((I2014
@@ -3228,28 +3230,28 @@ I11
 I4
 I206
 I1
-tp992
-(dp993
-tp994
-Rp995
-sbsa(dp996
+tp993
+(dp994
+tp995
+Rp996
+sbsa(dp997
 g14
 I00
 sg15
-(lp997
+(lp998
 F2810.0
 aF570.0
 asg17
 (itiddlywiki
 Tiddler
-p998
-(dp999
+p999
+(dp1000
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">I can understand that, Inspector.</em>\u000a\u000a<<display 'conversation hub'>>
-p1000
+p1001
 sg23
 Vforcing 8
-p1001
+p1002
 sg25
 g26
 ((I2014
@@ -3261,12 +3263,12 @@ I26
 I1
 I210
 I1
-tp1002
-(dp1003
-tp1004
-Rp1005
+tp1003
+(dp1004
+tp1005
+Rp1006
 sg31
-(lp1006
+(lp1007
 sg33
 g26
 ((I2014
@@ -3278,28 +3280,28 @@ I11
 I4
 I206
 I1
-tp1007
-(dp1008
-tp1009
-Rp1010
-sbsa(dp1011
+tp1008
+(dp1009
+tp1010
+Rp1011
+sbsa(dp1012
 g14
 I00
 sg15
-(lp1012
+(lp1013
 F3230.0
 aF570.0
 asg17
 (itiddlywiki
 Tiddler
-p1013
-(dp1014
+p1014
+(dp1015
 g21
 VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">And this is how you protect people?</em>\u000a\u000a[[The New Collective threatens national security and stability. They must be stopped.|3s return]]\u000a\u000a[[This is my job. We all have to do our part.|3s return]]\u000a\u000a[[We do this to scum like you so others don't have to suffer. (Apply physical encouragement.)|forcing 14][$torture++; $opinion--]]
-p1015
+p1016
 sg23
 Vforcing 11
-p1016
+p1017
 sg25
 g26
 ((I2014
@@ -3311,14 +3313,14 @@ I29
 I3
 I219
 I1
-tp1017
-(dp1018
-tp1019
-Rp1020
+tp1018
+(dp1019
+tp1020
+Rp1021
 sg31
-(lp1021
+(lp1022
 Vop-1
-p1022
+p1023
 asg33
 g26
 ((I2014
@@ -3330,48 +3332,46 @@ I4
 I4
 I206
 I1
-tp1023
-(dp1024
-tp1025
-Rp1026
-sbsa(dp1027
+tp1024
+(dp1025
+tp1026
+Rp1027
+sbsa(dp1028
 g14
 I00
 sg15
-(lp1028
+(lp1029
 F3090.0
 aF570.0
 asg17
 (itiddlywiki
 Tiddler
-p1029
-(dp1030
+p1030
+(dp1031
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">That's an honorable thing, Inspector.</em>\u000a\u000a[[I'm not here to impress you, prisoner.|3s return][$opinion--]]\u000a\u000a[[I couldn't agree more.|3s return][$opinion++]]\u000a\u000a<<if $familyConvo neq 2>><<set $familyConvo to 1>>[[Tell me about your family.|family 1][familyConvo = 2]]<<endif>>
-p1031
+VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">That's an honorable thing, Inspector.</em>\u000a\u000a[[I'm not here to impress you, prisoner.|3s return][$opinion--]]\u000a\u000a[[I couldn't agree more.|3s return]]\u000a\u000a<<if $familyConvo neq 2>><<set $familyConvo to 1>>[[Tell me about your family.|family 1][$familyConvo = 2]]<<endif>>
+p1032
 sg23
 Vforcing 10
-p1032
+p1033
 sg25
 g26
 ((I2014
 I8
-I4
-I11
-I4
-I11
-I0
-I216
+I13
+I14
+I18
+I23
+I2
+I225
 I1
-tp1033
-(dp1034
-tp1035
-Rp1036
+tp1034
+(dp1035
+tp1036
+Rp1037
 sg31
-(lp1037
+(lp1038
 Vop-1
-p1038
-aVop+1
 p1039
 asg33
 g26
@@ -4947,7 +4947,7 @@ Tiddler
 p1519
 (dp1520
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<set $planFalse to 1>><em class = "suspect">They... they want to target more people, they want to target their lives and their ideals. They want to bring down... they want to disrupt what keeps these people happy and distracted. Television. Movies. Sports.</em>\u000a\u000a[[You've done the right thing.|conversation hub]]
+VSUSPECT 1247\u000a- - - -\u000a<<set $planFalse to 1>><em class = "suspect">They... they want to target more people, they want to target their lives and their ideals. They want to bring down... they want to disrupt what keeps these people happy and distracted. Television. Movies. In particular, sports.</em>\u000a\u000a[[You've done the right thing.|conversation hub]]
 p1521
 sg23
 Vaction 1 hewes war false
@@ -4956,12 +4956,12 @@ sg25
 g26
 ((I2014
 I8
-I11
+I13
 I14
-I5
-I18
-I0
-I223
+I1
+I9
+I2
+I225
 I1
 tp1523
 (dp1524
@@ -5575,7 +5575,7 @@ Tiddler
 p1713
 (dp1714
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">The public didn't realize what a death sentence Carson v. US was, at the time. Money-makers and policy-makers shook hands and created a microcosm of power that excluded all others.</em>\u000a\u000a[[Nothing to be done about it now.|3s return]]\u000a\u000a[[Some people noticed. I did.|3s return][$opinion++]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">The public didn't realize what a death sentence Carson v. US was, at the time. Money-makers and policy-makers shook hands and created a microcosm of power that excluded everyone else.</em>\u000a\u000a[[Nothing to be done about it now.|3s return]]\u000a\u000a[[Some people noticed. I did.|3s return][$opinion++]]
 p1715
 sg23
 Vaction 1 system 3 carson
@@ -5584,12 +5584,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I15
-I23
+I13
+I14
 I20
-I4
-I220
+I7
+I2
+I225
 I1
 tp1717
 (dp1718
@@ -6401,9 +6401,9 @@ g26
 ((I2014
 I8
 I13
-I10
-I15
-I33
+I14
+I0
+I45
 I2
 I225
 I1
@@ -6413,7 +6413,7 @@ tp1967
 Rp1968
 sg31
 (lp1969
-VFALSE
+VHALFTRUE
 p1970
 aVop+1
 p1971
@@ -8305,7 +8305,7 @@ Tiddler
 p2548
 (dp2549
 g21
-VFINAL INSPECTION REPORT - 10/23/47\u000a- - - -\u000a<<nobr>>\u000a<<if $planTrueDetails == 1>>[[Write: "The suspect claims that James Hewes is planning to assassinate Supreme Court Justice Richardson near his private residence early in the morning. We recommend committing security forces to protect Justice Richardson."|report 3 submit][$planTrueDetails = 2]]\u000a\u000a<<else if $planHalfTrueDetails == 1>>[[Write: "The suspect claims that James Hewes is planning to attack the board of the Carson Group. We recommend committing security forces to protect their corporate headquarters."|report 3 submit][$planHalfTrueDetails = 2]]\u000a\u000a<<else if $planFalseDetails == 1>>[[Write: "The suspect claims that James Hewes is planning to hijack the League Finals tonight. We recommend committing security forces to the stadium."|report 3 submit][$planFalseDetails = 2]]\u000a\u000a<<else if $day3KnowNothing is false and $hewesLocation neq 1>>[[Write: "The suspect was unwilling to divulge further details about the plans of James Hewes."|report 3 submit][$day3KnowNothing = true]]\u000a<<endif>>\u000a\u000a<<if $hewesLocation == 1>><br><br>[[Write: "The location of New Collective leader James Hewes has been traced to New York City, 598 East 7th Street, Apartment 2. We recommend sending a S.W.A.T. team to arrest him as soon as possible."|report 3 submit][$hewesLocation = 2]]\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[Write: "No useful information has been acquired from the suspect."|report 3 submit][$day3KnowNothing = true]]
+VFINAL INSPECTION REPORT - 10/23/47\u000a- - - -\u000a<<nobr>>\u000a<<if $hewesLocation == 1>>[[Write: "The location of New Collective leader James Hewes has been traced to New York City, 598 East 7th Street, Apartment 2. We recommend sending a S.W.A.T. team to arrest him as soon as possible."|report 3 submit][$hewesLocation = 2]]<br><br>\u000a<<endif>>\u000a\u000a<<if $planTrueDetails == 1>>[[Write: "The suspect claims that James Hewes is planning to assassinate Supreme Court Justice Richardson near his private residence early in the morning. We recommend committing security forces to protect Justice Richardson."|report 3 submit][$planTrueDetails = 2]]\u000a\u000a<<else if $planHalfTrueDetails == 1>>[[Write: "The suspect claims that James Hewes is planning to attack the board of the Carson Group. We recommend committing security forces to protect their corporate headquarters."|report 3 submit][$planHalfTrueDetails = 2]]\u000a\u000a<<else if $planFalseDetails == 1>>[[Write: "The suspect claims that James Hewes is planning to hijack the League Finals tonight. We recommend committing security forces to the stadium."|report 3 submit][$planFalseDetails = 2]]\u000a\u000a<<else if $day3KnowNothing is false and $hewesLocation neq 1>>[[Write: "The suspect was unwilling to divulge further details about the plans of James Hewes."|report 3 submit][$day3KnowNothing = true]]\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[Write: "No useful information has been acquired from the suspect."|report 3 submit][$day3KnowNothing = true]]
 p2550
 sg23
 Vreport 3
@@ -8315,9 +8315,9 @@ g26
 ((I2014
 I8
 I13
-I11
-I47
-I33
+I14
+I34
+I39
 I2
 I225
 I1
@@ -8364,12 +8364,12 @@ sg25
 g26
 ((I2014
 I8
-I11
-I16
-I1
+I13
 I14
-I0
-I223
+I13
+I20
+I2
+I225
 I1
 tp2567
 (dp2568
@@ -8455,7 +8455,7 @@ Tiddler
 p2593
 (dp2594
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">You really want him to be someone different, someone extraordinary, don't you?\u000a\u000aI hate to disappoint you, but he's not. He's just a human being like you and me. And he can be reasoned with.</em>\u000a\u000a[[He's a problem.|sum motivation assumption]]\u000a\u000a[[We don't negotiate with terrorists.|sum education reason no][$opinion--]]\u000a\u000a[[That could never happen.|sum education reason yes]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">You really want him to be someone different, someone extraordinary, don't you?\u000a\u000aI hate to disappoint you, but he's not. He's just a human being like you and me. And he can be reasoned with.</em>\u000a\u000a[[He's a problem.|sum motivation assumption]]\u000a\u000a[[That could never happen.|sum education reason yes]]\u000a\u000a[[We don't negotiate with terrorists.|sum education reason no][$opinion--]]
 p2595
 sg23
 Vsum education
@@ -8466,8 +8466,8 @@ g26
 I8
 I13
 I13
-I46
-I33
+I52
+I35
 I2
 I225
 I1
@@ -8663,7 +8663,7 @@ Tiddler
 p2657
 (dp2658
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">You know who allowed Carson to happen. I'm sure you can name five or six of them at least.</em>\u000a\u000a[[So he's bringing his vendetta to the Supreme Court? That's incredible, but it makes sense.|sum action validate]]\u000a\u000a[[That's ridiculous. He'd never make it there.|sum action true details]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">You know who allowed Carson to happen. I'm sure you can name five or six of them at least.</em>\u000a\u000a[[So he's bringing his vendetta to the Supreme Court? That's incredible, but it makes sense.|sum action validate alt]]\u000a\u000a[[That's ridiculous. He'd never make it there.|sum action true details]]
 p2659
 sg23
 Vsum action true
@@ -8672,12 +8672,12 @@ sg25
 g26
 ((I2014
 I8
-I6
-I11
-I7
-I48
+I13
+I14
+I15
+I9
 I2
-I218
+I225
 I1
 tp2661
 (dp2662
@@ -10405,7 +10405,7 @@ Tiddler
 p3188
 (dp3189
 g21
-V<<nobr>>\u000a<<if $d2SumAction is false>>[[What is Hewes planning to do?|sum action][$d2SumAction = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumMotivation is false>>[[What caused Hewes to turn violent?|sum motivation][$d2SumMotivation = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumEducation == false>>[[What kind of person is he really?|sum education][$d2SumEducation = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumAction is true and $d2SumMotivation is true and $d2SumEducation is true>>[[That's enough. < Disconnect and fill out daily Inspection Report >|report 2]]<<endif>>\u000a<<endnobr>>
+V<<nobr>>\u000a<<if $d2SumAction is false>>[[What is Hewes planning to do?|sum action][$d2SumAction = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumMotivation is false and $planTrue == 0>>[[What caused Hewes to turn violent?|sum motivation][$d2SumMotivation = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumEducation == false>>[[What kind of person is he really?|sum education][$d2SumEducation = true]]<br><br><<endif>>\u000a\u000a<<if $d2SumAction is true and $d2SumEducation is true>>\u000a<<if $d2SumMotivation is true>>[[That's enough. < Disconnect and fill out daily Inspection Report >|report 2]]\u000a<<else if $planTrue == 1>>[[That's enough. < Disconnect and fill out daily Inspection Report >|report 2]]\u000a<<endif>>\u000a<<endif>>\u000a<<endnobr>>
 p3190
 sg23
 Vhewes sum hub
@@ -10415,9 +10415,9 @@ g26
 ((I2014
 I8
 I13
-I10
-I28
-I20
+I14
+I26
+I3
 I2
 I225
 I1
@@ -14507,7 +14507,7 @@ Tiddler
 p4459
 (dp4460
 g21
-VINSPECTION REPORT - 10/22/47\u000a- - - -\u000a[[< Submit report and log out >|night]]
+VINSPECTION REPORT - 10/22/47\u000a- - - -\u000a<<nobr>>\u000a<<if $planTrue == 2>>-- The suspect claims that James Hewes is planning to attack the Supreme Court as payback for their verdict in Carson Group v. United States.<br><br>\u000a\u000a<<else if $planHalfTrue == 2>>-- The suspect claims that James Hewes is planning to attack the Carson Group directly in revenge for prosecuting the Supreme Court case of Carson Group v. United States.<br><br>\u000a\u000a<<else if $planFalse == 2>>-- The suspect claims that James Hewes is planning to sabotage mass entertainment, possibly in the form of an attack on a major sports event.<br><br>\u000a\u000a<<else if $day2KnowNothing is true>>-- The suspect was unwilling to divulge further details about the plans of James Hewes.<br><br>\u000a<<endif>>\u000a\u000a[[< Submit report and log out >|night]]\u000a<<endnobr>>
 p4461
 sg23
 Vreport 2 submit
@@ -14516,12 +14516,12 @@ sg25
 g26
 ((I2014
 I8
-I12
 I13
-I45
-I57
-I1
-I224
+I14
+I2
+I14
+I2
+I225
 I1
 tp4463
 (dp4464
@@ -15148,7 +15148,7 @@ Tiddler
 p4652
 (dp4653
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em>I'll let you think about that one, Inspector.</em>\u000a\u000a[[Let's get back to the matter at hand. What do you know about the New Collective's plans?|action 1 hewes plan]]
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>><em class="suspect">I'll let you think about that one, Inspector.</em><<endtimedinsert>><<timedinsert 5s>>\u000a\u000a[[Let's get back to the matter at hand. What do you know about the New Collective's plans?|action 1 hewes plan]]<<endtimedinsert>>
 p4654
 sg23
 Vaction 1 hewes think
@@ -15158,9 +15158,9 @@ g26
 ((I2014
 I8
 I13
-I11
-I11
-I6
+I14
+I30
+I3
 I2
 I225
 I1
@@ -15185,10 +15185,60 @@ tp4661
 (dp4662
 tp4663
 Rp4664
+sbsa(dp4665
+g14
+I00
+sg15
+(lp4666
+F3090.0
+aF3090.0
+asg17
+(itiddlywiki
+Tiddler
+p4667
+(dp4668
+g21
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">He knows it would be a devastating blow.</em>\u000a\u000a<<display 'hewes sum hub'>>
+p4669
+sg23
+Vsum action validate alt
+p4670
+sg25
+g26
+((I2014
+I8
+I13
+I14
+I14
+I59
+I2
+I225
+I1
+tp4671
+(dp4672
+tp4673
+Rp4674
+sg31
+(lp4675
+sg33
+g26
+((I2014
+I8
+I13
+I14
+I14
+I13
+I2
+I225
+I1
+tp4676
+(dp4677
+tp4678
+Rp4679
 sbsasS'scale'
-p4665
+p4680
 F1.0
 sS'snapping'
-p4666
+p4681
 I01
 ss.
