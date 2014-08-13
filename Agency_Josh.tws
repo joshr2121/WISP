@@ -1351,7 +1351,7 @@ Tiddler
 p421
 (dp422
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">They're long gone, but Hewes wants to pick up where they were forced to leave off after Pearl Street.</em>\u000a\u000a<<timedinsert 1s>><<display 'conversation hub'>><<endtimedinsert>>
+VSUSPECT 1247\u000a- - - -\u000a<em class="suspect">They're long gone, but Hewes wants to pick up where they were forced to leave off after Pearl Street.</em>\u000a\u000a<<display 'conversation hub'>>
 p423
 sg23
 Vriots 7
@@ -1361,9 +1361,9 @@ g26
 ((I2014
 I8
 I13
-I11
-I59
-I1
+I14
+I57
+I6
 I2
 I225
 I1
@@ -9985,7 +9985,7 @@ Tiddler
 p3058
 (dp3059
 g21
-V<<set $planTrueDetails to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Very well, Inspector. \u000a\u000a<<timedinsert 2s>>Hewes plans on targeting Justice Richardson, who wrote the majority opinion in Carson v. US. From what little I know, they're planning to strike at his house, early morning. As far as I can recall, they still don't have police protection.<<endtimedinsert>></em><<timedinsert 5s>>\u000a\u000a[[Alright. I've learned enough.|d3 true end]]<<endtimedinsert>>
+V<<set $planTrueDetails to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Very well, Inspector. \u000a\u000a<<timedinsert 2s>>Hewes plans on targeting Justice Richardson, who wrote the majority opinion in Carson v. US. From what little I know, they're planning to strike at his house, early morning. As far as I can recall, they still don't have police protection.<<endtimedinsert>></em><<timedinsert 5s>>\u000a\u000a[[You've been very helpful.|d3 true end]]\u000a\u000a[[Alright. I've learned enough.|d3 true end]]<<endtimedinsert>>
 p3060
 sg23
 Vd3 true location
@@ -9994,12 +9994,12 @@ sg25
 g26
 ((I2014
 I8
-I12
-I11
-I25
-I42
-I1
-I224
+I13
+I14
+I58
+I28
+I2
+I225
 I1
 tp3062
 (dp3063
@@ -10037,7 +10037,7 @@ Tiddler
 p3074
 (dp3075
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>><em class="suspect">I'm counting on you, Inspector.</em><<endtimedinsert>><<timedinsert 5s>>\u000a\u000a[[< Disconnect and fill out final Inspection Report >|report 3]]<<endtimedinsert>>
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>><em class="suspect">I'm counting on you, Inspector.</em><<endtimedinsert>><<timedinsert 5s>>\u000a\u000a[[You can. < Disconnect and fill out final Inspection Report >|report 3]]\u000a\u000a[[< Disconnect and fill out final Inspection Report >|report 3]]<<endtimedinsert>>
 p3076
 sg23
 Vd3 true end
@@ -10046,12 +10046,12 @@ sg25
 g26
 ((I2014
 I8
-I12
 I13
-I50
-I17
+I15
 I1
-I224
+I3
+I2
+I225
 I1
 tp3078
 (dp3079
@@ -10351,7 +10351,7 @@ Tiddler
 p3171
 (dp3172
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I'm afraid I can't, Inspector. I just have to wait a few more hours and the law will be on my side.</em>\u000a\u000a[[No matter. We'll find him one way or another. < Disconnect and fill out final Inspection Report >|report 3]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I'm afraid I can't, Inspector. I just have to wait a few more hours and the law will be on my side.</em>\u000a\u000a[[When you leave, remember that nothing that happened here was illegal. < Disconnect and fill out final Inspection Report >|report 3]]\u000a\u000a[[No matter. We'll find him one way or another. < Disconnect and fill out final Inspection Report >|report 3]]
 p3173
 sg23
 Vd3 true nope 1
@@ -10360,12 +10360,12 @@ sg25
 g26
 ((I2014
 I8
-I12
 I13
-I50
-I42
-I1
-I224
+I14
+I59
+I5
+I2
+I225
 I1
 tp3175
 (dp3176
@@ -11825,7 +11825,7 @@ Tiddler
 p3628
 (dp3629
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">But there could be so much more, if you thought for yourself instead of just blindly following orders.</em>\u000a\u000a[[I follow these orders because I choose to do so. What do you choose to do?|d3 ht talk public job]]\u000a\u000a[[I follow these orders because I believe they're justified. If you can't convince me otherwise, you know the consequences.|d3 ht talk ideals 1 1 1]]\u000a\u000a[[I follow these orders so I can be where I am instead of where you are. (Apply physical encouragement.)|d3 ht torture][$torture++; $opinion--]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">But there could be so much more, if you thought for yourself instead of just blindly following orders.</em>\u000a\u000a[[I follow these orders because I choose to do so. What do you choose to do?|d3 ht talk public job]]\u000a\u000a[[I follow these orders because I believe they're justified. If you can't convince me otherwise, you know the consequences.|d3 ht talk ideals 1 1 1]]\u000a\u000a[[I follow these orders so I can have power over others. Do you need a reminder about that?|d3 ht torture][$torture++; $opinion--]]
 p3630
 sg23
 Vd3 ht talk ideals 1 1
@@ -11834,12 +11834,12 @@ sg25
 g26
 ((I2014
 I8
-I7
-I14
+I13
+I15
+I4
 I49
-I42
-I3
-I219
+I2
+I225
 I1
 tp3632
 (dp3633
@@ -12619,7 +12619,7 @@ Tiddler
 p3875
 (dp3876
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">What do you want me to tell you?</em>\u000a\u000a[[I'd like to know the exact time and place the attacks will take place.|d3 false nice]]<<nobr>>\u000a\u000a<<if $opinion >= 4>>\u000a<br><br>[[Anything else that you think might be useful.|d3 false nice]]\u000a<<endif>>\u000a<<endnobr>>
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">What do you want me to tell you?</em>\u000a\u000a[[I'd like to know the exact time and place the attacks will take place.|d3 false nice]]\u000a\u000a[[I need two things: a time and a place.|d3 false nice]]<<nobr>>\u000a\u000a<<if $opinion >= 4>>\u000a<br><br>[[Anything else that you think might be useful.|d3 false nice]]\u000a<<endif>>\u000a<<endnobr>>
 p3877
 sg23
 Vd3 false
@@ -12628,12 +12628,12 @@ sg25
 g26
 ((I2014
 I8
-I12
-I10
-I29
-I29
-I1
-I224
+I13
+I15
+I6
+I22
+I2
+I225
 I1
 tp3879
 (dp3880
@@ -14303,7 +14303,7 @@ Tiddler
 p4397
 (dp4398
 g21
-V<<set $hewesLocation to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">So you're finally seeing reason, Inspector. You don't need to know when, what, or where he's going to strike next.\u000a\u000aHe's currently living in New York. 598 East 7th Street. Apartment 2, I believe. You should go talk to him. I'm sure it'll be an enlightening interview for you both.</em>\u000a\u000a[[I will. < Disconnect and fill out final Inspection Report >|report 3]]
+V<<set $hewesLocation to 1>>SUSPECT 1247\u000a- - - -\u000a<em class = "suspect">So you're finally seeing reason, Inspector. You don't need to know when, what, or where he's going to strike next.\u000a\u000aHe's currently living in New York. 598 East 7th Street. Apartment 2, I believe. You should go talk to him. I'm sure it'll be an enlightening interview for you both.</em>\u000a\u000a[[I will. < Disconnect and fill out final Inspection Report >|report 3]]\u000a\u000a[[< Disconnect and fill out final Inspection Report >|report 3]]
 p4399
 sg23
 Vd3 redeem save hewes
@@ -14312,12 +14312,12 @@ sg25
 g26
 ((I2014
 I8
-I12
+I13
 I15
-I46
-I7
-I1
-I224
+I5
+I32
+I2
+I225
 I1
 tp4401
 (dp4402
