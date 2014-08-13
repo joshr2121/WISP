@@ -8315,9 +8315,9 @@ g26
 ((I2014
 I8
 I13
-I14
-I34
-I39
+I15
+I31
+I43
 I2
 I225
 I1
@@ -10394,7 +10394,7 @@ tp3184
 Rp3185
 sbsa(dp3186
 g14
-I01
+I00
 sg15
 (lp3187
 F1690.0
@@ -11201,7 +11201,7 @@ Tiddler
 p3436
 (dp3437
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">You think that you've found out all about me? Human beings are complex, Inspector. Unlike your worldview.</em>\u000a\u000a<<nobr>>\u000a[[You and I both know that, when you get out, you won't be returning to a life you want.|d3 ht talk public job]]<br><br>\u000a<<if $idealsIntel == true>>\u000a[[I know you can't live up to your ideals.|d3 ht talk public ideals]]\u000a<<else>>\u000a[[I don't need to know you. (Apply physical encouragement.)|d3 ht torture][$torture++; $opinion--]]\u000a<<endif>>\u000a<<endnobr>>
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">You think that you've found out all about me? Human beings are complex, Inspector. Unlike your worldview.</em>\u000a\u000a<<nobr>>\u000a[[You and I both know that, when you get out, you won't be returning to a life you want.|d3 ht talk public job]]<br><br>\u000a<<if $idealsIntel == true>>\u000a[[I know you can't live up to your ideals.|d3 ht talk public ideals]]\u000a<<else>>\u000a[[Don't get smart. I'm the one with the power here. Do you need to be reminded?|d3 ht torture][$torture++; $opinion--]]\u000a<<endif>>\u000a<<endnobr>>
 p3438
 sg23
 Vd3 ht talk public
@@ -11210,12 +11210,12 @@ sg25
 g26
 ((I2014
 I8
-I7
+I13
 I15
-I23
-I18
-I3
-I219
+I44
+I58
+I2
+I225
 I1
 tp3440
 (dp3441
@@ -11409,7 +11409,7 @@ Tiddler
 p3500
 (dp3501
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">And yet I can bear to look myself in the eye every morning.</em>\u000a\u000a[[What I do in the morning doesn't concern you.|d3 ht aggressive talk]]\u000a\u000a[[I have patriotism and professional pride. That's enough of this.|d3 ht aggressive talk]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">And yet I can bear to look myself in the eye every morning.</em>\u000a\u000a[[What I do in the morning doesn't concern you.|d3 ht talk job 1 1 1]]\u000a\u000a[[I have patriotism and professional pride. That's enough of this.|d3 ht talk job 1 1 1]]
 p3502
 sg23
 Vd3 ht talk job 1 2
@@ -11418,12 +11418,12 @@ sg25
 g26
 ((I2014
 I8
-I7
+I13
 I15
-I42
-I6
-I3
-I219
+I27
+I30
+I2
+I225
 I1
 tp3504
 (dp3505
@@ -11669,7 +11669,7 @@ Tiddler
 p3580
 (dp3581
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">No. This all stops when the 72 hours are expired and I am legally authorized to get the hell out of here.</em>\u000a\u000a[[You really believe that'll happen?|d3 ht aggressive]]\u000a\u000a[[That is the law. But we still have time to talk things through.|d3 ht talk private]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">No. This all stops when the 72 hours are expired and I am legally authorized to get the hell out of here.</em>\u000a\u000a[[You really believe that'll happen?|d3 ht talk private 1 1 mean]]\u000a\u000a[[That is the law. But we still have time to talk things through.|d3 ht talk private]]
 p3582
 sg23
 Vd3 ht talk job 1 1 1 1
@@ -11678,12 +11678,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I10
-I49
-I32
-I4
-I220
+I13
+I15
+I28
+I53
+I2
+I225
 I1
 tp3584
 (dp3585
@@ -14557,7 +14557,7 @@ Tiddler
 p4474
 (dp4475
 g21
-VFINAL INSPECTION REPORT - 10/23/47\u000a- - - -\u000a<<nobr>>\u000a<<if $protectionPromised is true and $noRequests is false>>\u000a<<if $protectionRequested is false>>\u000a[[Add: "The suspect has requested Bureau protection following his impending release. Due to his cooperation, it is recommended that this request be honored."|report 3 submit][$protectionRequested = true]]<br><br>\u000a<<else>>\u000a-- The suspect has requested Bureau protection following his impending release. Due to his cooperation, it is recommended that this request be honored.<br><br>\u000a<<endif>>\u000a<<endif>>\u000a\u000a<<if $negotiationPromised is true and $noRequests is false>>\u000a<<if $negotiationRequested is false>>\u000a[[Add: "The suspect has indicated a willingness on the part of James Hewes to enter into diplomacy with the government. In order to minimize future casualties, it is recommended to negotiate with Hewes in good faith upon his capture."|report 3 submit][$negotiationRequested = true]]<br><br>\u000a<<else>>\u000a-- The suspect has indicated a willingness on the part of James Hewes to enter into diplomacy with the government. In order to minimize future casualties, it is recommended to negotiate with Hewes in good faith upon his capture.<br><br>\u000a<<endif>>\u000a<<endif>>\u000a\u000a<<if $protectionRequested is false and $negotiationRequested is false>>\u000a<<if $noRequests is false>>\u000a[[Add: "No extraordinary protocols are recommended with regard to this inspection."|report 3 submit][$noRequests = true]]<br><br>\u000a<<else>>-- No extraordinary protocols are recommended with regard to this inspection.<br><br>\u000a<<endif>>\u000a<<endif>>\u000a\u000a<<if $noRequests is true or $negotiationRequested is true or $protectionRequested is true>>[[< Submit final report and log out >|night]]<<endif>>\u000a<<endnobr>>
+VFINAL INSPECTION REPORT - 10/23/47\u000a- - - -\u000a<<nobr>>\u000a<<if $hewesLocation == 2>>-- The location of New Collective leader James Hewes has been traced to New York City, 598 East 7th Street, Apartment 2. We recommend sending a S.W.A.T. team to arrest him as soon as possible.<br><br>\u000a\u000a<<else if $planTrueDetails == 2>>-- The suspect claims that James Hewes is planning to assassinate Supreme Court Justice Richardson near his private residence early in the morning. We recommend committing security forces to protect Justice Richardson.<br><br>\u000a\u000a<<else if $planHalfTrueDetails == 2>>-- The suspect claims that James Hewes is planning to attack the board of the Carson Group. We recommend committing security forces to protect their corporate headquarters.<br><br>\u000a\u000a<<else if $planFalseDetails == 2>>-- The suspect claims that James Hewes is planning to hijack the League Finals tonight. We recommend committing security forces to the stadium.<br><br>\u000a\u000a<<else if $day3KnowNothing is true>>-- The suspect was unwilling to divulge further details about the plans of James Hewes.<br><br>\u000a<<endif>>\u000a\u000a\u000a<<if $protectionPromised is true and $noRequests is false>>\u000a<<if $protectionRequested is false>>\u000a[[Add: "The suspect has requested Bureau protection following his impending release. Due to his cooperation, it is recommended that this request be honored."|report 3 submit][$protectionRequested = true]]<br><br>\u000a<<else>>\u000a-- The suspect has requested Bureau protection following his impending release. Due to his cooperation, it is recommended that this request be honored.<br><br>\u000a<<endif>>\u000a<<endif>>\u000a\u000a<<if $negotiationPromised is true and $noRequests is false>>\u000a<<if $negotiationRequested is false>>\u000a[[Add: "The suspect has indicated a willingness on the part of James Hewes to enter into diplomacy with the government. In order to minimize future casualties, it is recommended to negotiate with Hewes in good faith upon his capture."|report 3 submit][$negotiationRequested = true]]<br><br>\u000a<<else>>\u000a-- The suspect has indicated a willingness on the part of James Hewes to enter into diplomacy with the government. In order to minimize future casualties, it is recommended to negotiate with Hewes in good faith upon his capture.<br><br>\u000a<<endif>>\u000a<<endif>>\u000a\u000a<<if $protectionRequested is false and $negotiationRequested is false>>\u000a<<if $noRequests is false>>\u000a[[Add: "No extraordinary protocols are recommended with regard to this inspection."|report 3 submit][$noRequests = true]]<br><br>\u000a<<else>>-- No extraordinary protocols are recommended with regard to this inspection.<br><br>\u000a<<endif>>\u000a<<endif>>\u000a\u000a<<if $noRequests is true or $negotiationRequested is true or $protectionRequested is true>>[[< Submit final report and log out >|night]]<<endif>>\u000a<<endnobr>>
 p4476
 sg23
 Vreport 3 submit
@@ -14567,9 +14567,9 @@ g26
 ((I2014
 I8
 I13
-I11
-I55
-I5
+I15
+I32
+I49
 I2
 I225
 I1
