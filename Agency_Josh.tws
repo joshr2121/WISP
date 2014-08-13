@@ -345,7 +345,7 @@ Tiddler
 p116
 (dp117
 g21
-V<<nobr>>\u000a<<if $day == 1>>\u000a<<if $personalConvo == 1>>[[Do you know why you're here?|personal 1][$personalConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $politicsConvo == 1>>[[Let's talk politics.|politics 1][$politicsConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $forcingConvo == 1>>[[You know where the New Collective leader is. I need you to tell me.|forcing 1][$forcingConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $familyConvo == 1>>[[Tell me about your family.|family 1][$familyConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $pearlStreetConvo == 1>>[[It looks like you were arrested during the Pearl Street riots, after Carson.|riots 1][$pearlStreetConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $jobConvo == 1>>[[You're with the Boston Center for Civil Activism. Legal analyst.|job 1][$jobConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $newCollectiveConvo == 1>>[[You've got ties to the New Collective.|newCollective 1][$newCollectiveConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $leaderConvo == 1>>[[You know James Hewes.|hewes 1][$leaderConvo = 2]]<br><br>\u000a<<endif>>\u000a\u000a<<if $personalConvo neq 1 and $politicsConvo neq 1 and $forcingConvo neq 1 and $familyConvo neq 1 and $pearlStreetConvo neq 1 and $jobConvo neq 1 and $newCollectiveConvo neq 1 and $leaderConvo neq 1>>[[< Disconnect and fill out daily Inspection Report >|report 1]]\u000a<<endif>><<endif>>/% end day 1 %/\u000a\u000a<<if $day == 2>>\u000a<<if $actionConvo == 1>>\u000a[[You talk a lot about changing the system, but have you taken any actions to accomplish that?|action 1][$actionConvo = 2]]<br><br>\u000a<<endif>>\u000a<<if $carsonConvo == 1>>\u000a[[You know a lot about Carson v. US, don't you?|carson 1][$carsonConvo = 2]]<br><br>\u000a<<endif>>\u000a<<if $educationConvo == 1>>\u000a[[Opinions like yours don't come out of nowhere. Let's talk about education.|education 1][$educationConvo = 2]]<br><br>\u000a<<endif>>\u000a<<if $actionConvo == 2 and $carsonConvo == 2 and $educationConvo == 2 and $hewesActionConvo neq 2>>\u000a[[Now, let's take a step back and see what we know about Hewes.|hewesSumD2][$hewesActionConvo = 2]]<br><br>\u000a<<endif>>\u000a<<if $actionConvo == 2 and $carsonConvo == 2 and $educationConvo == 2 and $hewesActionConvo == 2>>\u000a[[< Disconnect and fill out daily Inspection Report >|report 2]]\u000a<<endif>>\u000a\u000a<<endif>>\u000a\u000a<<if $torture == $tortureLimit>>\u000a[[The suspect is unable to respond.|fainted]]\u000a<<endif>>\u000a<<endnobr>>
+V<<nobr>>\u000a<<if $day == 1>>\u000a<<if $personalConvo == 1>>[[Do you know why you're here?|personal 1][$personalConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $politicsConvo == 1>>[[Let's talk politics.|politics 1][$politicsConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $forcingConvo == 1>>[[You know where the New Collective leader is. I need you to tell me.|forcing 1][$forcingConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $familyConvo == 1>>[[Tell me about your family.|family 1][$familyConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $pearlStreetConvo == 1>>[[It looks like you were arrested during the Pearl Street riots, after Carson.|riots 1][$pearlStreetConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $jobConvo == 1>>[[You're with the Boston Center for Civil Activism. Legal analyst.|job 1][$jobConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $newCollectiveConvo == 1>>[[You've got ties to the New Collective.|newCollective 1][$newCollectiveConvo = 2]]<br><br><<endif>>\u000a\u000a<<if $leaderConvo == 1>>[[You know James Hewes.|hewes 1][$leaderConvo = 2]]<br><br>\u000a<<endif>>\u000a\u000a<<if $personalConvo neq 1 and $politicsConvo neq 1 and $forcingConvo neq 1 and $familyConvo neq 1 and $pearlStreetConvo neq 1 and $jobConvo neq 1 and $newCollectiveConvo neq 1 and $leaderConvo neq 1>>[[< Disconnect and fill out daily Inspection Report >|report 1]]\u000a<<endif>><<endif>>/% end day 1 %/\u000a\u000a<<if $day == 2>>\u000a<<if $actionConvo == 1>>\u000a[[You talk a lot about changing the system, but have you taken any actions to accomplish that?|action 1][$actionConvo = 2]]<br><br>\u000a<<endif>>\u000a<<if $carsonConvo == 1>>\u000a[[You know a lot about Carson v. US, don't you?|carson 1][$carsonConvo = 2]]<br><br>\u000a<<endif>>\u000a<<if $educationConvo == 1>>\u000a[[Opinions like yours don't come out of nowhere. Let's talk about education.|education 1][$educationConvo = 2]]<br><br>\u000a<<endif>>\u000a<<if $actionConvo == 2 and $carsonConvo == 2 and $educationConvo == 2 and $hewesActionConvo neq 2>>\u000a[[Now, let's take a step back and see what we know about Hewes.|hewesSumD2][$hewesActionConvo = 2]]\u000a<<endif>>\u000a<<if $actionConvo == 2 and $carsonConvo == 2 and $educationConvo == 2 and $hewesActionConvo == 2>>\u000a[[< Disconnect and fill out daily Inspection Report >|report 2]]\u000a<<endif>>\u000a\u000a<<endif>>\u000a\u000a<<if $torture == $tortureLimit>>\u000a[[The suspect is unable to respond.|fainted]]\u000a<<endif>>\u000a<<endnobr>>
 p118
 sg23
 Vconversation hub
@@ -355,9 +355,9 @@ g26
 ((I2014
 I8
 I13
-I10
-I25
-I10
+I15
+I22
+I49
 I2
 I225
 I1
@@ -6287,7 +6287,7 @@ Tiddler
 p1929
 (dp1930
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<set $planFalse to 1>><em class = "suspect">Well, he could do anything. He could keep on broadcasting his ideas on channels the Intelligence Agency can't control, he could run for president, he could recruit people in other countries, or he could keep on blowing things up until the president sits down and listens to him.\u000a\u000aMy guess? Probably the latter, but I'll be surprised if you'll let that happen.</em>\u000a\u000a[[So random attacks? That's his MO?|carson 1 hewes talk 1]]\u000a\u000a[[I'll make good note of that.|3s return]]
+VSUSPECT 1247\u000a- - - -\u000a<<set $planFalse to 1>><em class = "suspect">Well, he could do anything. He could keep on broadcasting his ideas on channels the Intelligence Agency can't control, he could run for president, he could recruit people in other countries, or he could keep on blowing things up until the president sits down and listens to him.\u000a\u000aMy guess? Probably the latter, but I'll be surprised if you'll let that happen.</em>\u000a\u000a[[So random attacks? That's his MO?|carson 1 hewes talk 1]]\u000a\u000a[[I'll make note of that.|3s return]]
 p1931
 sg23
 Vcarson 1 hewes talk
@@ -6296,12 +6296,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I17
-I40
-I54
-I4
-I220
+I13
+I15
+I21
+I34
+I2
+I225
 I1
 tp1933
 (dp1934
@@ -6547,7 +6547,7 @@ Tiddler
 p2009
 (dp2010
 g21
-VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $opinion <= 3>><em class = "suspect">I told you, that'd be my bet.</em><br><br>\u000a\u000a[[I'll take note of that.|3s return]]\u000a\u000a<<else>><em class = "suspect">Actually, I think I could make myself a bit clearer.</em><br><br>\u000a\u000a[[Go on.|carson 1 hewes 3 b]]\u000a<<endif>>\u000a<<endnobr>>
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $opinion <= 3>><em class = "suspect">I told you, that'd be my bet.</em><br><br>\u000a\u000a[[I'll make note of that.|3s return]]\u000a\u000a<<else>><em class = "suspect">Actually, I think I could make myself a bit clearer.</em><br><br>\u000a\u000a[[Go on.|carson 1 hewes 3 b]]\u000a<<endif>>\u000a<<endnobr>>
 p2011
 sg23
 Vcarson 1 hewes talk 1
@@ -6557,8 +6557,8 @@ g26
 ((I2014
 I8
 I13
-I11
-I7
+I15
+I21
 I26
 I2
 I225
@@ -10394,7 +10394,7 @@ tp3184
 Rp3185
 sbsa(dp3186
 g14
-I00
+I01
 sg15
 (lp3187
 F1690.0
@@ -10415,9 +10415,9 @@ g26
 ((I2014
 I8
 I13
-I14
-I26
-I3
+I15
+I23
+I56
 I2
 I225
 I1
