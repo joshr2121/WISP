@@ -5007,7 +5007,7 @@ Tiddler
 p1539
 (dp1540
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">And you're proud of it? You're happy with how it turned out? Do you wake up every morning satisfied with this false republic where the weak let the powerful prey on them as long as they retain the right to fill out a meaningless ballot every other November?</em>\u000a\u000a[[At least I'm doing something real. I don't just sit around giving worthless advice to people who can't do anything with it.|action 1 job passive]]\u000a\u000a[[Let's say you're right. Let's say this is not the world I want. It's still the world that the majority want. And whatever you might assume, I still stand for democracy.|action 1 job democracy][$opinion++]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">And you're proud of it? You're happy with how it turned out? Do you wake up every morning satisfied with this false republic where the weak let the powerful prey on them as long as they retain the right to fill out a meaningless ballot every other November?</em>\u000a\u000a[[At least I'm doing something real. I don't just sit around giving worthless advice to people who can't do anything with it.|action 1 job passive]]\u000a\u000a[[Let's say you're right. Let's say this is not the world I want. It's still the world that the majority wants. And whatever you might assume, I still stand for democracy.|action 1 job democracy][$opinion++]]
 p1541
 sg23
 Vaction 1 job past
@@ -5016,12 +5016,12 @@ sg25
 g26
 ((I2014
 I8
-I4
-I10
+I14
+I13
+I32
 I42
-I48
-I0
-I216
+I3
+I226
 I1
 tp1543
 (dp1544
@@ -8353,7 +8353,7 @@ Tiddler
 p2562
 (dp2563
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">You really want him to be someone different, someone extraordinary, don't you?\u000a\u000aI hate to disappoint you, but he's not. He's just a human being like you and me. And he can be reasoned with.</em>\u000a\u000a[[He's a problem.|sum motivation assumption]]\u000a\u000a[[That could never happen.|sum education reason yes]]\u000a\u000a[[We don't negotiate with terrorists.|sum education reason no][$opinion--]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">You really want him to be someone different, someone extraordinary, don't you?\u000a\u000aI hate to disappoint you, but he's not. He's just a human being like you and me. And he can be reasoned with.</em>\u000a\u000a[[Could that be true?|sum education reason yes]]\u000a\u000a[[That could never happen.|sum education reason yes]]\u000a\u000a[[We don't negotiate with terrorists.|sum education reason no][$opinion--]]
 p2564
 sg23
 Vsum education
@@ -8362,12 +8362,12 @@ sg25
 g26
 ((I2014
 I8
+I14
 I13
-I13
-I52
-I35
-I2
-I225
+I41
+I53
+I3
+I226
 I1
 tp2566
 (dp2567
@@ -8509,7 +8509,7 @@ Tiddler
 p2610
 (dp2611
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Everything started with them. They were the first to stand up and ask for corporate voting rights. They were the first to directly equate wealth with political rights.</em>\u000a\u000a[[So he wants to destroy them. It makes sense.|sum action validate]]\u000a\u000a[[And so? What is he going to do?|sum action halftrue details]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Everything started with them. They were the first to stand up and ask for corporate voting rights. They were the first to demand that wealth be directly and legally equated with political power.</em>\u000a\u000a[[So he wants to destroy them. It makes sense.|sum action validate]]\u000a\u000a[[And so? What is he going to do?|sum action halftrue details]]
 p2612
 sg23
 Vsum action halftrue
@@ -8518,12 +8518,12 @@ sg25
 g26
 ((I2014
 I8
-I6
-I11
-I8
+I14
+I13
 I38
-I2
-I218
+I59
+I3
+I226
 I1
 tp2614
 (dp2615
@@ -9019,7 +9019,7 @@ Tiddler
 p2765
 (dp2766
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">This system you so proudly support is the problem, Inspector.</em>\u000a\u000a[[No, I think you're the problem. (Apply physical encouragement.)|sum action torture][$opinion--;$torture++]]\u000a\u000a[[This isn't going anywhere.|3s return SumD2]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">This system you so proudly support is the problem, Inspector.</em>\u000a\u000a[[You'll regret saying that. (Apply physical encouragement.)|sum action torture][$opinion--;$torture++]]\u000a\u000a[[This isn't going anywhere.|3s return SumD2]]
 p2767
 sg23
 Vsum motivation assumption
@@ -9028,12 +9028,12 @@ sg25
 g26
 ((I2014
 I8
+I14
 I13
-I11
-I17
-I0
-I2
-I225
+I40
+I12
+I3
+I226
 I1
 tp2769
 (dp2770
@@ -13249,7 +13249,7 @@ Tiddler
 p4070
 (dp4071
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">No, Inspector. I'll give you one last chance. I'll be out of here in a couple of hours, so it's your turn to listen to me.</em>\u000a\u000a[[[Say nothing.]|d3 redeem 1]]\u000a\u000a[[I'm listening.|d3 redeem 1]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">No, Inspector. I'll give you one last chance. I'll be out of here in a couple of hours, so it's your turn to listen to me.</em>\u000a\u000a[[(Say nothing.)|d3 redeem 1]]\u000a\u000a[[I'm listening.|d3 redeem 1]]
 p4072
 sg23
 Vd3 redeem
@@ -13258,12 +13258,12 @@ sg25
 g26
 ((I2014
 I8
-I8
-I9
-I56
-I32
-I4
-I220
+I14
+I13
+I45
+I6
+I3
+I226
 I1
 tp4074
 (dp4075
@@ -13461,7 +13461,7 @@ Tiddler
 p4136
 (dp4137
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">The most obvious part is that you have to pretend to be sure of who you are. It's the most common but also the hardest part, I believe.</em>\u000a\u000a[[(Say nothing.)|d3 redeem diatribe 2]]\u000a\u000a[[I am unique.|d3 redeem indiv special]]\u000a\u000a[[I'm like everyone else.|d3 redeem indiv similar]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">The most obvious part is that you have to pretend to be sure of who you are. It's the most common but also the hardest part, I believe.</em>\u000a\u000a[[(Say nothing.)|d3 redeem diatribe 2]]\u000a\u000a[[I am unique.|d3 redeem indiv special]]\u000a\u000a[[I'm like everyone else.|d3 redeem indiv similar]]
 p4138
 sg23
 Vd3 redeem diatribe 1
@@ -13470,12 +13470,12 @@ sg25
 g26
 ((I2014
 I8
-I12
-I15
-I45
-I11
-I1
-I224
+I14
+I13
+I54
+I21
+I3
+I226
 I1
 tp4140
 (dp4141
@@ -13513,7 +13513,7 @@ Tiddler
 p4152
 (dp4153
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">That pretending brings self-doubt, which is good, and it also brings a need for beliefs and principles, a system to follow.\u000a\u000aYou have found some principles, no doubt. But are they yours?</em>\u000a\u000a[[(Say nothing.)|d3 redeem diatribe 3]]\u000a\u000a[[They're mine.|d3 redeem indiv special]]\u000a\u000a[[They're shared throughout society.|d3 redeem indiv similar]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">That pretending brings self-doubt, which is good, and it also brings a need for beliefs and principles, a system to follow.\u000a\u000aYou have found some principles, no doubt. But are they yours?</em>\u000a\u000a[[(Say nothing.)|d3 redeem diatribe 3]]\u000a\u000a[[They're mine, and I intend to uphold them.|d3 redeem indiv special 1]]\u000a\u000a[[I share them with the rest of my society.|d3 redeem indiv similar]]
 p4154
 sg23
 Vd3 redeem diatribe 2
@@ -13522,12 +13522,12 @@ sg25
 g26
 ((I2014
 I8
-I12
-I15
-I45
-I27
-I1
-I224
+I14
+I13
+I57
+I49
+I3
+I226
 I1
 tp4156
 (dp4157
@@ -13565,7 +13565,7 @@ Tiddler
 p4168
 (dp4169
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Silence, Inspector? Are you listening?</em>\u000a\u000a[[(Say nothing.)|d3 redeem diatribe 4]]\u000a\u000a[[I'm listening.|d3 redeem diatribe 4]]\u000a\u000a[[I'm through with you messing with my head.|d3 redeem indiv]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Silence, Inspector? Are you listening?</em>\u000a\u000a[[(Say nothing.)|d3 redeem diatribe 4]]\u000a\u000a[[I'm listening.|d3 redeem diatribe 4]]\u000a\u000a[[I'm through with this. < Disconnect and fill out final Inspection Report >|report 3]]
 p4170
 sg23
 Vd3 redeem diatribe 3
@@ -13574,12 +13574,12 @@ sg25
 g26
 ((I2014
 I8
-I12
-I15
-I45
-I34
-I1
-I224
+I14
+I13
+I52
+I18
+I3
+I226
 I1
 tp4172
 (dp4173
@@ -13617,7 +13617,7 @@ Tiddler
 p4184
 (dp4185
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">You know, those principles of yours...\u000a\u000aWhatever they are, make sure you don't cling to them just to impress your peers, or appease your superiors. Your principles are what you believe.</em>\u000a\u000a[[(Say nothing.)|d3 redeem diatribe 5]]\u000a\u000a[[You don't know what you're talking about.|d3 redeem indiv]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">You know, those principles of yours...\u000a\u000aWhatever they are, make sure you don't cling to them just to impress your peers, or appease your superiors. Your principles are what you believe.</em>\u000a\u000a[[(Say nothing.)|d3 redeem diatribe 5]]\u000a\u000a[[My principles set me apart from people like you.|d3 redeem indiv special 1]]\u000a\u000a[[I share the principles of my society. They're what binds us all together.|d3 redeem indiv similar]]
 p4186
 sg23
 Vd3 redeem diatribe 4
@@ -13626,12 +13626,12 @@ sg25
 g26
 ((I2014
 I8
-I12
-I15
-I45
-I41
-I1
-I224
+I14
+I14
+I2
+I2
+I3
+I226
 I1
 tp4188
 (dp4189
@@ -13773,7 +13773,7 @@ Tiddler
 p4232
 (dp4233
 g21
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Precisely. If you're like everybody else, then empathy, the ability to imagine other people's pain and despair as your own, shouldn't be outside your reach.</em>\u000a\u000a[[True. I can imagine what it's like where you are.|d3 redeem indiv similar 1]]\u000a\u000a[[Not normally. But this procedure is designed to minimize empathy.|d3 redeem indiv similar 1]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Precisely. If you're like everybody else, then empathy, the ability to imagine other people's pain and despair as your own, shouldn't be outside your reach.</em>\u000a\u000a[[True. I can imagine what it's like where you are.|d3 redeem indiv similar 1]]\u000a\u000a[[Not normally. But this procedure is designed to minimize empathy.|d3 redeem indiv similar 1]]
 p4234
 sg23
 Vd3 redeem indiv similar
@@ -13782,12 +13782,12 @@ sg25
 g26
 ((I2014
 I8
+I14
 I13
-I10
-I18
-I46
-I2
-I225
+I48
+I50
+I3
+I226
 I1
 tp4236
 (dp4237
@@ -14655,7 +14655,7 @@ Tiddler
 p4503
 (dp4504
 g21
-VNEWS UPDATE 3/3\u000a- - - -\u000a<<nobr>>\u000a<<if $protectionRequested is true>>\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aProtective measures have been granted to Suspect 1247 on the basis of his providing accurate information. The suspect will be relocated to a secret location as per Directive US-263.\u000a<<else>>\u000aSecurity forces have been requested for Suspect 1247, despite his providing erroneous information. As such, the Inspector in charge of intelligence gathering from this suspect is being held an additional 48 (forty-eight) hours in order to investigate the implications of such a request.\u000a<<endif>>\u000a\u000a<<else>>/% $protectionRequested is false %/\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aSuspect 1247 was released at 04:00 AM this morning, and his body was discovered at 08:45 AM. Primary leads suggest homicide by New Collective members in revenge for the suspect's leaking of key intelligence to the BEAR that led to the foiling of planned New Collective terrorist actions.\u000a<<else>>\u000aSuspect 1247 was released at 04:00 AM this morning. The suspect's personal information has been archived for possible further investigation.\u000a<<endif>>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[< More >|final results 4]]
+VNEWS UPDATE 3/3\u000a- - - -\u000a<<nobr>>\u000a<<if $torture >= 5>>\u000aSuspect 1247 collapsed shortly after his release and was pronounced dead at 04:30 AM this morning. BEAR has recommended investigations to examine any correlations between physical encouragement procedures and negative health effects.\u000a<<else>>\u000a<<if $protectionRequested is true>>\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aProtective measures have been granted to Suspect 1247 on the basis of his providing accurate information. The suspect will be relocated to a secret location as per Directive US-263.\u000a<<else>>\u000aSecurity forces have been requested for Suspect 1247, despite his providing erroneous information. As such, the Inspector in charge of intelligence gathering from this suspect is being held an additional 48 (forty-eight) hours in order to investigate the implications of such a request.\u000a<<endif>>\u000a\u000a<<else>>/% $protectionRequested is false %/\u000a<<if $hewesLocation == 2 or $planTrueDetails == 2>>\u000aSuspect 1247 was released at 04:00 AM this morning, and his body was discovered at 08:45 AM. Primary leads suggest homicide by New Collective members in revenge for the suspect's leaking of key intelligence to the BEAR that led to the foiling of planned New Collective terrorist actions.\u000a<<else>>\u000aSuspect 1247 was released at 04:00 AM this morning. The suspect's personal information has been archived for possible further investigation.\u000a<<endif>>\u000a<<endif>>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[< More >|final results 4]]
 p4505
 sg23
 Vfinal results 3
@@ -14664,12 +14664,12 @@ sg25
 g26
 ((I2014
 I8
-I12
+I14
+I13
 I15
-I33
-I2
-I1
-I224
+I41
+I3
+I226
 I1
 tp4507
 (dp4508
@@ -15235,7 +15235,7 @@ tp4677
 Rp4678
 sbsasS'scale'
 p4679
-F1.0
+F0.2
 sS'snapping'
 p4680
 I01
