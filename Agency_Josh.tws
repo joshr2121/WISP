@@ -14294,7 +14294,7 @@ tp4394
 Rp4395
 sbsa(dp4396
 g14
-I00
+I01
 sg15
 (lp4397
 F1550.0
@@ -15235,7 +15235,7 @@ tp4677
 Rp4678
 sbsasS'scale'
 p4679
-F0.2
+F0.8
 sS'snapping'
 p4680
 I01
