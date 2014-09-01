@@ -867,7 +867,7 @@ tp270
 Rp271
 sbsa(dp272
 g12
-I00
+I01
 sg13
 (lp273
 F1550.0
@@ -886,13 +886,13 @@ p277
 sg23
 g24
 ((I2014
-I7
-I31
-I10
-I47
-I13
-I3
-I212
+I9
+I1
+I16
+I58
+I1
+I0
+I244
 I1
 tp278
 (dp279
@@ -8035,7 +8035,7 @@ g12
 I00
 sg13
 (lp2437
-F1830.0
+F1970.0
 aF2250.0
 asg15
 (itiddlywiki
@@ -8043,21 +8043,21 @@ Tiddler
 p2438
 (dp2439
 g19
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect"> </em>
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I didn't have a very politically biased upbringing. Except for a disgust regarding dictatorships, or any kind of totalitarism, I guess.\u000a\u000aMost of it happened at university, where my friends and I would feed on each other's ambitions and aspirations.</em>\u000a\u000a[[Why didn't you end up like Hewes?|education 2 a]]\u000a\u000a[[What happened to those friends?|education 2 b]]
 p2440
 sg21
-Veducation 1
+Veducation 2
 p2441
 sg23
 g24
 ((I2014
-I7
-I31
-I11
-I52
+I9
+I1
 I16
-I3
-I212
+I56
+I9
+I0
+I244
 I1
 tp2442
 (dp2443
@@ -8088,7 +8088,7 @@ I00
 sg13
 (lp2453
 F1830.0
-aF2390.0
+aF2530.0
 asg15
 (itiddlywiki
 Tiddler
@@ -8140,7 +8140,7 @@ I00
 sg13
 (lp2469
 F1830.0
-aF2530.0
+aF2670.0
 asg15
 (itiddlywiki
 Tiddler
@@ -8192,7 +8192,7 @@ I00
 sg13
 (lp2485
 F1830.0
-aF2670.0
+aF2810.0
 asg15
 (itiddlywiki
 Tiddler
@@ -9962,7 +9962,7 @@ tp3019
 Rp3020
 sbsa(dp3021
 g12
-I01
+I00
 sg13
 (lp3022
 F2950.0
@@ -10164,10 +10164,480 @@ tp3079
 (dp3080
 tp3081
 Rp3082
+sbsa(dp3083
+g12
+I00
+sg13
+(lp3084
+F1830.0
+aF2250.0
+asg15
+(itiddlywiki
+Tiddler
+p3085
+(dp3086
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Quite the topic, Inspector. Always underrated. What do you want to know ?</em>\u000a\u000a[[I want to know about your education?|education 2]]\u000a\u000a[[Do you know how Hewes became the figure he is now?|education hewes]]
+p3087
+sg21
+Veducation 1
+p3088
+sg23
+g24
+((I2014
+I9
+I1
+I16
+I57
+I34
+I0
+I244
+I1
+tp3089
+(dp3090
+tp3091
+Rp3092
+sg29
+(lp3093
+VeducationConvo
+p3094
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp3095
+(dp3096
+tp3097
+Rp3098
+sbsa(dp3099
+g12
+I00
+sg13
+(lp3100
+F2110.0
+aF2250.0
+asg15
+(itiddlywiki
+Tiddler
+p3101
+(dp3102
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect"><<if $opinion >= 2>>I guess I was too afraid to directly confront authorities. I got arrested once by the police, and that wasn't the best experience of my life. I realized that I could do a lot, but solving police corruption was out of my league. So I decided to help the victims of that corruption, while Hewes decided to do something different.<<elseif>>\u000aBecause everybody's different.\u000a<<endif>></em>\u000a\u000a[[how is hewes different|education hewes]]
+p3103
+sg21
+Veducation 2 a
+p3104
+sg23
+g24
+((I2014
+I9
+I1
+I16
+I25
+I52
+I0
+I244
+I1
+tp3105
+(dp3106
+tp3107
+Rp3108
+sg29
+(lp3109
+VeducationConvo
+p3110
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp3111
+(dp3112
+tp3113
+Rp3114
+sbsa(dp3115
+g12
+I00
+sg13
+(lp3116
+F2250.0
+aF2250.0
+asg15
+(itiddlywiki
+Tiddler
+p3117
+(dp3118
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Some of them gave up. They either switched to banking or finance when they realized they wouldn't pay back their student loan otherwise, or they moved out of the country in the hope of finding a better place. I'm not sure they did.</em>\u000a\u000a[[Are you still in touch with them?|education 2 c]]\u000a\u000a[[So you're the only one who pursued the activism?|education 2 c]]
+p3119
+sg21
+Veducation 2 b
+p3120
+sg23
+g24
+((I2014
+I9
+I1
+I16
+I48
+I31
+I0
+I244
+I1
+tp3121
+(dp3122
+tp3123
+Rp3124
+sg29
+(lp3125
+VeducationConvo
+p3126
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp3127
+(dp3128
+tp3129
+Rp3130
+sbsa(dp3131
+g12
+I00
+sg13
+(lp3132
+F1970.0
+aF2390.0
+asg15
+(itiddlywiki
+Tiddler
+p3133
+(dp3134
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect"> </em>\u000a\u000a[[|education]]
+p3135
+sg21
+Veducation hewes
+p3136
+sg23
+g24
+((I2014
+I9
+I1
+I16
+I5
+I13
+I0
+I244
+I1
+tp3137
+(dp3138
+tp3139
+Rp3140
+sg29
+(lp3141
+Vhewes
+p3142
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp3143
+(dp3144
+tp3145
+Rp3146
+sbsa(dp3147
+g12
+I00
+sg13
+(lp3148
+F2530.0
+aF2250.0
+asg15
+(itiddlywiki
+Tiddler
+p3149
+(dp3150
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Not them.\u000a\u000a\u000aHewes is something else.</em>\u000a\u000a[[I respect that, let's go back to Hewes|education hewes][$opinion++]]\u000a\u000a[[Then give me Hewes|education hewes]]
+p3151
+sg21
+Veducation 2 d
+p3152
+sg23
+g24
+((I2014
+I9
+I1
+I16
+I53
+I14
+I0
+I244
+I1
+tp3153
+(dp3154
+tp3155
+Rp3156
+sg29
+(lp3157
+Vopinion+
+p3158
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp3159
+(dp3160
+tp3161
+Rp3162
+sbsa(dp3163
+g12
+I00
+sg13
+(lp3164
+F2390.0
+aF2250.0
+asg15
+(itiddlywiki
+Tiddler
+p3165
+(dp3166
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Do you picture me at all, Inspector ?</em>\u000a\u000a[[It doesn't matter. Hewes matters.|education hewes][$opinion--]]\u000a\u000a[[Things were designed so that I couldn't recognize you, if I were to cross your path in the streets.|education 2 f]]
+p3167
+sg21
+Veducation 2 e
+p3168
+sg23
+g24
+((I2014
+I9
+I1
+I16
+I48
+I12
+I0
+I244
+I1
+tp3169
+(dp3170
+tp3171
+Rp3172
+sg29
+(lp3173
+Vopinion
+p3174
+aV-
+p3175
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp3176
+(dp3177
+tp3178
+Rp3179
+sbsa(dp3180
+g12
+I00
+sg13
+(lp3181
+F2670.0
+aF2250.0
+asg15
+(itiddlywiki
+Tiddler
+p3182
+(dp3183
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Well, I'm a 37 years old caucasian, about six feet thr<<timedinsert 1s>>-<<endtimedinsert>><<timedinsert 2s>>-<<endtimedinsert>> <<timedinsert 3s>>(Speech cannot be parsed)<<endtimedinsert>></em>\u000a\u000a<<timedgoto 5s "education 2 g">>
+p3184
+sg21
+Veducation 2 f
+p3185
+sg23
+g24
+((I2014
+I9
+I1
+I16
+I46
+I15
+I0
+I244
+I1
+tp3186
+(dp3187
+tp3188
+Rp3189
+sg29
+(lp3190
+VeducationConvo
+p3191
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp3192
+(dp3193
+tp3194
+Rp3195
+sbsa(dp3196
+g12
+I00
+sg13
+(lp3197
+F2810.0
+aF2250.0
+asg15
+(itiddlywiki
+Tiddler
+p3198
+(dp3199
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Apparently, I can't even say what I look like.</em>\u000a\u000a[[Nor should you.|conversation hub][$opinion--]]\u000a\u000a[[...|conversation hub]]
+p3200
+sg21
+Veducation 2 g
+p3201
+sg23
+g24
+((I2014
+I9
+I1
+I16
+I47
+I53
+I0
+I244
+I1
+tp3202
+(dp3203
+tp3204
+Rp3205
+sg29
+(lp3206
+Vopinion-
+p3207
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp3208
+(dp3209
+tp3210
+Rp3211
+sbsa(dp3212
+g12
+I00
+sg13
+(lp3213
+F2250.0
+aF2390.0
+asg15
+(itiddlywiki
+Tiddler
+p3214
+(dp3215
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I lost contact with those who pursued political protest when I accepted a job at Boston Equities. When I finally quit that, our paths naturally crossed again.\u000a\u000aI don't know what happened to those who are still in that industry. They must be doing well. Not that it matters.</em>\u000a\u000a[[Your friends that are also in political protest, can you give me their names?|education 2 d]]\u000a\u000a[[I didn't picture you as someone who worked in the city's largest financial institution.|education 2 e]]
+p3216
+sg21
+Veducation 2 c
+p3217
+sg23
+g24
+((I2014
+I9
+I1
+I16
+I54
+I6
+I0
+I244
+I1
+tp3218
+(dp3219
+tp3220
+Rp3221
+sg29
+(lp3222
+VeducationConvo
+p3223
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp3224
+(dp3225
+tp3226
+Rp3227
 sbsasS'scale'
-p3083
+p3228
 F0.6000000000000001
 sS'snapping'
-p3084
+p3229
 I01
 ss.
