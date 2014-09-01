@@ -7991,7 +7991,7 @@ Tiddler
 p2422
 (dp2423
 g19
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I could go on for ever -if you allow me to, of course. I've written my dissertation on that precedent, but they probably didn't feel the need to tell you that.</em>\u000a\u000a[[What was your approach?|carson 1 theory]]\u000a\u000a[[Did Hewes talk about Carson a lot?|carson 1 hewes]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I could go on for ever -if you allow me to, of course. I've written my dissertation on that precedent, but they probably didn't feel the need to tell you that.</em>\u000a\u000a[[What was your approach?|carson 1 theory]]\u000a\u000a[[Hewes recently radicalized his public addresses, and Carson vs. US has been mentioned quite often. Any idea why is that?|carson 1 hewes]]
 p2424
 sg21
 Vcarson 1
@@ -8001,9 +8001,9 @@ g24
 ((I2014
 I9
 I1
-I11
-I50
-I34
+I14
+I10
+I47
 I0
 I244
 I1
@@ -9125,13 +9125,13 @@ p2768
 sg23
 g24
 ((I2014
-I7
-I31
-I16
-I39
-I44
-I3
-I212
+I9
+I1
+I14
+I58
+I10
+I0
+I244
 I1
 tp2769
 (dp2770
@@ -9467,7 +9467,7 @@ Tiddler
 p2870
 (dp2871
 g19
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect"></em>\u000a\u000a[[|]]\u000a\u000a[[Did Hewes talk about Carson a lot?|carson 1 hewes]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">How is knowing what is going on in Hewes' head helping you get to him?</em>\u000a\u000a[[It's helping me more than you think.|carson 1 hewes 2]]\u000a\u000a[[It's not only about getting to him, it's about getting him to stop.|carson 1 hewes 2]]\u000a\u000a[[You don't need to know that.|carson 1 hewes 3]]
 p2872
 sg21
 Vcarson 1 hewes
@@ -9477,9 +9477,9 @@ g24
 ((I2014
 I9
 I1
-I12
-I2
-I46
+I14
+I32
+I58
 I0
 I244
 I1
@@ -9517,7 +9517,7 @@ Tiddler
 p2885
 (dp2886
 g19
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I wish it wasn't that way, but lobbies made themselves essential to our country. In terms of getting politicians to legislate on particular issues, they were much more efficient than democratic votes or elections.\u000a\u000aAnd now, they are getting even more done, but to whom is it beneficial?</em>\u000a\u000a[[It is beneficial to the majority. Hewes is only the minority.|carson 1 theory 2 a]]\u000a\u000a[[And you would have it different, not because it's not efficient, but because it's not efficient in the right way?|carson 1 theory 2 b]]\u000a\u000a/%first passage is talking about how the minority is important because it could become the majority AND THEN STOP.\u000a\u000aand then we discuss going back to before, and not being super good. right vs. efficient\u000a%/
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I wish it wasn't that way, but lobbies made themselves essential to our country. In terms of getting politicians to legislate on particular issues, they were much more efficient than democratic votes or elections.\u000a\u000aAnd now, they are getting even more done, but to whom is it beneficial?</em>\u000a\u000a[[It is beneficial to the majority. Hewes is only the minority.|carson 1 theory 2 a]]\u000a\u000a[[Would you rather go back, then?|carson 1 theory 2 b][$opinion++]]
 p2887
 sg21
 Vcarson 1 theory 2
@@ -9527,9 +9527,9 @@ g24
 ((I2014
 I9
 I1
+I13
+I46
 I12
-I15
-I47
 I0
 I244
 I1
@@ -9606,7 +9606,7 @@ tp2911
 Rp2912
 sbsa(dp2913
 g12
-I01
+I00
 sg13
 (lp2914
 F2390.0
@@ -9654,10 +9654,520 @@ tp2924
 (dp2925
 tp2926
 Rp2927
+sbsa(dp2928
+g12
+I00
+sg13
+(lp2929
+F2110.0
+aF2110.0
+asg15
+(itiddlywiki
+Tiddler
+p2930
+(dp2931
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I haven't seen him in ages. All I know is what he said in his manifestos and his statements, those that everybody read.</em>\u000a\u000a[[You know more than that.|carson 1 hewes talk]]\u000a\u000a[[You're a smart man. Extrapolate from what you know.|carson 1 hewes talk]]\u000a\u000a
+p2932
+sg21
+Vcarson 1 hewes 2
+p2933
+sg23
+g24
+((I2014
+I9
+I1
+I14
+I37
+I54
+I0
+I244
+I1
+tp2934
+(dp2935
+tp2936
+Rp2937
+sg29
+(lp2938
+sg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2939
+(dp2940
+tp2941
+Rp2942
+sbsa(dp2943
+g12
+I00
+sg13
+(lp2944
+F2250.0
+aF2110.0
+asg15
+(itiddlywiki
+Tiddler
+p2945
+(dp2946
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I've been very cooperative so far, why should I continue ?</em>\u000a\u000a[[Because otherwise, we're done talking. (Apply physical encouragement)|carson 1 torture 1][$torture++]]\u000a\u000a[[It's not only about getting to him, it's about getting him to stop.|carson 1 hewes 3 a]]\u000a<<nobr>>\u000a<<if $opinion >= 2>>\u000a[[Because I have been, and will keep on being cooperative.|carson 1 hewes 3 b]]\u000a<<endif>><<endnobr>>
+p2947
+sg21
+Vcarson 1 hewes 3
+p2948
+sg23
+g24
+((I2014
+I9
+I1
+I14
+I39
+I56
+I0
+I244
+I1
+tp2949
+(dp2950
+tp2951
+Rp2952
+sg29
+(lp2953
+sg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2954
+(dp2955
+tp2956
+Rp2957
+sbsa(dp2958
+g12
+I00
+sg13
+(lp2959
+F2390.0
+aF2110.0
+asg15
+(itiddlywiki
+Tiddler
+p2960
+(dp2961
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">You got that wrong, Inspector. It's not abou stopping him, it's about stopping what he believes in. Even if you find him and put him in one of those cells, it won't be over.</em>\u000a\u000a[[I don't mind him believing in something, I mind him acting upon it the way he does.|carson 1 hewes talk]]\u000a\u000a[[What he wants is also where he will be. What does he want?|carson 1 hewes want]]
+p2962
+sg21
+Vcarson 1 hewes 3 a
+p2963
+sg23
+g24
+((I2014
+I9
+I1
+I15
+I17
+I54
+I0
+I244
+I1
+tp2964
+(dp2965
+tp2966
+Rp2967
+sg29
+(lp2968
+sg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2969
+(dp2970
+tp2971
+Rp2972
+sbsa(dp2973
+g12
+I00
+sg13
+(lp2974
+F2530.0
+aF2110.0
+asg15
+(itiddlywiki
+Tiddler
+p2975
+(dp2976
+g19
+VSUSPECT 1247\u000a- - - -\u000a<<timedremove 1.99s>>.<<timedinsert 1s>>.<<endtimedinsert>><<timedinsert 2s>>.<<endtimedinsert>><<endtimedremove>><<timedinsert 3s>>(Error: Speech cannot be parsed.)<<endtimedinsert>>\u000a\u000a<<nobr>>\u000a<<if $torture < $tortureLimit>>\u000a<<timedinsert 4s>>[[What he wants is where he will be. WHAT does he want?|carson 1 hewes want][$opinion--]]<br>\u000a<br>\u000a[[This doesn't need to go on any further. I could leave you alone, delete a line on a registry and the world would lose your trace.|carson 1 hewes psych threat]]<<endtimedinsert>>\u000a<<endtimedinsert>>\u000a<<else>>\u000a<<timedgoto "fainted" 2.5s>>\u000a<<endif>>\u000a<<endnobr>>
+p2977
+sg21
+Vcarson 1 torture 1
+p2978
+sg23
+g24
+((I2014
+I9
+I1
+I15
+I1
+I16
+I0
+I244
+I1
+tp2979
+(dp2980
+tp2981
+Rp2982
+sg29
+(lp2983
+Vtorture
+p2984
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2985
+(dp2986
+tp2987
+Rp2988
+sbsa(dp2989
+g12
+I00
+sg13
+(lp2990
+F2810.0
+aF2110.0
+asg15
+(itiddlywiki
+Tiddler
+p2991
+(dp2992
+g19
+VSUSPECT 1247\u000a- - - -\u000a<<set $hMO_intelFalse to true>>\u000a<em class = "suspect">Well, he could do anything. He could keep on broadcasting his ideas on all those channels the Intelligence Agency can't control, he could run for president, he could recruit people in other countries, or he could keep on blowing things up until the president sits down and listens to him.\u000a\u000aMy guess? Probably the latter, but I'll be surprised if you'd ever let that happen.</em>\u000a\u000a[[So random attacks? That's his modus operandi?|carson 1 hewes talk 1]]\u000a\u000a[[I'll make good note of that.|conversation hub]]\u000a
+p2993
+sg21
+Vcarson 1 hewes talk
+p2994
+sg23
+g24
+((I2014
+I9
+I1
+I15
+I39
+I21
+I0
+I244
+I1
+tp2995
+(dp2996
+tp2997
+Rp2998
+sg29
+(lp2999
+VFALSE
+p3000
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp3001
+(dp3002
+tp3003
+Rp3004
+sbsa(dp3005
+g12
+I00
+sg13
+(lp3006
+F2670.0
+aF2110.0
+asg15
+(itiddlywiki
+Tiddler
+p3007
+(dp3008
+g19
+VSUSPECT 1247\u000a- - - -\u000a<<set $hMO_intel to true>>\u000a<em class = "suspect">Well, it turns out he got a hold of a version of my dissertation I had edited for the review published by the group I was part of decades ago. Mutual friends told me he was really inspired.\u000a\u000aThe problem is that it isn't as objective and impartial as the original dissertation, and I think he took that very seriously. Apparently, he wants to go after anything related to Carson. The company, or the people who voted the law.</em>\u000a\u000a[[This is the kind of cooperation I'm talking about.|conversation hub]]\u000a
+p3009
+sg21
+Vcarson 1 hewes 3 b
+p3010
+sg23
+g24
+((I2014
+I9
+I1
+I15
+I39
+I7
+I0
+I244
+I1
+tp3011
+(dp3012
+tp3013
+Rp3014
+sg29
+(lp3015
+VTRUE
+p3016
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp3017
+(dp3018
+tp3019
+Rp3020
+sbsa(dp3021
+g12
+I01
+sg13
+(lp3022
+F2950.0
+aF2110.0
+asg15
+(itiddlywiki
+Tiddler
+p3023
+(dp3024
+g19
+VSUSPECT 1247\u000a- - - -\u000a<<set $hMO_intelFalse to true>>\u000a<em class = "suspect">He...\u000a<<timedinsert 2s>>He wants to kill the Carson CEO.<<endtimedinsert>></em>\u000a\u000a<<timedinsert 3s>>\u000a[[Obviously.|conversation hub]]\u000a\u000a[[Well, if I were a bloodthirsty terrorist, that'd be the first person on my list.|conversation hub][$opinion++]]\u000a<<endtimedinsert>>
+p3025
+sg21
+Vcarson 1 hewes want
+p3026
+sg23
+g24
+((I2014
+I9
+I1
+I15
+I40
+I6
+I0
+I244
+I1
+tp3027
+(dp3028
+tp3029
+Rp3030
+sg29
+(lp3031
+VFALSE
+p3032
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp3033
+(dp3034
+tp3035
+Rp3036
+sbsa(dp3037
+g12
+I00
+sg13
+(lp3038
+F2670.0
+aF1970.0
+asg15
+(itiddlywiki
+Tiddler
+p3039
+(dp3040
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Please...</em>\u000a\u000a[[I'm listening.|carson 1 hewes psych threat 2]]\u000a
+p3041
+sg21
+Vcarson 1 hewes psych threat
+p3042
+sg23
+g24
+((I2014
+I9
+I1
+I15
+I11
+I33
+I0
+I244
+I1
+tp3043
+(dp3044
+tp3045
+Rp3046
+sg29
+(lp3047
+sg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp3048
+(dp3049
+tp3050
+Rp3051
+sbsa(dp3052
+g12
+I00
+sg13
+(lp3053
+F2810.0
+aF1970.0
+asg15
+(itiddlywiki
+Tiddler
+p3054
+(dp3055
+g19
+VSUSPECT 1247\u000a- - - -\u000a<<set $hMO_intelHalfTrue to true>>\u000a<em class = "suspect">Carson. He wants to tear down anyone or anything related to Carson.</em>\u000a\u000a[[Thank you.|conversation hub]]\u000a
+p3056
+sg21
+Vcarson 1 hewes psych threat 2
+p3057
+sg23
+g24
+((I2014
+I9
+I1
+I15
+I38
+I53
+I0
+I244
+I1
+tp3058
+(dp3059
+tp3060
+Rp3061
+sg29
+(lp3062
+VHALFTRUE
+p3063
+asg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp3064
+(dp3065
+tp3066
+Rp3067
+sbsa(dp3068
+g12
+I00
+sg13
+(lp3069
+F2950.0
+aF1970.0
+asg15
+(itiddlywiki
+Tiddler
+p3070
+(dp3071
+g19
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>><<if $opinion =< 4>><em class = "suspect">I told you, that's my best bet.</em>\u000a\u000a[[I'll make good note of that.|conversation hub]]\u000a<<elseif>><em class = "suspect">\u000aActually, I think I might make myself a bit clearer.</em>\u000a\u000a[[Go on.|carson 1 hewes 3 b]]\u000a<<endif>><<endnobr>>\u000a\u000a\u000a\u000a
+p3072
+sg21
+Vcarson 1 hewes talk 1
+p3073
+sg23
+g24
+((I2014
+I9
+I1
+I15
+I33
+I8
+I0
+I244
+I1
+tp3074
+(dp3075
+tp3076
+Rp3077
+sg29
+(lp3078
+sg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp3079
+(dp3080
+tp3081
+Rp3082
 sbsasS'scale'
-p2928
+p3083
 F0.6000000000000001
 sS'snapping'
-p2929
+p3084
 I01
 ss.
