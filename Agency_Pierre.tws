@@ -7939,7 +7939,7 @@ Tiddler
 p2406
 (dp2407
 g19
-VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $torture <= 0>>\u000a<em class = "suspect">I find it quite ironic that you would ask me that. Talking is all that you seem to be doing, Inspector.</em>\u000a<<else if>>\u000a<em class="suspect">You'd rather have people like me use the same methods as the people like you?</em>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[I don't have any hopes of changing the world we live in. You do, and you what do you accomplish?|action 1 job]]\u000a\u000a[[Then tell me how you strike the balance between my passivity and Hewes' terrorism.|action 1 system]]\u000a\u000a[[I can also take action. (Apply physical encouragement)|action 1 torture 1]]\u000a\u000a
+VSUSPECT 1247\u000a- - - -\u000a<<nobr>>\u000a<<if $torture <= 0>>\u000a<em class = "suspect">I find it quite ironic that you would ask me that. Talking is all that you seem to be doing, Inspector.</em>\u000a<<else if>>\u000a<em class="suspect">You'd rather have people like me use the same methods as the people like you?</em>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a[[I don't have any hopes of changing the world we live in. You do, and you what do you accomplish?|action 1 job]]\u000a\u000a[[Then tell me how you strike the balance between my passivity and Hewes' terrorism.|action 1 system]]\u000a\u000a[[I can also take action. (Apply physical encouragement)|action 1 torture 1]]\u000a\u000a[[I need to know more about James Hewes|action 1 hewes 1]]\u000a
 p2408
 sg21
 Vaction 1
@@ -7947,13 +7947,13 @@ p2409
 sg23
 g24
 ((I2014
-I7
-I31
+I9
+I1
+I11
+I27
 I16
-I26
-I41
-I3
-I212
+I0
+I244
 I1
 tp2410
 (dp2411
@@ -7991,7 +7991,7 @@ Tiddler
 p2422
 (dp2423
 g19
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect"> </em>
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I could go on for ever -if you allow me to, of course. I've written my dissertation on that precedent, but they probably didn't feel the need to tell you that.</em>\u000a\u000a[[What was your approach?|carson 1 theory]]\u000a\u000a[[Did Hewes talk about Carson a lot?|carson 1 hewes]]
 p2424
 sg21
 Vcarson 1
@@ -7999,13 +7999,13 @@ p2425
 sg23
 g24
 ((I2014
-I7
-I31
-I11
-I19
+I9
 I1
-I3
-I212
+I11
+I50
+I34
+I0
+I244
 I1
 tp2426
 (dp2427
@@ -8036,7 +8036,7 @@ I00
 sg13
 (lp2437
 F1830.0
-aF2110.0
+aF2250.0
 asg15
 (itiddlywiki
 Tiddler
@@ -8088,7 +8088,7 @@ I00
 sg13
 (lp2453
 F1830.0
-aF2250.0
+aF2390.0
 asg15
 (itiddlywiki
 Tiddler
@@ -8140,7 +8140,7 @@ I00
 sg13
 (lp2469
 F1830.0
-aF2390.0
+aF2530.0
 asg15
 (itiddlywiki
 Tiddler
@@ -8192,7 +8192,7 @@ I00
 sg13
 (lp2485
 F1830.0
-aF2530.0
+aF2670.0
 asg15
 (itiddlywiki
 Tiddler
@@ -9356,7 +9356,7 @@ tp2836
 Rp2837
 sbsa(dp2838
 g12
-I01
+I00
 sg13
 (lp2839
 F2670.0
@@ -9404,10 +9404,260 @@ tp2849
 (dp2850
 tp2851
 Rp2852
+sbsa(dp2853
+g12
+I00
+sg13
+(lp2854
+F1970.0
+aF1970.0
+asg15
+(itiddlywiki
+Tiddler
+p2855
+(dp2856
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I didn't think you'd be interested by any academic rambling, Inspector, I'm surprised.\u000a\u000aBasically, I approached the case as the officialization of lobbies as key political components, looked at the reason why that happened, and why those reaons influenced the current state of entrepreneurial voting, when it could have been something else.</em>\u000a\u000a[[It could have been something else?|carson 1 theory 2]]\u000a\u000a[[You think lobbies are key political components?|carson 1 theory 2]]
+p2857
+sg21
+Vcarson 1 theory
+p2858
+sg23
+g24
+((I2014
+I9
+I1
+I12
+I5
+I46
+I0
+I244
+I1
+tp2859
+(dp2860
+tp2861
+Rp2862
+sg29
+(lp2863
+sg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2864
+(dp2865
+tp2866
+Rp2867
+sbsa(dp2868
+g12
+I00
+sg13
+(lp2869
+F1970.0
+aF2110.0
+asg15
+(itiddlywiki
+Tiddler
+p2870
+(dp2871
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect"></em>\u000a\u000a[[|]]\u000a\u000a[[Did Hewes talk about Carson a lot?|carson 1 hewes]]
+p2872
+sg21
+Vcarson 1 hewes
+p2873
+sg23
+g24
+((I2014
+I9
+I1
+I12
+I2
+I46
+I0
+I244
+I1
+tp2874
+(dp2875
+tp2876
+Rp2877
+sg29
+(lp2878
+sg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2879
+(dp2880
+tp2881
+Rp2882
+sbsa(dp2883
+g12
+I00
+sg13
+(lp2884
+F2110.0
+aF1970.0
+asg15
+(itiddlywiki
+Tiddler
+p2885
+(dp2886
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I wish it wasn't that way, but lobbies made themselves essential to our country. In terms of getting politicians to legislate on particular issues, they were much more efficient than democratic votes or elections.\u000a\u000aAnd now, they are getting even more done, but to whom is it beneficial?</em>\u000a\u000a[[It is beneficial to the majority. Hewes is only the minority.|carson 1 theory 2 a]]\u000a\u000a[[And you would have it different, not because it's not efficient, but because it's not efficient in the right way?|carson 1 theory 2 b]]\u000a\u000a/%first passage is talking about how the minority is important because it could become the majority AND THEN STOP.\u000a\u000aand then we discuss going back to before, and not being super good. right vs. efficient\u000a%/
+p2887
+sg21
+Vcarson 1 theory 2
+p2888
+sg23
+g24
+((I2014
+I9
+I1
+I12
+I15
+I47
+I0
+I244
+I1
+tp2889
+(dp2890
+tp2891
+Rp2892
+sg29
+(lp2893
+sg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2894
+(dp2895
+tp2896
+Rp2897
+sbsa(dp2898
+g12
+I00
+sg13
+(lp2899
+F2250.0
+aF1970.0
+asg15
+(itiddlywiki
+Tiddler
+p2900
+(dp2901
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">James Hewes is important because he is a minority.\u000a\u000aAnd minorities are important for two things, Inspector. The majority only is a majority if there is a minority; the minority might, one day, become majority.</em>\u000a\u000a[[Does Hewes really think he'll be the majority, one day?|carson 1 hewes]]\u000a\u000a[[And he'll do so through violence and death?|action 1 hewes 1 victims]]
+p2902
+sg21
+Vcarson 1 theory 2 a
+p2903
+sg23
+g24
+((I2014
+I9
+I1
+I13
+I41
+I45
+I0
+I244
+I1
+tp2904
+(dp2905
+tp2906
+Rp2907
+sg29
+(lp2908
+sg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2909
+(dp2910
+tp2911
+Rp2912
+sbsa(dp2913
+g12
+I01
+sg13
+(lp2914
+F2390.0
+aF1970.0
+asg15
+(itiddlywiki
+Tiddler
+p2915
+(dp2916
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I know that's not possible. I wish we could come back to France in 1793, when the hopes and dreams of a democratic government were still alive, but...\u000a\u000aIf we, as a people, are doomed to always go forward, then I'm trying my best to veer the world in the direction I think is best.</em>\u000a\u000a\u000a[[Let's go back to Hewes. What direction does he think is best?|carson 1 hewes]]\u000a\u000a\u000a\u000a
+p2917
+sg21
+Vcarson 1 theory 2 b
+p2918
+sg23
+g24
+((I2014
+I9
+I1
+I13
+I45
+I12
+I0
+I244
+I1
+tp2919
+(dp2920
+tp2921
+Rp2922
+sg29
+(lp2923
+sg31
+g24
+((I2014
+I7
+I31
+I11
+I15
+I10
+I3
+I212
+I1
+tp2924
+(dp2925
+tp2926
+Rp2927
 sbsasS'scale'
-p2853
+p2928
 F0.6000000000000001
 sS'snapping'
-p2854
+p2929
 I01
 ss.
