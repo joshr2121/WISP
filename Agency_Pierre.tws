@@ -13701,9 +13701,9 @@ g24
 ((I2014
 I9
 I7
-I13
-I49
-I48
+I14
+I46
+I17
 I6
 I250
 I1
@@ -13715,7 +13715,7 @@ sg29
 (lp4170
 Vagg
 p4171
-aVtorture
+aVpromise
 p4172
 asg31
 g24
@@ -15059,7 +15059,7 @@ Tiddler
 p4586
 (dp4587
 g19
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">He's targeting Carson, but not everyone there. Specifically the people with ties or relations to the government. The people that instigated the whole case. He's not going to get to them at their homes, though. He wants the world to see it happen at the Carson headquarters.</em>\u000a\u000a[[Thank you for your cooperation|day 3]]\u000a\u000a[[*log out*|day 3]]
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Okay, then.\u000a\u000aHe's targeting Carson, but not everyone there. Specifically the people with ties or relations to the government. The people that instigated the whole case. He's not going to get to them at their homes, though. He wants the world to see it happen at the Carson headquarters.\u000a\u000aRegarding the time, I wasn't let in on that.</em>\u000a\u000a[[Thank you for your cooperation|day 3]]\u000a\u000a[[*log out*|day 3]]
 p4588
 sg21
 Vd3 ht talk private admit b
@@ -15069,9 +15069,9 @@ g24
 ((I2014
 I9
 I7
-I12
-I5
 I16
+I29
+I6
 I6
 I250
 I1
@@ -15475,7 +15475,7 @@ Tiddler
 p4714
 (dp4715
 g19
-VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">You guessed it. His intervention is to happen during this year's League Finals. First there will be a a communications interference, displaying a message explaining, in real terms, what the political situation of our country is.\u000a\u000aThen they are scheduled to do something to the officials that will be attending. The two Mayors will be there, at least, plus a couple other public servants, I would expect.</em>\u000a\u000a[[That's exactly what I needed, thank you. *log out*|day 3]]\u000a\u000a[[Perfect. *log out*|day 3]]\u000a\u000a[[*log out*|day 3]]
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">I...\u000a\u000aWell...\u000a\u000aHis intervention is to happen during this year's League Finals. First there will be a a communications interference, displaying a message explaining, in real terms, what the political situation of our country is.\u000a\u000aThen they are scheduled to do something to the officials that will be attending. The two Mayors will be there, at least, plus a couple other public servants, I would expect.</em>\u000a\u000a[[That's exactly what I needed, thank you. *log out*|day 3]]\u000a\u000a[[Perfect. *log out*|day 3]]\u000a\u000a[[*log out*|day 3]]
 p4716
 sg21
 Vd3 f repent 1 1
@@ -15485,9 +15485,9 @@ g24
 ((I2014
 I9
 I7
-I14
-I34
-I14
+I15
+I7
+I36
 I6
 I250
 I1
@@ -15620,7 +15620,7 @@ tp4758
 Rp4759
 sbsa(dp4760
 g12
-I01
+I00
 sg13
 (lp4761
 F2810.0
@@ -15631,7 +15631,7 @@ Tiddler
 p4762
 (dp4763
 g19
-VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">Hewes wants to use the stadium as an occasion to let the people understand how futile all this is. He'll take over the half-show, and his security as he delivers his speech will be insured by the fact that some of his team will be holding the present officials hostages.\u000a\u000aI don't know if he plans to hurt them, though.</em>\u000a\u000a[[Thank you. *log out*|day 3]]\u000a\u000a[[Good. *log out*|day 3]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">Alright.\u000a\u000aHewes wants to use the stadium as an occasion to let the people understand how futile all this is. He'll take over the half-show, and his security as he delivers his speech will be insured by the fact that some of his team will be holding the present officials hostages.\u000a\u000aI don't know if he plans to hurt them, though.</em>\u000a\u000a[[Thank you. *log out*|day 3]]\u000a\u000a[[Good. *log out*|day 3]]\u000a
 p4764
 sg21
 Vd3 f repent 1 1 1
@@ -15641,9 +15641,9 @@ g24
 ((I2014
 I9
 I7
-I14
-I45
-I44
+I15
+I3
+I25
 I6
 I250
 I1
@@ -15653,7 +15653,7 @@ tp4768
 Rp4769
 sg29
 (lp4770
-Vnice
+Vadmit
 p4771
 asg31
 g24
@@ -15676,7 +15676,7 @@ I00
 sg13
 (lp4777
 F1970.0
-aF5050.0
+aF5190.0
 asg15
 (itiddlywiki
 Tiddler
@@ -15735,7 +15735,7 @@ Tiddler
 p4794
 (dp4795
 g19
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Let me guess, then.</em>\u000a\u000a[[...|d3 redeem 1]]\u000a\u000a[[I'm someone different.|d3 redeem indiv special]]\u000a\u000a[[I'm like everyone else.|d3 redeem indiv similar]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Let me guess, then.</em>\u000a\u000a[[...|d3 redeem diatribe 1]]\u000a\u000a[[I'm someone different.|d3 redeem indiv special]]\u000a\u000a[[I'm like everyone else.|d3 redeem indiv similar]]\u000a
 p4796
 sg21
 Vd3 redeem diatribe
@@ -15744,12 +15744,12 @@ sg23
 g24
 ((I2014
 I9
+I7
+I16
+I12
+I38
 I6
-I15
-I18
-I15
-I5
-I249
+I250
 I1
 tp4798
 (dp4799
@@ -15776,18 +15776,18 @@ tp4806
 Rp4807
 sbsa(dp4808
 g12
-I00
+I01
 sg13
 (lp4809
 F2110.0
-aF5330.0
+aF5610.0
 asg15
 (itiddlywiki
 Tiddler
 p4810
 (dp4811
 g19
-VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">i'm sure you're more than that</em>\u000a\u000a[[...|d3 redeem 1]]\u000a\u000a[[idk jk lol|d3 redeem 1]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a\u000aDO WE NEED THIS? NOT SURE.\u000a\u000a\u000a\u000a/%\u000a<em class = "suspect">i'm sure you're more than that</em>\u000a\u000a[[...|d3 redeem 1]]\u000a\u000a[[idk jk lol|d3 redeem 1]]\u000a%/
 p4812
 sg21
 Vd3 redeem gov
@@ -15796,12 +15796,12 @@ sg23
 g24
 ((I2014
 I9
-I6
-I15
-I15
-I12
+I7
+I16
+I33
 I5
-I249
+I6
+I250
 I1
 tp4814
 (dp4815
@@ -15836,14 +15836,14 @@ I00
 sg13
 (lp4827
 F2110.0
-aF5050.0
+aF5190.0
 asg15
 (itiddlywiki
 Tiddler
 p4828
 (dp4829
 g19
-VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">we all have them, and we all have to leave with them</em>\u000a\u000a[[am i like every one else|d3 redeem indiv similar]]\u000a\u000a[[i have special flaws|d3 redeem indiv special]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">We all have them, and we all have to live with them.</em>\u000a\u000a[[And I'm just like everybody else.|d3 redeem indiv similar]]\u000a\u000a[[I don't think you realize what kind of life I live.|d3 redeem indiv special]]\u000a
 p4830
 sg21
 Vd3 redeem indiv
@@ -15852,12 +15852,12 @@ sg23
 g24
 ((I2014
 I9
-I6
+I7
 I15
-I18
-I23
-I5
-I249
+I17
+I1
+I6
+I250
 I1
 tp4832
 (dp4833
@@ -15899,7 +15899,7 @@ Tiddler
 p4846
 (dp4847
 g19
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Let me guess, then.</em>\u000a\u000a[[...|d3 redeem 1]]\u000a\u000a[[I'm someone different.|d3 redeem indiv special]]\u000a\u000a[[I'm like everyone else.|d3 redeem indiv similar]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">The most obvious part is that you have to pretend to be sure of who you are. It's the most common but also the hardest part, I believe.</em>\u000a\u000a[[...|d3 redeem diatribe 2]]\u000a\u000a[[I am unique.|d3 redeem indiv special]]\u000a\u000a[[I'm like everyone else.|d3 redeem indiv similar]]\u000a
 p4848
 sg21
 Vd3 redeem diatribe 1
@@ -15908,12 +15908,12 @@ sg23
 g24
 ((I2014
 I9
+I7
+I16
+I12
+I48
 I6
-I15
-I18
-I15
-I5
-I249
+I250
 I1
 tp4850
 (dp4851
@@ -15951,7 +15951,7 @@ Tiddler
 p4862
 (dp4863
 g19
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Let me guess, then.</em>\u000a\u000a[[...|d3 redeem 1]]\u000a\u000a[[I'm someone different.|d3 redeem indiv special]]\u000a\u000a[[I'm like everyone else.|d3 redeem indiv similar]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">But with that self-doubt -which is good, don't get me wrong-, comes a need for beliefs. For principles.\u000a\u000aYou have found some principles, no doubt. But are they yours?</em>\u000a\u000a[[...|d3 redeem diatribe 3]]\u000a\u000a[[They're mine.|d3 redeem indiv special]]\u000a\u000a[[They're shared throughout society.|d3 redeem indiv similar]]\u000a
 p4864
 sg21
 Vd3 redeem diatribe 2
@@ -15960,12 +15960,12 @@ sg23
 g24
 ((I2014
 I9
+I7
+I16
+I12
+I54
 I6
-I15
-I18
-I15
-I5
-I249
+I250
 I1
 tp4866
 (dp4867
@@ -16003,7 +16003,7 @@ Tiddler
 p4878
 (dp4879
 g19
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Let me guess, then.</em>\u000a\u000a[[...|d3 redeem 1]]\u000a\u000a[[I'm someone different.|d3 redeem indiv special]]\u000a\u000a[[I'm like everyone else.|d3 redeem indiv similar]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">That silent is eloquent.</em>\u000a\u000a[[...|d3 redeem diatribe 4]]\u000a\u000a[[I'm through with you messing with my head.|d3 redeem indiv]]\u000a
 p4880
 sg21
 Vd3 redeem diatribe 3
@@ -16012,12 +16012,12 @@ sg23
 g24
 ((I2014
 I9
+I7
+I16
+I14
+I35
 I6
-I15
-I18
-I15
-I5
-I249
+I250
 I1
 tp4882
 (dp4883
@@ -16055,7 +16055,7 @@ Tiddler
 p4894
 (dp4895
 g19
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Let me guess, then.</em>\u000a\u000a[[...|d3 redeem 1]]\u000a\u000a[[I'm someone different.|d3 redeem indiv special]]\u000a\u000a[[I'm like everyone else.|d3 redeem indiv similar]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">You know, those principles of yours...\u000a\u000aWhatever they are, make sure you don't cling to them because that will make you look good to the eyes of your peers, or you superiors. Your principles are what you believe.</em>\u000a\u000a[[...|d3 redeem diatribe 5]]\u000a\u000a[[You don't know what you're talking about.|d3 redeem indiv]]\u000a
 p4896
 sg21
 Vd3 redeem diatribe 4
@@ -16064,12 +16064,12 @@ sg23
 g24
 ((I2014
 I9
-I6
-I15
+I7
+I16
 I18
-I15
-I5
-I249
+I27
+I6
+I250
 I1
 tp4898
 (dp4899
@@ -16107,21 +16107,21 @@ Tiddler
 p4910
 (dp4911
 g19
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Let me guess, then.</em>\u000a\u000a[[...|d3 redeem 1]]\u000a\u000a[[I'm someone different.|d3 redeem indiv special]]\u000a\u000a[[I'm like everyone else.|d3 redeem indiv similar]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">A principle alone isn't enough, however. Nothing happens without taking action, and yet every action must be carefully examined at the light of the ideals that guide it.\u000a\u000aWhen it comes to the capture of James Hewes, what action are you going to take?</em>\u000a\u000a[[...|d3 redeem choice]]\u000a\u000a[[I'll make sure no one dies by his doing anymore.|d3 ht talk private admit b]]\u000a\u000a[[I'll give him another chance.|d3 redeem save hewes]]\u000a
 p4912
 sg21
-Vd3 redeem diatribe 4 1
+Vd3 redeem diatribe 5
 p4913
 sg23
 g24
 ((I2014
 I9
+I7
+I16
+I29
+I26
 I6
-I15
-I18
-I15
-I5
-I249
+I250
 I1
 tp4914
 (dp4915
@@ -16159,21 +16159,21 @@ Tiddler
 p4926
 (dp4927
 g19
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Let me guess, then.</em>\u000a\u000a[[...|d3 redeem 1]]\u000a\u000a[[I'm someone different.|d3 redeem indiv special]]\u000a\u000a[[I'm like everyone else.|d3 redeem indiv similar]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Now is not the time for silence, Inspector.\u000a\u000aDo you want to capture James Hewes?</em>\u000a\u000a[[Yes.|d3 ht talk private admit b]]\u000a\u000a[[No.|d3 redeem save hewes]]\u000a
 p4928
 sg21
-Vd3 redeem diatribe 4 2
+Vd3 redeem choice
 p4929
 sg23
 g24
 ((I2014
 I9
+I7
+I16
+I29
+I31
 I6
-I15
-I18
-I15
-I5
-I249
+I250
 I1
 tp4930
 (dp4931
@@ -16204,14 +16204,14 @@ I00
 sg13
 (lp4941
 F2250.0
-aF5050.0
+aF5190.0
 asg15
 (itiddlywiki
 Tiddler
 p4942
 (dp4943
 g19
-VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">exactly. that's why there's no point in</em>\u000a\u000a[[am i like every one else|d3 redeem indiv similar 1]]\u000a\u000a[[i have special flaws|d3 redeem indiv similar 1]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">Precisely. If you're like everybody else, than one would think that empathy -feeling for other people's pain and despair- wouldn't be outside your reach.</em>\u000a\u000a[[I do.|d3 redeem indiv similar 1]]\u000a\u000a[[This procedure is designed to prevent that.|d3 redeem indiv similar 1]]\u000a
 p4944
 sg21
 Vd3 redeem indiv similar
@@ -16220,12 +16220,12 @@ sg23
 g24
 ((I2014
 I9
-I6
+I7
 I15
-I24
 I19
-I5
-I249
+I51
+I6
+I250
 I1
 tp4946
 (dp4947
@@ -16258,14 +16258,14 @@ I00
 sg13
 (lp4958
 F2250.0
-aF5190.0
+aF5470.0
 asg15
 (itiddlywiki
 Tiddler
 p4959
 (dp4960
 g19
-VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">how are you special?</em>\u000a\u000a[[like this|d3 redeem indiv special 1]]\u000a\u000a[[like that|d3 redeem indiv special 2]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">And how do you think you're special?</em>\u000a\u000a[[Because I have the strength to achieve more than others.|d3 redeem indiv special 1]]\u000a\u000a[[I've always felt different.|d3 redeem indiv special 1]]\u000a
 p4961
 sg21
 Vd3 redeem indiv special
@@ -16274,12 +16274,12 @@ sg23
 g24
 ((I2014
 I9
-I6
+I7
 I15
-I23
-I56
-I5
-I249
+I42
+I30
+I6
+I250
 I1
 tp4963
 (dp4964
@@ -16371,7 +16371,7 @@ Tiddler
 p4992
 (dp4993
 g19
-VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">I'm afraid I cant, Inspector. I just have to wait a couple of hours and the law will be on my side.</em>\u000a\u000a[[I'll find him anyway.|day 3]]
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">I'm afraid I can't, Inspector. I just have to wait a couple of hours and the law will be on my side.</em>\u000a\u000a[[I'll find him anyway.|day 3]]
 p4994
 sg21
 Vd3 true nope 1
@@ -16381,8 +16381,8 @@ g24
 ((I2014
 I9
 I7
-I10
-I36
+I15
+I3
 I53
 I6
 I250
@@ -16722,10 +16722,382 @@ tp5098
 (dp5099
 tp5100
 Rp5101
+sbsa(dp5102
+g12
+I00
+sg13
+(lp5103
+F2390.0
+aF5190.0
+asg15
+(itiddlywiki
+Tiddler
+p5104
+(dp5105
+g19
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">And I'm sure you're very glad to be safely hidden behind your screen, away from consequences.\u000a\u000aWhen they say that "you can't live without consequences", really, they mean that you shouldn't be leaving without consequences, for fear of leaving a pale, dull existence.\u000a</em>\u000a\u000a[[...|d3 redeem indiv similar 1 1]]\u000a\u000a[[We all live with consequences|d3 redeem indiv similar 1 1][$opinion++]]\u000a
+p5106
+sg21
+Vd3 redeem indiv similar 1
+p5107
+sg23
+g24
+((I2014
+I9
+I7
+I15
+I24
+I27
+I6
+I250
+I1
+tp5108
+(dp5109
+tp5110
+Rp5111
+sg29
+(lp5112
+Vbeing
+p5113
+aVsimilar
+p5114
+asg31
+g24
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp5115
+(dp5116
+tp5117
+Rp5118
+sbsa(dp5119
+g12
+I00
+sg13
+(lp5120
+F2530.0
+aF5190.0
+asg15
+(itiddlywiki
+Tiddler
+p5121
+(dp5122
+g19
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">If I ever tell you the truth, Inspector, I need to know that you're not going to waste it away in a bloodshed.</em>\u000a\u000a[[Tell me.|d3 redeem indiv f]]\u000a\u000a[[These are not consequences I'm ready to live with.|d3 redeem indiv ht]]\u000a
+p5123
+sg21
+Vd3 redeem indiv similar 1 1
+p5124
+sg23
+g24
+((I2014
+I9
+I7
+I15
+I30
+I9
+I6
+I250
+I1
+tp5125
+(dp5126
+tp5127
+Rp5128
+sg29
+(lp5129
+Vbeing
+p5130
+aVsimilar
+p5131
+asg31
+g24
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp5132
+(dp5133
+tp5134
+Rp5135
+sbsa(dp5136
+g12
+I00
+sg13
+(lp5137
+F2390.0
+aF5470.0
+asg15
+(itiddlywiki
+Tiddler
+p5138
+(dp5139
+g19
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">And you sincerely think that this gives you power over others?</em>\u000a\u000a[[Yes.|d3 redeem indiv special 2]]\u000a\u000a[[No.|d3 redeem indiv special 2]]\u000a
+p5140
+sg21
+Vd3 redeem indiv special 1
+p5141
+sg23
+g24
+((I2014
+I9
+I7
+I15
+I43
+I6
+I6
+I250
+I1
+tp5142
+(dp5143
+tp5144
+Rp5145
+sg29
+(lp5146
+Vbeing
+p5147
+aVspecial
+p5148
+asg31
+g24
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp5149
+(dp5150
+tp5151
+Rp5152
+sbsa(dp5153
+g12
+I00
+sg13
+(lp5154
+F2530.0
+aF5470.0
+asg15
+(itiddlywiki
+Tiddler
+p5155
+(dp5156
+g19
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">That's all I needed to know.</em>\u000a\u000a[[All I need to know is whether you'll help me. Because Î want to help the people Hewes is going to kill.|d3 ht talk private admit b]]\u000a\u000a[[Now that this masquerade is over, I'm eager to hear what you know.|d3 f repent 1 1 1]]\u000a
+p5157
+sg21
+Vd3 redeem indiv special 2
+p5158
+sg23
+g24
+((I2014
+I9
+I7
+I15
+I48
+I14
+I6
+I250
+I1
+tp5159
+(dp5160
+tp5161
+Rp5162
+sg29
+(lp5163
+Vbeing
+p5164
+aVspecial
+p5165
+asg31
+g24
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp5166
+(dp5167
+tp5168
+Rp5169
+sbsa(dp5170
+g12
+I00
+sg13
+(lp5171
+F2670.0
+aF5330.0
+asg15
+(itiddlywiki
+Tiddler
+p5172
+(dp5173
+g19
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">You're not a snowflake, end of line</em>\u000a\u000a[[I know. Hewes isn't either. Yet, he seems dangerously close to believing so.|d3 ht talk private admit b]]\u000a\u000a[[These questions have gone on for long enough. Tell me what Hewes is up to. Or I'll use other means.|d3 ht torture]]\u000a
+p5174
+sg21
+Vd3 redeem indiv ht
+p5175
+sg23
+g24
+((I2014
+I9
+I7
+I15
+I29
+I54
+I6
+I250
+I1
+tp5176
+(dp5177
+tp5178
+Rp5179
+sg29
+(lp5180
+Vhalftrue
+p5181
+asg31
+g24
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp5182
+(dp5183
+tp5184
+Rp5185
+sbsa(dp5186
+g12
+I00
+sg13
+(lp5187
+F2670.0
+aF5190.0
+asg15
+(itiddlywiki
+Tiddler
+p5188
+(dp5189
+g19
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">If you're like everyone else, why do you think you have special rights to oppress others?</em>\u000a\u000a[[You're right. I don't.|d3 f repent 1 1 1]]\u000a\u000a[[Because I work for the government, which should inspire some respect|d3 ht talk ideals 1 1 1]]\u000a
+p5190
+sg21
+Vd3 redeem indiv f
+p5191
+sg23
+g24
+((I2014
+I9
+I7
+I15
+I29
+I59
+I6
+I250
+I1
+tp5192
+(dp5193
+tp5194
+Rp5195
+sg29
+(lp5196
+Vfalse
+p5197
+asg31
+g24
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp5198
+(dp5199
+tp5200
+Rp5201
+sbsa(dp5202
+g12
+I00
+sg13
+(lp5203
+F3090.0
+aF5050.0
+asg15
+(itiddlywiki
+Tiddler
+p5204
+(dp5205
+g19
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">It seems you've become a reasonable being, Inspector. You don't need to know when, what or where he's going to strike.\u000a\u000aHere's currently living at 598, East 7th Street. Apartment 2, I believe. You should go talk to him, I'm sure you'd be very interested.</em>\u000a\u000a[[I will.|day 3][$location = true]]
+p5206
+sg21
+Vd3 redeem save hewes
+p5207
+sg23
+g24
+((I2014
+I9
+I7
+I16
+I32
+I36
+I6
+I250
+I1
+tp5208
+(dp5209
+tp5210
+Rp5211
+sg29
+(lp5212
+Vdiatribe
+p5213
+asg31
+g24
+((I2014
+I9
+I4
+I13
+I56
+I22
+I3
+I247
+I1
+tp5214
+(dp5215
+tp5216
+Rp5217
 sbsasS'scale'
-p5102
+p5218
 F0.6000000000000001
 sS'snapping'
-p5103
+p5219
 I01
 ss.
