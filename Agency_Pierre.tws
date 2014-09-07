@@ -12537,7 +12537,7 @@ Tiddler
 p3805
 (dp3806
 g19
-VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect"></em>\u000a\u000a[[be nice|d3 false nice]]
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">What do you want me to tell you?</em>\u000a\u000a[[I'd like to know more about the exact time and place where these attacks would happen.|d3 false nice]]\u000a<<if $opinion >= 4>>\u000a[[Aynthing else that you think might be useful.|d3 false nice]]\u000a<<endif>>
 p3807
 sg21
 Vd3 false
@@ -12546,12 +12546,12 @@ sg23
 g24
 ((I2014
 I9
-I6
+I7
 I14
-I30
-I18
-I5
-I249
+I2
+I48
+I6
+I250
 I1
 tp3809
 (dp3810
@@ -13518,7 +13518,7 @@ tp4107
 Rp4108
 sbsa(dp4109
 g12
-I01
+I00
 sg13
 (lp4110
 F2250.0
@@ -13797,7 +13797,7 @@ Tiddler
 p4195
 (dp4196
 g19
-VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">Alright. They want to hit the CEO and the CIO, and they will do it, they will do it by... blowing up the elevator, there's a private elevator for the... council... board... board meeting room, and it needs maintenance and I think... the maintenance team... I think he knows the maintenance team.</em>\u000a\u000a[[This will suffice. It wasn't that hard.|d3 ht torture done]]\u000a\u000a[[You forgot to give me a precise time. (Apply physical encouragement)|d3 ht torture f]] /%if you do it even though you had promised not to torture, you'll break him and then you're fucked %/\u000a
+VSUSPECT 1247\u000a- - - -\u000a<<set $hFalseIntel_torture == true>>\u000a<em class = "suspect">Alright. They want to hit the CEO and the CIO, and they will do it, they will do it by... blowing up the elevator, there's a private elevator for the... council... board... board meeting room, and it needs maintenance and I think... the maintenance team... I think he knows the maintenance team.</em>\u000a\u000a[[This will suffice. It wasn't that hard.|d3 ht torture done]]\u000a\u000a[[You forgot to give me a precise time. (Apply physical encouragement)|d3 ht torture f]] /%if you do it even though you had promised not to torture, you'll break him and then you're fucked %/\u000a
 p4197
 sg21
 Vd3 ht torture notready 1 1 1
@@ -13807,8 +13807,8 @@ g24
 ((I2014
 I9
 I7
-I13
-I58
+I14
+I43
 I22
 I6
 I250
@@ -15163,7 +15163,7 @@ Tiddler
 p4618
 (dp4619
 g19
-VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">what, you are going to consider me as a human being, now?</em>\u000a\u000a[[can you help me find james hewes|d3 f repent 1]]\u000a\u000a[[what do you want?|d3 f repent 2]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">You're considering me as a human being, now?</em>\u000a\u000a[[Can you help me find James Hewes?|d3 f repent 1]]\u000a\u000a[[I've always considered you as such. And now I'm asking you: what do you want?|d3 f repent 2]]\u000a
 p4620
 sg21
 Vd3 f repent
@@ -15172,12 +15172,12 @@ sg23
 g24
 ((I2014
 I9
-I6
+I7
 I14
-I29
-I38
-I5
-I249
+I7
+I32
+I6
+I250
 I1
 tp4622
 (dp4623
@@ -15215,7 +15215,7 @@ Tiddler
 p4634
 (dp4635
 g19
-VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">i've already told you everything i know. he's down to fuck up the sports and shit</em>\u000a\u000a[[i need details|d3 f repent 1 1]]\u000a\u000a[[i don't believe that|d3 f repent 1 2]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">For the love of God. I've already told you everything I know. Think about the biggest, most mediated sports events. The one where they cram the most mindless entertainment and advertisement.</em>\u000a\u000a[[The League Finals? How could that be possible?|d3 f repent 1 1]]\u000a\u000a[[He won't. He'll be public enemy number one.|d3 f repent 1 2]]\u000a
 p4636
 sg21
 Vd3 f repent 1
@@ -15224,12 +15224,12 @@ sg23
 g24
 ((I2014
 I9
-I6
+I7
 I14
-I36
-I13
-I5
-I249
+I14
+I29
+I6
+I250
 I1
 tp4638
 (dp4639
@@ -15267,7 +15267,7 @@ Tiddler
 p4650
 (dp4651
 g19
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect"><<if $promise == false>>i want this and that and they are very obviously overblown demands<<else>>you've already promised me something, don't you remember?<<endif>></em>\u000a\u000a[[i could do that, i could make my boss understand|d3 f repent 2 1]]\u000a\u000a[[that's unrealistic.|d3 f repent 2 2]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I want to be freed the second we're done with this interview. I want to be granted Swiss citizenship, and I want to be erased from the records of any U.S. governmental agency.</em>\u000a\u000a[[I could do that, I could make my boss understand and hold that promise.|d3 f repent 2 1][set $promiseFalseIntel == true]]\u000a\u000a[[Either way, that's unrealistic.|d3 f repent 2 2]]\u000a\u000a\u000a
 p4652
 sg21
 Vd3 f repent 2
@@ -15276,12 +15276,12 @@ sg23
 g24
 ((I2014
 I9
-I6
+I7
 I14
-I34
-I42
-I5
-I249
+I12
+I36
+I6
+I250
 I1
 tp4654
 (dp4655
@@ -15319,7 +15319,7 @@ Tiddler
 p4666
 (dp4667
 g19
-VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">too bad cause imma be released in no time lady</em>\u000a\u000a[[you'll be released when i say it|d3 f repent 1 2 1]]\u000a\u000a[[nothing i can do about that|d3 f repent 1 2 1]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">Do you believe me or not?\u000a\u000aEither way, it's up to you, I'll be released in no time.</em>\u000a\u000a[[You'll be released when I'll give the order.|d3 f repent 1 2 1]]\u000a\u000a[[Nothing I can do about that. You'll be free to go.|d3 f repent 1 2 1]]\u000a
 p4668
 sg21
 Vd3 f repent 1 2
@@ -15328,12 +15328,12 @@ sg23
 g24
 ((I2014
 I9
-I6
+I7
 I14
-I37
 I15
-I5
-I249
+I59
+I6
+I250
 I1
 tp4670
 (dp4671
@@ -15371,7 +15371,7 @@ Tiddler
 p4682
 (dp4683
 g19
-VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">no, inspector. i was yours for 72 hours and i'm sure they're almost over. that's how it works.</em>\u000a\u000a[[you're right.|d3 f end]]\u000a\u000a[[no.|d3 ht aggressive]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">Exactly. I was yours for 72 hours and I'm sure they're almost over. That's how it works.</em>\u000a\u000a[[You're right. No need to continue.|d3 f end]]\u000a\u000a[[No.|d3 ht aggressive]]\u000a
 p4684
 sg21
 Vd3 f repent 1 2 1
@@ -15380,12 +15380,12 @@ sg23
 g24
 ((I2014
 I9
-I6
+I7
 I14
-I40
-I37
-I5
-I249
+I16
+I41
+I6
+I250
 I1
 tp4686
 (dp4687
@@ -15423,7 +15423,7 @@ Tiddler
 p4698
 (dp4699
 g19
-VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">i knew you wouldn't betray the system you're supporting. you'd be the root of all evil.</em>\u000a\u000a[[i have to go.|day 3]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">I knew you wouldn't betray the system you're supporting and hold me any longer. You'd be the root of all evil.</em>\u000a\u000a[[Goodbye. *log out*|day 3]]\u000a\u000a[[*log out*|day 3]]
 p4700
 sg21
 Vd3 f end
@@ -15432,12 +15432,12 @@ sg23
 g24
 ((I2014
 I9
-I6
+I7
 I14
-I41
-I33
-I5
-I249
+I18
+I16
+I6
+I250
 I1
 tp4702
 (dp4703
@@ -15475,7 +15475,7 @@ Tiddler
 p4714
 (dp4715
 g19
-VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">details about false (sports) attack</em>\u000a\u000a[[good. i need to process that intel|d3 f end]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">You guessed it. His intervention is to happen during this year's League Finals. First there will be a a communications interference, displaying a message explaining, in real terms, what the political situation of our country is.\u000a\u000aThen they are scheduled to do something to the officials that will be attending. The two Mayors will be there, at least, plus a couple other public servants, I would expect.</em>\u000a\u000a[[That's exactly what I needed, thank you. *log out*|day 3]]\u000a\u000a[[Perfect. *log out*|day 3]]\u000a\u000a[[*log out*|day 3]]
 p4716
 sg21
 Vd3 f repent 1 1
@@ -15484,12 +15484,12 @@ sg23
 g24
 ((I2014
 I9
-I6
+I7
 I14
-I42
-I55
-I5
-I249
+I34
+I14
+I6
+I250
 I1
 tp4718
 (dp4719
@@ -15497,7 +15497,7 @@ tp4720
 Rp4721
 sg29
 (lp4722
-Vnice
+Vadmit
 p4723
 asg31
 g24
@@ -15527,7 +15527,7 @@ Tiddler
 p4730
 (dp4731
 g19
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I'm counting on you.</em>\u000a\u000a[[give me details, then|d3 f repent 1 1]]\u000a\u000a[[gotta go.|day 3]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">I'm counting on you.</em>\u000a\u000a[[Give me details, then. I've been asking for quite too long.|d3 f repent 1 1]]\u000a\u000a[[A bargain needs two ends. Give me what I want.|d3 f repent 1 1]]\u000a
 p4732
 sg21
 Vd3 f repent 2 1
@@ -15536,12 +15536,12 @@ sg23
 g24
 ((I2014
 I9
-I6
+I7
 I14
-I44
-I33
-I5
-I249
+I19
+I26
+I6
+I250
 I1
 tp4734
 (dp4735
@@ -15579,7 +15579,7 @@ Tiddler
 p4746
 (dp4747
 g19
-VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">your loss.</em>\u000a\u000a[[give me more details|d3 f repent 1 1 1]]\u000a\u000a[[apply physical encouragement|d3 f torture]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a<em class = "suspect">Your loss.</em>\u000a\u000a[[That demand was irrelevant. Carry on regarding Hewes' plans.|d3 f repent 1 1 1]]\u000a\u000a[[No. Yours. (Apply physical encouragement)|d3 f torture]]\u000a
 p4748
 sg21
 Vd3 f repent 2 2
@@ -15588,12 +15588,12 @@ sg23
 g24
 ((I2014
 I9
-I6
+I7
 I14
-I45
-I30
-I5
-I249
+I26
+I8
+I6
+I250
 I1
 tp4750
 (dp4751
@@ -15620,7 +15620,7 @@ tp4758
 Rp4759
 sbsa(dp4760
 g12
-I00
+I01
 sg13
 (lp4761
 F2810.0
@@ -15631,7 +15631,7 @@ Tiddler
 p4762
 (dp4763
 g19
-VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">stupid ridiculous fake details that would actually hurt people if you follow them</em>\u000a\u000a[[that's better|d3 f end]]\u000a
+VSUSPECT 1247\u000a- - - -\u000a\u000a<em class = "suspect">Hewes wants to use the stadium as an occasion to let the people understand how futile all this is. He'll take over the half-show, and his security as he delivers his speech will be insured by the fact that some of his team will be holding the present officials hostages.\u000a\u000aI don't know if he plans to hurt them, though.</em>\u000a\u000a[[Thank you. *log out*|day 3]]\u000a\u000a[[Good. *log out*|day 3]]\u000a
 p4764
 sg21
 Vd3 f repent 1 1 1
@@ -15640,12 +15640,12 @@ sg23
 g24
 ((I2014
 I9
-I6
+I7
 I14
-I47
-I42
-I5
-I249
+I45
+I44
+I6
+I250
 I1
 tp4766
 (dp4767
